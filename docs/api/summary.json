@@ -5,11 +5,11 @@
     "courses": 202,
     "fields": 156,
     "rounds": 56516,
-    "strokes_gained": 376318,
+    "strokes_gained": 377016,
     "weather_snapshots": 4808,
     "odds_snapshots": 2651,
     "model_predictions": 5616,
-    "source_fetches": 1506
+    "source_fetches": 1546
   },
   "selectedEvent": {
     "event_id": "2026-u-s-open-401811952",
@@ -20,11 +20,11 @@
     "status": "In Progress"
   },
   "latestFetch": {
-    "provider": "Golf Lab Owned Model",
-    "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
-    "fetched_at": "2026-06-21T02:14:08.023Z",
+    "provider": "PGA TOUR public stats",
+    "endpoint": "/stats/detail/02675?year=2023",
+    "fetched_at": "2026-06-21T15:22:17+00:00",
     "status": "ok",
-    "row_count": 624
+    "row_count": 193
   },
   "readiness": "model-ready"
 }

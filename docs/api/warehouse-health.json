@@ -6,11 +6,11 @@
       "courses": 202,
       "fields": 156,
       "rounds": 56516,
-      "strokes_gained": 376318,
+      "strokes_gained": 377016,
       "weather_snapshots": 4808,
       "odds_snapshots": 2651,
       "model_predictions": 5616,
-      "source_fetches": 1506
+      "source_fetches": 1546
     },
     "selectedEvent": {
       "event_id": "2026-u-s-open-401811952",
@@ -21,154 +21,154 @@
       "status": "In Progress"
     },
     "latestFetch": {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
-      "fetched_at": "2026-06-21T02:14:08.023Z",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02675?year=2023",
+      "fetched_at": "2026-06-21T15:22:17+00:00",
       "status": "ok",
-      "row_count": 624
+      "row_count": 193
     },
     "readiness": "model-ready"
   },
   "sources": [
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02675?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-21T02:14:08.023Z",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "The Odds API",
-      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02674?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-21T02:14:06.655Z",
-      "row_count": 259
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "ESPN public scoreboard",
-      "endpoint": "espn-scoreboard/401811952",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02567?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-21T02:13:39.586Z",
-      "row_count": 156
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1935000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02568?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T19:35:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1845000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02569?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T18:45:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1410000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02564?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T14:10:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1350000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/101?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T13:50:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1310000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/102?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T13:10:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1250000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/103?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T12:50:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "ESPN public scoreboard",
-      "endpoint": "espn-scoreboard/401811952",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/130?year=2023",
       "status": "ok",
-      "fetched_at": "2026-06-20T12:40:00-04:00",
-      "row_count": 156
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 193
     },
     {
-      "provider": "NOAA/NWS hourly forecast",
-      "endpoint": "weather-gov-hourly/OKX/85,59",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02675?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T12:40:00-04:00",
-      "row_count": 36
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "The Odds API",
-      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02674?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T12:40:00-04:00",
-      "row_count": 254
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t0830000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02567?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:30:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "The Odds API",
-      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02568?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:25:00-04:00",
-      "row_count": 336
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "Golf Lab Owned Model",
-      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t0810000400",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02569?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:10:00-04:00",
-      "row_count": 624
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "ESPN public scoreboard",
-      "endpoint": "espn-scoreboard/401811952",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/02564?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:00:00-04:00",
-      "row_count": 156
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "NOAA/NWS hourly forecast",
-      "endpoint": "weather-gov-hourly/OKX/85,59",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/101?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:00:00-04:00",
-      "row_count": 48
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "VegasInsider public odds",
-      "endpoint": "vegasinsider-golf-futures/2026-u-s-open-401811952/winner",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/102?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-20T08:00:00-04:00",
-      "row_count": 901
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "VegasInsider public odds",
-      "endpoint": "vegasinsider-golf-futures/2026-u-s-open-401811952/winner",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/103?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-19T20:30:00-04:00",
-      "row_count": 901
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     },
     {
-      "provider": "Open-Meteo historical weather",
-      "endpoint": "open-meteo-archive/2012-frys-com-open-1031",
+      "provider": "PGA TOUR public stats",
+      "endpoint": "/stats/detail/130?year=2024",
       "status": "ok",
-      "fetched_at": "2026-06-19T19:45:00-04:00",
-      "row_count": 8
+      "fetched_at": "2026-06-21T15:22:17+00:00",
+      "row_count": 184
     }
   ],
   "blockers": [],

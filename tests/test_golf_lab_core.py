@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -7,6 +8,7 @@ from pathlib import Path
 from app_common import connect
 from golf_lab_analytics import course_cards, database_summary, model_board, player_card, player_cards, player_filter_profiles, warehouse_health
 from golf_lab_import import seed_starter
+from pga_tour_stats_backfill import extract_stat_details, normalize_player_name, numeric_stat_value
 
 
 class GolfLabCoreTests(unittest.TestCase):
@@ -55,6 +57,65 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertGreater(len(payload["rows"]), 0)
         self.assertIn("scoring_average", payload["rows"][0])
         self.assertIn("avg_sg_total", payload["rows"][0])
+
+    def test_player_filter_profiles_include_stat_only_seasons(self) -> None:
+        with connect(self.db) as conn:
+            conn.execute(
+                """
+                insert into players (player_id, player_name, tour)
+                values ('stat-only-player', 'Stat Only Player', 'PGA')
+                """
+            )
+            conn.execute(
+                """
+                insert into strokes_gained (
+                  sg_id, player_id, period, sg_total, driving_distance, gir,
+                  source_provider, source_url, source_updated_at
+                )
+                values (
+                  'stat-only-player-season-2025', 'stat-only-player', 'season-2025',
+                  1.25, 311.4, 0.702, 'test', 'test', '2026-06-21T00:00:00Z'
+                )
+                """
+            )
+            conn.commit()
+
+        with connect(self.db, readonly=True) as conn:
+            payload = player_filter_profiles(conn)
+        profile = next(row for row in payload["rows"] if row["player_id"] == "stat-only-player")
+        self.assertEqual(profile["season"], 2025)
+        self.assertEqual(profile["rounds"], 0)
+        self.assertEqual(profile["driving_distance"], 311.4)
+        self.assertEqual(profile["gir"], 0.702)
+
+    def test_pga_tour_stat_parser_handles_season_tables(self) -> None:
+        next_data = {
+            "props": {
+                "pageProps": {
+                    "dehydratedState": {
+                        "queries": [
+                            {
+                                "queryKey": ["statDetails", {"tourCode": "R", "statId": "103", "year": 2025, "eventQuery": None}],
+                                "state": {
+                                    "data": {
+                                        "__typename": "StatDetails",
+                                        "statId": "103",
+                                        "year": 2025,
+                                        "statTitle": "Greens in Regulation Percentage",
+                                        "rows": [{"playerName": "Ludvig Åberg", "stats": [{"statName": "%", "statValue": "70.12%"}]}],
+                                    }
+                                },
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+        html = f'<script id="__NEXT_DATA__" type="application/json">{json.dumps(next_data)}</script>'
+        details = extract_stat_details(html, "103", 2025)
+        self.assertEqual(details["statTitle"], "Greens in Regulation Percentage")
+        self.assertEqual(normalize_player_name("Ludvig Åberg"), "ludvig aberg")
+        self.assertEqual(numeric_stat_value("70.12%", percent=True), 0.7012)
 
 
 if __name__ == "__main__":

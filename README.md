@@ -33,11 +33,18 @@ To build from the local public PGA warehouse created during research:
 
 ```powershell
 python golf_lab_import.py --from-warehouse "..\Golf Stats Tracker\data\golf-lab\pga-public-history-2002-2026" --rounds-per-player 40
+python pga_tour_stats_backfill.py --years 2023-2026
 python app.py --port 8787
 ```
 
 By default the warehouse import loads the full available player universe. Use
 `--event-field-only` only for a tiny development build.
+
+`pga_tour_stats_backfill.py` enriches recent seasons from public PGA TOUR stat
+tables: SG Total, tee-to-green, off-the-tee, approach, around-the-green,
+putting, driving distance, driving accuracy, GIR, and scrambling. The pages are
+cached under `data/raw/pgatour/`, and the player-season rows flow into the same
+player filters and scorecard cards as the rest of the app.
 
 The generated SQLite database lives at `data/golf_lab.db` and is ignored by git.
 

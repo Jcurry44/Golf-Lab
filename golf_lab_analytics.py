@@ -278,14 +278,35 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
     seasons = rows_to_dicts(
         conn.execute(
             """
-            select e.season,
-                   count(r.round_id) as rounds,
-                   count(distinct r.player_id) as players
-            from rounds r
-            join events e on e.event_id = r.event_id
-            where e.season is not null
-            group by e.season
-            order by e.season desc
+            with round_counts as (
+              select e.season,
+                     count(r.round_id) as rounds
+              from rounds r
+              join events e on e.event_id = r.event_id
+              where e.season is not null
+              group by e.season
+            ),
+            season_players as (
+              select e.season,
+                     r.player_id
+              from rounds r
+              join events e on e.event_id = r.event_id
+              where e.season is not null
+              union
+              select cast(substr(period, 8) as integer) as season,
+                     player_id
+              from strokes_gained
+              where round_id is null
+                and period like 'season-%'
+            )
+            select sp.season,
+                   coalesce(rc.rounds, 0) as rounds,
+                   count(distinct sp.player_id) as players
+            from season_players sp
+            left join round_counts rc on rc.season = sp.season
+            where sp.season is not null
+            group by sp.season, rc.rounds
+            order by sp.season desc
             """
         ).fetchall()
     )
@@ -327,11 +348,16 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
               from strokes_gained
               where round_id is null
                 and period like 'season-%'
+            ),
+            player_seasons as (
+              select player_id, season from round_profile
+              union
+              select player_id, season from season_skill
             )
             select p.player_id,
                    p.player_name,
-                   rp.season,
-                   rp.rounds,
+                   ps.season,
+                   coalesce(rp.rounds, 0) as rounds,
                    rp.scoring_average,
                    rp.avg_to_par,
                    coalesce(ss.season_sg_total, rp.avg_sg_total) as avg_sg_total,
@@ -345,12 +371,15 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
                    ss.gir,
                    ss.scrambling,
                    rp.last_round
-            from round_profile rp
-            join players p on p.player_id = rp.player_id
+            from player_seasons ps
+            join players p on p.player_id = ps.player_id
+            left join round_profile rp
+              on rp.player_id = ps.player_id
+             and rp.season = ps.season
             left join season_skill ss
-              on ss.player_id = rp.player_id
-             and ss.season = rp.season
-            order by rp.season desc,
+              on ss.player_id = ps.player_id
+             and ss.season = ps.season
+            order by ps.season desc,
                      coalesce(ss.season_sg_total, rp.avg_sg_total, -999) desc,
                      p.player_name
             """
