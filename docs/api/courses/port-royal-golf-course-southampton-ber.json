@@ -1,0 +1,148 @@
+{
+  "course": {
+    "course_id": "port-royal-golf-course-southampton-ber",
+    "course_name": "Port Royal Golf Course",
+    "location": "Southampton, BER",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 18,
+    "avg_to_par": -0.22,
+    "avg_sg_total": 0.45,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "zac-blair",
+        "player_name": "Zac Blair",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.4
+      },
+      {
+        "player_id": "niklas-n-rgaard",
+        "player_name": "Niklas Nørgaard",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "harry-higgs",
+        "player_name": "Harry Higgs",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "ben-kohles",
+        "player_name": "Ben Kohles",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.1
+      },
+      {
+        "player_id": "miles-russell",
+        "player_name": "Miles Russell",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.61
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Butterfield Bermuda Championship",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Butterfield Bermuda Championship",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Butterfield Bermuda Championship",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Butterfield Bermuda Championship",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Butterfield Bermuda Championship",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Bermuda Championship",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Bermuda Championship",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

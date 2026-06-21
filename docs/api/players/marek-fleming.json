@@ -1,0 +1,108 @@
+{
+  "player": {
+    "player_id": "marek-fleming",
+    "player_name": "Marek Fleming",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 4,
+    "avg_to_par": 2.67,
+    "avg_sg_total": 0.38,
+    "first_round": "2026-06-18",
+    "last_round": "2026-06-21"
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-21",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 4,
+        "score": null,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.375,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.67,
+        "avg_sg": 0.38
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 83,
+    "probability": 0.66032027316605,
+    "fair_odds_american": -194,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "thin sample",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.38 strokes gained. Win probability sits at 66.0%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.38,
+    "avg_to_par": 2.67
+  }
+}

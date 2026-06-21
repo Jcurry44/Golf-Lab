@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "dunes-golf-and-beach-club-myrtle-beach-sc",
+    "course_name": "Dunes Golf and Beach Club",
+    "location": "Myrtle Beach, SC, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 50,
+    "avg_to_par": -1.8,
+    "avg_sg_total": 0.85,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "aaron-rai",
+        "player_name": "Aaron Rai",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.67
+      },
+      {
+        "player_id": "tom-kim",
+        "player_name": "Tom Kim",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.42
+      },
+      {
+        "player_id": "niklas-n-rgaard",
+        "player_name": "Niklas Nørgaard",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "jackson-suber",
+        "player_name": "Jackson Suber",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.17
+      },
+      {
+        "player_id": "adrien-dumont-de-chassart",
+        "player_name": "Adrien Dumont de Chassart",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "ben-kohles",
+        "player_name": "Ben Kohles",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "john-parry",
+        "player_name": "John Parry",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "johnny-keefer",
+        "player_name": "Johnny Keefer",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "max-greyserman",
+        "player_name": "Max Greyserman",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "billy-horschel",
+        "player_name": "Billy Horschel",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "zac-blair",
+        "player_name": "Zac Blair",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.33
+      },
+      {
+        "player_id": "emiliano-grillo",
+        "player_name": "Emiliano Grillo",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.76
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Myrtle Beach Classic",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

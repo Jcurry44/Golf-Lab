@@ -1,0 +1,187 @@
+{
+  "course": {
+    "course_id": "tpc-craig-ranch-mckinney-tx",
+    "course_name": "TPC Craig Ranch",
+    "location": "McKinney, TX, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 80,
+    "avg_to_par": -3.74,
+    "avg_sg_total": 1.3,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "wyndham-clark",
+        "player_name": "Wyndham Clark",
+        "rounds": 4,
+        "avg_to_par": -7.5,
+        "avg_sg": 5.05
+      },
+      {
+        "player_id": "si-woo-kim",
+        "player_name": "Si Woo Kim",
+        "rounds": 4,
+        "avg_to_par": -6.75,
+        "avg_sg": 4.3
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -6.25,
+        "avg_sg": 3.8
+      },
+      {
+        "player_id": "jackson-suber",
+        "player_name": "Jackson Suber",
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 3.3
+      },
+      {
+        "player_id": "keith-mitchell",
+        "player_name": "Keith Mitchell",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.05
+      },
+      {
+        "player_id": "johnny-keefer",
+        "player_name": "Johnny Keefer",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "max-greyserman",
+        "player_name": "Max Greyserman",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "sungjae-im",
+        "player_name": "Sungjae Im",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "jordan-spieth",
+        "player_name": "Jordan Spieth",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "pierceson-coody",
+        "player_name": "Pierceson Coody",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "ryo-hisatsune",
+        "player_name": "Ryo Hisatsune",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "emiliano-grillo",
+        "player_name": "Emiliano Grillo",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.8
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "THE CJ CUP Byron Nelson",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE CJ CUP Byron Nelson",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE CJ CUP Byron Nelson",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T Byron Nelson",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T Byron Nelson",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T Byron Nelson",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

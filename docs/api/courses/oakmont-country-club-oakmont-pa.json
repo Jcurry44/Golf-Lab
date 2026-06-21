@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "oakmont-country-club-oakmont-pa",
+    "course_name": "Oakmont Country Club",
+    "location": "Oakmont, Pennsylvania",
+    "country": "",
+    "par": 70,
+    "yards": 7230,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 34,
+    "avg_to_par": 3.26,
+    "avg_sg_total": 0.92,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 3.07
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 2.82
+      },
+      {
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "niklas-n-rgaard",
+        "player_name": "Niklas Nørgaard",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 0.57
+      },
+      {
+        "player_id": "laurie-canter",
+        "player_name": "Laurie Canter",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.07
+      },
+      {
+        "player_id": "ben-james",
+        "player_name": "Ben James",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "jackson-koivun",
+        "player_name": "Jackson Koivun",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "matthew-jordan",
+        "player_name": "Matthew Jordan",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -2.29
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Open Championship",
+        "season": 2007,
+        "par": 70,
+        "yards": 7230,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

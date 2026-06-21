@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "tpc-sawgrass-the-players-stadium-course-ponte-vedra-beach-fl",
+    "course_name": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+    "location": "Ponte Vedra Beach, FL, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 162,
+    "avg_to_par": -0.2,
+    "avg_sg_total": 0.64,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.66
+      },
+      {
+        "player_id": "matt-fitzpatrick",
+        "player_name": "Matt Fitzpatrick",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.41
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.16
+      },
+      {
+        "player_id": "ludvig-berg",
+        "player_name": "Ludvig Åberg",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.66
+      },
+      {
+        "player_id": "sudarshan-yellamaraju",
+        "player_name": "Sudarshan Yellamaraju",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.66
+      },
+      {
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.41
+      },
+      {
+        "player_id": "tommy-fleetwood",
+        "player_name": "Tommy Fleetwood",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.41
+      },
+      {
+        "player_id": "brian-harman",
+        "player_name": "Brian Harman",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.16
+      },
+      {
+        "player_id": "akshay-bhatia",
+        "player_name": "Akshay Bhatia",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.91
+      },
+      {
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.91
+      },
+      {
+        "player_id": "justin-rose",
+        "player_name": "Justin Rose",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.91
+      },
+      {
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.91
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "The Players Championship",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE PLAYERS Championship",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

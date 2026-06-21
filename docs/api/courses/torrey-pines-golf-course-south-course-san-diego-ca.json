@@ -1,0 +1,178 @@
+{
+  "course": {
+    "course_id": "torrey-pines-golf-course-south-course-san-diego-ca",
+    "course_name": "Torrey Pines Golf Course - South Course",
+    "location": "San Diego, California",
+    "country": "",
+    "par": 71,
+    "yards": 7643,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 14,
+    "avg_to_par": 0.21,
+    "avg_sg_total": -0.54,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "justin-rose",
+        "player_name": "Justin Rose",
+        "rounds": 2,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.18
+      },
+      {
+        "player_id": "william-mouw",
+        "player_name": "William Mouw",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.1
+      },
+      {
+        "player_id": "jackson-suber",
+        "player_name": "Jackson Suber",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.46
+      },
+      {
+        "player_id": "jackson-koivun",
+        "player_name": "Jackson Koivun",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.16
+      },
+      {
+        "player_id": "adrien-dumont-de-chassart",
+        "player_name": "Adrien Dumont de Chassart",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.6
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "The Genesis Invitational",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Farmers Insurance Open",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

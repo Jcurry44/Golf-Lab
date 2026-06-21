@@ -1,0 +1,70 @@
+{
+  "course": {
+    "course_id": "southern-hills-cc-tulsa-ok",
+    "course_name": "Southern Hills Country Club",
+    "location": "Tulsa, Oklahoma",
+    "country": "",
+    "par": 70,
+    "yards": 7131,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 4,
+    "avg_to_par": 1.5,
+    "avg_sg_total": 0.83,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "laurie-canter",
+        "player_name": "Laurie Canter",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.83
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2007,
+        "par": 70,
+        "yards": 7131,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

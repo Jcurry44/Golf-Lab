@@ -1,0 +1,101 @@
+{
+  "course": {
+    "course_id": "el-cardonal-at-diamante-los-cabos-mex",
+    "course_name": "El Cardonal at Diamante",
+    "location": "Los Cabos, MEX",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 12,
+    "avg_to_par": -1.67,
+    "avg_sg_total": -1.4,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "zac-blair",
+        "player_name": "Zac Blair",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": -0.43
+      },
+      {
+        "player_id": "ben-kohles",
+        "player_name": "Ben Kohles",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": -0.93
+      },
+      {
+        "player_id": "niklas-n-rgaard",
+        "player_name": "Niklas Nørgaard",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -2.33
+      },
+      {
+        "player_id": "harry-higgs",
+        "player_name": "Harry Higgs",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -3.33
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "World Wide Technology Championship",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Wide Technology Championship",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Wide Technology Championship",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

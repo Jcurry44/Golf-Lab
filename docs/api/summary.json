@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "players": 80,
+    "events": 992,
+    "courses": 202,
+    "fields": 80,
+    "rounds": 2958,
+    "strokes_gained": 8453,
+    "weather_snapshots": 666,
+    "odds_snapshots": 1593,
+    "model_predictions": 2880,
+    "source_fetches": 169
+  },
+  "selectedEvent": {
+    "event_id": "2026-u-s-open-401811952",
+    "event_name": "U.S. Open",
+    "start_date": "2026-06-18",
+    "end_date": "2026-06-21",
+    "course_name": "Shinnecock Hills Golf Club",
+    "status": "In Progress"
+  },
+  "latestFetch": {
+    "provider": "Golf Lab Owned Model",
+    "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
+    "fetched_at": "2026-06-21T02:14:08.023Z",
+    "status": "ok",
+    "row_count": 624
+  },
+  "readiness": "model-ready"
+}

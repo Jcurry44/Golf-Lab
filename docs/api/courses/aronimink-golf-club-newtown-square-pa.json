@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "aronimink-golf-club-newtown-square-pa",
+    "course_name": "Aronimink Golf Club",
+    "location": "Newtown Square, Pennsylvania",
+    "country": "",
+    "par": 70,
+    "yards": 7237,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 214,
+    "avg_to_par": 0.64,
+    "avg_sg_total": 0.9,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "aaron-rai",
+        "player_name": "Aaron Rai",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 3.62
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.87
+      },
+      {
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "ludvig-berg",
+        "player_name": "Ludvig Åberg",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "chris-gotterup",
+        "player_name": "Chris Gotterup",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.12
+      },
+      {
+        "player_id": "justin-rose",
+        "player_name": "Justin Rose",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.12
+      },
+      {
+        "player_id": "kurt-kitayama",
+        "player_name": "Kurt Kitayama",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.12
+      },
+      {
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.12
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.87
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2011,
+        "par": 70,
+        "yards": 7237,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2010,
+        "par": 70,
+        "yards": 7237,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

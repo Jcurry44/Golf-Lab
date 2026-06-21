@@ -1,0 +1,123 @@
+{
+  "course": {
+    "course_id": "royal-portrush-golf-club-dunluce-links-portrush-northern-ireland",
+    "course_name": "Royal Portrush Golf Club - Dunluce Links",
+    "location": "Portrush, County Antrim, Northern Ireland",
+    "country": "",
+    "par": 71,
+    "yards": 7381,
+    "architect": "",
+    "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 30,
+    "avg_to_par": -0.03,
+    "avg_sg_total": 0.49,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "matthew-jordan",
+        "player_name": "Matthew Jordan",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.33
+      },
+      {
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.22
+      },
+      {
+        "player_id": "niklas-n-rgaard",
+        "player_name": "Niklas Nørgaard",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.78
+      },
+      {
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.28
+      },
+      {
+        "player_id": "laurie-canter",
+        "player_name": "Laurie Canter",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.78
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.78
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open",
+        "season": 2025,
+        "par": 71,
+        "yards": 7381,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

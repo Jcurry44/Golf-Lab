@@ -1,0 +1,176 @@
+{
+  "summary": {
+    "counts": {
+      "players": 80,
+      "events": 992,
+      "courses": 202,
+      "fields": 80,
+      "rounds": 2958,
+      "strokes_gained": 8453,
+      "weather_snapshots": 666,
+      "odds_snapshots": 1593,
+      "model_predictions": 2880,
+      "source_fetches": 169
+    },
+    "selectedEvent": {
+      "event_id": "2026-u-s-open-401811952",
+      "event_name": "U.S. Open",
+      "start_date": "2026-06-18",
+      "end_date": "2026-06-21",
+      "course_name": "Shinnecock Hills Golf Club",
+      "status": "In Progress"
+    },
+    "latestFetch": {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
+      "fetched_at": "2026-06-21T02:14:08.023Z",
+      "status": "ok",
+      "row_count": 624
+    },
+    "readiness": "model-ready"
+  },
+  "sources": [
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260621t021408023z",
+      "status": "ok",
+      "fetched_at": "2026-06-21T02:14:08.023Z",
+      "row_count": 624
+    },
+    {
+      "provider": "The Odds API",
+      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "status": "ok",
+      "fetched_at": "2026-06-21T02:14:06.655Z",
+      "row_count": 259
+    },
+    {
+      "provider": "ESPN public scoreboard",
+      "endpoint": "espn-scoreboard/401811952",
+      "status": "ok",
+      "fetched_at": "2026-06-21T02:13:39.586Z",
+      "row_count": 156
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1935000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T19:35:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1845000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T18:45:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1410000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T14:10:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1350000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T13:50:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1310000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T13:10:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t1250000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T12:50:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "ESPN public scoreboard",
+      "endpoint": "espn-scoreboard/401811952",
+      "status": "ok",
+      "fetched_at": "2026-06-20T12:40:00-04:00",
+      "row_count": 156
+    },
+    {
+      "provider": "NOAA/NWS hourly forecast",
+      "endpoint": "weather-gov-hourly/OKX/85,59",
+      "status": "ok",
+      "fetched_at": "2026-06-20T12:40:00-04:00",
+      "row_count": 36
+    },
+    {
+      "provider": "The Odds API",
+      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "status": "ok",
+      "fetched_at": "2026-06-20T12:40:00-04:00",
+      "row_count": 254
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t0830000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:30:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "The Odds API",
+      "endpoint": "the-odds-api/golf_us_open_winner/winner",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:25:00-04:00",
+      "row_count": 336
+    },
+    {
+      "provider": "Golf Lab Owned Model",
+      "endpoint": "owned-model/owned-v0.4/2026-u-s-open-401811952/major-test/baseline/model-run-2026-u-s-open-401811952-major-test-baseline-20260620t0810000400",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:10:00-04:00",
+      "row_count": 624
+    },
+    {
+      "provider": "ESPN public scoreboard",
+      "endpoint": "espn-scoreboard/401811952",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:00:00-04:00",
+      "row_count": 156
+    },
+    {
+      "provider": "NOAA/NWS hourly forecast",
+      "endpoint": "weather-gov-hourly/OKX/85,59",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:00:00-04:00",
+      "row_count": 48
+    },
+    {
+      "provider": "VegasInsider public odds",
+      "endpoint": "vegasinsider-golf-futures/2026-u-s-open-401811952/winner",
+      "status": "ok",
+      "fetched_at": "2026-06-20T08:00:00-04:00",
+      "row_count": 901
+    },
+    {
+      "provider": "VegasInsider public odds",
+      "endpoint": "vegasinsider-golf-futures/2026-u-s-open-401811952/winner",
+      "status": "ok",
+      "fetched_at": "2026-06-19T20:30:00-04:00",
+      "row_count": 901
+    },
+    {
+      "provider": "Open-Meteo historical weather",
+      "endpoint": "open-meteo-archive/2024-u-s-open-401580355",
+      "status": "ok",
+      "fetched_at": "2026-06-19T19:45:00-04:00",
+      "row_count": 8
+    }
+  ],
+  "blockers": [],
+  "grade": "premium-ready"
+}

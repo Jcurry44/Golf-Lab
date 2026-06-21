@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Golf Lab</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="rail">
+        <div class="brand">
+          <div class="brand-mark">GL</div>
+          <div>
+            <p>Golf Lab</p>
+            <strong>Pro Intelligence</strong>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Golf Lab views">
+          <button class="active" type="button" data-view="overview">Overview</button>
+          <button type="button" data-view="players">Player Cards</button>
+          <button type="button" data-view="courses">Course Lab</button>
+          <button type="button" data-view="model">Model Board</button>
+          <button type="button" data-view="data">Data Room</button>
+        </nav>
+        <div class="rail-proof" id="railProof">Connecting to warehouse...</div>
+      </aside>
+
+      <main>
+        <section class="topbar">
+          <div>
+            <p class="eyebrow">Blue Line architecture</p>
+            <h1>Professional golf intelligence, database-first.</h1>
+          </div>
+          <div class="status-pill" id="statusPill">Loading</div>
+        </section>
+
+        <section class="hero-grid" data-panel="overview">
+          <article class="event-card" id="eventCard"></article>
+          <article class="course-visual" aria-label="Course pressure visual">
+            <div class="hole-map">
+              <span class="tee"></span>
+              <span class="fairway"></span>
+              <span class="green"></span>
+              <span class="pin"></span>
+            </div>
+            <div>
+              <p class="eyebrow">Setup Signal</p>
+              <h2 id="setupSignal">Waiting for event data</h2>
+              <p id="setupCopy">The app now reads the pro warehouse through API endpoints instead of a browser import.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="metric-grid" id="metricGrid" data-panel="overview"></section>
+
+        <section class="workspace">
+          <article class="panel wide" data-panel="overview model">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Projected standings</p>
+                <h2>Model Board</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="model">Open board</button>
+            </div>
+            <div id="modelBoard" class="model-board"></div>
+          </article>
+
+          <article class="panel wide" data-panel="players overview">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Player scorecards</p>
+                <h2>Field Intelligence</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="players">All players</button>
+            </div>
+            <div id="playerCards" class="player-grid"></div>
+          </article>
+
+          <article class="panel wide" data-panel="courses overview">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Course difficulty</p>
+                <h2>Course Lab</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="courses">Course view</button>
+            </div>
+            <div id="courseCards" class="course-grid"></div>
+          </article>
+
+          <article class="panel wide" data-panel="data">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Trust layer</p>
+                <h2>Warehouse Health</h2>
+              </div>
+            </div>
+            <div id="warehouseHealth" class="data-room"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <div class="detail-drawer" id="detailDrawer" hidden>
+      <button class="drawer-backdrop" type="button" id="drawerBackdrop" aria-label="Close"></button>
+      <article class="drawer-panel">
+        <button class="drawer-close" type="button" id="drawerClose">Close</button>
+        <div id="drawerBody"></div>
+      </article>
+    </div>
+  </body>
+</html>
+

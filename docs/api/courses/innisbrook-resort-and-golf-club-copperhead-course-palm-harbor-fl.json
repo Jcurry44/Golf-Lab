@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "innisbrook-resort-and-golf-club-copperhead-course-palm-harbor-fl",
+    "course_name": "Innisbrook Resort and Golf Club - Copperhead Course",
+    "location": "Palm Harbor, FL, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 104,
+    "avg_to_par": -0.12,
+    "avg_sg_total": 0.5,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "matt-fitzpatrick",
+        "player_name": "Matt Fitzpatrick",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.05
+      },
+      {
+        "player_id": "sungjae-im",
+        "player_name": "Sungjae Im",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "emiliano-grillo",
+        "player_name": "Emiliano Grillo",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "patrick-cantlay",
+        "player_name": "Patrick Cantlay",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "jordan-spieth",
+        "player_name": "Jordan Spieth",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.8
+      },
+      {
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.55
+      },
+      {
+        "player_id": "gary-woodland",
+        "player_name": "Gary Woodland",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.55
+      },
+      {
+        "player_id": "tom-kim",
+        "player_name": "Tom Kim",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "adrien-dumont-de-chassart",
+        "player_name": "Adrien Dumont de Chassart",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.05
+      },
+      {
+        "player_id": "andrew-putnam",
+        "player_name": "Andrew Putnam",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.8
+      },
+      {
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.8
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Valspar Championship",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

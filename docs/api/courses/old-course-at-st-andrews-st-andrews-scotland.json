@@ -1,0 +1,94 @@
+{
+  "course": {
+    "course_id": "old-course-at-st-andrews-st-andrews-scotland",
+    "course_name": "Old Course at St Andrews",
+    "location": "St Andrews, Scotland",
+    "country": "",
+    "par": 72,
+    "yards": 7305,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 10,
+    "avg_to_par": -0.1,
+    "avg_sg_total": -0.37,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "filippo-celli",
+        "player_name": "Filippo Celli",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.61
+      },
+      {
+        "player_id": "laurie-canter",
+        "player_name": "Laurie Canter",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.14
+      },
+      {
+        "player_id": "matthew-jordan",
+        "player_name": "Matthew Jordan",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.79
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open",
+        "season": 2022,
+        "par": 72,
+        "yards": 7297,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "The Open Championship",
+        "season": 2010,
+        "par": 72,
+        "yards": 7305,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "British Open Championship",
+        "season": 2005,
+        "par": 72,
+        "yards": 7279,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

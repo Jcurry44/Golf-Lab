@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "harbour-town-golf-links-hilton-head-island-sc",
+    "course_name": "Harbour Town Golf Links",
+    "location": "Hilton Head Island, SC, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 180,
+    "avg_to_par": -1.98,
+    "avg_sg_total": 0.53,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "matt-fitzpatrick",
+        "player_name": "Matt Fitzpatrick",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.04
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.04
+      },
+      {
+        "player_id": "si-woo-kim",
+        "player_name": "Si Woo Kim",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.54
+      },
+      {
+        "player_id": "collin-morikawa",
+        "player_name": "Collin Morikawa",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "harris-english",
+        "player_name": "Harris English",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "ludvig-berg",
+        "player_name": "Ludvig Åberg",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "bud-cauley",
+        "player_name": "Bud Cauley",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "gary-woodland",
+        "player_name": "Gary Woodland",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "kurt-kitayama",
+        "player_name": "Kurt Kitayama",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "patrick-cantlay",
+        "player_name": "Patrick Cantlay",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "rickie-fowler",
+        "player_name": "Rickie Fowler",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "keegan-bradley",
+        "player_name": "Keegan Bradley",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.04
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "RBC Heritage",
+        "season": 2026,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Heritage",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

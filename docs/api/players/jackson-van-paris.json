@@ -1,0 +1,208 @@
+{
+  "player": {
+    "player_id": "jackson-van-paris",
+    "player_name": "Jackson Van Paris",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 12,
+    "avg_to_par": -0.82,
+    "avg_sg_total": 0.96,
+    "first_round": "2024-03-07",
+    "last_round": "2026-06-21"
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-21",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 4,
+        "score": null,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.375,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 3.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.488,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 4.047,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.221,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-11",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.063,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-10",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 64,
+        "to_par": -8.0,
+        "sg_total": 6.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-09",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.625,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.348,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.77
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.57
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.67,
+        "avg_sg": 0.38
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 71,
+    "probability": 0.6890078588588522,
+    "fair_odds_american": -222,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "medium",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.96 strokes gained. Win probability sits at 68.9%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.96,
+    "avg_to_par": -0.82
+  }
+}

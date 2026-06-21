@@ -1,0 +1,358 @@
+{
+  "player": {
+    "player_id": "tyrrell-hatton",
+    "player_name": "Tyrrell Hatton",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 40,
+    "avg_to_par": 0.26,
+    "avg_sg_total": 1.35,
+    "first_round": "2024-04-11",
+    "last_round": "2026-06-21"
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-21",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 4,
+        "score": null,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.625,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 4.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-15",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-14",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.263,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-12",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 6.093,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.37,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 6.846,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-09",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": 0.648,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-20",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.114,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-19",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 1.971,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.41,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 5.038,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-15",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.212,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-14",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 4.672,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-13",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 4.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-12",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 1.635,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-18",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -4.851,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-17",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.514,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-16",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.581,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-15",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 4.756,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-13",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.075,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-12",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.623,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.83
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 12,
+        "avg_to_par": -1.08,
+        "avg_sg": 2.1
+      },
+      {
+        "course": "Valhalla Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.03
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 3.07
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.33,
+        "avg_sg": 1.72
+      },
+      {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.28
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 27,
+    "probability": 0.794572575267111,
+    "fair_odds_american": -387,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "high",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.35 strokes-gained baseline. Win probability sits at 79.5%.",
+    "risk_flags": "",
+    "avg_sg_total": 1.35,
+    "avg_to_par": 0.26
+  }
+}

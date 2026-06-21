@@ -1,0 +1,358 @@
+{
+  "player": {
+    "player_id": "matthew-jordan",
+    "player_name": "Matthew Jordan",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 37,
+    "avg_to_par": 0.28,
+    "avg_sg_total": 0.33,
+    "first_round": "2022-07-07",
+    "last_round": "2026-06-20"
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-20",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.114,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-19",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.029,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 5.038,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.148,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-10",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-13",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -5.219,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-12",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": 0.635,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-09",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.826,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-21",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 2.15,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-20",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.438,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-19",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 3.357,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-18",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 3.436,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-14",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.554,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-13",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-12",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.98,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-23",
+        "event_name": "The Open",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.579,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.4
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.43
+      },
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.33
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.6
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 14,
+        "avg_to_par": 0.36,
+        "avg_sg": -0.4
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.79
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 59,
+    "probability": 0.7176001219014646,
+    "fair_odds_american": -254,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "high",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.33 strokes gained. Win probability sits at 71.8%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.33,
+    "avg_to_par": 0.28
+  }
+}
