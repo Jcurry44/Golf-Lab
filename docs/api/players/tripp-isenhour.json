@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "tripp-isenhour",
+    "player_name": "Tripp Isenhour",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080406",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.3,
+    "avg_sg_total": -0.34,
+    "first_round": "2007-06-29",
+    "last_round": "2008-04-04",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-04-04",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.613,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-04-03",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.643,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-04",
+        "event_name": "Children's Miracle Network Classic presented by Wa",
+        "course": null,
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.057,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-03",
+        "event_name": "Children's Miracle Network Classic presented by Wa",
+        "course": null,
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-02",
+        "event_name": "Children's Miracle Network Classic presented by Wa",
+        "course": null,
+        "round_number": 2,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 2.735,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-01",
+        "event_name": "Children's Miracle Network Classic presented by Wa",
+        "course": null,
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-26",
+        "event_name": "Ginn sur Mer Classic at Tesoro",
+        "course": "Tesoro Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -3.0,
+        "sg_total": 1.29,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-25",
+        "event_name": "Ginn sur Mer Classic at Tesoro",
+        "course": "Tesoro Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 2.0,
+        "sg_total": -2.326,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-19",
+        "event_name": "Fry's Electronics Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 2,
+        "score": 0,
+        "to_par": 0.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-18",
+        "event_name": "Fry's Electronics Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-12",
+        "event_name": "Frys.com Open benefiting Shriners Hospitals for Ch",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-11",
+        "event_name": "Frys.com Open benefiting Shriners Hospitals for Ch",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.875,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-07",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 4,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-06",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -5.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-05",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.223,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-04",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.527,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-09-28",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.609,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-09-27",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.386,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-09-21",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.108,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-09-20",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-23",
+        "event_name": "The Barclays",
+        "course": "Westchester Country Club - West Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.08,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-19",
+        "event_name": "Wyndham Championship",
+        "course": "Forest Oaks Country Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.36,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-18",
+        "event_name": "Wyndham Championship",
+        "course": "Forest Oaks Country Club",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 5.047,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-17",
+        "event_name": "Wyndham Championship",
+        "course": "Forest Oaks Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.53
+      },
+      {
+        "course": "Angus Glen Golf Club - North Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.06
+      },
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 3,
+        "avg_to_par": -1.67,
+        "avg_sg": 0.73
+      },
+      {
+        "course": null,
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.53
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.71
+      },
+      {
+        "course": "Tesoro Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.52
+      }
+    ]
+  },
+  "model": null
+}

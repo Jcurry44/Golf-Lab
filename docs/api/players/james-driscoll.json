@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "james-driscoll",
+    "player_name": "James Driscoll",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20181118",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.45,
+    "avg_sg_total": -1.42,
+    "first_round": "2014-04-25",
+    "last_round": "2018-11-16",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2018-11-16",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.143,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-11-15",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-08-17",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -9.323,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-08-16",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.288,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-24",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-23",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 3,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.892,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-22",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-21",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.776,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-15",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-14",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-13",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 1.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-12",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.023,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.789,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.079,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.457,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-05",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 4.008,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-08-15",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.981,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-08-14",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-24",
+        "event_name": "RBC Canadian Open",
+        "course": "Royal Montreal GC (Blue)",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -7.801,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.837,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-10",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.542,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-04",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-29",
+        "event_name": "Quicken Loans National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -0.28,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.54
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 6,
+        "avg_to_par": 0.33,
+        "avg_sg": -0.76
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.3
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.68
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.63
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.47
+      }
+    ]
+  },
+  "model": null
+}

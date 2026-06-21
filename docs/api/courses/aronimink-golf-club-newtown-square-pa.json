@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 214,
-    "avg_to_par": 0.64,
-    "avg_sg_total": 0.9,
-    "difficulty_bucket": "balanced"
+    "rounds": 492,
+    "avg_to_par": 1.73,
+    "avg_sg_total": -0.05,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -32,6 +32,13 @@
         "avg_sg": 3.62
       },
       {
+        "player_id": "alex-smalley",
+        "player_name": "Alex Smalley",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.87
+      },
+      {
         "player_id": "jon-rahm",
         "player_name": "Jon Rahm",
         "rounds": 4,
@@ -48,6 +55,13 @@
       {
         "player_id": "ludvig-berg",
         "player_name": "Ludvig Åberg",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "matti-schmid",
+        "player_name": "Matti Schmid",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 2.62
@@ -93,20 +107,6 @@
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": 2.12
-      },
-      {
-        "player_id": "patrick-reed",
-        "player_name": "Patrick Reed",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 2.12
-      },
-      {
-        "player_id": "ben-griffin",
-        "player_name": "Ben Griffin",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.87
       }
     ]
   },

@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "carnoustie-golf-links-championship-course-carnoustie-angus-scotland",
+    "course_name": "Carnoustie Golf Links - Championship Course",
+    "location": "Carnoustie, Angus, Scotland",
+    "country": "",
+    "par": 71,
+    "yards": 7421,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 264,
+    "avg_to_par": 3.39,
+    "avg_sg_total": -1.27,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "eddie-pepperell",
+        "player_name": "Eddie Pepperell",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.72
+      },
+      {
+        "player_id": "markus-brier",
+        "player_name": "Markus Brier",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "paul-broadhurst",
+        "player_name": "Paul Broadhurst",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "pelle-edberg",
+        "player_name": "Pelle Edberg",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "paul-mcginley",
+        "player_name": "Paul McGinley",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "bernhard-langer",
+        "player_name": "Bernhard Langer",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "julian-suri",
+        "player_name": "Julian Suri",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "masahiro-kawamura",
+        "player_name": "Masahiro Kawamura",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.85
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.85
+      },
+      {
+        "player_id": "sean-crocker",
+        "player_name": "Sean Crocker",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.6
+      },
+      {
+        "player_id": "yusaku-miyazato",
+        "player_name": "Yusaku Miyazato",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.6
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open",
+        "season": 2018,
+        "par": 71,
+        "yards": 7402,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "British Open Championship",
+        "season": 2007,
+        "par": 71,
+        "yards": 7421,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

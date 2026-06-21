@@ -1,0 +1,200 @@
+{
+  "player": {
+    "player_id": "ugo-coussaud",
+    "player_name": "Ugo Coussaud",
+    "country": "France",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 11,
+    "avg_to_par": -0.1,
+    "avg_sg_total": 0.17,
+    "first_round": "2024-07-11",
+    "last_round": "2026-06-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-13",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.975,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-12",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.582,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.148,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-10",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.903,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-14",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.554,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-13",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-12",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.98,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Renaissance Club",
+        "rounds": 8,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.65
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.74
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 121,
+    "probability": 0.5699913219333397,
+    "fair_odds_american": -133,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "medium",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.17 strokes gained. Win probability sits at 57.0%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.17,
+    "avg_to_par": -0.1
+  }
+}

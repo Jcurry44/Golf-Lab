@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "cameron-beckman",
+    "player_name": "Cameron Beckman",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230305",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 2.67,
+    "avg_sg_total": -3.2,
+    "first_round": "2015-11-13",
+    "last_round": "2023-03-02",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-03-02",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.225,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-01",
+        "event_name": "Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-31",
+        "event_name": "Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.7,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-29",
+        "event_name": "Corales Puntacana Resort & Club Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.312,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-28",
+        "event_name": "Corales Puntacana Resort & Club Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.848,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-22",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -6.215,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-21",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.687,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-20",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.065,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-19",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.318,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.342,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-08",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.474,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-07",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-05-18",
+        "event_name": "AT&T Byron Nelson",
+        "course": "Trinity Forest Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.794,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-05-17",
+        "event_name": "AT&T Byron Nelson",
+        "course": "Trinity Forest Golf Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.564,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-21",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -2.008,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-20",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.598,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-28",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.576,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-27",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.113,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.558,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-15",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -6.588,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-10",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.897,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-09",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.09,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 3,
+        "avg_to_par": -1.67,
+        "avg_sg": 0.71
+      },
+      {
+        "course": "Keene Trace Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.37
+      },
+      {
+        "course": "Trinity Forest Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.11
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.07
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.73
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.13
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "robert-garrigus",
+    "player_name": "Robert Garrigus",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250125",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.77,
+    "avg_sg_total": -2.43,
+    "first_round": "2022-05-01",
+    "last_round": "2025-01-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-01-23",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -5.593,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-01-22",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.662,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-11-08",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.367,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-11-07",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -6.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-01",
+        "event_name": "Cognizant Classic",
+        "course": "PGA National Resort and Spa - Champion Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -3.657,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-02-29",
+        "event_name": "Cognizant Classic",
+        "course": "PGA National Resort and Spa - Champion Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.451,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-12",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.79,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-11",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.975,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-10",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-09",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 63,
+        "to_par": -8.0,
+        "sg_total": 5.515,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-14",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-13",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.232,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-12",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.199,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-11",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-24",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.311,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-23",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.108,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-03",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.636,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-02",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.225,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-04",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.162,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-03",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-02",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 4.143,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-26",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-25",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-28",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.947,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 6,
+        "avg_to_par": -2.67,
+        "avg_sg": 0.32
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.29
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.5
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -2.53
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.08
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.13
+      }
+    ]
+  },
+  "model": null
+}

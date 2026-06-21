@@ -1,0 +1,126 @@
+{
+  "player": {
+    "player_id": "camiko-smith",
+    "player_name": "Camiko Smith",
+    "country": "Bermuda",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241117",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 3.17,
+    "avg_sg_total": -3.28,
+    "first_round": "2020-10-29",
+    "last_round": "2024-11-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-11-15",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -5.061,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-11-14",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.833,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-29",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-28",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 9.0,
+        "sg_total": -7.294,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-30",
+        "event_name": "Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 10.0,
+        "sg_total": -7.362,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-29",
+        "event_name": "Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.03,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 6,
+        "avg_to_par": 3.17,
+        "avg_sg": -3.28
+      }
+    ]
+  },
+  "model": null
+}

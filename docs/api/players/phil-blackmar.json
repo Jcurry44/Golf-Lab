@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "phil-blackmar",
+    "player_name": "Phil Blackmar",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20070401",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 5.75,
+    "avg_sg_total": -5.3,
+    "first_round": "2006-04-20",
+    "last_round": "2007-03-30",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2007-03-30",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -9.223,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-29",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.559,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-21",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -6.195,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-20",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.224,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": 5.75,
+        "avg_sg": -5.3
+      }
+    ]
+  },
+  "model": null
+}

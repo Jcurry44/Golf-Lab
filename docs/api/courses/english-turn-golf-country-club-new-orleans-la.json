@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "english-turn-golf-country-club-new-orleans-la",
+    "course_name": "English Turn Golf and Country Club",
+    "location": "New Orleans, Louisiana",
+    "country": "",
+    "par": 72,
+    "yards": 7078,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 28,
+    "avg_to_par": 2.21,
+    "avg_sg_total": -3.28,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "stuart-deane",
+        "player_name": "Stuart Deane",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.11
+      },
+      {
+        "player_id": "boyd-summerhays",
+        "player_name": "Boyd Summerhays",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.01
+      },
+      {
+        "player_id": "hidemichi-tanaka",
+        "player_name": "Hidemichi Tanaka",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.51
+      },
+      {
+        "player_id": "martin-rominger",
+        "player_name": "Martin Rominger",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.01
+      },
+      {
+        "player_id": "mike-heinen",
+        "player_name": "Mike Heinen",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.01
+      },
+      {
+        "player_id": "phil-schmitt",
+        "player_name": "Phil Schmitt",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.51
+      },
+      {
+        "player_id": "rett-crowder",
+        "player_name": "Rett Crowder",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.51
+      },
+      {
+        "player_id": "kevin-hall",
+        "player_name": "Kevin Hall",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.01
+      },
+      {
+        "player_id": "brian-rowell",
+        "player_name": "Brian Rowell",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -5.01
+      },
+      {
+        "player_id": "james-mclean",
+        "player_name": "James McLean",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.51
+      },
+      {
+        "player_id": "kelly-gibson",
+        "player_name": "Kelly Gibson",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -6.01
+      },
+      {
+        "player_id": "oliver-thomson",
+        "player_name": "Oliver Thomson",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -6.51
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Zurich Classic of New Orleans",
+        "season": 2006,
+        "par": 72,
+        "yards": 7078,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

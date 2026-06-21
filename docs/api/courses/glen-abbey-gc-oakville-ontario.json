@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "glen-abbey-gc-oakville-ontario",
+    "course_name": "Glen Abbey GC",
+    "location": "Oakville,Ontario",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 187,
+    "avg_to_par": 1.48,
+    "avg_sg_total": -1.63,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "jared-du-toit",
+        "player_name": "Jared du Toit",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.42
+      },
+      {
+        "player_id": "scott-verplank",
+        "player_name": "Scott Verplank",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.72
+      },
+      {
+        "player_id": "jeff-gove",
+        "player_name": "Jeff Gove",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.77
+      },
+      {
+        "player_id": "george-coetzee",
+        "player_name": "George Coetzee",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.17
+      },
+      {
+        "player_id": "andrew-svoboda",
+        "player_name": "Andrew Svoboda",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.22
+      },
+      {
+        "player_id": "alistair-presnell",
+        "player_name": "Alistair Presnell",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.27
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.03
+      },
+      {
+        "player_id": "casey-wittenberg",
+        "player_name": "Casey Wittenberg",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.02
+      },
+      {
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.28
+      },
+      {
+        "player_id": "byron-smith",
+        "player_name": "Byron Smith",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.32
+      },
+      {
+        "player_id": "justin-shin",
+        "player_name": "Justin Shin",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.32
+      },
+      {
+        "player_id": "neal-lancaster",
+        "player_name": "Neal Lancaster",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.32
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

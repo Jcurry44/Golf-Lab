@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "todd-baek",
+    "player_name": "Todd Baek",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170129",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 1.33,
+    "avg_sg_total": -0.74,
+    "first_round": "2013-04-04",
+    "last_round": "2017-01-27",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2017-01-27",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.916,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-01-26",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -8.814,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-07",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.822,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-06",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-05",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.158,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-04",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.61,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.87
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.95
+      }
+    ]
+  },
+  "model": null
+}

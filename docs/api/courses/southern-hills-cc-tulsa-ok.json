@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 4,
-    "avg_to_par": 1.5,
-    "avg_sg_total": 0.83,
-    "difficulty_bucket": "tough"
+    "rounds": 237,
+    "avg_to_par": 3.86,
+    "avg_sg_total": -1.69,
+    "difficulty_bucket": "brutal"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.58
+      },
+      {
+        "player_id": "talor-gooch",
+        "player_name": "Talor Gooch",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.08
+      },
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "adri-arnaus",
+        "player_name": "Adri Arnaus",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "marc-leishman",
+        "player_name": "Marc Leishman",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.33
+      },
+      {
+        "player_id": "cameron-tringale",
+        "player_name": "Cameron Tringale",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.08
+      },
+      {
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.83
+      },
+      {
         "player_id": "laurie-canter",
         "player_name": "Laurie Canter",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 0.83
+      },
+      {
+        "player_id": "niclas-fasth",
+        "player_name": "Niclas Fasth",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "shingo-katayama",
+        "player_name": "Shingo Katayama",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.46
       }
     ]
   },

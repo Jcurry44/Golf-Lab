@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "jimmy-chestnut",
+    "player_name": "Jimmy Chestnut",
+    "country": "",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090802",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 4.25,
+    "avg_sg_total": -5.69,
+    "first_round": "2005-07-28",
+    "last_round": "2009-07-31",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2009-07-31",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-30",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.897,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-29",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.755,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-28",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 1,
+        "score": 83,
+        "to_par": 11.0,
+        "sg_total": -12.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -5.69
+      }
+    ]
+  },
+  "model": null
+}

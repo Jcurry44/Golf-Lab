@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "ockie-strydom",
+    "player_name": "Ockie Strydom",
+    "country": "South Africa",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250713",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 3.1,
+    "avg_sg_total": -2.35,
+    "first_round": "2023-05-18",
+    "last_round": "2025-07-11",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.148,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-10",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-12",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.98,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-11",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.301,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-21",
+        "event_name": "The Open",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -3.551,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-20",
+        "event_name": "The Open",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 1.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-14",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.83,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-13",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.71,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-19",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -3.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-18",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -3.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Renaissance Club",
+        "rounds": 6,
+        "avg_to_par": 1.83,
+        "avg_sg": -2.45
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.15
+      },
+      {
+        "course": "Oak Hill Country Club - East Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.25
+      }
+    ]
+  },
+  "model": null
+}

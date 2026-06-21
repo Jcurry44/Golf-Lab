@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 104,
-    "avg_to_par": -1.58,
-    "avg_sg_total": 0.83,
-    "difficulty_bucket": "gettable"
+    "rounds": 593,
+    "avg_to_par": -0.01,
+    "avg_sg_total": -0.46,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -32,8 +32,22 @@
         "avg_sg": 4.51
       },
       {
+        "player_id": "nicolai-h-jgaard",
+        "player_name": "Nicolai Højgaard",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.26
+      },
+      {
         "player_id": "johnny-keefer",
         "player_name": "Johnny Keefer",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.01
+      },
+      {
+        "player_id": "min-woo-lee",
+        "player_name": "Min Woo Lee",
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 3.01
@@ -48,6 +62,20 @@
       {
         "player_id": "chris-gotterup",
         "player_name": "Chris Gotterup",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "jason-day",
+        "player_name": "Jason Day",
         "rounds": 4,
         "avg_to_par": -3.25,
         "avg_sg": 2.51
@@ -74,39 +102,11 @@
         "avg_sg": 2.01
       },
       {
-        "player_id": "keith-mitchell",
-        "player_name": "Keith Mitchell",
+        "player_id": "denny-mccarthy",
+        "player_name": "Denny McCarthy",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.76
-      },
-      {
-        "player_id": "max-mcgreevy",
-        "player_name": "Max McGreevy",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.51
-      },
-      {
-        "player_id": "harris-english",
-        "player_name": "Harris English",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.26
-      },
-      {
-        "player_id": "sam-burns",
-        "player_name": "Sam Burns",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.26
-      },
-      {
-        "player_id": "ben-griffin",
-        "player_name": "Ben Griffin",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.01
+        "avg_to_par": -2.75,
+        "avg_sg": 2.01
       }
     ]
   },

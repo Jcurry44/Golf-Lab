@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "whee-kim",
+    "player_name": "Whee Kim",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20191020",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.95,
+    "avg_sg_total": -1.71,
+    "first_round": "2019-02-21",
+    "last_round": "2019-10-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-10-19",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.882,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-18",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.053,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-17",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-16",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-09-13",
+        "event_name": "A Military Tribute at The Greenbrier",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-09-12",
+        "event_name": "A Military Tribute at The Greenbrier",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.058,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-08-02",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-08-01",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -1.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-21",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.875,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-20",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.203,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-19",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.489,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-18",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.152,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -2.343,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.763,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 1.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-05",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.556,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-04",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -6.71,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-28",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.383,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-27",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-21",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-20",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -7.647,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-07",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.449,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-06",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.25
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.39
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.78
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.34
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.57
+      },
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.52
+      }
+    ]
+  },
+  "model": null
+}

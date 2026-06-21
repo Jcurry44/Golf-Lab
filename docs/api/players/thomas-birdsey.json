@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "thomas-birdsey",
+    "player_name": "Thomas Birdsey",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150329",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 4.0,
+    "avg_sg_total": -1.72,
+    "first_round": "2015-03-26",
+    "last_round": "2015-03-29",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-03-29",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 4,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -5.707,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-28",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -4.227,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-27",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.635,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-03-26",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 3.695,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.72
+      }
+    ]
+  },
+  "model": null
+}

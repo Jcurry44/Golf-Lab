@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "katsumasa-miyamoto",
+    "player_name": "Katsumasa Miyamoto",
+    "country": "Japan",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20101107",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 0.8,
+    "avg_sg_total": -0.19,
+    "first_round": "2010-07-15",
+    "last_round": "2010-11-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2010-11-06",
+        "event_name": "WGC-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 5.506,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-05",
+        "event_name": "WGC-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.779,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-04",
+        "event_name": "WGC-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.74,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-03",
+        "event_name": "WGC-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.962,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-08",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.625,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-07",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 62,
+        "to_par": -8.0,
+        "sg_total": 8.088,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-06",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.975,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-05",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.259,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-16",
+        "event_name": "The Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -0.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-15",
+        "event_name": "The Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.49
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.56
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.06
+      }
+    ]
+  },
+  "model": null
+}

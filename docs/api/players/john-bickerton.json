@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "john-bickerton",
+    "player_name": "John Bickerton",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20070722",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 24,
+    "avg_to_par": 1.54,
+    "avg_sg_total": -0.83,
+    "first_round": "2005-07-14",
+    "last_round": "2007-07-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2007-07-20",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -1.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-19",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -1.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-25",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.944,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-24",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.438,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-23",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.11,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-22",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.603,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-10-01",
+        "event_name": "World Golf Championships-American Express Champion",
+        "course": "The Grove Golf Course",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 4.217,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-30",
+        "event_name": "World Golf Championships-American Express Champion",
+        "course": "The Grove Golf Course",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.417,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-29",
+        "event_name": "World Golf Championships-American Express Champion",
+        "course": "The Grove Golf Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-28",
+        "event_name": "World Golf Championships-American Express Champion",
+        "course": "The Grove Golf Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-27",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.855,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-26",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.731,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-25",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.603,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-24",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-18",
+        "event_name": "PGA Championship",
+        "course": "Medinah Country Club - No. 3 Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.448,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-17",
+        "event_name": "PGA Championship",
+        "course": "Medinah Country Club - No. 3 Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-23",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 4,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-22",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.873,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.224,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-17",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.437,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-16",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-15",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.084,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-14",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.329,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.38
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.33
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -1.36
+      },
+      {
+        "course": "Medinah Country Club - No. 3 Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.33
+      }
+    ]
+  },
+  "model": null
+}

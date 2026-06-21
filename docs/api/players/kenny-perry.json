@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "kenny-perry",
+    "player_name": "Kenny Perry",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190526",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.27,
+    "avg_sg_total": -1.14,
+    "first_round": "2015-01-18",
+    "last_round": "2019-05-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-05-23",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -8.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-04-05",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.44,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-04-04",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.601,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-22",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.105,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-21",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.861,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-09",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-08",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.916,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-07",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.761,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-01",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -1.382,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-31",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.614,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-11",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -3.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-10",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.361,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-11-02",
+        "event_name": "Shriners Hospital for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-11-01",
+        "event_name": "Shriners Hospital for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.652,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-15",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills GC",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -5.404,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-14",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills GC",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -2.526,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-01",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.542,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-05-31",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.442,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-05",
+        "event_name": "the Memorial Tournament presented by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.683,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-04",
+        "event_name": "the Memorial Tournament presented by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-31",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -2.0,
+        "sg_total": 1.708,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-30",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 3,
+        "score": 64,
+        "to_par": -5.0,
+        "sg_total": 3.736,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-29",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -1.0,
+        "sg_total": -0.322,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-28",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.519,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.66
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 6,
+        "avg_to_par": -0.17,
+        "avg_sg": -0.63
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.84
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": 0.83,
+        "avg_sg": 0.03
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.15
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.64
+      }
+    ]
+  },
+  "model": null
+}

@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 9,
-    "avg_to_par": -2.22,
-    "avg_sg_total": 1.53,
-    "difficulty_bucket": "gettable"
+    "rounds": 1099,
+    "avg_to_par": 0.29,
+    "avg_sg_total": -1.25,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "kirk-triplett",
+        "player_name": "Kirk Triplett",
+        "rounds": 2,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.18
+      },
+      {
+        "player_id": "john-huh",
+        "player_name": "John Huh",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.85
+      },
+      {
         "player_id": "jackson-koivun",
         "player_name": "Jackson Koivun",
         "rounds": 4,
@@ -32,18 +46,67 @@
         "avg_sg": 2.8
       },
       {
-        "player_id": "harry-higgs",
-        "player_name": "Harry Higgs",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 1.24
+        "player_id": "brett-stegmaier",
+        "player_name": "Brett Stegmaier",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.9
       },
       {
-        "player_id": "niklas-n-rgaard",
-        "player_name": "Niklas Nørgaard",
+        "player_id": "john-oda",
+        "player_name": "John Oda",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "roberto-d-az",
+        "player_name": "Roberto Díaz",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "kyung-kim",
+        "player_name": "Kyung Kim",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.21
+      },
+      {
+        "player_id": "tyler-mccumber",
+        "player_name": "Tyler McCumber",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "billy-hurley-iii",
+        "player_name": "Billy Hurley III",
         "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.56
+        "avg_to_par": -3.0,
+        "avg_sg": 0.6
+      },
+      {
+        "player_id": "anirban-lahiri",
+        "player_name": "Anirban Lahiri",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.85
+      },
+      {
+        "player_id": "roger-sloan",
+        "player_name": "Roger Sloan",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.73
       }
     ]
   },

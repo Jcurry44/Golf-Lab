@@ -1,0 +1,121 @@
+{
+  "player": {
+    "player_id": "ryan-kennedy",
+    "player_name": "Ryan Kennedy",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150816",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 5,
+    "avg_to_par": 7.8,
+    "avg_sg_total": -8.44,
+    "first_round": "2015-01-22",
+    "last_round": "2015-08-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-08-14",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 2,
+        "score": 90,
+        "to_par": 18.0,
+        "sg_total": -17.065,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-13",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.853,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-24",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.019,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-23",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -12.303,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-22",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.949,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": 4.67,
+        "avg_sg": -6.76
+      },
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 12.5,
+        "avg_sg": -10.96
+      }
+    ]
+  },
+  "model": null
+}

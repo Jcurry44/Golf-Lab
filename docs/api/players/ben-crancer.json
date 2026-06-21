@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "ben-crancer",
+    "player_name": "Ben Crancer",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180610",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 3.5,
+    "avg_sg_total": -2.85,
+    "first_round": "2018-06-07",
+    "last_round": "2018-06-08",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2018-06-08",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.474,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-07",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.231,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.85
+      }
+    ]
+  },
+  "model": null
+}

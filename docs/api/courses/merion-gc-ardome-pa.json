@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "merion-gc-ardome-pa",
+    "course_name": "Merion GC",
+    "location": "Ardome, PA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 108,
+    "avg_to_par": 6.19,
+    "avg_sg_total": -1.59,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "mathew-goggin",
+        "player_name": "Mathew Goggin",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 1.71
+      },
+      {
+        "player_id": "morten-rum-madsen",
+        "player_name": "Morten Ørum Madsen",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.46
+      },
+      {
+        "player_id": "paul-lawrie",
+        "player_name": "Paul Lawrie",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 1.21
+      },
+      {
+        "player_id": "bio-kim",
+        "player_name": "Bio Kim",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "cliff-kresge",
+        "player_name": "Cliff Kresge",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.21
+      },
+      {
+        "player_id": "casey-wittenberg",
+        "player_name": "Casey Wittenberg",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "chris-doak",
+        "player_name": "Chris Doak",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "hiroyuki-fujita",
+        "player_name": "Hiroyuki Fujita",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "jaco-van-zyl",
+        "player_name": "Jaco Van Zyl",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "steven-fox",
+        "player_name": "Steven Fox",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "kevin-phelan",
+        "player_name": "Kevin Phelan",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.54
+      },
+      {
+        "player_id": "matt-weibring",
+        "player_name": "Matt Weibring",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.54
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open Golf Championship",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

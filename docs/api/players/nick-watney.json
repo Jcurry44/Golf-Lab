@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "nick-watney",
+    "player_name": "Nick Watney",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251123",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.57,
+    "avg_sg_total": -0.15,
+    "first_round": "2024-07-18",
+    "last_round": "2025-11-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-11-21",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -5.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-20",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.042,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-11",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.222,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-20",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 4,
+        "score": 6,
+        "to_par": 6.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-19",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 3,
+        "score": 2,
+        "to_par": 2.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 0,
+        "to_par": 0.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 14,
+        "to_par": 14.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-11",
+        "event_name": "ISCO Championship",
+        "course": "Hurstbourne Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.271,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-10",
+        "event_name": "ISCO Championship",
+        "course": "Hurstbourne Country Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.846,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-11",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.565,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-10",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.043,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-09",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.606,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-08",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 4.015,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-02",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.884,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-01",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-18",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.366,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-17",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.432,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-09",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 3.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.174,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-15",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 4.647,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.273,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.9
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.23
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.29
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.25
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.53
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.14
+      }
+    ]
+  },
+  "model": null
+}

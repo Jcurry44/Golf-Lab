@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "scott-hoch",
+    "player_name": "Scott Hoch",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090719",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 37,
+    "avg_to_par": 0.32,
+    "avg_sg_total": -0.28,
+    "first_round": "2002-01-03",
+    "last_round": "2009-07-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2009-07-19",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.486,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-18",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.025,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 2.698,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.794,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-03-02",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.675,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-03-01",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.779,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-02-29",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.93,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-02-28",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.874,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-17",
+        "event_name": "Bay Hill Invitational Presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -4.61,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-06",
+        "event_name": "Ford Championship at Doral",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.915,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-05",
+        "event_name": "Ford Championship at Doral",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.439,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-04",
+        "event_name": "Ford Championship at Doral",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.531,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-03",
+        "event_name": "Ford Championship at Doral",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2004-01-11",
+        "event_name": "Mercedes Championships",
+        "course": "Plantation Course at Kapalua",
+        "round_number": 4,
+        "score": 72,
+        "to_par": -1.0,
+        "sg_total": 0.867,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2004-01-10",
+        "event_name": "Mercedes Championships",
+        "course": "Plantation Course at Kapalua",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -4.0,
+        "sg_total": 0.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2004-01-09",
+        "event_name": "Mercedes Championships",
+        "course": "Plantation Course at Kapalua",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -2.0,
+        "sg_total": 0.8,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2004-01-08",
+        "event_name": "Mercedes Championships",
+        "course": "Plantation Course at Kapalua",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -5.0,
+        "sg_total": 2.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-10-05",
+        "event_name": "WGC-American Express Championship",
+        "course": "Capital City Club - Crabapple Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.542,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-10-04",
+        "event_name": "WGC-American Express Championship",
+        "course": "Capital City Club - Crabapple Course",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.278,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-10-03",
+        "event_name": "WGC-American Express Championship",
+        "course": "Capital City Club - Crabapple Course",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -4.931,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-10-02",
+        "event_name": "WGC-American Express Championship",
+        "course": "Capital City Club - Crabapple Course",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-24",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.659,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-23",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.741,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-22",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.212,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Mount Juliet Golf Course",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.6
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.11
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.24
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.09
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 8,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.73
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.26
+      }
+    ]
+  },
+  "model": null
+}

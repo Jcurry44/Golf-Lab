@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "jeff-klauk",
+    "player_name": "Jeff Klauk",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130421",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.5,
+    "avg_sg_total": -0.62,
+    "first_round": "2011-04-21",
+    "last_round": "2013-04-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2013-04-20",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.835,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-19",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.107,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-18",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.354,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-22",
+        "event_name": "Arnold Palmer Invitational presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.197,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-21",
+        "event_name": "Arnold Palmer Invitational presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-15",
+        "event_name": "Tampa Bay Championship presented by EverBank",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.071,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-14",
+        "event_name": "Tampa Bay Championship presented by EverBank",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -0.929,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-03",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.293,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-02",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.253,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-01",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.475,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-28",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.147,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-15",
+        "event_name": "Northern Trust Open",
+        "course": "The Riviera Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.514,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-14",
+        "event_name": "Northern Trust Open",
+        "course": "The Riviera Country Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -2.789,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-03",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.527,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-02",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.365,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-02-01",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.924,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-31",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.015,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-27",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.442,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-26",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.287,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-25",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.217,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-24",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.103,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-19",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -1.038,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-18",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": -0.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-01-17",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.237,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.46
+      },
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -3.0,
+        "avg_sg": -0.0
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.46
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 7,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.33
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.41
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.02
+      }
+    ]
+  },
+  "model": null
+}

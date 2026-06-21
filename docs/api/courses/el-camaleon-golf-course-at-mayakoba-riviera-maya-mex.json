@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "el-camaleon-golf-course-at-mayakoba-riviera-maya-mex",
+    "course_name": "El Camaleón Golf Course at Mayakoba",
+    "location": "Riviera Maya, MEX",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 693,
+    "avg_to_par": 0.84,
+    "avg_sg_total": -1.33,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "matthew-wolff",
+        "player_name": "Matthew Wolff",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "robert-karlsson",
+        "player_name": "Robert Karlsson",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.68
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.02
+      },
+      {
+        "player_id": "john-huh",
+        "player_name": "John Huh",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "john-oda",
+        "player_name": "John Oda",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.29
+      },
+      {
+        "player_id": "hunter-stewart",
+        "player_name": "Hunter Stewart",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "steve-marino",
+        "player_name": "Steve Marino",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "jay-mcluen",
+        "player_name": "Jay McLuen",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "oscar-fraustro",
+        "player_name": "Oscar Fraustro",
+        "rounds": 14,
+        "avg_to_par": -2.07,
+        "avg_sg": 0.8
+      },
+      {
+        "player_id": "steve-lowery",
+        "player_name": "Steve Lowery",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.79
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.25
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "World Wide Technology Championship at Mayakoba",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Wide Technology Championship at Mayakoba",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Mayakoba Golf Classic presented by UNIFIN",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Mayakoba Golf Classic",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Mayakoba Golf Classic",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "OHL Classic at Mayakoba",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "OHL Classic at Mayakoba",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "OHL Classic at Mayakoba",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "OHL Classic at Mayakoba",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "OHL Classic at Mayakoba",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

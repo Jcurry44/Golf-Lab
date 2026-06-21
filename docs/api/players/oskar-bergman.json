@@ -1,0 +1,192 @@
+{
+  "player": {
+    "player_id": "oskar-bergman",
+    "player_name": "Oskar Bergman",
+    "country": "Sweden",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20081208",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": -1.25,
+    "avg_sg_total": -0.12,
+    "first_round": "2007-11-28",
+    "last_round": "2008-12-08",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-12-08",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.54,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.708,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 4.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.945,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-04",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.982,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-03",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 3.675,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.937,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.417,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.134,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-30",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.042,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-29",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.229,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-11-28",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.06,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 12,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.12
+      }
+    ]
+  },
+  "model": null
+}

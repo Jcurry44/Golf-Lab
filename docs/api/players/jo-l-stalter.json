@@ -1,0 +1,177 @@
+{
+  "player": {
+    "player_id": "jo-l-stalter",
+    "player_name": "Joël Stalter",
+    "country": "France",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 9,
+    "avg_to_par": 1.0,
+    "avg_sg_total": -1.08,
+    "first_round": "2016-02-11",
+    "last_round": "2022-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 2,
+        "to_par": 2.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 1,
+        "to_par": 1.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-08",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.879,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-07",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-16",
+        "event_name": "U.S. Open",
+        "course": "Erin Hills",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-15",
+        "event_name": "U.S. Open",
+        "course": "Erin Hills",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.615,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-13",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.423,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-12",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.192,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-11",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.91,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -2.01
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 0.67,
+        "avg_sg": -0.38
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.19
+      }
+    ]
+  },
+  "model": null
+}

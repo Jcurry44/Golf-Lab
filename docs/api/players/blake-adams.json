@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "blake-adams",
+    "player_name": "Blake Adams",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160214",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.57,
+    "avg_sg_total": -1.1,
+    "first_round": "2015-02-12",
+    "last_round": "2016-02-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-02-13",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.423,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-12",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.192,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-11",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.09,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-23",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -7.677,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-22",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.619,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-21",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.718,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-15",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.535,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-14",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.167,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-15",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -2.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-14",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-13",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-12",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.023,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-10",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.104,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-09",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.516,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -10.208,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-02",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -3.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-26",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-25",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.917,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-12",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.587,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-11",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-29",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -3.0,
+        "sg_total": 1.678,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-28",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-16",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.84,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-05-15",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.192,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.86
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.24
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.06
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.21
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.4
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.43
+      }
+    ]
+  },
+  "model": null
+}

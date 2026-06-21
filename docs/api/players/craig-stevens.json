@@ -1,0 +1,138 @@
+{
+  "player": {
+    "player_id": "craig-stevens",
+    "player_name": "Craig Stevens",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20131110",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 6.67,
+    "avg_sg_total": -5.12,
+    "first_round": "2003-04-03",
+    "last_round": "2013-11-08",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2013-11-08",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 84,
+        "to_par": 14.0,
+        "sg_total": -11.862,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-07",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-12",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.227,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-11",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.866,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-04",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-03",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.468,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.96
+      },
+      {
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.55
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -8.87
+      }
+    ]
+  },
+  "model": null
+}

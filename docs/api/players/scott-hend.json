@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "scott-hend",
+    "player_name": "Scott Hend",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.63,
+    "avg_sg_total": -1.15,
+    "first_round": "2016-10-26",
+    "last_round": "2022-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 6,
+        "to_par": 6.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": -2,
+        "to_par": -2.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-08",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.434,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-07",
+        "event_name": "Genesis Scottish Open",
+        "course": "The Renaissance Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-09-18",
+        "event_name": "U.S. Open",
+        "course": "Winged Foot Golf Club - West Course",
+        "round_number": 2,
+        "score": 84,
+        "to_par": 14.0,
+        "sg_total": -8.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-09-17",
+        "event_name": "U.S. Open",
+        "course": "Winged Foot Golf Club - West Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.437,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-23",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.403,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-22",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-21",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.722,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-20",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.389,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-03",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.078,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-02",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.909,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-01",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.833,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-31",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-29",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.558,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-28",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.273,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-27",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 4.256,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-26",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.256,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-15",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.282,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-14",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-13",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-12",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.051,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-08-11",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -2.399,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-08-10",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 2.737,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.75
+      },
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.68
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.28
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 8,
+        "avg_to_par": 1.38,
+        "avg_sg": -1.25
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.84
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": null
+      }
+    ]
+  },
+  "model": null
+}

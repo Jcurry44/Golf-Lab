@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "todd-halpen",
+    "player_name": "Todd Halpen",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080727",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 3.75,
+    "avg_sg_total": -3.64,
+    "first_round": "2006-09-07",
+    "last_round": "2008-07-25",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-07-25",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -7.23,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-24",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.109,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-08",
+        "event_name": "Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-07",
+        "event_name": "Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Hamilton G&CC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.62
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -5.67
+      }
+    ]
+  },
+  "model": null
+}

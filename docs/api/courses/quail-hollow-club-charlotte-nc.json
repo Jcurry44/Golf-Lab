@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 186,
-    "avg_to_par": -0.44,
-    "avg_sg_total": 0.11,
-    "difficulty_bucket": "balanced"
+    "rounds": 938,
+    "avg_to_par": 2.12,
+    "avg_sg_total": -1.41,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,20 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "kristoffer-reitan",
+        "player_name": "Kristoffer Reitan",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.12
+      },
+      {
+        "player_id": "nicolai-h-jgaard",
+        "player_name": "Nicolai Højgaard",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.62
+      },
       {
         "player_id": "rickie-fowler",
         "player_name": "Rickie Fowler",
@@ -37,6 +51,13 @@
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 2.37
+      },
+      {
+        "player_id": "j-j-spaun",
+        "player_name": "J.J. Spaun",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.12
       },
       {
         "player_id": "sungjae-im",
@@ -53,6 +74,13 @@
         "avg_sg": 2.12
       },
       {
+        "player_id": "harry-hall",
+        "player_name": "Harry Hall",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.87
+      },
+      {
         "player_id": "ludvig-berg",
         "player_name": "Ludvig Åberg",
         "rounds": 4,
@@ -67,46 +95,18 @@
         "avg_sg": 1.62
       },
       {
-        "player_id": "patrick-cantlay",
-        "player_name": "Patrick Cantlay",
+        "player_id": "matt-mccarty",
+        "player_name": "Matt McCarty",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 1.62
       },
       {
-        "player_id": "justin-thomas",
-        "player_name": "Justin Thomas",
+        "player_id": "patrick-cantlay",
+        "player_name": "Patrick Cantlay",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.37
-      },
-      {
-        "player_id": "chris-gotterup",
-        "player_name": "Chris Gotterup",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.12
-      },
-      {
-        "player_id": "bryson-dechambeau",
-        "player_name": "Bryson DeChambeau",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 2.96
-      },
-      {
-        "player_id": "gary-woodland",
-        "player_name": "Gary Woodland",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.87
-      },
-      {
-        "player_id": "keegan-bradley",
-        "player_name": "Keegan Bradley",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.62
+        "avg_to_par": -2.25,
+        "avg_sg": 1.62
       }
     ]
   },

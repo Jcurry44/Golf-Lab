@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "cliff-kresge",
+    "player_name": "Cliff Kresge",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170716",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.42,
+    "avg_sg_total": -0.78,
+    "first_round": "2010-07-22",
+    "last_round": "2017-07-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2017-07-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.229,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.284,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "Merion GC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": 1.118,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-13",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "Merion GC",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -0.697,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 6,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.376,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 5,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.629,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.671,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-11-30",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 5.012,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-11-29",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.959,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-11-28",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": "Jack Nicklaus (Tournament)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -7.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.55,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -8.238,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-30",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.32,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-14",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.892,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-13",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.622,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-12",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 2,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 4.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-11-11",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.609,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-17",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.847,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-16",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.014,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-15",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 4.445,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-14",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.511,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-10",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.041,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-09",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.452,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "St. George's G&CC",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.09
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.47
+      },
+      {
+        "course": "Jack Nicklaus (Tournament)",
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.53
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.07
+      },
+      {
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.45
+      }
+    ]
+  },
+  "model": null
+}

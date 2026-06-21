@@ -1,0 +1,95 @@
+{
+  "course": {
+    "course_id": "mount-juliet-golf-course-thomastown-county-kilkenny-ireland",
+    "course_name": "Mount Juliet Golf Course",
+    "location": "Thomastown, County Kilkenny, Ireland",
+    "country": "",
+    "par": 72,
+    "yards": 7246,
+    "architect": "",
+    "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 24,
+    "avg_to_par": -0.79,
+    "avg_sg_total": -1.36,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "gary-evans",
+        "player_name": "Gary Evans",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "scott-hoch",
+        "player_name": "Scott Hoch",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.6
+      },
+      {
+        "player_id": "eduardo-romero",
+        "player_name": "Eduardo Romero",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.4
+      },
+      {
+        "player_id": "peter-o-malley",
+        "player_name": "Peter O'Malley",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -2.4
+      },
+      {
+        "player_id": "scott-laycock",
+        "player_name": "Scott Laycock",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.65
+      },
+      {
+        "player_id": "kenichi-kuboya",
+        "player_name": "Kenichi Kuboya",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.65
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "WGC-American Express Championship",
+        "season": 2002,
+        "par": 72,
+        "yards": 7246,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

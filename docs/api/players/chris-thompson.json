@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "chris-thompson",
+    "player_name": "Chris Thompson",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190804",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.45,
+    "avg_sg_total": -1.34,
+    "first_round": "2018-10-28",
+    "last_round": "2019-08-02",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-08-02",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-08-01",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -1.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-19",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.489,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-18",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.848,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.4,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-05",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-04",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.71,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-28",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.383,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-27",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-21",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-20",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.647,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-09",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.676,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-07",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.551,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-06",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.41,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-10",
+        "event_name": "AT&T Byron Nelson",
+        "course": "Trinity Forest Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -1.098,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-09",
+        "event_name": "AT&T Byron Nelson",
+        "course": "Trinity Forest Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.181,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-03",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.261,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-02",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -1.626,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-29",
+        "event_name": "Corales Puntacana Resort & Club Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.312,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-28",
+        "event_name": "Corales Puntacana Resort & Club Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.848,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-24",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.933,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-23",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.16,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-22",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.785,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.55
+      },
+      {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.17
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.23
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.19
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.02
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.28
+      }
+    ]
+  },
+  "model": null
+}

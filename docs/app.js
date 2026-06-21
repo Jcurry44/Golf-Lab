@@ -8,6 +8,8 @@ let playerPayload = null;
 let coursePayload = null;
 let modelPayload = null;
 let healthPayload = null;
+let playerSearch = "";
+let playerVisibleLimit = 48;
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
 
@@ -85,13 +87,13 @@ function setView(view) {
 
 function renderSummary() {
   const counts = summary.counts || {};
-  $("#railProof").textContent = `${fmt(counts.rounds)} rounds | ${fmt(counts.model_predictions)} model rows`;
+  $("#railProof").textContent = `${fmt(counts.players)} players | ${fmt(counts.rounds)} rounds`;
   setStatus(summary.readiness || "ready", summary.readiness === "model-ready" ? "good" : "watch");
 
   const event = summary.selectedEvent || {};
   $("#topEyebrow").textContent = `${event.event_name || "Modeled event"} | ${summary.readiness || "loading"}`;
   $("#heroTitle").textContent = "Player scorecards. Fast decisions.";
-  $("#heroSubtitle").textContent = `${fmt(counts.players)} players | ${fmt(counts.rounds)} scorecards | model and market reads.`;
+  $("#heroSubtitle").textContent = `${fmt(counts.players)} player profiles | ${fmt(counts.fields)} current-event entries | ${fmt(counts.rounds)} scorecards.`;
   $("#eventCard").innerHTML = `
     <p class="eyebrow">Event context</p>
     <h2>${escapeHtml(event.event_name || "No event loaded")}</h2>
@@ -100,20 +102,19 @@ function renderSummary() {
       <span>${escapeHtml([event.start_date, event.end_date].filter(Boolean).join(" to "))}</span>
     </div>
     <div class="event-kpis">
-      ${metric("Players", counts.players)}
+      ${metric("Player DB", counts.players)}
+      ${metric("Event field", counts.fields)}
       ${metric("Rounds", counts.rounds)}
-      ${metric("Odds", counts.odds_snapshots)}
-      ${metric("Sources", counts.source_fetches)}
     </div>
   `;
 
   $("#metricGrid").innerHTML = [
-    ["Players", counts.players, "profile rows"],
+    ["Players", counts.players, "profile library"],
+    ["Field", counts.fields, "active event"],
     ["Events", counts.events, "schedule"],
     ["Scorecards", counts.rounds, "round-level"],
     ["SG Rows", counts.strokes_gained, "derived model"],
     ["Markets", counts.odds_snapshots, "odds snapshots"],
-    ["Predictions", counts.model_predictions, "owned model"],
   ].map(([label, value, note]) => `
     <article class="metric-card">
       <span>${escapeHtml(label)}</span>
@@ -168,18 +169,33 @@ function renderFeaturedPlayer() {
   `;
 }
 
-function renderPlayers(limit = currentView === "players" ? 48 : 8) {
-  const rows = (playerPayload.rows || []).slice(0, limit);
+function playerMatchesSearch(row) {
+  if (!playerSearch) return true;
+  const haystack = [
+    row.player_name,
+    row.country,
+    row.confidence,
+    row.plain_english,
+  ].join(" ").toLowerCase();
+  return haystack.includes(playerSearch);
+}
+
+function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
+  const allRows = playerPayload.rows || [];
+  const filteredRows = allRows.filter(playerMatchesSearch);
+  const rows = filteredRows.slice(0, limit);
   renderFeaturedPlayer();
+  const count = $("#playerCount");
+  if (count) count.textContent = `${fmt(filteredRows.length)} of ${fmt(allRows.length)} player cards`;
   $("#playerCards").innerHTML = rows.map((row) => `
     <button type="button" class="player-card" data-player-id="${escapeHtml(row.player_id)}">
       <div class="player-card-head">
-        <div class="rank">#${escapeHtml(row.rank || "--")}</div>
+        <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
         <div>
           <h3>${escapeHtml(row.player_name)}</h3>
           <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(row.rounds)} tracked rounds</p>
         </div>
-        <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.confidence || "watch")}</div>
+        <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.modeled ? "Model" : (row.confidence || "watch"))}</div>
       </div>
       <div class="card-stats">
         ${metric("Win", pct(Number(row.probability || 0) * 100))}
@@ -195,6 +211,12 @@ function renderPlayers(limit = currentView === "players" ? 48 : 8) {
       </div>
     </button>
   `).join("") || empty("No player cards yet.");
+  const actions = $("#playerActions");
+  if (actions) {
+    actions.innerHTML = filteredRows.length > rows.length
+      ? `<button type="button" class="ghost-button" data-show-more-players>Show ${fmt(Math.min(48, filteredRows.length - rows.length))} more</button>`
+      : "";
+  }
 }
 
 function renderCourses(limit = currentView === "courses" ? 36 : 6) {
@@ -324,6 +346,12 @@ function bindEvents() {
     renderModel();
   }));
   document.addEventListener("click", (event) => {
+    const showMore = event.target.closest("[data-show-more-players]");
+    if (showMore) {
+      playerVisibleLimit += 48;
+      renderPlayers();
+      return;
+    }
     const player = event.target.closest("[data-player-id]");
     if (player) openPlayer(player.dataset.playerId).catch(showError);
     const course = event.target.closest("[data-course-id]");
@@ -331,6 +359,14 @@ function bindEvents() {
   });
   $("#drawerClose").addEventListener("click", closeDrawer);
   $("#drawerBackdrop").addEventListener("click", closeDrawer);
+  const search = $("#playerSearch");
+  if (search) {
+    search.addEventListener("input", () => {
+      playerSearch = search.value.trim().toLowerCase();
+      playerVisibleLimit = 48;
+      renderPlayers();
+    });
+  }
 }
 
 function closeDrawer() {
@@ -348,7 +384,7 @@ async function boot() {
     [summary, eventBoard, playerPayload, coursePayload, modelPayload, healthPayload] = await Promise.all([
       api("/api/summary"),
       api("/api/event"),
-      api("/api/player-cards?limit=80"),
+      api("/api/player-cards?limit=5000"),
       api("/api/course-cards?limit=60"),
       api("/api/model-board?limit=80"),
       api("/api/warehouse-health"),

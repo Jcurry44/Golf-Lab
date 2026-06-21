@@ -1,0 +1,367 @@
+{
+  "player": {
+    "player_id": "jake-knapp",
+    "player_name": "Jake Knapp",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 40,
+    "avg_to_par": -1.9,
+    "avg_sg_total": 1.19,
+    "first_round": "2025-08-08",
+    "last_round": "2026-06-20",
+    "sg_t2g": 0.712,
+    "sg_ott": 0.207,
+    "sg_app": 0.448,
+    "sg_arg": 0.057,
+    "sg_putt": 0.744,
+    "driving_distance": 319.8,
+    "accuracy": 0.589,
+    "gir": 0.6601,
+    "scrambling": 0.6538
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -3.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-19",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.78,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-18",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.134,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-17",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.634,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-16",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.28,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-12",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.093,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.63,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.846,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-09",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 1.648,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-29",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 4,
+        "score": 62,
+        "to_par": -8.0,
+        "sg_total": 7.24,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-28",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.653,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-27",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.843,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-26",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.619,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-13",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-12",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.869,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-22",
+        "event_name": "The Genesis Invitational",
+        "course": "The Riviera Country Club",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.431,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-21",
+        "event_name": "The Genesis Invitational",
+        "course": "The Riviera Country Club",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.863,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-20",
+        "event_name": "The Genesis Invitational",
+        "course": "The Riviera Country Club",
+        "round_number": 2,
+        "score": 65,
+        "to_par": -6.0,
+        "sg_total": 4.431,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-19",
+        "event_name": "The Genesis Invitational",
+        "course": "The Riviera Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.111,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-15",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.213,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-14",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 3.938,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-13",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 2.313,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.01
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.79
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.67
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.51
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.9
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.72
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 112,
+    "probability": 0.591647149214314,
+    "fair_odds_american": -145,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "high",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.19 strokes-gained baseline. Win probability sits at 59.2%.",
+    "risk_flags": "",
+    "avg_sg_total": 1.19,
+    "avg_to_par": -1.9
+  }
+}

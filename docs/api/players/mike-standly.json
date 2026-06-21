@@ -1,0 +1,244 @@
+{
+  "player": {
+    "player_id": "mike-standly",
+    "player_name": "Mike Standly",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20100516",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 14,
+    "avg_to_par": 2.43,
+    "avg_sg_total": -2.75,
+    "first_round": "2005-07-14",
+    "last_round": "2010-05-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2010-05-14",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 87,
+        "to_par": 15.0,
+        "sg_total": -15.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-05-13",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-08-01",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.938,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-31",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.326,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-02-23",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.156,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-02-22",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -7.678,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "B.C. Open presented by Turning Stone Resort",
+        "course": "Atunyote Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.831,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "B.C. Open presented by Turning Stone Resort",
+        "course": "Atunyote Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.53,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-25",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.797,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-24",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-23",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.629,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-22",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 2.225,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-15",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.466,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-14",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.15
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.17
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.19
+      },
+      {
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.67
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.92
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -8.67
+      }
+    ]
+  },
+  "model": null
+}

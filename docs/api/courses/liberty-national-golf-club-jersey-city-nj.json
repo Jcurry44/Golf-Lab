@@ -1,0 +1,91 @@
+{
+  "course": {
+    "course_id": "liberty-national-golf-club-jersey-city-nj",
+    "course_name": "Liberty National Golf Club",
+    "location": "Jersey City, NJ, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 12,
+    "avg_to_par": -1.0,
+    "avg_sg_total": -0.15,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.95
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.3
+      },
+      {
+        "player_id": "tyler-mccumber",
+        "player_name": "Tyler McCumber",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.85
+      },
+      {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.35
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "THE NORTHERN TRUST",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "THE NORTHERN TRUST",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

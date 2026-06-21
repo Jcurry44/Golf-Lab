@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "charles-coody",
+    "player_name": "Charles Coody",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060409",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 11.5,
+    "avg_sg_total": -9.02,
+    "first_round": "2005-04-07",
+    "last_round": "2006-04-07",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-06",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 89,
+        "to_par": 17.0,
+        "sg_total": -14.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-04-08",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 83,
+        "to_par": 11.0,
+        "sg_total": -9.11,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 88,
+        "to_par": 16.0,
+        "sg_total": -12.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": 11.5,
+        "avg_sg": -9.02
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,138 @@
+{
+  "player": {
+    "player_id": "mike-carbone",
+    "player_name": "Mike Carbone",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120624",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 3.67,
+    "avg_sg_total": -3.13,
+    "first_round": "2006-09-01",
+    "last_round": "2012-06-22",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-06-22",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.627,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-21",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.942,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-02",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.367,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-01",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -8.725,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-02",
+        "event_name": "Deutsche Bank Championship",
+        "course": "TPC Boston",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -1.594,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-01",
+        "event_name": "Deutsche Bank Championship",
+        "course": "TPC Boston",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -2.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.78
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.05
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -5.55
+      }
+    ]
+  },
+  "model": null
+}

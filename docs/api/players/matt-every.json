@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "matt-every",
+    "player_name": "Matt Every",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230716",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 3.02,
+    "avg_sg_total": -3.54,
+    "first_round": "2021-03-05",
+    "last_round": "2023-07-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-07-14",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-13",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.232,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-24",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.311,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-23",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.108,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-03",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.364,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-02",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.225,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-22",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -4.673,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-21",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.219,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 3,
+        "to_par": 3.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": -2,
+        "to_par": -2.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-07",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -9.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-01",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -8.875,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-30",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 10.0,
+        "sg_total": -9.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-10",
+        "event_name": "RBC Canadian Open",
+        "course": "St. George's G&CC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.421,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-09",
+        "event_name": "RBC Canadian Open",
+        "course": "St. George's G&CC",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -10.448,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-29",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.881,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-28",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.715,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -8.257,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-05",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.886,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-04",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.767,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-03",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.392,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-28",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -3.294,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-13",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -7.359,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-12",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.647,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.92
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -3.44
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.62
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": 1.67,
+        "avg_sg": -2.31
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": null
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -1.98
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "brendan-steele",
+    "player_name": "Brendan Steele",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230521",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.78,
+    "avg_sg_total": 0.22,
+    "first_round": "2022-07-29",
+    "last_round": "2023-05-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-05-19",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-18",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.679,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-10",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.432,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-09",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.373,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-28",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -0.849,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-27",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-26",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 4.519,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-25",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 5.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-22",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 2.406,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-21",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 64,
+        "to_par": -8.0,
+        "sg_total": 4.808,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-20",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-19",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-15",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-14",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": -0.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-13",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.806,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-01-12",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.465,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-12",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.768,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-11",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.087,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-10",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.576,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-23",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.731,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-22",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.231,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-21",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-20",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.231,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-16",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.654,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.31
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 3,
+        "avg_to_par": -2.67,
+        "avg_sg": 0.64
+      },
+      {
+        "course": "Congaree Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.46
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.41
+      },
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.1
+      },
+      {
+        "course": "Wilmington Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.0
+      }
+    ]
+  },
+  "model": null
+}

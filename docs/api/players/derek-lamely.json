@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "derek-lamely",
+    "player_name": "Derek Lamely",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240310",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.55,
+    "avg_sg_total": -1.44,
+    "first_round": "2012-11-10",
+    "last_round": "2024-03-08",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.652,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-10",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -8.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-09",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.485,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-15",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.245,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-14",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.622,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-14",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.123,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-13",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.232,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-07",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.665,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-06",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-09",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.045,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-08",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-12",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -9.199,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-11",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-30",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.014,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-29",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.329,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-28",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.757,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-27",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.201,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-05",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.386,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-04",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.8,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-03",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 3.364,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-02",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.775,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-22",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -4.673,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-21",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Jack Nicklaus (Tournament)",
+        "rounds": 6,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.57
+      },
+      {
+        "course": "Walt Disney World Resort - Magnolia Course",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.2
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.59
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.78
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.24
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 10,
+        "avg_to_par": 0.1,
+        "avg_sg": -0.87
+      }
+    ]
+  },
+  "model": null
+}

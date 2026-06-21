@@ -1,0 +1,138 @@
+{
+  "player": {
+    "player_id": "larry-george",
+    "player_name": "Larry George",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20061008",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 5.5,
+    "avg_sg_total": -5.29,
+    "first_round": "2006-04-13",
+    "last_round": "2006-10-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-10-06",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.492,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-10-05",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-05-05",
+        "event_name": "Wachovia Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-05-04",
+        "event_name": "Wachovia Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 85,
+        "to_par": 13.0,
+        "sg_total": -10.568,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-14",
+        "event_name": "Verizon Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.328,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-13",
+        "event_name": "Verizon Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 11.0,
+        "sg_total": -10.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -8.04
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -7.08
+      }
+    ]
+  },
+  "model": null
+}

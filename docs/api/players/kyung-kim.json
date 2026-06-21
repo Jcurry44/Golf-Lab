@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "kyung-kim",
+    "player_name": "Kyung Kim",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120812",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.18,
+    "avg_sg_total": -0.23,
+    "first_round": "2011-08-13",
+    "last_round": "2012-08-12",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-08-12",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.347,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-11",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-10",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": 1.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-09",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 4.327,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-05",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.853,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-04",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.8,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-03",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 4.104,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-02",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-20",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 2.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-19",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.417,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-01",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 0.507,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-30",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.138,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-29",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -1.008,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-28",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 1.592,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-22",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.627,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-21",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.942,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-17",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-16",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-15",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 2.032,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": 0.91,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-04-06",
+        "event_name": "The Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -1.574,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-04-05",
+        "event_name": "The Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.632,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-11",
+        "event_name": "World Golf Championships-Cadillac Championship",
+        "course": "Trump National Doral",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.139,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-10",
+        "event_name": "World Golf Championships-Cadillac Championship",
+        "course": "Trump National Doral",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.11,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.21
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.95
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.85
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.08
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.78
+      }
+    ]
+  },
+  "model": null
+}

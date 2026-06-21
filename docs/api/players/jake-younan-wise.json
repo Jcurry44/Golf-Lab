@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "jake-younan-wise",
+    "player_name": "Jake Younan-Wise",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20141109",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 0.7,
+    "avg_sg_total": -1.06,
+    "first_round": "2009-10-22",
+    "last_round": "2014-11-07",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2014-11-07",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -9.395,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-11-06",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.409,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-06",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-05",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 5.619,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-04",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.247,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.519,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-23",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.832,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-22",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.682,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": 0.65
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.76
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.49
+      }
+    ]
+  },
+  "model": null
+}

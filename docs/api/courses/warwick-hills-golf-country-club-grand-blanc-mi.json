@@ -1,0 +1,177 @@
+{
+  "course": {
+    "course_id": "warwick-hills-golf-country-club-grand-blanc-mi",
+    "course_name": "Warwick Hills Golf and Country Club",
+    "location": "Grand Blanc, Michigan",
+    "country": "",
+    "par": 72,
+    "yards": 7085,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 237,
+    "avg_to_par": -0.22,
+    "avg_sg_total": -1.44,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "danny-ellis",
+        "player_name": "Danny Ellis",
+        "rounds": 2,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.84
+      },
+      {
+        "player_id": "brian-vranesh",
+        "player_name": "Brian Vranesh",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.07
+      },
+      {
+        "player_id": "chris-anderson",
+        "player_name": "Chris Anderson",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "glen-hnatiuk",
+        "player_name": "Glen Hnatiuk",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "leif-olson",
+        "player_name": "Leif Olson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.82
+      },
+      {
+        "player_id": "jeff-hart",
+        "player_name": "Jeff Hart",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.66
+      },
+      {
+        "player_id": "jeff-sluman",
+        "player_name": "Jeff Sluman",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "colby-beckstrom",
+        "player_name": "Colby Beckstrom",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.41
+      },
+      {
+        "player_id": "mario-tiziani",
+        "player_name": "Mario Tiziani",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.41
+      },
+      {
+        "player_id": "tripp-isenhour",
+        "player_name": "Tripp Isenhour",
+        "rounds": 3,
+        "avg_to_par": -1.67,
+        "avg_sg": 0.73
+      },
+      {
+        "player_id": "scott-sterling",
+        "player_name": "Scott Sterling",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.11
+      },
+      {
+        "player_id": "sean-murphy",
+        "player_name": "Sean Murphy",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.01
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Buick Open",
+        "season": 2009,
+        "par": 72,
+        "yards": 7085,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Buick Open",
+        "season": 2008,
+        "par": 72,
+        "yards": 7085,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Buick Open",
+        "season": 2007,
+        "par": 72,
+        "yards": 7085,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Buick Open",
+        "season": 2006,
+        "par": 72,
+        "yards": 7085,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Buick Open",
+        "season": 2005,
+        "par": 72,
+        "yards": 7085,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

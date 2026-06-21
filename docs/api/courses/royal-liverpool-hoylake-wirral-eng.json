@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "royal-liverpool-hoylake-wirral-eng",
+    "course_name": "Royal Liverpool",
+    "location": "Hoylake, Wirral, ENG",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 101,
+    "avg_to_par": 2.12,
+    "avg_sg_total": -1.06,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "edoardo-molinari",
+        "player_name": "Edoardo Molinari",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.06
+      },
+      {
+        "player_id": "robert-karlsson",
+        "player_name": "Robert Karlsson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "david-howell",
+        "player_name": "David Howell",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "kristoffer-broberg",
+        "player_name": "Kristoffer Broberg",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "koumei-oda",
+        "player_name": "Koumei Oda",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.56
+      },
+      {
+        "player_id": "gregory-bourdy",
+        "player_name": "Gregory Bourdy",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.31
+      },
+      {
+        "player_id": "tom-watson",
+        "player_name": "Tom Watson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "chris-rodgers",
+        "player_name": "Chris Rodgers",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "jamie-mcleary",
+        "player_name": "Jamie McLeary",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "ashley-chesters",
+        "player_name": "Ashley Chesters",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.05
+      },
+      {
+        "player_id": "oliver-fisher",
+        "player_name": "Oliver Fisher",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.05
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open Championship",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

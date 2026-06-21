@@ -103,13 +103,14 @@ def select_event(events: list[dict[str, str]], predictions: list[dict[str, str]]
     return sorted(candidates, key=lambda row: first(row, "end_date", "start_date"), reverse=True)[0] if candidates else None
 
 
-def player_ids_for_event(rows: dict[str, list[dict[str, str]]], event_id: str, limit: int) -> set[str]:
+def player_ids_for_event(rows: dict[str, list[dict[str, str]]], event_id: str, limit: int = 0) -> set[str]:
     ids: list[str] = []
     seen: set[str] = set()
+    max_count = limit if limit and limit > 0 else None
 
     def push(value: str) -> None:
         player_id = clean(value)
-        if player_id and player_id not in seen and len(ids) < limit:
+        if player_id and player_id not in seen and (max_count is None or len(ids) < max_count):
             seen.add(player_id)
             ids.append(player_id)
 
@@ -128,6 +129,14 @@ def player_ids_for_event(rows: dict[str, list[dict[str, str]]], event_id: str, l
         if first(row, "event_id") == event_id:
             push(first(row, "player_id"))
     return set(ids)
+
+
+def player_ids_from_warehouse(input_dir: Path) -> set[str]:
+    return {
+        first(row, "id", "player_id")
+        for row in csv_rows(input_dir / COLLECTION_FILES["players"])
+        if first(row, "id", "player_id")
+    }
 
 
 def import_players(conn: sqlite3.Connection, rows: Iterable[dict[str, str]], player_ids: set[str]) -> None:
@@ -245,7 +254,10 @@ def import_rounds(conn: sqlite3.Connection, rows: Iterable[dict[str, str]], play
         for row in sorted(player_rows, key=lambda item: first(item, "date", "round_date", "source_updated_at"), reverse=True)[:limit_per_player]:
             round_id = first(row, "id", "round_id")
             event_id = first(row, "event_id")
-            course_id = first(row, "course_id")
+            player_id = first(row, "player_id")
+            course_id = first(row, "course_id") or None
+            if not round_id or not event_id or not player_id:
+                continue
             round_ids.add(round_id)
             event_ids.add(event_id)
             if course_id:
@@ -253,7 +265,7 @@ def import_rounds(conn: sqlite3.Connection, rows: Iterable[dict[str, str]], play
             upsert(conn, "rounds", {
                 "round_id": round_id,
                 "event_id": event_id,
-                "player_id": first(row, "player_id"),
+                "player_id": player_id,
                 "course_id": course_id,
                 "round_number": integer(first(row, "round_number")),
                 "round_date": first(row, "date", "round_date"),
@@ -495,7 +507,14 @@ def import_player_skill_snapshots(conn: sqlite3.Connection) -> None:
         })
 
 
-def import_from_warehouse(input_dir: Path, db_path: Path, event_id: str = "", player_limit: int = 80, rounds_per_player: int = 40) -> dict[str, Any]:
+def import_from_warehouse(
+    input_dir: Path,
+    db_path: Path,
+    event_id: str = "",
+    player_limit: int = 0,
+    rounds_per_player: int = 40,
+    event_field_only: bool = False,
+) -> dict[str, Any]:
     rows = {
         "events": list(csv_rows(input_dir / COLLECTION_FILES["events"])),
         "model_predictions": list(csv_rows(input_dir / COLLECTION_FILES["model_predictions"])),
@@ -507,7 +526,12 @@ def import_from_warehouse(input_dir: Path, db_path: Path, event_id: str = "", pl
     if not event:
         raise SystemExit("No event rows found in warehouse.")
     selected_event_id = first(event, "id", "event_id")
-    player_ids = player_ids_for_event(rows, selected_event_id, player_limit)
+    event_player_ids = player_ids_for_event(rows, selected_event_id)
+    player_ids = event_player_ids if event_field_only else player_ids_from_warehouse(input_dir)
+    if player_limit and player_limit > 0:
+        ranked_ids = player_ids_for_event(rows, selected_event_id, player_limit)
+        remaining_ids = [player_id for player_id in player_ids if player_id not in ranked_ids]
+        player_ids = set(ranked_ids) | set(remaining_ids[: max(player_limit - len(ranked_ids), 0)])
 
     conn = setup_db(db_path, reset=True)
     try:
@@ -515,10 +539,10 @@ def import_from_warehouse(input_dir: Path, db_path: Path, event_id: str = "", pl
         import_courses(conn, csv_rows(input_dir / COLLECTION_FILES["courses"]), set())
         import_events(conn, rows["events"], set())
         conn.commit()
-        import_fields(conn, rows["fields"], selected_event_id, player_ids)
-        model_run_ids = import_predictions(conn, rows["model_predictions"], selected_event_id, player_ids)
-        import_ledger(conn, rows["prediction_ledger"], selected_event_id, player_ids)
-        import_odds(conn, rows["odds_snapshots"], selected_event_id, player_ids)
+        import_fields(conn, rows["fields"], selected_event_id, event_player_ids)
+        model_run_ids = import_predictions(conn, rows["model_predictions"], selected_event_id, event_player_ids)
+        import_ledger(conn, rows["prediction_ledger"], selected_event_id, event_player_ids)
+        import_odds(conn, rows["odds_snapshots"], selected_event_id, event_player_ids)
         round_ids, round_event_ids, course_ids = import_rounds(conn, csv_rows(input_dir / COLLECTION_FILES["rounds"]), player_ids, rounds_per_player)
         event_ids = {selected_event_id, *round_event_ids}
         import_course_setups(conn, csv_rows(input_dir / COLLECTION_FILES["course_setups"]), event_ids, course_ids)
@@ -531,7 +555,12 @@ def import_from_warehouse(input_dir: Path, db_path: Path, event_id: str = "", pl
             table: conn.execute(f"select count(*) from {table}").fetchone()[0]
             for table in ["players", "events", "courses", "rounds", "strokes_gained", "model_predictions", "odds_snapshots"]
         }
-        return {"eventId": selected_event_id, "playerIds": len(player_ids), "counts": counts}
+        return {
+            "eventId": selected_event_id,
+            "playerIds": len(player_ids),
+            "eventPlayerIds": len(event_player_ids),
+            "counts": counts,
+        }
     finally:
         conn.close()
 
@@ -696,14 +725,22 @@ def main() -> None:
     parser.add_argument("--seed-starter", action="store_true", help="Create a small local starter database.")
     parser.add_argument("--from-warehouse", type=Path, help="Import from a Golf Lab CSV warehouse folder.")
     parser.add_argument("--event-id", default="")
-    parser.add_argument("--player-limit", type=int, default=80)
+    parser.add_argument("--player-limit", type=int, default=0, help="Optional cap for local development. Default 0 imports the full player universe.")
     parser.add_argument("--rounds-per-player", type=int, default=40)
+    parser.add_argument("--event-field-only", action="store_true", help="Import only players tied to the selected modeled event.")
     args = parser.parse_args()
 
     if args.seed_starter:
         result = seed_starter(args.db)
     elif args.from_warehouse:
-        result = import_from_warehouse(args.from_warehouse, args.db, args.event_id, args.player_limit, args.rounds_per_player)
+        result = import_from_warehouse(
+            args.from_warehouse,
+            args.db,
+            args.event_id,
+            args.player_limit,
+            args.rounds_per_player,
+            args.event_field_only,
+        )
     else:
         parser.error("Choose --seed-starter or --from-warehouse.")
         return

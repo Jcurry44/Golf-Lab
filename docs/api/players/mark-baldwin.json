@@ -1,0 +1,254 @@
+{
+  "player": {
+    "player_id": "mark-baldwin",
+    "player_name": "Mark Baldwin",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 16,
+    "avg_to_par": 2.69,
+    "avg_sg_total": -0.73,
+    "first_round": "2014-10-16",
+    "last_round": "2022-07-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-07-17",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 4,
+        "score": 5,
+        "to_par": 5.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-16",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 3,
+        "score": 4,
+        "to_par": 4.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 8,
+        "to_par": 8.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 0,
+        "to_par": 0.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-02-06",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.349,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-02-05",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 5.143,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-02-04",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.292,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-02-03",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.794,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-08",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 4,
+        "score": 7,
+        "to_par": 7.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-07",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 3,
+        "score": 5,
+        "to_par": 5.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-06",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 7,
+        "to_par": 7.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-08-05",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 8,
+        "to_par": 8.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-05",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.556,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-04",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.71,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-17",
+        "event_name": "Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.155,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-16",
+        "event_name": "Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.746,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.57
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.13
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.95
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 8,
+        "avg_to_par": 5.5,
+        "avg_sg": null
+      }
+    ]
+  },
+  "model": null
+}

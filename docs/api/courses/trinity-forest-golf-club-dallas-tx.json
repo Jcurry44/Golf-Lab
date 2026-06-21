@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "trinity-forest-golf-club-dallas-tx",
+    "course_name": "Trinity Forest Golf Club",
+    "location": "Dallas, TX, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 169,
+    "avg_to_par": 0.02,
+    "avg_sg_total": -1.33,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "ethan-tracy",
+        "player_name": "Ethan Tracy",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "brady-schnell",
+        "player_name": "Brady Schnell",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "joey-garber",
+        "player_name": "Joey Garber",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "morgan-hoffmann",
+        "player_name": "Morgan Hoffmann",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "martin-flores",
+        "player_name": "Martin Flores",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "curtis-luck",
+        "player_name": "Curtis Luck",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.56
+      },
+      {
+        "player_id": "eric-axley",
+        "player_name": "Eric Axley",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.44
+      },
+      {
+        "player_id": "brandon-harkins",
+        "player_name": "Brandon Harkins",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.31
+      },
+      {
+        "player_id": "steve-wheatcroft",
+        "player_name": "Steve Wheatcroft",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "daniel-chopra",
+        "player_name": "Daniel Chopra",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -1.24
+      },
+      {
+        "player_id": "t-j-vogel",
+        "player_name": "T.J. Vogel",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.31
+      },
+      {
+        "player_id": "chad-campbell",
+        "player_name": "Chad Campbell",
+        "rounds": 3,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.44
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "AT&T Byron Nelson",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T Byron Nelson",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

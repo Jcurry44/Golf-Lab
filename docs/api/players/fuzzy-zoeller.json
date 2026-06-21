@@ -1,0 +1,192 @@
+{
+  "player": {
+    "player_id": "fuzzy-zoeller",
+    "player_name": "Fuzzy Zoeller",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090412",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 7.08,
+    "avg_sg_total": -4.49,
+    "first_round": "2005-04-07",
+    "last_round": "2009-04-10",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2009-04-10",
+        "event_name": "The Masters",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.26,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-04-09",
+        "event_name": "The Masters",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -6.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -5.495,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -6.819,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-08",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -7.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-06",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -2.375,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-05",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": 2.188,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -7.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-06",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -3.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-04-08",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -4.11,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 84,
+        "to_par": 12.0,
+        "sg_total": -8.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 12,
+        "avg_to_par": 7.08,
+        "avg_sg": -4.49
+      }
+    ]
+  },
+  "model": null
+}

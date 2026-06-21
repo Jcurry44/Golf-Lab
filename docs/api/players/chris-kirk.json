@@ -1,0 +1,367 @@
+{
+  "player": {
+    "player_id": "chris-kirk",
+    "player_name": "Chris Kirk",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 40,
+    "avg_to_par": -0.36,
+    "avg_sg_total": -0.18,
+    "first_round": "2026-01-24",
+    "last_round": "2026-06-20",
+    "sg_t2g": 0.382,
+    "sg_ott": 0.046,
+    "sg_app": 0.249,
+    "sg_arg": 0.087,
+    "sg_putt": -0.497,
+    "driving_distance": 304.9,
+    "accuracy": 0.6088,
+    "gir": 0.6653,
+    "scrambling": 0.5547
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -4.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-12",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-11",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.493,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-29",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-28",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-24",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.586,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-23",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-22",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.158,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-21",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.952,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-17",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.39,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-16",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 5.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-15",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 2.609,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-14",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.737,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-05",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-04",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.543,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-03",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 3.323,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-02",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.78,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-29",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.76,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-28",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.347,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-27",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.843,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-26",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.619,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-15",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.671,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.05
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.49
+      },
+      {
+        "course": "TPC San Antonio - The Oaks Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.54
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.01
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.16
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.22
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 95,
+    "probability": 0.6318936116288965,
+    "fair_odds_american": -172,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "high",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.18 strokes gained. Win probability sits at 63.2%.",
+    "risk_flags": "",
+    "avg_sg_total": -0.18,
+    "avg_to_par": -0.36
+  }
+}

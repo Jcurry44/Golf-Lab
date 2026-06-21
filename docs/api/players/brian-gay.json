@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "brian-gay",
+    "player_name": "Brian Gay",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20231119",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.2,
+    "avg_sg_total": -0.95,
+    "first_round": "2022-07-29",
+    "last_round": "2023-11-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-11-19",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 4,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 1.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-18",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": -1.397,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-17",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.954,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-16",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.129,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-12",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.21,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-11",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.975,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-10",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.811,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-09",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.515,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-03",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.629,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-02",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.53,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-06",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-05",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.146,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-15",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.755,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-14",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.378,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-04",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-03",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-28",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -7.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-27",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.346,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-23",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -5.804,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-22",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.735,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-11",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.743,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-10",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.52,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-09",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.955,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-06-08",
+        "event_name": "RBC Canadian Open",
+        "course": "Oakdale Golf & Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 8,
+        "avg_to_par": -3.13,
+        "avg_sg": 1.27
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.28
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.55
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.45
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.7
+      },
+      {
+        "course": "Oakdale Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.03
+      }
+    ]
+  },
+  "model": null
+}

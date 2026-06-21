@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 17,
-    "avg_to_par": 0.35,
-    "avg_sg_total": 1.4,
-    "difficulty_bucket": "balanced"
+    "rounds": 147,
+    "avg_to_par": 2.69,
+    "avg_sg_total": -0.91,
+    "difficulty_bucket": "brutal"
   },
   "fits": {
     "columns": [
@@ -39,6 +39,20 @@
         "avg_sg": 2.51
       },
       {
+        "player_id": "ryutaro-nagano",
+        "player_name": "Ryutaro Nagano",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.26
+      },
+      {
         "player_id": "joaqu-n-niemann",
         "player_name": "Joaquín Niemann",
         "rounds": 4,
@@ -46,11 +60,53 @@
         "avg_sg": 1.01
       },
       {
-        "player_id": "patrick-reed",
-        "player_name": "Patrick Reed",
+        "player_id": "david-puig",
+        "player_name": "David Puig",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.24
+        "avg_to_par": 1.0,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "sam-bennett",
+        "player_name": "Sam Bennett",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.51
+      },
+      {
+        "player_id": "adrian-meronk",
+        "player_name": "Adrian Meronk",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "andrew-svoboda",
+        "player_name": "Andrew Svoboda",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "kyle-mueller",
+        "player_name": "Kyle Mueller",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "patrick-cover",
+        "player_name": "Patrick Cover",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.3
       }
     ]
   },

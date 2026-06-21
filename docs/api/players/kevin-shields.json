@@ -1,0 +1,115 @@
+{
+  "player": {
+    "player_id": "kevin-shields",
+    "player_name": "Kevin Shields",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170709",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 5,
+    "avg_to_par": 4.2,
+    "avg_sg_total": -4.54,
+    "first_round": "2013-07-04",
+    "last_round": "2017-07-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2017-07-06",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -9.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -6.208,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-02",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-05",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.361,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-04",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Old White TPC",
+        "rounds": 5,
+        "avg_to_par": 4.2,
+        "avg_sg": -4.54
+      }
+    ]
+  },
+  "model": null
+}

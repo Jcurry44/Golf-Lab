@@ -221,14 +221,7 @@ def selected_event(conn: sqlite3.Connection, event_id: str | None = None) -> dic
 
 def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: int = 24) -> dict[str, Any]:
     event = selected_event(conn, event_id)
-    params: tuple[Any, ...]
-    where = ""
-    if event:
-        where = "where mp.event_id = ? and mp.market = 'winner'"
-        params = (event["event_id"], limit)
-    else:
-        where = "where mp.market = 'winner'"
-        params = (limit,)
+    modeled_event_id = event["event_id"] if event else ""
     rows = conn.execute(
         f"""
         {LATEST_MODEL_CTE}
@@ -247,18 +240,36 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
           mp.probability,
           mp.edge_probability,
           mp.projected_to_par,
-          mp.confidence,
+          coalesce(
+            mp.confidence,
+            case
+              when coalesce(rf.rounds, 0) >= 20 then 'Profile'
+              when coalesce(rf.rounds, 0) > 0 then 'Thin data'
+              else 'Watch'
+            end
+          ) as confidence,
           mp.plain_english,
-          mp.risk_flags
-        from latest_model mp
-        join players p on p.player_id = mp.player_id
+          mp.risk_flags,
+          case when mp.player_id is null then 0 else 1 end as modeled
+        from players p
         left join player_recent_form rf on rf.player_id = p.player_id
         left join player_skill_snapshots ps on ps.player_id = p.player_id
-        {where}
-        order by coalesce(mp.rank, 9999), p.player_name
+        left join latest_model mp
+          on mp.player_id = p.player_id
+         and mp.market = 'winner'
+         and (? = '' or mp.event_id = ?)
+        where coalesce(rf.rounds, 0) > 0
+           or ps.player_id is not null
+           or mp.player_id is not null
+        order by
+          case when mp.rank is null then 1 else 0 end,
+          coalesce(mp.rank, 9999),
+          coalesce(rf.last_round, '') desc,
+          coalesce(rf.avg_sg_total, -999) desc,
+          p.player_name
         limit ?
         """,
-        params,
+        (modeled_event_id, modeled_event_id, limit),
     ).fetchall()
     return {"event": event, "rows": _enrich_reasoning(rows_to_dicts(rows))}
 
@@ -267,12 +278,27 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
     player = one(
         conn,
         """
-        select p.*, rf.rounds, rf.avg_to_par, rf.avg_sg_total, rf.first_round, rf.last_round
+        with recent as (
+          select r.player_id,
+                 count(r.round_id) as rounds,
+                 round(avg(r.to_par), 2) as avg_to_par,
+                 round(avg(sg.sg_total), 2) as avg_sg_total,
+                 min(r.round_date) as first_round,
+                 max(r.round_date) as last_round
+          from rounds r
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.player_id = ?
+          group by r.player_id
+        )
+        select p.*, rf.rounds, rf.avg_to_par, rf.avg_sg_total, rf.first_round, rf.last_round,
+               ps.sg_t2g, ps.sg_ott, ps.sg_app, ps.sg_arg, ps.sg_putt,
+               ps.driving_distance, ps.accuracy, ps.gir, ps.scrambling
         from players p
-        left join player_recent_form rf on rf.player_id = p.player_id
+        left join recent rf on rf.player_id = p.player_id
+        left join player_skill_snapshots ps on ps.player_id = p.player_id
         where p.player_id = ?
         """,
-        (player_id,),
+        (player_id, player_id),
     )
     if not player:
         raise ValueError("Unknown player")

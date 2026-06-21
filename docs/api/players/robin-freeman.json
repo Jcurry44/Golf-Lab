@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "robin-freeman",
+    "player_name": "Robin Freeman",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130721",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 2.42,
+    "avg_sg_total": -2.57,
+    "first_round": "2006-05-26",
+    "last_round": "2013-07-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2013-07-19",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-18",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -8.929,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-20",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.376,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-19",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.718,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-15",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.098,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-14",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.031,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-18",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 4,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.732,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-17",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -6.141,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-16",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.967,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-15",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.608,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-06-11",
+        "event_name": "St. Jude Classic presented by Smith & Nephew",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.9,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-06-10",
+        "event_name": "St. Jude Classic presented by Smith & Nephew",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.373,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-05-14",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-05-13",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-21",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.507,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-20",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -6.658,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-19",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.289,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-18",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.646,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-07",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-06",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.908,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.302,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.206,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-06-12",
+        "event_name": "St. Jude Classic presented by FedEx",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -11.967,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-06-11",
+        "event_name": "St. Jude Classic presented by FedEx",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 3,
+        "avg_to_par": -0.67,
+        "avg_sg": -0.04
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.3
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.17
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.7
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 12,
+        "avg_to_par": 3.08,
+        "avg_sg": -2.83
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 6,
+        "avg_to_par": 3.17,
+        "avg_sg": -4.89
+      }
+    ]
+  },
+  "model": null
+}

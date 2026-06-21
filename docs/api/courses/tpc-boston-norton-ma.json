@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "tpc-boston-norton-ma",
+    "course_name": "TPC Boston",
+    "location": "Norton, MA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 101,
+    "avg_to_par": 2.31,
+    "avg_sg_total": -1.58,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "franklin-langham",
+        "player_name": "Franklin Langham",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "matt-hansen",
+        "player_name": "Matt Hansen",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.95
+      },
+      {
+        "player_id": "bill-glasson",
+        "player_name": "Bill Glasson",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "bradley-hughes",
+        "player_name": "Bradley Hughes",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.34
+      },
+      {
+        "player_id": "geoffrey-sisk",
+        "player_name": "Geoffrey Sisk",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.12
+      },
+      {
+        "player_id": "dennis-paulson",
+        "player_name": "Dennis Paulson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.16
+      },
+      {
+        "player_id": "jeff-hart",
+        "player_name": "Jeff Hart",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.62
+      },
+      {
+        "player_id": "john-maginnes",
+        "player_name": "John Maginnes",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.62
+      },
+      {
+        "player_id": "matt-davidson",
+        "player_name": "Matt Davidson",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.62
+      },
+      {
+        "player_id": "michael-long",
+        "player_name": "Michael Long",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.62
+      },
+      {
+        "player_id": "ryan-hietala",
+        "player_name": "Ryan Hietala",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.7
+      },
+      {
+        "player_id": "john-elliott",
+        "player_name": "John Elliott",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.12
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "THE NORTHERN TRUST",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Dell Technologies Championship",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Dell Technologies Championship",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2011,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Deutsche Bank Championship",
+        "season": 2010,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

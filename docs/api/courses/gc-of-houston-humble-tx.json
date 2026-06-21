@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "gc-of-houston-humble-tx",
+    "course_name": "GC of Houston",
+    "location": "Humble, TX, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 348,
+    "avg_to_par": 1.38,
+    "avg_sg_total": -1.57,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "paul-dunne",
+        "player_name": "Paul Dunne",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "chad-campbell",
+        "player_name": "Chad Campbell",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "victor-dubuisson",
+        "player_name": "Victor Dubuisson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "boo-weekley",
+        "player_name": "Boo Weekley",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.62
+      },
+      {
+        "player_id": "seung-su-han",
+        "player_name": "Seung-su Han",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.4
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.44
+      },
+      {
+        "player_id": "andy-zhang",
+        "player_name": "Andy Zhang",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.37
+      },
+      {
+        "player_id": "john-cook",
+        "player_name": "John Cook",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.33
+      },
+      {
+        "player_id": "kelvin-day",
+        "player_name": "Kelvin Day",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.53
+      },
+      {
+        "player_id": "blake-adams",
+        "player_name": "Blake Adams",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "jarrod-lyle",
+        "player_name": "Jarrod Lyle",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "jim-renner",
+        "player_name": "Jim Renner",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.06
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Houston Open",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Houston Open",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2011,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shell Houston Open",
+        "season": 2010,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

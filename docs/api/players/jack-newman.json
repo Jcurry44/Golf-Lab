@@ -1,0 +1,160 @@
+{
+  "player": {
+    "player_id": "jack-newman",
+    "player_name": "Jack Newman",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160522",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": -0.13,
+    "avg_sg_total": -0.56,
+    "first_round": "2009-04-09",
+    "last_round": "2016-05-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-05-20",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-05-19",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.477,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.138,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-10",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.388,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-09",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.417,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-04-10",
+        "event_name": "The Masters",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.26,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-04-09",
+        "event_name": "The Masters",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.34
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.92
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
+      }
+    ]
+  },
+  "model": null
+}

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 4,
-    "avg_to_par": -2.75,
-    "avg_sg_total": 1.22,
-    "difficulty_bucket": "gettable"
+    "rounds": 723,
+    "avg_to_par": 0.55,
+    "avg_sg_total": -1.25,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
+        "player_id": "parker-coody",
+        "player_name": "Parker Coody",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.47
+      },
+      {
+        "player_id": "chip-mcdaniel",
+        "player_name": "Chip McDaniel",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.68
+      },
+      {
+        "player_id": "peter-kuest",
+        "player_name": "Peter Kuest",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.22
+      },
+      {
+        "player_id": "bryson-nimmer",
+        "player_name": "Bryson Nimmer",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "brady-schnell",
+        "player_name": "Brady Schnell",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.93
+      },
+      {
+        "player_id": "paul-dunne",
+        "player_name": "Paul Dunne",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.93
+      },
+      {
+        "player_id": "jorge-campillo",
+        "player_name": "Jorge Campillo",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.47
+      },
+      {
+        "player_id": "charley-hoffman",
+        "player_name": "Charley Hoffman",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.24
+      },
+      {
         "player_id": "alex-fitzpatrick",
         "player_name": "Alex Fitzpatrick",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 1.22
+      },
+      {
+        "player_id": "matt-nesmith",
+        "player_name": "Matt NeSmith",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.99
+      },
+      {
+        "player_id": "rick-lamb",
+        "player_name": "Rick Lamb",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "chase-seiffert",
+        "player_name": "Chase Seiffert",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.31
       }
     ]
   },

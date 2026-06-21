@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "scott-abbott",
+    "player_name": "Scott Abbott",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20070429",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 2.0,
+    "avg_sg_total": -1.0,
+    "first_round": "2007-04-26",
+    "last_round": "2007-04-27",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2007-04-27",
+        "event_name": "EDS Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.45,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-26",
+        "event_name": "EDS Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.458,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
+      }
+    ]
+  },
+  "model": null
+}

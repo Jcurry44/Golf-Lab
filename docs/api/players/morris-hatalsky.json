@@ -1,0 +1,59 @@
+{
+  "player": {
+    "player_id": "morris-hatalsky",
+    "player_name": "Morris Hatalsky",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120722",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 1,
+    "avg_to_par": 4.0,
+    "avg_sg_total": -5.72,
+    "first_round": "2012-07-19",
+    "last_round": "2012-07-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-07-19",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.718,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [],
+    "rows": []
+  },
+  "model": null
+}

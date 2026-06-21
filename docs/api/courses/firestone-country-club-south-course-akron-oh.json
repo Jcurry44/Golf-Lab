@@ -1,0 +1,102 @@
+{
+  "course": {
+    "course_id": "firestone-country-club-south-course-akron-oh",
+    "course_name": "Firestone Country Club - South Course",
+    "location": "Akron, Ohio",
+    "country": "",
+    "par": 70,
+    "yards": 7400,
+    "architect": "",
+    "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 28,
+    "avg_to_par": 1.57,
+    "avg_sg_total": -1.67,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.15
+      },
+      {
+        "player_id": "ryuko-tokimatsu",
+        "player_name": "Ryuko Tokimatsu",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.35
+      },
+      {
+        "player_id": "wade-ormsby",
+        "player_name": "Wade Ormsby",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.35
+      },
+      {
+        "player_id": "brandon-stone",
+        "player_name": "Brandon Stone",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.85
+      },
+      {
+        "player_id": "paul-dunne",
+        "player_name": "Paul Dunne",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.1
+      },
+      {
+        "player_id": "kodai-ichihara",
+        "player_name": "Kodai Ichihara",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.35
+      },
+      {
+        "player_id": "jaco-ahlers",
+        "player_name": "Jaco Ahlers",
+        "rounds": 4,
+        "avg_to_par": 5.75,
+        "avg_sg": -5.85
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "WGC-Bridgestone Invitational",
+        "season": 2018,
+        "par": 70,
+        "yards": 7400,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

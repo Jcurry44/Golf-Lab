@@ -69,19 +69,19 @@ class GolfLabHandler(BaseHTTPRequestHandler):
                     self.send_json(event_board(conn, str_param(params, "event_id")))
                     return
                 if parsed.path == "/api/player-cards":
-                    self.send_json(player_cards(conn, str_param(params, "event_id"), int_param(params, "limit", 24, 1, 100)))
+                    self.send_json(player_cards(conn, str_param(params, "event_id"), int_param(params, "limit", 250, 1, 5000)))
                     return
                 if parsed.path == "/api/player":
                     self.send_json(player_card(conn, str_param(params, "id"), str_param(params, "event_id")))
                     return
                 if parsed.path == "/api/course-cards":
-                    self.send_json(course_cards(conn, int_param(params, "limit", 18, 1, 100)))
+                    self.send_json(course_cards(conn, int_param(params, "limit", 250, 1, 500)))
                     return
                 if parsed.path == "/api/course":
                     self.send_json(course_card(conn, str_param(params, "id")))
                     return
                 if parsed.path == "/api/model-board":
-                    self.send_json(model_board(conn, str_param(params, "event_id"), int_param(params, "limit", 30, 1, 100)))
+                    self.send_json(model_board(conn, str_param(params, "event_id"), int_param(params, "limit", 100, 1, 500)))
                     return
                 if parsed.path == "/api/warehouse-health":
                     self.send_json(warehouse_health(conn))
@@ -109,4 +109,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

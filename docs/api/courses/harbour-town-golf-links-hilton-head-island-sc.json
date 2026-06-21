@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 180,
-    "avg_to_par": -1.98,
-    "avg_sg_total": 0.53,
-    "difficulty_bucket": "gettable"
+    "rounds": 751,
+    "avg_to_par": 0.24,
+    "avg_sg_total": -0.76,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -37,6 +37,13 @@
         "rounds": 4,
         "avg_to_par": -4.5,
         "avg_sg": 3.04
+      },
+      {
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
+        "rounds": 2,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.96
       },
       {
         "player_id": "si-woo-kim",
@@ -100,13 +107,6 @@
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 1.29
-      },
-      {
-        "player_id": "keegan-bradley",
-        "player_name": "Keegan Bradley",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.04
       }
     ]
   },

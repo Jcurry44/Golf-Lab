@@ -1,0 +1,102 @@
+{
+  "course": {
+    "course_id": "the-grove-golf-course-hertfordshire-england",
+    "course_name": "The Grove Golf Course",
+    "location": "Hertfordshire, England",
+    "country": "",
+    "par": 71,
+    "yards": 7125,
+    "architect": "",
+    "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 28,
+    "avg_to_par": 0.96,
+    "avg_sg_total": -1.58,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "jyoti-randhawa",
+        "player_name": "Jyoti Randhawa",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "john-bickerton",
+        "player_name": "John Bickerton",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -1.36
+      },
+      {
+        "player_id": "anthony-wall",
+        "player_name": "Anthony Wall",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.86
+      },
+      {
+        "player_id": "paul-broadhurst",
+        "player_name": "Paul Broadhurst",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.86
+      },
+      {
+        "player_id": "tetsuji-hiratsuka",
+        "player_name": "Tetsuji Hiratsuka",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.86
+      },
+      {
+        "player_id": "thaworn-wiratchant",
+        "player_name": "Thaworn Wiratchant",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.36
+      },
+      {
+        "player_id": "craig-parry",
+        "player_name": "Craig Parry",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.86
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "World Golf Championships-American Express Champion",
+        "season": 2006,
+        "par": 71,
+        "yards": 7125,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

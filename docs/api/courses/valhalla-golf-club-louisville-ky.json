@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 26,
-    "avg_to_par": -1.69,
-    "avg_sg_total": 1.04,
-    "difficulty_bucket": "gettable"
+    "rounds": 133,
+    "avg_to_par": 1.25,
+    "avg_sg_total": -1.51,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -32,6 +32,20 @@
         "avg_sg": 4.28
       },
       {
+        "player_id": "dean-burmester",
+        "player_name": "Dean Burmester",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.28
+      },
+      {
+        "player_id": "alexander-bj-rk",
+        "player_name": "Alexander Björk",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.03
+      },
+      {
         "player_id": "joaqu-n-niemann",
         "player_name": "Joaquín Niemann",
         "rounds": 4,
@@ -46,11 +60,32 @@
         "avg_sg": 0.78
       },
       {
+        "player_id": "grayson-murray",
+        "player_name": "Grayson Murray",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.78
+      },
+      {
+        "player_id": "lucas-herbert",
+        "player_name": "Lucas Herbert",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.78
+      },
+      {
         "player_id": "patrick-reed",
         "player_name": "Patrick Reed",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 0.53
+      },
+      {
+        "player_id": "talor-gooch",
+        "player_name": "Talor Gooch",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.28
       },
       {
         "player_id": "cameron-smith",
@@ -67,11 +102,11 @@
         "avg_sg": 0.03
       },
       {
-        "player_id": "jon-rahm",
-        "player_name": "Jon Rahm",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.16
+        "player_id": "luke-donald",
+        "player_name": "Luke Donald",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.22
       }
     ]
   },

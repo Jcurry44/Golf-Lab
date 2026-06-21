@@ -1,0 +1,228 @@
+{
+  "player": {
+    "player_id": "cooper-dossey",
+    "player_name": "Cooper Dossey",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 13,
+    "avg_to_par": 0.08,
+    "avg_sg_total": 0.3,
+    "first_round": "2022-05-12",
+    "last_round": "2026-06-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.252,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -5.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.488,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 64,
+        "to_par": -6.0,
+        "sg_total": 5.047,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.779,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-11",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.937,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-17",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 4.307,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-16",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 4.161,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-15",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 2.024,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-13",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.916,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-12",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 8,
+        "avg_to_par": -1.13,
+        "avg_sg": 1.6
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.86
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.74
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 126,
+    "probability": 0.558205547167335,
+    "fair_odds_american": -126,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "medium",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.30 strokes gained. Win probability sits at 55.8%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.3,
+    "avg_to_par": 0.08
+  }
+}

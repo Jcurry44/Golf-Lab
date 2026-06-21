@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 110,
-    "avg_to_par": -0.37,
-    "avg_sg_total": 0.16,
-    "difficulty_bucket": "balanced"
+    "rounds": 516,
+    "avg_to_par": 1.86,
+    "avg_sg_total": -1.23,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -27,6 +27,13 @@
       {
         "player_id": "akshay-bhatia",
         "player_name": "Akshay Bhatia",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.47
+      },
+      {
+        "player_id": "daniel-berger",
+        "player_name": "Daniel Berger",
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 3.47
@@ -53,6 +60,13 @@
         "avg_sg": 2.47
       },
       {
+        "player_id": "min-woo-lee",
+        "player_name": "Min Woo Lee",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.22
+      },
+      {
         "player_id": "russell-henley",
         "player_name": "Russell Henley",
         "rounds": 4,
@@ -67,6 +81,13 @@
         "avg_sg": 2.08
       },
       {
+        "player_id": "harry-hall",
+        "player_name": "Harry Hall",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.72
+      },
+      {
         "player_id": "rickie-fowler",
         "player_name": "Rickie Fowler",
         "rounds": 4,
@@ -74,39 +95,18 @@
         "avg_sg": 1.72
       },
       {
-        "player_id": "billy-horschel",
-        "player_name": "Billy Horschel",
+        "player_id": "adam-scott",
+        "player_name": "Adam Scott",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.97
+        "avg_to_par": -1.5,
+        "avg_sg": 1.22
       },
       {
-        "player_id": "maverick-mcnealy",
-        "player_name": "Maverick McNealy",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.97
-      },
-      {
-        "player_id": "viktor-hovland",
-        "player_name": "Viktor Hovland",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.97
-      },
-      {
-        "player_id": "chris-gotterup",
-        "player_name": "Chris Gotterup",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.47
-      },
-      {
-        "player_id": "kurt-kitayama",
-        "player_name": "Kurt Kitayama",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.47
+        "player_id": "jacob-bridgeman",
+        "player_name": "Jacob Bridgeman",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.85
       }
     ]
   },

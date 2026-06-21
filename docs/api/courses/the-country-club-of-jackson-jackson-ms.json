@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 6,
-    "avg_to_par": -1.0,
-    "avg_sg_total": -0.9,
-    "difficulty_bucket": "gettable"
+    "rounds": 775,
+    "avg_to_par": -0.52,
+    "avg_sg_total": -0.93,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,18 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "harry-higgs",
-        "player_name": "Harry Higgs",
+        "player_id": "scott-stallings",
+        "player_name": "Scott Stallings",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.25
+        "avg_to_par": -4.5,
+        "avg_sg": 2.93
       },
       {
-        "player_id": "niklas-n-rgaard",
-        "player_name": "Niklas Nørgaard",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.19
+        "player_id": "frankie-capan-iii",
+        "player_name": "Frankie Capan III",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.25
+      },
+      {
+        "player_id": "taylor-montgomery",
+        "player_name": "Taylor Montgomery",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.25
+      },
+      {
+        "player_id": "grant-hirschman",
+        "player_name": "Grant Hirschman",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.71
+      },
+      {
+        "player_id": "ryan-hall",
+        "player_name": "Ryan Hall",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.38
+      },
+      {
+        "player_id": "hiroshi-iwata",
+        "player_name": "Hiroshi Iwata",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.84
+      },
+      {
+        "player_id": "victor-perez",
+        "player_name": "Victor Perez",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.75
+      },
+      {
+        "player_id": "greg-owen",
+        "player_name": "Greg Owen",
+        "rounds": 3,
+        "avg_to_par": -3.67,
+        "avg_sg": 2.96
+      },
+      {
+        "player_id": "paul-barjon",
+        "player_name": "Paul Barjon",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 0.88
+      },
+      {
+        "player_id": "dylan-meyer",
+        "player_name": "Dylan Meyer",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "brett-white",
+        "player_name": "Brett White",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "wesley-bryan",
+        "player_name": "Wesley Bryan",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.63
       }
     ]
   },

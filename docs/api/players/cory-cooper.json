@@ -1,0 +1,59 @@
+{
+  "player": {
+    "player_id": "cory-cooper",
+    "player_name": "Cory Cooper",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20151109",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 1,
+    "avg_to_par": 2.0,
+    "avg_sg_total": -4.13,
+    "first_round": "2015-11-05",
+    "last_round": "2015-11-05",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-11-05",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [],
+    "rows": []
+  },
+  "model": null
+}

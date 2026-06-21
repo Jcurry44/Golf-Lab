@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 34,
-    "avg_to_par": 3.26,
-    "avg_sg_total": 0.92,
+    "rounds": 231,
+    "avg_to_par": 6.56,
+    "avg_sg_total": -1.69,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -24,6 +24,13 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 3.07
+      },
       {
         "player_id": "tyrrell-hatton",
         "player_name": "Tyrrell Hatton",
@@ -39,11 +46,39 @@
         "avg_sg": 2.82
       },
       {
+        "player_id": "thriston-lawrence",
+        "player_name": "Thriston Lawrence",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "victor-perez",
+        "player_name": "Victor Perez",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.07
+      },
+      {
         "player_id": "patrick-reed",
         "player_name": "Patrick Reed",
         "rounds": 4,
         "avg_to_par": 2.0,
         "avg_sg": 1.82
+      },
+      {
+        "player_id": "thomas-detry",
+        "player_name": "Thomas Detry",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "marc-leishman",
+        "player_name": "Marc Leishman",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 1.07
       },
       {
         "player_id": "niklas-n-rgaard",
@@ -53,60 +88,25 @@
         "avg_sg": 0.57
       },
       {
+        "player_id": "ryan-mccormick",
+        "player_name": "Ryan McCormick",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.33
+      },
+      {
+        "player_id": "justin-hastings",
+        "player_name": "Justin Hastings",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.08
+      },
+      {
         "player_id": "laurie-canter",
         "player_name": "Laurie Canter",
         "rounds": 4,
         "avg_to_par": 3.75,
         "avg_sg": 0.07
-      },
-      {
-        "player_id": "ben-james",
-        "player_name": "Ben James",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": 0.71
-      },
-      {
-        "player_id": "cameron-smith",
-        "player_name": "Cameron Smith",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": 0.71
-      },
-      {
-        "player_id": "jackson-koivun",
-        "player_name": "Jackson Koivun",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": 0.71
-      },
-      {
-        "player_id": "bryson-dechambeau",
-        "player_name": "Bryson DeChambeau",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "dustin-johnson",
-        "player_name": "Dustin Johnson",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "joaqu-n-niemann",
-        "player_name": "Joaquín Niemann",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "matthew-jordan",
-        "player_name": "Matthew Jordan",
-        "rounds": 2,
-        "avg_to_par": 7.0,
-        "avg_sg": -2.29
       }
     ]
   },

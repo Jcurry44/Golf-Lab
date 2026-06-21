@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "tommy-sharp",
+    "player_name": "Tommy Sharp",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251026",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 6.25,
+    "avg_sg_total": -5.96,
+    "first_round": "2016-07-28",
+    "last_round": "2025-10-24",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-10-24",
+        "event_name": "Bank of Utah Championship",
+        "course": "Black Desert Resort",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 11.0,
+        "sg_total": -11.476,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-10-23",
+        "event_name": "Bank of Utah Championship",
+        "course": "Black Desert Resort",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.733,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-29",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-28",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -5.308,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.81
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -8.1
+      }
+    ]
+  },
+  "model": null
+}

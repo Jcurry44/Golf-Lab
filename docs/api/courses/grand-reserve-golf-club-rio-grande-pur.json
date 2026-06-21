@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 37,
-    "avg_to_par": -2.03,
-    "avg_sg_total": 0.69,
-    "difficulty_bucket": "gettable"
+    "rounds": 2192,
+    "avg_to_par": 0.16,
+    "avg_sg_total": -1.01,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,41 @@
     ],
     "rows": [
       {
+        "player_id": "ricky-castillo",
+        "player_name": "Ricky Castillo",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.1
+      },
+      {
+        "player_id": "chandler-blanchet",
+        "player_name": "Chandler Blanchet",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.85
+      },
+      {
+        "player_id": "norman-xiong",
+        "player_name": "Norman Xiong",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "andrew-johnston",
+        "player_name": "Andrew Johnston",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "evan-harmeling",
+        "player_name": "Evan Harmeling",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.77
+      },
+      {
         "player_id": "jackson-van-paris",
         "player_name": "Jackson Van Paris",
         "rounds": 4,
@@ -32,67 +67,46 @@
         "avg_sg": 1.77
       },
       {
-        "player_id": "john-parry",
-        "player_name": "John Parry",
+        "player_id": "chris-korte",
+        "player_name": "Chris Korte",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.6
+        "avg_to_par": -3.75,
+        "avg_sg": 1.4
       },
       {
-        "player_id": "zac-blair",
-        "player_name": "Zac Blair",
+        "player_id": "philip-knowles",
+        "player_name": "Philip Knowles",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.6
+        "avg_to_par": -3.75,
+        "avg_sg": 1.4
       },
       {
-        "player_id": "matthew-jordan",
-        "player_name": "Matthew Jordan",
+        "player_id": "steve-marino",
+        "player_name": "Steve Marino",
+        "rounds": 3,
+        "avg_to_par": -3.67,
+        "avg_sg": 1.71
+      },
+      {
+        "player_id": "davis-thompson",
+        "player_name": "Davis Thompson",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.4
+        "avg_to_par": -3.25,
+        "avg_sg": 2.1
       },
       {
-        "player_id": "adrien-dumont-de-chassart",
-        "player_name": "Adrien Dumont de Chassart",
+        "player_id": "will-wilcox",
+        "player_name": "Will Wilcox",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.85
+        "avg_to_par": -3.25,
+        "avg_sg": 1.4
       },
       {
-        "player_id": "michael-brennan",
-        "player_name": "Michael Brennan",
+        "player_id": "nick-o-hern",
+        "player_name": "Nick O'Hern",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.85
-      },
-      {
-        "player_id": "ben-kohles",
-        "player_name": "Ben Kohles",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.35
-      },
-      {
-        "player_id": "miles-russell",
-        "player_name": "Miles Russell",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.1
-      },
-      {
-        "player_id": "harry-higgs",
-        "player_name": "Harry Higgs",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.74
-      },
-      {
-        "player_id": "jackson-suber",
-        "player_name": "Jackson Suber",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.74
+        "avg_to_par": -3.25,
+        "avg_sg": 1.39
       }
     ]
   },

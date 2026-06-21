@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 124,
-    "avg_to_par": -0.69,
-    "avg_sg_total": 0.55,
+    "rounds": 811,
+    "avg_to_par": 0.79,
+    "avg_sg_total": -0.88,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,13 @@
     ],
     "rows": [
       {
+        "player_id": "eric-cole",
+        "player_name": "Eric Cole",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.0
+      },
+      {
         "player_id": "russell-henley",
         "player_name": "Russell Henley",
         "rounds": 4,
@@ -32,8 +39,22 @@
         "avg_sg": 3.0
       },
       {
+        "player_id": "alex-smalley",
+        "player_name": "Alex Smalley",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.75
+      },
+      {
         "player_id": "ben-griffin",
         "player_name": "Ben Griffin",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.75
+      },
+      {
+        "player_id": "mac-meissner",
+        "player_name": "Mac Meissner",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 2.75
@@ -46,6 +67,13 @@
         "avg_sg": 2.5
       },
       {
+        "player_id": "j-j-spaun",
+        "player_name": "J.J. Spaun",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.5
+      },
+      {
         "player_id": "michael-brennan",
         "player_name": "Michael Brennan",
         "rounds": 4,
@@ -53,60 +81,32 @@
         "avg_sg": 2.5
       },
       {
-        "player_id": "ryan-gerard",
-        "player_name": "Ryan Gerard",
+        "player_id": "nico-echavarria",
+        "player_name": "Nico Echavarria",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "fulton-allem",
+        "player_name": "Fulton Allem",
+        "rounds": 14,
+        "avg_to_par": -2.29,
+        "avg_sg": -2.97
+      },
+      {
+        "player_id": "mackenzie-hughes",
+        "player_name": "Mackenzie Hughes",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 2.25
       },
       {
-        "player_id": "hideki-matsuyama",
-        "player_name": "Hideki Matsuyama",
+        "player_id": "ryan-gerard",
+        "player_name": "Ryan Gerard",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.0
-      },
-      {
-        "player_id": "justin-thomas",
-        "player_name": "Justin Thomas",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.0
-      },
-      {
-        "player_id": "andrew-putnam",
-        "player_name": "Andrew Putnam",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "ludvig-berg",
-        "player_name": "Ludvig Åberg",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "michael-kim",
-        "player_name": "Michael Kim",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "brian-harman",
-        "player_name": "Brian Harman",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.25
-      },
-      {
-        "player_id": "pierceson-coody",
-        "player_name": "Pierceson Coody",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.25
+        "avg_to_par": -2.25,
+        "avg_sg": 2.25
       }
     ]
   },

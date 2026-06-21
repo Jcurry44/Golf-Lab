@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "lee-slattery",
+    "player_name": "Lee Slattery",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190616",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 24,
+    "avg_to_par": 0.96,
+    "avg_sg_total": 0.53,
+    "first_round": "2006-07-20",
+    "last_round": "2019-06-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-19",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 4,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.537,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-18",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -5.97,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-17",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 5.604,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-16",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 2.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-05",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.147,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-04",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.8,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-03",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.104,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-08-02",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 5.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-22",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.145,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-21",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.193,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-20",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-19",
+        "event_name": "The Open Championship",
+        "course": "Royal Lytham St. Anne",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.583,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-15",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 4.032,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -4.09,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-06",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.506,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-05",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.462,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-04",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-03",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-23",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.944,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-22",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.873,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.224,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.7
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.38
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.4
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.13
+      },
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -0.19
+      },
+      {
+        "course": "Oakmont CC",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.17
+      }
+    ]
+  },
+  "model": null
+}

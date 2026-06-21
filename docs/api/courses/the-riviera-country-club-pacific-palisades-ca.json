@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 74,
-    "avg_to_par": -1.97,
-    "avg_sg_total": 0.63,
-    "difficulty_bucket": "gettable"
+    "rounds": 432,
+    "avg_to_par": 1.06,
+    "avg_sg_total": -1.32,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,25 @@
     ],
     "rows": [
       {
+        "player_id": "scott-mahlberg",
+        "player_name": "Scott Mahlberg",
+        "rounds": 2,
+        "avg_to_par": -33.0,
+        "avg_sg": -3.54
+      },
+      {
         "player_id": "kurt-kitayama",
         "player_name": "Kurt Kitayama",
         "rounds": 2,
         "avg_to_par": -5.0,
         "avg_sg": 3.15
+      },
+      {
+        "player_id": "robert-macintyre",
+        "player_name": "Robert MacIntyre",
+        "rounds": 2,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.65
       },
       {
         "player_id": "rory-mcilroy",
@@ -39,11 +53,39 @@
         "avg_sg": 2.9
       },
       {
+        "player_id": "adam-scott",
+        "player_name": "Adam Scott",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.65
+      },
+      {
+        "player_id": "aldrich-potgieter",
+        "player_name": "Aldrich Potgieter",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.4
+      },
+      {
         "player_id": "harris-english",
         "player_name": "Harris English",
         "rounds": 3,
         "avg_to_par": -3.33,
         "avg_sg": 1.57
+      },
+      {
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "jason-allred",
+        "player_name": "Jason Allred",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.09
       },
       {
         "player_id": "cameron-young",
@@ -65,48 +107,6 @@
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.65
-      },
-      {
-        "player_id": "xander-schauffele",
-        "player_name": "Xander Schauffele",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.65
-      },
-      {
-        "player_id": "scottie-scheffler",
-        "player_name": "Scottie Scheffler",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.4
-      },
-      {
-        "player_id": "akshay-bhatia",
-        "player_name": "Akshay Bhatia",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.15
-      },
-      {
-        "player_id": "pierceson-coody",
-        "player_name": "Pierceson Coody",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.15
-      },
-      {
-        "player_id": "max-greyserman",
-        "player_name": "Max Greyserman",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.4
-      },
-      {
-        "player_id": "aaron-rai",
-        "player_name": "Aaron Rai",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.15
       }
     ]
   },

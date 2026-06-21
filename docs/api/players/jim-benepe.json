@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "jim-benepe",
+    "player_name": "Jim Benepe",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20050717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 3.75,
+    "avg_sg_total": -2.73,
+    "first_round": "2005-06-16",
+    "last_round": "2005-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2005-07-15",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.466,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-14",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.129,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-06-17",
+        "event_name": "U.S. Open Championship",
+        "course": "Pinehurst Resort - Course No. 2",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.292,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-06-16",
+        "event_name": "U.S. Open Championship",
+        "course": "Pinehurst Resort - Course No. 2",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -7.301,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.67
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -4.8
+      }
+    ]
+  },
+  "model": null
+}

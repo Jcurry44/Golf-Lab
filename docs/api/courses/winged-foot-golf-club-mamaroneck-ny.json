@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "winged-foot-golf-club-mamaroneck-ny",
+    "course_name": "Winged Foot Golf Club - West Course",
+    "location": "Mamaroneck, New York",
+    "country": "",
+    "par": 70,
+    "yards": 7264,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 137,
+    "avg_to_par": 6.44,
+    "avg_sg_total": -1.75,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "peter-hedblom",
+        "player_name": "Peter Hedblom",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.62
+      },
+      {
+        "player_id": "renato-paratore",
+        "player_name": "Renato Paratore",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.09
+      },
+      {
+        "player_id": "romain-langasque",
+        "player_name": "Romain Langasque",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.41
+      },
+      {
+        "player_id": "jay-haas",
+        "player_name": "Jay Haas",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.87
+      },
+      {
+        "player_id": "andy-ogletree",
+        "player_name": "Andy Ogletree",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "shaun-norris",
+        "player_name": "Shaun Norris",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "phillip-archer",
+        "player_name": "Phillip Archer",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": 0.37
+      },
+      {
+        "player_id": "ryo-ishikawa",
+        "player_name": "Ryo Ishikawa",
+        "rounds": 4,
+        "avg_to_par": 4.5,
+        "avg_sg": -0.41
+      },
+      {
+        "player_id": "john-augenstein",
+        "player_name": "John Augenstein",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -0.59
+      },
+      {
+        "player_id": "preston-summerhays",
+        "player_name": "Preston Summerhays",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -0.59
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Open Championship",
+        "season": 2006,
+        "par": 70,
+        "yards": 7264,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

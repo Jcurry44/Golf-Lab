@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "scott-gordon",
+    "player_name": "Scott Gordon",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20111023",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.8,
+    "avg_sg_total": -1.65,
+    "first_round": "2011-02-11",
+    "last_round": "2011-10-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-10-21",
+        "event_name": "Children's Miracle Network Hospitals Classic",
+        "course": null,
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.617,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-20",
+        "event_name": "Children's Miracle Network Hospitals Classic",
+        "course": null,
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.266,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-07",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-06",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.129,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-09-30",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.947,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-09-29",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.167,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-19",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.845,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-18",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -7.832,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-05",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.094,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-04",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.258,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-29",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.117,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-28",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-22",
+        "event_name": "RBC Canadian Open",
+        "course": "Shaughnessy Golf and Country Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -5.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-21",
+        "event_name": "RBC Canadian Open",
+        "course": "Shaughnessy Golf and Country Club",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -8.962,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-15",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.098,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-14",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.031,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-08",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -6.691,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-07",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.117,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-24",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.176,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-23",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.981,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-10",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.073,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-09",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.212,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-05-29",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -1.838,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-05-28",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 1.338,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Annandale GC",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.56
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.61
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.4
+      },
+      {
+        "course": null,
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.13
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.99
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.33
+      }
+    ]
+  },
+  "model": null
+}

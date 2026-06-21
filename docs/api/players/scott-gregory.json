@@ -1,0 +1,194 @@
+{
+  "player": {
+    "player_id": "scott-gregory",
+    "player_name": "Scott Gregory",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180617",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 5.7,
+    "avg_sg_total": -3.26,
+    "first_round": "2016-07-14",
+    "last_round": "2018-06-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2018-06-15",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -1.404,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-06-14",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills GC",
+        "round_number": 1,
+        "score": 92,
+        "to_par": 22.0,
+        "sg_total": -15.526,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-16",
+        "event_name": "U.S. Open",
+        "course": "Erin Hills",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-15",
+        "event_name": "U.S. Open",
+        "course": "Erin Hills",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.615,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-02",
+        "event_name": "the Memorial Tournament presented by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.319,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-01",
+        "event_name": "the Memorial Tournament presented by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.681,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-04-07",
+        "event_name": "2017 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -0.258,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-04-06",
+        "event_name": "2017 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -7.022,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-15",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 1.383,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -5.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.69
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.18
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.3
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.64
+      },
+      {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 13.5,
+        "avg_sg": -8.46
+      }
+    ]
+  },
+  "model": null
+}

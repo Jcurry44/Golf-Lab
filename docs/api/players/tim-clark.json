@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "tim-clark",
+    "player_name": "Tim Clark",
+    "country": "South Africa",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160124",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.13,
+    "avg_sg_total": -0.85,
+    "first_round": "2015-01-12",
+    "last_round": "2016-01-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-01-23",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.677,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-22",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.381,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-21",
+        "event_name": "CareerBuilder Challenge in partnership with the Clinton Foundation",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.718,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-17",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.068,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-16",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.368,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-15",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.535,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-01-14",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.833,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-20",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-19",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.181,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-15",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-14",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-13",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-12",
+        "event_name": "OHL Classic at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.023,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-06",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -8.042,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-11-05",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-23",
+        "event_name": "Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.704,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-22",
+        "event_name": "Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.643,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-16",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.86,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-15",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.257,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-28",
+        "event_name": "The Barclays",
+        "course": "Plainfield CC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.916,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-27",
+        "event_name": "The Barclays",
+        "course": "Plainfield CC",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.16,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-23",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-22",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.42,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-21",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.618,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Waialae Country Club",
+        "rounds": 8,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.25
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.79
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.55
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.31
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.03
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.97
+      }
+    ]
+  },
+  "model": null
+}

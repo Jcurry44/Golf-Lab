@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "nick-sherwood",
+    "player_name": "Nick Sherwood",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120617",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 9.0,
+    "avg_sg_total": -4.53,
+    "first_round": "2012-06-14",
+    "last_round": "2012-06-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-06-15",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -5.968,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -3.09,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Olympic Club",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -4.53
+      }
+    ]
+  },
+  "model": null
+}

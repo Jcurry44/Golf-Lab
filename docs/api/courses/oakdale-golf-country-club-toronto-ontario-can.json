@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "oakdale-golf-country-club-toronto-ontario-can",
+    "course_name": "Oakdale Golf & Country Club",
+    "location": "Toronto, Ontario, CAN",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 97,
+    "avg_to_par": 1.26,
+    "avg_sg_total": -1.31,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "sam-bennett",
+        "player_name": "Sam Bennett",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.53
+      },
+      {
+        "player_id": "ted-potter-jr",
+        "player_name": "Ted Potter Jr.",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "brent-grant",
+        "player_name": "Brent Grant",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.03
+      },
+      {
+        "player_id": "brian-gay",
+        "player_name": "Brian Gay",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.03
+      },
+      {
+        "player_id": "cameron-percy",
+        "player_name": "Cameron Percy",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.03
+      },
+      {
+        "player_id": "mike-weir",
+        "player_name": "Mike Weir",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.03
+      },
+      {
+        "player_id": "stuart-macdonald",
+        "player_name": "Stuart Macdonald",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.22
+      },
+      {
+        "player_id": "aaron-cockerill",
+        "player_name": "Aaron Cockerill",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "adrian-meronk",
+        "player_name": "Adrian Meronk",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "augusto-n-ez",
+        "player_name": "Augusto Núñez",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "scott-brown",
+        "player_name": "Scott Brown",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.47
+      },
+      {
+        "player_id": "wil-bateman",
+        "player_name": "Wil Bateman",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.72
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

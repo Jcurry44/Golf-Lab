@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "henry-chung",
+    "player_name": "Henry Chung",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230917",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 1.67,
+    "avg_sg_total": -2.58,
+    "first_round": "2019-09-26",
+    "last_round": "2023-09-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-09-15",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.245,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-14",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.622,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-22",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -6.039,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-21",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-09-27",
+        "event_name": "Safeway Open",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.66,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-09-26",
+        "event_name": "Safeway Open",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.472,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.13
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.49
+      }
+    ]
+  },
+  "model": null
+}

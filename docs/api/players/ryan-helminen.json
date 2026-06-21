@@ -1,0 +1,227 @@
+{
+  "player": {
+    "player_id": "ryan-helminen",
+    "player_name": "Ryan Helminen",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160731",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 13,
+    "avg_to_par": 1.85,
+    "avg_sg_total": -1.62,
+    "first_round": "2005-07-21",
+    "last_round": "2016-07-29",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-07-29",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-28",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.308,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-14",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.935,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-13",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -1.853,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-08-08",
+        "event_name": "PGA Championship",
+        "course": "Valhalla GC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.358,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-08-07",
+        "event_name": "PGA Championship",
+        "course": "Valhalla GC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.794,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-18",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.025,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.698,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.206,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-24",
+        "event_name": "Chrysler Classic of Tucson",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.796,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-23",
+        "event_name": "Chrysler Classic of Tucson",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.597,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-22",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.68,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-21",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.455,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Valhalla GC",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.28
+      },
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.31
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 5,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.33
+      },
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.46
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.2
+      }
+    ]
+  },
+  "model": null
+}

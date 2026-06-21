@@ -1,0 +1,192 @@
+{
+  "player": {
+    "player_id": "hyungjoon-lee",
+    "player_name": "Hyungjoon Lee",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20191020",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 1.08,
+    "avg_sg_total": -1.42,
+    "first_round": "2017-10-19",
+    "last_round": "2019-10-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-10-19",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.882,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-18",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.053,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-17",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.308,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-16",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-20",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-19",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-18",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-17",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.731,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-22",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.312,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-21",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 3,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.208,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-20",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.346,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-19",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.051,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Nine Bridges",
+        "rounds": 12,
+        "avg_to_par": 1.08,
+        "avg_sg": -1.42
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "phil-tataurangi",
+    "player_name": "Phil Tataurangi",
+    "country": "New Zealand",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.38,
+    "avg_sg_total": -1.52,
+    "first_round": "2007-10-11",
+    "last_round": "2011-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-07-15",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.902,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-14",
+        "event_name": "Viking Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.031,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-06-12",
+        "event_name": "St. Jude Classic presented by Smith & Nephew",
+        "course": "TPC Southwind",
+        "round_number": 3,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -11.185,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-06-11",
+        "event_name": "St. Jude Classic presented by Smith & Nephew",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.1,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-06-10",
+        "event_name": "St. Jude Classic presented by Smith & Nephew",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 4.627,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-05-14",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -6.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-05-13",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-14",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.129,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-13",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.829,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-12",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.849,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-11",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.636,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-19",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.289,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-18",
+        "event_name": "Mayakoba Golf Classic at Riviera Maya-Cancun",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.354,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.901,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.763,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.262,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-04",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.905,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-03",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.918,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-02",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -3.253,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-07",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-06",
+        "event_name": "Legends Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.092,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-05-15",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -6.49,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-05-14",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.583,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-10-10",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.661,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.92
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": -0.67,
+        "avg_sg": -0.31
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -2.22
+      },
+      {
+        "course": null,
+        "rounds": 9,
+        "avg_to_par": 1.22,
+        "avg_sg": -0.97
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.67
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.17
+      }
+    ]
+  },
+  "model": null
+}

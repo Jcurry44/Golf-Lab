@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "john-m-kelly",
+    "player_name": "John M. Kelly",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20070617",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 7.0,
+    "avg_sg_total": -1.99,
+    "first_round": "2007-04-05",
+    "last_round": "2007-06-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2007-06-15",
+        "event_name": "U.S. Open Championship",
+        "course": "Oakmont Country Club",
+        "round_number": 2,
+        "score": 84,
+        "to_par": 14.0,
+        "sg_total": -7.103,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-06-14",
+        "event_name": "U.S. Open Championship",
+        "course": "Oakmont Country Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": 1.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-06",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -1.375,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-05",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -0.812,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.09
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -2.89
+      }
+    ]
+  },
+  "model": null
+}

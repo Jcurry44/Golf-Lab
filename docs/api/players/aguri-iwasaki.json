@@ -1,0 +1,204 @@
+{
+  "player": {
+    "player_id": "aguri-iwasaki",
+    "player_name": "Aguri Iwasaki",
+    "country": "Japan",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 3.25,
+    "avg_sg_total": -2.94,
+    "first_round": "2022-10-13",
+    "last_round": "2024-07-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-07-19",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 91,
+        "to_par": 20.0,
+        "sg_total": -16.643,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-18",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": 0.436,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-01-12",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.646,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-01-11",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.028,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-22",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-21",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-20",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-19",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.346,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-16",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.346,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-15",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-14",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.526,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-13",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.526,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.34
+      },
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 8,
+        "avg_to_par": 1.63,
+        "avg_sg": -1.8
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 11.5,
+        "avg_sg": -8.1
+      }
+    ]
+  },
+  "model": null
+}

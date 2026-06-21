@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "ben-polland",
+    "player_name": "Ben Polland",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260517",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 32,
+    "avg_to_par": 2.03,
+    "avg_sg_total": -1.53,
+    "first_round": "2015-08-13",
+    "last_round": "2026-05-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-05-15",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-14",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.737,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-21",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -4.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-20",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -2.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-20",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 4,
+        "score": 11,
+        "to_par": 11.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-19",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 3,
+        "score": 5,
+        "to_par": 5.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 3,
+        "to_par": 3.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 10,
+        "to_par": 10.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-20",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-19",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.1,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-18",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.634,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-17",
+        "event_name": "Corales Puntacana Championship",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 3.568,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-09",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.821,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 2.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.826,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-02",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National Resort (The Champion Course)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.485,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-01",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National Resort (The Champion Course)",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.103,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-28",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National Resort (The Champion Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.521,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-27",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National Resort (The Champion Course)",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.625,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-01-10",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-01-09",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.035,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-05-17",
+        "event_name": "PGA Championship",
+        "course": "Valhalla Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-05-16",
+        "event_name": "PGA Championship",
+        "course": "Valhalla Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.85
+      },
+      {
+        "course": "PGA National Resort (The Champion Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.87
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "Valhalla Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.16
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -3.54
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.16
+      }
+    ]
+  },
+  "model": null
+}

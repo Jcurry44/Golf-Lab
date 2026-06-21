@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "brian-mackey",
+    "player_name": "Brian Mackey",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190519",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 3.5,
+    "avg_sg_total": -1.15,
+    "first_round": "2019-05-16",
+    "last_round": "2019-05-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-05-17",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.355,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-16",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.936,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.15
+      }
+    ]
+  },
+  "model": null
+}

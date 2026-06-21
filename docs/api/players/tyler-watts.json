@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "tyler-watts",
+    "player_name": "Tyler Watts",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251116",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 0.13,
+    "avg_sg_total": -0.28,
+    "first_round": "2025-09-11",
+    "last_round": "2025-11-16",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-11-16",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -3.886,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-15",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-14",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.84,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-13",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.95,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-14",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.694,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-13",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.944,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.042,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-11",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.778,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.05
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.6
+      }
+    ]
+  },
+  "model": null
+}

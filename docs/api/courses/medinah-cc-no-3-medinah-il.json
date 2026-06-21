@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "medinah-cc-no-3-medinah-il",
+    "course_name": "Medinah Country Club - No. 3 Course",
+    "location": "Medinah, Illinois",
+    "country": "",
+    "par": 72,
+    "yards": 7561,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 62,
+    "avg_to_par": 3.45,
+    "avg_sg_total": -2.81,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "anthony-wall",
+        "player_name": "Anthony Wall",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.14
+      },
+      {
+        "player_id": "craig-thomas",
+        "player_name": "Craig Thomas",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.36
+      },
+      {
+        "player_id": "john-bickerton",
+        "player_name": "John Bickerton",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.86
+      },
+      {
+        "player_id": "lee-rinker",
+        "player_name": "Lee Rinker",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.86
+      },
+      {
+        "player_id": "bradley-dredge",
+        "player_name": "Bradley Dredge",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.36
+      },
+      {
+        "player_id": "gregory-bisconti",
+        "player_name": "Gregory Bisconti",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.36
+      },
+      {
+        "player_id": "nick-price",
+        "player_name": "Nick Price",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.36
+      },
+      {
+        "player_id": "stephen-dodd",
+        "player_name": "Stephen Dodd",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.36
+      },
+      {
+        "player_id": "chris-wiemers",
+        "player_name": "Chris Wiemers",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.86
+      },
+      {
+        "player_id": "kelly-mitchum",
+        "player_name": "Kelly Mitchum",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.36
+      },
+      {
+        "player_id": "paul-broadhurst",
+        "player_name": "Paul Broadhurst",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.36
+      },
+      {
+        "player_id": "don-yrene",
+        "player_name": "Don Yrene",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.37
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "BMW Championship",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2006,
+        "par": 72,
+        "yards": 7561,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

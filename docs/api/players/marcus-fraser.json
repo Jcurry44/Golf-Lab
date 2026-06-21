@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "marcus-fraser",
+    "player_name": "Marcus Fraser",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190616",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.63,
+    "avg_sg_total": -0.94,
+    "first_round": "2013-08-08",
+    "last_round": "2019-06-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -6.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-05",
+        "event_name": "World Golf Championships-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -3.868,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-04",
+        "event_name": "World Golf Championships-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.421,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-03",
+        "event_name": "World Golf Championships-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.842,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-02",
+        "event_name": "World Golf Championships-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.645,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-29",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.063,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-28",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.304,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-27",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.38,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-26",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -6.025,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-23",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.156,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-22",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.364,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-21",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.221,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-20",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.61,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-31",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.663,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-30",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.093,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-29",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-28",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-15",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -0.617,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-03",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.586,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-02",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.19,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-01",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.776,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-30",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.169,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "St. Andrews GC (Old Course)",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.19
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.23
+      },
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.59
+      },
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.2
+      },
+      {
+        "course": "Oak Hill CC",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.63
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.34
+      }
+    ]
+  },
+  "model": null
+}

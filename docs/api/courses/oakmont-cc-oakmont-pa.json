@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "oakmont-cc-oakmont-pa",
+    "course_name": "Oakmont CC",
+    "location": "Oakmont, PA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 110,
+    "avg_to_par": 5.27,
+    "avg_sg_total": -2.2,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 2,
+        "avg_to_par": -70.0,
+        "avg_sg": null
+      },
+      {
+        "player_id": "gregory-bourdy",
+        "player_name": "Gregory Bourdy",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "yusaku-miyazato",
+        "player_name": "Yusaku Miyazato",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "gary-stal",
+        "player_name": "Gary Stal",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.42
+      },
+      {
+        "player_id": "kyung-tae-kim",
+        "player_name": "Kyung-tae Kim",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.41
+      },
+      {
+        "player_id": "lee-slattery",
+        "player_name": "Lee Slattery",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.17
+      },
+      {
+        "player_id": "aron-price",
+        "player_name": "Aron Price",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "matthew-baldwin",
+        "player_name": "Matthew Baldwin",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "sebastian-s-derberg",
+        "player_name": "Sebastian Söderberg",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "matt-marshall",
+        "player_name": "Matt Marshall",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.67
+      },
+      {
+        "player_id": "romain-wattel",
+        "player_name": "Romain Wattel",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -0.92
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

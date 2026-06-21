@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "sam-bennett",
+    "player_name": "Sam Bennett",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.07,
+    "avg_sg_total": -0.1,
+    "first_round": "2023-06-08",
+    "last_round": "2024-12-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.089,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.735,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-16",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 4,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -7.216,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-15",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -3.811,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 4.263,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-31",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.892,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-30",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.639,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-29",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.636,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-28",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.431,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-17",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.693,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-16",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.839,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-15",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 3.024,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-10",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-11-09",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.515,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-06",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-10-05",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.854,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-06",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.397,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-05",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.753,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-04",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.231,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-08-03",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-28",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-27",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.346,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.1
+      },
+      {
+        "course": "Oakdale Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.53
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.34
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.2
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.64
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.27
+      }
+    ]
+  },
+  "model": null
+}

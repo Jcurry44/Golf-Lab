@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "ernie-els",
+    "player_name": "Ernie Els",
+    "country": "South Africa",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.02,
+    "avg_sg_total": -0.87,
+    "first_round": "2019-03-02",
+    "last_round": "2024-07-18",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-07-18",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 11.0,
+        "sg_total": -7.564,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-21",
+        "event_name": "The Open",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -3.551,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-07-20",
+        "event_name": "The Open",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -1.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-16",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.753,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-15",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-14",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.007,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-13",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.655,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-15",
+        "event_name": "The Open",
+        "course": "Old Course at St Andrews",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "The Open",
+        "course": "Old Course at St Andrews",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-16",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.613,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-15",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.045,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-07-17",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.859,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-07-16",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-21",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.72,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-20",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.973,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-19",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.88,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-18",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.152,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-21",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 0.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-20",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-19",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-18",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 1.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-28",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.383,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-27",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 10,
+        "avg_to_par": -1.1,
+        "avg_sg": -0.04
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.12
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.71
+      },
+      {
+        "course": "Trinity Forest Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.64
+      },
+      {
+        "course": "Royal Portrush Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.92
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.29
+      }
+    ]
+  },
+  "model": null
+}

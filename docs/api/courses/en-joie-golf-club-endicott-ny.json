@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "en-joie-golf-club-endicott-ny",
+    "course_name": "En-Joie Golf Club",
+    "location": "Endicott, New York",
+    "country": "",
+    "par": 72,
+    "yards": 7482,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 106,
+    "avg_to_par": -1.41,
+    "avg_sg_total": -1.19,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "mike-springer",
+        "player_name": "Mike Springer",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.8
+      },
+      {
+        "player_id": "david-edwards",
+        "player_name": "David Edwards",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.55
+      },
+      {
+        "player_id": "mario-tiziani",
+        "player_name": "Mario Tiziani",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "bradley-hughes",
+        "player_name": "Bradley Hughes",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.8
+      },
+      {
+        "player_id": "carl-paulson",
+        "player_name": "Carl Paulson",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.8
+      },
+      {
+        "player_id": "gavin-flint",
+        "player_name": "Gavin Flint",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "brad-fabel",
+        "player_name": "Brad Fabel",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.05
+      },
+      {
+        "player_id": "wayne-levi",
+        "player_name": "Wayne Levi",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.05
+      },
+      {
+        "player_id": "p-h-horgan-iii",
+        "player_name": "P.H. Horgan III",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "mike-heinen",
+        "player_name": "Mike Heinen",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": -0.98
+      },
+      {
+        "player_id": "mike-hulbert",
+        "player_name": "Mike Hulbert",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.95
+      },
+      {
+        "player_id": "trevor-dodds",
+        "player_name": "Trevor Dodds",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -1.2
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "B.C. Open",
+        "season": 2005,
+        "par": 72,
+        "yards": 7482,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

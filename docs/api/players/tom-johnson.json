@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "tom-johnson",
+    "player_name": "Tom Johnson",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250914",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.35,
+    "avg_sg_total": -1.18,
+    "first_round": "2007-09-27",
+    "last_round": "2025-09-12",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -6.958,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-11",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.222,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-16",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -5.581,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-15",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -1.244,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-09-15",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.338,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-09-14",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-09-13",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.021,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.597,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-17",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.044,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-16",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.441,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-15",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.245,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-09-14",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.378,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-04",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.162,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-03",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -6.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-02-02",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.857,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": -2,
+        "to_par": -2.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": -1,
+        "to_par": -1.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-18",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.457,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-17",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.847,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-16",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.336,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-15",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.493,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.063,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.583,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.134,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.56
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.31
+      },
+      {
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": -0.63,
+        "avg_sg": -0.67
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.16
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 10,
+        "avg_to_par": 0.1,
+        "avg_sg": -0.79
+      }
+    ]
+  },
+  "model": null
+}

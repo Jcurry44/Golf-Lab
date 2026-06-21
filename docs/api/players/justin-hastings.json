@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "justin-hastings",
+    "player_name": "Justin Hastings",
+    "country": "Cayman Islands",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260201",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 26,
+    "avg_to_par": -0.19,
+    "avg_sg_total": 0.27,
+    "first_round": "2024-03-07",
+    "last_round": "2026-01-30",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-01-30",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.945,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-29",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.151,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-16",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 3.114,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-15",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -1.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-14",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 1.84,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-13",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.95,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-14",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.694,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-13",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 4.042,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-11",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.778,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -2.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -0.962,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-15",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 4,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.788,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-14",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.328,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-13",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 1.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-12",
+        "event_name": "U.S. Open",
+        "course": "Oakmont Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 1.635,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.674,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.411,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.826,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-23",
+        "event_name": "Mexico Open at VidantaWorld",
+        "course": "Vidanta Vallarta",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.338,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-22",
+        "event_name": "Mexico Open at VidantaWorld",
+        "course": "Vidanta Vallarta",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -6.0,
+        "sg_total": 4.442,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-21",
+        "event_name": "Mexico Open at VidantaWorld",
+        "course": "Vidanta Vallarta",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.371,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-02-20",
+        "event_name": "Mexico Open at VidantaWorld",
+        "course": "Vidanta Vallarta",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.598,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.77
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.3
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.9
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.15
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.87
+      }
+    ]
+  },
+  "model": null
+}

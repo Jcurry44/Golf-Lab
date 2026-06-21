@@ -10,10 +10,10 @@
     "source_provider": "Verified public multi-course repair + Owned derived scoring + Golf Lab derived scoring model",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 39,
-    "avg_to_par": -2.31,
-    "avg_sg_total": 0.13,
-    "difficulty_bucket": "gettable"
+    "rounds": 982,
+    "avg_to_par": 1.79,
+    "avg_sg_total": -1.63,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -32,6 +32,13 @@
         "avg_sg": 3.01
       },
       {
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.01
+      },
+      {
         "player_id": "rory-mcilroy",
         "player_name": "Rory McIlroy",
         "rounds": 4,
@@ -44,6 +51,13 @@
         "rounds": 3,
         "avg_to_par": -3.67,
         "avg_sg": 1.35
+      },
+      {
+        "player_id": "jason-day",
+        "player_name": "Jason Day",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.01
       },
       {
         "player_id": "max-mcgreevy",
@@ -60,6 +74,20 @@
         "avg_sg": 0.86
       },
       {
+        "player_id": "mackenzie-hughes",
+        "player_name": "Mackenzie Hughes",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.51
+      },
+      {
+        "player_id": "sami-v-lim-ki",
+        "player_name": "Sami Välimäki",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.51
+      },
+      {
         "player_id": "justin-rose",
         "player_name": "Justin Rose",
         "rounds": 4,
@@ -67,46 +95,18 @@
         "avg_sg": 0.26
       },
       {
-        "player_id": "akshay-bhatia",
-        "player_name": "Akshay Bhatia",
-        "rounds": 2,
+        "player_id": "glen-day",
+        "player_name": "Glen Day",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "jonas-blixt",
+        "player_name": "Jonas Blixt",
+        "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": -0.14
-      },
-      {
-        "player_id": "max-greyserman",
-        "player_name": "Max Greyserman",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.64
-      },
-      {
-        "player_id": "emiliano-grillo",
-        "player_name": "Emiliano Grillo",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -1.49
-      },
-      {
-        "player_id": "wyndham-clark",
-        "player_name": "Wyndham Clark",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.64
-      },
-      {
-        "player_id": "aaron-rai",
-        "player_name": "Aaron Rai",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -2.74
-      },
-      {
-        "player_id": "spencer-tibbits",
-        "player_name": "Spencer Tibbits",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.13
+        "avg_sg": 1.65
       }
     ]
   },

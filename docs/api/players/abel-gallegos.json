@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "abel-gallegos",
+    "player_name": "Abel Gallegos",
+    "country": "Argentina",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20210718",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 6.25,
+    "avg_sg_total": -6.11,
+    "first_round": "2020-11-12",
+    "last_round": "2021-07-16",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2021-07-16",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.613,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-15",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.045,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-11-13",
+        "event_name": "2020 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -9.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-11-12",
+        "event_name": "2020 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.587,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal St. George's GC",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.83
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -8.39
+      }
+    ]
+  },
+  "model": null
+}

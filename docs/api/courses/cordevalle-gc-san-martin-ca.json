@@ -1,0 +1,167 @@
+{
+  "course": {
+    "course_id": "cordevalle-gc-san-martin-ca",
+    "course_name": "CordeValle GC",
+    "location": "San Martin, CA, USA",
+    "country": "",
+    "par": 71,
+    "yards": 7360,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 196,
+    "avg_to_par": 0.79,
+    "avg_sg_total": -1.11,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "alexandre-rocha",
+        "player_name": "Alexandre Rocha",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.7
+      },
+      {
+        "player_id": "zack-miller",
+        "player_name": "Zack Miller",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.95
+      },
+      {
+        "player_id": "scott-dunlap",
+        "player_name": "Scott Dunlap",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "mathew-goggin",
+        "player_name": "Mathew Goggin",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.45
+      },
+      {
+        "player_id": "garth-mulroy",
+        "player_name": "Garth Mulroy",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "nate-smith",
+        "player_name": "Nate Smith",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.92
+      },
+      {
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "jj-killeen",
+        "player_name": "JJ Killeen",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.45
+      },
+      {
+        "player_id": "chris-riley",
+        "player_name": "Chris Riley",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.2
+      },
+      {
+        "player_id": "lee-williams",
+        "player_name": "Lee Williams",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.16
+      },
+      {
+        "player_id": "cliff-kresge",
+        "player_name": "Cliff Kresge",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.53
+      },
+      {
+        "player_id": "steve-elkington",
+        "player_name": "Steve Elkington",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.33
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Frys.com Open",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Frys.com Open",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Frys.com Open",
+        "season": 2011,
+        "par": 71,
+        "yards": 7360,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Frys.com Open",
+        "season": 2010,
+        "par": 71,
+        "yards": 7360,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "course": {
+    "course_id": "la-cantera-golf-club-resort-course-san-antonio-tx",
+    "course_name": "La Cantera Golf Club - Resort Course",
+    "location": "San Antonio, Texas",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 364,
+    "avg_to_par": 0.99,
+    "avg_sg_total": -1.41,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "david-mckenzie",
+        "player_name": "David McKenzie",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.85
+      },
+      {
+        "player_id": "scott-sterling",
+        "player_name": "Scott Sterling",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.84
+      },
+      {
+        "player_id": "todd-fischer",
+        "player_name": "Todd Fischer",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.84
+      },
+      {
+        "player_id": "bob-sowards",
+        "player_name": "Bob Sowards",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "bob-tway",
+        "player_name": "Bob Tway",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.97
+      },
+      {
+        "player_id": "will-collins",
+        "player_name": "Will Collins",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "danny-ellis",
+        "player_name": "Danny Ellis",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "craig-kanada",
+        "player_name": "Craig Kanada",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "john-riegger",
+        "player_name": "John Riegger",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "todd-demsey",
+        "player_name": "Todd Demsey",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "john-morgan",
+        "player_name": "John Morgan",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "jim-rutledge",
+        "player_name": "Jim Rutledge",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.34
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Valero Texas Open",
+        "season": 2009,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Valero Texas Open",
+        "season": 2008,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Valero Texas Open",
+        "season": 2007,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Valero Texas Open",
+        "season": 2006,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Valero Texas Open",
+        "season": 2005,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

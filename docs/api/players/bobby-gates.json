@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "bobby-gates",
+    "player_name": "Bobby Gates",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250518",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 2.85,
+    "avg_sg_total": -2.57,
+    "first_round": "2014-01-18",
+    "last_round": "2025-05-16",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-05-16",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -2.581,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-15",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 9.0,
+        "sg_total": -7.244,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-04-01",
+        "event_name": "Houston Open",
+        "course": "GC of Houston",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.32,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-03-31",
+        "event_name": "Houston Open",
+        "course": "GC of Houston",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-03-30",
+        "event_name": "Houston Open",
+        "course": "GC of Houston",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.035,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-03-29",
+        "event_name": "Houston Open",
+        "course": "GC of Houston",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.215,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.229,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.284,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-07",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-07-06",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-23",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.176,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-22",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -9.955,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-10",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-09",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.961,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-06-08",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 1.237,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-05-19",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-05-18",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-20",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.697,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-19",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -8.626,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-13",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "Pinehurst Resort - Course No. 2",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -3.109,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-12",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "Pinehurst Resort - Course No. 2",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -5.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-06",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.425,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-05",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-16",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.594,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 6,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.89
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.85
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 5,
+        "avg_to_par": 1.6,
+        "avg_sg": -0.97
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.03
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 3,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.16
+      }
+    ]
+  },
+  "model": null
+}

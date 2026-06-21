@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "rtj-trail-grand-national-auburn-opelika-al",
+    "course_name": "RTJ Trail (Grand National)",
+    "location": "Auburn/Opelika, AL, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 230,
+    "avg_to_par": -0.53,
+    "avg_sg_total": -0.97,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "tag-ridings",
+        "player_name": "Tag Ridings",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.89
+      },
+      {
+        "player_id": "michael-johnson",
+        "player_name": "Michael Johnson",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.6
+      },
+      {
+        "player_id": "richard-h-lee",
+        "player_name": "Richard H. Lee",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.1
+      },
+      {
+        "player_id": "david-toms",
+        "player_name": "David Toms",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "dicky-pride",
+        "player_name": "Dicky Pride",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "kyle-reifers",
+        "player_name": "Kyle Reifers",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "darron-stiles",
+        "player_name": "Darron Stiles",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "luke-guthrie",
+        "player_name": "Luke Guthrie",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "robert-allenby",
+        "player_name": "Robert Allenby",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "spencer-levin",
+        "player_name": "Spencer Levin",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "thomas-aiken",
+        "player_name": "Thomas Aiken",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.85
+      },
+      {
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.85
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Barbasol Championship",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Barbasol Championship",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "keene-trace-golf-club-champions-course-nicholasville-ky",
+    "course_name": "Keene Trace Golf Club (Champions Course)",
+    "location": "Nicholasville, KY, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 169,
+    "avg_to_par": -1.46,
+    "avg_sg_total": -0.89,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "jos-de-jes-s-rodr-guez",
+        "player_name": "José de Jesús Rodríguez",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.25
+      },
+      {
+        "player_id": "kyle-jones",
+        "player_name": "Kyle Jones",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.0
+      },
+      {
+        "player_id": "billy-hurley-iii",
+        "player_name": "Billy Hurley III",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "alex-prugh",
+        "player_name": "Alex Prugh",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "chase-wright",
+        "player_name": "Chase Wright",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "david-toms",
+        "player_name": "David Toms",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "scott-langley",
+        "player_name": "Scott Langley",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "tom-lovelady",
+        "player_name": "Tom Lovelady",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.75
+      },
+      {
+        "player_id": "chris-couch",
+        "player_name": "Chris Couch",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.5
+      },
+      {
+        "player_id": "john-chin",
+        "player_name": "John Chin",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.5
+      },
+      {
+        "player_id": "tyrone-van-aswegen",
+        "player_name": "Tyrone Van Aswegen",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.5
+      },
+      {
+        "player_id": "case-cochran",
+        "player_name": "Case Cochran",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.25
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Barbasol Championship",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "player": {
+    "player_id": "ethan-fang",
+    "player_name": "Ethan Fang",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 9,
+    "avg_to_par": 3.25,
+    "avg_sg_total": -1.84,
+    "first_round": "2025-07-17",
+    "last_round": "2026-06-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.723,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.154,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-09",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": 0.648,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-12",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.958,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-09-11",
+        "event_name": "Procore Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.222,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-18",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.41,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-17",
+        "event_name": "The Open",
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -1.962,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.28
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.09
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.25
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.74
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 141,
+    "probability": 0.521662758764533,
+    "fair_odds_american": -109,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "medium",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -1.84 strokes gained. Win probability sits at 52.2%.",
+    "risk_flags": "",
+    "avg_sg_total": -1.84,
+    "avg_to_par": 3.25
+  }
+}

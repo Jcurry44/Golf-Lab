@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "forest-oaks-country-club-greensboro-nc",
+    "course_name": "Forest Oaks Country Club",
+    "location": "Greensboro, North Carolina",
+    "country": "",
+    "par": 72,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 111,
+    "avg_to_par": 0.06,
+    "avg_sg_total": -1.61,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "joey-sindelar",
+        "player_name": "Joey Sindelar",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.78
+      },
+      {
+        "player_id": "andy-bare",
+        "player_name": "Andy Bare",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.53
+      },
+      {
+        "player_id": "tripp-isenhour",
+        "player_name": "Tripp Isenhour",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.53
+      },
+      {
+        "player_id": "jeff-brehaut",
+        "player_name": "Jeff Brehaut",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.78
+      },
+      {
+        "player_id": "phillip-price",
+        "player_name": "Phillip Price",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.03
+      },
+      {
+        "player_id": "jason-schultz",
+        "player_name": "Jason Schultz",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.3
+      },
+      {
+        "player_id": "paul-gow",
+        "player_name": "Paul Gow",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.72
+      },
+      {
+        "player_id": "john-engler-jr",
+        "player_name": "John Engler, Jr.",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.29
+      },
+      {
+        "player_id": "michael-long",
+        "player_name": "Michael Long",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.47
+      },
+      {
+        "player_id": "craig-lile",
+        "player_name": "Craig Lile",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.97
+      },
+      {
+        "player_id": "jerry-smith",
+        "player_name": "Jerry Smith",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.14
+      },
+      {
+        "player_id": "matt-hendrix",
+        "player_name": "Matt Hendrix",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.14
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Wyndham Championship",
+        "season": 2007,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Chrysler Classic of Greensboro",
+        "season": 2006,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Chrysler Classic of Greensboro",
+        "season": 2005,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

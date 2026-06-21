@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 106,
-    "avg_to_par": -1.84,
-    "avg_sg_total": 1.09,
-    "difficulty_bucket": "gettable"
+    "rounds": 572,
+    "avg_to_par": -0.67,
+    "avg_sg_total": -0.16,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -39,6 +39,20 @@
         "avg_sg": 3.0
       },
       {
+        "player_id": "byeong-hun-an",
+        "player_name": "Byeong Hun An",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.25
+      },
+      {
+        "player_id": "matteo-manassero",
+        "player_name": "Matteo Manassero",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.25
+      },
+      {
         "player_id": "viktor-hovland",
         "player_name": "Viktor Hovland",
         "rounds": 4,
@@ -46,11 +60,39 @@
         "avg_sg": 2.75
       },
       {
+        "player_id": "brice-garnett",
+        "player_name": "Brice Garnett",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.5
+      },
+      {
         "player_id": "jackson-suber",
         "player_name": "Jackson Suber",
         "rounds": 4,
         "avg_to_par": -3.25,
         "avg_sg": 2.5
+      },
+      {
+        "player_id": "jesper-svensson",
+        "player_name": "Jesper Svensson",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "jimmy-stanger",
+        "player_name": "Jimmy Stanger",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "aldrich-potgieter",
+        "player_name": "Aldrich Potgieter",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.25
       },
       {
         "player_id": "ryan-fox",
@@ -65,48 +107,6 @@
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 2.25
-      },
-      {
-        "player_id": "tommy-fleetwood",
-        "player_name": "Tommy Fleetwood",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.0
-      },
-      {
-        "player_id": "wyndham-clark",
-        "player_name": "Wyndham Clark",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.0
-      },
-      {
-        "player_id": "billy-horschel",
-        "player_name": "Billy Horschel",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.75
-      },
-      {
-        "player_id": "tom-kim",
-        "player_name": "Tom Kim",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.75
-      },
-      {
-        "player_id": "alex-fitzpatrick",
-        "player_name": "Alex Fitzpatrick",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "emiliano-grillo",
-        "player_name": "Emiliano Grillo",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
       }
     ]
   },

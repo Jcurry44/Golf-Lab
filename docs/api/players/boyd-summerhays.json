@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "boyd-summerhays",
+    "player_name": "Boyd Summerhays",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060924",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.73,
+    "avg_sg_total": -2.07,
+    "first_round": "2005-02-25",
+    "last_round": "2006-09-22",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-09-22",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.294,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-21",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.389,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-15",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.261,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-09-14",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -8.442,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-25",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-24",
+        "event_name": "Reno-Tahoe Open",
+        "course": "Montreux Golf & Country Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.182,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-04",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.773,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-08-03",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-28",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.629,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-27",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.567,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.682,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-07",
+        "event_name": "Cialis Western Open",
+        "course": "Cog Hill Golf & Country Club - Dubsdread Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -4.083,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-06",
+        "event_name": "Cialis Western Open",
+        "course": "Cog Hill Golf & Country Club - Dubsdread Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.462,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-25",
+        "event_name": "Booz Allen Classic",
+        "course": "TPC Potomac at Avenel Farm",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-24",
+        "event_name": "Booz Allen Classic",
+        "course": "TPC Potomac at Avenel Farm",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-23",
+        "event_name": "Booz Allen Classic",
+        "course": "TPC Potomac at Avenel Farm",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.229,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-22",
+        "event_name": "Booz Allen Classic",
+        "course": "TPC Potomac at Avenel Farm",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-28",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "English Turn Golf and Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.623,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-27",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "English Turn Golf and Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.404,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-02",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-01",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.519,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-03-31",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.625,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-03-30",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 3.807,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -1.19
+      },
+      {
+        "course": null,
+        "rounds": 3,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.13
+      },
+      {
+        "course": "English Turn Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.01
+      },
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.64
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.06
+      },
+      {
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.1
+      }
+    ]
+  },
+  "model": null
+}

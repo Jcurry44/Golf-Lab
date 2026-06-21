@@ -1,0 +1,197 @@
+{
+  "course": {
+    "course_id": "sheshan-international-gc-shanghai-chn",
+    "course_name": "Sheshan International GC",
+    "location": "Shanghai, CHN",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 611,
+    "avg_to_par": 1.1,
+    "avg_sg_total": -1.31,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "pablo-larraz-bal",
+        "player_name": "Pablo Larrazábal",
+        "rounds": 2,
+        "avg_to_par": -3.5,
+        "avg_sg": 4.11
+      },
+      {
+        "player_id": "simon-dyson",
+        "player_name": "Simon Dyson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "james-morrison",
+        "player_name": "James Morrison",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
+        "rounds": 8,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.27
+      },
+      {
+        "player_id": "fredrik-andersson-hed",
+        "player_name": "Fredrik Andersson Hed",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.99
+      },
+      {
+        "player_id": "richard-green",
+        "player_name": "Richard Green",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.99
+      },
+      {
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.64
+      },
+      {
+        "player_id": "rikard-karlberg",
+        "player_name": "Rikard Karlberg",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.46
+      },
+      {
+        "player_id": "anders-hansen",
+        "player_name": "Anders Hansen",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "jbe-kruger",
+        "player_name": "Jbe Kruger",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "kyung-tae-kim",
+        "player_name": "Kyung-tae Kim",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": 0.77
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-HSBC Champions",
+        "season": 2011,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "WGC-HSBC Champions",
+        "season": 2010,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

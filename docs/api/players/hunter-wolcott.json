@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "hunter-wolcott",
+    "player_name": "Hunter Wolcott",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 2.13,
+    "avg_sg_total": -1.89,
+    "first_round": "2025-11-13",
+    "last_round": "2025-12-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.488,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.953,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.221,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-11",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.063,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-16",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 0.114,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-15",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-14",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.16,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-11-13",
+        "event_name": "Butterfield Bermuda Championship",
+        "course": "Port Royal Golf Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.95,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.1
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -2.68
+      }
+    ]
+  },
+  "model": null
+}

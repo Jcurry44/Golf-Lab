@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "pat-perez",
+    "player_name": "Pat Perez",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220605",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.53,
+    "avg_sg_total": 0.36,
+    "first_round": "2022-02-10",
+    "last_round": "2022-06-05",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-06-05",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 4.214,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-04",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.743,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-03",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.22,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-02",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.706,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-29",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.275,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-28",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-27",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.824,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-26",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.783,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-15",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 0.31,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-14",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 1.536,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-13",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 4.084,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-12",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-01",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.459,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-30",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-29",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.119,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-28",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.285,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-17",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-16",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.085,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-15",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.485,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-14",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.366,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-04-01",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.036,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-31",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.182,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-20",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-03-19",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.78
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.87
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.39
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.2
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.1
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 1.35
+      }
+    ]
+  },
+  "model": null
+}

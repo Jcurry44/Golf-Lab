@@ -1,0 +1,121 @@
+{
+  "player": {
+    "player_id": "brandel-chamblee",
+    "player_name": "Brandel Chamblee",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080210",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 5,
+    "avg_to_par": 1.8,
+    "avg_sg_total": -1.36,
+    "first_round": "2007-10-18",
+    "last_round": "2008-02-09",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-02-09",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -6.839,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-02-08",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.289,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-02-07",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.761,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-19",
+        "event_name": "Fry's Electronics Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.292,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-10-18",
+        "event_name": "Fry's Electronics Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.71
+      },
+      {
+        "course": null,
+        "rounds": 3,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.12
+      }
+    ]
+  },
+  "model": null
+}

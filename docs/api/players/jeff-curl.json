@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "jeff-curl",
+    "player_name": "Jeff Curl",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140706",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 24,
+    "avg_to_par": 0.5,
+    "avg_sg_total": -0.54,
+    "first_round": "2008-12-03",
+    "last_round": "2014-07-04",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2014-07-04",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-25",
+        "event_name": "Crowne Plaza Invitational at Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.747,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-24",
+        "event_name": "Crowne Plaza Invitational at Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.56,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-23",
+        "event_name": "Crowne Plaza Invitational at Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.341,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-22",
+        "event_name": "Crowne Plaza Invitational at Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-08",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.109,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-07",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.97,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-17",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-16",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-15",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -0.968,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 1.91,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-30",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.564,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-29",
+        "event_name": "Shell Houston Open",
+        "course": "GC of Houston",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.965,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-11",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.247,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-10",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-09",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.402,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-08",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.841,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-08",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.46,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.708,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-04",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.982,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-03",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.675,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.69
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.76
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.56
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": 1.17,
+        "avg_sg": -1.85
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.07
+      },
+      {
+        "course": "The Olympic Club",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.04
+      }
+    ]
+  },
+  "model": null
+}

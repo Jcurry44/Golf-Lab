@@ -1,0 +1,299 @@
+{
+  "player": {
+    "player_id": "david-bradshaw",
+    "player_name": "David Bradshaw",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241013",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 19,
+    "avg_to_par": 2.79,
+    "avg_sg_total": -3.1,
+    "first_round": "2011-03-03",
+    "last_round": "2024-10-11",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-10-11",
+        "event_name": "Black Desert Championship",
+        "course": "Black Desert Resort",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.669,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-10",
+        "event_name": "Black Desert Championship",
+        "course": "Black Desert Resort",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.061,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-12",
+        "event_name": "ISCO Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 0.786,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-07-11",
+        "event_name": "ISCO Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.583,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-03-21",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -2.928,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-06",
+        "event_name": "A Military Tribute at The Greenbrier",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.364,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-05",
+        "event_name": "A Military Tribute at The Greenbrier",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.66,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-16",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.14,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-15",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.257,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.208,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-02",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-25",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-24",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.423,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-15",
+        "event_name": "Tampa Bay Championship presented by EverBank",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -5.071,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-03-14",
+        "event_name": "Tampa Bay Championship presented by EverBank",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -0.929,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-04-29",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.066,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-04-28",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -7.122,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-04",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -7.693,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-03",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -7.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.1
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.37
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.84
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.7
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 3,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.98
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -4.46
+      }
+    ]
+  },
+  "model": null
+}

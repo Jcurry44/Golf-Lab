@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "steve-lebrun",
+    "player_name": "Steve LeBrun",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130818",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.0,
+    "avg_sg_total": -0.24,
+    "first_round": "2013-04-06",
+    "last_round": "2013-08-18",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2013-08-18",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-08-17",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.603,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-08-16",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.212,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-08-15",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.917,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-28",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 4,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.63,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-27",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.896,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-26",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.548,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-25",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.929,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-21",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.092,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-20",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.816,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-19",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.189,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-18",
+        "event_name": "Sanderson Farms Championship",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 4.071,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 4,
+        "score": 64,
+        "to_par": -7.0,
+        "sg_total": 4.931,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.764,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.203,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.34,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-05",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -9.361,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-04",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-30",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-29",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.117,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-28",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.307,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-27",
+        "event_name": "AT&T National",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 2.008,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-07",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-06",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.265,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.68
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.2
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.28
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.69
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.34
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.54
+      }
+    ]
+  },
+  "model": null
+}

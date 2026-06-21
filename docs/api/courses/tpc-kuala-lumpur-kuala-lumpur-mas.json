@@ -1,0 +1,187 @@
+{
+  "course": {
+    "course_id": "tpc-kuala-lumpur-kuala-lumpur-mas",
+    "course_name": "TPC Kuala Lumpur",
+    "location": "Kuala Lumpur, MAS",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 233,
+    "avg_to_par": 0.22,
+    "avg_sg_total": -1.65,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "young-han-song",
+        "player_name": "Young-han Song",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "angelo-que",
+        "player_name": "Angelo Que",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "prom-meesawat",
+        "player_name": "Prom Meesawat",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "jeunghun-wang",
+        "player_name": "Jeunghun Wang",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.52
+      },
+      {
+        "player_id": "sanghyun-park",
+        "player_name": "Sanghyun Park",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.6
+      },
+      {
+        "player_id": "sihwan-kim",
+        "player_name": "Sihwan Kim",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.85
+      },
+      {
+        "player_id": "shiv-kapur",
+        "player_name": "Shiv Kapur",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.47
+      },
+      {
+        "player_id": "phachara-khongwatmai",
+        "player_name": "Phachara Khongwatmai",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.16
+      },
+      {
+        "player_id": "gaganjeet-bhullar",
+        "player_name": "Gaganjeet Bhullar",
+        "rounds": 12,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.05
+      },
+      {
+        "player_id": "miguel-tabuena",
+        "player_name": "Miguel Tabuena",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.23
+      },
+      {
+        "player_id": "poom-saksansin",
+        "player_name": "Poom Saksansin",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.09
+      },
+      {
+        "player_id": "andrew-dodt",
+        "player_name": "Andrew Dodt",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -1.12
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "CIMB Classic",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Classic",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Classic",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Classic",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Classic",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Classic",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

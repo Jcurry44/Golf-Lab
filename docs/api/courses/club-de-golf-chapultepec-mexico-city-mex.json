@@ -1,0 +1,167 @@
+{
+  "course": {
+    "course_id": "club-de-golf-chapultepec-mexico-city-mex",
+    "course_name": "Club de Golf Chapultepec",
+    "location": "Mexico City, MEX",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 163,
+    "avg_to_par": 1.6,
+    "avg_sg_total": -1.91,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.23
+      },
+      {
+        "player_id": "adam-bland",
+        "player_name": "Adam Bland",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.1
+      },
+      {
+        "player_id": "benjamin-hebert",
+        "player_name": "Benjamin Hebert",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "zander-lombard",
+        "player_name": "Zander Lombard",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.5
+      },
+      {
+        "player_id": "justin-harding",
+        "player_name": "Justin Harding",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.55
+      },
+      {
+        "player_id": "shaun-norris",
+        "player_name": "Shaun Norris",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.0
+      },
+      {
+        "player_id": "hideto-tanihara",
+        "player_name": "Hideto Tanihara",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "s-ren-kjeldsen",
+        "player_name": "Søren Kjeldsen",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.3
+      },
+      {
+        "player_id": "chris-paisley",
+        "player_name": "Chris Paisley",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.4
+      },
+      {
+        "player_id": "zach-murray",
+        "player_name": "Zach Murray",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.5
+      },
+      {
+        "player_id": "yuta-ikeda",
+        "player_name": "Yuta Ikeda",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.65
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "WGC-Mexico Championship",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "WGC-Mexico Championship",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-Mexico Championship",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "World Golf Championships-Mexico Championship",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

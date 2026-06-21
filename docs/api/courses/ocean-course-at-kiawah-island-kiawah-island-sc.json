@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "ocean-course-at-kiawah-island-kiawah-island-sc",
+    "course_name": "Ocean Course at Kiawah Island",
+    "location": "Kiawah Island, SC, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 158,
+    "avg_to_par": 5.87,
+    "avg_sg_total": -2.81,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "jason-scrivener",
+        "player_name": "Jason Scrivener",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "ben-cook",
+        "player_name": "Ben Cook",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "daniel-van-tonder",
+        "player_name": "Daniel van Tonder",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "sam-horsfield",
+        "player_name": "Sam Horsfield",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "rich-beem",
+        "player_name": "Rich Beem",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "michael-hoey",
+        "player_name": "Michael Hoey",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "kyung-kim",
+        "player_name": "Kyung Kim",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.06
+      },
+      {
+        "player_id": "tom-lewis",
+        "player_name": "Tom Lewis",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -0.24
+      },
+      {
+        "player_id": "toru-taniguchi",
+        "player_name": "Toru Taniguchi",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -0.81
+      },
+      {
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.17
+      },
+      {
+        "player_id": "brad-marek",
+        "player_name": "Brad Marek",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.99
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "player": {
+    "player_id": "jovan-rebula",
+    "player_name": "Jovan Rebula",
+    "country": "South Africa",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190616",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 3.88,
+    "avg_sg_total": -2.83,
+    "first_round": "2018-07-19",
+    "last_round": "2019-06-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -3.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-31",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.754,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-30",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.45,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-04-12",
+        "event_name": "2019 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.023,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-04-11",
+        "event_name": "2019 Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.126,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-20",
+        "event_name": "The Open",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -6.214,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-07-19",
+        "event_name": "The Open",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -5.845,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.35
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.37
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.57
+      },
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.03
+      }
+    ]
+  },
+  "model": null
+}

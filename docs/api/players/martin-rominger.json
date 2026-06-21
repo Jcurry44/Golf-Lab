@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "martin-rominger",
+    "player_name": "Martin Rominger",
+    "country": "Switzerland",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080330",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 1.88,
+    "avg_sg_total": -2.03,
+    "first_round": "2006-04-27",
+    "last_round": "2008-03-28",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-03-28",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.847,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-03-27",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.472,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-22",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.976,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-21",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.965,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-20",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 4.222,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-04-19",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.192,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-28",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "English Turn Golf and Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.377,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-27",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "English Turn Golf and Country Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.404,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "English Turn Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.01
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 6,
+        "avg_to_par": 2.17,
+        "avg_sg": -2.04
+      }
+    ]
+  },
+  "model": null
+}

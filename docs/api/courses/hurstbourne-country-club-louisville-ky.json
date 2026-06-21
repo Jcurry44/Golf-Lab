@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 6,
-    "avg_to_par": -0.33,
-    "avg_sg_total": 1.44,
-    "difficulty_bucket": "balanced"
+    "rounds": 302,
+    "avg_to_par": 1.59,
+    "avg_sg_total": -0.46,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "luke-list",
+        "player_name": "Luke List",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "manuel-elvira",
+        "player_name": "Manuel Elvira",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.81
+      },
+      {
         "player_id": "jackson-koivun",
         "player_name": "Jackson Koivun",
         "rounds": 4,
@@ -32,11 +46,67 @@
         "avg_sg": 2.31
       },
       {
-        "player_id": "miles-russell",
-        "player_name": "Miles Russell",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.29
+        "player_id": "kevin-kisner",
+        "player_name": "Kevin Kisner",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "nick-hardy",
+        "player_name": "Nick Hardy",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "taylor-montgomery",
+        "player_name": "Taylor Montgomery",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "cameron-champ",
+        "player_name": "Cameron Champ",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "scott-piercy",
+        "player_name": "Scott Piercy",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "trevor-cone",
+        "player_name": "Trevor Cone",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "will-gordon",
+        "player_name": "Will Gordon",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "alexander-levy",
+        "player_name": "Alexander Levy",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "matt-nesmith",
+        "player_name": "Matt NeSmith",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.56
       }
     ]
   },

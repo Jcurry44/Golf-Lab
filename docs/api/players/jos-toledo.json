@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "jos-toledo",
+    "player_name": "José Toledo",
+    "country": "Guatemala",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230430",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 1.5,
+    "avg_sg_total": -1.57,
+    "first_round": "2011-11-30",
+    "last_round": "2023-04-28",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-04-28",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.243,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-04-27",
+        "event_name": "Mexico Open",
+        "course": "Vidanta Vallarta",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.201,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-05",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.15,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-04",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -2.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.55,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -5.238,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-30",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.68,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.02
+      },
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": 1.83,
+        "avg_sg": -1.75
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "jamie-lovemark",
+    "player_name": "Jamie Lovemark",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20210919",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.63,
+    "avg_sg_total": -1.15,
+    "first_round": "2020-07-09",
+    "last_round": "2021-09-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2021-09-17",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.468,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-09-16",
+        "event_name": "Fortinet Championship",
+        "course": "Silverado Resort (North Course)",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.936,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-06-04",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.457,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-06-03",
+        "event_name": "the Memorial Tournament pres. by Nationwide",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -7.933,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-14",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.632,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-13",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -1.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-07",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -2.058,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-06",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.845,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-04-30",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.897,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-04-29",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-19",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.331,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-18",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -6.51,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-05",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.864,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-04",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.364,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-29",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.815,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-28",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-24",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.38,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-23",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.507,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-22",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.256,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-21",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-17",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 0.466,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-16",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -4.342,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-15",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.556,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-01-14",
+        "event_name": "Sony Open in Hawaii",
+        "course": "Waialae Country Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.319,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.78
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 6,
+        "avg_to_par": -1.17,
+        "avg_sg": -0.33
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.02
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.42
+      }
+    ]
+  },
+  "model": null
+}

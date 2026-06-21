@@ -1,0 +1,166 @@
+{
+  "player": {
+    "player_id": "mark-geddes",
+    "player_name": "Mark Geddes",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260517",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 5.5,
+    "avg_sg_total": -4.62,
+    "first_round": "2021-05-20",
+    "last_round": "2026-05-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-05-15",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -7.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-14",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -8.737,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-30",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-29",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.151,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-11-08",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.367,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-11-07",
+        "event_name": "World Wide Technology Championship",
+        "course": "El Cardonal at Diamante",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-21",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -5.432,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-20",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -0.219,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.48
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.1
+      },
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -2.83
+      },
+      {
+        "course": "Aronimink Golf Club",
+        "rounds": 2,
+        "avg_to_par": 10.5,
+        "avg_sg": -8.06
+      }
+    ]
+  },
+  "model": null
+}

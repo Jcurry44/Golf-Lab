@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 4,
-    "avg_to_par": 0.75,
-    "avg_sg_total": 1.2,
-    "difficulty_bucket": "balanced"
+    "rounds": 116,
+    "avg_to_par": 4.73,
+    "avg_sg_total": -1.83,
+    "difficulty_bucket": "brutal"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "joaqu-n-niemann",
-        "player_name": "Joaquín Niemann",
+        "player_id": "michael-block",
+        "player_name": "Michael Block",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.19
+      },
+      {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.94
+      },
+      {
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "adrian-meronk",
+        "player_name": "Adrian Meronk",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "thomas-pieters",
+        "player_name": "Thomas Pieters",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "dean-burmester",
+        "player_name": "Dean Burmester",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.44
+      },
+      {
+        "player_id": "phil-mickelson",
+        "player_name": "Phil Mickelson",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.06
+      },
+      {
+        "player_id": "sihwan-kim",
+        "player_name": "Sihwan Kim",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -0.31
+      },
+      {
+        "player_id": "adri-arnaus",
+        "player_name": "Adri Arnaus",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.75
+        "avg_to_par": 3.0,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "brendan-steele",
+        "player_name": "Brendan Steele",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "pablo-larraz-bal",
+        "player_name": "Pablo Larrazábal",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.56
+      },
+      {
+        "player_id": "yannik-paul",
+        "player_name": "Yannik Paul",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -0.81
       }
     ]
   },

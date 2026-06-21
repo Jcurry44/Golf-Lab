@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "mystic-rock-farmington-pa",
+    "course_name": "Mystic Rock",
+    "location": "Farmington, Pennsylvania",
+    "country": "",
+    "par": 72,
+    "yards": 7516,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 81,
+    "avg_to_par": 2.33,
+    "avg_sg_total": -1.97,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "phillip-price",
+        "player_name": "Phillip Price",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.04
+      },
+      {
+        "player_id": "david-mckenzie",
+        "player_name": "David McKenzie",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "danny-ellis",
+        "player_name": "Danny Ellis",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.54
+      },
+      {
+        "player_id": "john-engler-jr",
+        "player_name": "John Engler, Jr.",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.53
+      },
+      {
+        "player_id": "john-elliott",
+        "player_name": "John Elliott",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.07
+      },
+      {
+        "player_id": "mario-tiziani",
+        "player_name": "Mario Tiziani",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.07
+      },
+      {
+        "player_id": "brian-henninger",
+        "player_name": "Brian Henninger",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.21
+      },
+      {
+        "player_id": "bradley-hughes",
+        "player_name": "Bradley Hughes",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.46
+      },
+      {
+        "player_id": "danny-briggs",
+        "player_name": "Danny Briggs",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.57
+      },
+      {
+        "player_id": "tjaart-van-der-walt",
+        "player_name": "Tjaart van der Walt",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.59
+      },
+      {
+        "player_id": "michael-long",
+        "player_name": "Michael Long",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.07
+      },
+      {
+        "player_id": "rob-rashell",
+        "player_name": "Rob Rashell",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.07
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "84 LUMBER Classic",
+        "season": 2006,
+        "par": 72,
+        "yards": 7516,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "84 LUMBER Classic",
+        "season": 2005,
+        "par": 72,
+        "yards": 7516,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

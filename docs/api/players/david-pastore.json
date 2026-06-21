@@ -1,0 +1,210 @@
+{
+  "player": {
+    "player_id": "david-pastore",
+    "player_name": "David Pastore",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20210718",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 0.0,
+    "avg_sg_total": -0.99,
+    "first_round": "2015-06-25",
+    "last_round": "2021-07-18",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2021-07-18",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.066,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-17",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.684,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-16",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 3.417,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-15",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.328,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-26",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.883,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-06-25",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.468,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-03-01",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.465,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-28",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.098,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-25",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-24",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.487,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-26",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.052,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-25",
+        "event_name": "Travelers Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.917,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.92
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.61
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.09
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.82
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,286 @@
+{
+  "player": {
+    "player_id": "david-robinson",
+    "player_name": "David Robinson",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20101206",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 20,
+    "avg_to_par": 1.2,
+    "avg_sg_total": -1.87,
+    "first_round": "2008-12-03",
+    "last_round": "2010-12-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2010-12-06",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -6.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-05",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.381,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-04",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.247,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.099,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.763,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.262,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-04",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.905,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-03",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.918,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-02",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -3.253,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-21",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -4.354,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-20",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-08",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.54,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.292,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.765,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 3.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-04",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 3.018,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-12-03",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.325,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 18,
+        "avg_to_par": 1.11,
+        "avg_sg": -1.74
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.05
+      }
+    ]
+  },
+  "model": null
+}

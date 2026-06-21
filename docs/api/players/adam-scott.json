@@ -1,0 +1,367 @@
+{
+  "player": {
+    "player_id": "adam-scott",
+    "player_name": "Adam Scott",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
+    "source_updated_at": "2026-06-21T02:13:39.586Z",
+    "rounds": 40,
+    "avg_to_par": -0.95,
+    "avg_sg_total": 0.88,
+    "first_round": "2026-01-30",
+    "last_round": "2026-06-20",
+    "sg_t2g": 1.066,
+    "sg_ott": 0.308,
+    "sg_app": 0.779,
+    "sg_arg": -0.021,
+    "sg_putt": -0.076,
+    "driving_distance": 313.1,
+    "accuracy": 0.5859,
+    "gir": 0.692,
+    "scrambling": 0.6353
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-20",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 3,
+        "score": 0,
+        "to_par": null,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-19",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-18",
+        "event_name": "U.S. Open",
+        "course": "Shinnecock Hills Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 0.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-07",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 4.981,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-06",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.283,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-05",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": 0.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-04",
+        "event_name": "the Memorial Tournament pres. by Workday",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-15",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -3.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-14",
+        "event_name": "PGA Championship",
+        "course": "Aronimink Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.263,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-10",
+        "event_name": "Truist Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.486,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-09",
+        "event_name": "Truist Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 3.708,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-08",
+        "event_name": "Truist Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-07",
+        "event_name": "Truist Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.472,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-03",
+        "event_name": "Cadillac Championship",
+        "course": "Trump National Doral - Blue Monster Course",
+        "round_number": 4,
+        "score": 64,
+        "to_par": -8.0,
+        "sg_total": 5.111,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-02",
+        "event_name": "Cadillac Championship",
+        "course": "Trump National Doral - Blue Monster Course",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 5.639,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-01",
+        "event_name": "Cadillac Championship",
+        "course": "Trump National Doral - Blue Monster Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.028,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-30",
+        "event_name": "Cadillac Championship",
+        "course": "Trump National Doral - Blue Monster Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.361,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-12",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.093,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.63,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-10",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.154,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-09",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 2.648,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-29",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.76,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-28",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.347,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-27",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.843,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.65
+      },
+      {
+        "course": "Trump National Doral - Blue Monster Course",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.6
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.26
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.22
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": 0.43
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.61
+      }
+    ]
+  },
+  "model": {
+    "event_id": "2026-u-s-open-401811952",
+    "market": "make cut",
+    "rank": 72,
+    "probability": 0.6864645879472301,
+    "fair_odds_american": -219,
+    "edge_probability": null,
+    "projected_to_par": null,
+    "confidence": "high",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.88 strokes gained. Win probability sits at 68.6%.",
+    "risk_flags": "",
+    "avg_sg_total": 0.88,
+    "avg_to_par": -0.95
+  }
+}

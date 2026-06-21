@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "bobby-elliott",
+    "player_name": "Bobby Elliott",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20061015",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 2.5,
+    "avg_sg_total": -4.98,
+    "first_round": "2006-10-12",
+    "last_round": "2006-10-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-10-13",
+        "event_name": "Frys.com Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -5.164,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-10-12",
+        "event_name": "Frys.com Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.79,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.98
+      }
+    ]
+  },
+  "model": null
+}

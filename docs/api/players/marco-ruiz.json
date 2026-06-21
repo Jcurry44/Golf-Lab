@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "marco-ruiz",
+    "player_name": "Marco Ruiz",
+    "country": "Paraguay",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080323",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 1.0,
+    "avg_sg_total": -0.81,
+    "first_round": "2006-07-20",
+    "last_round": "2008-03-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-03-21",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.603,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-03-20",
+        "event_name": "Puerto Rico Open presented by Banco Popular",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.992,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-23",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.944,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-22",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 3,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -8.127,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.224,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.37
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.69
+      }
+    ]
+  },
+  "model": null
+}

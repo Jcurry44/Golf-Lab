@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 162,
-    "avg_to_par": 0.53,
-    "avg_sg_total": 0.21,
-    "difficulty_bucket": "balanced"
+    "rounds": 614,
+    "avg_to_par": 1.62,
+    "avg_sg_total": -0.97,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -60,6 +60,13 @@
         "avg_sg": 3.11
       },
       {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 3.24
+      },
+      {
         "player_id": "alex-fitzpatrick",
         "player_name": "Alex Fitzpatrick",
         "rounds": 4,
@@ -67,46 +74,39 @@
         "avg_sg": 2.61
       },
       {
-        "player_id": "maverick-mcnealy",
-        "player_name": "Maverick McNealy",
+        "player_id": "kristoffer-reitan",
+        "player_name": "Kristoffer Reitan",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.86
+        "avg_to_par": -2.0,
+        "avg_sg": 2.61
       },
       {
-        "player_id": "si-woo-kim",
-        "player_name": "Si Woo Kim",
+        "player_id": "jerry-kelly",
+        "player_name": "Jerry Kelly",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.86
+        "avg_to_par": -2.0,
+        "avg_sg": 1.63
       },
       {
-        "player_id": "justin-rose",
-        "player_name": "Justin Rose",
+        "player_id": "julian-suri",
+        "player_name": "Julian Suri",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.61
+        "avg_to_par": -2.0,
+        "avg_sg": 1.37
       },
       {
-        "player_id": "rory-mcilroy",
-        "player_name": "Rory McIlroy",
+        "player_id": "eric-cole",
+        "player_name": "Eric Cole",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.61
+        "avg_to_par": -1.75,
+        "avg_sg": 2.36
       },
       {
-        "player_id": "scottie-scheffler",
-        "player_name": "Scottie Scheffler",
+        "player_id": "brett-wetterich",
+        "player_name": "Brett Wetterich",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.61
-      },
-      {
-        "player_id": "harris-english",
-        "player_name": "Harris English",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.36
+        "avg_to_par": -1.75,
+        "avg_sg": 1.8
       }
     ]
   },

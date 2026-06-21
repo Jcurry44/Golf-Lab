@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "hamilton-g-cc-ancaster-can",
+    "course_name": "Hamilton G&CC",
+    "location": "Ancaster, Ontario, Canada",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 139,
+    "avg_to_par": 1.0,
+    "avg_sg_total": -1.04,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "gavin-coles",
+        "player_name": "Gavin Coles",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "scott-dunlap",
+        "player_name": "Scott Dunlap",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "patrick-sheehan",
+        "player_name": "Patrick Sheehan",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "tom-pernice-jr",
+        "player_name": "Tom Pernice Jr.",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "garth-mulroy",
+        "player_name": "Garth Mulroy",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.51
+      },
+      {
+        "player_id": "matt-hansen",
+        "player_name": "Matt Hansen",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.22
+      },
+      {
+        "player_id": "cory-renfrew",
+        "player_name": "Cory Renfrew",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "david-markle",
+        "player_name": "David Markle",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "mathew-goggin",
+        "player_name": "Mathew Goggin",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "roland-thatcher",
+        "player_name": "Roland Thatcher",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "bill-glasson",
+        "player_name": "Bill Glasson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.04
+      },
+      {
+        "player_id": "albin-choi",
+        "player_name": "Albin Choi",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.74
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Canadian Open",
+        "season": 2006,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

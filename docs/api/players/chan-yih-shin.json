@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "chan-yih-shin",
+    "player_name": "Chan Yih-shin",
+    "country": "Chinese Taipei",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20111106",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 1.88,
+    "avg_sg_total": -3.16,
+    "first_round": "2011-10-27",
+    "last_round": "2011-11-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-11-06",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.494,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-05",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.538,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-04",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-03",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-30",
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "course": "The Mines Resort & GC",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.936,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-29",
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "course": "The Mines Resort & GC",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.833,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-28",
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "course": "The Mines Resort & GC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.375,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-10-27",
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "course": "The Mines Resort & GC",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Mines Resort & GC",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.97
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -3.35
+      }
+    ]
+  },
+  "model": null
+}

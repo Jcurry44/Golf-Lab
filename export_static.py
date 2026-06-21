@@ -36,14 +36,14 @@ def export_static(db_path: Path = DEFAULT_DB, out_dir: Path = ROOT / "docs") -> 
     with connect(db_path, readonly=True) as conn:
         summary = database_summary(conn)
         event_id = (summary.get("selectedEvent") or {}).get("event_id") or ""
-        players = player_cards(conn, event_id, limit=100)
+        players = player_cards(conn, event_id, limit=5000)
         courses = course_cards(conn, limit=250)
 
         write_json(out_dir / "api" / "summary.json", summary)
         write_json(out_dir / "api" / "event.json", event_board(conn, event_id))
         write_json(out_dir / "api" / "player-cards.json", players)
         write_json(out_dir / "api" / "course-cards.json", courses)
-        write_json(out_dir / "api" / "model-board.json", model_board(conn, event_id, limit=100))
+        write_json(out_dir / "api" / "model-board.json", model_board(conn, event_id, limit=250))
         write_json(out_dir / "api" / "warehouse-health.json", warehouse_health(conn))
 
         for row in players["rows"]:

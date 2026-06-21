@@ -1,0 +1,288 @@
+{
+  "player": {
+    "player_id": "guan-tianlang",
+    "player_name": "Guan Tianlang",
+    "country": "China",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20141102",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 18,
+    "avg_to_par": 2.44,
+    "avg_sg_total": -2.33,
+    "first_round": "2013-04-11",
+    "last_round": "2014-11-02",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2014-11-02",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 4,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.299,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-11-01",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.792,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-31",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.684,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-30",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.312,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-07",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.545,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-06-06",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.265,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-05-31",
+        "event_name": "the Memorial Tournament presented by Nationwide Insurance",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -5.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-05-30",
+        "event_name": "the Memorial Tournament presented by Nationwide Insurance",
+        "course": "Muirfield Village Golf Club",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-05-17",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-05-16",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.231,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-28",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.38,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-27",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.704,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-26",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-25",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-14",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.656,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-13",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.148,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-12",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -0.817,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-11",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.054,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.47
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.93
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.41
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.64
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.17
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.36
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "marc-olivier-plasse",
+    "player_name": "Marc-Olivier Plasse",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240602",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 4.5,
+    "avg_sg_total": -3.7,
+    "first_round": "2024-05-30",
+    "last_round": "2024-05-31",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-05-31",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.792,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-05-30",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton Golf & Country Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -8.192,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.7
+      }
+    ]
+  },
+  "model": null
+}

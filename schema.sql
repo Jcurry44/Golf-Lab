@@ -211,6 +211,7 @@ create table if not exists source_fetches (
 create index if not exists idx_rounds_player on rounds(player_id, round_date desc);
 create index if not exists idx_rounds_event on rounds(event_id, round_number);
 create index if not exists idx_sg_player on strokes_gained(player_id, event_id);
+create index if not exists idx_sg_round on strokes_gained(round_id);
 create index if not exists idx_predictions_event on model_predictions(event_id, market, rank);
 create index if not exists idx_odds_event on odds_snapshots(event_id, market, captured_at);
 

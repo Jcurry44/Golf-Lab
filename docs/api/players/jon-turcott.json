@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "jon-turcott",
+    "player_name": "Jon Turcott",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080720",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 0.88,
+    "avg_sg_total": -0.38,
+    "first_round": "2007-07-19",
+    "last_round": "2008-07-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2008-07-20",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 4,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -2.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-19",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.308,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-18",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.577,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-17",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.818,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-06-13",
+        "event_name": "U.S. Open Championship",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 1.961,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-06-12",
+        "event_name": "U.S. Open Championship",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -1.419,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-20",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-19",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.591,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 6,
+        "avg_to_par": -0.17,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.27
+      }
+    ]
+  },
+  "model": null
+}

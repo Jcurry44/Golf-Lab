@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "matthew-scobie",
+    "player_name": "Matthew Scobie",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250608",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": -1.0,
+    "avg_sg_total": 0.14,
+    "first_round": "2025-06-05",
+    "last_round": "2025-06-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-06-06",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-05",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.755,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.14
+      }
+    ]
+  },
+  "model": null
+}

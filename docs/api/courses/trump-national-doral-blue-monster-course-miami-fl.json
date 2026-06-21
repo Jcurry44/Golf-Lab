@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 164,
-    "avg_to_par": -1.21,
-    "avg_sg_total": 0.06,
+    "rounds": 288,
+    "avg_to_par": -1.15,
+    "avg_sg_total": 0.0,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -46,11 +46,39 @@
         "avg_sg": 1.85
       },
       {
+        "player_id": "adam-scott",
+        "player_name": "Adam Scott",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "sepp-straka",
+        "player_name": "Sepp Straka",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.6
+      },
+      {
         "player_id": "si-woo-kim",
         "player_name": "Si Woo Kim",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 1.6
+      },
+      {
+        "player_id": "alex-noren",
+        "player_name": "Alex Noren",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "alex-smalley",
+        "player_name": "Alex Smalley",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.35
       },
       {
         "player_id": "alex-fitzpatrick",
@@ -67,46 +95,18 @@
         "avg_sg": 1.1
       },
       {
-        "player_id": "rickie-fowler",
-        "player_name": "Rickie Fowler",
+        "player_id": "matt-mccarty",
+        "player_name": "Matt McCarty",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 1.1
       },
       {
-        "player_id": "andrew-putnam",
-        "player_name": "Andrew Putnam",
+        "player_id": "nick-taylor",
+        "player_name": "Nick Taylor",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "jordan-spieth",
-        "player_name": "Jordan Spieth",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "michael-kim",
-        "player_name": "Michael Kim",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "sam-stevens",
-        "player_name": "Sam Stevens",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "akshay-bhatia",
-        "player_name": "Akshay Bhatia",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.35
+        "avg_to_par": -2.25,
+        "avg_sg": 1.1
       }
     ]
   },

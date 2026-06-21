@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 16,
-    "avg_to_par": -0.44,
-    "avg_sg_total": 0.51,
-    "difficulty_bucket": "balanced"
+    "rounds": 1660,
+    "avg_to_par": 1.0,
+    "avg_sg_total": -0.17,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,32 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "ben-kohles",
-        "player_name": "Ben Kohles",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.57
+        "player_id": "adam-svensson",
+        "player_name": "Adam Svensson",
+        "rounds": 3,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.78
       },
       {
-        "player_id": "jackson-van-paris",
-        "player_name": "Jackson Van Paris",
+        "player_id": "alejandro-tosti",
+        "player_name": "Alejandro Tosti",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.57
+        "avg_to_par": -3.0,
+        "avg_sg": 3.07
       },
       {
-        "player_id": "zac-blair",
-        "player_name": "Zac Blair",
+        "player_id": "ben-silverman",
+        "player_name": "Ben Silverman",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.57
+        "avg_to_par": -2.75,
+        "avg_sg": 2.82
       },
       {
-        "player_id": "harry-higgs",
-        "player_name": "Harry Higgs",
+        "player_id": "marcelo-rozo",
+        "player_name": "Marcelo Rozo",
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.61
+      },
+      {
+        "player_id": "camilo-villegas",
+        "player_name": "Camilo Villegas",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.68
+        "avg_to_par": -2.5,
+        "avg_sg": 2.57
+      },
+      {
+        "player_id": "chan-kim",
+        "player_name": "Chan Kim",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.32
+      },
+      {
+        "player_id": "mitchell-meissner",
+        "player_name": "Mitchell Meissner",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.32
+      },
+      {
+        "player_id": "greyson-sigg",
+        "player_name": "Greyson Sigg",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.07
+      },
+      {
+        "player_id": "kota-kaneko",
+        "player_name": "Kota Kaneko",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.07
+      },
+      {
+        "player_id": "theo-humphrey",
+        "player_name": "Theo Humphrey",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.07
+      },
+      {
+        "player_id": "satoshi-kodaira",
+        "player_name": "Satoshi Kodaira",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "christian-salzer",
+        "player_name": "Christian Salzer",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.82
       }
     ]
   },

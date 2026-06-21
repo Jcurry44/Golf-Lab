@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "tim-stieren",
+    "player_name": "Tim Stieren",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060312",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 8.5,
+    "avg_sg_total": -6.89,
+    "first_round": "2006-03-09",
+    "last_round": "2006-03-10",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-03-10",
+        "event_name": "The Honda Classic",
+        "course": "Country Club at Mirasol",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -9.059,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-03-09",
+        "event_name": "The Honda Classic",
+        "course": "Country Club at Mirasol",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.725,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Country Club at Mirasol",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -6.89
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "hal-sutton",
+    "player_name": "Hal Sutton",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060219",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 39,
+    "avg_to_par": 2.95,
+    "avg_sg_total": -2.06,
+    "first_round": "2002-01-03",
+    "last_round": "2006-02-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-02-17",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -2.789,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-16",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.069,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-25",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 2.797,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-24",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 3,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -11.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-23",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.371,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-22",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.775,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-14",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 4,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -5.228,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-13",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 3,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -8.57,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-12",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.49,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-11",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 3.828,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-06-24",
+        "event_name": "Barclays Classic",
+        "course": "Westchester Country Club - West Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.362,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-06-23",
+        "event_name": "Barclays Classic",
+        "course": "Westchester Country Club - West Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -5.154,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-27",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.579,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-26",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.658,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-20",
+        "event_name": "Bank of America Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-19",
+        "event_name": "Bank of America Colonial",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.526,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-13",
+        "event_name": "EDS Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.409,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-12",
+        "event_name": "EDS Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-24",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 1,
+        "score": 84,
+        "to_par": 12.0,
+        "sg_total": -12.13,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-18",
+        "event_name": "Bay Hill Invitational Presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.708,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-03-17",
+        "event_name": "Bay Hill Invitational Presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -5.61,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-18",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.775,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-17",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.528,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-04",
+        "event_name": "FBR Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -7.775,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.52
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.02
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 8,
+        "avg_to_par": 1.13,
+        "avg_sg": 0.14
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.04
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.08
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.53
+      }
+    ]
+  },
+  "model": null
+}

@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 80,
-    "avg_to_par": -3.74,
-    "avg_sg_total": 1.3,
+    "rounds": 830,
+    "avg_to_par": -1.79,
+    "avg_sg_total": -0.56,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -60,6 +60,41 @@
         "avg_sg": 3.05
       },
       {
+        "player_id": "charl-schwartzel",
+        "player_name": "Charl Schwartzel",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 2.53
+      },
+      {
+        "player_id": "tom-hoge",
+        "player_name": "Tom Hoge",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.55
+      },
+      {
+        "player_id": "tony-finau",
+        "player_name": "Tony Finau",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.55
+      },
+      {
+        "player_id": "zach-bauchou",
+        "player_name": "Zach Bauchou",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.55
+      },
+      {
+        "player_id": "jesper-svensson",
+        "player_name": "Jesper Svensson",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.3
+      },
+      {
         "player_id": "johnny-keefer",
         "player_name": "Johnny Keefer",
         "rounds": 4,
@@ -72,41 +107,6 @@
         "rounds": 4,
         "avg_to_par": -4.75,
         "avg_sg": 2.3
-      },
-      {
-        "player_id": "sungjae-im",
-        "player_name": "Sungjae Im",
-        "rounds": 4,
-        "avg_to_par": -4.75,
-        "avg_sg": 2.3
-      },
-      {
-        "player_id": "jordan-spieth",
-        "player_name": "Jordan Spieth",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "pierceson-coody",
-        "player_name": "Pierceson Coody",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "ryo-hisatsune",
-        "player_name": "Ryo Hisatsune",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "emiliano-grillo",
-        "player_name": "Emiliano Grillo",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 0.8
       }
     ]
   },

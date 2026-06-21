@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "doral-golf-resort-spa-blue-monster-course-doral-fl",
+    "course_name": "Doral Golf Resort & Spa - Blue Monster Course",
+    "location": "Doral, Florida",
+    "country": "",
+    "par": 72,
+    "yards": 7481,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 37,
+    "avg_to_par": -0.57,
+    "avg_sg_total": -2.96,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "scott-hoch",
+        "player_name": "Scott Hoch",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.11
+      },
+      {
+        "player_id": "andre-stolz",
+        "player_name": "Andre Stolz",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.36
+      },
+      {
+        "player_id": "tom-kite",
+        "player_name": "Tom Kite",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.51
+      },
+      {
+        "player_id": "rick-heath",
+        "player_name": "Rick Heath",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.39
+      },
+      {
+        "player_id": "curt-saathoff",
+        "player_name": "Curt Saathoff",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.51
+      },
+      {
+        "player_id": "john-nelson",
+        "player_name": "John Nelson",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.51
+      },
+      {
+        "player_id": "chris-perry",
+        "player_name": "Chris Perry",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -3.21
+      },
+      {
+        "player_id": "akio-sadakata",
+        "player_name": "Akio Sadakata",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.01
+      },
+      {
+        "player_id": "dave-kelly",
+        "player_name": "Dave Kelly",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.21
+      },
+      {
+        "player_id": "nick-faldo",
+        "player_name": "Nick Faldo",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.71
+      },
+      {
+        "player_id": "adam-adams",
+        "player_name": "Adam Adams",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -5.21
+      },
+      {
+        "player_id": "chris-toulson",
+        "player_name": "Chris Toulson",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -5.21
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Ford Championship at Doral",
+        "season": 2006,
+        "par": 72,
+        "yards": 7481,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Ford Championship at Doral",
+        "season": 2005,
+        "par": 72,
+        "yards": 7481,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

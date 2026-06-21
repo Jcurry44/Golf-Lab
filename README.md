@@ -32,9 +32,12 @@ http://127.0.0.1:8787/
 To build from the local public PGA warehouse created during research:
 
 ```powershell
-python golf_lab_import.py --from-warehouse "..\Golf Stats Tracker\data\golf-lab\pga-public-history-2002-2026" --player-limit 80 --rounds-per-player 40
+python golf_lab_import.py --from-warehouse "..\Golf Stats Tracker\data\golf-lab\pga-public-history-2002-2026" --rounds-per-player 40
 python app.py --port 8787
 ```
+
+By default the warehouse import loads the full available player universe. Use
+`--event-field-only` only for a tiny development build.
 
 The generated SQLite database lives at `data/golf_lab.db` and is ignored by git.
 

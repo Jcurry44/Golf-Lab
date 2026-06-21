@@ -1,0 +1,188 @@
+{
+  "player": {
+    "player_id": "kamaiu-johnson",
+    "player_name": "Kamaiu Johnson",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230305",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 7.4,
+    "avg_sg_total": -7.03,
+    "first_round": "2021-02-11",
+    "last_round": "2023-03-03",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-03-03",
+        "event_name": "Arnold Palmer Invitational pres. by Mastercard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.496,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-03-02",
+        "event_name": "Arnold Palmer Invitational pres. by Mastercard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.817,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-01-27",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 85,
+        "to_par": 13.0,
+        "sg_total": -14.16,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-01-26",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.058,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-19",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -8.331,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-18",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -9.51,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-05",
+        "event_name": "Arnold Palmer Invitational Pres. By Mastercard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -6.172,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-03-04",
+        "event_name": "Arnold Palmer Invitational Pres. By Mastercard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 84,
+        "to_par": 12.0,
+        "sg_total": -10.837,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-12",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-11",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -9.673,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -7.61
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 4,
+        "avg_to_par": 6.75,
+        "avg_sg": -5.83
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -6.97
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 10.0,
+        "avg_sg": -8.92
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,188 @@
+{
+  "player": {
+    "player_id": "maarten-lafeber",
+    "player_name": "Maarten Lafeber",
+    "country": "Netherlands",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110619",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 3.7,
+    "avg_sg_total": -1.31,
+    "first_round": "2005-07-14",
+    "last_round": "2011-06-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-06-17",
+        "event_name": "U.S. Open",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -0.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-16",
+        "event_name": "U.S. Open",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -4.891,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-16",
+        "event_name": "U.S. Open Championship",
+        "course": "Winged Foot Golf Club - West Course",
+        "round_number": 2,
+        "score": 83,
+        "to_par": 13.0,
+        "sg_total": -7.955,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-06-15",
+        "event_name": "U.S. Open Championship",
+        "course": "Winged Foot Golf Club - West Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": 0.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-12",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.51,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-11",
+        "event_name": "PGA Championship",
+        "course": "Baltusrol Golf Club - Lower Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.172,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-17",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.437,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-16",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 4.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-15",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.084,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-14",
+        "event_name": "British Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.671,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.83
+      },
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.33
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.9
+      },
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -3.98
+      }
+    ]
+  },
+  "model": null
+}

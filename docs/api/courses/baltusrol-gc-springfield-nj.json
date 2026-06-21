@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "baltusrol-gc-springfield-nj",
+    "course_name": "Baltusrol Golf Club - Lower Course",
+    "location": "Springfield, New Jersey",
+    "country": "",
+    "par": 70,
+    "yards": 7392,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 174,
+    "avg_to_par": 3.63,
+    "avg_sg_total": -1.99,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "gregory-bourdy",
+        "player_name": "Gregory Bourdy",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.66
+      },
+      {
+        "player_id": "hideto-tanihara",
+        "player_name": "Hideto Tanihara",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.16
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.91
+      },
+      {
+        "player_id": "young-han-song",
+        "player_name": "Young-han Song",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.41
+      },
+      {
+        "player_id": "george-coetzee",
+        "player_name": "George Coetzee",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.16
+      },
+      {
+        "player_id": "marcus-fraser",
+        "player_name": "Marcus Fraser",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.59
+      },
+      {
+        "player_id": "rich-beem",
+        "player_name": "Rich Beem",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.59
+      },
+      {
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.59
+      },
+      {
+        "player_id": "bradley-dredge",
+        "player_name": "Bradley Dredge",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.84
+      },
+      {
+        "player_id": "steve-schneiter",
+        "player_name": "Steve Schneiter",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.89
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.31
+      },
+      {
+        "player_id": "ryan-helminen",
+        "player_name": "Ryan Helminen",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.31
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2005,
+        "par": 70,
+        "yards": 7392,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

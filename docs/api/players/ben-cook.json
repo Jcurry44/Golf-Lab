@@ -1,0 +1,210 @@
+{
+  "player": {
+    "player_id": "ben-cook",
+    "player_name": "Ben Cook",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250629",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 1.75,
+    "avg_sg_total": -1.11,
+    "first_round": "2019-05-16",
+    "last_round": "2025-06-27",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-06-27",
+        "event_name": "Rocket Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -5.378,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-06-26",
+        "event_name": "Rocket Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.897,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-29",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.941,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-28",
+        "event_name": "Rocket Mortgage Classic",
+        "course": "Detroit Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.323,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-23",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-22",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 4.037,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-21",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -1.432,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-05-20",
+        "event_name": "PGA Championship",
+        "course": "Ocean Course at Kiawah Island",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 2.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-08-07",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-08-06",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-17",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.355,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-16",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.936,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.88
+      },
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.01
+      },
+      {
+        "course": "TPC Harding Park",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.79
+      },
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.15
+      }
+    ]
+  },
+  "model": null
+}

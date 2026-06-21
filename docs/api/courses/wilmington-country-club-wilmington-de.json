@@ -1,0 +1,95 @@
+{
+  "course": {
+    "course_id": "wilmington-country-club-wilmington-de",
+    "course_name": "Wilmington Country Club",
+    "location": "Wilmington, DE, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 24,
+    "avg_to_par": -0.08,
+    "avg_sg_total": -0.67,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "marc-leishman",
+        "player_name": "Marc Leishman",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "brendan-steele",
+        "player_name": "Brendan Steele",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.0
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.75
+      },
+      {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.25
+      },
+      {
+        "player_id": "cameron-tringale",
+        "player_name": "Cameron Tringale",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -2.0
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "BMW Championship",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

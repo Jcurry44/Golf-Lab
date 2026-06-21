@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "oak-hill-cc-rochester-ny",
+    "course_name": "Oak Hill CC",
+    "location": "Rochester, NY, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 67,
+    "avg_to_par": 4.88,
+    "avg_sg_total": -2.73,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "scott-jamieson",
+        "player_name": "Scott Jamieson",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.38
+      },
+      {
+        "player_id": "marcus-fraser",
+        "player_name": "Marcus Fraser",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.63
+      },
+      {
+        "player_id": "paul-lawrie",
+        "player_name": "Paul Lawrie",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.21
+      },
+      {
+        "player_id": "david-muttitt",
+        "player_name": "David Muttitt",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "mikko-ilonen",
+        "player_name": "Mikko Ilonen",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "rich-beem",
+        "player_name": "Rich Beem",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "brett-rumford",
+        "player_name": "Brett Rumford",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.29
+      },
+      {
+        "player_id": "hiroyuki-fujita",
+        "player_name": "Hiroyuki Fujita",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.29
+      },
+      {
+        "player_id": "richie-ramsay",
+        "player_name": "Richie Ramsay",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.29
+      },
+      {
+        "player_id": "jeff-sorenson",
+        "player_name": "Jeff Sorenson",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.79
+      },
+      {
+        "player_id": "kohki-idoki",
+        "player_name": "Kohki Idoki",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.79
+      },
+      {
+        "player_id": "j-c-anderson",
+        "player_name": "J.C. Anderson",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.29
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

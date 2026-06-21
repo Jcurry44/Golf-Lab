@@ -1,0 +1,160 @@
+{
+  "player": {
+    "player_id": "cory-renfrew",
+    "player_name": "Cory Renfrew",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20151018",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 0.0,
+    "avg_sg_total": -0.47,
+    "first_round": "2012-07-26",
+    "last_round": "2015-10-16",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-10-16",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.14,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-10-15",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.257,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-02-01",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 3.855,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-31",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.447,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-30",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.977,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-01-29",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.697,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-27",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-26",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.109,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.22
+      },
+      {
+        "course": "Hamilton G&CC",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.25
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.2
+      }
+    ]
+  },
+  "model": null
+}

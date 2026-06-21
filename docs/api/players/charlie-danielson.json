@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "charlie-danielson",
+    "player_name": "Charlie Danielson",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190804",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 26,
+    "avg_to_par": 0.23,
+    "avg_sg_total": -0.35,
+    "first_round": "2016-02-18",
+    "last_round": "2019-08-02",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-08-02",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.455,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-08-01",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -3.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-07",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 1.397,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-06",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 3,
+        "score": 64,
+        "to_par": -7.0,
+        "sg_total": 4.859,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-05",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 3.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-04",
+        "event_name": "3M Open",
+        "course": "TPC Twin Cities",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.71,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-16",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.19,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-15",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -4.57,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.571,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.686,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-12",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -3.058,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-11",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.986,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-10",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.613,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-03-09",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.444,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-28",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.424,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-10-27",
+        "event_name": "Sanderson Farms Championship",
+        "course": "The Country Club of Jackson",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.5,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-14",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-13",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.589,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-12",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -1.113,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-11",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.442,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-17",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -7.396,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-16",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -3.774,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-21",
+        "event_name": "Northern Trust Open",
+        "course": "The Riviera Country Club",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -5.289,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-02-20",
+        "event_name": "Northern Trust Open",
+        "course": "The Riviera Country Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.143,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.75
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.49
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.78
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.54
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.03
+      }
+    ]
+  },
+  "model": null
+}

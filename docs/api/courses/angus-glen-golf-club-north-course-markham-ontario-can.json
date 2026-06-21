@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "angus-glen-golf-club-north-course-markham-ontario-can",
+    "course_name": "Angus Glen Golf Club - North Course",
+    "location": "Markham, Ontario, Canada",
+    "country": "",
+    "par": 72,
+    "yards": 7403,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 75,
+    "avg_to_par": 0.23,
+    "avg_sg_total": -1.31,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "paul-gow",
+        "player_name": "Paul Gow",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "tripp-isenhour",
+        "player_name": "Tripp Isenhour",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "jeff-sluman",
+        "player_name": "Jeff Sluman",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "steve-jones",
+        "player_name": "Steve Jones",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.56
+      },
+      {
+        "player_id": "alan-mclean",
+        "player_name": "Alan McLean",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "scott-gump",
+        "player_name": "Scott Gump",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "mike-grob",
+        "player_name": "Mike Grob",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "danny-king",
+        "player_name": "Danny King",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      },
+      {
+        "player_id": "derek-gillespie",
+        "player_name": "Derek Gillespie",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      },
+      {
+        "player_id": "eli-zackheim",
+        "player_name": "Eli Zackheim",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      },
+      {
+        "player_id": "james-lepp",
+        "player_name": "James Lepp",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      },
+      {
+        "player_id": "matt-hendrix",
+        "player_name": "Matt Hendrix",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Canadian Open presented by Franklin Templeton Inve",
+        "season": 2007,
+        "par": 72,
+        "yards": 7403,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

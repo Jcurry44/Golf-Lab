@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "oakland-hills-country-club-south-course-bloomfield-hills-mi",
+    "course_name": "Oakland Hills Country Club - South Course",
+    "location": "Bloomfield Hills, Michigan",
+    "country": "",
+    "par": 70,
+    "yards": 7395,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 92,
+    "avg_to_par": 6.47,
+    "avg_sg_total": -1.91,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "alastair-forsyth",
+        "player_name": "Alastair Forsyth",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 2.76
+      },
+      {
+        "player_id": "prayad-marksaeng",
+        "player_name": "Prayad Marksaeng",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.26
+      },
+      {
+        "player_id": "mark-brown",
+        "player_name": "Mark Brown",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "michael-campbell",
+        "player_name": "Michael Campbell",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "james-kingston",
+        "player_name": "James Kingston",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.01
+      },
+      {
+        "player_id": "brendan-jones",
+        "player_name": "Brendan Jones",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "frank-esposito-jr",
+        "player_name": "Frank Esposito, Jr.",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "niclas-fasth",
+        "player_name": "Niclas Fasth",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -0.74
+      },
+      {
+        "player_id": "paul-azinger",
+        "player_name": "Paul Azinger",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -0.74
+      },
+      {
+        "player_id": "jay-haas",
+        "player_name": "Jay Haas",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.15
+      },
+      {
+        "player_id": "don-yrene",
+        "player_name": "Don Yrene",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -0.65
+      },
+      {
+        "player_id": "scott-strange",
+        "player_name": "Scott Strange",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -0.65
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2008,
+        "par": 70,
+        "yards": 7395,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

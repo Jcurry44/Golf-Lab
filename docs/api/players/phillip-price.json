@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "phillip-price",
+    "player_name": "Phillip Price",
+    "country": "Wales",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060723",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.63,
+    "avg_sg_total": 0.01,
+    "first_round": "2005-06-23",
+    "last_round": "2006-07-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.776,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-11-04",
+        "event_name": "Southern Farm Bureau Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-11-03",
+        "event_name": "Southern Farm Bureau Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.379,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-21",
+        "event_name": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+        "course": null,
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 0.971,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-20",
+        "event_name": "FUNAI Classic at the WALT DISNEY WORLD Resort",
+        "course": null,
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.646,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-16",
+        "event_name": "Michelin Championship at Las Vegas",
+        "course": "TPC Summerlin",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.902,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-15",
+        "event_name": "Michelin Championship at Las Vegas",
+        "course": "TPC Summerlin",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 3.072,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-14",
+        "event_name": "Michelin Championship at Las Vegas",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 2.58,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-13",
+        "event_name": "Michelin Championship at Las Vegas",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.604,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-02",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.338,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-01",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.039,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-30",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.262,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-29",
+        "event_name": "Chrysler Classic of Greensboro",
+        "course": "Forest Oaks Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.754,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-25",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.203,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-24",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-23",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.629,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-22",
+        "event_name": "Valero Texas Open",
+        "course": "La Cantera Golf Club - Resort Course",
+        "round_number": 1,
+        "score": 64,
+        "to_par": -6.0,
+        "sg_total": 5.225,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-18",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.425,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-17",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 3,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 5.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-16",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.464,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-09-15",
+        "event_name": "84 LUMBER Classic",
+        "course": "Mystic Rock",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.603,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-26",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-25",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.232,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.09
+      },
+      {
+        "course": null,
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.34
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.6
+      },
+      {
+        "course": "Mystic Rock",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.04
+      },
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.03
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.42
+      }
+    ]
+  },
+  "model": null
+}

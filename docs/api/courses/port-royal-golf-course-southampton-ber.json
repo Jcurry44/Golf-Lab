@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 18,
-    "avg_to_par": -0.22,
-    "avg_sg_total": 0.45,
+    "rounds": 901,
+    "avg_to_par": 0.27,
+    "avg_sg_total": -1.09,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,39 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "zac-blair",
-        "player_name": "Zac Blair",
+        "player_id": "doc-redman",
+        "player_name": "Doc Redman",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.4
+        "avg_to_par": -4.0,
+        "avg_sg": 1.77
       },
       {
-        "player_id": "niklas-n-rgaard",
-        "player_name": "Niklas Nørgaard",
+        "player_id": "fred-biondi",
+        "player_name": "Fred Biondi",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.65
+        "avg_to_par": -4.0,
+        "avg_sg": 1.77
       },
       {
-        "player_id": "harry-higgs",
-        "player_name": "Harry Higgs",
+        "player_id": "kramer-hickok",
+        "player_name": "Kramer Hickok",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.9
+        "avg_to_par": -4.0,
+        "avg_sg": 1.77
       },
       {
-        "player_id": "ben-kohles",
-        "player_name": "Ben Kohles",
+        "player_id": "satoshi-kodaira",
+        "player_name": "Satoshi Kodaira",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.1
+        "avg_to_par": -4.0,
+        "avg_sg": 1.77
       },
       {
-        "player_id": "miles-russell",
-        "player_name": "Miles Russell",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.61
+        "player_id": "kyle-stanley",
+        "player_name": "Kyle Stanley",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "lucas-herbert",
+        "player_name": "Lucas Herbert",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "brian-gay",
+        "player_name": "Brian Gay",
+        "rounds": 8,
+        "avg_to_par": -3.13,
+        "avg_sg": 1.27
+      },
+      {
+        "player_id": "graeme-mcdowell",
+        "player_name": "Graeme McDowell",
+        "rounds": 3,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "boo-weekley",
+        "player_name": "Boo Weekley",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.66
+      },
+      {
+        "player_id": "brian-stuard",
+        "player_name": "Brian Stuard",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.77
+      },
+      {
+        "player_id": "kyle-westmoreland",
+        "player_name": "Kyle Westmoreland",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.77
+      },
+      {
+        "player_id": "andrew-landry",
+        "player_name": "Andrew Landry",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.52
       }
     ]
   },

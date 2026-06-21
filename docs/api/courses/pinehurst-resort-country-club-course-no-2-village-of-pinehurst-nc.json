@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 16,
-    "avg_to_par": 1.38,
-    "avg_sg_total": 1.48,
-    "difficulty_bucket": "tough"
+    "rounds": 128,
+    "avg_to_par": 4.35,
+    "avg_sg_total": -1.36,
+    "difficulty_bucket": "brutal"
   },
   "fits": {
     "columns": [
@@ -32,6 +32,13 @@
         "avg_sg": 4.29
       },
       {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.54
+      },
+      {
         "player_id": "tyrrell-hatton",
         "player_name": "Tyrrell Hatton",
         "rounds": 4,
@@ -46,6 +53,20 @@
         "avg_sg": 1.03
       },
       {
+        "player_id": "tom-mckibbin",
+        "player_name": "Tom McKibbin",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.79
+      },
+      {
+        "player_id": "david-puig",
+        "player_name": "David Puig",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 0.03
+      },
+      {
         "player_id": "ben-james",
         "player_name": "Ben James",
         "rounds": 2,
@@ -53,11 +74,39 @@
         "avg_sg": 0.08
       },
       {
-        "player_id": "dustin-johnson",
-        "player_name": "Dustin Johnson",
+        "player_id": "brandon-robinson-thompson",
+        "player_name": "Brandon Robinson Thompson",
         "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -1.42
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
+      },
+      {
+        "player_id": "bryan-kim",
+        "player_name": "Bryan Kim",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
+      },
+      {
+        "player_id": "frederik-kjettrup",
+        "player_name": "Frederik Kjettrup",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
+      },
+      {
+        "player_id": "jackson-buchanan",
+        "player_name": "Jackson Buchanan",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
+      },
+      {
+        "player_id": "jason-scrivener",
+        "player_name": "Jason Scrivener",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
       }
     ]
   },

@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "michael-d-smith",
+    "player_name": "Michael D. Smith",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150426",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": -0.33,
+    "avg_sg_total": -0.29,
+    "first_round": "2011-06-16",
+    "last_round": "2015-04-26",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-04-26",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.887,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-04-25",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 3,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 2.479,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-04-24",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-04-23",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-17",
+        "event_name": "U.S. Open",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -2.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-06-16",
+        "event_name": "U.S. Open",
+        "course": "Congressional Country Club - Blue Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -1.891,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.77
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.4
+      }
+    ]
+  },
+  "model": null
+}

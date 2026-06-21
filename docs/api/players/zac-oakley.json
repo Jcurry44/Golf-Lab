@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "zac-oakley",
+    "player_name": "Zac Oakley",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240519",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 8.25,
+    "avg_sg_total": -6.81,
+    "first_round": "2022-05-19",
+    "last_round": "2024-05-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-05-17",
+        "event_name": "PGA Championship",
+        "course": "Valhalla Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -3.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-05-16",
+        "event_name": "PGA Championship",
+        "course": "Valhalla Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -5.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-20",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -9.397,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-05-19",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -8.167,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Valhalla Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.84
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 11.5,
+        "avg_sg": -8.78
+      }
+    ]
+  },
+  "model": null
+}

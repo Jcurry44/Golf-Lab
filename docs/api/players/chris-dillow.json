@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "chris-dillow",
+    "player_name": "Chris Dillow",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20070819",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 7.0,
+    "avg_sg_total": -9.14,
+    "first_round": "2007-08-16",
+    "last_round": "2007-08-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2007-08-17",
+        "event_name": "Wyndham Championship",
+        "course": "Forest Oaks Country Club",
+        "round_number": 2,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -12.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-16",
+        "event_name": "Wyndham Championship",
+        "course": "Forest Oaks Country Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.282,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -9.14
+      }
+    ]
+  },
+  "model": null
+}

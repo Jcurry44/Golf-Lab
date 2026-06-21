@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "shaughnessy-golf-country-club-vancouver-bc-can",
+    "course_name": "Shaughnessy Golf and Country Club",
+    "location": "Vancouver, BC, Canada",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 158,
+    "avg_to_par": 4.69,
+    "avg_sg_total": -1.68,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "michael-harris",
+        "player_name": "Michael Harris",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.73
+      },
+      {
+        "player_id": "franklin-langham",
+        "player_name": "Franklin Langham",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.23
+      },
+      {
+        "player_id": "jeff-hart",
+        "player_name": "Jeff Hart",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.98
+      },
+      {
+        "player_id": "james-mclean",
+        "player_name": "James McLean",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.73
+      },
+      {
+        "player_id": "mario-tiziani",
+        "player_name": "Mario Tiziani",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.73
+      },
+      {
+        "player_id": "aron-price",
+        "player_name": "Aron Price",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.52
+      },
+      {
+        "player_id": "peter-lonard",
+        "player_name": "Peter Lonard",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.52
+      },
+      {
+        "player_id": "craig-stadler",
+        "player_name": "Craig Stadler",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.48
+      },
+      {
+        "player_id": "rob-rashell",
+        "player_name": "Rob Rashell",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.16
+      },
+      {
+        "player_id": "ted-tryba",
+        "player_name": "Ted Tryba",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.16
+      },
+      {
+        "player_id": "nate-smith",
+        "player_name": "Nate Smith",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.07
+      },
+      {
+        "player_id": "brett-quigley",
+        "player_name": "Brett Quigley",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.02
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "RBC Canadian Open",
+        "season": 2011,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Bell Canadian Open",
+        "season": 2005,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

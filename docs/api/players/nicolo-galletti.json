@@ -1,0 +1,237 @@
+{
+  "player": {
+    "player_id": "nicolo-galletti",
+    "player_name": "Nicolo Galletti",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 15,
+    "avg_to_par": 0.0,
+    "avg_sg_total": -0.34,
+    "first_round": "2024-02-08",
+    "last_round": "2025-12-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2025-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.953,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.221,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-12-11",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.937,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-15",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 0.647,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-14",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.727,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 0.911,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 2.265,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-20",
+        "event_name": "Shriners Children's Open",
+        "course": "TPC Summerlin",
+        "round_number": 4,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.939,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-19",
+        "event_name": "Shriners Children's Open",
+        "course": "TPC Summerlin",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -7.515,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-18",
+        "event_name": "Shriners Children's Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 5.008,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-17",
+        "event_name": "Shriners Children's Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.144,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-02-11",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-02-10",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.123,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-02-09",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.282,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-02-08",
+        "event_name": "WM Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.106,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.68
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 7,
+        "avg_to_par": 0.29,
+        "avg_sg": 0.62
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.69
+      }
+    ]
+  },
+  "model": null
+}

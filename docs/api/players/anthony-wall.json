@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "anthony-wall",
+    "player_name": "Anthony Wall",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 35,
+    "avg_to_par": -0.06,
+    "avg_sg_total": -0.24,
+    "first_round": "2006-07-20",
+    "last_round": "2016-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-07-15",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 1.383,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -3.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-19",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.438,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-18",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.713,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-17",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.359,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-16",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.237,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-14",
+        "event_name": "PGA Championship",
+        "course": "Hazeltine National Golf Club",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -0.903,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-08-13",
+        "event_name": "PGA Championship",
+        "course": "Hazeltine National Golf Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -3.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-19",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.068,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-18",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -1.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 2.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 3.186,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 2.133,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-19",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 3,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -5.241,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-18",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 0.779,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-17",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 4.877,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-09",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 1,
+        "score": 0,
+        "to_par": -70.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-20",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -1.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-19",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -3.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-06-15",
+        "event_name": "U.S. Open Championship",
+        "course": "Oakmont Country Club",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -4.103,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-06-14",
+        "event_name": "U.S. Open Championship",
+        "course": "Oakmont Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 2.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-25",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.944,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-24",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.438,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-03-23",
+        "event_name": "World Golf Championships-CA Championship",
+        "course": "Trump National Doral",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.89,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "St. Andrews GC (Old Course)",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.69
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.38
+      },
+      {
+        "course": "Medinah Country Club - No. 3 Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.14
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.86
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.84
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -2.25
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "steen-tinning",
+    "player_name": "Steen Tinning",
+    "country": "Denmark",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20030824",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 3.25,
+    "avg_sg_total": -2.0,
+    "first_round": "2003-08-21",
+    "last_round": "2003-08-24",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2003-08-24",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": 0.341,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-23",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -4.741,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-22",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.212,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-08-21",
+        "event_name": "WGC-NEC Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.376,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -2.0
+      }
+    ]
+  },
+  "model": null
+}

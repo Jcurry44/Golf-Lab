@@ -1,0 +1,197 @@
+{
+  "course": {
+    "course_id": "montreux-golf-country-club-reno-nv",
+    "course_name": "Montreux Golf & Country Club",
+    "location": "Reno, Nevada",
+    "country": "",
+    "par": 72,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 590,
+    "avg_to_par": 1.49,
+    "avg_sg_total": -1.43,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "steve-jones",
+        "player_name": "Steve Jones",
+        "rounds": 2,
+        "avg_to_par": -34.5,
+        "avg_sg": -3.67
+      },
+      {
+        "player_id": "steve-elkington",
+        "player_name": "Steve Elkington",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.42
+      },
+      {
+        "player_id": "bill-glasson",
+        "player_name": "Bill Glasson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.07
+      },
+      {
+        "player_id": "brian-henninger",
+        "player_name": "Brian Henninger",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.07
+      },
+      {
+        "player_id": "mathias-gronberg",
+        "player_name": "Mathias Gronberg",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.67
+      },
+      {
+        "player_id": "bob-heintz",
+        "player_name": "Bob Heintz",
+        "rounds": 8,
+        "avg_to_par": -1.88,
+        "avg_sg": 2.24
+      },
+      {
+        "player_id": "andrew-buckle",
+        "player_name": "Andrew Buckle",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.03
+      },
+      {
+        "player_id": "rob-grube",
+        "player_name": "Rob Grube",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.03
+      },
+      {
+        "player_id": "per-ulrik-johansson",
+        "player_name": "Per-Ulrik Johansson",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.08
+      },
+      {
+        "player_id": "john-riegger",
+        "player_name": "John Riegger",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.78
+      },
+      {
+        "player_id": "will-collins",
+        "player_name": "Will Collins",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.3
+      },
+      {
+        "player_id": "aron-price",
+        "player_name": "Aron Price",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.17
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Reno-Tahoe Open",
+        "season": 2011,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Reno-Tahoe Open",
+        "season": 2010,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Legends Reno-Tahoe Open",
+        "season": 2009,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Legends Reno-Tahoe Open",
+        "season": 2008,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Reno-Tahoe Open",
+        "season": 2007,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Reno-Tahoe Open",
+        "season": 2006,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Reno-Tahoe Open",
+        "season": 2005,
+        "par": 72,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

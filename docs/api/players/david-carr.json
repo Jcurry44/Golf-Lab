@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "david-carr",
+    "player_name": "David Carr",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150215",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 5.7,
+    "avg_sg_total": -5.96,
+    "first_round": "2013-10-10",
+    "last_round": "2015-02-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-02-14",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-02-13",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 84,
+        "to_par": 12.0,
+        "sg_total": -13.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-10",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -9.406,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-10-09",
+        "event_name": "Frys.com Open",
+        "course": "Silverado Resort and Spa (North Course)",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.91,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-08",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -3.896,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-07",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -7.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-06",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.365,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-10-11",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.122,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-10-10",
+        "event_name": "Frys.com Open",
+        "course": "CordeValle GC",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.326,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "CordeValle GC",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 6,
+        "avg_to_par": 6.83,
+        "avg_sg": -7.17
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -7.66
+      }
+    ]
+  },
+  "model": null
+}

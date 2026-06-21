@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "torrey-pines-south-san-diego-ca",
+    "course_name": "Torrey Pines (South)",
+    "location": "San Diego, CA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 88,
+    "avg_to_par": 4.01,
+    "avg_sg_total": -1.41,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "chris-baker",
+        "player_name": "Chris Baker",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "edoardo-molinari",
+        "player_name": "Edoardo Molinari",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "wade-ormsby",
+        "player_name": "Wade Ormsby",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.77
+      },
+      {
+        "player_id": "rick-lamb",
+        "player_name": "Rick Lamb",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.52
+      },
+      {
+        "player_id": "richard-bland",
+        "player_name": "Richard Bland",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.27
+      },
+      {
+        "player_id": "andrew-kozan",
+        "player_name": "Andrew Kozan",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "marcus-armitage",
+        "player_name": "Marcus Armitage",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "zach-zaback",
+        "player_name": "Zach Zaback",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "charles-osborne",
+        "player_name": "Charles Osborne",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.25
+      },
+      {
+        "player_id": "johannes-veerman",
+        "player_name": "Johannes Veerman",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.25
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

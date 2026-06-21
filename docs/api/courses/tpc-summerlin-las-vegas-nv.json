@@ -1,0 +1,227 @@
+{
+  "course": {
+    "course_id": "tpc-summerlin-las-vegas-nv",
+    "course_name": "TPC Summerlin",
+    "location": "Las Vegas, NV, USA",
+    "country": "",
+    "par": 71,
+    "yards": 7255,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 659,
+    "avg_to_par": -0.29,
+    "avg_sg_total": -1.52,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "danny-ellis",
+        "player_name": "Danny Ellis",
+        "rounds": 2,
+        "avg_to_par": -35.0,
+        "avg_sg": -3.79
+      },
+      {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.75
+      },
+      {
+        "player_id": "ian-gilligan",
+        "player_name": "Ian Gilligan",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "ryan-mccormick",
+        "player_name": "Ryan McCormick",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "bob-heintz",
+        "player_name": "Bob Heintz",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.64
+      },
+      {
+        "player_id": "jack-trent",
+        "player_name": "Jack Trent",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.27
+      },
+      {
+        "player_id": "c-t-pan",
+        "player_name": "C.T. Pan",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "greg-kraft",
+        "player_name": "Greg Kraft",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.18
+      },
+      {
+        "player_id": "tjaart-van-der-walt",
+        "player_name": "Tjaart van der Walt",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "patrick-welch",
+        "player_name": "Patrick Welch",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "phillip-price",
+        "player_name": "Phillip Price",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.09
+      },
+      {
+        "player_id": "craig-parry",
+        "player_name": "Craig Parry",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.79
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Shriners Children's Open",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Children's Open",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Children's Open",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Children's Open",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospitals for Children Open",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospital for Children Open",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospitals for Children Open",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospitals for Children Open",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospitals for Children Open",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Shriners Hospitals for Children Open",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

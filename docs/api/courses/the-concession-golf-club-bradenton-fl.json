@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 2,
-    "avg_to_par": 3.0,
-    "avg_sg_total": -3.2,
-    "difficulty_bucket": "brutal"
+    "rounds": 40,
+    "avg_to_par": 1.55,
+    "avg_sg_total": -1.91,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,81 @@
     ],
     "rows": [
       {
+        "player_id": "trevor-simsby",
+        "player_name": "Trevor Simsby",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.12
+      },
+      {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "jason-scrivener",
+        "player_name": "Jason Scrivener",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.38
+      },
+      {
+        "player_id": "brandon-stone",
+        "player_name": "Brandon Stone",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.88
+      },
+      {
+        "player_id": "yuki-inamori",
+        "player_name": "Yuki Inamori",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -1.13
+      },
+      {
+        "player_id": "wade-ormsby",
+        "player_name": "Wade Ormsby",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.38
+      },
+      {
+        "player_id": "brad-kennedy",
+        "player_name": "Brad Kennedy",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.38
+      },
+      {
         "player_id": "laurie-canter",
         "player_name": "Laurie Canter",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -3.2
+      },
+      {
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.63
+      },
+      {
+        "player_id": "jc-ritchie",
+        "player_name": "JC Ritchie",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.63
+      },
+      {
+        "player_id": "daniel-van-tonder",
+        "player_name": "Daniel van Tonder",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -4.13
       }
     ]
   },

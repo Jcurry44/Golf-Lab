@@ -1,0 +1,176 @@
+{
+  "player": {
+    "player_id": "rahil-gangjee",
+    "player_name": "Rahil Gangjee",
+    "country": "India",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20181014",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 0.3,
+    "avg_sg_total": -1.45,
+    "first_round": "2010-12-01",
+    "last_round": "2018-10-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2018-10-13",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.859,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-12",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-11",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.564,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-10",
+        "event_name": "CIMB Classic",
+        "course": "TPC Kuala Lumpur",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -7.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-06",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-05",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.381,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-04",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 2.987,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -2.994,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 0.753,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.519,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": -0.33,
+        "avg_sg": 0.15
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -3.85
+      }
+    ]
+  },
+  "model": null
+}

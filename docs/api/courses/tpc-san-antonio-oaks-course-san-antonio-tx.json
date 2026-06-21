@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 4,
-    "avg_to_par": 0.25,
-    "avg_sg_total": 0.73,
-    "difficulty_bucket": "balanced"
+    "rounds": 776,
+    "avg_to_par": 2.0,
+    "avg_sg_total": -1.3,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "ben-james",
-        "player_name": "Ben James",
+        "player_id": "matt-jones",
+        "player_name": "Matt Jones",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.73
+        "avg_to_par": -2.75,
+        "avg_sg": 2.44
+      },
+      {
+        "player_id": "charles-howell-iii",
+        "player_name": "Charles Howell III",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.19
+      },
+      {
+        "player_id": "anirban-lahiri",
+        "player_name": "Anirban Lahiri",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "jos-de-jes-s-rodr-guez",
+        "player_name": "José de Jesús Rodríguez",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.13
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.44
+      },
+      {
+        "player_id": "peter-kuest",
+        "player_name": "Peter Kuest",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "jared-wolfe",
+        "player_name": "Jared Wolfe",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "richard-bland",
+        "player_name": "Richard Bland",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "zack-fischer",
+        "player_name": "Zack Fischer",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": 1.05
+      },
+      {
+        "player_id": "gonzalo-fernandez-casta-o",
+        "player_name": "Gonzalo Fernandez-Castaño",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "retief-goosen",
+        "player_name": "Retief Goosen",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "roberto-d-az",
+        "player_name": "Roberto Díaz",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.01
       }
     ]
   },

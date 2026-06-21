@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "tesoro-club-port-st-lucie-fl",
+    "course_name": "Tesoro Club",
+    "location": "Port St. Lucie, Florida",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 68,
+    "avg_to_par": 0.38,
+    "avg_sg_total": -1.27,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "daisuke-maruyama",
+        "player_name": "Daisuke Maruyama",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "paul-gow",
+        "player_name": "Paul Gow",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "russ-cochran",
+        "player_name": "Russ Cochran",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "michael-boyd",
+        "player_name": "Michael Boyd",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.51
+      },
+      {
+        "player_id": "brent-geiberger",
+        "player_name": "Brent Geiberger",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.52
+      },
+      {
+        "player_id": "bubba-dickerson",
+        "player_name": "Bubba Dickerson",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.52
+      },
+      {
+        "player_id": "tripp-isenhour",
+        "player_name": "Tripp Isenhour",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.52
+      },
+      {
+        "player_id": "craig-lile",
+        "player_name": "Craig Lile",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.49
+      },
+      {
+        "player_id": "jim-gallagher-jr",
+        "player_name": "Jim Gallagher Jr.",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.49
+      },
+      {
+        "player_id": "jaco-van-zyl",
+        "player_name": "Jaco Van Zyl",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.02
+      },
+      {
+        "player_id": "jeff-brehaut",
+        "player_name": "Jeff Brehaut",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.02
+      },
+      {
+        "player_id": "jim-rutledge",
+        "player_name": "Jim Rutledge",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.02
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Ginn sur Mer Classic at Tesoro",
+        "season": 2007,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

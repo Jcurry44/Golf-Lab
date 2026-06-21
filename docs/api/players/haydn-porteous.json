@@ -1,0 +1,210 @@
+{
+  "player": {
+    "player_id": "haydn-porteous",
+    "player_name": "Haydn Porteous",
+    "country": "South Africa",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 0.58,
+    "avg_sg_total": -0.13,
+    "first_round": "2016-07-14",
+    "last_round": "2022-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": 0,
+        "to_par": 0.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 1,
+        "to_par": 1.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-08",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.879,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-07",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-29",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.558,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-28",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.273,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-27",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-26",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -6.0,
+        "sg_total": 4.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-17",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": 0.802,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-16",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 5.37,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-15",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -1.617,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "The Open",
+        "course": "Royal Troon Golf Club - Old Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.04
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.65
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -4.01
+      }
+    ]
+  },
+  "model": null
+}

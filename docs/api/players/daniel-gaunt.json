@@ -1,0 +1,104 @@
+{
+  "player": {
+    "player_id": "daniel-gaunt",
+    "player_name": "Daniel Gaunt",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090719",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 6.0,
+    "avg_sg_total": -3.41,
+    "first_round": "2009-07-16",
+    "last_round": "2009-07-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2009-07-19",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 4,
+        "score": 82,
+        "to_par": 12.0,
+        "sg_total": -10.068,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-18",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 3,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -5.781,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 7.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -4.814,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 4,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.41
+      }
+    ]
+  },
+  "model": null
+}

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 50,
-    "avg_to_par": -1.8,
-    "avg_sg_total": 0.85,
-    "difficulty_bucket": "gettable"
+    "rounds": 640,
+    "avg_to_par": -0.57,
+    "avg_sg_total": -0.3,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,60 @@
     ],
     "rows": [
       {
+        "player_id": "brandt-snedeker",
+        "player_name": "Brandt Snedeker",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.42
+      },
+      {
+        "player_id": "mark-hubbard",
+        "player_name": "Mark Hubbard",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.17
+      },
+      {
+        "player_id": "beau-hossler",
+        "player_name": "Beau Hossler",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.92
+      },
+      {
+        "player_id": "kevin-roy",
+        "player_name": "Kevin Roy",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.92
+      },
+      {
         "player_id": "aaron-rai",
         "player_name": "Aaron Rai",
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 2.67
+      },
+      {
+        "player_id": "jorge-campillo",
+        "player_name": "Jorge Campillo",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "christiaan-bezuidenhout",
+        "player_name": "Christiaan Bezuidenhout",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.42
+      },
+      {
+        "player_id": "eric-cole",
+        "player_name": "Eric Cole",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.42
       },
       {
         "player_id": "tom-kim",
@@ -46,67 +95,18 @@
         "avg_sg": 2.5
       },
       {
-        "player_id": "jackson-suber",
-        "player_name": "Jackson Suber",
+        "player_id": "mac-meissner",
+        "player_name": "Mac Meissner",
         "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.17
+        "avg_to_par": -3.25,
+        "avg_sg": 2.17
       },
       {
-        "player_id": "adrien-dumont-de-chassart",
-        "player_name": "Adrien Dumont de Chassart",
+        "player_id": "brooks-koepka",
+        "player_name": "Brooks Koepka",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "ben-kohles",
-        "player_name": "Ben Kohles",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "john-parry",
-        "player_name": "John Parry",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "johnny-keefer",
-        "player_name": "Johnny Keefer",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "max-greyserman",
-        "player_name": "Max Greyserman",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "billy-horschel",
-        "player_name": "Billy Horschel",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "zac-blair",
-        "player_name": "Zac Blair",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.33
-      },
-      {
-        "player_id": "emiliano-grillo",
-        "player_name": "Emiliano Grillo",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.76
+        "avg_to_par": -3.0,
+        "avg_sg": 1.92
       }
     ]
   },

@@ -1,0 +1,238 @@
+{
+  "player": {
+    "player_id": "brian-watts",
+    "player_name": "Brian Watts",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20050828",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 14,
+    "avg_to_par": 1.36,
+    "avg_sg_total": -2.2,
+    "first_round": "2005-02-10",
+    "last_round": "2005-08-28",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2005-08-28",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.87,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-27",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -5.182,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-26",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-08-25",
+        "event_name": "Buick Championship",
+        "course": "TPC River Highlands",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.768,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-29",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.245,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-28",
+        "event_name": "Buick Open",
+        "course": "Warwick Hills Golf and Country Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-21",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.455,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-15",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.466,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-14",
+        "event_name": "B.C. Open",
+        "course": "En-Joie Golf Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-25",
+        "event_name": "Chrysler Classic of Tucson",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.133,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-24",
+        "event_name": "Chrysler Classic of Tucson",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.021,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.091,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-11",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.398,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-10",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.352,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.49
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.44
+      },
+      {
+        "course": null,
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.28
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.82
+      },
+      {
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -5.17
+      }
+    ]
+  },
+  "model": null
+}

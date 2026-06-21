@@ -1,0 +1,217 @@
+{
+  "course": {
+    "course_id": "congressional-cc-blue-bethesda-md",
+    "course_name": "Congressional Country Club - Blue Course",
+    "location": "Bethesda, Maryland",
+    "country": "",
+    "par": 71,
+    "yards": 7574,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 221,
+    "avg_to_par": 2.45,
+    "avg_sg_total": -1.46,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "tom-kite",
+        "player_name": "Tom Kite",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.8
+      },
+      {
+        "player_id": "jos-coceres",
+        "player_name": "José Coceres",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.62
+      },
+      {
+        "player_id": "johan-edfors",
+        "player_name": "Johan Edfors",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 1.89
+      },
+      {
+        "player_id": "robert-rock",
+        "player_name": "Robert Rock",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "do-hoon-kim",
+        "player_name": "Do-Hoon Kim",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "gr-gory-havret",
+        "player_name": "Grégory Havret",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "david-mathis",
+        "player_name": "David Mathis",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.54
+      },
+      {
+        "player_id": "steve-lebrun",
+        "player_name": "Steve LeBrun",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.54
+      },
+      {
+        "player_id": "erik-compton",
+        "player_name": "Erik Compton",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.38
+      },
+      {
+        "player_id": "jeff-overton",
+        "player_name": "Jeff Overton",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.76
+      },
+      {
+        "player_id": "scott-pinckney",
+        "player_name": "Scott Pinckney",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.76
+      },
+      {
+        "player_id": "brady-watt",
+        "player_name": "Brady Watt",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.9
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Quicken Loans National",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Quicken Loans National",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2013,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Open",
+        "season": 2011,
+        "par": 71,
+        "yards": 7574,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2009,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2008,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T National",
+        "season": 2007,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Booz Allen Classic",
+        "season": 2005,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

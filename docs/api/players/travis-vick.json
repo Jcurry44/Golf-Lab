@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "travis-vick",
+    "player_name": "Travis Vick",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20221113",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 2.1,
+    "avg_sg_total": -1.1,
+    "first_round": "2022-06-16",
+    "last_round": "2022-11-13",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-11-13",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-12",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.232,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-11",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.087,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-10",
+        "event_name": "Cadence Bank Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.576,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-04",
+        "event_name": "World Wide Technology Championship at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -5.269,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-11-03",
+        "event_name": "World Wide Technology Championship at Mayakoba",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 9.0,
+        "sg_total": -10.788,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-19",
+        "event_name": "U.S. Open",
+        "course": "The Country Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.906,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-18",
+        "event_name": "U.S. Open",
+        "course": "The Country Club",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.469,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-17",
+        "event_name": "U.S. Open",
+        "course": "The Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 2.994,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-06-16",
+        "event_name": "U.S. Open",
+        "course": "The Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 2.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.66
+      },
+      {
+        "course": "The Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.6
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -8.03
+      }
+    ]
+  },
+  "model": null
+}

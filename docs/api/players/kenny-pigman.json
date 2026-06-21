@@ -1,0 +1,216 @@
+{
+  "player": {
+    "player_id": "kenny-pigman",
+    "player_name": "Kenny Pigman",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230521",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 3.33,
+    "avg_sg_total": -2.82,
+    "first_round": "2017-01-19",
+    "last_round": "2023-05-19",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2023-05-19",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -5.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2023-05-18",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill Country Club - East Course",
+        "round_number": 1,
+        "score": 81,
+        "to_par": 11.0,
+        "sg_total": -7.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-12",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.277,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-02-11",
+        "event_name": "AT&T Pebble Beach Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.673,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-25",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-01-24",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.487,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-08-11",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -5.399,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-08-10",
+        "event_name": "PGA Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -1.263,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-01-22",
+        "event_name": "CareerBuilder Challenge",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.299,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-01-21",
+        "event_name": "CareerBuilder Challenge",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.051,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-01-20",
+        "event_name": "CareerBuilder Challenge",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.423,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-01-19",
+        "event_name": "CareerBuilder Challenge",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.365,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.59
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -5.47
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.33
+      },
+      {
+        "course": "Oak Hill Country Club - East Course",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -6.25
+      }
+    ]
+  },
+  "model": null
+}

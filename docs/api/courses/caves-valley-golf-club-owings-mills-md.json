@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 2,
-    "avg_to_par": 0.5,
-    "avg_sg_total": 0.24,
+    "rounds": 14,
+    "avg_to_par": -0.21,
+    "avg_sg_total": -1.16,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,11 +25,32 @@
     ],
     "rows": [
       {
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": -0.05
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.3
+      },
+      {
         "player_id": "rory-mcilroy",
         "player_name": "Rory McIlroy",
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": 0.24
+      },
+      {
+        "player_id": "thomas-detry",
+        "player_name": "Thomas Detry",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -3.82
       }
     ]
   },

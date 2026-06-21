@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 14,
-    "avg_to_par": 0.21,
-    "avg_sg_total": -0.54,
-    "difficulty_bucket": "balanced"
+    "rounds": 869,
+    "avg_to_par": 1.99,
+    "avg_sg_total": -1.72,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.79
+      },
+      {
+        "player_id": "joel-dahmen",
+        "player_name": "Joel Dahmen",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.54
+      },
+      {
         "player_id": "justin-rose",
         "player_name": "Justin Rose",
         "rounds": 2,
@@ -32,32 +46,67 @@
         "avg_sg": 2.18
       },
       {
-        "player_id": "william-mouw",
-        "player_name": "William Mouw",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.1
-      },
-      {
-        "player_id": "jackson-suber",
-        "player_name": "Jackson Suber",
+        "player_id": "adam-schenk",
+        "player_name": "Adam Schenk",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.46
+        "avg_to_par": -3.0,
+        "avg_sg": 2.04
       },
       {
-        "player_id": "jackson-koivun",
-        "player_name": "Jackson Koivun",
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.16
+        "avg_to_par": -3.0,
+        "avg_sg": 2.04
       },
       {
-        "player_id": "adrien-dumont-de-chassart",
-        "player_name": "Adrien Dumont de Chassart",
+        "player_id": "s-amus-power",
+        "player_name": "Séamus Power",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.04
+      },
+      {
+        "player_id": "david-lipsky",
+        "player_name": "David Lipsky",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "rasmus-h-jgaard",
+        "player_name": "Rasmus Højgaard",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.6
+        "avg_to_par": -2.5,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "chad-ramey",
+        "player_name": "Chad Ramey",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "kris-ventura",
+        "player_name": "Kris Ventura",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "daniel-brown",
+        "player_name": "Daniel Brown",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "isaiah-salinda",
+        "player_name": "Isaiah Salinda",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.04
       }
     ]
   },

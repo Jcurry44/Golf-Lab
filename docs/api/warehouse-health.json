@@ -1,16 +1,16 @@
 {
   "summary": {
     "counts": {
-      "players": 80,
+      "players": 3751,
       "events": 992,
       "courses": 202,
-      "fields": 80,
-      "rounds": 2958,
-      "strokes_gained": 8509,
-      "weather_snapshots": 666,
-      "odds_snapshots": 1593,
-      "model_predictions": 2880,
-      "source_fetches": 169
+      "fields": 156,
+      "rounds": 56516,
+      "strokes_gained": 376318,
+      "weather_snapshots": 4808,
+      "odds_snapshots": 2651,
+      "model_predictions": 5616,
+      "source_fetches": 1506
     },
     "selectedEvent": {
       "event_id": "2026-u-s-open-401811952",
@@ -165,7 +165,7 @@
     },
     {
       "provider": "Open-Meteo historical weather",
-      "endpoint": "open-meteo-archive/2024-u-s-open-401580355",
+      "endpoint": "open-meteo-archive/2012-frys-com-open-1031",
       "status": "ok",
       "fetched_at": "2026-06-19T19:45:00-04:00",
       "row_count": 8

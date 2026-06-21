@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "trace-crowe",
+    "player_name": "Trace Crowe",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260614",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -0.38,
+    "avg_sg_total": -0.77,
+    "first_round": "2024-10-11",
+    "last_round": "2026-06-12",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-06-12",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.945,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-06-11",
+        "event_name": "RBC Canadian Open",
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.507,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-29",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.481,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-28",
+        "event_name": "Charles Schwab Challenge",
+        "course": "Colonial Country Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -2.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-22",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.842,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-21",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -1.048,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-10",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -4.237,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-09",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 0.461,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-08",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-05-07",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.561,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-04",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.549,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-07-03",
+        "event_name": "John Deere Classic",
+        "course": "TPC Deere Run",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.423,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-11",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.435,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-10",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.957,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-09",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.606,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-08",
+        "event_name": "ONEflight Myrtle Beach Classic",
+        "course": "Dunes Golf and Beach Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 1.015,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-02",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.116,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-05-01",
+        "event_name": "THE CJ CUP Byron Nelson",
+        "course": "TPC Craig Ranch",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -5.0,
+        "sg_total": 2.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-09",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.179,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.295,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2025-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.174,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-13",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -2.089,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-12-12",
+        "event_name": "PGA TOUR Q-School presented by Korn Ferry",
+        "course": "Dye's Valley Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -0.735,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Black Desert Resort",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.4
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.73
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.58
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -1.1
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 8,
+        "avg_to_par": -1.13,
+        "avg_sg": 0.21
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.94
+      }
+    ]
+  },
+  "model": null
+}

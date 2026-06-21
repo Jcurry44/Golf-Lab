@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "lee-williams",
+    "player_name": "Lee Williams",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140608",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 0.17,
+    "avg_sg_total": -0.58,
+    "first_round": "2013-07-21",
+    "last_round": "2014-06-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2014-06-06",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.425,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-06-05",
+        "event_name": "FedEx St. Jude Classic",
+        "course": "TPC Southwind",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.314,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-18",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 4,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.514,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-17",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.821,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-16",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.594,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-15",
+        "event_name": "HP Byron Nelson Championship",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 4.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-02",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.649,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-05-01",
+        "event_name": "Wells Fargo Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-25",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.226,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-24",
+        "event_name": "Zurich Classic of New Orleans",
+        "course": "TPC Louisiana",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.577,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-28",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -4.302,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-27",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio (Oaks Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-09",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.451,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-08",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.862,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-07",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.323,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-03-06",
+        "event_name": "Puerto Rico Open presented by seepuertorico.com",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.969,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-08",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 6.104,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-07",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-06",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.365,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-01-24",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -8.706,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-01-23",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.513,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-01-19",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 0.655,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-01-18",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": -0.065,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-01-17",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.34
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.43
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.16
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.07
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.32
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.19
+      }
+    ]
+  },
+  "model": null
+}

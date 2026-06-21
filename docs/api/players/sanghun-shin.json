@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "sanghun-shin",
+    "player_name": "Sanghun Shin",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20221023",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 1.13,
+    "avg_sg_total": -3.18,
+    "first_round": "2021-10-14",
+    "last_round": "2022-10-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-10-23",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.269,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-22",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -5.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-21",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -3.333,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-10-20",
+        "event_name": "THE CJ CUP in South Carolina",
+        "course": "Congaree Golf Club",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -7.769,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-17",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -1.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-16",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": -0.513,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-15",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -1.756,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-14",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -2.051,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Summit Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -1.57
+      },
+      {
+        "course": "Congaree Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -4.79
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "ryan-stachler",
+    "player_name": "Ryan Stachler",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160619",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 11.0,
+    "avg_sg_total": -7.09,
+    "first_round": "2016-06-16",
+    "last_round": "2016-06-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-06-17",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 2,
+        "score": 84,
+        "to_par": 14.0,
+        "sg_total": -10.396,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-06-16",
+        "event_name": "U.S. Open",
+        "course": "Oakmont CC",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -3.774,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 11.0,
+        "avg_sg": -7.09
+      }
+    ]
+  },
+  "model": null
+}

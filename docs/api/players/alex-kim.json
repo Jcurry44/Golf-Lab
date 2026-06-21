@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "alex-kim",
+    "player_name": "Alex Kim",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170205",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 8.0,
+    "avg_sg_total": -6.69,
+    "first_round": "2015-06-18",
+    "last_round": "2017-02-03",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2017-02-03",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -1.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-02-02",
+        "event_name": "Waste Management Phoenix Open",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -5.061,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-19",
+        "event_name": "U.S. Open",
+        "course": "Chambers Bay GC",
+        "round_number": 2,
+        "score": 86,
+        "to_par": 16.0,
+        "sg_total": -12.548,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-06-18",
+        "event_name": "U.S. Open",
+        "course": "Chambers Bay GC",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -7.282,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.47
+      },
+      {
+        "course": "Chambers Bay GC",
+        "rounds": 2,
+        "avg_to_par": 13.0,
+        "avg_sg": -9.91
+      }
+    ]
+  },
+  "model": null
+}

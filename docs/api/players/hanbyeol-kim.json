@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "hanbyeol-kim",
+    "player_name": "Hanbyeol Kim",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20211017",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": -0.63,
+    "avg_sg_total": -1.5,
+    "first_round": "2020-10-15",
+    "last_round": "2021-10-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2021-10-17",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -1.948,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-16",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -2.513,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-15",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": -0.756,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-10-14",
+        "event_name": "THE CJ CUP @ SUMMIT",
+        "course": "The Summit Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -5.051,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-18",
+        "event_name": "THE CJ CUP @ SHADOW CREEK",
+        "course": "Shadow Creek Golf Course",
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.078,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-17",
+        "event_name": "THE CJ CUP @ SHADOW CREEK",
+        "course": "Shadow Creek Golf Course",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.103,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-16",
+        "event_name": "THE CJ CUP @ SHADOW CREEK",
+        "course": "Shadow Creek Golf Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.756,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-10-15",
+        "event_name": "THE CJ CUP @ SHADOW CREEK",
+        "course": "Shadow Creek Golf Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.269,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Summit Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -2.57
+      },
+      {
+        "course": "Shadow Creek Golf Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.42
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,177 @@
+{
+  "course": {
+    "course_id": "brown-deer-park-golf-course-milwaukee-wi",
+    "course_name": "Brown Deer Park Golf Course",
+    "location": "Milwaukee, Wisconsin",
+    "country": "",
+    "par": 70,
+    "yards": 6759,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 324,
+    "avg_to_par": 0.56,
+    "avg_sg_total": -1.34,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "nick-flanagan",
+        "player_name": "Nick Flanagan",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "matt-davidson",
+        "player_name": "Matt Davidson",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "bill-glasson",
+        "player_name": "Bill Glasson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.13
+      },
+      {
+        "player_id": "jeff-sluman",
+        "player_name": "Jeff Sluman",
+        "rounds": 8,
+        "avg_to_par": -1.88,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "loren-roberts",
+        "player_name": "Loren Roberts",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.24
+      },
+      {
+        "player_id": "scott-hoch",
+        "player_name": "Scott Hoch",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.24
+      },
+      {
+        "player_id": "bradley-hughes",
+        "player_name": "Bradley Hughes",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.92
+      },
+      {
+        "player_id": "david-frost",
+        "player_name": "David Frost",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.88
+      },
+      {
+        "player_id": "glen-hnatiuk",
+        "player_name": "Glen Hnatiuk",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "michael-long",
+        "player_name": "Michael Long",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "jim-mcgovern",
+        "player_name": "Jim McGovern",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.26
+      },
+      {
+        "player_id": "tom-byrum",
+        "player_name": "Tom Byrum",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.26
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "season": 2009,
+        "par": 70,
+        "yards": 6759,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "season": 2008,
+        "par": 70,
+        "yards": 6759,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "season": 2007,
+        "par": 70,
+        "yards": 6759,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "season": 2006,
+        "par": 70,
+        "yards": 6759,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "season": 2005,
+        "par": 70,
+        "yards": 6759,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

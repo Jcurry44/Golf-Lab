@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "david-ford",
+    "player_name": "David Ford",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260405",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": -1.5,
+    "avg_sg_total": 0.21,
+    "first_round": "2025-10-25",
+    "last_round": "2026-04-05",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2026-04-05",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-04",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.457,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-03",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.677,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-04-02",
+        "event_name": "Valero Texas Open",
+        "course": "TPC San Antonio - The Oaks Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.78,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-27",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.157,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-26",
+        "event_name": "Texas Children's Houston Open",
+        "course": "Memorial Park Golf Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.381,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-22",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 3.703,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-21",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -6.946,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-20",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.694,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-19",
+        "event_name": "Valspar Championship",
+        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.763,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-13",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": 0.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-12",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.869,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-08",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.206,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-07",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.691,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-06",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.521,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-05",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 1.992,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-03-01",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National - Champion Course",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -4.0,
+        "sg_total": 2.716,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-28",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National - Champion Course",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": -0.164,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-27",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National - Champion Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.18,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-02-26",
+        "event_name": "Cognizant Classic in The Palm Beaches",
+        "course": "PGA National - Champion Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.699,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-30",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.055,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-29",
+        "event_name": "Farmers Insurance Open",
+        "course": "Torrey Pines Golf Course - South Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.151,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-25",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 4,
+        "score": 65,
+        "to_par": -7.0,
+        "sg_total": 4.37,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2026-01-24",
+        "event_name": "The American Express",
+        "course": "Pete Dye Stadium Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": -0.474,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 1.93
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.57
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.69
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": -3.0,
+        "avg_sg": -0.04
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.35
+      },
+      {
+        "course": "PGA National - Champion Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.76
+      }
+    ]
+  },
+  "model": null
+}

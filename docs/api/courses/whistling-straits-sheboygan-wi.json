@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "whistling-straits-sheboygan-wi",
+    "course_name": "Whistling Straits - Straits Course",
+    "location": "Haven, Wisconsin",
+    "country": "",
+    "par": 72,
+    "yards": 7514,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 176,
+    "avg_to_par": 3.43,
+    "avg_sg_total": -2.33,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "wen-chong-liang",
+        "player_name": "Wen-Chong Liang",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.76
+      },
+      {
+        "player_id": "victor-dubuisson",
+        "player_name": "Victor Dubuisson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.36
+      },
+      {
+        "player_id": "simon-dyson",
+        "player_name": "Simon Dyson",
+        "rounds": 3,
+        "avg_to_par": -1.67,
+        "avg_sg": 2.16
+      },
+      {
+        "player_id": "simon-khan",
+        "player_name": "Simon Khan",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "david-horsey",
+        "player_name": "David Horsey",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "marc-warren",
+        "player_name": "Marc Warren",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.61
+      },
+      {
+        "player_id": "marcel-siem",
+        "player_name": "Marcel Siem",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.61
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.61
+      },
+      {
+        "player_id": "mikko-ilonen",
+        "player_name": "Mikko Ilonen",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.36
+      },
+      {
+        "player_id": "raphael-jacquelin",
+        "player_name": "Raphael Jacquelin",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "tim-thelen",
+        "player_name": "Tim Thelen",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.19
+      },
+      {
+        "player_id": "fredrik-andersson-hed",
+        "player_name": "Fredrik Andersson Hed",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.24
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2010,
+        "par": 72,
+        "yards": 7514,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "PGA Championship",
+        "season": 2004,
+        "par": 72,
+        "yards": 7514,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

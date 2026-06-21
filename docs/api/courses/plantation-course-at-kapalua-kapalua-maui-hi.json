@@ -1,0 +1,185 @@
+{
+  "course": {
+    "course_id": "plantation-course-at-kapalua-kapalua-maui-hi",
+    "course_name": "Plantation Course at Kapalua",
+    "location": "Kapalua, Maui, HI, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 27,
+    "avg_to_par": -2.63,
+    "avg_sg_total": -0.11,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 0.47
+      },
+      {
+        "player_id": "gene-sauers",
+        "player_name": "Gene Sauers",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 1.16
+      },
+      {
+        "player_id": "branden-grace",
+        "player_name": "Branden Grace",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": -2.78
+      },
+      {
+        "player_id": "joel-edwards",
+        "player_name": "Joel Edwards",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.73
+      },
+      {
+        "player_id": "scott-hoch",
+        "player_name": "Scott Hoch",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.09
+      },
+      {
+        "player_id": "hal-sutton",
+        "player_name": "Hal Sutton",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.52
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Sentry",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "The Sentry",
+        "season": 2024,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2021,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Sentry Tournament of Champions",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "SBS Tournament of Champions",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Hyundai Tournament of Champions",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "player": {
+    "player_id": "markus-brier",
+    "player_name": "Markus Brier",
+    "country": "Austria",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 12,
+    "avg_to_par": 2.42,
+    "avg_sg_total": -0.23,
+    "first_round": "2006-07-20",
+    "last_round": "2011-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-07-15",
+        "event_name": "The Open Championship",
+        "course": "Royal St George's Golf Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -7.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-07-14",
+        "event_name": "The Open Championship",
+        "course": "Royal St George's Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.968,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -2.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.186,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-10",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.197,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-09",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 5.286,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-22",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 3.786,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-21",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 1.614,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-20",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 4.0,
+        "sg_total": -0.904,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-19",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 5.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.529,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.224,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.56
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.54
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.39
+      },
+      {
+        "course": "Royal St George's Golf Club",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -6.0
+      }
+    ]
+  },
+  "model": null
+}

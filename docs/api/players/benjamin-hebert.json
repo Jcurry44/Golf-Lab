@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "benjamin-hebert",
+    "player_name": "Benjamin Hebert",
+    "country": "France",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 24,
+    "avg_to_par": 1.17,
+    "avg_sg_total": -0.62,
+    "first_round": "2008-07-17",
+    "last_round": "2022-07-15",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2022-07-15",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 2,
+        "score": -1,
+        "to_par": -1.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-14",
+        "event_name": "Barracuda Championship",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "round_number": 1,
+        "score": 6,
+        "to_par": 6.0,
+        "sg_total": null,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-08",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -7.879,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2022-07-07",
+        "event_name": "Barbasol Championship",
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -2.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-18",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 4,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 2.623,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-17",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.156,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-16",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -3.613,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2021-07-15",
+        "event_name": "The Open Championship",
+        "course": "Royal St. George's GC",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 4.955,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-08-07",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.308,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-08-06",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-23",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 4,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.403,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-22",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 3,
+        "score": 65,
+        "to_par": -6.0,
+        "sg_total": 4.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-21",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.278,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-02-20",
+        "event_name": "WGC-Mexico Championship",
+        "course": "Club de Golf Chapultepec",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.611,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-03",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.922,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-02",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -5.091,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-01",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -2.167,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-31",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-21",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": 2.233,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-20",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 3,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -1.932,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-19",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 2.385,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-07-18",
+        "event_name": "The Open Championship",
+        "course": "Royal Portrush Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -0.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-18",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 0.779,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-17",
+        "event_name": "British Open Championship",
+        "course": "Royal Birkdale Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -3.123,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.0
+      },
+      {
+        "course": "Royal St. George's GC",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.95
+      },
+      {
+        "course": "Royal Portrush Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.67
+      },
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.07
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -5.01
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": null
+      }
+    ]
+  },
+  "model": null
+}

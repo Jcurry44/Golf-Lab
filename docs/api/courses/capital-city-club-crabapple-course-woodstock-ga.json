@@ -1,0 +1,130 @@
+{
+  "course": {
+    "course_id": "capital-city-club-crabapple-course-woodstock-ga",
+    "course_name": "Capital City Club - Crabapple Course",
+    "location": "Woodstock, Georgia",
+    "country": "",
+    "par": 70,
+    "yards": 7189,
+    "architect": "",
+    "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 44,
+    "avg_to_par": 3.27,
+    "avg_sg_total": -0.86,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "ignacio-garrido",
+        "player_name": "Ignacio Garrido",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.92
+      },
+      {
+        "player_id": "eduardo-romero",
+        "player_name": "Eduardo Romero",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "toshi-izawa",
+        "player_name": "Toshi Izawa",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "alastair-forsyth",
+        "player_name": "Alastair Forsyth",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.58
+      },
+      {
+        "player_id": "peter-o-malley",
+        "player_name": "Peter O'Malley",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -0.83
+      },
+      {
+        "player_id": "hennie-otto",
+        "player_name": "Hennie Otto",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.08
+      },
+      {
+        "player_id": "taichi-teshima",
+        "player_name": "Taichi Teshima",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -1.33
+      },
+      {
+        "player_id": "jyoti-randhawa",
+        "player_name": "Jyoti Randhawa",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.58
+      },
+      {
+        "player_id": "raphael-jacquelin",
+        "player_name": "Raphael Jacquelin",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -1.83
+      },
+      {
+        "player_id": "mark-foster",
+        "player_name": "Mark Foster",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.58
+      },
+      {
+        "player_id": "scott-hoch",
+        "player_name": "Scott Hoch",
+        "rounds": 4,
+        "avg_to_par": 5.25,
+        "avg_sg": -2.83
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "WGC-American Express Championship",
+        "season": 2003,
+        "par": 70,
+        "yards": 7189,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

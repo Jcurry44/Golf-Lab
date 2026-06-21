@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 6,
-    "avg_to_par": -2.83,
-    "avg_sg_total": 1.25,
-    "difficulty_bucket": "gettable"
+    "rounds": 1589,
+    "avg_to_par": 0.03,
+    "avg_sg_total": -1.36,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,13 @@
     ],
     "rows": [
       {
+        "player_id": "sam-saunders",
+        "player_name": "Sam Saunders",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.11
+      },
+      {
         "player_id": "jackson-koivun",
         "player_name": "Jackson Koivun",
         "rounds": 4,
@@ -32,11 +39,74 @@
         "avg_sg": 2.09
       },
       {
-        "player_id": "ben-james",
-        "player_name": "Ben James",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.44
+        "player_id": "steve-wheatcroft",
+        "player_name": "Steve Wheatcroft",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.94
+      },
+      {
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.93
+      },
+      {
+        "player_id": "patrick-flavin",
+        "player_name": "Patrick Flavin",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.17
+      },
+      {
+        "player_id": "jonas-blixt",
+        "player_name": "Jonas Blixt",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "steve-lebrun",
+        "player_name": "Steve LeBrun",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "charles-howell-iii",
+        "player_name": "Charles Howell III",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.92
+      },
+      {
+        "player_id": "aron-price",
+        "player_name": "Aron Price",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.86
+      },
+      {
+        "player_id": "bo-hoag",
+        "player_name": "Bo Hoag",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.67
+      },
+      {
+        "player_id": "charles-warren",
+        "player_name": "Charles Warren",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.61
+      },
+      {
+        "player_id": "dean-wilson",
+        "player_name": "Dean Wilson",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.61
       }
     ]
   },

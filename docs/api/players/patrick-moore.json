@@ -1,0 +1,266 @@
+{
+  "player": {
+    "player_id": "patrick-moore",
+    "player_name": "Patrick Moore",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20101024",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 16,
+    "avg_to_par": 2.38,
+    "avg_sg_total": -3.27,
+    "first_round": "2009-10-01",
+    "last_round": "2010-10-22",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2010-10-22",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 3.0,
+        "sg_total": -5.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-10-21",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -2.894,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-20",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.162,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-08-19",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.458,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-30",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -3.181,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-29",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 1.587,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-19",
+        "event_name": "Transitions Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 10.0,
+        "sg_total": -9.401,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-03-18",
+        "event_name": "Transitions Championship",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "round_number": 1,
+        "score": 80,
+        "to_par": 9.0,
+        "sg_total": -7.812,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-11-13",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.724,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-11-12",
+        "event_name": "Children's Miracle Network Classic",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.914,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-23",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -5.832,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-22",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -8.682,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-16",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -3.146,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-15",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": -0.477,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-02",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.367,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-01",
+        "event_name": "Turning Stone Resort Championship",
+        "course": "Atunyote Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.725,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.81
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.8
+      },
+      {
+        "course": null,
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.41
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.55
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.88
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -7.26
+      }
+    ]
+  },
+  "model": null
+}

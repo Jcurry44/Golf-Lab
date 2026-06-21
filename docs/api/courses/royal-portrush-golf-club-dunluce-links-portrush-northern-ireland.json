@@ -10,10 +10,10 @@
     "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 30,
-    "avg_to_par": -0.03,
-    "avg_sg_total": 0.49,
-    "difficulty_bucket": "balanced"
+    "rounds": 205,
+    "avg_to_par": 1.52,
+    "avg_sg_total": -0.84,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -46,11 +46,53 @@
         "avg_sg": 1.58
       },
       {
+        "player_id": "oliver-lindell",
+        "player_name": "Oliver Lindell",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.33
+      },
+      {
         "player_id": "jon-rahm",
         "player_name": "Jon Rahm",
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": 0.83
+      },
+      {
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.58
+      },
+      {
+        "player_id": "nathan-kimsey",
+        "player_name": "Nathan Kimsey",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.58
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.33
       },
       {
         "player_id": "matthew-jordan",
@@ -60,39 +102,11 @@
         "avg_sg": 0.33
       },
       {
-        "player_id": "joaqu-n-niemann",
-        "player_name": "Joaquín Niemann",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.22
-      },
-      {
-        "player_id": "niklas-n-rgaard",
-        "player_name": "Niklas Nørgaard",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.78
-      },
-      {
-        "player_id": "patrick-reed",
-        "player_name": "Patrick Reed",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.28
-      },
-      {
-        "player_id": "laurie-canter",
-        "player_name": "Laurie Canter",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -1.78
-      },
-      {
-        "player_id": "cameron-smith",
-        "player_name": "Cameron Smith",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -2.78
+        "player_id": "thomas-detry",
+        "player_name": "Thomas Detry",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.33
       }
     ]
   },

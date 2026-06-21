@@ -1,0 +1,126 @@
+{
+  "player": {
+    "player_id": "alex-moon",
+    "player_name": "Alex Moon",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170521",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 1.83,
+    "avg_sg_total": -1.72,
+    "first_round": "2016-05-19",
+    "last_round": "2017-05-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2017-05-21",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.041,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-05-20",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.773,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-05-19",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 4.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-05-18",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -2.077,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-05-20",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-05-19",
+        "event_name": "AT&T Byron Nelson",
+        "course": "TPC Four Seasons Resort",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -7.705,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 6,
+        "avg_to_par": 1.83,
+        "avg_sg": -1.72
+      }
+    ]
+  },
+  "model": null
+}

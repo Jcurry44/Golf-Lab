@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 6,
-    "avg_to_par": -1.17,
-    "avg_sg_total": 0.32,
-    "difficulty_bucket": "gettable"
+    "rounds": 808,
+    "avg_to_par": 0.66,
+    "avg_sg_total": -1.27,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,18 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "aaron-rai",
-        "player_name": "Aaron Rai",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.53
+        "player_id": "grayson-murray",
+        "player_name": "Grayson Murray",
+        "rounds": 3,
+        "avg_to_par": -5.33,
+        "avg_sg": 3.59
       },
       {
-        "player_id": "zac-blair",
-        "player_name": "Zac Blair",
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.22
+        "avg_to_par": -3.25,
+        "avg_sg": 1.17
+      },
+      {
+        "player_id": "lee-hodges",
+        "player_name": "Lee Hodges",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.97
+      },
+      {
+        "player_id": "hideto-tanihara",
+        "player_name": "Hideto Tanihara",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "charles-howell-iii",
+        "player_name": "Charles Howell III",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.67
+      },
+      {
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.72
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 8,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "c-t-pan",
+        "player_name": "C.T. Pan",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.18
+      },
+      {
+        "player_id": "james-hahn",
+        "player_name": "James Hahn",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "mike-weir",
+        "player_name": "Mike Weir",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.25
+      },
+      {
+        "player_id": "jim-furyk",
+        "player_name": "Jim Furyk",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 0.21
+      },
+      {
+        "player_id": "s-h-kim",
+        "player_name": "S.H. Kim",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.47
       }
     ]
   },

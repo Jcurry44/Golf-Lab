@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 26,
-    "avg_to_par": 0.12,
-    "avg_sg_total": -0.32,
+    "rounds": 718,
+    "avg_to_par": 0.61,
+    "avg_sg_total": -0.51,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,32 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "laurie-canter",
-        "player_name": "Laurie Canter",
-        "rounds": 6,
-        "avg_to_par": -0.83,
-        "avg_sg": 0.51
-      },
-      {
-        "player_id": "matthew-jordan",
-        "player_name": "Matthew Jordan",
-        "rounds": 14,
-        "avg_to_par": 0.36,
-        "avg_sg": -0.4
-      },
-      {
-        "player_id": "niklas-n-rgaard",
-        "player_name": "Niklas Nørgaard",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.62
-      },
-      {
-        "player_id": "alex-fitzpatrick",
-        "player_name": "Alex Fitzpatrick",
+        "player_id": "marco-penge",
+        "player_name": "Marco Penge",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.14
+        "avg_to_par": -3.25,
+        "avg_sg": 3.34
+      },
+      {
+        "player_id": "david-lingmerth",
+        "player_name": "David Lingmerth",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.29
+      },
+      {
+        "player_id": "jorge-campillo",
+        "player_name": "Jorge Campillo",
+        "rounds": 8,
+        "avg_to_par": -1.88,
+        "avg_sg": 1.27
+      },
+      {
+        "player_id": "romain-langasque",
+        "player_name": "Romain Langasque",
+        "rounds": 12,
+        "avg_to_par": -1.67,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "richard-mansell",
+        "player_name": "Richard Mansell",
+        "rounds": 10,
+        "avg_to_par": -1.6,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "yannik-paul",
+        "player_name": "Yannik Paul",
+        "rounds": 12,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.03
+      },
+      {
+        "player_id": "alejandro-del-rey",
+        "player_name": "Alejandro Del Rey",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 0.77
+      },
+      {
+        "player_id": "antoine-rozner",
+        "player_name": "Antoine Rozner",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.34
+      },
+      {
+        "player_id": "ugo-coussaud",
+        "player_name": "Ugo Coussaud",
+        "rounds": 8,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.65
+      },
+      {
+        "player_id": "maximilian-kieffer",
+        "player_name": "Maximilian Kieffer",
+        "rounds": 12,
+        "avg_to_par": -1.08,
+        "avg_sg": 1.06
+      },
+      {
+        "player_id": "grant-forrest",
+        "player_name": "Grant Forrest",
+        "rounds": 14,
+        "avg_to_par": -1.07,
+        "avg_sg": 0.99
+      },
+      {
+        "player_id": "elvis-smylie",
+        "player_name": "Elvis Smylie",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.09
       }
     ]
   },

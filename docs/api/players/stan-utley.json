@@ -1,0 +1,215 @@
+{
+  "player": {
+    "player_id": "stan-utley",
+    "player_name": "Stan Utley",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20091025",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 13,
+    "avg_to_par": 2.0,
+    "avg_sg_total": -1.99,
+    "first_round": "2005-02-10",
+    "last_round": "2009-10-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2009-10-23",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.832,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-10-22",
+        "event_name": "Frys.com Open",
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.682,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-02-10",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.218,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-02-09",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 2.196,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-02-08",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.302,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-11",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.882,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-10",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.581,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-09",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.133,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-22",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 2,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.68,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-07-21",
+        "event_name": "U.S. Bank Championship in Milwaukee",
+        "course": "Brown Deer Park Golf Course",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.455,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.091,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-11",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.398,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-02-10",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -3.352,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.57
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.76
+      },
+      {
+        "course": null,
+        "rounds": 9,
+        "avg_to_par": 2.44,
+        "avg_sg": -2.13
+      }
+    ]
+  },
+  "model": null
+}

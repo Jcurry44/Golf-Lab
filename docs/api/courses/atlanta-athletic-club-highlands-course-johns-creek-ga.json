@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "atlanta-athletic-club-highlands-course-johns-creek-ga",
+    "course_name": "Atlanta Athletic Club - Highlands Course",
+    "location": "Johns Creek, Georgia",
+    "country": "",
+    "par": 70,
+    "yards": 7467,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 88,
+    "avg_to_par": 5.06,
+    "avg_sg_total": -2.34,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "anders-hansen",
+        "player_name": "Anders Hansen",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 3.83
+      },
+      {
+        "player_id": "johan-edfors",
+        "player_name": "Johan Edfors",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.08
+      },
+      {
+        "player_id": "simon-dyson",
+        "player_name": "Simon Dyson",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.58
+      },
+      {
+        "player_id": "kyung-kim",
+        "player_name": "Kyung Kim",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.79
+      },
+      {
+        "player_id": "anthony-kim",
+        "player_name": "Anthony Kim",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.45
+      },
+      {
+        "player_id": "bob-sowards",
+        "player_name": "Bob Sowards",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.45
+      },
+      {
+        "player_id": "tetsuji-hiratsuka",
+        "player_name": "Tetsuji Hiratsuka",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.45
+      },
+      {
+        "player_id": "edoardo-molinari",
+        "player_name": "Edoardo Molinari",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.92
+      },
+      {
+        "player_id": "mike-small",
+        "player_name": "Mike Small",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.92
+      },
+      {
+        "player_id": "hiroyuki-fujita",
+        "player_name": "Hiroyuki Fujita",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.55
+      },
+      {
+        "player_id": "gregory-bourdy",
+        "player_name": "Gregory Bourdy",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.05
+      },
+      {
+        "player_id": "sean-dougherty",
+        "player_name": "Sean Dougherty",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.05
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2011,
+        "par": 70,
+        "yards": 7467,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

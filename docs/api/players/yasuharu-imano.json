@@ -1,0 +1,182 @@
+{
+  "player": {
+    "player_id": "yasuharu-imano",
+    "player_name": "Yasuharu Imano",
+    "country": "Japan",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060723",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 10,
+    "avg_to_par": 0.6,
+    "avg_sg_total": 0.01,
+    "first_round": "2005-10-06",
+    "last_round": "2006-07-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -5.529,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.776,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-19",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 4,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -0.259,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-18",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.244,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-17",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 2,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 2.211,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-02-16",
+        "event_name": "Nissan Open",
+        "course": "The Riviera Country Club",
+        "round_number": 1,
+        "score": 70,
+        "to_par": -1.0,
+        "sg_total": 0.931,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-09",
+        "event_name": "WGC-American Express Championship",
+        "course": "TPC Harding Park",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.391,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-08",
+        "event_name": "WGC-American Express Championship",
+        "course": "TPC Harding Park",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -0.3,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-07",
+        "event_name": "WGC-American Express Championship",
+        "course": "TPC Harding Park",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 2.086,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-10-06",
+        "event_name": "WGC-American Express Championship",
+        "course": "TPC Harding Park",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": 1.563,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.66
+      },
+      {
+        "course": "TPC Harding Park",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.93
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.15
+      }
+    ]
+  },
+  "model": null
+}

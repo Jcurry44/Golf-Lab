@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "st-andrews-gc-old-course-fife-sco",
+    "course_name": "St. Andrews GC (Old Course)",
+    "location": "Fife, SCO",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 124,
+    "avg_to_par": 0.85,
+    "avg_sg_total": -0.91,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "jordan-niebrugge",
+        "player_name": "Jordan Niebrugge",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.19
+      },
+      {
+        "player_id": "anthony-wall",
+        "player_name": "Anthony Wall",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "ashley-chesters",
+        "player_name": "Ashley Chesters",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "james-morrison",
+        "player_name": "James Morrison",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "marcus-fraser",
+        "player_name": "Marcus Fraser",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "marc-warren",
+        "player_name": "Marc Warren",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.69
+      },
+      {
+        "player_id": "paul-lawrie",
+        "player_name": "Paul Lawrie",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.69
+      },
+      {
+        "player_id": "scott-arnold",
+        "player_name": "Scott Arnold",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.69
+      },
+      {
+        "player_id": "david-duval",
+        "player_name": "David Duval",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.44
+      },
+      {
+        "player_id": "david-howell",
+        "player_name": "David Howell",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.44
+      },
+      {
+        "player_id": "richie-ramsay",
+        "player_name": "Richie Ramsay",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.31
+      },
+      {
+        "player_id": "brett-rumford",
+        "player_name": "Brett Rumford",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.56
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open",
+        "season": 2015,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

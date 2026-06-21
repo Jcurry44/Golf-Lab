@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 10,
-    "avg_to_par": 0.5,
-    "avg_sg_total": -1.24,
+    "rounds": 492,
+    "avg_to_par": 0.88,
+    "avg_sg_total": -1.53,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,32 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "tom-kim",
-        "player_name": "Tom Kim",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.26
-      },
-      {
-        "player_id": "collin-morikawa",
-        "player_name": "Collin Morikawa",
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.08
+        "avg_to_par": -4.25,
+        "avg_sg": 2.56
       },
       {
-        "player_id": "adrien-dumont-de-chassart",
-        "player_name": "Adrien Dumont de Chassart",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.41
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.67
       },
       {
-        "player_id": "william-mouw",
-        "player_name": "William Mouw",
-        "rounds": 2,
-        "avg_to_par": 5.5,
-        "avg_sg": -5.91
+        "player_id": "jeff-klauk",
+        "player_name": "Jeff Klauk",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.46
+      },
+      {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.98
+      },
+      {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.98
+      },
+      {
+        "player_id": "zecheng-dou",
+        "player_name": "Zecheng Dou",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.92
+      },
+      {
+        "player_id": "jordan-smith",
+        "player_name": "Jordan Smith",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.67
+      },
+      {
+        "player_id": "hank-kuehne",
+        "player_name": "Hank Kuehne",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.46
+      },
+      {
+        "player_id": "kevin-roy",
+        "player_name": "Kevin Roy",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": 1.27
+      },
+      {
+        "player_id": "john-mallinger",
+        "player_name": "John Mallinger",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.94
+      },
+      {
+        "player_id": "mac-meissner",
+        "player_name": "Mac Meissner",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.42
+      },
+      {
+        "player_id": "rasmus-h-jgaard",
+        "player_name": "Rasmus Højgaard",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.17
       }
     ]
   },

@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "royal-lytham-st-anne-lytham-st-annes-lancashire-eng",
+    "course_name": "Royal Lytham St. Anne",
+    "location": "Lytham St Annes, Lancashire, ENG",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 136,
+    "avg_to_par": 2.95,
+    "avg_sg_total": -1.02,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "mark-calcavecchia",
+        "player_name": "Mark Calcavecchia",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "james-morrison",
+        "player_name": "James Morrison",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "matthew-baldwin",
+        "player_name": "Matthew Baldwin",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "simon-dyson",
+        "player_name": "Simon Dyson",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "rafael-echenique",
+        "player_name": "Rafael Echenique",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.56
+      },
+      {
+        "player_id": "simon-khan",
+        "player_name": "Simon Khan",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.56
+      },
+      {
+        "player_id": "yoshinori-fujimoto",
+        "player_name": "Yoshinori Fujimoto",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.31
+      },
+      {
+        "player_id": "dale-whitnell",
+        "player_name": "Dale Whitnell",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "aaron-townsend",
+        "player_name": "Aaron Townsend",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "anders-hansen",
+        "player_name": "Anders Hansen",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "jbe-kruger",
+        "player_name": "Jbe Kruger",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "koumei-oda",
+        "player_name": "Koumei Oda",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.2
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Open Championship",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

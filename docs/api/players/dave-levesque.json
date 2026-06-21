@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "dave-levesque",
+    "player_name": "Dave Levesque",
+    "country": "Canada",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160724",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 4.75,
+    "avg_sg_total": -3.89,
+    "first_round": "2014-07-24",
+    "last_round": "2016-07-22",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-07-22",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.778,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-21",
+        "event_name": "RBC Canadian Open",
+        "course": "Glen Abbey GC",
+        "round_number": 1,
+        "score": 85,
+        "to_par": 13.0,
+        "sg_total": -11.552,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-25",
+        "event_name": "RBC Canadian Open",
+        "course": "Royal Montreal GC (Blue)",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.569,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-24",
+        "event_name": "RBC Canadian Open",
+        "course": "Royal Montreal GC (Blue)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.801,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Montreal GC (Blue)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.12
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.67
+      }
+    ]
+  },
+  "model": null
+}

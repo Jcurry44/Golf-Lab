@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "turnberry-resort-ailsa-course-ayrshire-scotland",
+    "course_name": "Turnberry Resort - Ailsa Course",
+    "location": "Ayrshire, Scotland",
+    "country": "",
+    "par": 70,
+    "yards": 7204,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 137,
+    "avg_to_par": 3.91,
+    "avg_sg_total": -1.32,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "soren-hansen",
+        "player_name": "Soren Hansen",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "james-kingston",
+        "player_name": "James Kingston",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.59
+      },
+      {
+        "player_id": "kenichi-kuboya",
+        "player_name": "Kenichi Kuboya",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.59
+      },
+      {
+        "player_id": "nick-dougherty",
+        "player_name": "Nick Dougherty",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.09
+      },
+      {
+        "player_id": "thomas-levet",
+        "player_name": "Thomas Levet",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.09
+      },
+      {
+        "player_id": "anthony-wall",
+        "player_name": "Anthony Wall",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "paul-mcginley",
+        "player_name": "Paul McGinley",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "david-howell",
+        "player_name": "David Howell",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.34
+      },
+      {
+        "player_id": "graeme-storm",
+        "player_name": "Graeme Storm",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.34
+      },
+      {
+        "player_id": "johan-edfors",
+        "player_name": "Johan Edfors",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.34
+      },
+      {
+        "player_id": "colin-montgomerie",
+        "player_name": "Colin Montgomerie",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.11
+      },
+      {
+        "player_id": "josh-geary",
+        "player_name": "Josh Geary",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.11
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "British Open Championship",
+        "season": 2009,
+        "par": 70,
+        "yards": 7204,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

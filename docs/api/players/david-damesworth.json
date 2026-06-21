@@ -1,0 +1,82 @@
+{
+  "player": {
+    "player_id": "david-damesworth",
+    "player_name": "David Damesworth",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120325",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 2,
+    "avg_to_par": 11.5,
+    "avg_sg_total": -10.3,
+    "first_round": "2012-03-22",
+    "last_round": "2012-03-23",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-03-23",
+        "event_name": "Arnold Palmer Invitational presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 2,
+        "score": 85,
+        "to_par": 13.0,
+        "sg_total": -12.517,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-03-22",
+        "event_name": "Arnold Palmer Invitational presented by MasterCard",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "round_number": 1,
+        "score": 82,
+        "to_par": 10.0,
+        "sg_total": -8.092,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 2,
+        "avg_to_par": 11.5,
+        "avg_sg": -10.3
+      }
+    ]
+  },
+  "model": null
+}

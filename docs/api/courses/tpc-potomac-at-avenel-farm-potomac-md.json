@@ -1,0 +1,167 @@
+{
+  "course": {
+    "course_id": "tpc-potomac-at-avenel-farm-potomac-md",
+    "course_name": "TPC Potomac at Avenel Farm",
+    "location": "Potomac, MD, USA",
+    "country": "",
+    "par": 70,
+    "yards": 7107,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 168,
+    "avg_to_par": 1.53,
+    "avg_sg_total": -0.87,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "craig-parry",
+        "player_name": "Craig Parry",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.4
+      },
+      {
+        "player_id": "dylan-meyer",
+        "player_name": "Dylan Meyer",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.38
+      },
+      {
+        "player_id": "brian-henninger",
+        "player_name": "Brian Henninger",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "thomas-levet",
+        "player_name": "Thomas Levet",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.55
+      },
+      {
+        "player_id": "donnie-hammond",
+        "player_name": "Donnie Hammond",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.65
+      },
+      {
+        "player_id": "spencer-levin",
+        "player_name": "Spencer Levin",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "anirban-lahiri",
+        "player_name": "Anirban Lahiri",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "john-engler-jr",
+        "player_name": "John Engler, Jr.",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.1
+      },
+      {
+        "player_id": "ethan-tracy",
+        "player_name": "Ethan Tracy",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.13
+      },
+      {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "blayne-barber",
+        "player_name": "Blayne Barber",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.12
+      },
+      {
+        "player_id": "martin-flores",
+        "player_name": "Martin Flores",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.12
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Wells Fargo Championship",
+        "season": 2022,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Quicken Loans National",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Quicken Loans National",
+        "season": 2017,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Booz Allen Classic",
+        "season": 2006,
+        "par": 70,
+        "yards": 7107,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "todd-barranger",
+    "player_name": "Todd Barranger",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20050508",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 0.5,
+    "avg_sg_total": 0.47,
+    "first_round": "2003-04-03",
+    "last_round": "2005-05-06",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2005-05-06",
+        "event_name": "Wachovia Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -2.322,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2005-05-05",
+        "event_name": "Wachovia Championship",
+        "course": "Quail Hollow Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": 0.058,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-06",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 4,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 2.539,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-05",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 3,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.474,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-04",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.556,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2003-04-03",
+        "event_name": "BellSouth Classic",
+        "course": "TPC Sugarloaf",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": 0.532,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.13
+      }
+    ]
+  },
+  "model": null
+}

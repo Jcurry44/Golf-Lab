@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "paul-mcginley",
+    "player_name": "Paul McGinley",
+    "country": "Ireland",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150215",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.52,
+    "avg_sg_total": -0.28,
+    "first_round": "2006-08-27",
+    "last_round": "2015-02-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-02-14",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -6.006,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-02-13",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -5.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": -2.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-08",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 3,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -3.896,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-07",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-02-06",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": "Pebble Beach Golf Links",
+        "round_number": 1,
+        "score": 67,
+        "to_par": -5.0,
+        "sg_total": 3.635,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-08-09",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill CC",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.712,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-08-08",
+        "event_name": "PGA Championship",
+        "course": "Oak Hill CC",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -5.872,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-19",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.068,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-18",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 3,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 3.219,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 2,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 3.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 0.186,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-02-14",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -1.283,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-02-13",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.544,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.378,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-08-03",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.513,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-08-02",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -1.388,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-08-01",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 3.713,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2008-07-31",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": 0.388,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-12",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.183,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-11",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 6.0,
+        "sg_total": -4.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-10",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 2,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 6.803,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-09",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": 0.286,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-05",
+        "event_name": "World Golf Championships-Bridgestone Invitational",
+        "course": "Firestone CC (South)",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 2.207,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.73
+      },
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.31
+      },
+      {
+        "course": null,
+        "rounds": 7,
+        "avg_to_par": 0.86,
+        "avg_sg": -0.47
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 9,
+        "avg_to_par": 1.33,
+        "avg_sg": 0.28
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.84
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 6,
+        "avg_to_par": 2.67,
+        "avg_sg": -3.01
+      }
+    ]
+  },
+  "model": null
+}

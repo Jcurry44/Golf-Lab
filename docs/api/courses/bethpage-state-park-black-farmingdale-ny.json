@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "bethpage-state-park-black-farmingdale-ny",
+    "course_name": "Bethpage State Park - Black Course",
+    "location": "Farmingdale, New York",
+    "country": "",
+    "par": 70,
+    "yards": 7426,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 100,
+    "avg_to_par": 4.44,
+    "avg_sg_total": -1.56,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "soren-hansen",
+        "player_name": "Soren Hansen",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.93
+      },
+      {
+        "player_id": "azuma-yano",
+        "player_name": "Azuma Yano",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "johan-edfors",
+        "player_name": "Johan Edfors",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "drew-weaver",
+        "player_name": "Drew Weaver",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.68
+      },
+      {
+        "player_id": "simon-khan",
+        "player_name": "Simon Khan",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.42
+      },
+      {
+        "player_id": "thomas-levet",
+        "player_name": "Thomas Levet",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 0.18
+      },
+      {
+        "player_id": "andrew-parr",
+        "player_name": "Andrew Parr",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "angelo-que",
+        "player_name": "Angelo Que",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "courtland-lowe",
+        "player_name": "Courtland Lowe",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "james-kamte",
+        "player_name": "James Kamte",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "nathan-tyler",
+        "player_name": "Nathan Tyler",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      },
+      {
+        "player_id": "raphael-jacquelin",
+        "player_name": "Raphael Jacquelin",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.08
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "The Barclays",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "The Barclays",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Open Championship",
+        "season": 2009,
+        "par": 70,
+        "yards": 7426,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

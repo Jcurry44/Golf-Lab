@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "pinehurst-resort-no-2-pinehurst-nc",
+    "course_name": "Pinehurst Resort - Course No. 2",
+    "location": "Pinehurst, North Carolina",
+    "country": "",
+    "par": 70,
+    "yards": 7214,
+    "architect": "",
+    "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 161,
+    "avg_to_par": 5.28,
+    "avg_sg_total": -1.74,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "shiv-kapur",
+        "player_name": "Shiv Kapur",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.59
+      },
+      {
+        "player_id": "peter-hedblom",
+        "player_name": "Peter Hedblom",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "peter-jacobsen",
+        "player_name": "Peter Jacobsen",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "garth-mulroy",
+        "player_name": "Garth Mulroy",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.84
+      },
+      {
+        "player_id": "andres-echavarria",
+        "player_name": "Andres Echavarria",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "casey-wittenberg",
+        "player_name": "Casey Wittenberg",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "cory-whitsett",
+        "player_name": "Cory Whitsett",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "hunter-stewart",
+        "player_name": "Hunter Stewart",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "matt-dobyns",
+        "player_name": "Matt Dobyns",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "rob-rashell",
+        "player_name": "Rob Rashell",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 0.9
+      },
+      {
+        "player_id": "fran-quinn",
+        "player_name": "Fran Quinn",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.41
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "U.S. Open Golf Championship",
+        "season": 2014,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "U.S. Open Championship",
+        "season": 2005,
+        "par": 70,
+        "yards": 7214,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

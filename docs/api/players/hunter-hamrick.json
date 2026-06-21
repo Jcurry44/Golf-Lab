@@ -1,0 +1,310 @@
+{
+  "player": {
+    "player_id": "hunter-hamrick",
+    "player_name": "Hunter Hamrick",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190224",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 20,
+    "avg_to_par": 0.95,
+    "avg_sg_total": -0.81,
+    "first_round": "2012-06-14",
+    "last_round": "2019-02-22",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-02-22",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -2.215,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-02-21",
+        "event_name": "Puerto Rico Open",
+        "course": "Grand Reserve Golf Club",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.687,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-08",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -6.862,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-07",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-19",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -3.098,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-18",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -1.182,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-07",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 4,
+        "score": 71,
+        "to_par": 0.0,
+        "sg_total": -0.606,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-06",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 3,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -6.562,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-05",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.235,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-10-04",
+        "event_name": "Justin Timberlake Shriners Hospitals for Children Open",
+        "course": "TPC Summerlin",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -2.0,
+        "sg_total": 0.424,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-27",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 2,
+        "score": 70,
+        "to_par": 0.0,
+        "sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-26",
+        "event_name": "RBC Canadian Open",
+        "course": "Hamilton G&CC",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.891,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-22",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.122,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-21",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 0.84,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-20",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.624,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-07-19",
+        "event_name": "True South Classic",
+        "course": "Annandale GC",
+        "round_number": 1,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 2.282,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-17",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 4,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.097,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-16",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-15",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 7.032,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-06-14",
+        "event_name": "U.S. Open Golf Championship",
+        "course": "The Olympic Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -2.09,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Annandale GC",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.97
+      },
+      {
+        "course": "Hamilton G&CC",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.63
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.45
+      },
+      {
+        "course": "The Olympic Club",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.46
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -3.75
+      }
+    ]
+  },
+  "model": null
+}

@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "taisei-shimizu",
+    "player_name": "Taisei Shimizu",
+    "country": "Japan",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241027",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": -0.67,
+    "avg_sg_total": 0.79,
+    "first_round": "2024-06-13",
+    "last_round": "2024-10-27",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2024-10-27",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 4,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 0.429,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-26",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -1.0,
+        "sg_total": -0.896,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-25",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 2,
+        "score": 67,
+        "to_par": -3.0,
+        "sg_total": 1.883,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-10-24",
+        "event_name": "ZOZO CHAMPIONSHIP",
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "round_number": 1,
+        "score": 66,
+        "to_par": -4.0,
+        "sg_total": 3.128,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-14",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 2,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -2.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2024-06-13",
+        "event_name": "U.S. Open",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": 2.263,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.14
+      },
+      {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.08
+      }
+    ]
+  },
+  "model": null
+}

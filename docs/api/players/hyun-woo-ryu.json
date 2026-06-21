@@ -1,0 +1,154 @@
+{
+  "player": {
+    "player_id": "hyun-woo-ryu",
+    "player_name": "Hyun-woo Ryu",
+    "country": "South Korea",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20181021",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 8,
+    "avg_to_par": 1.38,
+    "avg_sg_total": -1.76,
+    "first_round": "2017-10-26",
+    "last_round": "2018-10-20",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2018-10-20",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.59,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-19",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.974,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-18",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -4.923,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2018-10-17",
+        "event_name": "THE CJ CUP @ NINE BRIDGES",
+        "course": "Nine Bridges",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.731,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-29",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 4,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -1.558,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-28",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 3,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 3.727,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-27",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -0.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2017-10-26",
+        "event_name": "World Golf Championships-HSBC Champions",
+        "course": "Sheshan International GC",
+        "round_number": 1,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": 1.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.79
+      },
+      {
+        "course": "Nine Bridges",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -4.3
+      }
+    ]
+  },
+  "model": null
+}

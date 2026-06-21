@@ -1,0 +1,121 @@
+{
+  "player": {
+    "player_id": "jerry-pate",
+    "player_name": "Jerry Pate",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110814",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 5,
+    "avg_to_par": 3.8,
+    "avg_sg_total": -3.14,
+    "first_round": "2010-02-11",
+    "last_round": "2011-08-12",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2011-08-12",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -6.227,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-11",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -3.866,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-13",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 3,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -0.503,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-12",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 2,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.564,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-02-11",
+        "event_name": "AT&T Pebble Beach National Pro-Am",
+        "course": null,
+        "round_number": 1,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.538,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.87
+      },
+      {
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -5.05
+      }
+    ]
+  },
+  "model": null
+}

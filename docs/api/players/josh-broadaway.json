@@ -1,0 +1,348 @@
+{
+  "player": {
+    "player_id": "josh-broadaway",
+    "player_name": "Josh Broadaway",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20161120",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 39,
+    "avg_to_par": 0.18,
+    "avg_sg_total": -0.58,
+    "first_round": "2007-11-28",
+    "last_round": "2016-11-18",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2016-11-18",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.737,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-11-17",
+        "event_name": "The RSM Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -5.321,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-19",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 10.0,
+        "sg_total": -11.045,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-08-18",
+        "event_name": "Wyndham Championship",
+        "course": "Sedgefield Country Club",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -4.265,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-16",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 3,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -6.439,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-15",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 1.412,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2016-07-14",
+        "event_name": "Barbasol Championship",
+        "course": "RTJ Trail (Grand National)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 1.0,
+        "sg_total": -1.667,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-10",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 4,
+        "score": 65,
+        "to_par": -5.0,
+        "sg_total": 3.986,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-09",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 3,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -4.795,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-08",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 4.138,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-11-07",
+        "event_name": "The McGladrey Classic",
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 2.0,
+        "sg_total": -2.871,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-05",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.85,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-04",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -2.205,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-03",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -3.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-02",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -1.45,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-12-01",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 2,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 3.762,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-11-30",
+        "event_name": "PGA TOUR Qualifying Tournament",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.68,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-06",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -2.579,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-05",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 3,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 4.558,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-04",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -2.0,
+        "sg_total": 4.307,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-03-03",
+        "event_name": "The Honda Classic",
+        "course": "PGA National Resort (The Champion)",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -4.125,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-07",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 6,
+        "score": 78,
+        "to_par": 6.0,
+        "sg_total": -7.099,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-06",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 5,
+        "score": 68,
+        "to_par": -4.0,
+        "sg_total": 4.237,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-12-05",
+        "event_name": "PGA Tour Qualifying Tournament",
+        "course": null,
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 0.738,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": null,
+        "rounds": 24,
+        "avg_to_par": -0.96,
+        "avg_sg": 0.28
+      },
+      {
+        "course": "RTJ Trail (Grand National)",
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.23
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.6
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.54
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -7.65
+      }
+    ]
+  },
+  "model": null
+}

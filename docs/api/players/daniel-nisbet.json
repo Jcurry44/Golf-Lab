@@ -1,0 +1,132 @@
+{
+  "player": {
+    "player_id": "daniel-nisbet",
+    "player_name": "Daniel Nisbet",
+    "country": "Australia",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20191103",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 5.67,
+    "avg_sg_total": -5.76,
+    "first_round": "2013-04-18",
+    "last_round": "2019-11-03",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2019-11-03",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 4,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -1.922,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-02",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 3,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -7.091,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-11-01",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 2,
+        "score": 80,
+        "to_par": 8.0,
+        "sg_total": -8.167,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-10-31",
+        "event_name": "WGC-HSBC CHAMPIONS",
+        "course": "Sheshan Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -6.115,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-19",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -6.893,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-04-18",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -4.354,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": 5.25,
+        "avg_sg": -5.82
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -5.62
+      }
+    ]
+  },
+  "model": null
+}

@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 162,
-    "avg_to_par": -0.2,
-    "avg_sg_total": 0.64,
+    "rounds": 557,
+    "avg_to_par": 0.77,
+    "avg_sg_total": -0.3,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -24,6 +24,13 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "eddie-pepperell",
+        "player_name": "Eddie Pepperell",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.0
+      },
       {
         "player_id": "cameron-young",
         "player_name": "Cameron Young",
@@ -39,11 +46,39 @@
         "avg_sg": 3.41
       },
       {
+        "player_id": "anirban-lahiri",
+        "player_name": "Anirban Lahiri",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.35
+      },
+      {
         "player_id": "xander-schauffele",
         "player_name": "Xander Schauffele",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 3.16
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.1
+      },
+      {
+        "player_id": "robert-macintyre",
+        "player_name": "Robert MacIntyre",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.91
+      },
+      {
+        "player_id": "jacob-bridgeman",
+        "player_name": "Jacob Bridgeman",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.66
       },
       {
         "player_id": "ludvig-berg",
@@ -67,46 +102,11 @@
         "avg_sg": 2.41
       },
       {
-        "player_id": "tommy-fleetwood",
-        "player_name": "Tommy Fleetwood",
+        "player_id": "sepp-straka",
+        "player_name": "Sepp Straka",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 2.41
-      },
-      {
-        "player_id": "brian-harman",
-        "player_name": "Brian Harman",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 2.16
-      },
-      {
-        "player_id": "akshay-bhatia",
-        "player_name": "Akshay Bhatia",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.91
-      },
-      {
-        "player_id": "corey-conners",
-        "player_name": "Corey Conners",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.91
-      },
-      {
-        "player_id": "justin-rose",
-        "player_name": "Justin Rose",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.91
-      },
-      {
-        "player_id": "russell-henley",
-        "player_name": "Russell Henley",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.91
       }
     ]
   },

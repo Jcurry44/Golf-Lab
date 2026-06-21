@@ -1,0 +1,157 @@
+{
+  "course": {
+    "course_id": "the-mines-resort-gc-kuala-lumpur-mas",
+    "course_name": "The Mines Resort & GC",
+    "location": "Kuala Lumpur, MAS",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 104,
+    "avg_to_par": -1.4,
+    "avg_sg_total": -0.93,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "gaganjeet-bhullar",
+        "player_name": "Gaganjeet Bhullar",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "mardan-mamat",
+        "player_name": "Mardan Mamat",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.11
+      },
+      {
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "jbe-kruger",
+        "player_name": "Jbe Kruger",
+        "rounds": 8,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.65
+      },
+      {
+        "player_id": "masanori-kobayashi",
+        "player_name": "Masanori Kobayashi",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.23
+      },
+      {
+        "player_id": "thaworn-wiratchant",
+        "player_name": "Thaworn Wiratchant",
+        "rounds": 8,
+        "avg_to_par": -2.25,
+        "avg_sg": -0.31
+      },
+      {
+        "player_id": "andrew-dodt",
+        "player_name": "Andrew Dodt",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.39
+      },
+      {
+        "player_id": "danny-chia",
+        "player_name": "Danny Chia",
+        "rounds": 8,
+        "avg_to_par": -1.88,
+        "avg_sg": -0.48
+      },
+      {
+        "player_id": "chinnarat-phadungsil",
+        "player_name": "Chinnarat Phadungsil",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.22
+      },
+      {
+        "player_id": "pariya-junhasavasdikul",
+        "player_name": "Pariya Junhasavasdikul",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.64
+      },
+      {
+        "player_id": "prom-meesawat",
+        "player_name": "Prom Meesawat",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.98
+      },
+      {
+        "player_id": "siddikur-rahman",
+        "player_name": "Siddikur Rahman",
+        "rounds": 12,
+        "avg_to_par": -1.42,
+        "avg_sg": -0.95
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "CIMB Classic",
+        "season": 2012,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "season": 2011,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "CIMB Asia Pacific Classic Malaysia",
+        "season": 2010,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

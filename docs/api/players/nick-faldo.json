@@ -1,0 +1,354 @@
+{
+  "player": {
+    "player_id": "nick-faldo",
+    "player_name": "Nick Faldo",
+    "country": "England",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150720",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 40,
+    "avg_to_par": 1.32,
+    "avg_sg_total": -1.81,
+    "first_round": "2005-03-17",
+    "last_round": "2015-07-17",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-07-17",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.359,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-07-16",
+        "event_name": "The Open",
+        "course": "St. Andrews GC (Old Course)",
+        "round_number": 1,
+        "score": 83,
+        "to_par": 11.0,
+        "sg_total": -10.763,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-18",
+        "event_name": "The Open Championship",
+        "course": "Royal Liverpool",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -3.239,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-17",
+        "event_name": "The Open Championship",
+        "course": "Royal Liverpool",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -2.654,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-04",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -6.135,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-07-03",
+        "event_name": "The Greenbrier Classic",
+        "course": "The Old White TPC",
+        "round_number": 1,
+        "score": 71,
+        "to_par": 1.0,
+        "sg_total": -1.013,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-18",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -2.838,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2014-04-17",
+        "event_name": "RBC Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 6.0,
+        "sg_total": -4.794,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-19",
+        "event_name": "The Open Championship",
+        "course": "Muirfield",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 7.0,
+        "sg_total": -2.627,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2013-07-18",
+        "event_name": "The Open Championship",
+        "course": "Muirfield",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -4.403,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-16",
+        "event_name": "The Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -5.865,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2010-07-15",
+        "event_name": "The Open Championship",
+        "course": "Old Course at St Andrews",
+        "round_number": 1,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.25,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-17",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": 1.026,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2009-07-16",
+        "event_name": "British Open Championship",
+        "course": "Turnberry Resort - Ailsa Course",
+        "round_number": 1,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -6.814,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-20",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 2.0,
+        "sg_total": 1.096,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-07-19",
+        "event_name": "British Open Championship",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 8.0,
+        "sg_total": -5.276,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-21",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": 1.471,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-07-20",
+        "event_name": "British Open Championship",
+        "course": "Royal Liverpool Golf Club",
+        "round_number": 1,
+        "score": 77,
+        "to_par": 5.0,
+        "sg_total": -4.776,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-14",
+        "event_name": "Verizon Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 2,
+        "score": 68,
+        "to_par": -3.0,
+        "sg_total": 2.672,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-13",
+        "event_name": "Verizon Heritage",
+        "course": "Harbour Town Golf Links",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 5.0,
+        "sg_total": -4.744,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-07",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -0.033,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-04-06",
+        "event_name": "Masters Tournament",
+        "course": "Augusta National Golf Club",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.056,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-03-24",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 2,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -5.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-03-23",
+        "event_name": "THE PLAYERS Championship",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "round_number": 1,
+        "score": 76,
+        "to_par": 4.0,
+        "sg_total": -3.75,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 3,
+        "avg_to_par": -21.0,
+        "avg_sg": -2.04
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 6,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.36
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 6,
+        "avg_to_par": 1.83,
+        "avg_sg": -0.7
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.65
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.71
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 5,
+        "avg_to_par": 3.2,
+        "avg_sg": -0.48
+      }
+    ]
+  },
+  "model": null
+}

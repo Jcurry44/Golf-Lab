@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 216,
-    "avg_to_par": -0.13,
-    "avg_sg_total": 0.96,
-    "difficulty_bucket": "balanced"
+    "rounds": 1141,
+    "avg_to_par": 2.81,
+    "avg_sg_total": -1.55,
+    "difficulty_bucket": "brutal"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,13 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "nick-faldo",
+        "player_name": "Nick Faldo",
+        "rounds": 3,
+        "avg_to_par": -21.0,
+        "avg_sg": -2.04
+      },
       {
         "player_id": "rory-mcilroy",
         "player_name": "Rory McIlroy",
@@ -74,6 +81,13 @@
         "avg_sg": 2.8
       },
       {
+        "player_id": "max-homa",
+        "player_name": "Max Homa",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.55
+      },
+      {
         "player_id": "xander-schauffele",
         "player_name": "Xander Schauffele",
         "rounds": 4,
@@ -81,32 +95,18 @@
         "avg_sg": 2.55
       },
       {
-        "player_id": "hideki-matsuyama",
-        "player_name": "Hideki Matsuyama",
+        "player_id": "jake-knapp",
+        "player_name": "Jake Knapp",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.3
+      },
+      {
+        "player_id": "brooks-koepka",
+        "player_name": "Brooks Koepka",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 1.8
-      },
-      {
-        "player_id": "jordan-spieth",
-        "player_name": "Jordan Spieth",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.8
-      },
-      {
-        "player_id": "patrick-cantlay",
-        "player_name": "Patrick Cantlay",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.8
-      },
-      {
-        "player_id": "patrick-reed",
-        "player_name": "Patrick Reed",
-        "rounds": 12,
-        "avg_to_par": -1.08,
-        "avg_sg": 2.1
       }
     ]
   },

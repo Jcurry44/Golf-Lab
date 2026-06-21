@@ -1,0 +1,110 @@
+{
+  "player": {
+    "player_id": "sean-dougherty",
+    "player_name": "Sean Dougherty",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150816",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 4,
+    "avg_to_par": 6.0,
+    "avg_sg_total": -3.75,
+    "first_round": "2011-08-11",
+    "last_round": "2015-08-14",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2015-08-14",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 2,
+        "score": 81,
+        "to_par": 9.0,
+        "sg_total": -8.065,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2015-08-13",
+        "event_name": "PGA Championship",
+        "course": "Whistling Straits - Straits Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 7.0,
+        "sg_total": -4.853,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-12",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 2,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -1.227,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2011-08-11",
+        "event_name": "PGA Championship",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "round_number": 1,
+        "score": 74,
+        "to_par": 4.0,
+        "sg_total": -0.866,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.05
+      },
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.46
+      }
+    ]
+  },
+  "model": null
+}

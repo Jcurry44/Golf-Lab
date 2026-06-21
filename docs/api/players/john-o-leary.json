@@ -1,0 +1,138 @@
+{
+  "player": {
+    "player_id": "john-o-leary",
+    "player_name": "John O'Leary",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20200809",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 6,
+    "avg_to_par": 6.17,
+    "avg_sg_total": -3.8,
+    "first_round": "2007-08-09",
+    "last_round": "2020-08-07",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2020-08-07",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 2,
+        "score": 73,
+        "to_par": 3.0,
+        "sg_total": -1.692,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2020-08-06",
+        "event_name": "PGA Championship",
+        "course": "TPC Harding Park",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -3.885,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-17",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 2,
+        "score": 78,
+        "to_par": 8.0,
+        "sg_total": -6.355,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2019-05-16",
+        "event_name": "PGA Championship",
+        "course": "Bethpage State Park BK Course",
+        "round_number": 1,
+        "score": 79,
+        "to_par": 9.0,
+        "sg_total": -5.936,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-10",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 2,
+        "score": 77,
+        "to_par": 7.0,
+        "sg_total": -4.197,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-08-09",
+        "event_name": "PGA Championship",
+        "course": "Southern Hills Country Club",
+        "round_number": 1,
+        "score": 75,
+        "to_par": 5.0,
+        "sg_total": -0.714,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Harding Park",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.79
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -2.46
+      },
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -6.15
+      }
+    ]
+  },
+  "model": null
+}

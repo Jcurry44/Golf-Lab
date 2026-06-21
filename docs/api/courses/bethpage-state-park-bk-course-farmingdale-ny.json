@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "bethpage-state-park-bk-course-farmingdale-ny",
+    "course_name": "Bethpage State Park BK Course",
+    "location": "Farmingdale, NY, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 82,
+    "avg_to_par": 5.05,
+    "avg_sg_total": -2.6,
+    "difficulty_bucket": "brutal"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "mike-lorenzo-vera",
+        "player_name": "Mike Lorenzo-Vera",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "rob-labritz",
+        "player_name": "Rob Labritz",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.13
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.13
+      },
+      {
+        "player_id": "adrian-otaegui",
+        "player_name": "Adrian Otaegui",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.15
+      },
+      {
+        "player_id": "julian-suri",
+        "player_name": "Julian Suri",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.15
+      },
+      {
+        "player_id": "tyler-hall",
+        "player_name": "Tyler Hall",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.15
+      },
+      {
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -0.12
+      },
+      {
+        "player_id": "ben-cook",
+        "player_name": "Ben Cook",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.15
+      },
+      {
+        "player_id": "brian-mackey",
+        "player_name": "Brian Mackey",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.15
+      },
+      {
+        "player_id": "rich-beem",
+        "player_name": "Rich Beem",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -1.12
+      },
+      {
+        "player_id": "ryan-vermeer",
+        "player_name": "Ryan Vermeer",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -1.12
+      },
+      {
+        "player_id": "mikko-korhonen",
+        "player_name": "Mikko Korhonen",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.65
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "PGA Championship",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "course": {
+    "course_id": "the-philadelphia-cricket-club-wissahickon-course-flourtown-pa",
+    "course_name": "The Philadelphia Cricket Club (Wissahickon Course)",
+    "location": "Flourtown, PA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 6,
+    "avg_to_par": 0.17,
+    "avg_sg_total": -0.96,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "will-zalatoris",
+        "player_name": "Will Zalatoris",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.99
+      },
+      {
+        "player_id": "thomas-detry",
+        "player_name": "Thomas Detry",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.89
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Truist Championship",
+        "season": 2025,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

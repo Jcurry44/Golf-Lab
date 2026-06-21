@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "omni-tucson-national-golf-resort-catalina-course-tucson-az",
+    "course_name": "Omni Tucson National Golf Resort - Catalina Course",
+    "location": "Tucson, Arizona",
+    "country": "",
+    "par": 72,
+    "yards": 7193,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 74,
+    "avg_to_par": -0.16,
+    "avg_sg_total": -1.67,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "brian-henninger",
+        "player_name": "Brian Henninger",
+        "rounds": 3,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.68
+      },
+      {
+        "player_id": "scott-simpson",
+        "player_name": "Scott Simpson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.1
+      },
+      {
+        "player_id": "gene-sauers",
+        "player_name": "Gene Sauers",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.85
+      },
+      {
+        "player_id": "david-edwards",
+        "player_name": "David Edwards",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.26
+      },
+      {
+        "player_id": "don-yrene",
+        "player_name": "Don Yrene",
+        "rounds": 6,
+        "avg_to_par": -2.17,
+        "avg_sg": 0.09
+      },
+      {
+        "player_id": "tetsuji-hiratsuka",
+        "player_name": "Tetsuji Hiratsuka",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "ben-portie",
+        "player_name": "Ben Portie",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.15
+      },
+      {
+        "player_id": "matt-gogel",
+        "player_name": "Matt Gogel",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "mike-springer",
+        "player_name": "Mike Springer",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.2
+      },
+      {
+        "player_id": "per-ulrik-johansson",
+        "player_name": "Per-Ulrik Johansson",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "don-pooley",
+        "player_name": "Don Pooley",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.2
+      },
+      {
+        "player_id": "kaname-yokoo",
+        "player_name": "Kaname Yokoo",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.2
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Chrysler Classic of Tucson",
+        "season": 2006,
+        "par": 72,
+        "yards": 7193,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Chrysler Classic of Tucson",
+        "season": 2005,
+        "par": 72,
+        "yards": 7193,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -49,11 +49,19 @@
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Player scorecards</p>
-                <h2>Field Intelligence</h2>
+                <h2>Player Library</h2>
               </div>
-              <button type="button" class="ghost-button" data-view-jump="model">Model board</button>
+              <div class="panel-actions">
+                <label class="search-box">
+                  <span>Search</span>
+                  <input id="playerSearch" type="search" autocomplete="off" placeholder="Player, country, profile note">
+                </label>
+                <button type="button" class="ghost-button" data-view-jump="model">Model board</button>
+              </div>
             </div>
+            <div class="library-count" id="playerCount"></div>
             <div id="playerCards" class="player-grid"></div>
+            <div id="playerActions" class="player-actions"></div>
           </article>
 
           <article class="panel wide" data-panel="model players">

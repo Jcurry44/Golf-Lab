@@ -1,0 +1,137 @@
+{
+  "course": {
+    "course_id": "keene-trace-golf-club-nicholasville-ky",
+    "course_name": "Keene Trace Golf Club",
+    "location": "Nicholasville, KY, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 157,
+    "avg_to_par": -0.89,
+    "avg_sg_total": -1.17,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "steve-wheatcroft",
+        "player_name": "Steve Wheatcroft",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.32
+      },
+      {
+        "player_id": "blayne-barber",
+        "player_name": "Blayne Barber",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.07
+      },
+      {
+        "player_id": "conrad-shindler",
+        "player_name": "Conrad Shindler",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "heath-slocum",
+        "player_name": "Heath Slocum",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "john-peterson",
+        "player_name": "John Peterson",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "john-oda",
+        "player_name": "John Oda",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.07
+      },
+      {
+        "player_id": "charlie-wi",
+        "player_name": "Charlie Wi",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.57
+      },
+      {
+        "player_id": "kyle-thompson",
+        "player_name": "Kyle Thompson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.57
+      },
+      {
+        "player_id": "matt-atkins",
+        "player_name": "Matt Atkins",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.57
+      },
+      {
+        "player_id": "chris-wilson",
+        "player_name": "Chris Wilson",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.32
+      },
+      {
+        "player_id": "daniel-summerhays",
+        "player_name": "Daniel Summerhays",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.07
+      },
+      {
+        "player_id": "jonathan-randolph",
+        "player_name": "Jonathan Randolph",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.07
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Barbasol Championship",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

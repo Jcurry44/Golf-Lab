@@ -1,0 +1,187 @@
+{
+  "player": {
+    "player_id": "keith-fergus",
+    "player_name": "Keith Fergus",
+    "country": "USA",
+    "tour": "PGA",
+    "handedness": "",
+    "birth_year": null,
+    "turned_pro": null,
+    "source_provider": "ESPN public season scoreboard",
+    "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120122",
+    "source_updated_at": "2026-06-19T16:45:00-04:00",
+    "rounds": 11,
+    "avg_to_par": -0.09,
+    "avg_sg_total": -1.65,
+    "first_round": "2006-01-18",
+    "last_round": "2012-01-21",
+    "sg_t2g": null,
+    "sg_ott": null,
+    "sg_app": null,
+    "sg_arg": null,
+    "sg_putt": null,
+    "driving_distance": null,
+    "accuracy": null,
+    "gir": null,
+    "scrambling": null
+  },
+  "rounds": {
+    "columns": [
+      "round_date",
+      "event_name",
+      "course",
+      "round_number",
+      "score",
+      "to_par",
+      "sg_total",
+      "sg_t2g",
+      "sg_putt"
+    ],
+    "rows": [
+      {
+        "round_date": "2012-01-21",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 3,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.432,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-01-20",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 2,
+        "score": 69,
+        "to_par": -3.0,
+        "sg_total": -0.049,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2012-01-19",
+        "event_name": "Humana Challenge in partnership with the Clinton Foundation",
+        "course": "PGA West Palmer Course",
+        "round_number": 1,
+        "score": 73,
+        "to_par": 1.0,
+        "sg_total": -3.549,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-01-20",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 4,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -3.714,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-01-19",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 3,
+        "score": 75,
+        "to_par": 3.0,
+        "sg_total": -4.126,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-01-18",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 2,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -0.512,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2007-01-17",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.315,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-01-21",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 4,
+        "score": 71,
+        "to_par": -1.0,
+        "sg_total": -1.419,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-01-20",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 3,
+        "score": 74,
+        "to_par": 2.0,
+        "sg_total": -4.127,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-01-19",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 2,
+        "score": 72,
+        "to_par": 0.0,
+        "sg_total": -0.748,
+        "sg_t2g": null,
+        "sg_putt": null
+      },
+      {
+        "round_date": "2006-01-18",
+        "event_name": "Bob Hope Chrysler Classic",
+        "course": null,
+        "round_number": 1,
+        "score": 70,
+        "to_par": -2.0,
+        "sg_total": 0.156,
+        "sg_t2g": null,
+        "sg_putt": null
+      }
+    ]
+  },
+  "bestCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -0.67,
+        "avg_sg": -1.34
+      },
+      {
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": 0.13,
+        "avg_sg": -1.77
+      }
+    ]
+  },
+  "model": null
+}

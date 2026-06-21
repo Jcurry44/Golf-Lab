@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 104,
-    "avg_to_par": -0.12,
-    "avg_sg_total": 0.5,
+    "rounds": 417,
+    "avg_to_par": 0.43,
+    "avg_sg_total": 0.0,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -30,6 +30,27 @@
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 3.05
+      },
+      {
+        "player_id": "david-lipsky",
+        "player_name": "David Lipsky",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.8
+      },
+      {
+        "player_id": "jordan-smith",
+        "player_name": "Jordan Smith",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.55
+      },
+      {
+        "player_id": "marco-penge",
+        "player_name": "Marco Penge",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.3
       },
       {
         "player_id": "sungjae-im",
@@ -60,53 +81,32 @@
         "avg_sg": 2.05
       },
       {
-        "player_id": "jordan-spieth",
-        "player_name": "Jordan Spieth",
+        "player_id": "s-h-kim",
+        "player_name": "S.H. Kim",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "stephan-jaeger",
+        "player_name": "Stephan Jaeger",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "a-j-ewart",
+        "player_name": "A.J. Ewart",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 1.8
       },
       {
-        "player_id": "corey-conners",
-        "player_name": "Corey Conners",
+        "player_id": "jordan-spieth",
+        "player_name": "Jordan Spieth",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.55
-      },
-      {
-        "player_id": "gary-woodland",
-        "player_name": "Gary Woodland",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.55
-      },
-      {
-        "player_id": "tom-kim",
-        "player_name": "Tom Kim",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "adrien-dumont-de-chassart",
-        "player_name": "Adrien Dumont de Chassart",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.05
-      },
-      {
-        "player_id": "andrew-putnam",
-        "player_name": "Andrew Putnam",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "justin-thomas",
-        "player_name": "Justin Thomas",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.8
+        "avg_to_par": -1.5,
+        "avg_sg": 1.8
       }
     ]
   },

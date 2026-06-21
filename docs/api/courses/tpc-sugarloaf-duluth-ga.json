@@ -1,0 +1,177 @@
+{
+  "course": {
+    "course_id": "tpc-sugarloaf-duluth-ga",
+    "course_name": "TPC Sugarloaf",
+    "location": "Duluth, Georgia",
+    "country": "",
+    "par": 72,
+    "yards": 7309,
+    "architect": "",
+    "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 273,
+    "avg_to_par": 1.12,
+    "avg_sg_total": -1.27,
+    "difficulty_bucket": "tough"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "franklin-langham",
+        "player_name": "Franklin Langham",
+        "rounds": 9,
+        "avg_to_par": -9.0,
+        "avg_sg": 0.88
+      },
+      {
+        "player_id": "deane-pappas",
+        "player_name": "Deane Pappas",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.03
+      },
+      {
+        "player_id": "scott-laycock",
+        "player_name": "Scott Laycock",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.03
+      },
+      {
+        "player_id": "bob-may",
+        "player_name": "Bob May",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "dan-forsman",
+        "player_name": "Dan Forsman",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "david-sutherland",
+        "player_name": "David Sutherland",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.53
+      },
+      {
+        "player_id": "john-cook",
+        "player_name": "John Cook",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "james-mclean",
+        "player_name": "James McLean",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "todd-barranger",
+        "player_name": "Todd Barranger",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
+        "player_id": "ian-leggatt",
+        "player_name": "Ian Leggatt",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.91
+      },
+      {
+        "player_id": "mike-grob",
+        "player_name": "Mike Grob",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.03
+      },
+      {
+        "player_id": "esteban-toledo",
+        "player_name": "Esteban Toledo",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.66
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "AT&T Classic",
+        "season": 2008,
+        "par": 72,
+        "yards": 7309,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "AT&T Classic",
+        "season": 2007,
+        "par": 72,
+        "yards": 7309,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "BellSouth Classic",
+        "season": 2006,
+        "par": 72,
+        "yards": 7309,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "BellSouth Classic",
+        "season": 2005,
+        "par": 72,
+        "yards": 7309,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "BellSouth Classic",
+        "season": 2003,
+        "par": 72,
+        "yards": 7309,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}
