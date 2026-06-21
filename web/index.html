@@ -110,6 +110,18 @@
                 <input type="number" inputmode="decimal" step="0.1" data-player-filter="minSg" placeholder="0.5">
               </label>
               <label>
+                <span>Tough rounds</span>
+                <input type="number" inputmode="numeric" min="0" step="1" data-player-filter="minToughRounds" placeholder="12">
+              </label>
+              <label>
+                <span>Tough to par</span>
+                <input type="number" inputmode="decimal" step="0.1" data-player-filter="maxToughToPar" placeholder="0.5">
+              </label>
+              <label>
+                <span>Major rounds</span>
+                <input type="number" inputmode="numeric" min="0" step="1" data-player-filter="minMajorRounds" placeholder="8">
+              </label>
+              <label>
                 <span>Strength</span>
                 <select data-player-filter="strength">
                   <option value="any">Any profile</option>
@@ -127,6 +139,8 @@
                   <option value="sg">Strokes gained</option>
                   <option value="distance">Driving distance</option>
                   <option value="gir">GIR</option>
+                  <option value="tough">Tough courses</option>
+                  <option value="majors">Majors</option>
                   <option value="scoring">Scoring</option>
                   <option value="name">Name</option>
                 </select>
@@ -134,6 +148,7 @@
               <button type="button" class="ghost-button filter-reset" id="playerFilterReset">Reset</button>
             </div>
             <div class="library-count" id="playerCount"></div>
+            <div id="compareTray" class="compare-tray" hidden></div>
             <div id="playerCards" class="player-grid"></div>
             <div id="playerActions" class="player-actions"></div>
           </article>
@@ -146,6 +161,7 @@
               </div>
               <button type="button" class="ghost-button" data-view-jump="players">Player cards</button>
             </div>
+            <div id="predictionCenter" class="prediction-center"></div>
             <div id="modelBoard" class="model-board"></div>
           </article>
 

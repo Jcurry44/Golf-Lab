@@ -172,5 +172,71 @@
     }
   ],
   "blockers": [],
+  "quality": {
+    "players_with_scorecards": 3715,
+    "players_with_three_rich_seasons": 135,
+    "players_with_major_rounds": 1840,
+    "major_rounds": 18184,
+    "players_with_tough_rounds": 2299,
+    "tough_rounds": 43461,
+    "courses_with_samples": 175,
+    "players_with_model_predictions": 156,
+    "ok_source_fetches": 1675
+  },
+  "coverage": [
+    {
+      "label": "Player scorecards",
+      "value": 3715,
+      "status": "good",
+      "note": "186,284 imported rounds"
+    },
+    {
+      "label": "3-year rich profiles",
+      "value": 135,
+      "status": "good",
+      "note": "SG, distance, accuracy, GIR, scrambling"
+    },
+    {
+      "label": "Tough-course DNA",
+      "value": 2299,
+      "status": "good",
+      "note": "43,461 brutal/tough rounds"
+    },
+    {
+      "label": "Major profile",
+      "value": 1840,
+      "status": "good",
+      "note": "18,184 major rounds"
+    },
+    {
+      "label": "Course samples",
+      "value": 175,
+      "status": "good",
+      "note": "courses with 12+ rounds"
+    },
+    {
+      "label": "Model predictions",
+      "value": 156,
+      "status": "good",
+      "note": "5,616 saved predictions"
+    }
+  ],
+  "automation": [
+    {
+      "label": "Static Pages export",
+      "status": "ready",
+      "note": "python export_static.py writes the phone-ready docs snapshot"
+    },
+    {
+      "label": "Public stat refresh",
+      "status": "ready",
+      "note": "python pga_tour_stats_backfill.py --years 2023-2026 updates rich profiles"
+    },
+    {
+      "label": "Warehouse refresh",
+      "status": "local source required",
+      "note": "scorecards rebuild from the local PGA public-history warehouse"
+    }
+  ],
   "grade": "premium-ready"
 }

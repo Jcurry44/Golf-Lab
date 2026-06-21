@@ -13,20 +13,8 @@ let playerSearch = "";
 let playerVisibleLimit = 48;
 let seasonProfiles = new Map();
 let careerProfiles = new Map();
-let playerFilters = {
-  season: "all",
-  scope: "all",
-  minRounds: "",
-  minDistance: "",
-  minGir: "",
-  minFairways: "",
-  minScramble: "",
-  maxToPar: "",
-  maxScore: "",
-  minSg: "",
-  strength: "any",
-  sort: "model",
-};
+let comparePlayerIds = [];
+let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
 
@@ -84,6 +72,26 @@ function numeric(value) {
 function filterNumber(key) {
   const value = numeric(playerFilters[key]);
   return value === null ? null : value;
+}
+
+function defaultPlayerFilters() {
+  return {
+    season: "all",
+    scope: "all",
+    minRounds: "",
+    minDistance: "",
+    minGir: "",
+    minFairways: "",
+    minScramble: "",
+    maxToPar: "",
+    maxScore: "",
+    minSg: "",
+    minToughRounds: "",
+    maxToughToPar: "",
+    minMajorRounds: "",
+    strength: "any",
+    sort: "model",
+  };
 }
 
 function escapeHtml(value) {
@@ -174,11 +182,31 @@ function weightedMerge(target, row, fields) {
 function buildProfileMaps() {
   seasonProfiles = new Map();
   const career = new Map();
-  const weightedFields = ["scoring_average", "avg_to_par", "avg_sg_total", "sg_t2g", "sg_ott", "sg_app", "sg_arg", "sg_putt"];
+  const weightedFields = [
+    "scoring_average",
+    "avg_to_par",
+    "avg_sg_total",
+    "sg_t2g",
+    "sg_ott",
+    "sg_app",
+    "sg_arg",
+    "sg_putt",
+    "tough_avg_to_par",
+    "tough_avg_sg",
+    "gettable_avg_to_par",
+    "gettable_avg_sg",
+    "major_avg_to_par",
+    "major_avg_sg",
+  ];
   for (const row of filterPayload?.rows || []) {
     seasonProfiles.set(`${row.player_id}|${row.season}`, row);
     if (!career.has(row.player_id)) career.set(row.player_id, { player_id: row.player_id, season: "all" });
     weightedMerge(career.get(row.player_id), row, weightedFields);
+    const target = career.get(row.player_id);
+    target.tough_rounds = (target.tough_rounds || 0) + (numeric(row.tough_rounds) || 0);
+    target.gettable_rounds = (target.gettable_rounds || 0) + (numeric(row.gettable_rounds) || 0);
+    target.major_rounds = (target.major_rounds || 0) + (numeric(row.major_rounds) || 0);
+    target.major_events = (target.major_events || 0) + (numeric(row.major_events) || 0);
   }
   careerProfiles = new Map();
   for (const [playerId, row] of career.entries()) {
@@ -187,6 +215,10 @@ function buildProfileMaps() {
       const rounds = row[`${field}_rounds`] || 0;
       profile[field] = rounds ? Number((row[`${field}_weighted`] / rounds).toFixed(2)) : null;
     }
+    profile.tough_rounds = row.tough_rounds || 0;
+    profile.gettable_rounds = row.gettable_rounds || 0;
+    profile.major_rounds = row.major_rounds || 0;
+    profile.major_events = row.major_events || 0;
     careerProfiles.set(playerId, profile);
   }
 }
@@ -254,6 +286,8 @@ function sortDecoratedPlayers(rows) {
   return rows.sort((a, b) => {
     if (playerFilters.sort === "distance") return compareDesc(a, b, "driving_distance") || a.row.player_name.localeCompare(b.row.player_name);
     if (playerFilters.sort === "gir") return compareDesc(a, b, "gir") || a.row.player_name.localeCompare(b.row.player_name);
+    if (playerFilters.sort === "tough") return compareAsc(a, b, "tough_avg_to_par") || compareDesc(a, b, "tough_rounds");
+    if (playerFilters.sort === "majors") return compareAsc(a, b, "major_avg_to_par") || compareDesc(a, b, "major_rounds");
     if (playerFilters.sort === "scoring") return compareAsc(a, b, "scoring_average") || compareAsc(a, b, "avg_to_par");
     if (playerFilters.sort === "sg") return compareDesc(a, b, "avg_sg_total") || compareDesc(a, b, "sg_t2g");
     if (playerFilters.sort === "name") return a.row.player_name.localeCompare(b.row.player_name);
@@ -310,7 +344,10 @@ function playerPassesFilters(row, profile) {
   if (!passesNumericFloor(profile, "accuracy", "minFairways", 100)) return false;
   if (!passesNumericFloor(profile, "scrambling", "minScramble", 100)) return false;
   if (!passesNumericFloor(profile, "avg_sg_total", "minSg")) return false;
+  if (!passesNumericFloor(profile, "tough_rounds", "minToughRounds")) return false;
+  if (!passesNumericFloor(profile, "major_rounds", "minMajorRounds")) return false;
   if (!passesNumericCeiling(profile, "avg_to_par", "maxToPar")) return false;
+  if (!passesNumericCeiling(profile, "tough_avg_to_par", "maxToughToPar")) return false;
   if (!passesNumericCeiling(profile, "scoring_average", "maxScore")) return false;
 
   if (playerFilters.strength !== "any") {
@@ -325,6 +362,82 @@ function confidenceTone(value) {
   if (text.includes("thin") || text.includes("watch")) return "watch";
   if (text.includes("high")) return "good";
   return "neutral";
+}
+
+function playerById(playerId) {
+  return (playerPayload?.rows || []).find((row) => row.player_id === playerId) || null;
+}
+
+function decoratedPlayer(playerId) {
+  const row = playerById(playerId);
+  if (!row) return null;
+  return { row, profile: profileForRow(row) || row };
+}
+
+function bestBy(players, key, direction = "desc") {
+  const rows = players.filter((item) => statValue(item.profile, key) !== null);
+  if (!rows.length) return null;
+  return rows.sort((a, b) => {
+    const av = statValue(a.profile, key);
+    const bv = statValue(b.profile, key);
+    return direction === "asc" ? av - bv : bv - av;
+  })[0];
+}
+
+function renderCompareTray() {
+  const tray = $("#compareTray");
+  if (!tray) return;
+  const players = comparePlayerIds.map(decoratedPlayer).filter(Boolean);
+  tray.hidden = !players.length;
+  if (!players.length) {
+    tray.innerHTML = "";
+    return;
+  }
+  const sgLeader = bestBy(players, "avg_sg_total");
+  const toughLeader = bestBy(players, "tough_avg_to_par", "asc");
+  const majorLeader = bestBy(players, "major_avg_to_par", "asc");
+  const insightParts = [
+    sgLeader ? `${sgLeader.row.player_name} leads profile SG at ${signed(sgLeader.profile.avg_sg_total)}.` : "",
+    toughLeader ? `${toughLeader.row.player_name} has the cleanest tough-course read at ${signed(toughLeader.profile.tough_avg_to_par)} to par.` : "",
+    majorLeader ? `${majorLeader.row.player_name} owns the best loaded major sample at ${signed(majorLeader.profile.major_avg_to_par)} to par.` : "",
+  ].filter(Boolean);
+  tray.innerHTML = `
+    <div class="compare-head">
+      <div>
+        <p class="eyebrow">Compare lab</p>
+        <h3>${fmt(players.length)} selected</h3>
+      </div>
+      <button type="button" class="ghost-button" data-clear-compare>Clear</button>
+    </div>
+    <p class="compare-read">${escapeHtml(insightParts.join(" ") || "Pick another player to unlock a plain-English comparison.")}</p>
+    <div class="compare-grid">
+      ${players.map(({ row, profile }) => `
+        <article class="compare-card">
+          <button type="button" aria-label="Remove ${escapeHtml(row.player_name)}" data-remove-compare="${escapeHtml(row.player_id)}">Remove</button>
+          <strong>${escapeHtml(row.player_name)}</strong>
+          <span>${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} rounds</span>
+          <div>
+            ${metric("SG", signed(profile.avg_sg_total))}
+            ${metric("Tough", signed(profile.tough_avg_to_par))}
+            ${metric("Major", signed(profile.major_avg_to_par))}
+            ${metric("Drive", profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--")}
+            ${metric("GIR", pctDecimal(profile.gir))}
+            ${metric("Score", profile.scoring_average ? fmt(profile.scoring_average, 2) : "--")}
+          </div>
+          <a href="./player.html?id=${encodeURIComponent(row.player_id)}">Open full card</a>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
+function toggleCompare(playerId) {
+  if (comparePlayerIds.includes(playerId)) {
+    comparePlayerIds = comparePlayerIds.filter((id) => id !== playerId);
+  } else {
+    comparePlayerIds = [...comparePlayerIds, playerId].slice(-4);
+  }
+  renderPlayers();
 }
 
 function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row ? profileForRow(row) : null) {
@@ -344,7 +457,8 @@ function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row
       <div class="featured-metrics">
         ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
         ${metric("Profile SG", signed(profile?.avg_sg_total))}
-        ${metric("Imported scorecards", profile?.rounds)}
+        ${metric("Tough courses", signed(profile?.tough_avg_to_par))}
+        ${metric("Major rounds", profile?.major_rounds)}
       </div>
     </div>
   `;
@@ -378,8 +492,11 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
     const label = playerFilters.season === "all" ? "all seasons" : `${playerFilters.season} season`;
     count.textContent = `${fmt(decoratedRows.length)} of ${fmt(allRows.length)} player cards | ${label}`;
   }
-  $("#playerCards").innerHTML = rows.map(({ row, profile }) => `
-    <a class="player-card" href="./player.html?id=${encodeURIComponent(row.player_id)}">
+  renderCompareTray();
+  $("#playerCards").innerHTML = rows.map(({ row, profile }) => {
+    const selected = comparePlayerIds.includes(row.player_id);
+    return `
+    <article class="player-card ${selected ? "is-selected" : ""}">
       <div class="player-card-head">
         <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
         <div>
@@ -391,17 +508,22 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
       <div class="card-stats">
         ${metric("Win", pct(Number(row.probability || 0) * 100))}
         ${metric("SG", signed(profile.avg_sg_total))}
-        ${metric("Avg", signed(profile.avg_to_par))}
+        ${metric("Tough", signed(profile.tough_avg_to_par))}
       </div>
       <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
       <div class="scorecard-footer">
         <span>Drive <strong>${profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--"}</strong></span>
         <span>GIR <strong>${pctDecimal(profile.gir)}</strong></span>
+        <span>Majors <strong>${fmt(profile.major_rounds)}</strong></span>
         <span>Score <strong>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</strong></span>
-        <span>Scramble <strong>${pctDecimal(profile.scrambling)}</strong></span>
       </div>
-    </a>
-  `).join("") || empty("No player cards match those filters.");
+      <div class="player-card-actions">
+        <a href="./player.html?id=${encodeURIComponent(row.player_id)}">Open card</a>
+        <button type="button" data-compare-player="${escapeHtml(row.player_id)}">${selected ? "Selected" : "Compare"}</button>
+      </div>
+    </article>
+  `;
+  }).join("") || empty("No player cards match those filters.");
   const actions = $("#playerActions");
   if (actions) {
     actions.innerHTML = decoratedRows.length > rows.length
@@ -426,8 +548,58 @@ function renderCourses(limit = currentView === "courses" ? 36 : 6) {
   `).join("") || empty("No course cards yet.");
 }
 
+function modelTierRows() {
+  const order = ["Win Core", "Contender Pool", "Longshot With Signal", "Volatility Watch"];
+  const grouped = new Map(order.map((tier) => [tier, []]));
+  for (const row of modelPayload.rows || []) {
+    const tier = row.tier || "Volatility Watch";
+    if (!grouped.has(tier)) grouped.set(tier, []);
+    grouped.get(tier).push(row);
+  }
+  return order.map((tier) => ({ tier, rows: (grouped.get(tier) || []).slice(0, tier === "Win Core" ? 8 : 6) }))
+    .filter((group) => group.rows.length);
+}
+
+function renderPredictionCenter() {
+  const target = $("#predictionCenter");
+  if (!target) return;
+  const event = modelPayload.event || summary?.selectedEvent || {};
+  const rows = modelPayload.rows || [];
+  const favorite = rows[0];
+  const positiveEdges = rows.filter((row) => Number(row.edge_probability) > 0).length;
+  target.innerHTML = `
+    <section class="prediction-hero">
+      <div>
+        <p class="eyebrow">Prediction center</p>
+        <h3>${escapeHtml(event.event_name || "Current tournament")}</h3>
+        <p>${escapeHtml(favorite?.tier_reason || "Projected standings will appear when model predictions are loaded.")}</p>
+      </div>
+      <div class="prediction-kpis">
+        ${metric("Projected leader", favorite?.player_name || "--")}
+        ${metric("Win prob", favorite ? pct(favorite.probability_pct) : "--")}
+        ${metric("Positive edges", positiveEdges)}
+      </div>
+    </section>
+    <div class="tier-grid">
+      ${modelTierRows().map((group) => `
+        <article class="tier-card">
+          <span>${escapeHtml(group.tier)}</span>
+          ${group.rows.map((row) => `
+            <a href="./player.html?id=${encodeURIComponent(row.player_id)}">
+              <strong>${escapeHtml(row.player_name)}</strong>
+              <small>#${escapeHtml(row.rank || "--")} | ${pct(row.probability_pct)} | ${signed(row.projected_to_par)} to par</small>
+              <em>${escapeHtml(row.tier_reason || row.plain_english || "Reasoning pending.")}</em>
+            </a>
+          `).join("")}
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderModel(limit = currentView === "model" ? 40 : 10) {
   const rows = (modelPayload.rows || []).slice(0, limit);
+  renderPredictionCenter();
   $("#modelBoard").innerHTML = `
     <div class="model-table">
       ${rows.map((row) => `
@@ -447,10 +619,30 @@ function renderModel(limit = currentView === "model" ? 40 : 10) {
 function renderHealth() {
   const blockers = healthPayload.blockers || [];
   const sources = healthPayload.sources || [];
+  const coverage = healthPayload.coverage || [];
+  const automation = healthPayload.automation || [];
   $("#warehouseHealth").innerHTML = `
     <div class="health-band ${blockers.length ? "watch" : "good"}">
       <strong>${escapeHtml(healthPayload.grade || "setup")}</strong>
       <span>${blockers.length ? blockers.join(" | ") : "Warehouse has the minimum model-ready lanes."}</span>
+    </div>
+    <div class="coverage-audit">
+      ${coverage.map((row) => `
+        <article class="${escapeHtml(row.status || "watch")}">
+          <span>${escapeHtml(row.label)}</span>
+          <strong>${fmt(row.value)}</strong>
+          <small>${escapeHtml(row.note || "")}</small>
+        </article>
+      `).join("")}
+    </div>
+    <div class="automation-strip">
+      ${automation.map((row) => `
+        <article>
+          <span>${escapeHtml(row.label)}</span>
+          <strong>${escapeHtml(row.status)}</strong>
+          <small>${escapeHtml(row.note)}</small>
+        </article>
+      `).join("")}
     </div>
     <div class="source-list">
       ${sources.map((row) => `
@@ -543,6 +735,22 @@ function bindEvents() {
       renderPlayers();
       return;
     }
+    const compare = event.target.closest("[data-compare-player]");
+    if (compare) {
+      toggleCompare(compare.dataset.comparePlayer);
+      return;
+    }
+    const removeCompare = event.target.closest("[data-remove-compare]");
+    if (removeCompare) {
+      comparePlayerIds = comparePlayerIds.filter((id) => id !== removeCompare.dataset.removeCompare);
+      renderPlayers();
+      return;
+    }
+    if (event.target.closest("[data-clear-compare]")) {
+      comparePlayerIds = [];
+      renderPlayers();
+      return;
+    }
     const course = event.target.closest("[data-course-id]");
     if (course) openCourse(course.dataset.courseId).catch(showError);
   });
@@ -571,20 +779,7 @@ function bindEvents() {
   const reset = $("#playerFilterReset");
   if (reset) {
     reset.addEventListener("click", () => {
-      playerFilters = {
-        season: "all",
-        scope: "all",
-        minRounds: "",
-        minDistance: "",
-        minGir: "",
-        minFairways: "",
-        minScramble: "",
-        maxToPar: "",
-        maxScore: "",
-        minSg: "",
-        strength: "any",
-        sort: "model",
-      };
+      playerFilters = defaultPlayerFilters();
       $$("[data-player-filter]").forEach((control) => {
         control.value = playerFilters[control.dataset.playerFilter] ?? "";
       });

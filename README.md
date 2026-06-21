@@ -64,6 +64,16 @@ python export_static.py
 Commit and push the repo to GitHub. The included Pages workflow deploys the
 `docs` folder from `main`.
 
+For the lowest-friction local refresh, run:
+
+```powershell
+python refresh_golf_lab.py
+```
+
+That script rebuilds scorecards when the local PGA public-history warehouse is
+available, refreshes public PGA TOUR stat seasons, and exports the static
+GitHub Pages snapshot.
+
 ## Current Shape
 
 Implemented first:
@@ -76,10 +86,20 @@ Implemented first:
   board, warehouse health, and individual player/course drilldowns.
 - Premium dashboard shell with low-scroll cards and plain-English model
   reasoning.
+- Player Library filters for season, SG, distance, GIR, fairways, scrambling,
+  scoring, tough-course performance, major sample, and model/database scope.
+- Compare Lab for side-by-side player reads using SG, tough-course, major,
+  distance, GIR, and scoring signals.
+- Prediction Center with model tiers and plain-English projected-standings
+  reasoning.
+- Data room coverage audit for scorecards, rich stat seasons, tough-course DNA,
+  major profiles, course samples, model predictions, and refresh hooks.
 
 Next build lane:
 
-- Scheduled refresh orchestration inside this project.
+- Scheduled refresh orchestration inside this project. The app has no manual
+  browser-import workflow, but the full scorecard rebuild still depends on the
+  local PGA public-history warehouse path being available.
 - More complete player DNA: equipment, accomplishments, career results.
 - Prediction result summaries after tournaments settle.
 - Blue Line-style data quality and source lineage boards.

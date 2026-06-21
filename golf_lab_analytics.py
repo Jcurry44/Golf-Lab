@@ -396,9 +396,44 @@ def _grade_explanations(
     return explanations
 
 
+def _model_tier(row: dict[str, Any]) -> str:
+    rank = _num(row.get("rank"))
+    probability_pct = _num(row.get("probability_pct"))
+    if rank is not None and rank <= 8:
+        return "Win Core"
+    if rank is not None and rank <= 24:
+        return "Contender Pool"
+    if probability_pct is not None and probability_pct >= 1.0:
+        return "Longshot With Signal"
+    return "Volatility Watch"
+
+
+def _model_tier_reason(row: dict[str, Any]) -> str:
+    tier = row.get("tier") or _model_tier(row)
+    rank = _num(row.get("rank"))
+    projected = _num(row.get("projected_to_par"))
+    avg_sg = _num(row.get("avg_sg_total"))
+    edge = _num(row.get("edge_probability"))
+    pieces = []
+    if rank is not None:
+        pieces.append(f"rank #{int(rank)}")
+    if projected is not None:
+        pieces.append(f"{projected:+.1f} projected to par")
+    if avg_sg is not None:
+        pieces.append(f"{avg_sg:+.1f} profile SG")
+    if edge is not None and edge > 0:
+        pieces.append("positive market edge")
+    if not pieces:
+        return f"{tier} because the model has enough saved signal to keep him on the board."
+    return f"{tier}: " + ", ".join(pieces[:4]) + "."
+
+
 def _enrich_reasoning(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     for row in rows:
         row["plain_english"] = _generated_reason(row)
+        if "probability_pct" in row:
+            row["tier"] = _model_tier(row)
+            row["tier_reason"] = _model_tier_reason(row)
     return rows
 
 
@@ -663,6 +698,46 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
               where round_id is null
                 and period like 'season-%'
             ),
+            difficulty_profile as (
+              select r.player_id,
+                     e.season,
+                     sum(case when cd.difficulty_bucket in ('brutal', 'tough') then 1 else 0 end) as tough_rounds,
+                     round(avg(case when cd.difficulty_bucket in ('brutal', 'tough') then r.to_par end), 2) as tough_avg_to_par,
+                     round(avg(case when cd.difficulty_bucket in ('brutal', 'tough') then sg.sg_total end), 2) as tough_avg_sg,
+                     sum(case when cd.difficulty_bucket = 'gettable' then 1 else 0 end) as gettable_rounds,
+                     round(avg(case when cd.difficulty_bucket = 'gettable' then r.to_par end), 2) as gettable_avg_to_par,
+                     round(avg(case when cd.difficulty_bucket = 'gettable' then sg.sg_total end), 2) as gettable_avg_sg
+              from rounds r
+              join events e on e.event_id = r.event_id
+              left join course_difficulty cd on cd.course_id = r.course_id
+              left join strokes_gained sg on sg.round_id = r.round_id
+              where e.season is not null
+                and r.to_par is not null
+              group by r.player_id, e.season
+            ),
+            major_profile as (
+              select r.player_id,
+                     e.season,
+                     count(r.round_id) as major_rounds,
+                     count(distinct e.event_id) as major_events,
+                     round(avg(r.to_par), 2) as major_avg_to_par,
+                     round(avg(sg.sg_total), 2) as major_avg_sg
+              from rounds r
+              join events e on e.event_id = r.event_id
+              left join strokes_gained sg on sg.round_id = r.round_id
+              where e.season is not null
+                and r.to_par is not null
+                and (
+                  lower(e.event_name) like '%u.s. open%'
+                  or lower(e.event_name) like '%us open%'
+                  or lower(e.event_name) like '%masters%'
+                  or lower(e.event_name) like '%pga championship%'
+                  or lower(e.event_name) like '%open championship%'
+                  or lower(e.event_name) = 'the open'
+                  or lower(e.event_name) like '%the open%'
+                )
+              group by r.player_id, e.season
+            ),
             player_seasons as (
               select player_id, season from round_profile
               union
@@ -684,6 +759,16 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
                    ss.accuracy,
                    ss.gir,
                    ss.scrambling,
+                   coalesce(dp.tough_rounds, 0) as tough_rounds,
+                   dp.tough_avg_to_par,
+                   dp.tough_avg_sg,
+                   coalesce(dp.gettable_rounds, 0) as gettable_rounds,
+                   dp.gettable_avg_to_par,
+                   dp.gettable_avg_sg,
+                   coalesce(mp.major_rounds, 0) as major_rounds,
+                   coalesce(mp.major_events, 0) as major_events,
+                   mp.major_avg_to_par,
+                   mp.major_avg_sg,
                    rp.last_round
             from player_seasons ps
             join players p on p.player_id = ps.player_id
@@ -693,6 +778,12 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
             left join season_skill ss
               on ss.player_id = ps.player_id
              and ss.season = ps.season
+            left join difficulty_profile dp
+              on dp.player_id = ps.player_id
+             and dp.season = ps.season
+            left join major_profile mp
+              on mp.player_id = ps.player_id
+             and mp.season = ps.season
             order by ps.season desc,
                      coalesce(ss.season_sg_total, rp.avg_sg_total, -999) desc,
                      p.player_name
@@ -1095,6 +1186,49 @@ def warehouse_health(conn: sqlite3.Connection) -> dict[str, Any]:
             """
         ).fetchall()
     )
+    quality = one(
+        conn,
+        """
+        with rich_players as (
+          select player_id,
+                 count(distinct cast(substr(period, 8) as integer)) as seasons
+          from strokes_gained
+          where round_id is null
+            and period like 'season-%'
+          group by player_id
+        ),
+        major_rounds as (
+          select count(r.round_id) as rounds,
+                 count(distinct r.player_id) as players
+          from rounds r
+          join events e on e.event_id = r.event_id
+          where lower(e.event_name) like '%u.s. open%'
+             or lower(e.event_name) like '%us open%'
+             or lower(e.event_name) like '%masters%'
+             or lower(e.event_name) like '%pga championship%'
+             or lower(e.event_name) like '%open championship%'
+             or lower(e.event_name) = 'the open'
+             or lower(e.event_name) like '%the open%'
+        ),
+        tough_rounds as (
+          select count(r.round_id) as rounds,
+                 count(distinct r.player_id) as players
+          from rounds r
+          join course_difficulty cd on cd.course_id = r.course_id
+          where cd.difficulty_bucket in ('brutal', 'tough')
+        )
+        select
+          (select count(distinct player_id) from rounds) as players_with_scorecards,
+          (select count(*) from rich_players where seasons >= 3) as players_with_three_rich_seasons,
+          (select players from major_rounds) as players_with_major_rounds,
+          (select rounds from major_rounds) as major_rounds,
+          (select players from tough_rounds) as players_with_tough_rounds,
+          (select rounds from tough_rounds) as tough_rounds,
+          (select count(*) from course_difficulty where rounds >= 12) as courses_with_samples,
+          (select count(distinct player_id) from model_predictions) as players_with_model_predictions,
+          (select count(*) from source_fetches where status = 'ok') as ok_source_fetches
+        """
+    ) or {}
     blockers: list[str] = []
     counts = summary["counts"]
     if counts["players"] == 0:
@@ -1105,9 +1239,67 @@ def warehouse_health(conn: sqlite3.Connection) -> dict[str, Any]:
         blockers.append("No model predictions saved")
     if counts["source_fetches"] == 0:
         blockers.append("No source proof rows")
+    coverage = [
+        {
+            "label": "Player scorecards",
+            "value": quality.get("players_with_scorecards"),
+            "status": "good" if (quality.get("players_with_scorecards") or 0) >= 250 else "watch",
+            "note": f"{counts['rounds']:,} imported rounds",
+        },
+        {
+            "label": "3-year rich profiles",
+            "value": quality.get("players_with_three_rich_seasons"),
+            "status": "good" if (quality.get("players_with_three_rich_seasons") or 0) >= 100 else "watch",
+            "note": "SG, distance, accuracy, GIR, scrambling",
+        },
+        {
+            "label": "Tough-course DNA",
+            "value": quality.get("players_with_tough_rounds"),
+            "status": "good" if (quality.get("tough_rounds") or 0) >= 1000 else "watch",
+            "note": f"{(quality.get('tough_rounds') or 0):,} brutal/tough rounds",
+        },
+        {
+            "label": "Major profile",
+            "value": quality.get("players_with_major_rounds"),
+            "status": "good" if (quality.get("major_rounds") or 0) >= 1000 else "watch",
+            "note": f"{(quality.get('major_rounds') or 0):,} major rounds",
+        },
+        {
+            "label": "Course samples",
+            "value": quality.get("courses_with_samples"),
+            "status": "good" if (quality.get("courses_with_samples") or 0) >= 50 else "watch",
+            "note": "courses with 12+ rounds",
+        },
+        {
+            "label": "Model predictions",
+            "value": quality.get("players_with_model_predictions"),
+            "status": "good" if counts["model_predictions"] else "watch",
+            "note": f"{counts['model_predictions']:,} saved predictions",
+        },
+    ]
+    automation = [
+        {
+            "label": "Static Pages export",
+            "status": "ready",
+            "note": "python export_static.py writes the phone-ready docs snapshot",
+        },
+        {
+            "label": "Public stat refresh",
+            "status": "ready",
+            "note": "python pga_tour_stats_backfill.py --years 2023-2026 updates rich profiles",
+        },
+        {
+            "label": "Warehouse refresh",
+            "status": "local source required",
+            "note": "scorecards rebuild from the local PGA public-history warehouse",
+        },
+    ]
     return {
         "summary": summary,
         "sources": source_rows,
         "blockers": blockers,
+        "quality": quality,
+        "coverage": coverage,
+        "automation": automation,
         "grade": "premium-ready" if not blockers else ("analysis-ready" if counts["rounds"] else "setup"),
     }

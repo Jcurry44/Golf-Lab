@@ -60,8 +60,12 @@ class GolfLabCoreTests(unittest.TestCase):
             courses = course_cards(conn, limit=10)
             health = warehouse_health(conn)
         self.assertGreater(len(model["rows"]), 0)
+        self.assertIn("tier", model["rows"][0])
+        self.assertIn("tier_reason", model["rows"][0])
         self.assertGreater(len(courses["rows"]), 0)
         self.assertEqual(health["grade"], "premium-ready")
+        self.assertGreater(len(health["coverage"]), 0)
+        self.assertGreater(len(health["automation"]), 0)
 
     def test_player_filter_profiles_include_seasons_and_scoring(self) -> None:
         with connect(self.db, readonly=True) as conn:
@@ -70,6 +74,8 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertGreater(len(payload["rows"]), 0)
         self.assertIn("scoring_average", payload["rows"][0])
         self.assertIn("avg_sg_total", payload["rows"][0])
+        self.assertIn("tough_rounds", payload["rows"][0])
+        self.assertIn("major_rounds", payload["rows"][0])
 
     def test_player_filter_profiles_include_stat_only_seasons(self) -> None:
         with connect(self.db) as conn:
