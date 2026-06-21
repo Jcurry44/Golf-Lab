@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20081208",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.78,
-    "avg_sg_total": -1.23,
-    "first_round": "2006-07-06",
+    "rounds": 65,
+    "avg_to_par": 0.92,
+    "avg_sg_total": -1.12,
+    "first_round": "2006-01-26",
     "last_round": "2008-12-08",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,28 @@
     ],
     "rows": [
       {
-        "course": null,
-        "rounds": 6,
-        "avg_to_par": -2.33,
-        "avg_sg": 0.69
-      },
-      {
         "course": "Atunyote Golf Club",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 0.22
+      },
+      {
+        "course": null,
+        "rounds": 9,
+        "avg_to_par": -1.11,
+        "avg_sg": 0.06
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.7
+      },
+      {
+        "course": "English Turn Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.61
       },
       {
         "course": "Warwick Hills Golf and Country Club",
@@ -332,18 +344,6 @@
       },
       {
         "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.06
-      },
-      {
-        "course": "Cog Hill Golf & Country Club - Dubsdread Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.27
-      },
-      {
-        "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -1.06
@@ -365,10 +365,22 @@
         "avg_sg": -6.75
       },
       {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -5.23
+      },
+      {
         "course": "Annandale GC",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -3.33
+      },
+      {
+        "course": "Country Club at Mirasol",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.39
       },
       {
         "course": "Mystic Rock",
@@ -377,22 +389,10 @@
         "avg_sg": -2.46
       },
       {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.4
-      },
-      {
-        "course": "Montreux Golf & Country Club",
+        "course": "TPC Sugarloaf",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.24
-      },
-      {
-        "course": "Hamilton G&CC",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.12
+        "avg_to_par": 2.0,
+        "avg_sg": -1.78
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2006,
-        "rounds": 34,
-        "scoring_average": 72.59,
-        "avg_to_par": 1.32,
-        "avg_sg_total": -1.56,
+        "rounds": 59,
+        "scoring_average": 72.56,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -1.3,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090823",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.1,
-    "avg_sg_total": -2.25,
-    "first_round": "2007-10-14",
+    "rounds": 240,
+    "avg_to_par": 0.08,
+    "avg_sg_total": -0.58,
+    "first_round": "2003-04-04",
     "last_round": "2009-08-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Tesoro Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.52
-      },
-      {
-        "course": "Warwick Hills Golf and Country Club",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": -0.99
-      },
-      {
-        "course": null,
-        "rounds": 9,
-        "avg_to_par": 0.33,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.62
-      },
-      {
-        "course": "TPC Sugarloaf",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.97
-      },
-      {
-        "course": "Grand Reserve Golf Club",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
         "rounds": 6,
-        "avg_to_par": 2.33,
-        "avg_sg": -2.43
+        "avg_to_par": -2.83,
+        "avg_sg": 1.17
+      },
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 10,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.18
+      },
+      {
+        "course": "English Turn Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.49
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 12,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.4
+      },
+      {
+        "course": "Mystic Rock",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.77
       }
     ]
   },
@@ -359,28 +359,16 @@
     ],
     "rows": [
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
+        "course": "Baltusrol Golf Club - Lower Course",
         "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -3.02
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -3.76
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.48
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 3,
-        "avg_to_par": 2.33,
+        "avg_to_par": 6.0,
         "avg_sg": -3.33
+      },
+      {
+        "course": "Westchester Country Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.92
       },
       {
         "course": "Grand Reserve Golf Club",
@@ -389,10 +377,22 @@
         "avg_sg": -2.43
       },
       {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.62
+        "course": "Cog Hill Golf & Country Club - Dubsdread Course",
+        "rounds": 6,
+        "avg_to_par": 2.17,
+        "avg_sg": -1.6
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.55
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.64
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2007,
-        "rounds": 5,
-        "scoring_average": 73.2,
-        "avg_to_par": 0.8,
-        "avg_sg_total": -2.12,
+        "rounds": 46,
+        "scoring_average": 70.07,
+        "avg_to_par": -1.3,
+        "avg_sg_total": -0.63,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-11-02"
+      },
+      {
+        "season": 2006,
+        "rounds": 97,
+        "scoring_average": 70.96,
+        "avg_to_par": -0.23,
+        "avg_sg_total": 0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-27"
+      },
+      {
+        "season": 2005,
+        "rounds": 59,
+        "scoring_average": 71.58,
+        "avg_to_par": 0.44,
+        "avg_sg_total": -0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-30"
+      },
+      {
+        "season": 2003,
+        "rounds": 3,
+        "scoring_average": 70.67,
+        "avg_to_par": -1.33,
+        "avg_sg_total": 1.19,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-06"
       }
     ]
   },
@@ -476,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 6
   }
 }

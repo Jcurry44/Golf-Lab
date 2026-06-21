@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160731",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.4,
-    "avg_sg_total": -0.41,
-    "first_round": "2014-08-09",
+    "rounds": 74,
+    "avg_to_par": 1.03,
+    "avg_sg_total": 0.04,
+    "first_round": "2010-07-15",
     "last_round": "2016-07-29",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,15 @@
     "rows": [
       {
         "course": "Valhalla GC",
-        "rounds": 2,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.99
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.88
+      },
+      {
+        "course": "Royal Liverpool",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.81
       },
       {
         "course": "GC of Houston",
@@ -331,22 +337,16 @@
         "avg_sg": 2.36
       },
       {
-        "course": "St. Andrews GC (Old Course)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.2
-      },
-      {
-        "course": "Baltusrol Golf Club - Lower Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.31
-      },
-      {
-        "course": "Firestone CC (South)",
+        "course": "Pebble Beach Golf Links",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.53
+        "avg_to_par": -1.0,
+        "avg_sg": 1.88
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.59
       }
     ]
   },
@@ -363,6 +363,12 @@
         "rounds": 2,
         "avg_to_par": 4.5,
         "avg_sg": -3.54
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.06
       },
       {
         "course": "Royal Troon Golf Club - Old Course",
@@ -383,16 +389,10 @@
         "avg_sg": -0.42
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 6,
-        "avg_to_par": 2.67,
-        "avg_sg": -0.71
-      },
-      {
         "course": "Trump National Doral",
-        "rounds": 8,
-        "avg_to_par": 2.63,
-        "avg_sg": -1.58
+        "rounds": 12,
+        "avg_to_par": 3.25,
+        "avg_sg": -1.94
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2014,
-        "rounds": 2,
-        "scoring_average": 68.0,
-        "avg_to_par": -3.0,
-        "avg_sg_total": 1.99,
+        "rounds": 34,
+        "scoring_average": 71.41,
+        "avg_to_par": 0.15,
+        "avg_sg_total": 0.86,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2014-08-10"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -3.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-16"
       }
     ]
   },
@@ -476,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 4
   }
 }

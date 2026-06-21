@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251116",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.7,
-    "avg_sg_total": -0.28,
-    "first_round": "2025-02-22",
+    "rounds": 240,
+    "avg_to_par": 0.07,
+    "avg_sg_total": -0.29,
+    "first_round": "2020-01-17",
     "last_round": "2025-11-16",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,10 +319,22 @@
         "avg_sg": 1.07
       },
       {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
+        "course": "TPC Craig Ranch",
+        "rounds": 6,
+        "avg_to_par": -3.33,
+        "avg_sg": 0.79
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 13,
+        "avg_to_par": -3.15,
+        "avg_sg": 1.31
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": -0.14
+        "avg_sg": 1.86
       },
       {
         "course": "Black Desert Resort",
@@ -331,22 +343,10 @@
         "avg_sg": 0.54
       },
       {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.19
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.71
-      },
-      {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Detroit Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.5
+        "avg_to_par": -1.75,
+        "avg_sg": -0.35
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Memorial Park Golf Course",
+        "course": "Royal Troon Golf Club - Old Course",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.85
+        "avg_to_par": 4.5,
+        "avg_sg": -1.1
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "Oak Hill Country Club - East Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.25
+      },
+      {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.92
+        "avg_to_par": 3.25,
+        "avg_sg": -0.46
       },
       {
-        "course": "Vidanta Vallarta",
+        "course": "Royal Liverpool Golf Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.95
+        "avg_to_par": 3.0,
+        "avg_sg": -0.65
       },
       {
-        "course": "The Renaissance Club",
+        "course": "The Country Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
+        "avg_to_par": 3.0,
         "avg_sg": -0.62
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.48
-      },
-      {
-        "course": "PGA National Resort (The Champion Course)",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -1.37
+        "avg_to_par": 2.75,
+        "avg_sg": -2.91
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 70.5,
-        "avg_to_par": -0.7,
-        "avg_sg_total": -0.28,
+        "rounds": 47,
+        "scoring_average": 70.49,
+        "avg_to_par": -0.79,
+        "avg_sg_total": -0.21,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2025-11-16"
+      },
+      {
+        "season": 2024,
+        "rounds": 40,
+        "scoring_average": 71.28,
+        "avg_to_par": 0.17,
+        "avg_sg_total": -0.39,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-11-22"
+      },
+      {
+        "season": 2023,
+        "rounds": 48,
+        "scoring_average": 71.98,
+        "avg_to_par": 0.94,
+        "avg_sg_total": -0.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-11-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 53,
+        "scoring_average": 71.02,
+        "avg_to_par": -0.26,
+        "avg_sg_total": 0.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 42,
+        "scoring_average": 71.4,
+        "avg_to_par": 0.12,
+        "avg_sg_total": 0.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-13"
+      },
+      {
+        "season": 2020,
+        "rounds": 10,
+        "scoring_average": 72.6,
+        "avg_to_par": 1.2,
+        "avg_sg_total": -1.88,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-02-23"
       }
     ]
   },
@@ -442,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 6
   }
 }

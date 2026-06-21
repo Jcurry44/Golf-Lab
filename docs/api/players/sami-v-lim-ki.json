@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260517",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.68,
-    "avg_sg_total": -0.23,
-    "first_round": "2025-11-21",
+    "rounds": 205,
+    "avg_to_par": -0.61,
+    "avg_sg_total": -0.07,
+    "first_round": "2020-09-17",
     "last_round": "2026-05-17",
     "sg_t2g": -0.494,
     "sg_ott": -0.34,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "El Cardonal at Diamante",
+        "rounds": 4,
+        "avg_to_par": -6.75,
+        "avg_sg": 3.57
+      },
+      {
         "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 3,
-        "avg_to_par": -5.67,
-        "avg_sg": 3.5
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 3.16
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.94
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 6,
+        "avg_to_par": -3.67,
+        "avg_sg": 1.64
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 8,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.96
       },
       {
         "course": "Pebble Beach Golf Links",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 0.51
-      },
-      {
-        "course": "TPC San Antonio - The Oaks Course",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.54
-      },
-      {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": -2.33,
-        "avg_sg": -0.88
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.42
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.46
       }
     ]
   },
@@ -359,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -3.09
+      },
+      {
         "course": "Augusta National Golf Club",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -3.75
+      },
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.83
       },
       {
         "course": "PGA National - Champion Course",
@@ -371,28 +383,16 @@
         "avg_sg": -4.26
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -3.24
+        "avg_to_par": 4.5,
+        "avg_sg": -2.91
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Royal Troon Golf Club - Old Course",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.26
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.37
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.46
+        "avg_to_par": 3.5,
+        "avg_sg": -0.1
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 3,
-        "scoring_average": 64.33,
-        "avg_to_par": -5.67,
+        "rounds": 85,
+        "scoring_average": 69.68,
+        "avg_to_par": -1.45,
         "avg_sg_total": 0.605,
         "sg_t2g": 0.057,
         "sg_ott": -0.301,
@@ -451,9 +451,9 @@
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 63,
+        "scoring_average": 70.44,
+        "avg_to_par": -0.63,
         "avg_sg_total": -0.211,
         "sg_t2g": -0.272,
         "sg_ott": 0.067,
@@ -464,24 +464,58 @@
         "accuracy": 0.5993,
         "gir": 0.6509,
         "scrambling": 0.5703,
-        "last_round": null
+        "last_round": "2024-10-27"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.32,
-        "sg_t2g": -0.494,
-        "sg_ott": -0.34,
-        "sg_app": 0.048,
-        "sg_arg": -0.203,
-        "sg_putt": 0.174,
-        "driving_distance": 296.8,
-        "accuracy": 0.6139,
-        "gir": 0.6532,
-        "scrambling": 0.619,
-        "last_round": null
+        "rounds": 8,
+        "scoring_average": 72.38,
+        "avg_to_par": 1.88,
+        "avg_sg_total": -1.26,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-07-23"
+      },
+      {
+        "season": 2022,
+        "rounds": 4,
+        "scoring_average": 70.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": 1.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-10"
+      },
+      {
+        "season": 2021,
+        "rounds": 8,
+        "scoring_average": 75.63,
+        "avg_to_par": 4.13,
+        "avg_sg_total": -2.54,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-05-21"
       }
     ]
   },
@@ -493,6 +527,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 6
   }
 }

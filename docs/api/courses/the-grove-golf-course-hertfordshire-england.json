@@ -10,9 +10,9 @@
     "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 28,
-    "avg_to_par": 0.96,
-    "avg_sg_total": -1.58,
+    "rounds": 76,
+    "avg_to_par": 0.13,
+    "avg_sg_total": -0.75,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,34 @@
     ],
     "rows": [
       {
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.89
+      },
+      {
+        "player_id": "arron-oberholser",
+        "player_name": "Arron Oberholser",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.64
+      },
+      {
+        "player_id": "david-howell",
+        "player_name": "David Howell",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "jos-mar-a-olaz-bal",
+        "player_name": "José María Olazábal",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.14
+      },
+      {
         "player_id": "jyoti-randhawa",
         "player_name": "Jyoti Randhawa",
         "rounds": 4,
@@ -32,46 +60,53 @@
         "avg_sg": 1.14
       },
       {
+        "player_id": "johan-edfors",
+        "player_name": "Johan Edfors",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.39
+      },
+      {
+        "player_id": "michael-campbell",
+        "player_name": "Michael Campbell",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.39
+      },
+      {
+        "player_id": "darren-clarke",
+        "player_name": "Darren Clarke",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.14
+      },
+      {
+        "player_id": "simon-dyson",
+        "player_name": "Simon Dyson",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.61
+      },
+      {
+        "player_id": "colin-montgomerie",
+        "player_name": "Colin Montgomerie",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.86
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.86
+      },
+      {
         "player_id": "john-bickerton",
         "player_name": "John Bickerton",
         "rounds": 4,
         "avg_to_par": 0.75,
         "avg_sg": -1.36
-      },
-      {
-        "player_id": "anthony-wall",
-        "player_name": "Anthony Wall",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.86
-      },
-      {
-        "player_id": "paul-broadhurst",
-        "player_name": "Paul Broadhurst",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.86
-      },
-      {
-        "player_id": "tetsuji-hiratsuka",
-        "player_name": "Tetsuji Hiratsuka",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.86
-      },
-      {
-        "player_id": "thaworn-wiratchant",
-        "player_name": "Thaworn Wiratchant",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -2.36
-      },
-      {
-        "player_id": "craig-parry",
-        "player_name": "Craig Parry",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -2.86
       }
     ]
   },

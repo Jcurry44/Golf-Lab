@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.72,
-    "avg_sg_total": -0.09,
-    "first_round": "2024-05-30",
+    "rounds": 85,
+    "avg_to_par": -0.42,
+    "avg_sg_total": -0.48,
+    "first_round": "2017-11-02",
     "last_round": "2024-12-15",
     "sg_t2g": 0.035,
     "sg_ott": 0.197,
@@ -337,16 +337,16 @@
         "avg_sg": 1.23
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 7,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.61
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": -2.0,
         "avg_sg": -0.0
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -1.0
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.1
+      },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
@@ -371,28 +377,22 @@
         "avg_sg": -4.05
       },
       {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.14
+        "course": "Trinity Forest Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.61
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "Colonial Country Club",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.09
+        "avg_to_par": 2.0,
+        "avg_sg": -1.2
       },
       {
         "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.07
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.28
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -1.92
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2024,
-        "rounds": 40,
-        "scoring_average": 66.88,
-        "avg_to_par": -0.72,
+        "rounds": 77,
+        "scoring_average": 68.94,
+        "avg_to_par": -0.49,
         "avg_sg_total": -0.602,
         "sg_t2g": 0.035,
         "sg_ott": 0.197,
@@ -431,6 +431,23 @@
         "gir": 0.692,
         "scrambling": 0.5544,
         "last_round": "2024-12-15"
+      },
+      {
+        "season": 2018,
+        "rounds": 8,
+        "scoring_average": 71.75,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -1.39,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-05-18"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160717",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 3.73,
-    "avg_sg_total": -1.64,
-    "first_round": "2008-06-12",
+    "rounds": 121,
+    "avg_to_par": 2.18,
+    "avg_sg_total": -0.38,
+    "first_round": "2002-08-22",
     "last_round": "2016-07-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Old Course at St Andrews",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.12
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.88
       },
       {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "course": "Mount Juliet Golf Course",
         "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.22
+        "avg_to_par": -2.25,
+        "avg_sg": 0.1
+      },
+      {
+        "course": "TPC Harding Park",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.94
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 8,
+        "avg_to_par": -0.63,
+        "avg_sg": 1.35
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.86
       },
       {
         "course": "Valhalla GC",
         "rounds": 4,
         "avg_to_par": 1.25,
         "avg_sg": -1.12
-      },
-      {
-        "course": "Turnberry Resort - Ailsa Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.11
-      },
-      {
-        "course": "Chambers Bay GC",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -0.6
-      },
-      {
-        "course": "Firestone CC (South)",
-        "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": -3.2
       }
     ]
   },
@@ -363,6 +363,12 @@
         "rounds": 2,
         "avg_to_par": 10.0,
         "avg_sg": -5.15
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -2.89
       },
       {
         "course": "Torrey Pines Golf Course - South Course",
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": 4.5,
         "avg_sg": 0.39
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": -2.1
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2008,
-        "rounds": 12,
-        "scoring_average": 75.75,
-        "avg_to_par": 5.58,
-        "avg_sg_total": -2.25,
+        "rounds": 18,
+        "scoring_average": 74.67,
+        "avg_to_par": 4.11,
+        "avg_sg_total": -2.0,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-08-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 24,
+        "scoring_average": 73.79,
+        "avg_to_par": 3.04,
+        "avg_sg_total": -0.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-12"
+      },
+      {
+        "season": 2006,
+        "rounds": 18,
+        "scoring_average": 72.89,
+        "avg_to_par": 1.78,
+        "avg_sg_total": -0.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
+      },
+      {
+        "season": 2005,
+        "rounds": 20,
+        "scoring_average": 70.25,
+        "avg_to_par": -0.25,
+        "avg_sg_total": 1.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-09"
+      },
+      {
+        "season": 2003,
+        "rounds": 8,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -0.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 5,
+        "scoring_average": 70.0,
+        "avg_to_par": -1.6,
+        "avg_sg_total": 0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -527,6 +612,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 11
   }
 }

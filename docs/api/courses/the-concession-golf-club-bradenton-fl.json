@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 40,
-    "avg_to_par": 1.55,
-    "avg_sg_total": -1.91,
-    "difficulty_bucket": "tough"
+    "rounds": 141,
+    "avg_to_par": 0.2,
+    "avg_sg_total": -0.58,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,81 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "trevor-simsby",
-        "player_name": "Trevor Simsby",
+        "player_id": "brooks-koepka",
+        "player_name": "Brooks Koepka",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.12
+        "avg_to_par": -3.75,
+        "avg_sg": 3.37
       },
       {
-        "player_id": "bernd-wiesberger",
-        "player_name": "Bernd Wiesberger",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.2
-      },
-      {
-        "player_id": "jason-scrivener",
-        "player_name": "Jason Scrivener",
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.38
+        "avg_to_par": -3.0,
+        "avg_sg": 2.62
       },
       {
-        "player_id": "brandon-stone",
-        "player_name": "Brandon Stone",
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.88
+        "avg_to_par": -2.75,
+        "avg_sg": 2.37
       },
       {
-        "player_id": "yuki-inamori",
-        "player_name": "Yuki Inamori",
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.13
+        "avg_to_par": -2.75,
+        "avg_sg": 2.37
       },
       {
-        "player_id": "wade-ormsby",
-        "player_name": "Wade Ormsby",
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.38
+        "avg_to_par": -2.5,
+        "avg_sg": 2.12
       },
       {
-        "player_id": "brad-kennedy",
-        "player_name": "Brad Kennedy",
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.38
+        "avg_to_par": -2.5,
+        "avg_sg": 2.12
       },
       {
-        "player_id": "laurie-canter",
-        "player_name": "Laurie Canter",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -3.2
-      },
-      {
-        "player_id": "andy-sullivan",
-        "player_name": "Andy Sullivan",
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
         "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -3.63
+        "avg_to_par": -2.0,
+        "avg_sg": 1.62
       },
       {
-        "player_id": "jc-ritchie",
-        "player_name": "JC Ritchie",
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
         "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -3.63
+        "avg_to_par": -1.75,
+        "avg_sg": 1.37
       },
       {
-        "player_id": "daniel-van-tonder",
-        "player_name": "Daniel van Tonder",
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
         "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": -4.13
+        "avg_to_par": -1.5,
+        "avg_sg": 1.12
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.12
+      },
+      {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.12
+      },
+      {
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.87
       }
     ]
   },

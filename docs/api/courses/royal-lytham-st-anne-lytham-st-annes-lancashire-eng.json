@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 136,
-    "avg_to_par": 2.95,
-    "avg_sg_total": -1.02,
+    "rounds": 232,
+    "avg_to_par": 2.51,
+    "avg_sg_total": -0.56,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,11 +25,39 @@
     ],
     "rows": [
       {
+        "player_id": "nicolas-colsaerts",
+        "player_name": "Nicolas Colsaerts",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "thomas-aiken",
+        "player_name": "Thomas Aiken",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.31
+      },
+      {
         "player_id": "mark-calcavecchia",
         "player_name": "Mark Calcavecchia",
         "rounds": 4,
         "avg_to_par": 0.0,
         "avg_sg": 2.06
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "steven-alker",
+        "player_name": "Steven Alker",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.81
       },
       {
         "player_id": "james-morrison",
@@ -46,6 +74,13 @@
         "avg_sg": 1.56
       },
       {
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.56
+      },
+      {
         "player_id": "simon-dyson",
         "player_name": "Simon Dyson",
         "rounds": 4,
@@ -53,60 +88,25 @@
         "avg_sg": 1.56
       },
       {
-        "player_id": "rafael-echenique",
-        "player_name": "Rafael Echenique",
+        "player_id": "paul-lawrie",
+        "player_name": "Paul Lawrie",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.56
+        "avg_to_par": 1.0,
+        "avg_sg": 1.06
       },
       {
-        "player_id": "simon-khan",
-        "player_name": "Simon Khan",
+        "player_id": "richard-sterne",
+        "player_name": "Richard Sterne",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.56
+        "avg_to_par": 1.25,
+        "avg_sg": 0.81
       },
       {
-        "player_id": "yoshinori-fujimoto",
-        "player_name": "Yoshinori Fujimoto",
+        "player_id": "troy-matteson",
+        "player_name": "Troy Matteson",
         "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "dale-whitnell",
-        "player_name": "Dale Whitnell",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "aaron-townsend",
-        "player_name": "Aaron Townsend",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
-      },
-      {
-        "player_id": "anders-hansen",
-        "player_name": "Anders Hansen",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
-      },
-      {
-        "player_id": "jbe-kruger",
-        "player_name": "Jbe Kruger",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
-      },
-      {
-        "player_id": "koumei-oda",
-        "player_name": "Koumei Oda",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
+        "avg_to_par": 1.25,
+        "avg_sg": 0.81
       }
     ]
   },

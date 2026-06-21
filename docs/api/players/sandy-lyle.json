@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230409",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 5.17,
-    "avg_sg_total": -3.42,
-    "first_round": "2013-04-11",
+    "rounds": 93,
+    "avg_to_par": 3.96,
+    "avg_sg_total": -2.6,
+    "first_round": "2005-01-26",
     "last_round": "2023-04-07",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Old Course at St Andrews",
+        "rounds": 6,
+        "avg_to_par": 0.67,
+        "avg_sg": 0.2
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.65
+      },
+      {
         "course": "St. Andrews GC (Old Course)",
         "rounds": 2,
         "avg_to_par": 1.5,
         "avg_sg": -1.2
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 26,
-        "avg_to_par": 4.46,
-        "avg_sg": -2.96
+        "course": null,
+        "rounds": 12,
+        "avg_to_par": 1.83,
+        "avg_sg": -3.13
+      },
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.2
       },
       {
         "course": "Carnoustie Golf Links - Championship Course",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -2.53
-      },
-      {
-        "course": "Muirfield",
-        "rounds": 4,
-        "avg_to_par": 5.75,
-        "avg_sg": -2.48
-      },
-      {
-        "course": "Royal Birkdale Golf Club",
-        "rounds": 2,
-        "avg_to_par": 6.5,
-        "avg_sg": -3.53
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 2,
-        "avg_to_par": 10.5,
-        "avg_sg": -8.3
+        "rounds": 6,
+        "avg_to_par": 3.83,
+        "avg_sg": -1.81
       }
     ]
   },
@@ -372,7 +372,7 @@
       },
       {
         "course": "Royal Birkdale Golf Club",
-        "rounds": 2,
+        "rounds": 3,
         "avg_to_par": 6.5,
         "avg_sg": -3.53
       },
@@ -383,16 +383,16 @@
         "avg_sg": -2.48
       },
       {
-        "course": "Carnoustie Golf Links - Championship Course",
+        "course": "Royal St George's Golf Club",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": -2.53
+        "avg_sg": -2.0
       },
       {
         "course": "Augusta National Golf Club",
-        "rounds": 26,
-        "avg_to_par": 4.46,
-        "avg_sg": -2.96
+        "rounds": 48,
+        "avg_to_par": 4.33,
+        "avg_sg": -2.63
       }
     ]
   },
@@ -584,6 +584,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2013-07-21"
+      },
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 77.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -4.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-07-20"
+      },
+      {
+        "season": 2011,
+        "rounds": 4,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -2.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-07-15"
       }
     ]
   },
@@ -595,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 10
+    "seasonProfiles": 12
   }
 }

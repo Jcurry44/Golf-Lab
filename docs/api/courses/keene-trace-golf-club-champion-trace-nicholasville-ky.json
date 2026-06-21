@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 841,
-    "avg_to_par": -1.53,
-    "avg_sg_total": -0.57,
+    "rounds": 1551,
+    "avg_to_par": -1.99,
+    "avg_sg_total": -0.14,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,11 +25,67 @@
     ],
     "rows": [
       {
+        "player_id": "trey-mullinax",
+        "player_name": "Trey Mullinax",
+        "rounds": 4,
+        "avg_to_par": -6.25,
+        "avg_sg": 4.2
+      },
+      {
         "player_id": "nathan-kimsey",
         "player_name": "Nathan Kimsey",
         "rounds": 4,
         "avg_to_par": -5.5,
         "avg_sg": 3.58
+      },
+      {
+        "player_id": "vincent-norrman",
+        "player_name": "Vincent Norrman",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.58
+      },
+      {
+        "player_id": "harry-hall",
+        "player_name": "Harry Hall",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "matt-nesmith",
+        "player_name": "Matt NeSmith",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "pierceson-coody",
+        "player_name": "Pierceson Coody",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "rico-hoey",
+        "player_name": "Rico Hoey",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "zac-blair",
+        "player_name": "Zac Blair",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "trevor-cone",
+        "player_name": "Trevor Cone",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 3.33
       },
       {
         "player_id": "hurly-long",
@@ -39,74 +95,18 @@
         "avg_sg": 3.2
       },
       {
-        "player_id": "ben-taylor",
-        "player_name": "Ben Taylor",
+        "player_id": "anirban-lahiri",
+        "player_name": "Anirban Lahiri",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.83
+      },
+      {
+        "player_id": "neal-shipley",
+        "player_name": "Neal Shipley",
         "rounds": 4,
         "avg_to_par": -5.0,
         "avg_sg": 2.53
-      },
-      {
-        "player_id": "s-y-noh",
-        "player_name": "S.Y. Noh",
-        "rounds": 4,
-        "avg_to_par": -5.0,
-        "avg_sg": 2.53
-      },
-      {
-        "player_id": "sam-bairstow",
-        "player_name": "Sam Bairstow",
-        "rounds": 4,
-        "avg_to_par": -5.0,
-        "avg_sg": 2.53
-      },
-      {
-        "player_id": "alexander-levy",
-        "player_name": "Alexander Levy",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 2.33
-      },
-      {
-        "player_id": "masahiro-kawamura",
-        "player_name": "Masahiro Kawamura",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 2.33
-      },
-      {
-        "player_id": "maximilian-rottluff",
-        "player_name": "Maximilian Rottluff",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 1.78
-      },
-      {
-        "player_id": "callum-tarren",
-        "player_name": "Callum Tarren",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.53
-      },
-      {
-        "player_id": "cody-gribble",
-        "player_name": "Cody Gribble",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.53
-      },
-      {
-        "player_id": "ryan-moore",
-        "player_name": "Ryan Moore",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.53
-      },
-      {
-        "player_id": "cameron-percy",
-        "player_name": "Cameron Percy",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.83
       }
     ]
   },

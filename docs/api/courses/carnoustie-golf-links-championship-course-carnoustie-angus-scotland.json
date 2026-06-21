@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 264,
-    "avg_to_par": 3.39,
-    "avg_sg_total": -1.27,
+    "rounds": 421,
+    "avg_to_par": 2.95,
+    "avg_sg_total": -0.88,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,15 +25,43 @@
     ],
     "rows": [
       {
+        "player_id": "richard-green",
+        "player_name": "Richard Green",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 3.3
+      },
+      {
         "player_id": "eddie-pepperell",
         "player_name": "Eddie Pepperell",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.72
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.6
+      },
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.6
+      },
+      {
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.1
       },
       {
         "player_id": "markus-brier",
         "player_name": "Markus Brier",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
         "rounds": 4,
         "avg_to_par": -0.5,
         "avg_sg": 2.56
@@ -79,34 +107,6 @@
         "rounds": 4,
         "avg_to_par": 0.0,
         "avg_sg": 1.35
-      },
-      {
-        "player_id": "masahiro-kawamura",
-        "player_name": "Masahiro Kawamura",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.85
-      },
-      {
-        "player_id": "ross-fisher",
-        "player_name": "Ross Fisher",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.85
-      },
-      {
-        "player_id": "sean-crocker",
-        "player_name": "Sean Crocker",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "yusaku-miyazato",
-        "player_name": "Yusaku Miyazato",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.6
       }
     ]
   },

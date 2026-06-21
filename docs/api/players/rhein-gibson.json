@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.78,
-    "avg_sg_total": -0.53,
-    "first_round": "2021-03-19",
+    "rounds": 173,
+    "avg_to_par": 0.38,
+    "avg_sg_total": -0.84,
+    "first_round": "2014-07-17",
     "last_round": "2024-12-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -320,9 +320,15 @@
       },
       {
         "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.05
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": 0.59
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 6,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.19
       },
       {
         "course": "Congaree Golf Club",
@@ -331,22 +337,16 @@
         "avg_sg": 1.58
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 10,
+        "avg_to_par": -1.2,
+        "avg_sg": 0.27
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 4,
         "avg_to_par": -1.0,
-        "avg_sg": -0.0
-      },
-      {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.62
-      },
-      {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.46
+        "avg_sg": 1.17
       }
     ]
   },
@@ -365,10 +365,22 @@
         "avg_sg": null
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "TPC Twin Cities",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -4.22
+      },
+      {
+        "course": "TPC Southwind",
         "rounds": 2,
         "avg_to_par": 3.5,
-        "avg_sg": -2.22
+        "avg_sg": -2.4
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.7
       },
       {
         "course": "Innisbrook Resort (Copperhead Course)",
@@ -377,22 +389,10 @@
         "avg_sg": -2.98
       },
       {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
+        "course": "Royal Liverpool",
+        "rounds": 4,
         "avg_to_par": 2.5,
-        "avg_sg": -3.01
-      },
-      {
-        "course": "Dye's Valley Course",
-        "rounds": 7,
-        "avg_to_par": 1.57,
-        "avg_sg": -0.32
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.6
+        "avg_sg": -2.19
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2021,
-        "rounds": 31,
-        "scoring_average": 62.68,
-        "avg_to_par": 0.55,
-        "avg_sg_total": -0.58,
+        "rounds": 56,
+        "scoring_average": 66.93,
+        "avg_to_par": 0.61,
+        "avg_sg_total": -0.88,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-08-13"
+      },
+      {
+        "season": 2020,
+        "rounds": 50,
+        "scoring_average": 71.18,
+        "avg_to_par": -0.12,
+        "avg_sg_total": -0.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-14"
+      },
+      {
+        "season": 2016,
+        "rounds": 54,
+        "scoring_average": 71.54,
+        "avg_to_par": 0.26,
+        "avg_sg_total": -0.81,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-21"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -2.19,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-07-20"
       }
     ]
   },
@@ -476,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 6
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140713",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.67,
-    "avg_sg_total": -2.77,
-    "first_round": "2005-07-07",
+    "rounds": 48,
+    "avg_to_par": 2.23,
+    "avg_sg_total": -2.46,
+    "first_round": "2002-01-03",
     "last_round": "2014-07-11",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.68
+      },
+      {
         "course": null,
         "rounds": 7,
         "avg_to_par": 0.29,
@@ -325,6 +331,12 @@
         "avg_sg": -0.75
       },
       {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.52
+      },
+      {
         "course": "TPC Southwind",
         "rounds": 6,
         "avg_to_par": 1.67,
@@ -335,18 +347,6 @@
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": -2.65
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.78
-      },
-      {
-        "course": "Warwick Hills Golf and Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.89
       }
     ]
   },
@@ -499,6 +499,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-07-08"
+      },
+      {
+        "season": 2002,
+        "rounds": 8,
+        "scoring_average": 72.5,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -0.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-26"
       }
     ]
   },
@@ -510,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 6
   }
 }

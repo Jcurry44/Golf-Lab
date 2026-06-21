@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 14,
-    "avg_to_par": -0.21,
-    "avg_sg_total": -1.16,
+    "rounds": 311,
+    "avg_to_par": -0.82,
+    "avg_sg_total": 0.05,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,32 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "lee-westwood",
-        "player_name": "Lee Westwood",
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": -0.05
+        "avg_to_par": -6.75,
+        "avg_sg": 3.95
       },
       {
-        "player_id": "paul-casey",
-        "player_name": "Paul Casey",
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": -0.3
+        "avg_to_par": -5.0,
+        "avg_sg": 2.2
       },
       {
-        "player_id": "rory-mcilroy",
-        "player_name": "Rory McIlroy",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.24
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.2
       },
       {
-        "player_id": "thomas-detry",
-        "player_name": "Thomas Detry",
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
         "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": -3.82
+        "avg_to_par": -4.5,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.45
+      },
+      {
+        "player_id": "webb-simpson",
+        "player_name": "Webb Simpson",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.45
+      },
+      {
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 4.18
+      },
+      {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.95
+      },
+      {
+        "player_id": "charl-schwartzel",
+        "player_name": "Charl Schwartzel",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.95
+      },
+      {
+        "player_id": "hudson-swafford",
+        "player_name": "Hudson Swafford",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.95
       }
     ]
   },

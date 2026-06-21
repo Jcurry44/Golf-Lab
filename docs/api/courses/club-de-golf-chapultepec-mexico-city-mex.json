@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 163,
-    "avg_to_par": 1.6,
-    "avg_sg_total": -1.91,
-    "difficulty_bucket": "tough"
+    "rounds": 436,
+    "avg_to_par": 0.37,
+    "avg_sg_total": -0.67,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,67 @@
     ],
     "rows": [
       {
-        "player_id": "joost-luiten",
-        "player_name": "Joost Luiten",
-        "rounds": 2,
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.75
+      },
+      {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 8,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.6
+      },
+      {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.61
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.43
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 3,
+        "avg_to_par": -2.67,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.75
+      },
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": 1.23
+        "avg_sg": 1.86
+      },
+      {
+        "player_id": "fabrizio-zanotti",
+        "player_name": "Fabrizio Zanotti",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.8
+      },
+      {
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.25
       },
       {
         "player_id": "adam-bland",
@@ -39,74 +95,18 @@
         "avg_sg": 1.1
       },
       {
-        "player_id": "benjamin-hebert",
-        "player_name": "Benjamin Hebert",
-        "rounds": 4,
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 8,
+        "avg_to_par": -1.63,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 8,
         "avg_to_par": -1.5,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "zander-lombard",
-        "player_name": "Zander Lombard",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "justin-harding",
-        "player_name": "Justin Harding",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.25
-      },
-      {
-        "player_id": "chris-wood",
-        "player_name": "Chris Wood",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.55
-      },
-      {
-        "player_id": "shaun-norris",
-        "player_name": "Shaun Norris",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.0
-      },
-      {
-        "player_id": "hideto-tanihara",
-        "player_name": "Hideto Tanihara",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.3
-      },
-      {
-        "player_id": "s-ren-kjeldsen",
-        "player_name": "Søren Kjeldsen",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.3
-      },
-      {
-        "player_id": "chris-paisley",
-        "player_name": "Chris Paisley",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.4
-      },
-      {
-        "player_id": "zach-murray",
-        "player_name": "Zach Murray",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.5
-      },
-      {
-        "player_id": "yuta-ikeda",
-        "player_name": "Yuta Ikeda",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.65
+        "avg_sg": 1.2
       }
     ]
   },

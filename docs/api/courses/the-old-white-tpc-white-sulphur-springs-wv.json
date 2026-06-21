@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 534,
-    "avg_to_par": 1.28,
-    "avg_sg_total": -1.61,
-    "difficulty_bucket": "tough"
+    "rounds": 1807,
+    "avg_to_par": 0.19,
+    "avg_sg_total": -0.58,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -32,6 +32,34 @@
         "avg_sg": 1.99
       },
       {
+        "player_id": "matt-jones",
+        "player_name": "Matt Jones",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "skip-kendall",
+        "player_name": "Skip Kendall",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.99
+      },
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "scott-langley",
+        "player_name": "Scott Langley",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.59
+      },
+      {
         "player_id": "jay-williamson",
         "player_name": "Jay Williamson",
         "rounds": 4,
@@ -39,11 +67,18 @@
         "avg_sg": 0.74
       },
       {
-        "player_id": "john-peterson",
-        "player_name": "John Peterson",
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.74
+      },
+      {
+        "player_id": "bronson-burgoon",
+        "player_name": "Bronson Burgoon",
         "rounds": 4,
         "avg_to_par": -2.25,
-        "avg_sg": 1.72
+        "avg_sg": 1.4
       },
       {
         "player_id": "brenden-pappas",
@@ -60,53 +95,18 @@
         "avg_sg": 0.49
       },
       {
-        "player_id": "joe-durant",
-        "player_name": "Joe Durant",
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.97
+        "avg_to_par": -2.25,
+        "avg_sg": 0.49
       },
       {
-        "player_id": "garth-mulroy",
-        "player_name": "Garth Mulroy",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.62
-      },
-      {
-        "player_id": "craig-bowden",
-        "player_name": "Craig Bowden",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.24
-      },
-      {
-        "player_id": "gavin-coles",
-        "player_name": "Gavin Coles",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.37
-      },
-      {
-        "player_id": "morgan-hoffmann",
-        "player_name": "Morgan Hoffmann",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.9
-      },
-      {
-        "player_id": "anthony-kim",
-        "player_name": "Anthony Kim",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.85
-      },
-      {
-        "player_id": "brett-stegmaier",
-        "player_name": "Brett Stegmaier",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.97
+        "player_id": "aron-price",
+        "player_name": "Aron Price",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": 1.42
       }
     ]
   },

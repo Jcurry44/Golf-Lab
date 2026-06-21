@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 110,
-    "avg_to_par": 5.27,
-    "avg_sg_total": -2.2,
+    "rounds": 198,
+    "avg_to_par": 4.54,
+    "avg_sg_total": -1.27,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -32,11 +32,39 @@
         "avg_sg": null
       },
       {
+        "player_id": "daniel-summerhays",
+        "player_name": "Daniel Summerhays",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.83
+      },
+      {
         "player_id": "gregory-bourdy",
         "player_name": "Gregory Bourdy",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.83
+      },
+      {
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "derek-fathauer",
+        "player_name": "Derek Fathauer",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.58
       },
       {
         "player_id": "yusaku-miyazato",
@@ -46,67 +74,39 @@
         "avg_sg": 1.58
       },
       {
-        "player_id": "gary-stal",
-        "player_name": "Gary Stal",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": 0.42
-      },
-      {
-        "player_id": "kyung-tae-kim",
-        "player_name": "Kyung-tae Kim",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": 0.41
-      },
-      {
-        "player_id": "lee-slattery",
-        "player_name": "Lee Slattery",
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
         "rounds": 4,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.17
+        "avg_to_par": 2.0,
+        "avg_sg": 1.33
       },
       {
-        "player_id": "aron-price",
-        "player_name": "Aron Price",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "jamie-donaldson",
-        "player_name": "Jamie Donaldson",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.09
-      },
-      {
-        "player_id": "matthew-baldwin",
-        "player_name": "Matthew Baldwin",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.09
-      },
-      {
-        "player_id": "sebastian-s-derberg",
-        "player_name": "Sebastian Söderberg",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.09
-      },
-      {
-        "player_id": "matt-marshall",
-        "player_name": "Matt Marshall",
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
         "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.67
+        "avg_to_par": 2.25,
+        "avg_sg": 1.08
       },
       {
-        "player_id": "romain-wattel",
-        "player_name": "Romain Wattel",
+        "player_id": "ngel-cabrera",
+        "player_name": "Ángel Cabrera",
         "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": -0.92
+        "avg_to_par": 2.25,
+        "avg_sg": 1.08
+      },
+      {
+        "player_id": "rob-oppenheim",
+        "player_name": "Rob Oppenheim",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.08
+      },
+      {
+        "player_id": "matteo-manassero",
+        "player_name": "Matteo Manassero",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.83
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20121203",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -2.08,
-    "avg_sg_total": 0.0,
-    "first_round": "2006-08-05",
+    "rounds": 101,
+    "avg_to_par": -0.7,
+    "avg_sg_total": -0.27,
+    "first_round": "2005-02-24",
     "last_round": "2012-12-03",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,10 +319,16 @@
         "avg_sg": -3.79
       },
       {
+        "course": "English Turn Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.14
+      },
+      {
         "course": "Warwick Hills Golf and Country Club",
-        "rounds": 2,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.84
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.97
       },
       {
         "course": "Jack Nicklaus (Tournament)",
@@ -331,22 +337,16 @@
         "avg_sg": 1.07
       },
       {
-        "course": null,
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.65
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.26
       },
       {
         "course": "La Cantera Golf Club - Resort Course",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 1.6
-      },
-      {
-        "course": "TPC Louisiana",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.52
       }
     ]
   },
@@ -359,16 +359,28 @@
     ],
     "rows": [
       {
-        "course": "TPC Boston",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -1.3
+        "course": "TPC Southwind",
+        "rounds": 6,
+        "avg_to_par": 3.17,
+        "avg_sg": -1.31
       },
       {
-        "course": "Annandale GC",
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.21
+      },
+      {
+        "course": "TPC River Highlands",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -1.83
+        "avg_sg": -1.28
+      },
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 6,
+        "avg_to_par": 1.67,
+        "avg_sg": -1.51
       },
       {
         "course": "Forest Oaks Country Club",
@@ -377,22 +389,10 @@
         "avg_sg": -2.25
       },
       {
-        "course": "Montreux Golf & Country Club",
+        "course": "Cog Hill Golf & Country Club - Dubsdread Course",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.74
-      },
-      {
-        "course": "Hamilton G&CC",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.62
-      },
-      {
-        "course": "Mystic Rock",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.54
+        "avg_to_par": 1.5,
+        "avg_sg": -1.27
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2006,
-        "rounds": 26,
-        "scoring_average": 68.85,
-        "avg_to_par": -2.5,
-        "avg_sg_total": -0.44,
+        "rounds": 65,
+        "scoring_average": 70.49,
+        "avg_to_par": -0.88,
+        "avg_sg_total": -0.4,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-10-20"
+      },
+      {
+        "season": 2005,
+        "rounds": 22,
+        "scoring_average": 71.82,
+        "avg_to_par": 0.18,
+        "avg_sg_total": -0.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -476,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 4
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20181028",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.75,
-    "avg_sg_total": -2.36,
-    "first_round": "2008-10-16",
+    "rounds": 114,
+    "avg_to_par": 1.33,
+    "avg_sg_total": -1.14,
+    "first_round": "2005-03-17",
     "last_round": "2018-10-27",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.09
+      },
+      {
         "course": "TPC Summerlin",
         "rounds": 2,
         "avg_to_par": -2.5,
@@ -320,32 +326,26 @@
       },
       {
         "course": null,
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.52
+        "rounds": 16,
+        "avg_to_par": -2.38,
+        "avg_sg": 1.24
       },
       {
-        "course": "St. Andrews GC (Old Course)",
+        "course": "Brown Deer Park Golf Course",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.56
+        "avg_to_par": -2.25,
+        "avg_sg": 1.01
       },
       {
-        "course": "Grayhawk Golf Club - Raptor Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.64
-      },
-      {
-        "course": "Carnoustie Golf Links - Championship Course",
+        "course": "Royal Liverpool Golf Club",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.15
+        "avg_to_par": -1.5,
+        "avg_sg": 1.88
       },
       {
-        "course": "Royal Liverpool",
-        "rounds": 2,
-        "avg_to_par": 2.0,
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": -0.5,
         "avg_sg": -0.45
       }
     ]
@@ -371,28 +371,28 @@
         "avg_sg": -4.4
       },
       {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.66
+      },
+      {
         "course": "Sheshan Golf Club",
         "rounds": 4,
         "avg_to_par": 5.25,
         "avg_sg": -3.99
       },
       {
-        "course": "Sheshan International GC",
-        "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": -4.86
-      },
-      {
-        "course": "Oak Hill CC",
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -1.29
+        "avg_to_par": 4.5,
+        "avg_sg": -5.28
       },
       {
-        "course": "Club de Golf Chapultepec",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -3.9
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.73
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2008,
-        "rounds": 6,
-        "scoring_average": 70.17,
-        "avg_to_par": -1.17,
-        "avg_sg_total": -0.96,
+        "rounds": 68,
+        "scoring_average": 71.9,
+        "avg_to_par": 0.81,
+        "avg_sg_total": -0.93,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-11-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 67.83,
+        "avg_to_par": -4.17,
+        "avg_sg_total": 3.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 1.88,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-07-23"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -1.66,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-03-18"
       }
     ]
   },
@@ -527,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 9
   }
 }

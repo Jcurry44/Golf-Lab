@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 34,
-    "avg_to_par": -2.59,
-    "avg_sg_total": -0.99,
+    "rounds": 140,
+    "avg_to_par": -3.34,
+    "avg_sg_total": -0.22,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,6 +25,69 @@
     ],
     "rows": [
       {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "talor-gooch",
+        "player_name": "Talor Gooch",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 1.68
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "robert-streb",
+        "player_name": "Robert Streb",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 1.43
+      },
+      {
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.18
+      },
+      {
+        "player_id": "webb-simpson",
+        "player_name": "Webb Simpson",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.18
+      },
+      {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 0.93
+      },
+      {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 0.93
+      },
+      {
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 0.68
+      },
+      {
         "player_id": "paul-casey",
         "player_name": "Paul Casey",
         "rounds": 4,
@@ -32,60 +95,18 @@
         "avg_sg": 0.68
       },
       {
-        "player_id": "louis-oosthuizen",
-        "player_name": "Louis Oosthuizen",
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
         "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 0.18
+        "avg_to_par": -4.25,
+        "avg_sg": 0.68
       },
       {
-        "player_id": "ian-poulter",
-        "player_name": "Ian Poulter",
-        "rounds": 2,
-        "avg_to_par": -3.5,
-        "avg_sg": -0.23
-      },
-      {
-        "player_id": "kevin-na",
-        "player_name": "Kevin Na",
+        "player_id": "harold-varner-iii",
+        "player_name": "Harold Varner III",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": -0.32
-      },
-      {
-        "player_id": "minkyu-kim",
-        "player_name": "Minkyu Kim",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": -0.82
-      },
-      {
-        "player_id": "sanghun-shin",
-        "player_name": "Sanghun Shin",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -1.57
-      },
-      {
-        "player_id": "jaekyeong-lee",
-        "player_name": "Jaekyeong Lee",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -1.82
-      },
-      {
-        "player_id": "yoseop-seo",
-        "player_name": "Yoseop Seo",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -2.07
-      },
-      {
-        "player_id": "hanbyeol-kim",
-        "player_name": "Hanbyeol Kim",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -2.57
+        "avg_to_par": -4.0,
+        "avg_sg": 0.43
       }
     ]
   },

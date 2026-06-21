@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 96,
-    "avg_to_par": 4.26,
-    "avg_sg_total": -1.34,
+    "rounds": 186,
+    "avg_to_par": 3.8,
+    "avg_sg_total": -0.91,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -24,6 +24,48 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "andres-romero",
+        "player_name": "Andres Romero",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "charlie-beljan",
+        "player_name": "Charlie Beljan",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "geoff-ogilvy",
+        "player_name": "Geoff Ogilvy",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "thomas-aiken",
+        "player_name": "Thomas Aiken",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "alexander-levy",
+        "player_name": "Alexander Levy",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.4
+      },
+      {
+        "player_id": "brian-campbell",
+        "player_name": "Brian Campbell",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.4
+      },
       {
         "player_id": "jimmy-gunn",
         "player_name": "Jimmy Gunn",
@@ -39,6 +81,13 @@
         "avg_sg": 1.4
       },
       {
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.15
+      },
+      {
         "player_id": "troy-kelly",
         "player_name": "Troy Kelly",
         "rounds": 4,
@@ -46,67 +95,18 @@
         "avg_sg": 1.15
       },
       {
-        "player_id": "mark-silvers",
-        "player_name": "Mark Silvers",
+        "player_id": "brad-fritsch",
+        "player_name": "Brad Fritsch",
         "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -0.1
+        "avg_to_par": 2.0,
+        "avg_sg": 0.65
       },
       {
-        "player_id": "garth-mulroy",
-        "player_name": "Garth Mulroy",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.08
-      },
-      {
-        "player_id": "hiroyuki-fujita",
-        "player_name": "Hiroyuki Fujita",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.08
-      },
-      {
-        "player_id": "brad-elder",
-        "player_name": "Brad Elder",
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
         "rounds": 4,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.35
-      },
-      {
-        "player_id": "jack-maguire",
-        "player_name": "Jack Maguire",
-        "rounds": 4,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.35
-      },
-      {
-        "player_id": "colin-montgomerie",
-        "player_name": "Colin Montgomerie",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -0.6
-      },
-      {
-        "player_id": "marcus-fraser",
-        "player_name": "Marcus Fraser",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -0.6
-      },
-      {
-        "player_id": "jason-allred",
-        "player_name": "Jason Allred",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.42
-      },
-      {
-        "player_id": "masahiro-kawamura",
-        "player_name": "Masahiro Kawamura",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.42
+        "avg_to_par": 2.25,
+        "avg_sg": 0.4
       }
     ]
   },

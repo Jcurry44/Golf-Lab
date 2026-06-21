@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 75,
-    "avg_to_par": 0.23,
-    "avg_sg_total": -1.31,
+    "rounds": 211,
+    "avg_to_par": 0.21,
+    "avg_sg_total": -0.69,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,11 +25,32 @@
     ],
     "rows": [
       {
+        "player_id": "bob-heintz",
+        "player_name": "Bob Heintz",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.81
+      },
+      {
+        "player_id": "steve-allan",
+        "player_name": "Steve Allan",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.56
+      },
+      {
         "player_id": "paul-gow",
         "player_name": "Paul Gow",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 2.31
+      },
+      {
+        "player_id": "stephen-leaney",
+        "player_name": "Stephen Leaney",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.06
       },
       {
         "player_id": "tripp-isenhour",
@@ -39,6 +60,41 @@
         "avg_sg": 2.06
       },
       {
+        "player_id": "billy-andrade",
+        "player_name": "Billy Andrade",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "shigeki-maruyama",
+        "player_name": "Shigeki Maruyama",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "bart-bryant",
+        "player_name": "Bart Bryant",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "bob-tway",
+        "player_name": "Bob Tway",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "corey-pavin",
+        "player_name": "Corey Pavin",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.06
+      },
+      {
         "player_id": "jeff-sluman",
         "player_name": "Jeff Sluman",
         "rounds": 4,
@@ -46,67 +102,11 @@
         "avg_sg": 1.06
       },
       {
-        "player_id": "steve-jones",
-        "player_name": "Steve Jones",
+        "player_id": "michael-sim",
+        "player_name": "Michael Sim",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.56
-      },
-      {
-        "player_id": "alan-mclean",
-        "player_name": "Alan McLean",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "scott-gump",
-        "player_name": "Scott Gump",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "mike-grob",
-        "player_name": "Mike Grob",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.44
-      },
-      {
-        "player_id": "danny-king",
-        "player_name": "Danny King",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
-      },
-      {
-        "player_id": "derek-gillespie",
-        "player_name": "Derek Gillespie",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
-      },
-      {
-        "player_id": "eli-zackheim",
-        "player_name": "Eli Zackheim",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
-      },
-      {
-        "player_id": "james-lepp",
-        "player_name": "James Lepp",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
-      },
-      {
-        "player_id": "matt-hendrix",
-        "player_name": "Matt Hendrix",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
+        "avg_to_par": -1.25,
+        "avg_sg": 1.06
       }
     ]
   },

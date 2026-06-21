@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20100725",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.15,
-    "avg_sg_total": -1.21,
-    "first_round": "2008-01-11",
+    "rounds": 240,
+    "avg_to_par": -0.4,
+    "avg_sg_total": -0.32,
+    "first_round": "2002-09-20",
     "last_round": "2010-07-24",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Quail Hollow Club",
+        "rounds": 6,
+        "avg_to_par": -11.5,
+        "avg_sg": 1.07
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 9,
+        "avg_to_par": -7.22,
+        "avg_sg": -0.09
+      },
+      {
         "course": "TPC Summerlin",
-        "rounds": 2,
+        "rounds": 10,
+        "avg_to_par": -2.8,
+        "avg_sg": 0.51
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.15
+      },
+      {
+        "course": "Hamilton G&CC",
+        "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": -1.21
+        "avg_sg": 2.21
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 7,
-        "avg_to_par": 0.14,
-        "avg_sg": 0.02
-      },
-      {
-        "course": "St. George's G&CC",
+        "course": "Mount Juliet Golf Course",
         "rounds": 3,
-        "avg_to_par": 0.33,
-        "avg_sg": -0.91
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.67
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.65
+        "avg_to_par": -2.0,
+        "avg_sg": -0.31
       }
     ]
   },
@@ -359,10 +359,10 @@
     ],
     "rows": [
       {
-        "course": "Muirfield Village Golf Club",
+        "course": "TPC Boston",
         "rounds": 2,
-        "avg_to_par": 7.0,
-        "avg_sg": -4.21
+        "avg_to_par": 5.0,
+        "avg_sg": -3.05
       },
       {
         "course": "Hazeltine National Golf Club",
@@ -377,10 +377,10 @@
         "avg_sg": -0.74
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 3,
-        "avg_to_par": 4.67,
-        "avg_sg": -3.93
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 8,
+        "avg_to_par": 4.13,
+        "avg_sg": -1.42
       },
       {
         "course": "TPC Four Seasons Resort",
@@ -389,10 +389,10 @@
         "avg_sg": -1.44
       },
       {
-        "course": "Congressional Country Club - Blue Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.8
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 11,
+        "avg_to_par": 2.73,
+        "avg_sg": -1.79
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2008,
-        "rounds": 20,
-        "scoring_average": 73.35,
-        "avg_to_par": 2.5,
-        "avg_sg_total": -1.41,
+        "rounds": 21,
+        "scoring_average": 73.19,
+        "avg_to_par": 2.38,
+        "avg_sg_total": -1.36,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-10-17"
+      },
+      {
+        "season": 2007,
+        "rounds": 40,
+        "scoring_average": 70.3,
+        "avg_to_par": -1.05,
+        "avg_sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-06-22"
+      },
+      {
+        "season": 2006,
+        "rounds": 88,
+        "scoring_average": 70.23,
+        "avg_to_par": -1.01,
+        "avg_sg_total": 0.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-29"
+      },
+      {
+        "season": 2005,
+        "rounds": 62,
+        "scoring_average": 71.74,
+        "avg_to_par": 0.44,
+        "avg_sg_total": -0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-28"
+      },
+      {
+        "season": 2003,
+        "rounds": 6,
+        "scoring_average": 71.83,
+        "avg_to_par": 1.17,
+        "avg_sg_total": 0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-08-24"
+      },
+      {
+        "season": 2002,
+        "rounds": 3,
+        "scoring_average": 70.0,
+        "avg_to_par": -2.0,
+        "avg_sg_total": -0.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -476,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 8
   }
 }

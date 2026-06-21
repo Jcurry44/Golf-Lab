@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 161,
-    "avg_to_par": 5.28,
-    "avg_sg_total": -1.74,
+    "rounds": 337,
+    "avg_to_par": 4.55,
+    "avg_sg_total": -0.92,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,27 @@
     ],
     "rows": [
       {
+        "player_id": "erik-compton",
+        "player_name": "Erik Compton",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 3.34
+      },
+      {
+        "player_id": "michael-campbell",
+        "player_name": "Michael Campbell",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 4.15
+      },
+      {
+        "player_id": "marcel-siem",
+        "player_name": "Marcel Siem",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 2.34
+      },
+      {
         "player_id": "shiv-kapur",
         "player_name": "Shiv Kapur",
         "rounds": 4,
@@ -32,11 +53,46 @@
         "avg_sg": 1.59
       },
       {
+        "player_id": "arron-oberholser",
+        "player_name": "Arron Oberholser",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.4
+      },
+      {
+        "player_id": "nick-price",
+        "player_name": "Nick Price",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.4
+      },
+      {
+        "player_id": "kenny-perry",
+        "player_name": "Kenny Perry",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.34
+      },
+      {
+        "player_id": "victor-dubuisson",
+        "player_name": "Victor Dubuisson",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.34
+      },
+      {
         "player_id": "peter-hedblom",
         "player_name": "Peter Hedblom",
         "rounds": 4,
         "avg_to_par": 2.0,
         "avg_sg": 2.15
+      },
+      {
+        "player_id": "john-cook",
+        "player_name": "John Cook",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.9
       },
       {
         "player_id": "peter-jacobsen",
@@ -51,62 +107,6 @@
         "rounds": 4,
         "avg_to_par": 2.25,
         "avg_sg": 0.84
-      },
-      {
-        "player_id": "andres-echavarria",
-        "player_name": "Andres Echavarria",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "casey-wittenberg",
-        "player_name": "Casey Wittenberg",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "cory-whitsett",
-        "player_name": "Cory Whitsett",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "hunter-stewart",
-        "player_name": "Hunter Stewart",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "matt-dobyns",
-        "player_name": "Matt Dobyns",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "miguel-angel-jim-nez",
-        "player_name": "Miguel Angel Jiménez",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "rob-rashell",
-        "player_name": "Rob Rashell",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": 0.9
-      },
-      {
-        "player_id": "fran-quinn",
-        "player_name": "Fran Quinn",
-        "rounds": 4,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.41
       }
     ]
   },

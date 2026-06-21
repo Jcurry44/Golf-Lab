@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190616",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.63,
-    "avg_sg_total": -0.94,
-    "first_round": "2013-08-08",
+    "rounds": 94,
+    "avg_to_par": 1.35,
+    "avg_sg_total": -0.77,
+    "first_round": "2005-07-14",
     "last_round": "2019-06-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,28 @@
     ],
     "rows": [
       {
+        "course": "The Mines Resort & GC",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": -0.44
+      },
+      {
         "course": "St. Andrews GC (Old Course)",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": 1.19
+      },
+      {
+        "course": "Jack Nicklaus (Tournament)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -0.71
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.88
       },
       {
         "course": "TPC Kuala Lumpur",
@@ -329,24 +347,6 @@
         "rounds": 4,
         "avg_to_par": 1.0,
         "avg_sg": -0.59
-      },
-      {
-        "course": "Club de Golf Chapultepec",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.2
-      },
-      {
-        "course": "Oak Hill CC",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 0.63
-      },
-      {
-        "course": "Firestone CC (South)",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -0.34
       }
     ]
   },
@@ -359,16 +359,28 @@
     ],
     "rows": [
       {
+        "course": "Merion GC",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -1.29
+      },
+      {
         "course": "Pebble Beach Golf Links",
         "rounds": 2,
         "avg_to_par": 5.0,
         "avg_sg": -3.37
       },
       {
-        "course": "Trump National Doral",
+        "course": "Oakmont Country Club",
         "rounds": 4,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.64
+        "avg_to_par": 5.0,
+        "avg_sg": 0.41
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.62
       },
       {
         "course": "Chambers Bay GC",
@@ -377,22 +389,10 @@
         "avg_sg": -0.6
       },
       {
-        "course": "Sheshan International GC",
+        "course": "Muirfield",
         "rounds": 4,
         "avg_to_par": 2.75,
-        "avg_sg": -2.79
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.3
-      },
-      {
-        "course": "Firestone CC (South)",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -0.34
+        "avg_sg": 0.52
       }
     ]
   },
@@ -485,10 +485,10 @@
       },
       {
         "season": 2013,
-        "rounds": 4,
-        "scoring_average": 71.25,
-        "avg_to_par": 1.25,
-        "avg_sg_total": 0.63,
+        "rounds": 14,
+        "scoring_average": 73.36,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.54,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -499,6 +499,108 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2013-08-11"
+      },
+      {
+        "season": 2012,
+        "rounds": 18,
+        "scoring_average": 71.22,
+        "avg_to_par": -0.33,
+        "avg_sg_total": -0.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-12-01"
+      },
+      {
+        "season": 2011,
+        "rounds": 4,
+        "scoring_average": 72.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -1.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-03-13"
+      },
+      {
+        "season": 2010,
+        "rounds": 12,
+        "scoring_average": 71.75,
+        "avg_to_par": 0.75,
+        "avg_sg_total": -1.28,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2007,
+        "rounds": 4,
+        "scoring_average": 75.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": 0.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-06-17"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.88,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-07-23"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -3.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-15"
       }
     ]
   },
@@ -510,6 +612,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 11
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230618",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.57,
-    "avg_sg_total": 0.05,
-    "first_round": "2022-07-07",
+    "rounds": 240,
+    "avg_to_par": -0.71,
+    "avg_sg_total": 0.31,
+    "first_round": "2020-02-21",
     "last_round": "2023-06-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 0.81
+        "course": "TPC Craig Ranch",
+        "rounds": 8,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.56
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.25
+        "avg_to_par": -4.0,
+        "avg_sg": 0.32
       },
       {
-        "course": "ACCORDIA GOLF Narashino Country Club",
+        "course": "Sherwood Country Club",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.15
+        "avg_to_par": -4.0,
+        "avg_sg": 1.26
       },
       {
-        "course": "TPC Southwind",
+        "course": "TPC Deere Run",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.22
+        "avg_to_par": -4.0,
+        "avg_sg": 2.55
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "The Summit Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.11
+        "avg_to_par": -3.25,
+        "avg_sg": -0.32
       },
       {
-        "course": "Congaree Golf Club",
+        "course": "Caves Valley Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.04
+        "avg_to_par": -3.0,
+        "avg_sg": 0.2
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "The Renaissance Club",
+        "course": "Silverado Resort (North Course)",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.28
+        "avg_to_par": 6.0,
+        "avg_sg": -6.77
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.75
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
+        "course": "Winged Foot Golf Club - West Course",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.26
+        "avg_to_par": 6.0,
+        "avg_sg": -1.91
       },
       {
-        "course": "Memorial Park Golf Course",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.17
+        "avg_to_par": 4.0,
+        "avg_sg": -2.61
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "Ocean Course at Kiawah Island",
         "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.32
+        "avg_to_par": 3.5,
+        "avg_sg": -0.33
       },
       {
-        "course": "Wilmington Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
+        "course": "Torrey Pines (South)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
         "avg_sg": -0.25
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 8,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.66
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2022,
-        "rounds": 16,
-        "scoring_average": 70.44,
-        "avg_to_par": -0.31,
-        "avg_sg_total": 0.01,
+        "rounds": 83,
+        "scoring_average": 70.19,
+        "avg_to_par": -0.8,
+        "avg_sg_total": 0.5,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-08-21"
+      },
+      {
+        "season": 2021,
+        "rounds": 94,
+        "scoring_average": 70.68,
+        "avg_to_par": -0.68,
+        "avg_sg_total": 0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-29"
+      },
+      {
+        "season": 2020,
+        "rounds": 39,
+        "scoring_average": 70.23,
+        "avg_to_par": -0.56,
+        "avg_sg_total": 0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-09-07"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

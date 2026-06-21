@@ -1,0 +1,109 @@
+{
+  "course": {
+    "course_id": "aronimink-gc-newtown-square-pa",
+    "course_name": "Aronimink GC",
+    "location": "Newtown Square, PA, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 32,
+    "avg_to_par": -1.88,
+    "avg_sg_total": -0.24,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.13
+      },
+      {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.13
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.38
+      },
+      {
+        "player_id": "peter-uihlein",
+        "player_name": "Peter Uihlein",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.37
+      },
+      {
+        "player_id": "rafa-cabrera-bello",
+        "player_name": "Rafa Cabrera Bello",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.62
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -1.13
+      },
+      {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.12
+      },
+      {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.62
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "BMW Championship",
+        "season": 2018,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

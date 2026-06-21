@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20111023",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.8,
-    "avg_sg_total": -1.65,
-    "first_round": "2011-02-11",
+    "rounds": 61,
+    "avg_to_par": 1.31,
+    "avg_sg_total": -1.35,
+    "first_round": "2007-11-28",
     "last_round": "2011-10-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -332,9 +332,9 @@
       },
       {
         "course": null,
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.13
+        "rounds": 23,
+        "avg_to_par": 0.26,
+        "avg_sg": -0.72
       },
       {
         "course": "El Camaleón Golf Course at Mayakoba",
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2011,
-        "rounds": 40,
-        "scoring_average": 72.8,
-        "avg_to_par": 1.8,
-        "avg_sg_total": -1.65,
+        "rounds": 43,
+        "scoring_average": 72.91,
+        "avg_to_par": 1.84,
+        "avg_sg_total": -1.7,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2011-10-21"
+      },
+      {
+        "season": 2010,
+        "rounds": 6,
+        "scoring_average": 70.0,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-12-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 6,
+        "scoring_average": 75.17,
+        "avg_to_par": 3.17,
+        "avg_sg_total": -3.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 0.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
       }
     ]
   },
@@ -442,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 4
   }
 }

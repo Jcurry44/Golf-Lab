@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 124,
-    "avg_to_par": 0.85,
-    "avg_sg_total": -0.91,
+    "rounds": 222,
+    "avg_to_par": 0.39,
+    "avg_sg_total": -0.57,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -46,6 +46,20 @@
         "avg_sg": 1.69
       },
       {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "greg-owen",
+        "player_name": "Greg Owen",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.19
+      },
+      {
         "player_id": "james-morrison",
         "player_name": "James Morrison",
         "rounds": 4,
@@ -60,53 +74,39 @@
         "avg_sg": 1.19
       },
       {
-        "player_id": "marc-warren",
-        "player_name": "Marc Warren",
+        "player_id": "retief-goosen",
+        "player_name": "Retief Goosen",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.19
+      },
+      {
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "paul-dunne",
+        "player_name": "Paul Dunne",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "steven-bowditch",
+        "player_name": "Steven Bowditch",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.94
+      },
+      {
+        "player_id": "geoff-ogilvy",
+        "player_name": "Geoff Ogilvy",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 0.69
-      },
-      {
-        "player_id": "paul-lawrie",
-        "player_name": "Paul Lawrie",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.69
-      },
-      {
-        "player_id": "scott-arnold",
-        "player_name": "Scott Arnold",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.69
-      },
-      {
-        "player_id": "david-duval",
-        "player_name": "David Duval",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.44
-      },
-      {
-        "player_id": "david-howell",
-        "player_name": "David Howell",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.44
-      },
-      {
-        "player_id": "richie-ramsay",
-        "player_name": "Richie Ramsay",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.31
-      },
-      {
-        "player_id": "brett-rumford",
-        "player_name": "Brett Rumford",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.56
       }
     ]
   },

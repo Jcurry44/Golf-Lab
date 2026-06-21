@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260510",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.25,
-    "avg_sg_total": -1.37,
-    "first_round": "2016-04-21",
+    "rounds": 55,
+    "avg_to_par": 1.11,
+    "avg_sg_total": -1.07,
+    "first_round": "2015-07-23",
     "last_round": "2026-05-10",
     "sg_t2g": null,
     "sg_ott": null,
@@ -320,9 +320,9 @@
       },
       {
         "course": "Glen Abbey GC",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.81
+        "rounds": 7,
+        "avg_to_par": -1.29,
+        "avg_sg": -0.02
       },
       {
         "course": "Dunes Golf and Beach Club",
@@ -332,15 +332,15 @@
       },
       {
         "course": "Pebble Beach Golf Links",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": 0.3
+        "rounds": 7,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.13
       },
       {
         "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.18
+        "rounds": 6,
+        "avg_to_par": 0.83,
+        "avg_sg": -0.43
       },
       {
         "course": "Muirfield Village Golf Club",
@@ -502,10 +502,10 @@
       },
       {
         "season": 2016,
-        "rounds": 9,
-        "scoring_average": 70.89,
-        "avg_to_par": -1.11,
-        "avg_sg_total": 0.45,
+        "rounds": 21,
+        "scoring_average": 71.86,
+        "avg_to_par": 0.0,
+        "avg_sg_total": 0.17,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-06-05"
+      },
+      {
+        "season": 2015,
+        "rounds": 3,
+        "scoring_average": 72.33,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -1.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-25"
       }
     ]
   },
@@ -527,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 7
   }
 }

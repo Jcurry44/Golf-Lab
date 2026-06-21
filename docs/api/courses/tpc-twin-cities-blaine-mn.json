@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 621,
-    "avg_to_par": 0.37,
-    "avg_sg_total": -1.27,
+    "rounds": 2327,
+    "avg_to_par": -0.76,
+    "avg_sg_total": -0.21,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -32,6 +32,34 @@
         "avg_sg": -5.45
       },
       {
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 3.25
+      },
+      {
+        "player_id": "takumi-kanaya",
+        "player_name": "Takumi Kanaya",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "william-mouw",
+        "player_name": "William Mouw",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "kurt-kitayama",
+        "player_name": "Kurt Kitayama",
+        "rounds": 8,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.99
+      },
+      {
         "player_id": "noah-goodwin",
         "player_name": "Noah Goodwin",
         "rounds": 4,
@@ -39,8 +67,8 @@
         "avg_sg": 2.25
       },
       {
-        "player_id": "taylor-montgomery",
-        "player_name": "Taylor Montgomery",
+        "player_id": "wyndham-clark",
+        "player_name": "Wyndham Clark",
         "rounds": 4,
         "avg_to_par": -4.25,
         "avg_sg": 2.0
@@ -53,60 +81,32 @@
         "avg_sg": 2.25
       },
       {
-        "player_id": "brendan-valdes",
-        "player_name": "Brendan Valdes",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.5
+        "player_id": "alex-noren",
+        "player_name": "Alex Noren",
+        "rounds": 8,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.2
       },
       {
-        "player_id": "charlie-danielson",
-        "player_name": "Charlie Danielson",
+        "player_id": "chris-kirk",
+        "player_name": "Chris Kirk",
         "rounds": 4,
-        "avg_to_par": -3.5,
+        "avg_to_par": -4.0,
         "avg_sg": 1.75
       },
       {
-        "player_id": "thomas-rosenmueller",
-        "player_name": "Thomas Rosenmueller",
+        "player_id": "jesper-svensson",
+        "player_name": "Jesper Svensson",
         "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.25
+        "avg_to_par": -4.0,
+        "avg_sg": 1.75
       },
       {
-        "player_id": "chase-wright",
-        "player_name": "Chase Wright",
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "sam-saunders",
-        "player_name": "Sam Saunders",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "cameron-champ",
-        "player_name": "Cameron Champ",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "kevin-kisner",
-        "player_name": "Kevin Kisner",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "nate-lashley",
-        "player_name": "Nate Lashley",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.0
+        "avg_to_par": -4.0,
+        "avg_sg": 1.75
       }
     ]
   },

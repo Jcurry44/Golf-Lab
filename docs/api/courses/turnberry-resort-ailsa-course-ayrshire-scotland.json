@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 137,
-    "avg_to_par": 3.91,
-    "avg_sg_total": -1.32,
+    "rounds": 229,
+    "avg_to_par": 3.01,
+    "avg_sg_total": -0.42,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,27 @@
     ],
     "rows": [
       {
+        "player_id": "tom-watson",
+        "player_name": "Tom Watson",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 3.09
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.84
+      },
+      {
+        "player_id": "mathew-goggin",
+        "player_name": "Mathew Goggin",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.59
+      },
+      {
         "player_id": "soren-hansen",
         "player_name": "Soren Hansen",
         "rounds": 4,
@@ -32,81 +53,60 @@
         "avg_sg": 2.34
       },
       {
+        "player_id": "thomas-aiken",
+        "player_name": "Thomas Aiken",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "matteo-manassero",
+        "player_name": "Matteo Manassero",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "oliver-wilson",
+        "player_name": "Oliver Wilson",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.84
+      },
+      {
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.84
+      },
+      {
         "player_id": "james-kingston",
         "player_name": "James Kingston",
         "rounds": 4,
         "avg_to_par": 1.0,
         "avg_sg": 1.59
-      },
-      {
-        "player_id": "kenichi-kuboya",
-        "player_name": "Kenichi Kuboya",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": 1.59
-      },
-      {
-        "player_id": "nick-dougherty",
-        "player_name": "Nick Dougherty",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.09
-      },
-      {
-        "player_id": "thomas-levet",
-        "player_name": "Thomas Levet",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.09
-      },
-      {
-        "player_id": "anthony-wall",
-        "player_name": "Anthony Wall",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.84
-      },
-      {
-        "player_id": "paul-mcginley",
-        "player_name": "Paul McGinley",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.84
-      },
-      {
-        "player_id": "david-howell",
-        "player_name": "David Howell",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "graeme-storm",
-        "player_name": "Graeme Storm",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "johan-edfors",
-        "player_name": "Johan Edfors",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "colin-montgomerie",
-        "player_name": "Colin Montgomerie",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.11
-      },
-      {
-        "player_id": "josh-geary",
-        "player_name": "Josh Geary",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.11
       }
     ]
   },

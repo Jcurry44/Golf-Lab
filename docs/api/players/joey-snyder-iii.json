@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140202",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.0,
-    "avg_sg_total": -1.54,
-    "first_round": "2012-11-30",
+    "rounds": 170,
+    "avg_to_par": 0.51,
+    "avg_sg_total": -0.64,
+    "first_round": "2005-01-13",
     "last_round": "2014-01-31",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Annandale GC",
+        "rounds": 6,
+        "avg_to_par": -3.17,
+        "avg_sg": 1.23
+      },
+      {
         "course": "PGA West Palmer Course",
         "rounds": 3,
         "avg_to_par": -3.0,
         "avg_sg": -0.0
       },
       {
-        "course": "TPC Deere Run",
+        "course": "Walt Disney World Resort - Magnolia Course",
         "rounds": 4,
         "avg_to_par": -2.75,
-        "avg_sg": 0.93
+        "avg_sg": 1.9
       },
       {
-        "course": "TPC Louisiana",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.28
+        "course": null,
+        "rounds": 7,
+        "avg_to_par": -2.43,
+        "avg_sg": 0.71
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 1.11
       },
       {
         "course": "Jack Nicklaus (Tournament)",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.9
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.26
-      },
-      {
-        "course": "PGA National Resort (The Champion)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.69
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": 0.4
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -5.52
+      },
       {
         "course": "TPC San Antonio (Oaks Course)",
         "rounds": 3,
@@ -371,28 +377,22 @@
         "avg_sg": -4.69
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
+        "course": "The Riviera Country Club",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": -3.0
+        "avg_sg": -3.93
       },
       {
-        "course": "TPC Scottsdale (Stadium Course)",
+        "course": "TPC Four Seasons Resort",
         "rounds": 4,
         "avg_to_par": 4.25,
-        "avg_sg": -5.5
+        "avg_sg": -3.4
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "Hamilton G&CC",
         "rounds": 2,
         "avg_to_par": 4.0,
-        "avg_sg": -3.94
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.62
+        "avg_sg": -4.25
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2012,
-        "rounds": 4,
-        "scoring_average": 69.5,
-        "avg_to_par": -2.5,
-        "avg_sg_total": 0.9,
+        "rounds": 24,
+        "scoring_average": 72.21,
+        "avg_to_par": 1.13,
+        "avg_sg_total": -1.69,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2012-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 14,
+        "scoring_average": 73.29,
+        "avg_to_par": 1.86,
+        "avg_sg_total": -2.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-03-05"
+      },
+      {
+        "season": 2005,
+        "rounds": 96,
+        "scoring_average": 71.01,
+        "avg_to_par": -0.17,
+        "avg_sg_total": 0.3,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

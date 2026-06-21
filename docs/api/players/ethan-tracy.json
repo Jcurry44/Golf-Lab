@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180819",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.42,
-    "avg_sg_total": -1.15,
-    "first_round": "2018-02-09",
+    "rounds": 74,
+    "avg_to_par": 0.57,
+    "avg_sg_total": -0.99,
+    "first_round": "2016-05-05",
     "last_round": "2018-08-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -325,6 +325,12 @@
         "avg_sg": 0.38
       },
       {
+        "course": "The Country Club of Jackson",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.93
+      },
+      {
         "course": "The Old White TPC",
         "rounds": 2,
         "avg_to_par": -1.0,
@@ -337,16 +343,10 @@
         "avg_sg": -1.43
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.74
-      },
-      {
-        "course": "TPC Potomac at Avenel Farm",
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.13
+        "avg_to_par": -0.5,
+        "avg_sg": -0.21
       }
     ]
   },
@@ -365,10 +365,16 @@
         "avg_sg": -5.6
       },
       {
+        "course": "Oakmont CC",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -1.42
+      },
+      {
         "course": "Pebble Beach Golf Links",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -4.42
+        "rounds": 3,
+        "avg_to_par": 4.33,
+        "avg_sg": -4.72
       },
       {
         "course": "TPC Southwind",
@@ -383,16 +389,10 @@
         "avg_sg": -3.31
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.84
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.81
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.59
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2018,
-        "rounds": 40,
-        "scoring_average": 71.47,
-        "avg_to_par": 0.42,
-        "avg_sg_total": -1.15,
+        "rounds": 64,
+        "scoring_average": 71.42,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.91,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2018-08-17"
+      },
+      {
+        "season": 2016,
+        "rounds": 10,
+        "scoring_average": 73.6,
+        "avg_to_par": 2.6,
+        "avg_sg_total": -1.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-15"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090719",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.42,
-    "avg_sg_total": -0.13,
-    "first_round": "2007-05-03",
+    "rounds": 240,
+    "avg_to_par": -0.1,
+    "avg_sg_total": 0.06,
+    "first_round": "2005-03-20",
     "last_round": "2009-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Warwick Hills Golf and Country Club",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.01
+        "avg_to_par": -3.25,
+        "avg_sg": 2.1
       },
       {
         "course": "Brown Deer Park Golf Course",
-        "rounds": 8,
-        "avg_to_par": -1.88,
-        "avg_sg": 1.7
+        "rounds": 16,
+        "avg_to_par": -2.88,
+        "avg_sg": 2.37
       },
       {
-        "course": null,
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.44
+        "avg_to_par": -2.75,
+        "avg_sg": 0.61
       },
       {
-        "course": "Angus Glen Golf Club - North Course",
+        "course": "English Turn Golf and Country Club",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.06
+        "avg_to_par": -2.5,
+        "avg_sg": 1.14
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.58
+        "course": "TPC Summerlin",
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.4
       },
       {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.18
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 10,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.6
       }
     ]
   },
@@ -359,22 +359,28 @@
     ],
     "rows": [
       {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.83
+      },
+      {
         "course": "Oakmont Country Club",
         "rounds": 2,
         "avg_to_par": 6.0,
         "avg_sg": 0.11
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 5.5,
-        "avg_sg": -3.1
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -0.38
       },
       {
-        "course": "Colonial Country Club",
+        "course": "Country Club at Mirasol",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -4.27
+        "avg_to_par": 4.0,
+        "avg_sg": -2.39
       },
       {
         "course": "Southern Hills Country Club",
@@ -383,16 +389,10 @@
         "avg_sg": 0.04
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -1.97
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.18
+        "course": "Harbour Town Golf Links",
+        "rounds": 6,
+        "avg_to_par": 3.33,
+        "avg_sg": -1.62
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2007,
-        "rounds": 28,
-        "scoring_average": 71.93,
-        "avg_to_par": 0.79,
-        "avg_sg_total": -0.05,
+        "rounds": 60,
+        "scoring_average": 72.53,
+        "avg_to_par": 1.47,
+        "avg_sg_total": -0.69,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-08-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 101,
+        "scoring_average": 70.93,
+        "avg_to_par": -0.33,
+        "avg_sg_total": 0.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-29"
+      },
+      {
+        "season": 2005,
+        "rounds": 67,
+        "scoring_average": 70.06,
+        "avg_to_par": -1.09,
+        "avg_sg_total": 0.13,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

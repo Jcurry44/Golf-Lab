@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 81,
-    "avg_to_par": 2.33,
-    "avg_sg_total": -1.97,
-    "difficulty_bucket": "tough"
+    "rounds": 255,
+    "avg_to_par": 0.11,
+    "avg_sg_total": -0.91,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -32,11 +32,67 @@
         "avg_sg": 2.04
       },
       {
+        "player_id": "alex-aragon",
+        "player_name": "Alex Aragon",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "chris-smith",
+        "player_name": "Chris Smith",
+        "rounds": 8,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "greg-kraft",
+        "player_name": "Greg Kraft",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "john-huston",
+        "player_name": "John Huston",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "paul-claxton",
+        "player_name": "Paul Claxton",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "brent-geiberger",
+        "player_name": "Brent Geiberger",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.28
+      },
+      {
         "player_id": "david-mckenzie",
         "player_name": "David McKenzie",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 1.28
+      },
+      {
+        "player_id": "duffy-waldorf",
+        "player_name": "Duffy Waldorf",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "todd-fischer",
+        "player_name": "Todd Fischer",
+        "rounds": 8,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.79
       },
       {
         "player_id": "danny-ellis",
@@ -46,67 +102,11 @@
         "avg_sg": 0.54
       },
       {
-        "player_id": "john-engler-jr",
-        "player_name": "John Engler, Jr.",
+        "player_id": "joey-snyder-iii",
+        "player_name": "Joey Snyder III",
         "rounds": 4,
         "avg_to_par": -0.25,
-        "avg_sg": 0.53
-      },
-      {
-        "player_id": "john-elliott",
-        "player_name": "John Elliott",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.07
-      },
-      {
-        "player_id": "mario-tiziani",
-        "player_name": "Mario Tiziani",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.07
-      },
-      {
-        "player_id": "brian-henninger",
-        "player_name": "Brian Henninger",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.21
-      },
-      {
-        "player_id": "bradley-hughes",
-        "player_name": "Bradley Hughes",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.46
-      },
-      {
-        "player_id": "danny-briggs",
-        "player_name": "Danny Briggs",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.57
-      },
-      {
-        "player_id": "tjaart-van-der-walt",
-        "player_name": "Tjaart van der Walt",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.59
-      },
-      {
-        "player_id": "michael-long",
-        "player_name": "Michael Long",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.07
-      },
-      {
-        "player_id": "rob-rashell",
-        "player_name": "Rob Rashell",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.07
+        "avg_sg": 0.54
       }
     ]
   },

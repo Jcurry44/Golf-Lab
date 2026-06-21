@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140413",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 3.73,
-    "avg_sg_total": -2.41,
-    "first_round": "2005-04-17",
+    "rounds": 67,
+    "avg_to_par": 2.22,
+    "avg_sg_total": -1.51,
+    "first_round": "2002-05-23",
     "last_round": "2014-04-11",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,28 @@
     ],
     "rows": [
       {
-        "course": null,
-        "rounds": 11,
-        "avg_to_par": 1.82,
-        "avg_sg": -2.27
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.18
       },
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.37
+        "course": "Waialae Country Club",
+        "rounds": 6,
+        "avg_to_par": 0.17,
+        "avg_sg": 0.81
+      },
+      {
+        "course": null,
+        "rounds": 19,
+        "avg_to_par": 0.21,
+        "avg_sg": -1.12
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.31
       },
       {
         "course": "Shaughnessy Golf and Country Club",
@@ -331,16 +343,10 @@
         "avg_sg": 0.48
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.02
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 20,
-        "avg_to_par": 5.4,
-        "avg_sg": -3.27
+        "course": "Harbour Town Golf Links",
+        "rounds": 6,
+        "avg_to_par": 2.33,
+        "avg_sg": -0.85
       }
     ]
   },
@@ -354,21 +360,15 @@
     "rows": [
       {
         "course": "Augusta National Golf Club",
-        "rounds": 20,
-        "avg_to_par": 5.4,
-        "avg_sg": -3.27
-      },
-      {
-        "course": "Waialae Country Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.02
+        "rounds": 24,
+        "avg_to_par": 5.25,
+        "avg_sg": -3.21
       },
       {
         "course": "Harbour Town Golf Links",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.37
+        "rounds": 6,
+        "avg_to_par": 2.33,
+        "avg_sg": -0.85
       },
       {
         "course": "Shaughnessy Golf and Country Club",
@@ -377,10 +377,22 @@
         "avg_sg": 0.48
       },
       {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.31
+      },
+      {
         "course": null,
-        "rounds": 11,
-        "avg_to_par": 1.82,
-        "avg_sg": -2.27
+        "rounds": 19,
+        "avg_to_par": 0.21,
+        "avg_sg": -1.12
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 6,
+        "avg_to_par": 0.17,
+        "avg_sg": 0.81
       }
     ]
   },
@@ -558,10 +570,10 @@
       },
       {
         "season": 2005,
-        "rounds": 5,
-        "scoring_average": 71.6,
-        "avg_to_par": 1.4,
-        "avg_sg_total": 0.98,
+        "rounds": 24,
+        "scoring_average": 71.63,
+        "avg_to_par": 0.46,
+        "avg_sg_total": 0.2,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -572,6 +584,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-09-11"
+      },
+      {
+        "season": 2004,
+        "rounds": 4,
+        "scoring_average": 73.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -2.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2004-01-11"
+      },
+      {
+        "season": 2002,
+        "rounds": 4,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 1.18,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-26"
       }
     ]
   },
@@ -583,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 10
+    "seasonProfiles": 12
   }
 }

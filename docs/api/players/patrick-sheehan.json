@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250302",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.2,
-    "avg_sg_total": -0.91,
-    "first_round": "2012-05-18",
+    "rounds": 240,
+    "avg_to_par": -0.07,
+    "avg_sg_total": -0.13,
+    "first_round": "2008-02-24",
     "last_round": "2025-02-28",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": 0.73
       },
       {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.81
+      },
+      {
         "course": "Annandale GC",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.14
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -0.53
+        "avg_to_par": -1.75,
+        "avg_sg": 1.87
       },
       {
-        "course": "Hamilton G&CC",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.76
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.97
       },
       {
-        "course": "PGA National Resort (The Champion Course)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.45
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.49
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.1
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": 0.59
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -4.64
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -4.5
-      },
-      {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.17
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 3,
-        "avg_to_par": 0.33,
-        "avg_sg": -0.46
-      },
-      {
-        "course": "Walt Disney World Resort - Magnolia Course",
+        "course": "TPC San Antonio (Oaks Course)",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.1
+        "avg_to_par": 3.0,
+        "avg_sg": -1.12
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 6,
+        "avg_to_par": 2.67,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.01
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.26
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2012,
-        "rounds": 38,
-        "scoring_average": 71.13,
-        "avg_to_par": 0.24,
-        "avg_sg_total": -0.88,
+        "rounds": 62,
+        "scoring_average": 71.55,
+        "avg_to_par": 0.42,
+        "avg_sg_total": -0.73,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2012-12-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 70.33,
+        "avg_to_par": -1.67,
+        "avg_sg_total": 1.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      },
+      {
+        "season": 2010,
+        "rounds": 6,
+        "scoring_average": 71.67,
+        "avg_to_par": 0.17,
+        "avg_sg_total": -0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-12-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 57,
+        "scoring_average": 70.65,
+        "avg_to_par": -0.54,
+        "avg_sg_total": 0.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2008,
+        "rounds": 107,
+        "scoring_average": 71.05,
+        "avg_to_par": -0.02,
+        "avg_sg_total": 0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
       }
     ]
   },
@@ -459,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 6
   }
 }

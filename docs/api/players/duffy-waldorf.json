@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.45,
-    "avg_sg_total": 0.16,
-    "first_round": "2012-03-11",
+    "rounds": 240,
+    "avg_to_par": 0.13,
+    "avg_sg_total": -0.18,
+    "first_round": "2006-03-31",
     "last_round": "2018-07-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,16 @@
     ],
     "rows": [
       {
-        "course": "Annandale GC",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.22
+        "course": "TPC Summerlin",
+        "rounds": 11,
+        "avg_to_par": -2.18,
+        "avg_sg": 0.48
       },
       {
-        "course": "TPC Deere Run",
+        "course": "Brown Deer Park Golf Course",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.57
+        "avg_to_par": -1.75,
+        "avg_sg": 0.88
       },
       {
         "course": "Keene Trace Golf Club",
@@ -331,22 +331,22 @@
         "avg_sg": -0.37
       },
       {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 7,
-        "avg_to_par": -1.14,
-        "avg_sg": 0.34
+        "course": "Annandale GC",
+        "rounds": 12,
+        "avg_to_par": -1.42,
+        "avg_sg": 0.77
       },
       {
-        "course": "RTJ Trail (Grand National)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.8
+        "course": "Montreux Golf & Country Club",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": 0.52
       },
       {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.6
+        "course": "TPC Deere Run",
+        "rounds": 12,
+        "avg_to_par": -1.08,
+        "avg_sg": -0.17
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.59
+      },
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": 0.02
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 6,
+        "avg_to_par": 4.83,
+        "avg_sg": -2.33
+      },
+      {
         "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -1.2
+        "rounds": 6,
+        "avg_to_par": 3.67,
+        "avg_sg": -1.89
       },
       {
-        "course": "GC of Houston",
-        "rounds": 3,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.61
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 8,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.51
-      },
-      {
-        "course": "Walt Disney World Resort - Magnolia Course",
+        "course": "Shaughnessy Golf and Country Club",
         "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.9
+        "avg_to_par": 3.0,
+        "avg_sg": -0.43
       },
       {
-        "course": "RTJ Trail (Grand National)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.8
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.6
+        "course": "TPC River Highlands",
+        "rounds": 6,
+        "avg_to_par": 2.67,
+        "avg_sg": -2.53
       }
     ]
   },
@@ -485,10 +485,10 @@
       },
       {
         "season": 2012,
-        "rounds": 24,
-        "scoring_average": 70.58,
-        "avg_to_par": -0.58,
-        "avg_sg_total": 0.39,
+        "rounds": 35,
+        "scoring_average": 70.69,
+        "avg_to_par": -0.51,
+        "avg_sg_total": 0.3,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -499,6 +499,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2012-11-09"
+      },
+      {
+        "season": 2011,
+        "rounds": 36,
+        "scoring_average": 72.5,
+        "avg_to_par": 1.58,
+        "avg_sg_total": -1.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-01"
+      },
+      {
+        "season": 2008,
+        "rounds": 11,
+        "scoring_average": 73.73,
+        "avg_to_par": 2.09,
+        "avg_sg_total": -1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-03-23"
+      },
+      {
+        "season": 2007,
+        "rounds": 75,
+        "scoring_average": 71.37,
+        "avg_to_par": -0.13,
+        "avg_sg_total": -0.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 67,
+        "scoring_average": 70.96,
+        "avg_to_par": -0.25,
+        "avg_sg_total": 0.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-29"
       }
     ]
   },
@@ -510,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 9
   }
 }

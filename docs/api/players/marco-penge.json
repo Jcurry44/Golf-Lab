@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.13,
-    "avg_sg_total": -0.3,
-    "first_round": "2025-07-10",
+    "rounds": 52,
+    "avg_to_par": 0.02,
+    "avg_sg_total": -0.36,
+    "first_round": "2022-07-14",
     "last_round": "2026-05-15",
     "sg_t2g": -0.186,
     "sg_ott": 0.507,
@@ -319,6 +319,12 @@
         "avg_sg": 3.34
       },
       {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": null
+      },
+      {
         "course": "The Riviera Country Club",
         "rounds": 4,
         "avg_to_par": -2.5,
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": -1.49
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.27
       }
     ]
   },
@@ -365,10 +365,22 @@
         "avg_sg": -3.56
       },
       {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.65
+      },
+      {
         "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -2.74
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.29
       },
       {
         "course": "Torrey Pines Golf Course - South Course",
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": -2.41
-      },
-      {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.78
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.95
       }
     ]
   },
@@ -434,54 +434,71 @@
       },
       {
         "season": 2025,
-        "rounds": 6,
-        "scoring_average": 68.83,
-        "avg_to_par": -1.5,
-        "avg_sg_total": -0.544,
-        "sg_t2g": -0.186,
-        "sg_ott": 0.507,
-        "sg_app": -0.344,
-        "sg_arg": -0.349,
-        "sg_putt": -0.358,
-        "driving_distance": 320.8,
-        "accuracy": 0.4915,
-        "gir": 0.6324,
-        "scrambling": 0.5733,
+        "rounds": 10,
+        "scoring_average": 69.6,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 1.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
         "last_round": "2025-07-18"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.544,
-        "sg_t2g": -0.186,
-        "sg_ott": 0.507,
-        "sg_app": -0.344,
-        "sg_arg": -0.349,
-        "sg_putt": -0.358,
-        "driving_distance": 320.8,
-        "accuracy": 0.4915,
-        "gir": 0.6324,
-        "scrambling": 0.5733,
-        "last_round": null
+        "rounds": 4,
+        "scoring_average": 34.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": -2.4,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-07-19"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.544,
-        "sg_t2g": -0.186,
-        "sg_ott": 0.507,
-        "sg_app": -0.344,
-        "sg_arg": -0.349,
-        "sg_putt": -0.358,
-        "driving_distance": 320.8,
-        "accuracy": 0.4915,
-        "gir": 0.6324,
-        "scrambling": 0.5733,
-        "last_round": null
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-07-21"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -2.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-15"
       }
     ]
   },
@@ -493,6 +510,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

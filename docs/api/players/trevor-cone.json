@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.05,
-    "avg_sg_total": 0.66,
-    "first_round": "2025-07-03",
+    "rounds": 167,
+    "avg_to_par": -0.37,
+    "avg_sg_total": -0.35,
+    "first_round": "2022-09-15",
     "last_round": "2025-12-14",
     "sg_t2g": -0.004,
     "sg_ott": 0.277,
@@ -313,28 +313,28 @@
     ],
     "rows": [
       {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 3.33
+      },
+      {
         "course": "El Cardonal at Diamante",
-        "rounds": 4,
-        "avg_to_par": -6.5,
-        "avg_sg": 3.32
+        "rounds": 6,
+        "avg_to_par": -3.67,
+        "avg_sg": 0.69
       },
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -2.5,
-        "avg_sg": -0.54
+        "course": "TPC Craig Ranch",
+        "rounds": 6,
+        "avg_to_par": -3.17,
+        "avg_sg": 1.04
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.56
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.25
+        "course": "Detroit Golf Club",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.02
       },
       {
         "course": "Black Desert Resort",
@@ -343,10 +343,10 @@
         "avg_sg": 0.3
       },
       {
-        "course": "Dye's Valley Course",
+        "course": "TPC Deere Run",
         "rounds": 4,
         "avg_to_par": -1.75,
-        "avg_sg": 1.82
+        "avg_sg": 0.41
       }
     ]
   },
@@ -360,39 +360,39 @@
     "rows": [
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 4,
-        "avg_to_par": 5.75,
+        "rounds": 8,
+        "avg_to_par": 4.25,
         "avg_sg": null
       },
       {
-        "course": "Port Royal Golf Course",
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.94
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 0.82
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.45
+      },
+      {
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.6
+        "avg_to_par": 2.0,
+        "avg_sg": -1.6
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "PGA National Resort (The Champion)",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.7
-      },
-      {
-        "course": "Hurstbourne Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.81
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.69
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.3
+        "avg_to_par": 1.0,
+        "avg_sg": -0.79
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 62.8,
-        "avg_to_par": -1.05,
+        "rounds": 77,
+        "scoring_average": 66.84,
+        "avg_to_par": -0.45,
         "avg_sg_total": -0.355,
         "sg_t2g": -0.004,
         "sg_ott": 0.277,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 90,
+        "scoring_average": 67.86,
+        "avg_to_par": -0.29,
         "avg_sg_total": -0.345,
         "sg_t2g": -0.147,
         "sg_ott": 0.55,
@@ -447,7 +447,7 @@
         "accuracy": 0.5363,
         "gir": 0.6965,
         "scrambling": 0.5558,
-        "last_round": null
+        "last_round": "2023-12-17"
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20121203",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.3,
-    "avg_sg_total": -0.64,
-    "first_round": "2010-08-07",
+    "rounds": 202,
+    "avg_to_par": -0.31,
+    "avg_sg_total": 0.01,
+    "first_round": "2008-12-03",
     "last_round": "2012-12-03",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.63
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.14
+      },
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.07
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 1.73
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.59
+      },
+      {
         "course": "TPC Summerlin",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 0.18
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.07
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.72
-      },
-      {
-        "course": "Atunyote Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.75
-      },
-      {
-        "course": null,
-        "rounds": 14,
-        "avg_to_par": 0.07,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "CordeValle GC",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.47
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Annandale GC",
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -3.53
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -2.82
+      },
+      {
+        "course": "Bethpage State Park - Black Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.58
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -2.37
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.78
+      },
+      {
+        "course": "TPC Boston",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -2.08
-      },
-      {
-        "course": "Jack Nicklaus (Tournament)",
-        "rounds": 6,
-        "avg_to_par": 0.67,
-        "avg_sg": -2.1
-      },
-      {
-        "course": "CordeValle GC",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.47
-      },
-      {
-        "course": null,
-        "rounds": 14,
-        "avg_to_par": 0.07,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "Atunyote Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.75
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.72
+        "avg_sg": -3.42
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2010,
-        "rounds": 28,
-        "scoring_average": 70.29,
-        "avg_to_par": -0.75,
-        "avg_sg_total": -0.31,
+        "rounds": 98,
+        "scoring_average": 70.82,
+        "avg_to_par": -0.3,
+        "avg_sg_total": -0.17,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2010-12-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 86,
+        "scoring_average": 70.67,
+        "avg_to_par": -0.21,
+        "avg_sg_total": 0.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-10-23"
+      },
+      {
+        "season": 2008,
+        "rounds": 6,
+        "scoring_average": 68.0,
+        "avg_to_par": -4.0,
+        "avg_sg_total": 2.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

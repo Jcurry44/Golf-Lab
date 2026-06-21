@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.7,
-    "avg_sg_total": -0.25,
-    "first_round": "2025-11-20",
+    "rounds": 240,
+    "avg_to_par": -0.55,
+    "avg_sg_total": -0.26,
+    "first_round": "2023-06-08",
     "last_round": "2026-06-12",
     "sg_t2g": -0.285,
     "sg_ott": -0.501,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 0.68
+        "course": "El Cardonal at Diamante",
+        "rounds": 10,
+        "avg_to_par": -3.7,
+        "avg_sg": 1.1
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.79
+        "avg_to_par": -3.25,
+        "avg_sg": 0.78
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 10,
+        "avg_to_par": -2.7,
+        "avg_sg": 1.38
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 10,
+        "avg_to_par": -2.7,
+        "avg_sg": 0.86
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 10,
+        "avg_to_par": -2.6,
+        "avg_sg": 1.1
       },
       {
         "course": "Innisbrook Resort and Golf Club - Copperhead Course",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 2.8
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.6
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.37
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -2.54
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 10,
+        "avg_to_par": 6.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Oakdale Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.81
+      },
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.2
+      },
+      {
         "course": "Aronimink Golf Club",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -0.56
       },
       {
-        "course": "Colonial Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.36
-      },
-      {
         "course": "Memorial Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.27
+        "rounds": 6,
+        "avg_to_par": 2.83,
+        "avg_sg": -3.07
       },
       {
-        "course": "Trump National Doral - Blue Monster Course",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.15
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.26
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.46
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.41
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 2,
-        "scoring_average": 70.5,
-        "avg_to_par": -0.5,
+        "rounds": 86,
+        "scoring_average": 67.35,
+        "avg_to_par": -0.47,
         "avg_sg_total": -0.224,
         "sg_t2g": 0.099,
         "sg_ott": -0.258,
@@ -451,9 +451,9 @@
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 74,
+        "scoring_average": 68.61,
+        "avg_to_par": -0.72,
         "avg_sg_total": -0.397,
         "sg_t2g": -0.013,
         "sg_ott": -0.415,
@@ -464,13 +464,13 @@
         "accuracy": 0.6292,
         "gir": 0.6828,
         "scrambling": 0.5761,
-        "last_round": null
+        "last_round": "2024-11-17"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 42,
+        "scoring_average": 64.0,
+        "avg_to_par": -0.29,
         "avg_sg_total": -0.21,
         "sg_t2g": 0.257,
         "sg_ott": -0.133,
@@ -481,7 +481,7 @@
         "accuracy": 0.6325,
         "gir": 0.6748,
         "scrambling": 0.5622,
-        "last_round": null
+        "last_round": "2023-11-12"
       }
     ]
   },

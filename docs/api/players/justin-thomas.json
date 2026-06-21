@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.77,
-    "avg_sg_total": 1.01,
-    "first_round": "2026-03-12",
+    "rounds": 240,
+    "avg_to_par": -1.18,
+    "avg_sg_total": 0.83,
+    "first_round": "2023-04-07",
     "last_round": "2026-06-21",
     "sg_t2g": 0.647,
     "sg_ott": 0.139,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.0
+        "course": "Pete Dye Stadium Course",
+        "rounds": 8,
+        "avg_to_par": -6.25,
+        "avg_sg": 3.44
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "ACCORDIA GOLF Narashino Country Club",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.37
+        "avg_to_par": -4.75,
+        "avg_sg": 3.39
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.41
+        "avg_to_par": -4.75,
+        "avg_sg": 0.49
       },
       {
-        "course": "Trump National Doral - Blue Monster Course",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.35
+        "course": "Albany GC",
+        "rounds": 8,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.19
       },
       {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 2.62
+        "course": "TPC River Highlands",
+        "rounds": 12,
+        "avg_to_par": -3.67,
+        "avg_sg": 2.02
       },
       {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "course": "The Philadelphia Cricket Club (Wissahickon Course)",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.8
+        "avg_to_par": -3.5,
+        "avg_sg": 2.51
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Shinnecock Hills Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.33,
-        "avg_sg": 1.72
+        "course": "The Los Angeles Country Club (North Course)",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -5.2
       },
       {
-        "course": "Harbour Town Golf Links",
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -1.29
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.15
+      },
+      {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.42
+      },
+      {
+        "course": "Oak Hill Country Club - East Course",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -2.21
+        "avg_to_par": 3.0,
+        "avg_sg": -0.56
       },
       {
         "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.05
-      },
-      {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.11
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 2.62
+        "rounds": 11,
+        "avg_to_par": 1.55,
+        "avg_sg": -0.57
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.36,
-        "avg_to_par": -0.77,
+        "rounds": 42,
+        "scoring_average": 70.78,
+        "avg_to_par": -0.39,
         "avg_sg_total": 0.589,
         "sg_t2g": 0.647,
         "sg_ott": 0.139,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 80,
+        "scoring_average": 69.72,
+        "avg_to_par": -1.45,
         "avg_sg_total": 1.001,
         "sg_t2g": 0.662,
         "sg_ott": 0.078,
@@ -447,13 +447,13 @@
         "accuracy": 0.5332,
         "gir": 0.6528,
         "scrambling": 0.592,
-        "last_round": null
+        "last_round": "2025-09-14"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 75,
+        "scoring_average": 69.51,
+        "avg_to_par": -1.61,
         "avg_sg_total": 0.762,
         "sg_t2g": 1.24,
         "sg_ott": 0.135,
@@ -464,13 +464,13 @@
         "accuracy": 0.5583,
         "gir": 0.6559,
         "scrambling": 0.6217,
-        "last_round": null
+        "last_round": "2024-12-08"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 43,
+        "scoring_average": 70.21,
+        "avg_to_par": -0.67,
         "avg_sg_total": 0.836,
         "sg_t2g": 0.998,
         "sg_ott": 0.198,
@@ -481,7 +481,7 @@
         "accuracy": 0.5519,
         "gir": 0.6574,
         "scrambling": 0.5878,
-        "last_round": null
+        "last_round": "2023-12-03"
       }
     ]
   },
@@ -494,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.01 strokes-gained baseline. Win probability sits at 78.0%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.83 strokes gained. Win probability sits at 78.0%.",
     "risk_flags": "",
-    "avg_sg_total": 1.01,
-    "avg_to_par": -0.77
+    "avg_sg_total": 0.83,
+    "avg_to_par": -1.18
   },
   "coverage": {
     "hasRoundScorecards": true,

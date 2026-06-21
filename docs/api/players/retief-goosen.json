@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20210328",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.15,
-    "avg_sg_total": -0.82,
-    "first_round": "2018-02-01",
+    "rounds": 240,
+    "avg_to_par": 0.12,
+    "avg_sg_total": -0.09,
+    "first_round": "2014-08-21",
     "last_round": "2021-03-28",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Southwind",
+        "course": "RTJ Trail (Grand National)",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.89
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.64
+      },
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.23
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 7,
+        "avg_to_par": -2.29,
+        "avg_sg": 0.58
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 10,
+        "avg_to_par": -2.1,
+        "avg_sg": 1.37
+      },
+      {
+        "course": "St. Andrews GC (Old Course)",
         "rounds": 4,
         "avg_to_par": -1.75,
-        "avg_sg": 2.2
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.41
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.53
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.08
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.36
+        "avg_sg": 1.19
       }
     ]
   },
@@ -359,10 +359,10 @@
     ],
     "rows": [
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
+        "course": "Oakmont CC",
         "rounds": 2,
         "avg_to_par": 5.0,
-        "avg_sg": -3.43
+        "avg_sg": -1.08
       },
       {
         "course": "Carnoustie Golf Links - Championship Course",
@@ -371,28 +371,28 @@
         "avg_sg": -2.53
       },
       {
-        "course": "TPC River Highlands",
+        "course": "Chambers Bay GC",
         "rounds": 2,
         "avg_to_par": 4.0,
-        "avg_sg": -4.12
+        "avg_sg": -0.92
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.21
       },
       {
         "course": "PGA National Resort (The Champion)",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.1
+        "rounds": 10,
+        "avg_to_par": 2.2,
+        "avg_sg": -0.39
       },
       {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.59
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.81
+        "course": "TPC Summerlin",
+        "rounds": 6,
+        "avg_to_par": 2.17,
+        "avg_sg": -2.17
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2018,
-        "rounds": 30,
-        "scoring_average": 72.23,
-        "avg_to_par": 1.3,
-        "avg_sg_total": -0.89,
+        "rounds": 48,
+        "scoring_average": 71.65,
+        "avg_to_par": 0.6,
+        "avg_sg_total": -0.42,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2018-08-17"
+      },
+      {
+        "season": 2017,
+        "rounds": 46,
+        "scoring_average": 71.13,
+        "avg_to_par": -0.09,
+        "avg_sg_total": -0.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-20"
+      },
+      {
+        "season": 2016,
+        "rounds": 55,
+        "scoring_average": 70.91,
+        "avg_to_par": -0.25,
+        "avg_sg_total": 0.58,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-19"
+      },
+      {
+        "season": 2015,
+        "rounds": 77,
+        "scoring_average": 71.56,
+        "avg_to_par": 0.1,
+        "avg_sg_total": -0.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-02"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-24"
       }
     ]
   },
@@ -476,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 7
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.15,
-    "avg_sg_total": 0.07,
-    "first_round": "2026-02-28",
+    "rounds": 72,
+    "avg_to_par": -0.86,
+    "avg_sg_total": 0.24,
+    "first_round": "2022-02-17",
     "last_round": "2026-06-21",
     "sg_t2g": 0.11,
     "sg_ott": 0.749,
@@ -313,6 +313,30 @@
     ],
     "rows": [
       {
+        "course": "Black Desert Resort",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 4.04
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 0.43
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": -0.43
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.16
+      },
+      {
         "course": "Colonial Country Club",
         "rounds": 4,
         "avg_to_par": -2.5,
@@ -323,30 +347,6 @@
         "rounds": 2,
         "avg_to_par": -2.5,
         "avg_sg": 0.05
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.85
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.01
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.04
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.05
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "The Los Angeles Country Club (North Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.7
+      },
       {
         "course": "Aronimink Golf Club",
         "rounds": 4,
@@ -371,6 +377,12 @@
         "avg_sg": -2.72
       },
       {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.59
+      },
+      {
         "course": "Shinnecock Hills Golf Club",
         "rounds": 4,
         "avg_to_par": 2.0,
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 1.75,
         "avg_sg": -1.34
-      },
-      {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.77
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.22
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.72,
-        "avg_to_par": -0.15,
+        "rounds": 52,
+        "scoring_average": 70.47,
+        "avg_to_par": -0.47,
         "avg_sg_total": -0.208,
         "sg_t2g": 0.11,
         "sg_ott": 0.749,
@@ -434,54 +434,54 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.208,
-        "sg_t2g": 0.11,
-        "sg_ott": 0.749,
-        "sg_app": -0.098,
-        "sg_arg": -0.542,
-        "sg_putt": -0.318,
-        "driving_distance": 324.4,
-        "accuracy": 0.6029,
-        "gir": 0.6553,
-        "scrambling": 0.5493,
-        "last_round": null
-      },
-      {
-        "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.208,
-        "sg_t2g": 0.11,
-        "sg_ott": 0.749,
-        "sg_app": -0.098,
-        "sg_arg": -0.542,
-        "sg_putt": -0.318,
-        "driving_distance": 324.4,
-        "accuracy": 0.6029,
-        "gir": 0.6553,
-        "scrambling": 0.5493,
-        "last_round": null
+        "rounds": 16,
+        "scoring_average": 68.13,
+        "avg_to_par": -3.0,
+        "avg_sg_total": 1.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-11-23"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.208,
-        "sg_t2g": 0.11,
-        "sg_ott": 0.749,
-        "sg_app": -0.098,
-        "sg_arg": -0.542,
-        "sg_putt": -0.318,
-        "driving_distance": 324.4,
-        "accuracy": 0.6029,
-        "gir": 0.6553,
-        "scrambling": 0.5493,
-        "last_round": null
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -2.7,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-06-16"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-02-18"
       }
     ]
   },
@@ -494,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.07 strokes gained. Win probability sits at 73.7%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.24 strokes gained. Win probability sits at 73.7%.",
     "risk_flags": "",
-    "avg_sg_total": 0.07,
-    "avg_to_par": -0.15
+    "avg_sg_total": 0.24,
+    "avg_to_par": -0.86
   },
   "coverage": {
     "hasRoundScorecards": true,

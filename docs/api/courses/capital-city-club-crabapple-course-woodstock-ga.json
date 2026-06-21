@@ -10,9 +10,9 @@
     "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 44,
-    "avg_to_par": 3.27,
-    "avg_sg_total": -0.86,
+    "rounds": 96,
+    "avg_to_par": 3.31,
+    "avg_sg_total": -0.9,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -32,6 +32,20 @@
         "avg_sg": 1.92
       },
       {
+        "player_id": "loren-roberts",
+        "player_name": "Loren Roberts",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.42
+      },
+      {
+        "player_id": "niclas-fasth",
+        "player_name": "Niclas Fasth",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.42
+      },
+      {
         "player_id": "eduardo-romero",
         "player_name": "Eduardo Romero",
         "rounds": 4,
@@ -44,6 +58,20 @@
         "rounds": 4,
         "avg_to_par": 1.75,
         "avg_sg": 0.67
+      },
+      {
+        "player_id": "david-howell",
+        "player_name": "David Howell",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.42
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.42
       },
       {
         "player_id": "alastair-forsyth",
@@ -67,39 +95,18 @@
         "avg_sg": -1.08
       },
       {
-        "player_id": "taichi-teshima",
-        "player_name": "Taichi Teshima",
+        "player_id": "nick-price",
+        "player_name": "Nick Price",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.08
+      },
+      {
+        "player_id": "colin-montgomerie",
+        "player_name": "Colin Montgomerie",
         "rounds": 4,
         "avg_to_par": 3.75,
         "avg_sg": -1.33
-      },
-      {
-        "player_id": "jyoti-randhawa",
-        "player_name": "Jyoti Randhawa",
-        "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.58
-      },
-      {
-        "player_id": "raphael-jacquelin",
-        "player_name": "Raphael Jacquelin",
-        "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": -1.83
-      },
-      {
-        "player_id": "mark-foster",
-        "player_name": "Mark Foster",
-        "rounds": 4,
-        "avg_to_par": 5.0,
-        "avg_sg": -2.58
-      },
-      {
-        "player_id": "scott-hoch",
-        "player_name": "Scott Hoch",
-        "rounds": 4,
-        "avg_to_par": 5.25,
-        "avg_sg": -2.83
       }
     ]
   },

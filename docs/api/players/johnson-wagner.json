@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20221030",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.88,
-    "avg_sg_total": -1.45,
-    "first_round": "2021-05-06",
+    "rounds": 240,
+    "avg_to_par": -0.49,
+    "avg_sg_total": -0.16,
+    "first_round": "2017-03-30",
     "last_round": "2022-10-28",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "Keene Trace Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.32
+      },
+      {
         "course": "TPC Craig Ranch",
         "rounds": 4,
         "avg_to_par": -3.0,
@@ -320,33 +326,27 @@
       },
       {
         "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.06
+        "rounds": 16,
+        "avg_to_par": -2.56,
+        "avg_sg": 1.11
       },
       {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.07
+        "course": "Trinity Forest Golf Club",
+        "rounds": 8,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.63
       },
       {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.46
-      },
-      {
-        "course": "Port Royal Golf Course",
+        "course": "Glen Abbey GC",
         "rounds": 6,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.07
+        "avg_to_par": -2.17,
+        "avg_sg": 0.59
       },
       {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.01
+        "course": "Detroit Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.03
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -5.92
       },
       {
-        "course": "TPC Potomac at Avenel Farm",
+        "course": "Muirfield Village Golf Club",
         "rounds": 2,
-        "avg_to_par": 5.5,
-        "avg_sg": -4.42
+        "avg_to_par": 5.0,
+        "avg_sg": -4.18
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.85
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.0
       },
       {
         "course": "Congaree Golf Club",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -1.56
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -2.43
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.06
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2021,
-        "rounds": 22,
-        "scoring_average": 64.32,
-        "avg_to_par": -0.32,
-        "avg_sg_total": -0.34,
+        "rounds": 36,
+        "scoring_average": 67.56,
+        "avg_to_par": 0.22,
+        "avg_sg_total": -0.74,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-08-15"
+      },
+      {
+        "season": 2020,
+        "rounds": 25,
+        "scoring_average": 70.84,
+        "avg_to_par": -0.56,
+        "avg_sg_total": -0.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-07-24"
+      },
+      {
+        "season": 2019,
+        "rounds": 58,
+        "scoring_average": 69.86,
+        "avg_to_par": -1.36,
+        "avg_sg_total": 0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-04"
+      },
+      {
+        "season": 2018,
+        "rounds": 65,
+        "scoring_average": 69.78,
+        "avg_to_par": -1.43,
+        "avg_sg_total": 0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-19"
+      },
+      {
+        "season": 2017,
+        "rounds": 38,
+        "scoring_average": 71.39,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-20"
       }
     ]
   },
@@ -476,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 7
   }
 }

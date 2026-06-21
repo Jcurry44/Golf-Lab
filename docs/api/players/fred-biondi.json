@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260308",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.15,
-    "avg_sg_total": 0.16,
-    "first_round": "2023-09-14",
+    "rounds": 42,
+    "avg_to_par": -0.81,
+    "avg_sg_total": -0.02,
+    "first_round": "2022-06-16",
     "last_round": "2026-03-08",
     "sg_t2g": null,
     "sg_ott": null,
@@ -359,6 +359,12 @@
     ],
     "rows": [
       {
+        "course": "The Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.62
+      },
+      {
         "course": "Silverado Resort (North Course)",
         "rounds": 2,
         "avg_to_par": 2.0,
@@ -387,12 +393,6 @@
         "rounds": 6,
         "avg_to_par": -0.17,
         "avg_sg": -1.01
-      },
-      {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.13
       }
     ]
   },
@@ -482,6 +482,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -3.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-17"
       }
     ]
   },
@@ -493,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 88,
-    "avg_to_par": 4.8,
-    "avg_sg_total": -2.29,
+    "rounds": 182,
+    "avg_to_par": 3.25,
+    "avg_sg_total": -0.82,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,55 @@
     ],
     "rows": [
       {
+        "player_id": "s-ren-kjeldsen",
+        "player_name": "Søren Kjeldsen",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "richard-sterne",
+        "player_name": "Richard Sterne",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.17
+      },
+      {
+        "player_id": "corey-pavin",
+        "player_name": "Corey Pavin",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "michael-allen",
+        "player_name": "Michael Allen",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "oliver-wilson",
+        "player_name": "Oliver Wilson",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "alvaro-quiros",
+        "player_name": "Alvaro Quiros",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.51
+      },
+      {
         "player_id": "brendan-jones",
         "player_name": "Brendan Jones",
         "rounds": 4,
@@ -32,81 +81,32 @@
         "avg_sg": 1.51
       },
       {
-        "player_id": "soren-hansen",
-        "player_name": "Soren Hansen",
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "fred-couples",
+        "player_name": "Fred Couples",
         "rounds": 4,
         "avg_to_par": 1.25,
         "avg_sg": 1.01
       },
       {
-        "player_id": "thomas-levet",
-        "player_name": "Thomas Levet",
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
         "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.51
+        "avg_to_par": 1.25,
+        "avg_sg": 1.01
       },
       {
-        "player_id": "bob-tway",
-        "player_name": "Bob Tway",
+        "player_id": "soren-hansen",
+        "player_name": "Soren Hansen",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.26
-      },
-      {
-        "player_id": "richard-green",
-        "player_name": "Richard Green",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.01
-      },
-      {
-        "player_id": "scott-hebert",
-        "player_name": "Scott Hebert",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.17
-      },
-      {
-        "player_id": "david-smail",
-        "player_name": "David Smail",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -0.49
-      },
-      {
-        "player_id": "gregory-bisconti",
-        "player_name": "Gregory Bisconti",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -0.99
-      },
-      {
-        "player_id": "craig-thomas",
-        "player_name": "Craig Thomas",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.83
-      },
-      {
-        "player_id": "steve-webster",
-        "player_name": "Steve Webster",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.83
-      },
-      {
-        "player_id": "tim-weinhart",
-        "player_name": "Tim Weinhart",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.83
-      },
-      {
-        "player_id": "grant-sturgeon",
-        "player_name": "Grant Sturgeon",
-        "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": -1.49
+        "avg_to_par": 1.25,
+        "avg_sg": 1.01
       }
     ]
   },

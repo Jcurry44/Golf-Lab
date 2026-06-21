@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250525",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.9,
-    "avg_sg_total": -0.97,
-    "first_round": "2006-07-27",
+    "rounds": 79,
+    "avg_to_par": 0.9,
+    "avg_sg_total": -1.16,
+    "first_round": "2002-05-23",
     "last_round": "2025-05-23",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 5,
+        "avg_to_par": -14.4,
+        "avg_sg": 0.85
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.6
+      },
+      {
         "course": "Brown Deer Park Golf Course",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": 0.88
       },
       {
-        "course": "La Cantera Golf Club - Resort Course",
+        "course": "Old Course at St Andrews",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.85
+        "avg_to_par": -1.25,
+        "avg_sg": 1.83
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.65
       },
       {
         "course": "Hamilton G&CC",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": -1.29
-      },
-      {
-        "course": null,
-        "rounds": 6,
-        "avg_to_par": 1.67,
-        "avg_sg": -0.68
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 14,
-        "avg_to_par": 2.57,
-        "avg_sg": -2.65
-      },
-      {
-        "course": "Carnoustie Golf Links - Championship Course",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.59
       }
     ]
   },
@@ -377,22 +377,22 @@
         "avg_sg": -0.59
       },
       {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.34
+      },
+      {
         "course": "Colonial Country Club",
-        "rounds": 14,
-        "avg_to_par": 2.57,
-        "avg_sg": -2.65
+        "rounds": 20,
+        "avg_to_par": 2.8,
+        "avg_sg": -2.86
       },
       {
         "course": null,
-        "rounds": 6,
-        "avg_to_par": 1.67,
-        "avg_sg": -0.68
-      },
-      {
-        "course": "Hamilton G&CC",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.29
+        "rounds": 12,
+        "avg_to_par": 2.67,
+        "avg_sg": -2.21
       }
     ]
   },
@@ -536,10 +536,10 @@
       },
       {
         "season": 2006,
-        "rounds": 12,
-        "scoring_average": 69.75,
-        "avg_to_par": -0.25,
-        "avg_sg_total": 0.15,
+        "rounds": 23,
+        "scoring_average": 71.35,
+        "avg_to_par": 0.91,
+        "avg_sg_total": -0.95,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -550,6 +550,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-09-24"
+      },
+      {
+        "season": 2005,
+        "rounds": 25,
+        "scoring_average": 69.88,
+        "avg_to_par": -1.32,
+        "avg_sg_total": -1.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-09-22"
+      },
+      {
+        "season": 2003,
+        "rounds": 1,
+        "scoring_average": 0.0,
+        "avg_to_par": null,
+        "avg_sg_total": null,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-03"
+      },
+      {
+        "season": 2002,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-24"
       }
     ]
   },
@@ -561,6 +612,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 8
+    "seasonProfiles": 11
   }
 }

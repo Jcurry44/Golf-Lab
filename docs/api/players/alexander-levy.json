@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250713",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.45,
-    "avg_sg_total": -0.08,
-    "first_round": "2016-10-26",
+    "rounds": 69,
+    "avg_to_par": 1.09,
+    "avg_sg_total": -0.03,
+    "first_round": "2014-07-31",
     "last_round": "2025-07-13",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,18 @@
         "avg_sg": 2.33
       },
       {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.44
+      },
+      {
+        "course": "Valhalla GC",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.38
+      },
+      {
         "course": "Hurstbourne Country Club",
         "rounds": 4,
         "avg_to_par": -0.5,
@@ -331,22 +343,10 @@
         "avg_sg": -0.36
       },
       {
-        "course": "Sheshan Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.76
-      },
-      {
         "course": "Sheshan International GC",
-        "rounds": 8,
-        "avg_to_par": 0.63,
-        "avg_sg": -0.5
-      },
-      {
-        "course": "Royal Portrush Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.19
+        "rounds": 12,
+        "avg_to_par": 0.08,
+        "avg_sg": 0.26
       }
     ]
   },
@@ -371,6 +371,12 @@
         "avg_sg": null
       },
       {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.96
+      },
+      {
         "course": "Erin Hills",
         "rounds": 2,
         "avg_to_par": 4.0,
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -1.03
-      },
-      {
-        "course": "Royal Birkdale Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.03
       }
     ]
   },
@@ -499,6 +499,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2017-08-11"
+      },
+      {
+        "season": 2015,
+        "rounds": 21,
+        "scoring_average": 72.19,
+        "avg_to_par": 0.62,
+        "avg_sg_total": 0.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-14"
+      },
+      {
+        "season": 2014,
+        "rounds": 8,
+        "scoring_average": 71.0,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-10"
       }
     ]
   },
@@ -510,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 7
   }
 }

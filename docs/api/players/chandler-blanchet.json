@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.25,
-    "avg_sg_total": -0.29,
-    "first_round": "2026-02-26",
+    "rounds": 59,
+    "avg_to_par": 0.07,
+    "avg_sg_total": -0.6,
+    "first_round": "2022-10-27",
     "last_round": "2026-06-14",
     "sg_t2g": -0.48,
     "sg_ott": 0.057,
@@ -325,28 +325,28 @@
         "avg_sg": 0.29
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -1.88
+      },
+      {
         "course": "Innisbrook Resort and Golf Club - Copperhead Course",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 1.3
       },
       {
-        "course": "TPC San Antonio - The Oaks Course",
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.1
+      },
+      {
+        "course": "Black Desert Resort",
         "rounds": 2,
         "avg_to_par": -0.5,
-        "avg_sg": -0.45
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.25
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.45
+        "avg_sg": -1.36
       }
     ]
   },
@@ -359,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -1.29
+      },
+      {
         "course": "Memorial Park Golf Course",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -4.27
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.09
       },
       {
         "course": "Trump National Doral - Blue Monster Course",
@@ -371,28 +383,16 @@
         "avg_sg": -2.9
       },
       {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.91
+      },
+      {
         "course": "PGA National - Champion Course",
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -0.26
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.87
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.0
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.88
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.65,
-        "avg_to_par": -0.25,
+        "rounds": 49,
+        "scoring_average": 70.86,
+        "avg_to_par": -0.12,
         "avg_sg_total": -0.91,
         "sg_t2g": -0.48,
         "sg_ott": 0.057,
@@ -434,54 +434,54 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.91,
-        "sg_t2g": -0.48,
-        "sg_ott": 0.057,
-        "sg_app": 0.039,
-        "sg_arg": -0.575,
-        "sg_putt": -0.43,
-        "driving_distance": 298.7,
-        "accuracy": 0.6632,
-        "gir": 0.6621,
-        "scrambling": 0.5738,
-        "last_round": null
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -1.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-06-13"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.91,
-        "sg_t2g": -0.48,
-        "sg_ott": 0.057,
-        "sg_app": 0.039,
-        "sg_arg": -0.575,
-        "sg_putt": -0.43,
-        "driving_distance": 298.7,
-        "accuracy": 0.6632,
-        "gir": 0.6621,
-        "scrambling": 0.5738,
-        "last_round": null
+        "rounds": 2,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": -1.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-10-11"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.91,
-        "sg_t2g": -0.48,
-        "sg_ott": 0.057,
-        "sg_app": 0.039,
-        "sg_arg": -0.575,
-        "sg_putt": -0.43,
-        "driving_distance": 298.7,
-        "accuracy": 0.6632,
-        "gir": 0.6621,
-        "scrambling": 0.5738,
-        "last_round": null
+        "rounds": 6,
+        "scoring_average": 70.17,
+        "avg_to_par": -0.17,
+        "avg_sg_total": -0.11,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
       }
     ]
   },

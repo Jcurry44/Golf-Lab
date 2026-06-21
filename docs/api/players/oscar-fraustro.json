@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20181111",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.33,
-    "avg_sg_total": -0.51,
-    "first_round": "2015-04-02",
+    "rounds": 74,
+    "avg_to_par": -0.01,
+    "avg_sg_total": -0.69,
+    "first_round": "2009-03-12",
     "last_round": "2018-11-11",
     "sg_t2g": null,
     "sg_ott": null,
@@ -320,9 +320,15 @@
       },
       {
         "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 14,
-        "avg_to_par": -2.07,
-        "avg_sg": 0.8
+        "rounds": 24,
+        "avg_to_par": -1.63,
+        "avg_sg": 0.68
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.21
       },
       {
         "course": "TPC Louisiana",
@@ -331,22 +337,16 @@
         "avg_sg": -1.26
       },
       {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": -0.33,
+        "avg_sg": -1.22
+      },
+      {
         "course": "GC of Houston",
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": -0.71
-      },
-      {
-        "course": "The Old White TPC",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.17
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.82
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -3.29
       },
       {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.7
+      },
+      {
         "course": "TPC Southwind",
         "rounds": 4,
         "avg_to_par": 2.5,
         "avg_sg": -1.69
       },
       {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.4
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.09
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": 1.5,
         "avg_sg": -2.81
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.9
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.82
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.43
       }
     ]
   },
@@ -485,10 +485,10 @@
       },
       {
         "season": 2015,
-        "rounds": 26,
-        "scoring_average": 71.42,
-        "avg_to_par": 0.62,
-        "avg_sg_total": -1.22,
+        "rounds": 52,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.38,
+        "avg_sg_total": -1.0,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -499,6 +499,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2015-08-23"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 69.75,
+        "avg_to_par": -1.25,
+        "avg_sg_total": 0.18,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-11-17"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-02-24"
+      },
+      {
+        "season": 2009,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -3.95,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-03-13"
       }
     ]
   },
@@ -510,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 8
   }
 }

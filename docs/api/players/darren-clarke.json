@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 3.95,
-    "avg_sg_total": -2.46,
-    "first_round": "2015-04-02",
+    "rounds": 240,
+    "avg_to_par": 1.53,
+    "avg_sg_total": -0.54,
+    "first_round": "2004-11-07",
     "last_round": "2025-07-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "St. Andrews GC (Old Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.7
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 11,
+        "avg_to_par": -5.45,
+        "avg_sg": 0.1
       },
       {
-        "course": "Royal Portrush Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.31
+        "course": null,
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.92
       },
       {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.44
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.51
       },
       {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 8,
-        "avg_to_par": 2.13,
-        "avg_sg": 0.25
+        "course": "Royal St George's Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 4.58
       },
       {
-        "course": "Baltusrol Golf Club - Lower Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.31
+        "course": "Royal Liverpool",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.31
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -1.78
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.15
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Carnoustie Golf Links - Championship Course",
-        "rounds": 2,
-        "avg_to_par": 11.5,
-        "avg_sg": -9.53
-      },
-      {
         "course": "Chambers Bay GC",
         "rounds": 2,
         "avg_to_par": 8.5,
         "avg_sg": -5.42
       },
       {
-        "course": "Whistling Straits - Straits Course",
+        "course": "Merion GC",
         "rounds": 2,
         "avg_to_par": 7.5,
-        "avg_sg": -5.96
+        "avg_sg": -2.79
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 4,
+        "avg_to_par": 7.25,
+        "avg_sg": -4.81
+      },
+      {
+        "course": "Atlanta Athletic Club - Highlands Course",
         "rounds": 2,
-        "avg_to_par": 6.0,
-        "avg_sg": -4.07
+        "avg_to_par": 7.0,
+        "avg_sg": -4.05
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Oakland Hills Country Club - South Course",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -0.65
+      },
+      {
+        "course": "Hazeltine National Golf Club",
         "rounds": 2,
         "avg_to_par": 5.0,
-        "avg_sg": -4.79
-      },
-      {
-        "course": "Royal Liverpool Golf Club",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.65
+        "avg_sg": -2.33
       }
     ]
   },
@@ -584,6 +584,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2015-08-14"
+      },
+      {
+        "season": 2014,
+        "rounds": 39,
+        "scoring_average": 73.36,
+        "avg_to_par": 2.26,
+        "avg_sg_total": -1.61,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-08"
+      },
+      {
+        "season": 2013,
+        "rounds": 10,
+        "scoring_average": 74.2,
+        "avg_to_par": 3.8,
+        "avg_sg_total": -0.8,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-11"
       }
     ]
   },
@@ -595,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 10
+    "seasonProfiles": 12
   }
 }

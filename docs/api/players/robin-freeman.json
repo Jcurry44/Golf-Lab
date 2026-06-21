@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.42,
-    "avg_sg_total": -2.57,
-    "first_round": "2006-05-26",
+    "rounds": 62,
+    "avg_to_par": 1.81,
+    "avg_sg_total": -1.93,
+    "first_round": "2005-02-10",
     "last_round": "2013-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.67
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.22
+      },
+      {
         "course": "La Cantera Golf Club - Resort Course",
         "rounds": 3,
         "avg_to_par": -0.67,
         "avg_sg": -0.04
       },
       {
+        "course": null,
+        "rounds": 3,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.28
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.15
+      },
+      {
         "course": "Grand Reserve Golf Club",
         "rounds": 6,
         "avg_to_par": 1.0,
         "avg_sg": -1.3
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.17
-      },
-      {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.7
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 12,
-        "avg_to_par": 3.08,
-        "avg_sg": -2.83
-      },
-      {
-        "course": "Annandale GC",
-        "rounds": 6,
-        "avg_to_par": 3.17,
-        "avg_sg": -4.89
       }
     ]
   },
@@ -359,16 +359,10 @@
     ],
     "rows": [
       {
-        "course": "TPC Southwind",
-        "rounds": 5,
-        "avg_to_par": 4.2,
-        "avg_sg": -3.4
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -3.75
+        "avg_to_par": 4.5,
+        "avg_sg": -2.13
       },
       {
         "course": "Annandale GC",
@@ -377,22 +371,28 @@
         "avg_sg": -4.89
       },
       {
+        "course": "TPC Southwind",
+        "rounds": 10,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.82
+      },
+      {
         "course": "Montreux Golf & Country Club",
-        "rounds": 12,
-        "avg_to_par": 3.08,
-        "avg_sg": -2.83
+        "rounds": 14,
+        "avg_to_par": 2.71,
+        "avg_sg": -2.5
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -1.91
       },
       {
         "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": -1.7
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 6,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.3
       }
     ]
   },
@@ -536,10 +536,10 @@
       },
       {
         "season": 2006,
-        "rounds": 3,
-        "scoring_average": 74.67,
-        "avg_to_par": 3.33,
-        "avg_sg_total": -3.26,
+        "rounds": 4,
+        "scoring_average": 75.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -3.15,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -550,6 +550,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-08-25"
+      },
+      {
+        "season": 2005,
+        "rounds": 21,
+        "scoring_average": 71.76,
+        "avg_to_par": 0.43,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-08-19"
       }
     ]
   },
@@ -561,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 8
+    "seasonProfiles": 9
   }
 }

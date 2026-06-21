@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080803",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.55,
-    "avg_sg_total": -1.45,
-    "first_round": "2006-06-22",
+    "rounds": 126,
+    "avg_to_par": 1.06,
+    "avg_sg_total": -0.63,
+    "first_round": "2002-05-23",
     "last_round": "2008-08-03",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 8,
+        "avg_to_par": -3.13,
+        "avg_sg": -0.18
+      },
+      {
         "course": "TPC Summerlin",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 0.79
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 6,
+        "avg_to_par": -2.17,
+        "avg_sg": 0.67
       },
       {
         "course": "TPC Potomac at Avenel Farm",
@@ -331,22 +343,10 @@
         "avg_sg": -0.28
       },
       {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.06
-      },
-      {
-        "course": null,
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -3.15
-      },
-      {
-        "course": "Trump National Doral",
+        "course": "Mount Juliet Golf Course",
         "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -2.72
+        "avg_to_par": -0.75,
+        "avg_sg": -1.4
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -2.73
       },
       {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -1.8
+      },
+      {
         "course": "Royal Birkdale Golf Club",
         "rounds": 4,
         "avg_to_par": 5.25,
         "avg_sg": -0.36
       },
       {
-        "course": "Firestone CC (South)",
-        "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": -3.7
-      },
-      {
-        "course": "TPC Deere Run",
+        "course": "Baltusrol Golf Club - Lower Course",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -3.56
+        "avg_to_par": 5.0,
+        "avg_sg": -2.33
       },
       {
-        "course": "The Grove Golf Course",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -2.86
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.07
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -1.56
+        "course": "Old Course at St Andrews",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.12
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2006,
-        "rounds": 26,
-        "scoring_average": 71.38,
-        "avg_to_par": 0.12,
-        "avg_sg_total": -0.98,
+        "rounds": 44,
+        "scoring_average": 72.09,
+        "avg_to_par": 0.66,
+        "avg_sg_total": -0.77,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-10-29"
+      },
+      {
+        "season": 2005,
+        "rounds": 46,
+        "scoring_average": 72.22,
+        "avg_to_par": 0.91,
+        "avg_sg_total": -0.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-08-21"
+      },
+      {
+        "season": 2003,
+        "rounds": 12,
+        "scoring_average": 72.33,
+        "avg_to_par": 1.33,
+        "avg_sg_total": -1.39,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 10,
+        "scoring_average": 70.0,
+        "avg_to_par": -1.2,
+        "avg_sg_total": 0.89,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230305",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.67,
-    "avg_sg_total": -3.2,
-    "first_round": "2015-11-13",
+    "rounds": 240,
+    "avg_to_par": 0.9,
+    "avg_sg_total": -1.14,
+    "first_round": "2011-02-06",
     "last_round": "2023-03-02",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.71
+        "course": "Annandale GC",
+        "rounds": 12,
+        "avg_to_par": -3.42,
+        "avg_sg": 1.48
       },
       {
-        "course": "Keene Trace Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.37
-      },
-      {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.11
-      },
-      {
-        "course": "TPC Louisiana",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.07
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.73
-      },
-      {
-        "course": "TPC Southwind",
+        "course": "Walt Disney World Resort - Magnolia Course",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.13
+        "avg_to_par": -2.5,
+        "avg_sg": 1.65
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.04
+      },
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -0.68
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 18,
+        "avg_to_par": -0.83,
+        "avg_sg": 0.19
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": 0.65
       }
     ]
   },
@@ -359,28 +359,16 @@
     ],
     "rows": [
       {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 3,
-        "avg_to_par": 5.67,
-        "avg_sg": -5.38
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -4.49
       },
       {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -5.42
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -4.05
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -4.78
+        "course": "The Riviera Country Club",
+        "rounds": 7,
+        "avg_to_par": 4.29,
+        "avg_sg": -2.8
       },
       {
         "course": "Puntacana Resort & Club (Corales Golf Course)",
@@ -389,10 +377,22 @@
         "avg_sg": -4.58
       },
       {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 5,
-        "avg_to_par": 3.8,
-        "avg_sg": -3.69
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.71
+      },
+      {
+        "course": "Royal Montreal GC (Blue)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.12
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 8,
+        "avg_to_par": 3.38,
+        "avg_sg": -2.6
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2016,
-        "rounds": 22,
-        "scoring_average": 73.91,
-        "avg_to_par": 2.73,
-        "avg_sg_total": -3.08,
+        "rounds": 25,
+        "scoring_average": 73.48,
+        "avg_to_par": 2.24,
+        "avg_sg_total": -2.71,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-08-12"
+      },
+      {
+        "season": 2015,
+        "rounds": 17,
+        "scoring_average": 72.53,
+        "avg_to_par": 0.82,
+        "avg_sg_total": -0.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-10"
+      },
+      {
+        "season": 2014,
+        "rounds": 29,
+        "scoring_average": 71.72,
+        "avg_to_par": 0.69,
+        "avg_sg_total": -1.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-15"
+      },
+      {
+        "season": 2013,
+        "rounds": 18,
+        "scoring_average": 71.89,
+        "avg_to_par": 0.28,
+        "avg_sg_total": -0.63,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-28"
+      },
+      {
+        "season": 2012,
+        "rounds": 77,
+        "scoring_average": 71.69,
+        "avg_to_par": 0.62,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-11-11"
+      },
+      {
+        "season": 2011,
+        "rounds": 56,
+        "scoring_average": 71.46,
+        "avg_to_par": 0.48,
+        "avg_sg_total": -0.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-13"
       }
     ]
   },
@@ -527,6 +612,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 11
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130616",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 6.3,
-    "avg_sg_total": -3.35,
-    "first_round": "2007-08-05",
+    "rounds": 123,
+    "avg_to_par": 3.2,
+    "avg_sg_total": -1.11,
+    "first_round": "2002-08-22",
     "last_round": "2013-06-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Oakland Hills Country Club - South Course",
+        "course": "Mount Juliet Golf Course",
         "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": 0.76
+        "avg_to_par": -4.0,
+        "avg_sg": 1.85
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.9
-      },
-      {
-        "course": "Royal Birkdale Golf Club",
+        "course": "Old Course at St Andrews",
         "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": 0.64
+        "avg_to_par": -1.75,
+        "avg_sg": 2.33
       },
       {
-        "course": "Southern Hills Country Club",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -0.96
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.39
       },
       {
-        "course": "Congressional Country Club - Blue Course",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -2.4
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.39
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 6,
-        "avg_to_par": 5.83,
-        "avg_sg": -4.3
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.88
+      },
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.63
       }
     ]
   },
@@ -358,12 +358,6 @@
       "avg_sg"
     ],
     "rows": [
-      {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 10.0,
-        "avg_sg": -9.52
-      },
       {
         "course": "Pebble Beach Golf Links",
         "rounds": 2,
@@ -383,16 +377,22 @@
         "avg_sg": -5.08
       },
       {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "course": "GC of Houston",
         "rounds": 4,
-        "avg_to_par": 7.5,
-        "avg_sg": -6.23
+        "avg_to_par": 7.75,
+        "avg_sg": -7.2
       },
       {
         "course": "Hazeltine National Golf Club",
         "rounds": 2,
         "avg_to_par": 7.5,
         "avg_sg": -4.83
+      },
+      {
+        "course": "Merion GC",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -2.29
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2007,
-        "rounds": 3,
-        "scoring_average": 75.0,
-        "avg_to_par": 5.0,
-        "avg_sg_total": -1.57,
+        "rounds": 24,
+        "scoring_average": 75.38,
+        "avg_to_par": 4.38,
+        "avg_sg_total": -1.63,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-08-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 26,
+        "scoring_average": 72.12,
+        "avg_to_par": 0.73,
+        "avg_sg_total": 0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
+      },
+      {
+        "season": 2005,
+        "rounds": 20,
+        "scoring_average": 71.25,
+        "avg_to_par": 0.85,
+        "avg_sg_total": 1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-09"
+      },
+      {
+        "season": 2003,
+        "rounds": 8,
+        "scoring_average": 74.13,
+        "avg_to_par": 4.13,
+        "avg_sg_total": -2.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 8,
+        "scoring_average": 68.75,
+        "avg_to_par": -2.25,
+        "avg_sg_total": 1.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -544,6 +612,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 11
   }
 }

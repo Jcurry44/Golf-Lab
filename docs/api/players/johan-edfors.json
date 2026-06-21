@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110814",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.92,
-    "avg_sg_total": -0.36,
-    "first_round": "2007-03-17",
+    "rounds": 54,
+    "avg_to_par": 2.48,
+    "avg_sg_total": -0.47,
+    "first_round": "2006-07-20",
     "last_round": "2011-08-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.39
+      },
+      {
         "course": "Congressional Country Club - Blue Course",
         "rounds": 4,
         "avg_to_par": -0.25,
@@ -325,6 +331,12 @@
         "avg_sg": -1.08
       },
       {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.33
+      },
+      {
         "course": "Atlanta Athletic Club - Highlands Course",
         "rounds": 4,
         "avg_to_par": 1.0,
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.43
-      },
-      {
-        "course": "Trump National Doral",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.5
-      },
-      {
-        "course": "Turnberry Resort - Ailsa Course",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.34
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2007,
-        "rounds": 18,
-        "scoring_average": 74.39,
-        "avg_to_par": 3.17,
-        "avg_sg_total": -0.83,
+        "rounds": 20,
+        "scoring_average": 73.9,
+        "avg_to_par": 2.8,
+        "avg_sg_total": -0.6,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-08-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 12,
+        "scoring_average": 72.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
       }
     ]
   },
@@ -493,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

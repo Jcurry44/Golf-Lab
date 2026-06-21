@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.63,
-    "avg_sg_total": 0.01,
-    "first_round": "2005-06-23",
+    "rounds": 86,
+    "avg_to_par": 0.0,
+    "avg_sg_total": -0.16,
+    "first_round": "2002-08-22",
     "last_round": "2006-07-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,16 +319,22 @@
         "avg_sg": 1.09
       },
       {
-        "course": null,
-        "rounds": 2,
-        "avg_to_par": -2.5,
-        "avg_sg": -0.34
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.1
       },
       {
         "course": "TPC Deere Run",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 1.6
+      },
+      {
+        "course": null,
+        "rounds": 10,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.2
       },
       {
         "course": "Mystic Rock",
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 0.03
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.42
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -2.76
       },
       {
+        "course": "Country Club at Mirasol",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.85
+      },
+      {
+        "course": "Capital City Club - Crabapple Course",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.58
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 8,
+        "avg_to_par": 3.63,
+        "avg_sg": -2.36
+      },
+      {
         "course": "Cog Hill Golf & Country Club - Dubsdread Course",
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -1.67
       },
       {
-        "course": "Annandale GC",
+        "course": "TPC Sugarloaf",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.56
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.0
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.62
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.33
+        "avg_to_par": 2.0,
+        "avg_sg": -0.76
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2005,
-        "rounds": 38,
-        "scoring_average": 70.58,
-        "avg_to_par": -0.66,
-        "avg_sg_total": -0.01,
+        "rounds": 72,
+        "scoring_average": 70.81,
+        "avg_to_par": -0.63,
+        "avg_sg_total": 0.14,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-11-04"
+      },
+      {
+        "season": 2003,
+        "rounds": 8,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -1.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 4.25,
+        "avg_sg_total": -2.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-08-25"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

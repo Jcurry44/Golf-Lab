@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 572,
-    "avg_to_par": -0.67,
-    "avg_sg_total": -0.16,
+    "rounds": 885,
+    "avg_to_par": -1.0,
+    "avg_sg_total": -0.0,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -32,11 +32,32 @@
         "avg_sg": 3.5
       },
       {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "matt-mccarty",
+        "player_name": "Matt McCarty",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.5
+      },
+      {
         "player_id": "matt-fitzpatrick",
         "player_name": "Matt Fitzpatrick",
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 3.0
+      },
+      {
+        "player_id": "ryan-fox",
+        "player_name": "Ryan Fox",
+        "rounds": 8,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.62
       },
       {
         "player_id": "byeong-hun-an",
@@ -60,25 +81,25 @@
         "avg_sg": 2.75
       },
       {
-        "player_id": "brice-garnett",
-        "player_name": "Brice Garnett",
+        "player_id": "cameron-champ",
+        "player_name": "Cameron Champ",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.5
+        "avg_to_par": -3.5,
+        "avg_sg": 2.0
       },
       {
-        "player_id": "jackson-suber",
-        "player_name": "Jackson Suber",
+        "player_id": "victor-perez",
+        "player_name": "Victor Perez",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.5
+        "avg_to_par": -3.5,
+        "avg_sg": 2.0
       },
       {
-        "player_id": "jesper-svensson",
-        "player_name": "Jesper Svensson",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.5
+        "player_id": "sam-burns",
+        "player_name": "Sam Burns",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 2.25
       },
       {
         "player_id": "jimmy-stanger",
@@ -86,27 +107,6 @@
         "rounds": 4,
         "avg_to_par": -3.25,
         "avg_sg": 2.5
-      },
-      {
-        "player_id": "aldrich-potgieter",
-        "player_name": "Aldrich Potgieter",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.25
-      },
-      {
-        "player_id": "ryan-fox",
-        "player_name": "Ryan Fox",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.25
-      },
-      {
-        "player_id": "sudarshan-yellamaraju",
-        "player_name": "Sudarshan Yellamaraju",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.25
       }
     ]
   },

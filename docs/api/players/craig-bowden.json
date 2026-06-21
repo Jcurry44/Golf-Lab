@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190519",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.78,
-    "avg_sg_total": -1.23,
-    "first_round": "2010-06-24",
+    "rounds": 198,
+    "avg_to_par": 0.48,
+    "avg_sg_total": -0.71,
+    "first_round": "2005-02-10",
     "last_round": "2019-05-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
-        "course": "Atunyote Golf Club",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.6
+      },
+      {
+        "course": "Forest Oaks Country Club",
         "rounds": 4,
         "avg_to_par": -3.0,
-        "avg_sg": 1.34
+        "avg_sg": 1.03
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": 0.76
       },
       {
         "course": "The Old White TPC",
@@ -325,28 +337,16 @@
         "avg_sg": 0.24
       },
       {
-        "course": "TPC River Highlands",
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.2
+        "avg_to_par": -1.5,
+        "avg_sg": 0.23
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 6,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.9
-      },
-      {
-        "course": "St. George's G&CC",
+        "course": "TPC Summerlin",
         "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.24
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.81
+        "avg_to_par": -1.5,
+        "avg_sg": -0.56
       }
     ]
   },
@@ -366,9 +366,15 @@
       },
       {
         "course": "TPC Southwind",
+        "rounds": 7,
+        "avg_to_par": 5.71,
+        "avg_sg": -4.07
+      },
+      {
+        "course": "Quail Hollow Club",
         "rounds": 2,
         "avg_to_par": 5.0,
-        "avg_sg": -3.64
+        "avg_sg": -3.89
       },
       {
         "course": "Bellerive CC",
@@ -377,22 +383,16 @@
         "avg_sg": -4.01
       },
       {
-        "course": "Annandale GC",
+        "course": "Country Club at Mirasol",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.58
+        "avg_to_par": 4.0,
+        "avg_sg": -3.85
       },
       {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.32
-      },
-      {
-        "course": null,
-        "rounds": 5,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.42
+        "course": "Bethpage State Park - Black Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.08
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2010,
-        "rounds": 27,
-        "scoring_average": 71.15,
-        "avg_to_par": 0.04,
-        "avg_sg_total": -0.75,
+        "rounds": 61,
+        "scoring_average": 72.11,
+        "avg_to_par": 0.93,
+        "avg_sg_total": -1.11,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2010-12-05"
+      },
+      {
+        "season": 2009,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -1.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-06-19"
+      },
+      {
+        "season": 2007,
+        "rounds": 81,
+        "scoring_average": 71.27,
+        "avg_to_par": -0.12,
+        "avg_sg_total": -0.28,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-11-30"
+      },
+      {
+        "season": 2005,
+        "rounds": 41,
+        "scoring_average": 71.59,
+        "avg_to_par": 0.27,
+        "avg_sg_total": -0.49,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

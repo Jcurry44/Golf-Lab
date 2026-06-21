@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.87,
-    "avg_sg_total": 0.24,
-    "first_round": "2026-01-24",
+    "rounds": 139,
+    "avg_to_par": -0.75,
+    "avg_sg_total": -0.22,
+    "first_round": "2022-06-16",
     "last_round": "2026-06-21",
     "sg_t2g": 0.255,
     "sg_ott": -0.175,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Memorial Park Golf Course",
+        "course": "Port Royal Golf Course",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.01
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.85
+        "avg_to_par": -3.75,
+        "avg_sg": 2.73
       },
       {
         "course": "Pete Dye Stadium Course",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.55
+        "rounds": 7,
+        "avg_to_par": -3.29,
+        "avg_sg": -0.03
       },
       {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.01
+        "course": "Grand Reserve Golf Club",
+        "rounds": 12,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.42
       },
       {
         "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.95
+        "rounds": 6,
+        "avg_to_par": -2.83,
+        "avg_sg": 0.26
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.22
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.17
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Vidanta Vallarta",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.08
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.97
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -2.86
+      },
+      {
+        "course": "The Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.12
+      },
+      {
         "course": "Shinnecock Hills Golf Club",
         "rounds": 4,
         "avg_to_par": 3.0,
         "avg_sg": 0.05
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "TPC Summerlin",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.6
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.22
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.86
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.41
-      },
-      {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.05
+        "avg_to_par": 2.5,
+        "avg_sg": -3.57
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.15,
-        "avg_to_par": -0.87,
+        "rounds": 46,
+        "scoring_average": 69.89,
+        "avg_to_par": -1.09,
         "avg_sg_total": 0.275,
         "sg_t2g": 0.255,
         "sg_ott": -0.175,
@@ -434,26 +434,26 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.275,
-        "sg_t2g": 0.255,
-        "sg_ott": -0.175,
-        "sg_app": -0.116,
-        "sg_arg": 0.546,
-        "sg_putt": 0.02,
-        "driving_distance": 311.0,
-        "accuracy": 0.5345,
-        "gir": 0.6442,
-        "scrambling": 0.6766,
-        "last_round": null
+        "rounds": 10,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.9,
+        "avg_sg_total": -0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-11-21"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 81,
+        "scoring_average": 70.49,
+        "avg_to_par": -0.64,
         "avg_sg_total": -1.207,
         "sg_t2g": -0.942,
         "sg_ott": -0.336,
@@ -464,24 +464,24 @@
         "accuracy": 0.5554,
         "gir": 0.6622,
         "scrambling": 0.5556,
-        "last_round": null
+        "last_round": "2024-12-15"
       },
       {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.275,
-        "sg_t2g": 0.255,
-        "sg_ott": -0.175,
-        "sg_app": -0.116,
-        "sg_arg": 0.546,
-        "sg_putt": 0.02,
-        "driving_distance": 311.0,
-        "accuracy": 0.5345,
-        "gir": 0.6442,
-        "scrambling": 0.6766,
-        "last_round": null
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -1.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-17"
       }
     ]
   },
@@ -494,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.24 strokes gained. Win probability sits at 60.1%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.22 strokes gained. Win probability sits at 60.1%.",
     "risk_flags": "",
-    "avg_sg_total": 0.24,
-    "avg_to_par": -0.87
+    "avg_sg_total": -0.22,
+    "avg_to_par": -0.75
   },
   "coverage": {
     "hasRoundScorecards": true,

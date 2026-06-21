@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260405",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.3,
-    "avg_sg_total": -0.87,
-    "first_round": "2025-07-17",
+    "rounds": 104,
+    "avg_to_par": 0.32,
+    "avg_sg_total": -0.96,
+    "first_round": "2016-03-24",
     "last_round": "2026-04-03",
     "sg_t2g": -1.896,
     "sg_ott": -1.193,
@@ -319,28 +319,28 @@
         "avg_sg": 2.25
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 7,
+        "avg_to_par": -3.43,
+        "avg_sg": 0.79
+      },
+      {
         "course": "Port Royal Golf Course",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 2.9
       },
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": -2.33,
-        "avg_sg": -0.88
-      },
-      {
-        "course": "Dye's Valley Course",
+        "course": "Waialae Country Club",
         "rounds": 4,
         "avg_to_par": -1.75,
-        "avg_sg": 1.82
+        "avg_sg": 0.43
       },
       {
-        "course": "Grand Reserve Golf Club",
+        "course": "Vidanta Vallarta",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.1
+        "avg_to_par": -1.5,
+        "avg_sg": 0.02
       },
       {
         "course": "Sea Island Golf Club (Seaside Course)",
@@ -359,16 +359,28 @@
     ],
     "rows": [
       {
+        "course": "The Los Angeles Country Club (North Course)",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.7
+      },
+      {
         "course": "PGA National - Champion Course",
         "rounds": 2,
         "avg_to_par": 5.0,
         "avg_sg": -4.76
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -4.6
+        "avg_to_par": 5.0,
+        "avg_sg": -3.69
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.63
       },
       {
         "course": "TPC San Antonio - The Oaks Course",
@@ -377,22 +389,10 @@
         "avg_sg": -3.95
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.59
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": null
-      },
-      {
-        "course": "Black Desert Resort",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.71
+        "avg_to_par": 3.0,
+        "avg_sg": -3.93
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 27,
-        "scoring_average": 64.96,
-        "avg_to_par": -0.85,
+        "rounds": 75,
+        "scoring_average": 69.2,
+        "avg_to_par": 0.07,
         "avg_sg_total": -1.409,
         "sg_t2g": -1.896,
         "sg_ott": -1.193,
@@ -448,6 +448,57 @@
         "gir": 0.6006,
         "scrambling": 0.5927,
         "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": 0.78,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-06-16"
+      },
+      {
+        "season": 2023,
+        "rounds": 10,
+        "scoring_average": 71.3,
+        "avg_to_par": 0.9,
+        "avg_sg_total": -0.73,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
+      },
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -0.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-03-25"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

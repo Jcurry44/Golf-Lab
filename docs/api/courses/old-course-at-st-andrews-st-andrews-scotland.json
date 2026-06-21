@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 460,
-    "avg_to_par": 1.34,
-    "avg_sg_total": -0.96,
-    "difficulty_bucket": "tough"
+    "rounds": 812,
+    "avg_to_par": 0.75,
+    "avg_sg_total": -0.37,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,8 +25,43 @@
     ],
     "rows": [
       {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 4.36
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.86
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.61
+      },
+      {
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.36
+      },
+      {
         "player_id": "abraham-ancer",
         "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.11
+      },
+      {
+        "player_id": "dean-burmester",
+        "player_name": "Dean Burmester",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 2.11
@@ -39,6 +74,13 @@
         "avg_sg": 2.11
       },
       {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.11
+      },
+      {
         "player_id": "anthony-quayle",
         "player_name": "Anthony Quayle",
         "rounds": 4,
@@ -46,67 +88,25 @@
         "avg_sg": 1.86
       },
       {
-        "player_id": "adrian-meronk",
-        "player_name": "Adrian Meronk",
-        "rounds": 2,
+        "player_id": "francesco-molinari",
+        "player_name": "Francesco Molinari",
+        "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": 1.01
+        "avg_sg": 1.86
       },
       {
-        "player_id": "harold-varner-iii",
-        "player_name": "Harold Varner III",
+        "player_id": "lucas-herbert",
+        "player_name": "Lucas Herbert",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.36
+        "avg_to_par": -2.5,
+        "avg_sg": 1.86
       },
       {
-        "player_id": "thomas-pieters",
-        "player_name": "Thomas Pieters",
+        "player_id": "kevin-kisner",
+        "player_name": "Kevin Kisner",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.36
-      },
-      {
-        "player_id": "lee-westwood",
-        "player_name": "Lee Westwood",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.11
-      },
-      {
-        "player_id": "talor-gooch",
-        "player_name": "Talor Gooch",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.11
-      },
-      {
-        "player_id": "robert-rock",
-        "player_name": "Robert Rock",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 2.38
-      },
-      {
-        "player_id": "jason-kokrak",
-        "player_name": "Jason Kokrak",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.86
-      },
-      {
-        "player_id": "lloyd-saltman",
-        "player_name": "Lloyd Saltman",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.83
-      },
-      {
-        "player_id": "filippo-celli",
-        "player_name": "Filippo Celli",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.61
+        "avg_to_par": -2.25,
+        "avg_sg": 1.61
       }
     ]
   },

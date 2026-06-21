@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 0.26,
-    "avg_sg_total": 1.35,
-    "first_round": "2024-04-11",
+    "rounds": 240,
+    "avg_to_par": -0.93,
+    "avg_sg_total": 1.17,
+    "first_round": "2020-11-05",
     "last_round": "2026-06-21",
     "sg_t2g": 1.081,
     "sg_ott": 0.533,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.83
+        "avg_to_par": -5.5,
+        "avg_sg": 0.86
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 12,
-        "avg_to_par": -1.08,
-        "avg_sg": 2.1
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.66
       },
       {
-        "course": "Valhalla Golf Club",
+        "course": "The Summit Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.03
+        "avg_to_par": -4.5,
+        "avg_sg": 0.93
       },
       {
-        "course": "Oakmont Country Club",
+        "course": "Oakdale Golf & Country Club",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 3.07
+        "avg_to_par": -4.0,
+        "avg_sg": 3.53
       },
       {
-        "course": "Shinnecock Hills Golf Club",
+        "course": "Waialae Country Club",
         "rounds": 4,
-        "avg_to_par": 1.33,
-        "avg_sg": 1.72
+        "avg_to_par": -3.0,
+        "avg_sg": 1.69
       },
       {
-        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "course": "Albany GC",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.28
+        "avg_to_par": -2.75,
+        "avg_sg": 0.22
       }
     ]
   },
@@ -359,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.43
+      },
+      {
         "course": "Royal Troon Golf Club - Old Course",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": -0.6
+      },
+      {
+        "course": "The Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -0.65
       },
       {
         "course": "Aronimink Golf Club",
@@ -371,28 +383,16 @@
         "avg_sg": -0.56
       },
       {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.04
+        "course": "Torrey Pines (South)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.25
       },
       {
         "course": "Pinehurst Resort & Country Club (Course No. 2)",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.28
-      },
-      {
-        "course": "Shinnecock Hills Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.33,
-        "avg_sg": 1.72
-      },
-      {
-        "course": "Oakmont Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 3.07
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2024,
-        "rounds": 14,
-        "scoring_average": 71.79,
-        "avg_to_par": 0.79,
-        "avg_sg_total": 0.81,
+        "rounds": 22,
+        "scoring_average": 70.14,
+        "avg_to_par": -1.05,
+        "avg_sg_total": 0.98,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -468,9 +468,9 @@
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 78,
+        "scoring_average": 69.45,
+        "avg_to_par": -1.47,
         "avg_sg_total": 1.678,
         "sg_t2g": 1.081,
         "sg_ott": 0.533,
@@ -481,7 +481,41 @@
         "accuracy": 0.5941,
         "gir": 0.6638,
         "scrambling": 0.6398,
-        "last_round": null
+        "last_round": "2023-08-27"
+      },
+      {
+        "season": 2022,
+        "rounds": 68,
+        "scoring_average": 70.18,
+        "avg_to_par": -0.76,
+        "avg_sg_total": 0.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-21"
+      },
+      {
+        "season": 2021,
+        "rounds": 46,
+        "scoring_average": 70.48,
+        "avg_to_par": -0.7,
+        "avg_sg_total": 0.98,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-20"
       }
     ]
   },
@@ -494,10 +528,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.35 strokes-gained baseline. Win probability sits at 79.5%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.17 strokes-gained baseline. Win probability sits at 79.5%.",
     "risk_flags": "",
-    "avg_sg_total": 1.35,
-    "avg_to_par": 0.26
+    "avg_sg_total": 1.17,
+    "avg_to_par": -0.93
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +540,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 6
   }
 }

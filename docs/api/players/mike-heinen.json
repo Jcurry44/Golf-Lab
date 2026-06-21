@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120722",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.67,
-    "avg_sg_total": -2.59,
-    "first_round": "2005-07-15",
+    "rounds": 54,
+    "avg_to_par": 2.13,
+    "avg_sg_total": -2.14,
+    "first_round": "2003-04-03",
     "last_round": "2012-07-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,15 @@
     "rows": [
       {
         "course": "En-Joie Golf Club",
-        "rounds": 3,
-        "avg_to_par": -2.33,
-        "avg_sg": -0.98
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.45
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.44
       },
       {
         "course": "Atunyote Golf Club",
@@ -337,16 +343,10 @@
         "avg_sg": -1.32
       },
       {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -3.57
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": 3.0,
-        "avg_sg": -2.69
+        "course": "TPC Sugarloaf",
+        "rounds": 6,
+        "avg_to_par": 1.83,
+        "avg_sg": -1.47
       }
     ]
   },
@@ -358,18 +358,6 @@
       "avg_sg"
     ],
     "rows": [
-      {
-        "course": null,
-        "rounds": 3,
-        "avg_to_par": 5.33,
-        "avg_sg": -4.46
-      },
-      {
-        "course": "TPC Sugarloaf",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -4.47
-      },
       {
         "course": "Annandale GC",
         "rounds": 4,
@@ -393,6 +381,18 @@
         "rounds": 4,
         "avg_to_par": 3.25,
         "avg_sg": -2.22
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.57
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.69
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2005,
-        "rounds": 5,
-        "scoring_average": 71.0,
-        "avg_to_par": -0.2,
-        "avg_sg_total": -2.02,
+        "rounds": 15,
+        "scoring_average": 71.73,
+        "avg_to_par": 0.4,
+        "avg_sg_total": -1.48,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-07-22"
+      },
+      {
+        "season": 2003,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": 0.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-06"
       }
     ]
   },
@@ -544,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 8
   }
 }

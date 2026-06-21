@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240616",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.53,
-    "avg_sg_total": -1.34,
-    "first_round": "2019-01-19",
+    "rounds": 72,
+    "avg_to_par": 0.29,
+    "avg_sg_total": -1.15,
+    "first_round": "2010-07-15",
     "last_round": "2024-06-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -331,22 +331,22 @@
         "avg_sg": -0.35
       },
       {
+        "course": "The Country Club of Jackson",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.3
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.92
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": -1.0,
         "avg_sg": -0.23
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.82
-      },
-      {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.06
       }
     ]
   },
@@ -377,22 +377,22 @@
         "avg_sg": -4.03
       },
       {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.71
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 2,
         "avg_to_par": 1.0,
         "avg_sg": -2.84
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Silverado Resort and Spa (North Course)",
         "rounds": 2,
         "avg_to_par": 1.0,
-        "avg_sg": 0.06
-      },
-      {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.14
+        "avg_sg": -2.48
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2019,
-        "rounds": 38,
-        "scoring_average": 71.55,
-        "avg_to_par": 0.21,
-        "avg_sg_total": -1.23,
+        "rounds": 54,
+        "scoring_average": 71.37,
+        "avg_to_par": 0.02,
+        "avg_sg_total": -1.11,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-08-04"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 70.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-01-13"
+      },
+      {
+        "season": 2012,
+        "rounds": 6,
+        "scoring_average": 72.33,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -1.77,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-12-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 71.83,
+        "avg_to_par": -0.17,
+        "avg_sg_total": 0.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.71,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-16"
       }
     ]
   },
@@ -459,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 6
   }
 }

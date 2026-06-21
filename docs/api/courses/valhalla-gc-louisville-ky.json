@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 74,
-    "avg_to_par": 3.57,
-    "avg_sg_total": -2.66,
-    "difficulty_bucket": "brutal"
+    "rounds": 166,
+    "avg_to_par": 1.9,
+    "avg_sg_total": -1.17,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,13 +25,6 @@
     ],
     "rows": [
       {
-        "player_id": "victor-dubuisson",
-        "player_name": "Victor Dubuisson",
-        "rounds": 2,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.99
-      },
-      {
         "player_id": "mikko-ilonen",
         "player_name": "Mikko Ilonen",
         "rounds": 4,
@@ -39,74 +32,81 @@
         "avg_sg": 2.88
       },
       {
+        "player_id": "victor-dubuisson",
+        "player_name": "Victor Dubuisson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.88
+      },
+      {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.38
+      },
+      {
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.38
+      },
+      {
+        "player_id": "marc-warren",
+        "player_name": "Marc Warren",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.38
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.13
+      },
+      {
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "jerry-kelly",
+        "player_name": "Jerry Kelly",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.63
+      },
+      {
+        "player_id": "kenny-perry",
+        "player_name": "Kenny Perry",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.63
+      },
+      {
+        "player_id": "alexander-levy",
+        "player_name": "Alexander Levy",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.38
+      },
+      {
+        "player_id": "richard-sterne",
+        "player_name": "Richard Sterne",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.88
+      },
+      {
         "player_id": "koumei-oda",
         "player_name": "Koumei Oda",
         "rounds": 4,
         "avg_to_par": -0.5,
         "avg_sg": 0.63
-      },
-      {
-        "player_id": "edoardo-molinari",
-        "player_name": "Edoardo Molinari",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "robert-karlsson",
-        "player_name": "Robert Karlsson",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "ryan-helminen",
-        "player_name": "Ryan Helminen",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.28
-      },
-      {
-        "player_id": "colin-montgomerie",
-        "player_name": "Colin Montgomerie",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.12
-      },
-      {
-        "player_id": "johan-kok",
-        "player_name": "Johan Kok",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.22
-      },
-      {
-        "player_id": "tom-watson",
-        "player_name": "Tom Watson",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.22
-      },
-      {
-        "player_id": "jamie-broce",
-        "player_name": "Jamie Broce",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.72
-      },
-      {
-        "player_id": "stuart-deane",
-        "player_name": "Stuart Deane",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.72
-      },
-      {
-        "player_id": "eric-williamson",
-        "player_name": "Eric Williamson",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.22
       }
     ]
   },

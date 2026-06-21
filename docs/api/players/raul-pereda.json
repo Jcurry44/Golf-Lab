@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251109",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.1,
-    "avg_sg_total": -2.15,
-    "first_round": "2024-04-05",
+    "rounds": 66,
+    "avg_to_par": 0.56,
+    "avg_sg_total": -1.5,
+    "first_round": "2023-04-27",
     "last_round": "2025-11-07",
     "sg_t2g": -2.02,
     "sg_ott": -0.836,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.52
+      },
+      {
         "course": "Black Desert Resort",
         "rounds": 4,
         "avg_to_par": -2.0,
@@ -341,12 +347,6 @@
         "rounds": 2,
         "avg_to_par": -0.5,
         "avg_sg": -1.5
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.09
       }
     ]
   },
@@ -377,6 +377,12 @@
         "avg_sg": -3.25
       },
       {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.47
+      },
+      {
         "course": "TPC Twin Cities",
         "rounds": 2,
         "avg_to_par": 2.5,
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": 2.0,
         "avg_sg": -3.9
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.79
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2024,
-        "rounds": 38,
-        "scoring_average": 68.47,
-        "avg_to_par": 1.08,
+        "rounds": 56,
+        "scoring_average": 69.46,
+        "avg_to_par": 0.8,
         "avg_sg_total": -1.879,
         "sg_t2g": -2.02,
         "sg_ott": -0.836,
@@ -448,6 +448,23 @@
         "gir": 0.5733,
         "scrambling": 0.6122,
         "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 8,
+        "scoring_average": 69.13,
+        "avg_to_par": -1.38,
+        "avg_sg_total": 1.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

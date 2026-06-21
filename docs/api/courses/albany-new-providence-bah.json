@@ -1,0 +1,84 @@
+{
+  "course": {
+    "course_id": "albany-new-providence-bah",
+    "course_name": "Albany",
+    "location": "New Providence, BAH",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 12,
+    "avg_to_par": -1.92,
+    "avg_sg_total": -0.61,
+    "difficulty_bucket": "gettable"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 0.97
+      },
+      {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.53
+      },
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -2.28
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "Hero World Challenge",
+        "season": 2019,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "Hero World Challenge",
+        "season": 2016,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260614",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.42,
-    "avg_sg_total": -0.69,
-    "first_round": "2025-09-11",
+    "rounds": 99,
+    "avg_to_par": -0.68,
+    "avg_sg_total": -0.23,
+    "first_round": "2023-12-14",
     "last_round": "2026-06-14",
     "sg_t2g": -0.285,
     "sg_ott": -0.102,
@@ -320,33 +320,33 @@
       },
       {
         "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.5
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.74
+      },
+      {
+        "course": "Vidanta Vallarta",
         "rounds": 4,
         "avg_to_par": -2.75,
-        "avg_sg": 1.6
+        "avg_sg": 1.27
       },
       {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.45
-      },
-      {
-        "course": "The Country Club of Jackson",
+        "course": "TPC Deere Run",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.0
+        "avg_to_par": -2.5,
+        "avg_sg": 0.84
       },
       {
-        "course": "Black Desert Resort",
+        "course": "Pete Dye Stadium Course",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.04
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -1.54
+        "avg_to_par": -2.25,
+        "avg_sg": 0.03
       }
     ]
   },
@@ -360,9 +360,21 @@
     "rows": [
       {
         "course": "Dunes Golf and Beach Club",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -5.23
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
-        "avg_to_par": 6.0,
-        "avg_sg": -6.26
+        "avg_to_par": 4.5,
+        "avg_sg": null
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.88
       },
       {
         "course": "Innisbrook Resort and Golf Club - Copperhead Course",
@@ -371,28 +383,16 @@
         "avg_sg": -2.77
       },
       {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -2.5
-      },
-      {
         "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.68
+        "rounds": 7,
+        "avg_to_par": 1.71,
+        "avg_sg": -1.36
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "Hurstbourne Country Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.59
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.15
+        "avg_to_par": 1.5,
+        "avg_sg": -0.29
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 24,
-        "scoring_average": 70.08,
-        "avg_to_par": -1.17,
+        "rounds": 80,
+        "scoring_average": 68.29,
+        "avg_to_par": -1.04,
         "avg_sg_total": -0.262,
         "sg_t2g": -0.285,
         "sg_ott": -0.102,
@@ -448,6 +448,23 @@
         "gir": 0.6914,
         "scrambling": 0.6083,
         "last_round": "2025-12-14"
+      },
+      {
+        "season": 2023,
+        "rounds": 3,
+        "scoring_average": 71.67,
+        "avg_to_par": 1.67,
+        "avg_sg_total": -0.94,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-16"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.82,
-    "avg_sg_total": -1.14,
-    "first_round": "2019-02-24",
+    "rounds": 103,
+    "avg_to_par": 0.51,
+    "avg_sg_total": -0.68,
+    "first_round": "2017-03-16",
     "last_round": "2025-07-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": 0.56
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.74
+      },
+      {
         "course": "TPC Twin Cities",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": -0.0
       },
       {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.18
-      },
-      {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.66
-      },
-      {
-        "course": "Detroit Golf Club",
+        "course": "Glen Abbey GC",
         "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.34
+        "avg_to_par": -1.5,
+        "avg_sg": -0.0
       },
       {
-        "course": "Hamilton Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.25
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.25
       }
     ]
   },
@@ -377,22 +377,22 @@
         "avg_sg": -3.82
       },
       {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.9
+      },
+      {
         "course": "Royal Portrush Golf Club - Dunluce Links",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": -2.78
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.54
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.73
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 6,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.61
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2019,
-        "rounds": 34,
-        "scoring_average": 71.26,
-        "avg_to_par": 0.21,
-        "avg_sg_total": -0.93,
+        "rounds": 59,
+        "scoring_average": 71.14,
+        "avg_to_par": -0.17,
+        "avg_sg_total": -0.68,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-08-02"
+      },
+      {
+        "season": 2018,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.26,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-03-18"
+      },
+      {
+        "season": 2017,
+        "rounds": 34,
+        "scoring_average": 72.18,
+        "avg_to_par": 1.06,
+        "avg_sg_total": -0.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-28"
       }
     ]
   },
@@ -493,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 6
   }
 }

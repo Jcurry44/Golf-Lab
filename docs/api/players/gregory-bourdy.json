@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20170618",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.93,
-    "avg_sg_total": 0.45,
-    "first_round": "2010-11-05",
+    "rounds": 62,
+    "avg_to_par": 1.48,
+    "avg_sg_total": -0.1,
+    "first_round": "2006-09-28",
     "last_round": "2017-06-16",
     "sg_t2g": null,
     "sg_ott": null,
@@ -326,9 +326,9 @@
       },
       {
         "course": "Sheshan International GC",
-        "rounds": 10,
-        "avg_to_par": -0.7,
-        "avg_sg": 0.31
+        "rounds": 12,
+        "avg_to_par": -0.33,
+        "avg_sg": 0.03
       },
       {
         "course": "Royal Liverpool",
@@ -337,16 +337,16 @@
         "avg_sg": 0.31
       },
       {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.01
+      },
+      {
         "course": "Oakmont CC",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.83
-      },
-      {
-        "course": "Erin Hills",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.19
       }
     ]
   },
@@ -371,6 +371,18 @@
         "avg_sg": -1.05
       },
       {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.89
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.86
+      },
+      {
         "course": "Muirfield",
         "rounds": 4,
         "avg_to_par": 3.25,
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 3.0,
         "avg_sg": 0.33
-      },
-      {
-        "course": "Erin Hills",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.19
-      },
-      {
-        "course": "Oakmont CC",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.83
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2010,
-        "rounds": 2,
-        "scoring_average": 70.5,
-        "avg_to_par": -1.5,
-        "avg_sg_total": 1.86,
+        "rounds": 12,
+        "scoring_average": 72.42,
+        "avg_to_par": 1.08,
+        "avg_sg_total": -0.56,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2010-11-06"
+      },
+      {
+        "season": 2008,
+        "rounds": 4,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": 0.89,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-07-20"
+      },
+      {
+        "season": 2007,
+        "rounds": 4,
+        "scoring_average": 73.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-07-22"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 3.25,
+        "avg_sg_total": -3.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
       }
     ]
   },
@@ -544,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 10
   }
 }

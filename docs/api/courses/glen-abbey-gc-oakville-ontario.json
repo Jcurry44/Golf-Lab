@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 187,
-    "avg_to_par": 1.48,
-    "avg_sg_total": -1.63,
-    "difficulty_bucket": "tough"
+    "rounds": 582,
+    "avg_to_par": 0.49,
+    "avg_sg_total": -0.67,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "michael-putnam",
+        "player_name": "Michael Putnam",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.97
+      },
+      {
+        "player_id": "geoff-ogilvy",
+        "player_name": "Geoff Ogilvy",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.42
+      },
+      {
         "player_id": "jared-du-toit",
         "player_name": "Jared du Toit",
         "rounds": 4,
@@ -32,81 +46,67 @@
         "avg_sg": 2.42
       },
       {
-        "player_id": "scott-verplank",
-        "player_name": "Scott Verplank",
+        "player_id": "marcel-siem",
+        "player_name": "Marcel Siem",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.77
+      },
+      {
+        "player_id": "scott-langley",
+        "player_name": "Scott Langley",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.47
+      },
+      {
+        "player_id": "james-driscoll",
+        "player_name": "James Driscoll",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "trevor-immelman",
+        "player_name": "Trevor Immelman",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "andres-romero",
+        "player_name": "Andres Romero",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.22
+      },
+      {
+        "player_id": "steve-wheatcroft",
+        "player_name": "Steve Wheatcroft",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.45
+      },
+      {
+        "player_id": "john-senden",
+        "player_name": "John Senden",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.67
+      },
+      {
+        "player_id": "jeff-maggert",
+        "player_name": "Jeff Maggert",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "alex-prugh",
+        "player_name": "Alex Prugh",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 0.72
-      },
-      {
-        "player_id": "jeff-gove",
-        "player_name": "Jeff Gove",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.77
-      },
-      {
-        "player_id": "george-coetzee",
-        "player_name": "George Coetzee",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.17
-      },
-      {
-        "player_id": "andrew-svoboda",
-        "player_name": "Andrew Svoboda",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.22
-      },
-      {
-        "player_id": "alistair-presnell",
-        "player_name": "Alistair Presnell",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.27
-      },
-      {
-        "player_id": "tim-clark",
-        "player_name": "Tim Clark",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.03
-      },
-      {
-        "player_id": "casey-wittenberg",
-        "player_name": "Casey Wittenberg",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.02
-      },
-      {
-        "player_id": "tom-gillis",
-        "player_name": "Tom Gillis",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.28
-      },
-      {
-        "player_id": "byron-smith",
-        "player_name": "Byron Smith",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.32
-      },
-      {
-        "player_id": "justin-shin",
-        "player_name": "Justin Shin",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.32
-      },
-      {
-        "player_id": "neal-lancaster",
-        "player_name": "Neal Lancaster",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.32
       }
     ]
   },

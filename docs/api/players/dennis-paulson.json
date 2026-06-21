@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20090208",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.45,
-    "avg_sg_total": -1.53,
-    "first_round": "2005-07-01",
+    "rounds": 78,
+    "avg_to_par": 0.09,
+    "avg_sg_total": -1.03,
+    "first_round": "2002-05-23",
     "last_round": "2009-02-06",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,22 @@
     ],
     "rows": [
       {
-        "course": null,
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": -0.31
-      },
-      {
         "course": "TPC Summerlin",
         "rounds": 2,
         "avg_to_par": -2.0,
         "avg_sg": -0.91
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.54
+      },
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 5,
+        "avg_to_par": -1.2,
+        "avg_sg": 1.67
       },
       {
         "course": "Warwick Hills Golf and Country Club",
@@ -331,22 +337,16 @@
         "avg_sg": -0.49
       },
       {
-        "course": "TPC Sugarloaf",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.35
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": -0.5,
+        "avg_sg": -2.33
       },
       {
-        "course": "TPC Boston",
+        "course": "Muirfield Village Golf Club",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.16
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.07
+        "avg_to_par": -0.25,
+        "avg_sg": -0.07
       }
     ]
   },
@@ -371,6 +371,18 @@
         "avg_sg": -5.57
       },
       {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.96
+      },
+      {
+        "course": "Westchester Country Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.26
+      },
+      {
         "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 2,
         "avg_to_par": 3.0,
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 3.0,
         "avg_sg": -2.82
-      },
-      {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.35
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 6,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.31
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2005,
-        "rounds": 28,
-        "scoring_average": 69.89,
-        "avg_to_par": -1.18,
-        "avg_sg_total": -1.75,
+        "rounds": 62,
+        "scoring_average": 71.23,
+        "avg_to_par": -0.11,
+        "avg_sg_total": -1.09,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-10-28"
+      },
+      {
+        "season": 2002,
+        "rounds": 4,
+        "scoring_average": 71.75,
+        "avg_to_par": -0.25,
+        "avg_sg_total": -0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-26"
       }
     ]
   },
@@ -493,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

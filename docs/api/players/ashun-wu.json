@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250713",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.27,
-    "avg_sg_total": -0.75,
-    "first_round": "2015-11-05",
+    "rounds": 56,
+    "avg_to_par": 1.23,
+    "avg_sg_total": -0.72,
+    "first_round": "2011-11-03",
     "last_round": "2025-07-11",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,9 @@
     "rows": [
       {
         "course": "Sheshan International GC",
-        "rounds": 12,
-        "avg_to_par": -0.58,
-        "avg_sg": 0.19
+        "rounds": 24,
+        "avg_to_par": -0.29,
+        "avg_sg": -0.06
       },
       {
         "course": "The Renaissance Club",
@@ -331,10 +331,22 @@
         "avg_sg": -2.53
       },
       {
+        "course": "Royal Liverpool",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.95
+      },
+      {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 6,
         "avg_to_par": 4.67,
         "avg_sg": null
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.52
       }
     ]
   },
@@ -347,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Muirfield",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.52
+      },
+      {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 6,
         "avg_to_par": 4.67,
         "avg_sg": null
+      },
+      {
+        "course": "Royal Liverpool",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.95
       },
       {
         "course": "Sheshan Golf Club",
@@ -366,9 +390,9 @@
       },
       {
         "course": "Sheshan International GC",
-        "rounds": 12,
-        "avg_to_par": -0.58,
-        "avg_sg": 0.19
+        "rounds": 24,
+        "avg_to_par": -0.29,
+        "avg_sg": -0.06
       }
     ]
   },
@@ -543,6 +567,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2015-11-08"
+      },
+      {
+        "season": 2015,
+        "rounds": 4,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 1.78,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-11-09"
+      },
+      {
+        "season": 2014,
+        "rounds": 6,
+        "scoring_average": 73.67,
+        "avg_to_par": 1.67,
+        "avg_sg_total": -1.89,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-07-18"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -1.52,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-19"
       }
     ]
   },
@@ -554,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 9
+    "seasonProfiles": 12
   }
 }

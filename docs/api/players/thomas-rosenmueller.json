@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260510",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.07,
-    "avg_sg_total": 0.27,
-    "first_round": "2025-07-19",
+    "rounds": 89,
+    "avg_to_par": -0.79,
+    "avg_sg_total": 0.0,
+    "first_round": "2025-01-09",
     "last_round": "2026-05-08",
     "sg_t2g": 0.374,
     "sg_ott": 0.353,
@@ -331,22 +331,22 @@
         "avg_sg": 0.75
       },
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
+        "course": "Detroit Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.18
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.99
+      },
+      {
+        "course": "Grand Reserve Golf Club",
         "rounds": 4,
         "avg_to_par": -2.25,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.82
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.9
+        "avg_sg": -0.1
       }
     ]
   },
@@ -360,15 +360,21 @@
     "rows": [
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 7.5,
+        "rounds": 4,
+        "avg_to_par": 7.0,
         "avg_sg": null
       },
       {
         "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.37
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.6
+        "avg_to_par": 2.0,
+        "avg_sg": -0.69
       },
       {
         "course": "Black Desert Resort",
@@ -378,21 +384,15 @@
       },
       {
         "course": "Dunes Golf and Beach Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.76
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.73
       },
       {
         "course": "Sedgefield Country Club",
         "rounds": 4,
         "avg_to_par": 0.0,
         "avg_sg": -0.7
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.45
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 36,
-        "scoring_average": 65.81,
-        "avg_to_par": -1.31,
+        "rounds": 85,
+        "scoring_average": 66.89,
+        "avg_to_par": -0.87,
         "avg_sg_total": -0.236,
         "sg_t2g": 0.374,
         "sg_ott": 0.353,

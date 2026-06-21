@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.25,
-    "avg_sg_total": -0.9,
-    "first_round": "2022-03-24",
+    "rounds": 142,
+    "avg_to_par": -0.05,
+    "avg_sg_total": -0.84,
+    "first_round": "2018-10-04",
     "last_round": "2024-12-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,22 @@
     ],
     "rows": [
       {
+        "course": "The Country Club of Jackson",
+        "rounds": 8,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.38
+      },
+      {
         "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 4,
         "avg_to_par": -3.25,
         "avg_sg": 1.2
       },
       {
-        "course": "Detroit Golf Club",
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.65
+        "avg_to_par": -2.75,
+        "avg_sg": 1.06
       },
       {
         "course": "TPC Craig Ranch",
@@ -331,22 +337,16 @@
         "avg_sg": -0.47
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -1.08
+        "course": "Detroit Golf Club",
+        "rounds": 8,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.37
       },
       {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "course": "Trinity Forest Golf Club",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.19
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.82
+        "avg_to_par": -1.5,
+        "avg_sg": -0.19
       }
     ]
   },
@@ -359,10 +359,16 @@
     ],
     "rows": [
       {
-        "course": "TPC River Highlands",
+        "course": "Quail Hollow Club",
         "rounds": 2,
         "avg_to_par": 5.0,
-        "avg_sg": -5.54
+        "avg_sg": -3.94
+      },
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.02
       },
       {
         "course": "Vidanta Vallarta",
@@ -377,22 +383,16 @@
         "avg_sg": -2.42
       },
       {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -1.45
+      },
+      {
         "course": "Dye's Valley Course",
         "rounds": 4,
         "avg_to_par": 2.75,
         "avg_sg": -1.11
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.45
-      },
-      {
-        "course": "St. George's G&CC",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.57
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2022,
-        "rounds": 36,
-        "scoring_average": 67.31,
-        "avg_to_par": -0.03,
-        "avg_sg_total": -0.88,
+        "rounds": 69,
+        "scoring_average": 69.03,
+        "avg_to_par": -0.26,
+        "avg_sg_total": -0.71,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-08-05"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -1.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-10-30"
+      },
+      {
+        "season": 2019,
+        "rounds": 67,
+        "scoring_average": 71.13,
+        "avg_to_par": -0.06,
+        "avg_sg_total": -0.95,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-02"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

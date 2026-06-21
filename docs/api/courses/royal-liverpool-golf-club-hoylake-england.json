@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 316,
-    "avg_to_par": 2.28,
-    "avg_sg_total": -0.99,
+    "rounds": 625,
+    "avg_to_par": 1.61,
+    "avg_sg_total": -0.35,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -24,6 +24,13 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "hideto-tanihara",
+        "player_name": "Hideto Tanihara",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.13
+      },
       {
         "player_id": "anthony-wall",
         "player_name": "Anthony Wall",
@@ -39,6 +46,55 @@
         "avg_sg": 2.38
       },
       {
+        "player_id": "jason-day",
+        "player_name": "Jason Day",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "sepp-straka",
+        "player_name": "Sepp Straka",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.93
+      },
+      {
+        "player_id": "brett-rumford",
+        "player_name": "Brett Rumford",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "mikko-ilonen",
+        "player_name": "Mikko Ilonen",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "robert-rock",
+        "player_name": "Robert Rock",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.88
+      },
+      {
         "player_id": "shubhankar-sharma",
         "player_name": "Shubhankar Sharma",
         "rounds": 4,
@@ -51,62 +107,6 @@
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 2.43
-      },
-      {
-        "player_id": "lee-slattery",
-        "player_name": "Lee Slattery",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.38
-      },
-      {
-        "player_id": "paul-broadhurst",
-        "player_name": "Paul Broadhurst",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.38
-      },
-      {
-        "player_id": "henrik-stenson",
-        "player_name": "Henrik Stenson",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 2.18
-      },
-      {
-        "player_id": "thaworn-wiratchant",
-        "player_name": "Thaworn Wiratchant",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.13
-      },
-      {
-        "player_id": "alex-fitzpatrick",
-        "player_name": "Alex Fitzpatrick",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.93
-      },
-      {
-        "player_id": "laurie-canter",
-        "player_name": "Laurie Canter",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.93
-      },
-      {
-        "player_id": "simon-khan",
-        "player_name": "Simon Khan",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.91
-      },
-      {
-        "player_id": "adrian-meronk",
-        "player_name": "Adrian Meronk",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.43
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20231218",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.55,
-    "avg_sg_total": -0.65,
-    "first_round": "2023-04-28",
+    "rounds": 240,
+    "avg_to_par": 0.17,
+    "avg_sg_total": -0.58,
+    "first_round": "2007-11-29",
     "last_round": "2023-12-16",
     "sg_t2g": -0.228,
     "sg_ott": 0.149,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Craig Ranch",
+        "course": "GC of Houston",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.41
+        "avg_to_par": -3.25,
+        "avg_sg": 3.12
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": -0.04
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.39
       },
       {
         "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.33
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.68
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": 0.08
       },
       {
         "course": "Silverado Resort (North Course)",
+        "rounds": 16,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.94
+      },
+      {
+        "course": "The Old White TPC",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.81
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.33
-      },
-      {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.93
+        "avg_to_par": -2.0,
+        "avg_sg": 1.15
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 6,
+        "avg_to_par": 5.67,
+        "avg_sg": null
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -5.22
+      },
+      {
         "course": "Oakdale Golf & Country Club",
         "rounds": 2,
         "avg_to_par": 5.0,
         "avg_sg": -4.81
       },
       {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": null
+        "avg_to_par": 5.0,
+        "avg_sg": -3.61
       },
       {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.7
+        "course": "Memorial Park Golf Course",
+        "rounds": 6,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.45
       },
       {
-        "course": "Dye's Valley Course",
-        "rounds": 3,
-        "avg_to_par": 1.33,
-        "avg_sg": -0.6
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.4
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.84
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.16
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2023,
-        "rounds": 40,
-        "scoring_average": 67.22,
-        "avg_to_par": -0.55,
+        "rounds": 85,
+        "scoring_average": 69.42,
+        "avg_to_par": -0.26,
         "avg_sg_total": -0.67,
         "sg_t2g": -0.228,
         "sg_ott": 0.149,
@@ -431,6 +431,91 @@
         "gir": 0.6639,
         "scrambling": 0.5496,
         "last_round": "2023-12-16"
+      },
+      {
+        "season": 2021,
+        "rounds": 76,
+        "scoring_average": 68.3,
+        "avg_to_par": 0.8,
+        "avg_sg_total": -0.76,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-13"
+      },
+      {
+        "season": 2020,
+        "rounds": 68,
+        "scoring_average": 71.19,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -0.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-23"
+      },
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-01-30"
+      },
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": 0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-02-17"
+      },
+      {
+        "season": 2007,
+        "rounds": 5,
+        "scoring_average": 71.6,
+        "avg_to_par": -0.4,
+        "avg_sg_total": -0.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
       }
     ]
   },
@@ -442,6 +527,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 6
   }
 }

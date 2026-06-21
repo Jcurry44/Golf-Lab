@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.6,
-    "avg_sg_total": -0.36,
-    "first_round": "2025-11-23",
+    "rounds": 240,
+    "avg_to_par": -1.0,
+    "avg_sg_total": -0.14,
+    "first_round": "2022-10-02",
     "last_round": "2026-06-14",
     "sg_t2g": -0.449,
     "sg_ott": -0.275,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": -3.33,
-        "avg_sg": 0.12
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
+        "course": "PGA National Resort (The Champion Course)",
         "rounds": 4,
         "avg_to_par": -3.25,
-        "avg_sg": 2.5
+        "avg_sg": 1.63
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
         "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.17
+        "avg_to_par": -3.25,
+        "avg_sg": 2.42
       },
       {
-        "course": "Waialae Country Club",
+        "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.72
+        "avg_to_par": -2.75,
+        "avg_sg": 0.83
       },
       {
-        "course": "Colonial Country Club",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.25
+        "avg_to_par": -2.75,
+        "avg_sg": -1.51
       },
       {
         "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.1
+        "rounds": 16,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.92
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 10,
+        "avg_to_par": -2.4,
+        "avg_sg": -0.26
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -4.45
       },
       {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 3.33,
+        "avg_sg": -3.42
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.43
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.16
+      },
+      {
         "course": "Innisbrook Resort and Golf Club - Copperhead Course",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -2.27
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "Hamilton Golf & Country Club",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.6
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.41
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.26
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -3.44
+        "avg_to_par": 3.0,
+        "avg_sg": -2.2
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 1,
-        "scoring_average": 63.0,
-        "avg_to_par": -7.0,
+        "rounds": 68,
+        "scoring_average": 69.93,
+        "avg_to_par": -1.28,
         "avg_sg_total": -0.068,
         "sg_t2g": -0.25,
         "sg_ott": -0.043,
@@ -451,9 +451,9 @@
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 48,
+        "scoring_average": 69.81,
+        "avg_to_par": -1.31,
         "avg_sg_total": -0.15,
         "sg_t2g": 0.275,
         "sg_ott": -0.173,
@@ -464,13 +464,13 @@
         "accuracy": 0.7051,
         "gir": 0.7106,
         "scrambling": 0.608,
-        "last_round": null
+        "last_round": "2024-11-22"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 85,
+        "scoring_average": 68.74,
+        "avg_to_par": -0.87,
         "avg_sg_total": -0.013,
         "sg_t2g": -0.15,
         "sg_ott": -0.118,
@@ -481,7 +481,7 @@
         "accuracy": 0.6461,
         "gir": 0.7048,
         "scrambling": 0.5908,
-        "last_round": null
+        "last_round": "2023-12-17"
       }
     ]
   },

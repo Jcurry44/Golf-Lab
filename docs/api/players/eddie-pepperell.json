@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230716",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.78,
-    "avg_sg_total": -0.42,
-    "first_round": "2018-07-21",
+    "rounds": 54,
+    "avg_to_par": 0.81,
+    "avg_sg_total": -0.21,
+    "first_round": "2013-06-13",
     "last_round": "2023-07-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": 3.0
       },
       {
-        "course": "Carnoustie Golf Links - Championship Course",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.72
-      },
-      {
         "course": "Harbour Town Golf Links",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 1.73
       },
       {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.6
+      },
+      {
+        "course": "Erin Hills",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.39
+      },
+      {
+        "course": "St. Andrews GC (Old Course)",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.44
+      },
+      {
         "course": "Bellerive CC",
         "rounds": 4,
         "avg_to_par": 0.0,
         "avg_sg": -0.05
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.73
-      },
-      {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.43
       }
     ]
   },
@@ -365,10 +365,22 @@
         "avg_sg": -3.09
       },
       {
+        "course": "Merion GC",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -2.29
+      },
+      {
         "course": "Bethpage State Park BK Course",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -3.15
+      },
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.96
       },
       {
         "course": "Club de Golf Chapultepec",
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 2.0,
         "avg_sg": -0.83
-      },
-      {
-        "course": "The Renaissance Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.56
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.5
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2018,
-        "rounds": 6,
-        "scoring_average": 69.67,
-        "avg_to_par": -0.67,
-        "avg_sg_total": 0.88,
+        "rounds": 8,
+        "scoring_average": 69.88,
+        "avg_to_par": -0.63,
+        "avg_sg_total": 1.27,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2018-08-12"
+      },
+      {
+        "season": 2017,
+        "rounds": 4,
+        "scoring_average": 70.75,
+        "avg_to_par": -1.25,
+        "avg_sg_total": 2.39,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-06-18"
+      },
+      {
+        "season": 2015,
+        "rounds": 6,
+        "scoring_average": 72.83,
+        "avg_to_par": 0.83,
+        "avg_sg_total": -0.7,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-14"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 77.0,
+        "avg_to_par": 7.0,
+        "avg_sg_total": -2.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-06-14"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

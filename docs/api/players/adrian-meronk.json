@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.13,
-    "avg_sg_total": -0.24,
-    "first_round": "2022-07-16",
+    "rounds": 46,
+    "avg_to_par": 1.35,
+    "avg_sg_total": -0.35,
+    "first_round": "2021-06-17",
     "last_round": "2024-07-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,9 @@
     "rows": [
       {
         "course": "Old Course at St Andrews",
-        "rounds": 2,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.01
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.86
       },
       {
         "course": "PGA National Resort (The Champion)",
@@ -331,12 +331,6 @@
         "avg_sg": -1.58
       },
       {
-        "course": "The Renaissance Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.06
-      },
-      {
         "course": "The Riviera Country Club",
         "rounds": 4,
         "avg_to_par": -0.25,
@@ -347,6 +341,12 @@
         "rounds": 2,
         "avg_to_par": 0.0,
         "avg_sg": 0.19
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.43
       }
     ]
   },
@@ -377,22 +377,22 @@
         "avg_sg": -3.22
       },
       {
+        "course": "Torrey Pines (South)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.75
+      },
+      {
         "course": "Royal Troon Golf Club - Old Course",
         "rounds": 4,
         "avg_to_par": 2.25,
         "avg_sg": 0.35
       },
       {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.3
-      },
-      {
-        "course": "Oak Hill Country Club - East Course",
+        "course": "The Renaissance Club",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.94
+        "avg_to_par": 2.0,
+        "avg_sg": -1.14
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2022,
-        "rounds": 2,
-        "scoring_average": 69.5,
-        "avg_to_par": -2.5,
-        "avg_sg_total": 1.01,
+        "rounds": 6,
+        "scoring_average": 71.83,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.17,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-07-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -1.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-06-18"
       }
     ]
   },
@@ -476,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 4
   }
 }

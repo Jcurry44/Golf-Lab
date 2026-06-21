@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130505",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.9,
-    "avg_sg_total": -0.58,
-    "first_round": "2012-05-20",
+    "rounds": 240,
+    "avg_to_par": -0.24,
+    "avg_sg_total": 0.05,
+    "first_round": "2005-07-01",
     "last_round": "2013-05-05",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Louisiana",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.28
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.07
-      },
-      {
         "course": "Annandale GC",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.55
+        "rounds": 10,
+        "avg_to_par": -3.2,
+        "avg_sg": 1.15
       },
       {
-        "course": "GC of Houston",
+        "course": "TPC Summerlin",
+        "rounds": 8,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.99
+      },
+      {
+        "course": "Warwick Hills Golf and Country Club",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.49
+        "avg_to_par": -3.0,
+        "avg_sg": 1.41
       },
       {
-        "course": "The Old White TPC",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.63
+        "course": "Montreux Golf & Country Club",
+        "rounds": 8,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.5
       },
       {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.78
+        "course": "Sedgefield Country Club",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.88
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": -1.67,
+        "avg_sg": 1.56
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -3.03
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "Shaughnessy Golf and Country Club",
         "rounds": 2,
-        "avg_to_par": 3.0,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.84
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.13
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 2,
+        "avg_to_par": 2.0,
         "avg_sg": -2.12
       },
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.62
-      },
-      {
         "course": "Colonial Country Club",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.09
+        "rounds": 5,
+        "avg_to_par": 1.6,
+        "avg_sg": -1.16
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Waialae Country Club",
         "rounds": 4,
         "avg_to_par": 1.5,
-        "avg_sg": -0.39
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.01
+        "avg_sg": -1.81
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2012,
-        "rounds": 24,
+        "rounds": 65,
         "scoring_average": 71.58,
-        "avg_to_par": 1.08,
-        "avg_sg_total": -0.55,
+        "avg_to_par": 0.57,
+        "avg_sg_total": -0.16,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2012-07-20"
+      },
+      {
+        "season": 2011,
+        "rounds": 96,
+        "scoring_average": 70.64,
+        "avg_to_par": -0.57,
+        "avg_sg_total": 0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-21"
+      },
+      {
+        "season": 2009,
+        "rounds": 6,
+        "scoring_average": 72.17,
+        "avg_to_par": 0.17,
+        "avg_sg_total": -0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2008,
+        "rounds": 8,
+        "scoring_average": 71.0,
+        "avg_to_par": -0.75,
+        "avg_sg_total": 0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2005,
+        "rounds": 43,
+        "scoring_average": 70.58,
+        "avg_to_par": -0.91,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -459,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 7
   }
 }

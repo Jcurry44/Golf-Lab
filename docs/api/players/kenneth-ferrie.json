@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110717",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
+    "rounds": 101,
     "avg_to_par": 1.05,
-    "avg_sg_total": -1.27,
-    "first_round": "2008-04-25",
+    "avg_sg_total": -0.35,
+    "first_round": "2005-07-14",
     "last_round": "2011-07-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,28 @@
     ],
     "rows": [
       {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.84
+      },
+      {
+        "course": null,
+        "rounds": 11,
+        "avg_to_par": -1.36,
+        "avg_sg": 0.55
+      },
+      {
         "course": "Warwick Hills Golf and Country Club",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": -0.16
       },
       {
-        "course": null,
-        "rounds": 2,
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
         "avg_to_par": -1.0,
-        "avg_sg": -1.52
+        "avg_sg": 1.64
       },
       {
         "course": "TPC Deere Run",
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": -1.83
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.26
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.17
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -3.09
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.44
+      },
+      {
         "course": "Royal St George's Golf Club",
         "rounds": 4,
         "avg_to_par": 5.25,
         "avg_sg": -1.92
       },
       {
-        "course": "Atunyote Golf Club",
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": 0.66
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.04
+      },
+      {
+        "course": "TPC Louisiana",
         "rounds": 2,
         "avg_to_par": 3.5,
-        "avg_sg": -1.87
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 3,
-        "avg_to_par": 2.33,
-        "avg_sg": -1.41
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -1.97
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.12
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.58
+        "avg_sg": -3.16
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2008,
-        "rounds": 36,
-        "scoring_average": 71.97,
-        "avg_to_par": 0.58,
-        "avg_sg_total": -1.2,
+        "rounds": 68,
+        "scoring_average": 71.84,
+        "avg_to_par": 0.57,
+        "avg_sg_total": -0.53,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-11-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 12,
+        "scoring_average": 72.75,
+        "avg_to_par": 1.42,
+        "avg_sg_total": 0.49,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 7,
+        "scoring_average": 73.14,
+        "avg_to_par": 2.29,
+        "avg_sg_total": 0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-18"
+      },
+      {
+        "season": 2005,
+        "rounds": 10,
+        "scoring_average": 71.7,
+        "avg_to_par": 1.3,
+        "avg_sg_total": -0.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-09"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

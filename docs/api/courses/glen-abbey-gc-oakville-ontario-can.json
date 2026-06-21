@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 291,
-    "avg_to_par": 0.42,
-    "avg_sg_total": -1.53,
+    "rounds": 831,
+    "avg_to_par": -0.62,
+    "avg_sg_total": -0.6,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,13 @@
     ],
     "rows": [
       {
+        "player_id": "jay-williamson",
+        "player_name": "Jay Williamson",
+        "rounds": 5,
+        "avg_to_par": -14.4,
+        "avg_sg": -0.81
+      },
+      {
         "player_id": "andres-gonzales",
         "player_name": "Andres Gonzales",
         "rounds": 4,
@@ -32,81 +39,74 @@
         "avg_sg": 2.31
       },
       {
+        "player_id": "robert-garrigus",
+        "player_name": "Robert Garrigus",
+        "rounds": 8,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "vijay-singh",
+        "player_name": "Vijay Singh",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "anthony-kim",
+        "player_name": "Anthony Kim",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.44
+      },
+      {
+        "player_id": "whee-kim",
+        "player_name": "Whee Kim",
+        "rounds": 6,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.92
+      },
+      {
+        "player_id": "hudson-swafford",
+        "player_name": "Hudson Swafford",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "graeme-mcdowell",
+        "player_name": "Graeme McDowell",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.63
+      },
+      {
+        "player_id": "s-y-noh",
+        "player_name": "S.Y. Noh",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "chris-baryla",
+        "player_name": "Chris Baryla",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.94
+      },
+      {
+        "player_id": "michael-letzig",
+        "player_name": "Michael Letzig",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.94
+      },
+      {
         "player_id": "ryan-yip",
         "player_name": "Ryan Yip",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.38
-      },
-      {
-        "player_id": "george-cunningham",
-        "player_name": "George Cunningham",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.13
-      },
-      {
-        "player_id": "scott-sterling",
-        "player_name": "Scott Sterling",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.44
-      },
-      {
-        "player_id": "jonathan-randolph",
-        "player_name": "Jonathan Randolph",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.88
-      },
-      {
-        "player_id": "ryan-ruffels",
-        "player_name": "Ryan Ruffels",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.81
-      },
-      {
-        "player_id": "tag-ridings",
-        "player_name": "Tag Ridings",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.81
-      },
-      {
-        "player_id": "chris-crisologo",
-        "player_name": "Chris Crisologo",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.63
-      },
-      {
-        "player_id": "lee-mccoy",
-        "player_name": "Lee McCoy",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.56
-      },
-      {
-        "player_id": "leif-olson",
-        "player_name": "Leif Olson",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.94
-      },
-      {
-        "player_id": "ethan-tracy",
-        "player_name": "Ethan Tracy",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "martin-flores",
-        "player_name": "Martin Flores",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.38
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 176,
-    "avg_to_par": 3.43,
-    "avg_sg_total": -2.33,
-    "difficulty_bucket": "brutal"
+    "rounds": 339,
+    "avg_to_par": 2.26,
+    "avg_sg_total": -1.24,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,27 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "george-coetzee",
+        "player_name": "George Coetzee",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.36
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.86
+      },
+      {
+        "player_id": "steve-elkington",
+        "player_name": "Steve Elkington",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 3.01
+      },
       {
         "player_id": "wen-chong-liang",
         "player_name": "Wen-Chong Liang",
@@ -39,11 +60,39 @@
         "avg_sg": 2.36
       },
       {
+        "player_id": "hiroshi-iwata",
+        "player_name": "Hiroshi Iwata",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.11
+      },
+      {
         "player_id": "simon-dyson",
         "player_name": "Simon Dyson",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 2.16
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.26
+      },
+      {
+        "player_id": "robert-karlsson",
+        "player_name": "Robert Karlsson",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "ernie-els",
+        "player_name": "Ernie Els",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.61
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.36
       },
       {
         "player_id": "simon-khan",
@@ -53,60 +102,11 @@
         "avg_sg": 1.51
       },
       {
-        "player_id": "david-horsey",
-        "player_name": "David Horsey",
+        "player_id": "boo-weekley",
+        "player_name": "Boo Weekley",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.26
-      },
-      {
-        "player_id": "marc-warren",
-        "player_name": "Marc Warren",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.61
-      },
-      {
-        "player_id": "marcel-siem",
-        "player_name": "Marcel Siem",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.61
-      },
-      {
-        "player_id": "thomas-bj-rn",
-        "player_name": "Thomas Bjørn",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.61
-      },
-      {
-        "player_id": "mikko-ilonen",
-        "player_name": "Mikko Ilonen",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.36
-      },
-      {
-        "player_id": "raphael-jacquelin",
-        "player_name": "Raphael Jacquelin",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.19
-      },
-      {
-        "player_id": "tim-thelen",
-        "player_name": "Tim Thelen",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.19
-      },
-      {
-        "player_id": "fredrik-andersson-hed",
-        "player_name": "Fredrik Andersson Hed",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.24
+        "avg_to_par": -0.75,
+        "avg_sg": 1.11
       }
     ]
   },

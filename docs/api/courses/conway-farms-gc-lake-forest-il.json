@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 4,
-    "avg_to_par": -1.0,
-    "avg_sg_total": 0.81,
-    "difficulty_bucket": "gettable"
+    "rounds": 56,
+    "avg_to_par": -0.38,
+    "avg_sg_total": -0.84,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
+        "player_id": "george-mcneill",
+        "player_name": "George McNeill",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.24
+      },
+      {
+        "player_id": "jamie-lovemark",
+        "player_name": "Jamie Lovemark",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.12
+      },
+      {
+        "player_id": "brendon-de-jonge",
+        "player_name": "Brendon de Jonge",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.24
+      },
+      {
+        "player_id": "steven-bowditch",
+        "player_name": "Steven Bowditch",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -0.26
+      },
+      {
         "player_id": "david-lynn",
         "player_name": "David Lynn",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 0.81
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.88
+      },
+      {
+        "player_id": "kevin-stadler",
+        "player_name": "Kevin Stadler",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.06
+      },
+      {
+        "player_id": "sangmoon-bae",
+        "player_name": "Sangmoon Bae",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -1.26
+      },
+      {
+        "player_id": "ngel-cabrera",
+        "player_name": "Ángel Cabrera",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "nicholas-thompson",
+        "player_name": "Nicholas Thompson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.44
+      },
+      {
+        "player_id": "jerry-kelly",
+        "player_name": "Jerry Kelly",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.01
+      },
+      {
+        "player_id": "ollie-schniederjans",
+        "player_name": "Ollie Schniederjans",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.38
       }
     ]
   },

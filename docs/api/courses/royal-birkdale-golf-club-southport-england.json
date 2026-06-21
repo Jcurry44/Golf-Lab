@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 316,
-    "avg_to_par": 4.35,
-    "avg_sg_total": -0.78,
+    "rounds": 475,
+    "avg_to_par": 3.87,
+    "avg_sg_total": -0.42,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,11 +25,25 @@
     ],
     "rows": [
       {
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.78
+      },
+      {
         "player_id": "matthew-southgate",
         "player_name": "Matthew Southgate",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 2.28
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.03
       },
       {
         "player_id": "austin-connelly",
@@ -39,11 +53,11 @@
         "avg_sg": 1.78
       },
       {
-        "player_id": "chris-wood",
-        "player_name": "Chris Wood",
+        "player_id": "jamie-lovemark",
+        "player_name": "Jamie Lovemark",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.78
+        "avg_to_par": 0.0,
+        "avg_sg": 1.28
       },
       {
         "player_id": "richard-bland",
@@ -74,6 +88,13 @@
         "avg_sg": 1.03
       },
       {
+        "player_id": "lee-westwood",
+        "player_name": "Lee Westwood",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.03
+      },
+      {
         "player_id": "thongchai-jaidee",
         "player_name": "Thongchai Jaidee",
         "rounds": 4,
@@ -81,32 +102,11 @@
         "avg_sg": 1.03
       },
       {
-        "player_id": "s-ren-kjeldsen",
-        "player_name": "Søren Kjeldsen",
+        "player_id": "laurie-canter",
+        "player_name": "Laurie Canter",
         "rounds": 4,
         "avg_to_par": 0.5,
         "avg_sg": 0.78
-      },
-      {
-        "player_id": "mike-lorenzo-vera",
-        "player_name": "Mike Lorenzo-Vera",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.92
-      },
-      {
-        "player_id": "andrew-dodt",
-        "player_name": "Andrew Dodt",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.53
-      },
-      {
-        "player_id": "yikeun-chang",
-        "player_name": "Yikeun Chang",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.53
       }
     ]
   },

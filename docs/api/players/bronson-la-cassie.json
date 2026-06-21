@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140817",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.2,
-    "avg_sg_total": -0.27,
-    "first_round": "2014-01-17",
+    "rounds": 61,
+    "avg_to_par": 0.11,
+    "avg_sg_total": -0.29,
+    "first_round": "2007-07-12",
     "last_round": "2014-08-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,16 @@
     ],
     "rows": [
       {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": -0.43
+      },
+      {
         "course": "TPC Louisiana",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 1.52
-      },
-      {
-        "course": "PGA West Palmer Course",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -1.03
       },
       {
         "course": "Grand Reserve Golf Club",
@@ -331,9 +331,15 @@
         "avg_sg": -0.32
       },
       {
+        "course": null,
+        "rounds": 12,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.76
+      },
+      {
         "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
+        "rounds": 6,
+        "avg_to_par": -0.67,
         "avg_sg": -0.19
       },
       {
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": 0.22
-      },
-      {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.88
       }
     ]
   },
@@ -358,6 +358,18 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.75
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.1
+      },
       {
         "course": "TPC River Highlands",
         "rounds": 2,
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 1.0,
         "avg_sg": -1.64
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.37
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.25
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2014,
-        "rounds": 40,
-        "scoring_average": 71.42,
-        "avg_to_par": 0.2,
-        "avg_sg_total": -0.27,
+        "rounds": 45,
+        "scoring_average": 71.64,
+        "avg_to_par": 0.42,
+        "avg_sg_total": -0.58,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2014-08-15"
+      },
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 71.83,
+        "avg_to_par": -0.17,
+        "avg_sg_total": 0.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      },
+      {
+        "season": 2009,
+        "rounds": 6,
+        "scoring_average": 70.67,
+        "avg_to_par": -1.33,
+        "avg_sg_total": 1.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 4,
+        "scoring_average": 70.25,
+        "avg_to_par": -0.75,
+        "avg_sg_total": -0.19,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-07-15"
       }
     ]
   },
@@ -442,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 4
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130818",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.65,
-    "avg_sg_total": -1.19,
-    "first_round": "2013-03-08",
+    "rounds": 78,
+    "avg_to_par": 0.91,
+    "avg_sg_total": -0.86,
+    "first_round": "2009-12-02",
     "last_round": "2013-08-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,30 @@
     ],
     "rows": [
       {
+        "course": "PGA West Palmer Course",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": -0.3
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.74
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.73
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.05
+      },
+      {
         "course": "Sedgefield Country Club",
         "rounds": 4,
         "avg_to_par": -1.0,
@@ -323,30 +347,6 @@
         "rounds": 2,
         "avg_to_par": -1.0,
         "avg_sg": 0.11
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.27
-      },
-      {
-        "course": "The Old White TPC",
-        "rounds": 3,
-        "avg_to_par": 0.33,
-        "avg_sg": -0.55
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.36
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.13
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2013,
-        "rounds": 40,
-        "scoring_average": 72.65,
-        "avg_to_par": 1.65,
-        "avg_sg_total": -1.19,
+        "rounds": 57,
+        "scoring_average": 71.84,
+        "avg_to_par": 0.75,
+        "avg_sg_total": -0.87,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2013-08-18"
+      },
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": 1.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-06-17"
+      },
+      {
+        "season": 2011,
+        "rounds": 4,
+        "scoring_average": 74.75,
+        "avg_to_par": 2.75,
+        "avg_sg_total": -3.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
+      },
+      {
+        "season": 2010,
+        "rounds": 8,
+        "scoring_average": 71.88,
+        "avg_to_par": -0.13,
+        "avg_sg_total": -0.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 5,
+        "scoring_average": 73.8,
+        "avg_to_par": 1.8,
+        "avg_sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-06"
       }
     ]
   },
@@ -442,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 5
   }
 }

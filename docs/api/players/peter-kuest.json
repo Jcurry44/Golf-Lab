@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.38,
-    "avg_sg_total": 0.2,
-    "first_round": "2023-08-04",
+    "rounds": 79,
+    "avg_to_par": -1.04,
+    "avg_sg_total": 0.17,
+    "first_round": "2020-06-25",
     "last_round": "2025-12-14",
     "sg_t2g": 0.198,
     "sg_ott": 0.488,
@@ -325,28 +325,28 @@
         "avg_sg": 2.22
       },
       {
+        "course": "Detroit Golf Club",
+        "rounds": 6,
+        "avg_to_par": -3.67,
+        "avg_sg": 1.6
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.79
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 6,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.67
+      },
+      {
         "course": "The Country Club of Jackson",
         "rounds": 4,
         "avg_to_par": -2.75,
         "avg_sg": 1.18
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.27
-      },
-      {
-        "course": "El Cardonal at Diamante",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -1.05
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.79
       }
     ]
   },
@@ -358,6 +358,24 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": null
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.47
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.92
+      },
       {
         "course": "Black Desert Resort",
         "rounds": 2,
@@ -375,24 +393,6 @@
         "rounds": 7,
         "avg_to_par": 0.57,
         "avg_sg": -0.22
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 3,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.8
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.8
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.31
       }
     ]
   },
@@ -451,9 +451,9 @@
       },
       {
         "season": 2023,
-        "rounds": 24,
-        "scoring_average": 69.58,
-        "avg_to_par": -1.42,
+        "rounds": 53,
+        "scoring_average": 64.38,
+        "avg_to_par": -1.47,
         "avg_sg_total": 0.773,
         "sg_t2g": 0.198,
         "sg_ott": 0.488,
@@ -465,6 +465,40 @@
         "gir": 0.7379,
         "scrambling": 0.6175,
         "last_round": "2023-12-16"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -6.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-09-11"
+      },
+      {
+        "season": 2020,
+        "rounds": 8,
+        "scoring_average": 72.25,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.52,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-07-24"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

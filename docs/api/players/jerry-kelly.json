@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230312",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.13,
-    "avg_sg_total": -0.69,
-    "first_round": "2017-02-10",
+    "rounds": 240,
+    "avg_to_par": -0.65,
+    "avg_sg_total": 0.22,
+    "first_round": "2014-05-25",
     "last_round": "2023-03-12",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,34 +313,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Deere Run",
+        "rounds": 10,
+        "avg_to_par": -2.8,
+        "avg_sg": 1.48
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 8,
+        "avg_to_par": -2.63,
+        "avg_sg": 1.41
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.82
+      },
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.24
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 10,
+        "avg_to_par": -2.2,
+        "avg_sg": 1.23
+      },
+      {
         "course": "Muirfield Village Golf Club",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 1.63
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.25
-      },
-      {
-        "course": "Waialae Country Club",
-        "rounds": 18,
-        "avg_to_par": -0.78,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 8,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.24
-      },
-      {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 8,
-        "avg_to_par": 1.88,
-        "avg_sg": -2.21
       }
     ]
   },
@@ -353,34 +359,40 @@
     ],
     "rows": [
       {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.83
+      },
+      {
+        "course": "Plainfield CC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.04
+      },
+      {
         "course": "Pebble Beach Golf Links",
+        "rounds": 13,
+        "avg_to_par": 2.08,
+        "avg_sg": -2.03
+      },
+      {
+        "course": "TPC Southwind",
         "rounds": 8,
         "avg_to_par": 1.88,
-        "avg_sg": -2.21
+        "avg_sg": -0.93
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 8,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.24
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 6,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.44
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 18,
-        "avg_to_par": -0.78,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.25
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.63
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": 0.67,
+        "avg_sg": 0.67
       }
     ]
   },
@@ -507,10 +519,10 @@
       },
       {
         "season": 2017,
-        "rounds": 4,
-        "scoring_average": 74.0,
-        "avg_to_par": 2.0,
-        "avg_sg_total": -1.87,
+        "rounds": 16,
+        "scoring_average": 71.88,
+        "avg_to_par": 0.31,
+        "avg_sg_total": -0.95,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -521,6 +533,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2017-05-12"
+      },
+      {
+        "season": 2016,
+        "rounds": 76,
+        "scoring_average": 70.62,
+        "avg_to_par": -0.55,
+        "avg_sg_total": 0.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-09-03"
+      },
+      {
+        "season": 2015,
+        "rounds": 79,
+        "scoring_average": 69.87,
+        "avg_to_par": -1.1,
+        "avg_sg_total": 0.61,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-09-20"
+      },
+      {
+        "season": 2014,
+        "rounds": 33,
+        "scoring_average": 69.58,
+        "avg_to_par": -0.91,
+        "avg_sg_total": 0.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-09-07"
       }
     ]
   },
@@ -532,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 10
   }
 }

@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 6,
-    "avg_to_par": 0.17,
-    "avg_sg_total": -0.96,
+    "rounds": 283,
+    "avg_to_par": -1.0,
+    "avg_sg_total": 0.0,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,18 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "will-zalatoris",
-        "player_name": "Will Zalatoris",
+        "player_id": "sepp-straka",
+        "player_name": "Sepp Straka",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.99
+        "avg_to_par": -4.0,
+        "avg_sg": 3.01
       },
       {
-        "player_id": "thomas-detry",
-        "player_name": "Thomas Detry",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.89
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "shane-lowry",
+        "player_name": "Shane Lowry",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.51
+      },
+      {
+        "player_id": "jacob-bridgeman",
+        "player_name": "Jacob Bridgeman",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "patrick-cantlay",
+        "player_name": "Patrick Cantlay",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "tommy-fleetwood",
+        "player_name": "Tommy Fleetwood",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "keith-mitchell",
+        "player_name": "Keith Mitchell",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "stephan-jaeger",
+        "player_name": "Stephan Jaeger",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.51
+      },
+      {
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "daniel-berger",
+        "player_name": "Daniel Berger",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.26
       }
     ]
   },

@@ -512,7 +512,7 @@ def import_from_warehouse(
     db_path: Path,
     event_id: str = "",
     player_limit: int = 0,
-    rounds_per_player: int = 40,
+    rounds_per_player: int = 240,
     event_field_only: bool = False,
 ) -> dict[str, Any]:
     rows = {
@@ -726,7 +726,7 @@ def main() -> None:
     parser.add_argument("--from-warehouse", type=Path, help="Import from a Golf Lab CSV warehouse folder.")
     parser.add_argument("--event-id", default="")
     parser.add_argument("--player-limit", type=int, default=0, help="Optional cap for local development. Default 0 imports the full player universe.")
-    parser.add_argument("--rounds-per-player", type=int, default=40)
+    parser.add_argument("--rounds-per-player", type=int, default=240)
     parser.add_argument("--event-field-only", action="store_true", help="Import only players tied to the selected modeled event.")
     args = parser.parse_args()
 

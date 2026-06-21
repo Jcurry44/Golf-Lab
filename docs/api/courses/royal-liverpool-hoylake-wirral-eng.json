@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 101,
-    "avg_to_par": 2.12,
-    "avg_sg_total": -1.06,
+    "rounds": 191,
+    "avg_to_par": 1.55,
+    "avg_sg_total": -0.57,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -32,6 +32,13 @@
         "avg_sg": 3.06
       },
       {
+        "player_id": "victor-dubuisson",
+        "player_name": "Victor Dubuisson",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.81
+      },
+      {
         "player_id": "robert-karlsson",
         "player_name": "Robert Karlsson",
         "rounds": 4,
@@ -46,6 +53,48 @@
         "avg_sg": 2.31
       },
       {
+        "player_id": "stephen-gallacher",
+        "player_name": "Stephen Gallacher",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "george-coetzee",
+        "player_name": "George Coetzee",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "matteo-manassero",
+        "player_name": "Matteo Manassero",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "ngel-cabrera",
+        "player_name": "Ángel Cabrera",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.81
+      },
+      {
+        "player_id": "chris-wood",
+        "player_name": "Chris Wood",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "darren-clarke",
+        "player_name": "Darren Clarke",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.31
+      },
+      {
         "player_id": "thomas-bj-rn",
         "player_name": "Thomas Bjørn",
         "rounds": 4,
@@ -58,55 +107,6 @@
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": 1.06
-      },
-      {
-        "player_id": "koumei-oda",
-        "player_name": "Koumei Oda",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.56
-      },
-      {
-        "player_id": "gregory-bourdy",
-        "player_name": "Gregory Bourdy",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "tom-watson",
-        "player_name": "Tom Watson",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "chris-rodgers",
-        "player_name": "Chris Rodgers",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.44
-      },
-      {
-        "player_id": "jamie-mcleary",
-        "player_name": "Jamie McLeary",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.44
-      },
-      {
-        "player_id": "ashley-chesters",
-        "player_name": "Ashley Chesters",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.05
-      },
-      {
-        "player_id": "oliver-fisher",
-        "player_name": "Oliver Fisher",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.05
       }
     ]
   },

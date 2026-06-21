@@ -10,10 +10,10 @@
     "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 188,
-    "avg_to_par": 2.01,
-    "avg_sg_total": -1.64,
-    "difficulty_bucket": "tough"
+    "rounds": 338,
+    "avg_to_par": 0.91,
+    "avg_sg_total": -0.63,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,69 @@
     ],
     "rows": [
       {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.68
+      },
+      {
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "matthias-schwab",
+        "player_name": "Matthias Schwab",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "victor-perez",
+        "player_name": "Victor Perez",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.18
+      },
+      {
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.43
+      },
+      {
+        "player_id": "paul-waring",
+        "player_name": "Paul Waring",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.43
+      },
+      {
+        "player_id": "jazz-janewattananond",
+        "player_name": "Jazz Janewattananond",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.93
+      },
+      {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 3.26
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.43
+      },
+      {
         "player_id": "masahiro-kawamura",
         "player_name": "Masahiro Kawamura",
         "rounds": 4,
@@ -32,81 +95,18 @@
         "avg_sg": 1.18
       },
       {
-        "player_id": "scott-hend",
-        "player_name": "Scott Hend",
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
         "rounds": 4,
         "avg_to_par": -1.25,
-        "avg_sg": 0.68
+        "avg_sg": 2.51
       },
       {
-        "player_id": "joost-luiten",
-        "player_name": "Joost Luiten",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.43
-      },
-      {
-        "player_id": "mike-lorenzo-vera",
-        "player_name": "Mike Lorenzo-Vera",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.07
-      },
-      {
-        "player_id": "yosuke-asaji",
-        "player_name": "Yosuke Asaji",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.07
-      },
-      {
-        "player_id": "bryce-easton",
-        "player_name": "Bryce Easton",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.32
-      },
-      {
-        "player_id": "romain-langasque",
-        "player_name": "Romain Langasque",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.57
-      },
-      {
-        "player_id": "andrea-pavan",
-        "player_name": "Andrea Pavan",
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
         "rounds": 8,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.09
-      },
-      {
-        "player_id": "mikumu-horikawa",
-        "player_name": "Mikumu Horikawa",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.82
-      },
-      {
-        "player_id": "alexander-levy",
-        "player_name": "Alexander Levy",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.76
-      },
-      {
-        "player_id": "justin-harding",
-        "player_name": "Justin Harding",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.07
-      },
-      {
-        "player_id": "jake-mcleod",
-        "player_name": "Jake McLeod",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.32
+        "avg_to_par": -1.25,
+        "avg_sg": 1.59
       }
     ]
   },

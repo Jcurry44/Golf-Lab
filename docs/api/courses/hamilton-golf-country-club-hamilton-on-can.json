@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 190,
-    "avg_to_par": 1.36,
-    "avg_sg_total": -1.35,
-    "difficulty_bucket": "tough"
+    "rounds": 651,
+    "avg_to_par": 0.27,
+    "avg_sg_total": -0.22,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,55 @@
     ],
     "rows": [
       {
+        "player_id": "robert-macintyre",
+        "player_name": "Robert MacIntyre",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.97
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.72
+      },
+      {
+        "player_id": "victor-perez",
+        "player_name": "Victor Perez",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.47
+      },
+      {
+        "player_id": "graeme-mcdowell",
+        "player_name": "Graeme McDowell",
+        "rounds": 3,
+        "avg_to_par": -3.33,
+        "avg_sg": 2.88
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.22
+      },
+      {
+        "player_id": "tom-kim",
+        "player_name": "Tom Kim",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.22
+      },
+      {
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.97
+      },
+      {
         "player_id": "jos-de-jes-s-rodr-guez",
         "player_name": "José de Jesús Rodríguez",
         "rounds": 3,
@@ -32,81 +81,32 @@
         "avg_sg": 2.55
       },
       {
-        "player_id": "chris-thompson",
-        "player_name": "Chris Thompson",
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
         "rounds": 3,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.55
+        "avg_to_par": -2.67,
+        "avg_sg": 2.21
       },
       {
-        "player_id": "joey-garber",
-        "player_name": "Joey Garber",
+        "player_id": "wes-roach",
+        "player_name": "Wes Roach",
         "rounds": 3,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.55
+        "avg_to_par": -2.67,
+        "avg_sg": 2.21
       },
       {
-        "player_id": "sean-o-hair",
-        "player_name": "Sean O'Hair",
+        "player_id": "mackenzie-hughes",
+        "player_name": "Mackenzie Hughes",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.22
+        "avg_to_par": -2.5,
+        "avg_sg": 2.47
       },
       {
-        "player_id": "stewart-cink",
-        "player_name": "Stewart Cink",
+        "player_id": "maverick-mcnealy",
+        "player_name": "Maverick McNealy",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.22
-      },
-      {
-        "player_id": "rod-pampling",
-        "player_name": "Rod Pampling",
-        "rounds": 3,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.55
-      },
-      {
-        "player_id": "scott-langley",
-        "player_name": "Scott Langley",
-        "rounds": 3,
-        "avg_to_par": -0.67,
-        "avg_sg": 0.21
-      },
-      {
-        "player_id": "kelly-kraft",
-        "player_name": "Kelly Kraft",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.47
-      },
-      {
-        "player_id": "austin-connelly",
-        "player_name": "Austin Connelly",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
-      },
-      {
-        "player_id": "brandon-harkins",
-        "player_name": "Brandon Harkins",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
-      },
-      {
-        "player_id": "chad-collins",
-        "player_name": "Chad Collins",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
-      },
-      {
-        "player_id": "curtis-luck",
-        "player_name": "Curtis Luck",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.02
+        "avg_to_par": -2.5,
+        "avg_sg": 2.47
       }
     ]
   },

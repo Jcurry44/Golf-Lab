@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230521",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.78,
-    "avg_sg_total": 0.22,
-    "first_round": "2022-07-29",
+    "rounds": 240,
+    "avg_to_par": -0.55,
+    "avg_sg_total": 0.33,
+    "first_round": "2019-09-26",
     "last_round": "2023-05-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 1.31
+        "course": "TPC Summerlin",
+        "rounds": 6,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.77
       },
       {
         "course": "Detroit Golf Club",
-        "rounds": 3,
-        "avg_to_par": -2.67,
-        "avg_sg": 0.64
-      },
-      {
-        "course": "Congaree Golf Club",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.46
+        "avg_to_par": -2.75,
+        "avg_sg": 0.9
       },
       {
         "course": "Waialae Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.41
+        "rounds": 14,
+        "avg_to_par": -2.64,
+        "avg_sg": 1.39
       },
       {
-        "course": "ACCORDIA GOLF Narashino Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.1
+        "course": "Pete Dye Stadium Course",
+        "rounds": 15,
+        "avg_to_par": -2.6,
+        "avg_sg": 0.54
       },
       {
-        "course": "Wilmington Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.0
+        "course": "TPC River Highlands",
+        "rounds": 10,
+        "avg_to_par": -2.4,
+        "avg_sg": 1.47
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 6,
+        "avg_to_par": -2.17,
+        "avg_sg": 0.5
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": 0.25
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -0.74
+      },
+      {
+        "course": "GC of Houston",
         "rounds": 2,
         "avg_to_par": 2.5,
-        "avg_sg": -2.86
+        "avg_sg": -2.1
       },
       {
-        "course": "The Country Club of Jackson",
+        "course": "TPC Twin Cities",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.93
+        "avg_to_par": 2.5,
+        "avg_sg": -1.45
       },
       {
-        "course": "TPC Scottsdale (Stadium Course)",
+        "course": "Torrey Pines (South)",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.53
+        "avg_to_par": 2.5,
+        "avg_sg": 0.25
       },
       {
-        "course": "TPC Southwind",
+        "course": "Colonial Country Club",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.51
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 3,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.63
+        "avg_to_par": 2.0,
+        "avg_sg": -2.22
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2022,
-        "rounds": 9,
-        "scoring_average": 70.0,
-        "avg_to_par": -1.11,
-        "avg_sg_total": -0.12,
+        "rounds": 73,
+        "scoring_average": 70.4,
+        "avg_to_par": -0.7,
+        "avg_sg_total": 0.43,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-08-21"
+      },
+      {
+        "season": 2021,
+        "rounds": 76,
+        "scoring_average": 69.38,
+        "avg_to_par": -0.09,
+        "avg_sg_total": -0.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-20"
+      },
+      {
+        "season": 2020,
+        "rounds": 60,
+        "scoring_average": 70.12,
+        "avg_to_par": -0.88,
+        "avg_sg_total": 0.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-30"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

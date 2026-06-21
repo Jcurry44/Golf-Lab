@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260510",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.03,
-    "avg_sg_total": -0.3,
-    "first_round": "2025-03-20",
+    "rounds": 94,
+    "avg_to_par": 0.34,
+    "avg_sg_total": -0.38,
+    "first_round": "2022-07-07",
     "last_round": "2026-05-08",
     "sg_t2g": 0.016,
     "sg_ott": 0.231,
@@ -319,6 +319,12 @@
         "avg_sg": 2.43
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.15
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 4,
         "avg_to_par": -2.0,
@@ -331,22 +337,16 @@
         "avg_sg": 0.0
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.56
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.12
-      },
-      {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "Old Course at St Andrews",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.33
+        "avg_to_par": -1.5,
+        "avg_sg": 0.86
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 4.1
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Valhalla Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -5.34
+      },
       {
         "course": "Augusta National Golf Club",
         "rounds": 2,
@@ -371,28 +377,22 @@
         "avg_sg": -3.69
       },
       {
-        "course": "Memorial Park Golf Course",
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -3.85
+        "avg_to_par": 4.5,
+        "avg_sg": -5.43
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Muirfield Village Golf Club",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.09
+        "avg_to_par": 4.5,
+        "avg_sg": -3.03
       },
       {
-        "course": "Oakmont Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 2.33
-      },
-      {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.23
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.13
       }
     ]
   },
@@ -434,8 +434,8 @@
       },
       {
         "season": 2025,
-        "rounds": 38,
-        "scoring_average": 70.97,
+        "rounds": 52,
+        "scoring_average": 71.08,
         "avg_to_par": -0.08,
         "avg_sg_total": -0.297,
         "sg_t2g": 0.016,
@@ -448,6 +448,57 @@
         "gir": 0.6709,
         "scrambling": 0.5519,
         "last_round": "2025-10-05"
+      },
+      {
+        "season": 2024,
+        "rounds": 16,
+        "scoring_average": 71.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-07-26"
+      },
+      {
+        "season": 2023,
+        "rounds": 16,
+        "scoring_average": 73.13,
+        "avg_to_par": 2.38,
+        "avg_sg_total": -0.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-07-23"
+      },
+      {
+        "season": 2022,
+        "rounds": 8,
+        "scoring_average": 70.25,
+        "avg_to_par": -0.75,
+        "avg_sg_total": 1.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-17"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

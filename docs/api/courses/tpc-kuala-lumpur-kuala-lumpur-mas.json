@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 233,
-    "avg_to_par": 0.22,
-    "avg_sg_total": -1.65,
+    "rounds": 595,
+    "avg_to_par": -0.65,
+    "avg_sg_total": -0.89,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,62 @@
     ],
     "rows": [
       {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.4
+      },
+      {
+        "player_id": "derek-fathauer",
+        "player_name": "Derek Fathauer",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 3.02
+      },
+      {
+        "player_id": "shubhankar-sharma",
+        "player_name": "Shubhankar Sharma",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "j-b-holmes",
+        "player_name": "J.B. Holmes",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "john-catlin",
+        "player_name": "John Catlin",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.4
+      },
+      {
+        "player_id": "tyrone-van-aswegen",
+        "player_name": "Tyrone Van Aswegen",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.02
+      },
+      {
+        "player_id": "brendon-de-jonge",
+        "player_name": "Brendon de Jonge",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.63
+      },
+      {
         "player_id": "young-han-song",
         "player_name": "Young-han Song",
         "rounds": 4,
@@ -32,81 +88,25 @@
         "avg_sg": 1.02
       },
       {
+        "player_id": "paul-peterson",
+        "player_name": "Paul Peterson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.38
+      },
+      {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.15
+      },
+      {
         "player_id": "angelo-que",
         "player_name": "Angelo Que",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 1.82
-      },
-      {
-        "player_id": "prom-meesawat",
-        "player_name": "Prom Meesawat",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.82
-      },
-      {
-        "player_id": "jeunghun-wang",
-        "player_name": "Jeunghun Wang",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.52
-      },
-      {
-        "player_id": "sanghyun-park",
-        "player_name": "Sanghyun Park",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.6
-      },
-      {
-        "player_id": "sihwan-kim",
-        "player_name": "Sihwan Kim",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.85
-      },
-      {
-        "player_id": "shiv-kapur",
-        "player_name": "Shiv Kapur",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.47
-      },
-      {
-        "player_id": "phachara-khongwatmai",
-        "player_name": "Phachara Khongwatmai",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.16
-      },
-      {
-        "player_id": "gaganjeet-bhullar",
-        "player_name": "Gaganjeet Bhullar",
-        "rounds": 12,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.05
-      },
-      {
-        "player_id": "miguel-tabuena",
-        "player_name": "Miguel Tabuena",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.23
-      },
-      {
-        "player_id": "poom-saksansin",
-        "player_name": "Poom Saksansin",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -0.09
-      },
-      {
-        "player_id": "andrew-dodt",
-        "player_name": "Andrew Dodt",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -1.12
       }
     ]
   },

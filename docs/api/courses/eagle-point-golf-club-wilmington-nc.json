@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 60,
-    "avg_to_par": 2.22,
-    "avg_sg_total": -1.34,
+    "rounds": 194,
+    "avg_to_par": 1.4,
+    "avg_sg_total": -0.54,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -25,6 +25,69 @@
     ],
     "rows": [
       {
+        "player_id": "smylie-kaufman",
+        "player_name": "Smylie Kaufman",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.45
+      },
+      {
+        "player_id": "billy-hurley-iii",
+        "player_name": "Billy Hurley III",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.2
+      },
+      {
+        "player_id": "jonathan-randolph",
+        "player_name": "Jonathan Randolph",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 2.2
+      },
+      {
+        "player_id": "d-a-points",
+        "player_name": "D.A. Points",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.95
+      },
+      {
+        "player_id": "morgan-hoffmann",
+        "player_name": "Morgan Hoffmann",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.95
+      },
+      {
+        "player_id": "mark-anderson",
+        "player_name": "Mark Anderson",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.45
+      },
+      {
+        "player_id": "brett-drewitt",
+        "player_name": "Brett Drewitt",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "chad-collins",
+        "player_name": "Chad Collins",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "spencer-levin",
+        "player_name": "Spencer Levin",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.2
+      },
+      {
         "player_id": "bryce-molder",
         "player_name": "Bryce Molder",
         "rounds": 4,
@@ -32,81 +95,18 @@
         "avg_sg": 0.95
       },
       {
-        "player_id": "gonzalo-fernandez-casta-o",
-        "player_name": "Gonzalo Fernandez-Castaño",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.7
-      },
-      {
-        "player_id": "tag-ridings",
-        "player_name": "Tag Ridings",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.7
-      },
-      {
         "player_id": "john-peterson",
         "player_name": "John Peterson",
-        "rounds": 3,
-        "avg_to_par": 0.33,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "tyler-aldridge",
-        "player_name": "Tyler Aldridge",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.2
+        "avg_to_par": -0.25,
+        "avg_sg": 0.95
       },
       {
-        "player_id": "bob-estes",
-        "player_name": "Bob Estes",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.09
-      },
-      {
-        "player_id": "will-mackenzie",
-        "player_name": "Will MacKenzie",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.41
-      },
-      {
-        "player_id": "greg-owen",
-        "player_name": "Greg Owen",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.2
-      },
-      {
-        "player_id": "steven-alker",
-        "player_name": "Steven Alker",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.2
-      },
-      {
-        "player_id": "brad-fritsch",
-        "player_name": "Brad Fritsch",
+        "player_id": "juli-n-etulain",
+        "player_name": "Julián Etulain",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.3
-      },
-      {
-        "player_id": "miguel-angel-carballo",
-        "player_name": "Miguel Angel Carballo",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -1.55
-      },
-      {
-        "player_id": "andres-gonzales",
-        "player_name": "Andres Gonzales",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.41
+        "avg_to_par": -0.25,
+        "avg_sg": 0.95
       }
     ]
   },

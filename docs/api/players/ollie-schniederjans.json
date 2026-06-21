@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20210228",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.07,
-    "avg_sg_total": -0.36,
-    "first_round": "2019-04-18",
+    "rounds": 240,
+    "avg_to_par": -0.33,
+    "avg_sg_total": 0.04,
+    "first_round": "2017-02-03",
     "last_round": "2021-02-26",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Sedgefield Country Club",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 2.0
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 11,
+        "avg_to_par": -2.73,
+        "avg_sg": 1.95
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 0.82
+      },
+      {
         "course": "Port Royal Golf Course",
         "rounds": 6,
         "avg_to_par": -2.33,
         "avg_sg": 2.0
       },
       {
-        "course": "TPC Deere Run",
+        "course": "Waialae Country Club",
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": 0.76
+      },
+      {
+        "course": "Silverado Resort (North Course)",
         "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.61
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.13
-      },
-      {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.69
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.32
-      },
-      {
-        "course": "Keene Trace Golf Club (Champions Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.17
+        "avg_to_par": -1.75,
+        "avg_sg": 1.62
       }
     ]
   },
@@ -359,10 +359,28 @@
     ],
     "rows": [
       {
-        "course": "Harbour Town Golf Links",
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -0.96
+      },
+      {
+        "course": "Glen Oaks Club",
         "rounds": 2,
         "avg_to_par": 4.0,
-        "avg_sg": -3.91
+        "avg_sg": -3.0
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.98
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.73
       },
       {
         "course": "Memorial Park Golf Course",
@@ -375,24 +393,6 @@
         "rounds": 2,
         "avg_to_par": 1.5,
         "avg_sg": -3.34
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.02
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.55
-      },
-      {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.13
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2019,
-        "rounds": 28,
-        "scoring_average": 71.04,
-        "avg_to_par": 0.11,
-        "avg_sg_total": -0.75,
+        "rounds": 76,
+        "scoring_average": 71.08,
+        "avg_to_par": -0.16,
+        "avg_sg_total": -0.7,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-07-19"
+      },
+      {
+        "season": 2018,
+        "rounds": 87,
+        "scoring_average": 70.61,
+        "avg_to_par": -0.38,
+        "avg_sg_total": 0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-09-01"
+      },
+      {
+        "season": 2017,
+        "rounds": 65,
+        "scoring_average": 70.46,
+        "avg_to_par": -0.45,
+        "avg_sg_total": 0.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-09-17"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

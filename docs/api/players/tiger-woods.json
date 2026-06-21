@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.23,
-    "avg_sg_total": -1.61,
-    "first_round": "2020-09-17",
+    "rounds": 240,
+    "avg_to_par": -0.15,
+    "avg_sg_total": 0.2,
+    "first_round": "2014-03-08",
     "last_round": "2024-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Sherwood Country Club",
+        "course": "ACCORDIA GOLF Narashino Country Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -2.49
+        "avg_to_par": -4.75,
+        "avg_sg": 4.26
       },
       {
-        "course": "Albany GC",
+        "course": "Aronimink GC",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.06
+        "avg_to_par": -4.25,
+        "avg_sg": 2.13
       },
       {
-        "course": "The Riviera Country Club",
-        "rounds": 5,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.24
+        "course": "Bellerive CC",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.45
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 14,
-        "avg_to_par": 2.21,
-        "avg_sg": -1.11
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.05
       },
       {
-        "course": "Pinehurst Resort & Country Club (Course No. 2)",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.42
+        "course": "East Lake Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.37
       },
       {
-        "course": "Valhalla Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.34
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.63
       }
     ]
   },
@@ -359,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Chambers Bay GC",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -4.92
+      },
+      {
         "course": "Royal Troon Golf Club - Old Course",
         "rounds": 2,
         "avg_to_par": 7.0,
         "avg_sg": -3.6
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -6.14
       },
       {
         "course": "Winged Foot Golf Club - West Course",
@@ -371,28 +383,16 @@
         "avg_sg": -1.09
       },
       {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": 0.04
+      },
+      {
         "course": "Old Course at St Andrews",
         "rounds": 2,
         "avg_to_par": 4.5,
         "avg_sg": -4.29
-      },
-      {
-        "course": "Southern Hills Country Club",
-        "rounds": 3,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.35
-      },
-      {
-        "course": "Valhalla Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.34
-      },
-      {
-        "course": "Pinehurst Resort & Country Club (Course No. 2)",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.42
       }
     ]
   },
@@ -482,6 +482,108 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2020-11-15"
+      },
+      {
+        "season": 2020,
+        "rounds": 32,
+        "scoring_average": 70.34,
+        "avg_to_par": -0.66,
+        "avg_sg_total": 0.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-30"
+      },
+      {
+        "season": 2019,
+        "rounds": 41,
+        "scoring_average": 70.39,
+        "avg_to_par": -1.15,
+        "avg_sg_total": 0.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-18"
+      },
+      {
+        "season": 2018,
+        "rounds": 72,
+        "scoring_average": 69.58,
+        "avg_to_par": -1.39,
+        "avg_sg_total": 1.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-09-23"
+      },
+      {
+        "season": 2017,
+        "rounds": 6,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-01-27"
+      },
+      {
+        "season": 2015,
+        "rounds": 36,
+        "scoring_average": 71.94,
+        "avg_to_par": 0.67,
+        "avg_sg_total": -0.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-23"
+      },
+      {
+        "season": 2014,
+        "rounds": 13,
+        "scoring_average": 72.77,
+        "avg_to_par": 1.54,
+        "avg_sg_total": -0.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-08"
       }
     ]
   },
@@ -493,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 10
   }
 }

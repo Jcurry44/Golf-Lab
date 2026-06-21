@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 174,
-    "avg_to_par": 3.63,
-    "avg_sg_total": -1.99,
-    "difficulty_bucket": "brutal"
+    "rounds": 364,
+    "avg_to_par": 2.4,
+    "avg_sg_total": -0.91,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,67 @@
     ],
     "rows": [
       {
+        "player_id": "daniel-summerhays",
+        "player_name": "Daniel Summerhays",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.91
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.41
+      },
+      {
+        "player_id": "padraig-harrington",
+        "player_name": "Padraig Harrington",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.91
+      },
+      {
         "player_id": "gregory-bourdy",
         "player_name": "Gregory Bourdy",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 1.66
+      },
+      {
+        "player_id": "john-senden",
+        "player_name": "John Senden",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.66
+      },
+      {
+        "player_id": "billy-hurley-iii",
+        "player_name": "Billy Hurley III",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "k-j-choi",
+        "player_name": "K.J. Choi",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "kyle-reifers",
+        "player_name": "Kyle Reifers",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.41
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 3.13
       },
       {
         "player_id": "hideto-tanihara",
@@ -39,74 +95,18 @@
         "avg_sg": 1.16
       },
       {
-        "player_id": "jamie-donaldson",
-        "player_name": "Jamie Donaldson",
+        "player_id": "jon-curran",
+        "player_name": "Jon Curran",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.91
+        "avg_to_par": -0.75,
+        "avg_sg": 1.16
       },
       {
-        "player_id": "young-han-song",
-        "player_name": "Young-han Song",
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.41
-      },
-      {
-        "player_id": "george-coetzee",
-        "player_name": "George Coetzee",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.16
-      },
-      {
-        "player_id": "marcus-fraser",
-        "player_name": "Marcus Fraser",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.59
-      },
-      {
-        "player_id": "rich-beem",
-        "player_name": "Rich Beem",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.59
-      },
-      {
-        "player_id": "thongchai-jaidee",
-        "player_name": "Thongchai Jaidee",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.59
-      },
-      {
-        "player_id": "bradley-dredge",
-        "player_name": "Bradley Dredge",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.84
-      },
-      {
-        "player_id": "steve-schneiter",
-        "player_name": "Steve Schneiter",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.89
-      },
-      {
-        "player_id": "chris-wood",
-        "player_name": "Chris Wood",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.31
-      },
-      {
-        "player_id": "ryan-helminen",
-        "player_name": "Ryan Helminen",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.31
+        "avg_to_par": -0.75,
+        "avg_sg": 1.16
       }
     ]
   },

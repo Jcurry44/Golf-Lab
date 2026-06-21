@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 168,
-    "avg_to_par": 1.53,
-    "avg_sg_total": -0.87,
+    "rounds": 710,
+    "avg_to_par": 1.2,
+    "avg_sg_total": -0.58,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -24,6 +24,62 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.63
+      },
+      {
+        "player_id": "jos-coceres",
+        "player_name": "José Coceres",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "grant-waite",
+        "player_name": "Grant Waite",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "jonathan-kaye",
+        "player_name": "Jonathan Kaye",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "shigeki-maruyama",
+        "player_name": "Shigeki Maruyama",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "david-branshaw",
+        "player_name": "David Branshaw",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "kris-cox",
+        "player_name": "Kris Cox",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "bernhard-langer",
+        "player_name": "Bernhard Langer",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.42
+      },
       {
         "player_id": "craig-parry",
         "player_name": "Craig Parry",
@@ -46,67 +102,11 @@
         "avg_sg": 0.9
       },
       {
-        "player_id": "thomas-levet",
-        "player_name": "Thomas Levet",
-        "rounds": 2,
+        "player_id": "joey-sindelar",
+        "player_name": "Joey Sindelar",
+        "rounds": 4,
         "avg_to_par": -1.5,
-        "avg_sg": 0.55
-      },
-      {
-        "player_id": "donnie-hammond",
-        "player_name": "Donnie Hammond",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.65
-      },
-      {
-        "player_id": "spencer-levin",
-        "player_name": "Spencer Levin",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 2.37
-      },
-      {
-        "player_id": "anirban-lahiri",
-        "player_name": "Anirban Lahiri",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 2.51
-      },
-      {
-        "player_id": "john-engler-jr",
-        "player_name": "John Engler, Jr.",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.1
-      },
-      {
-        "player_id": "ethan-tracy",
-        "player_name": "Ethan Tracy",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.13
-      },
-      {
-        "player_id": "sergio-garc-a",
-        "player_name": "Sergio García",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.76
-      },
-      {
-        "player_id": "blayne-barber",
-        "player_name": "Blayne Barber",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.12
-      },
-      {
-        "player_id": "martin-flores",
-        "player_name": "Martin Flores",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.12
+        "avg_sg": 0.9
       }
     ]
   },

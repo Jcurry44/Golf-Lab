@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110814",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.9,
-    "avg_sg_total": 0.17,
-    "first_round": "2008-03-22",
+    "rounds": 108,
+    "avg_to_par": 1.59,
+    "avg_sg_total": 0.11,
+    "first_round": "2005-03-17",
     "last_round": "2011-08-12",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": 1.99
       },
       {
-        "course": "Trump National Doral",
+        "course": "Warwick Hills Golf and Country Club",
         "rounds": 2,
         "avg_to_par": -1.5,
-        "avg_sg": -0.05
+        "avg_sg": 0.01
       },
       {
-        "course": "Firestone CC (South)",
-        "rounds": 8,
-        "avg_to_par": 0.38,
-        "avg_sg": -0.01
-      },
-      {
-        "course": "Royal St George's Golf Club",
+        "course": "Carnoustie Golf Links - Championship Course",
         "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 2.08
+        "avg_to_par": -1.25,
+        "avg_sg": 3.3
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.33
       },
       {
         "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.54
+        "rounds": 8,
+        "avg_to_par": -0.38,
+        "avg_sg": 1.49
       },
       {
-        "course": "Hazeltine National Golf Club",
+        "course": "Medinah Country Club - No. 3 Course",
         "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.01
+        "avg_to_par": -0.25,
+        "avg_sg": 0.88
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -1.98
+      },
       {
         "course": "Oakland Hills Country Club - South Course",
         "rounds": 4,
@@ -377,22 +383,16 @@
         "avg_sg": -2.16
       },
       {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.4
+      },
+      {
         "course": "Royal Birkdale Golf Club",
         "rounds": 4,
         "avg_to_par": 3.75,
         "avg_sg": 1.14
-      },
-      {
-        "course": "Turnberry Resort - Ailsa Course",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.89
-      },
-      {
-        "course": "Hazeltine National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.01
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2008,
-        "rounds": 20,
-        "scoring_average": 73.4,
-        "avg_to_par": 2.6,
-        "avg_sg_total": -0.22,
+        "rounds": 28,
+        "scoring_average": 73.11,
+        "avg_to_par": 2.39,
+        "avg_sg_total": -0.4,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-08-10"
+      },
+      {
+        "season": 2007,
+        "rounds": 16,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.81,
+        "avg_sg_total": 0.87,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-10-14"
+      },
+      {
+        "season": 2006,
+        "rounds": 8,
+        "scoring_average": 73.5,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -0.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-20"
+      },
+      {
+        "season": 2005,
+        "rounds": 36,
+        "scoring_average": 72.22,
+        "avg_to_par": 1.44,
+        "avg_sg_total": -0.01,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-09"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

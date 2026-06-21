@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.02,
-    "avg_sg_total": -0.87,
-    "first_round": "2019-03-02",
+    "rounds": 240,
+    "avg_to_par": 0.61,
+    "avg_sg_total": -0.55,
+    "first_round": "2015-07-18",
     "last_round": "2024-07-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 10,
-        "avg_to_par": -1.1,
-        "avg_sg": -0.04
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "Congressional Country Club - Blue Course",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.12
+        "avg_to_par": -3.0,
+        "avg_sg": 2.93
       },
       {
-        "course": "PGA National Resort (The Champion)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.71
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": -0.21
       },
       {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.64
-      },
-      {
-        "course": "Royal Portrush Golf Club",
+        "course": "Nine Bridges",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.92
+        "avg_to_par": -1.25,
+        "avg_sg": 0.2
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.61
+      },
+      {
+        "course": "Robert Trent Jones GC",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.29
+      },
+      {
+        "course": "St. Andrews GC (Old Course)",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.29
+        "avg_to_par": -1.0,
+        "avg_sg": -0.42
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -3.46
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 3,
+        "avg_to_par": 5.33,
+        "avg_sg": -2.72
+      },
+      {
         "course": "Royal Liverpool Golf Club",
         "rounds": 2,
         "avg_to_par": 5.0,
         "avg_sg": -2.65
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 3,
-        "avg_to_par": 3.67,
-        "avg_sg": -2.46
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.08
       },
       {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -4.84
+        "course": "Augusta National Golf Club",
+        "rounds": 6,
+        "avg_to_par": 4.83,
+        "avg_sg": -2.97
       },
       {
-        "course": "Pebble Beach Golf Links",
+        "course": "Carnoustie Golf Links - Championship Course",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -1.37
-      },
-      {
-        "course": "Royal St. George's GC",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.33
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.44
+        "avg_to_par": 3.5,
+        "avg_sg": -1.53
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2019,
-        "rounds": 23,
-        "scoring_average": 72.26,
-        "avg_to_par": 0.96,
-        "avg_sg_total": -0.75,
+        "rounds": 49,
+        "scoring_average": 71.1,
+        "avg_to_par": -0.18,
+        "avg_sg_total": -0.24,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-07-21"
+      },
+      {
+        "season": 2018,
+        "rounds": 40,
+        "scoring_average": 72.22,
+        "avg_to_par": 0.93,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-17"
+      },
+      {
+        "season": 2017,
+        "rounds": 52,
+        "scoring_average": 72.4,
+        "avg_to_par": 1.29,
+        "avg_sg_total": -1.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-17"
+      },
+      {
+        "season": 2016,
+        "rounds": 66,
+        "scoring_average": 71.74,
+        "avg_to_par": 0.59,
+        "avg_sg_total": -0.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-19"
+      },
+      {
+        "season": 2015,
+        "rounds": 16,
+        "scoring_average": 70.88,
+        "avg_to_par": -0.38,
+        "avg_sg_total": -0.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-23"
       }
     ]
   },
@@ -527,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 10
   }
 }

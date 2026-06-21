@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -1.21,
-    "avg_sg_total": 0.49,
-    "first_round": "2023-06-02",
+    "rounds": 181,
+    "avg_to_par": 0.36,
+    "avg_sg_total": -0.18,
+    "first_round": "2018-06-14",
     "last_round": "2026-06-20",
     "sg_t2g": -0.65,
     "sg_ott": 0.181,
@@ -319,34 +319,34 @@
         "avg_sg": 0.81
       },
       {
-        "course": "TPC River Highlands",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.93
-      },
-      {
         "course": "Port Royal Golf Course",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.02
+        "rounds": 8,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.23
       },
       {
-        "course": "The Country Club of Jackson",
+        "course": "TPC River Highlands",
+        "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.71
+      },
+      {
+        "course": "Old Course at St Andrews",
         "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": 0.93
+        "avg_sg": 1.86
       },
       {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.81
+        "course": "TPC Summerlin",
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.6
       },
       {
-        "course": "Valhalla Golf Club",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.78
+        "avg_to_par": -2.0,
+        "avg_sg": -2.78
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Shinnecock Hills Golf Club",
-        "rounds": 3,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.24
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
+        "course": "Shinnecock Hills GC",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.7
+        "avg_to_par": 8.5,
+        "avg_sg": -3.46
       },
       {
-        "course": "Royal Liverpool Golf Club",
+        "course": "The Country Club",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.15
+        "avg_to_par": 6.5,
+        "avg_sg": -4.12
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.78
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 6,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.34
       },
       {
-        "course": "The Renaissance Club",
+        "course": "The Concession Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.04
+        "avg_to_par": 3.5,
+        "avg_sg": -3.88
       },
       {
-        "course": "TPC Summerlin",
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
         "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.7
+        "avg_to_par": 3.5,
+        "avg_sg": -2.77
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.61
       }
     ]
   },
@@ -468,9 +468,9 @@
       },
       {
         "season": 2023,
-        "rounds": 31,
-        "scoring_average": 69.45,
-        "avg_to_par": -1.65,
+        "rounds": 62,
+        "scoring_average": 70.56,
+        "avg_to_par": -0.4,
         "avg_sg_total": -0.252,
         "sg_t2g": -0.65,
         "sg_ott": 0.181,
@@ -482,6 +482,91 @@
         "gir": 0.621,
         "scrambling": 0.5981,
         "last_round": "2023-11-12"
+      },
+      {
+        "season": 2022,
+        "rounds": 54,
+        "scoring_average": 71.28,
+        "avg_to_par": 0.02,
+        "avg_sg_total": 0.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-21"
+      },
+      {
+        "season": 2021,
+        "rounds": 36,
+        "scoring_average": 72.14,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -0.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-08"
+      },
+      {
+        "season": 2020,
+        "rounds": 10,
+        "scoring_average": 71.1,
+        "avg_to_par": 0.7,
+        "avg_sg_total": -0.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-07"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 73.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -0.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-05-19"
+      },
+      {
+        "season": 2018,
+        "rounds": 6,
+        "scoring_average": 74.17,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -0.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-22"
       }
     ]
   },
@@ -494,10 +579,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.49 strokes gained. Win probability sits at 68.4%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.18 strokes gained. Win probability sits at 68.4%.",
     "risk_flags": "",
-    "avg_sg_total": 0.49,
-    "avg_to_par": -1.21
+    "avg_sg_total": -0.18,
+    "avg_to_par": 0.36
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +591,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 9
   }
 }

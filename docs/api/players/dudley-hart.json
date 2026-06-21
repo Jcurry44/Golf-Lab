@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.95,
-    "avg_sg_total": -1.54,
-    "first_round": "2009-05-31",
+    "rounds": 240,
+    "avg_to_par": -0.4,
+    "avg_sg_total": -0.19,
+    "first_round": "2006-05-11",
     "last_round": "2018-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Summerlin",
+        "course": "Quail Hollow Club",
+        "rounds": 5,
+        "avg_to_par": -16.0,
+        "avg_sg": 2.78
+      },
+      {
+        "course": "Warwick Hills Golf and Country Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.75
+        "avg_to_par": -3.75,
+        "avg_sg": 2.34
       },
       {
-        "course": "PGA West Palmer Course",
-        "rounds": 6,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.93
+        "course": "Bellerive CC",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.62
       },
       {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 11,
-        "avg_to_par": -0.27,
-        "avg_sg": 0.05
+        "course": "Atunyote Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.22
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.34
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.63
       },
       {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.32
-      },
-      {
-        "course": "RTJ Trail (Grand National)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.8
+        "course": null,
+        "rounds": 18,
+        "avg_to_par": -1.39,
+        "avg_sg": 0.76
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -4.31
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 3,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.57
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 7,
+        "avg_to_par": 2.57,
+        "avg_sg": -1.7
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
         "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -5.85
+        "avg_to_par": 2.5,
+        "avg_sg": -1.76
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.18
       },
       {
         "course": "Harbour Town Golf Links",
-        "rounds": 6,
-        "avg_to_par": 1.67,
-        "avg_sg": -1.17
-      },
-      {
-        "course": "RTJ Trail (Grand National)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.8
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.32
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.34
+        "rounds": 12,
+        "avg_to_par": 2.08,
+        "avg_sg": -1.52
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2009,
-        "rounds": 1,
-        "scoring_average": 69.0,
-        "avg_to_par": -1.0,
-        "avg_sg_total": 0.64,
+        "rounds": 38,
+        "scoring_average": 71.79,
+        "avg_to_par": 0.42,
+        "avg_sg_total": -0.34,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2009-05-31"
+      },
+      {
+        "season": 2008,
+        "rounds": 74,
+        "scoring_average": 70.84,
+        "avg_to_par": -0.22,
+        "avg_sg_total": 0.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-11-09"
+      },
+      {
+        "season": 2007,
+        "rounds": 38,
+        "scoring_average": 69.5,
+        "avg_to_par": -1.61,
+        "avg_sg_total": -0.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-05-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 51,
+        "scoring_average": 69.31,
+        "avg_to_par": -1.45,
+        "avg_sg_total": 0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-26"
       }
     ]
   },
@@ -544,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 10
   }
 }

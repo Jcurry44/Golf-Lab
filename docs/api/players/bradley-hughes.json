@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20060723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.55,
-    "avg_sg_total": -0.7,
-    "first_round": "2005-04-30",
+    "rounds": 52,
+    "avg_to_par": 0.85,
+    "avg_sg_total": -0.95,
+    "first_round": "2005-01-13",
     "last_round": "2006-07-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -365,6 +365,18 @@
         "avg_sg": -3.26
       },
       {
+        "course": "TPC Sugarloaf",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.76
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.17
+      },
+      {
         "course": "Shaughnessy Golf and Country Club",
         "rounds": 2,
         "avg_to_par": 3.5,
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": -2.2
-      },
-      {
-        "course": "TPC Louisiana",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.1
-      },
-      {
-        "course": "Royal Liverpool Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.15
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2005,
-        "rounds": 38,
-        "scoring_average": 71.55,
-        "avg_to_par": 0.5,
-        "avg_sg_total": -0.68,
+        "rounds": 50,
+        "scoring_average": 72.02,
+        "avg_to_par": 0.82,
+        "avg_sg_total": -0.94,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250615",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.82,
-    "avg_sg_total": -0.09,
-    "first_round": "2011-08-06",
+    "rounds": 124,
+    "avg_to_par": 1.51,
+    "avg_sg_total": -0.29,
+    "first_round": "2005-07-14",
     "last_round": "2025-06-13",
     "sg_t2g": null,
     "sg_ott": null,
@@ -325,28 +325,28 @@
         "avg_sg": -0.4
       },
       {
+        "course": "Quail Hollow Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.32
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 2.44
+      },
+      {
         "course": "Valhalla GC",
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": 0.38
       },
       {
-        "course": "Firestone CC (South)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.42
-      },
-      {
-        "course": "Torrey Pines (South)",
+        "course": "Whistling Straits - Straits Course",
         "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 1.02
-      },
-      {
-        "course": "The Renaissance Club",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.14
+        "avg_to_par": -0.25,
+        "avg_sg": 1.01
       }
     ]
   },
@@ -358,6 +358,24 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -6.54
+      },
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -0.98
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -5.63
+      },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 6,
@@ -371,28 +389,10 @@
         "avg_sg": -1.42
       },
       {
-        "course": "Oakmont Country Club",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": 0.71
-      },
-      {
-        "course": "Atlanta Athletic Club - Highlands Course",
+        "course": "Royal St George's Golf Club",
         "rounds": 4,
-        "avg_to_par": 3.0,
+        "avg_to_par": 4.25,
         "avg_sg": -0.92
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -1.35
-      },
-      {
-        "course": "St. Andrews GC (Old Course)",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.2
       }
     ]
   },
@@ -553,10 +553,10 @@
       },
       {
         "season": 2011,
-        "rounds": 6,
-        "scoring_average": 72.33,
-        "avg_to_par": 2.33,
-        "avg_sg_total": -0.75,
+        "rounds": 42,
+        "scoring_average": 72.12,
+        "avg_to_par": 0.98,
+        "avg_sg_total": 0.01,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -567,6 +567,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2011-08-14"
+      },
+      {
+        "season": 2010,
+        "rounds": 30,
+        "scoring_average": 72.23,
+        "avg_to_par": 0.63,
+        "avg_sg_total": 0.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2006,
+        "rounds": 14,
+        "scoring_average": 76.07,
+        "avg_to_par": 4.79,
+        "avg_sg_total": -3.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-07-23"
+      },
+      {
+        "season": 2005,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": 0.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-17"
       }
     ]
   },
@@ -578,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 9
+    "seasonProfiles": 12
   }
 }

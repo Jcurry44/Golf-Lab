@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.51,
-    "avg_sg_total": 1.23,
-    "first_round": "2023-07-20",
+    "rounds": 42,
+    "avg_to_par": -0.46,
+    "avg_sg_total": 1.09,
+    "first_round": "2022-03-17",
     "last_round": "2026-06-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -377,6 +377,12 @@
         "avg_sg": 2.38
       },
       {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.29
+      },
+      {
         "course": "The Renaissance Club",
         "rounds": 4,
         "avg_to_par": 0.5,
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": -0.5,
         "avg_sg": 1.93
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.61
       }
     ]
   },
@@ -482,6 +482,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-07-23"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -1.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-03-18"
       }
     ]
   },
@@ -494,10 +511,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model keeps him in the live contender tier. Recent scorecards show a strong +1.23 strokes-gained baseline. Win probability sits at 84.1%.",
+    "plain_english": "Model keeps him in the live contender tier. Recent scorecards show a strong +1.09 strokes-gained baseline. Win probability sits at 84.1%.",
     "risk_flags": "",
-    "avg_sg_total": 1.23,
-    "avg_to_par": -0.51
+    "avg_sg_total": 1.09,
+    "avg_to_par": -0.46
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +523,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

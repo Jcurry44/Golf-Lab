@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 364,
-    "avg_to_par": 0.99,
-    "avg_sg_total": -1.41,
+    "rounds": 950,
+    "avg_to_par": 0.25,
+    "avg_sg_total": -0.67,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "david-frost",
+        "player_name": "David Frost",
+        "rounds": 5,
+        "avg_to_par": -14.4,
+        "avg_sg": 0.85
+      },
+      {
+        "player_id": "mathias-gronberg",
+        "player_name": "Mathias Gronberg",
+        "rounds": 10,
+        "avg_to_par": -2.6,
+        "avg_sg": 1.95
+      },
+      {
         "player_id": "david-mckenzie",
         "player_name": "David McKenzie",
         "rounds": 4,
@@ -32,18 +46,25 @@
         "avg_sg": 2.85
       },
       {
-        "player_id": "scott-sterling",
-        "player_name": "Scott Sterling",
+        "player_id": "garrett-willis",
+        "player_name": "Garrett Willis",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 1.84
       },
       {
-        "player_id": "todd-fischer",
-        "player_name": "Todd Fischer",
+        "player_id": "shane-bertsch",
+        "player_name": "Shane Bertsch",
         "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": 1.84
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "james-nitties",
+        "player_name": "James Nitties",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.59
       },
       {
         "player_id": "bob-sowards",
@@ -53,60 +74,39 @@
         "avg_sg": 1.35
       },
       {
-        "player_id": "bob-tway",
-        "player_name": "Bob Tway",
-        "rounds": 3,
+        "player_id": "matt-weibring",
+        "player_name": "Matt Weibring",
+        "rounds": 4,
         "avg_to_par": -2.0,
+        "avg_sg": 1.34
+      },
+      {
+        "player_id": "paul-stankowski",
+        "player_name": "Paul Stankowski",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.34
+      },
+      {
+        "player_id": "steve-elkington",
+        "player_name": "Steve Elkington",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.1
+      },
+      {
+        "player_id": "patrick-sheehan",
+        "player_name": "Patrick Sheehan",
+        "rounds": 8,
+        "avg_to_par": -1.75,
         "avg_sg": 0.97
       },
       {
-        "player_id": "will-collins",
-        "player_name": "Will Collins",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.84
-      },
-      {
-        "player_id": "danny-ellis",
-        "player_name": "Danny Ellis",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.6
-      },
-      {
-        "player_id": "craig-kanada",
-        "player_name": "Craig Kanada",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.35
-      },
-      {
-        "player_id": "john-riegger",
-        "player_name": "John Riegger",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.35
-      },
-      {
-        "player_id": "todd-demsey",
-        "player_name": "Todd Demsey",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.35
-      },
-      {
-        "player_id": "john-morgan",
-        "player_name": "John Morgan",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.67
-      },
-      {
-        "player_id": "jim-rutledge",
-        "player_name": "Jim Rutledge",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.34
+        "player_id": "daisuke-maruyama",
+        "player_name": "Daisuke Maruyama",
+        "rounds": 8,
+        "avg_to_par": -1.63,
+        "avg_sg": 1.47
       }
     ]
   },

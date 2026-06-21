@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260517",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.63,
-    "avg_sg_total": -1.47,
-    "first_round": "2017-03-23",
+    "rounds": 240,
+    "avg_to_par": 0.88,
+    "avg_sg_total": -0.6,
+    "first_round": "2012-03-08",
     "last_round": "2026-05-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Waialae Country Club",
+        "rounds": 14,
+        "avg_to_par": -2.29,
+        "avg_sg": 0.86
+      },
+      {
         "course": "RTJ Trail (Grand National)",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 0.14
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 6,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.32
+        "course": "CordeValle GC",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.91
       },
       {
         "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -0.22
+        "rounds": 12,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.18
       },
       {
         "course": "Grand Reserve Golf Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.1
+        "rounds": 14,
+        "avg_to_par": -1.29,
+        "avg_sg": 0.24
       },
       {
-        "course": "Keene Trace Golf Club (Champions Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.17
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.74
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.76
       }
     ]
   },
@@ -359,22 +359,22 @@
     ],
     "rows": [
       {
-        "course": "Ocean Course at Kiawah Island",
+        "course": "Merion GC",
         "rounds": 2,
-        "avg_to_par": 7.0,
-        "avg_sg": -3.83
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 2,
-        "avg_to_par": 6.5,
-        "avg_sg": -3.33
+        "avg_to_par": 6.0,
+        "avg_sg": -1.29
       },
       {
         "course": "Bethpage State Park BK Course",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -3.15
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.44
       },
       {
         "course": "Oak Hill Country Club - East Course",
@@ -389,10 +389,10 @@
         "avg_sg": -2.06
       },
       {
-        "course": "Bellerive CC",
+        "course": "The Olympic Club",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.01
+        "avg_to_par": 4.5,
+        "avg_sg": -0.03
       }
     ]
   },
@@ -536,10 +536,10 @@
       },
       {
         "season": 2017,
-        "rounds": 18,
-        "scoring_average": 71.44,
-        "avg_to_par": 0.67,
-        "avg_sg_total": -1.24,
+        "rounds": 22,
+        "scoring_average": 70.68,
+        "avg_to_par": 0.05,
+        "avg_sg_total": -0.82,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -550,6 +550,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2017-08-18"
+      },
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 71.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-29"
+      },
+      {
+        "season": 2015,
+        "rounds": 14,
+        "scoring_average": 72.07,
+        "avg_to_par": 0.64,
+        "avg_sg_total": -0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-16"
+      },
+      {
+        "season": 2014,
+        "rounds": 74,
+        "scoring_average": 71.82,
+        "avg_to_par": 0.72,
+        "avg_sg_total": -0.7,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-17"
+      },
+      {
+        "season": 2013,
+        "rounds": 56,
+        "scoring_average": 71.66,
+        "avg_to_par": 0.77,
+        "avg_sg_total": -0.45,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-16"
       }
     ]
   },
@@ -561,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 8
+    "seasonProfiles": 12
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260308",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.6,
-    "avg_sg_total": -3.09,
-    "first_round": "2024-05-09",
+    "rounds": 122,
+    "avg_to_par": 0.13,
+    "avg_sg_total": -0.94,
+    "first_round": "2020-11-05",
     "last_round": "2026-03-08",
     "sg_t2g": -1.84,
     "sg_ott": -1.143,
@@ -319,10 +319,22 @@
         "avg_sg": null
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 7,
+        "avg_to_par": -3.29,
+        "avg_sg": 0.17
+      },
+      {
         "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.1
+        "rounds": 10,
+        "avg_to_par": -2.6,
+        "avg_sg": 1.26
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": 0.92
       },
       {
         "course": "Black Desert Resort",
@@ -332,21 +344,9 @@
       },
       {
         "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -1.5
-      },
-      {
-        "course": "Hamilton Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.78
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.25
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": -0.18
       }
     ]
   },
@@ -359,16 +359,22 @@
     ],
     "rows": [
       {
-        "course": "Dye's Valley Course",
-        "rounds": 2,
-        "avg_to_par": 9.5,
-        "avg_sg": -6.41
-      },
-      {
         "course": "El Cardonal at Diamante",
         "rounds": 2,
         "avg_to_par": 8.5,
         "avg_sg": -9.48
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 5,
+        "avg_to_par": 5.4,
+        "avg_sg": -3.73
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 3,
+        "avg_to_par": 5.0,
+        "avg_sg": -5.44
       },
       {
         "course": "Detroit Golf Club",
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -4.43
-      },
-      {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -5.4
       }
     ]
   },
@@ -451,9 +451,9 @@
       },
       {
         "season": 2024,
-        "rounds": 33,
-        "scoring_average": 69.3,
-        "avg_to_par": 2.58,
+        "rounds": 62,
+        "scoring_average": 69.61,
+        "avg_to_par": 0.73,
         "avg_sg_total": -1.868,
         "sg_t2g": -1.84,
         "sg_ott": -1.143,
@@ -465,6 +465,57 @@
         "gir": 0.6163,
         "scrambling": 0.5657,
         "last_round": "2024-12-13"
+      },
+      {
+        "season": 2023,
+        "rounds": 45,
+        "scoring_average": 70.76,
+        "avg_to_par": -0.33,
+        "avg_sg_total": -0.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-16"
+      },
+      {
+        "season": 2022,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 1.75,
+        "avg_sg_total": -0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 4,
+        "scoring_average": 70.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": 0.66,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-11-08"
       }
     ]
   },
@@ -476,6 +527,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 3
+    "seasonProfiles": 6
   }
 }

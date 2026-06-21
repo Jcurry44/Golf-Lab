@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251123",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.25,
-    "avg_sg_total": -1.11,
-    "first_round": "2025-04-19",
+    "rounds": 72,
+    "avg_to_par": -0.07,
+    "avg_sg_total": -0.68,
+    "first_round": "2024-12-12",
     "last_round": "2025-11-23",
     "sg_t2g": -0.879,
     "sg_ott": -0.083,
@@ -319,10 +319,22 @@
         "avg_sg": 1.43
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.15
+      },
+      {
         "course": "Sea Island Golf Club (Seaside Course)",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 0.41
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.53
       },
       {
         "course": "Sedgefield Country Club",
@@ -331,22 +343,10 @@
         "avg_sg": 0.55
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.44
-      },
-      {
-        "course": "Port Royal Golf Course",
+        "course": "Dye's Valley Course",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.9
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.49
+        "avg_to_par": -1.0,
+        "avg_sg": 2.64
       }
     ]
   },
@@ -359,16 +359,22 @@
     ],
     "rows": [
       {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
         "avg_to_par": 5.0,
-        "avg_sg": -4.49
+        "avg_sg": -3.69
       },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
         "avg_to_par": 4.5,
         "avg_sg": null
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.13
       },
       {
         "course": "Black Desert Resort",
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -1.29
-      },
-      {
-        "course": "El Cardonal at Diamante",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -4.83
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 67.75,
-        "avg_to_par": 0.25,
+        "rounds": 68,
+        "scoring_average": 69.1,
+        "avg_to_par": -0.01,
         "avg_sg_total": -0.974,
         "sg_t2g": -0.879,
         "sg_ott": -0.083,
@@ -431,6 +431,23 @@
         "gir": 0.6818,
         "scrambling": 0.5635,
         "last_round": "2025-11-23"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 69.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 2.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

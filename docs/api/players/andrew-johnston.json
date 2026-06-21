@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.27,
-    "avg_sg_total": -0.46,
-    "first_round": "2017-02-09",
+    "rounds": 68,
+    "avg_to_par": 1.32,
+    "avg_sg_total": -0.38,
+    "first_round": "2011-07-14",
     "last_round": "2024-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,10 +319,22 @@
         "avg_sg": 1.9
       },
       {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 2.9
+      },
+      {
         "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 2,
         "avg_to_par": -0.5,
         "avg_sg": -2.4
+      },
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.16
       },
       {
         "course": "Harbour Town Golf Links",
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": 0.25,
         "avg_sg": 1.03
-      },
-      {
-        "course": "Erin Hills",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.64
-      },
-      {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.49
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Royal St George's Golf Club",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.0
+      },
       {
         "course": "Sea Island Golf Club (Seaside Course)",
         "rounds": 2,
@@ -377,22 +383,16 @@
         "avg_sg": null
       },
       {
+        "course": "Oakmont CC",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 0.08
+      },
+      {
         "course": "Pebble Beach Golf Links",
         "rounds": 3,
         "avg_to_par": 2.67,
         "avg_sg": -2.38
-      },
-      {
-        "course": "Eagle Point Golf Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.41
-      },
-      {
-        "course": "Royal Portrush Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.19
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2017,
-        "rounds": 28,
-        "scoring_average": 71.93,
-        "avg_to_par": 0.43,
-        "avg_sg_total": 0.01,
+        "rounds": 38,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.47,
+        "avg_sg_total": -0.23,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2017-08-10"
+      },
+      {
+        "season": 2016,
+        "rounds": 16,
+        "scoring_average": 71.5,
+        "avg_to_par": 1.25,
+        "avg_sg_total": 0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-31"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -4.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-07-15"
       }
     ]
   },
@@ -493,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 6
   }
 }

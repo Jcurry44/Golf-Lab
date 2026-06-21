@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 140,
-    "avg_to_par": 1.59,
-    "avg_sg_total": -1.03,
-    "difficulty_bucket": "tough"
+    "rounds": 279,
+    "avg_to_par": 0.95,
+    "avg_sg_total": -0.41,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,41 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.2
+      },
+      {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.2
+      },
+      {
+        "player_id": "dylan-frittelli",
+        "player_name": "Dylan Frittelli",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.7
+      },
+      {
+        "player_id": "brooks-koepka",
+        "player_name": "Brooks Koepka",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.45
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.2
+      },
       {
         "player_id": "marcel-siem",
         "player_name": "Marcel Siem",
@@ -46,6 +81,13 @@
         "avg_sg": 1.45
       },
       {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.45
+      },
+      {
         "player_id": "andy-sullivan",
         "player_name": "Andy Sullivan",
         "rounds": 4,
@@ -53,60 +95,18 @@
         "avg_sg": 1.2
       },
       {
-        "player_id": "benjamin-hebert",
-        "player_name": "Benjamin Hebert",
+        "player_id": "cameron-tringale",
+        "player_name": "Cameron Tringale",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.95
+        "avg_to_par": -0.75,
+        "avg_sg": 1.2
       },
       {
-        "player_id": "daniel-van-tonder",
-        "player_name": "Daniel van Tonder",
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.7
-      },
-      {
-        "player_id": "jc-ritchie",
-        "player_name": "JC Ritchie",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.7
-      },
-      {
-        "player_id": "jazz-janewattananond",
-        "player_name": "Jazz Janewattananond",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.45
-      },
-      {
-        "player_id": "johannes-veerman",
-        "player_name": "Johannes Veerman",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.45
-      },
-      {
-        "player_id": "jonathan-thomson",
-        "player_name": "Jonathan Thomson",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.2
-      },
-      {
-        "player_id": "marcus-armitage",
-        "player_name": "Marcus Armitage",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.2
-      },
-      {
-        "player_id": "bernd-wiesberger",
-        "player_name": "Bernd Wiesberger",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.05
+        "avg_to_par": -0.75,
+        "avg_sg": 1.2
       }
     ]
   },

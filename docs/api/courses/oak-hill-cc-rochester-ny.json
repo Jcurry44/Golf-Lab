@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 67,
-    "avg_to_par": 4.88,
-    "avg_sg_total": -2.73,
+    "rounds": 142,
+    "avg_to_par": 3.65,
+    "avg_sg_total": -1.57,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,11 +25,46 @@
     ],
     "rows": [
       {
+        "player_id": "david-toms",
+        "player_name": "David Toms",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.88
+      },
+      {
+        "player_id": "marc-warren",
+        "player_name": "Marc Warren",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.38
+      },
+      {
+        "player_id": "david-lynn",
+        "player_name": "David Lynn",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 1.38
+      },
+      {
         "player_id": "scott-jamieson",
         "player_name": "Scott Jamieson",
         "rounds": 4,
         "avg_to_par": 0.5,
         "avg_sg": 1.38
+      },
+      {
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 1.13
       },
       {
         "player_id": "marcus-fraser",
@@ -39,6 +74,27 @@
         "avg_sg": 0.63
       },
       {
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.63
+      },
+      {
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.21
+      },
+      {
+        "player_id": "nicolas-colsaerts",
+        "player_name": "Nicolas Colsaerts",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.21
+      },
+      {
         "player_id": "paul-lawrie",
         "player_name": "Paul Lawrie",
         "rounds": 2,
@@ -46,67 +102,11 @@
         "avg_sg": 0.21
       },
       {
-        "player_id": "david-muttitt",
-        "player_name": "David Muttitt",
+        "player_id": "woody-austin",
+        "player_name": "Woody Austin",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "mikko-ilonen",
-        "player_name": "Mikko Ilonen",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "rich-beem",
-        "player_name": "Rich Beem",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "brett-rumford",
-        "player_name": "Brett Rumford",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -1.29
-      },
-      {
-        "player_id": "hiroyuki-fujita",
-        "player_name": "Hiroyuki Fujita",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -1.29
-      },
-      {
-        "player_id": "richie-ramsay",
-        "player_name": "Richie Ramsay",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -1.29
-      },
-      {
-        "player_id": "jeff-sorenson",
-        "player_name": "Jeff Sorenson",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.79
-      },
-      {
-        "player_id": "kohki-idoki",
-        "player_name": "Kohki Idoki",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -1.79
-      },
-      {
-        "player_id": "j-c-anderson",
-        "player_name": "J.C. Anderson",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -2.29
+        "avg_to_par": 2.0,
+        "avg_sg": 0.21
       }
     ]
   },

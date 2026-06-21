@@ -344,7 +344,7 @@ function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row
       <div class="featured-metrics">
         ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
         ${metric("Profile SG", signed(profile?.avg_sg_total))}
-        ${metric("Tracked rounds", profile?.rounds)}
+        ${metric("Imported scorecards", profile?.rounds)}
       </div>
     </div>
   `;
@@ -384,7 +384,7 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
         <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
         <div>
           <h3>${escapeHtml(row.player_name)}</h3>
-          <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} tracked rounds${playerFilters.season === "all" ? "" : ` | ${escapeHtml(playerFilters.season)}`}</p>
+          <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} imported scorecards${playerFilters.season === "all" ? "" : ` | ${escapeHtml(playerFilters.season)}`}</p>
         </div>
         <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.modeled ? "Model" : (row.confidence || "watch"))}</div>
       </div>

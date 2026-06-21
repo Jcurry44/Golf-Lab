@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.0,
-    "avg_sg_total": -0.35,
-    "first_round": "2008-08-01",
+    "rounds": 92,
+    "avg_to_par": 0.05,
+    "avg_sg_total": -0.07,
+    "first_round": "2007-02-01",
     "last_round": "2023-07-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.01
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.98
+      },
+      {
         "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 12,
-        "avg_to_par": -1.33,
-        "avg_sg": 1.21
+        "rounds": 20,
+        "avg_to_par": -1.05,
+        "avg_sg": 1.18
       },
       {
         "course": "Keene Trace Golf Club (Champion Trace)",
@@ -326,27 +338,15 @@
       },
       {
         "course": "Montreux Golf & Country Club",
-        "rounds": 3,
-        "avg_to_par": -0.67,
-        "avg_sg": 0.81
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.03
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Grand Reserve Golf Club",
         "rounds": 4,
         "avg_to_par": -0.5,
-        "avg_sg": 1.38
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.65
-      },
-      {
-        "course": "Grayhawk Golf Club - Raptor Course",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.64
+        "avg_sg": 0.57
       }
     ]
   },
@@ -365,10 +365,10 @@
         "avg_sg": -3.65
       },
       {
-        "course": "PGA National Resort (The Champion)",
+        "course": "GC of Houston",
         "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -3.58
+        "avg_to_par": 5.0,
+        "avg_sg": -4.52
       },
       {
         "course": "Royal Lytham St. Anne",
@@ -377,22 +377,22 @@
         "avg_sg": -1.2
       },
       {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.95
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 6,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.04
+      },
+      {
         "course": "Royal St George's Golf Club",
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": 0.5
-      },
-      {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -3.71
-      },
-      {
-        "course": null,
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -3.02
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2008,
-        "rounds": 13,
-        "scoring_average": 71.0,
-        "avg_to_par": -0.08,
-        "avg_sg_total": -1.14,
+        "rounds": 48,
+        "scoring_average": 71.23,
+        "avg_to_par": 0.35,
+        "avg_sg_total": -0.28,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-11-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 17,
+        "scoring_average": 70.53,
+        "avg_to_par": -0.76,
+        "avg_sg_total": 0.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
       }
     ]
   },
@@ -527,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 7
   }
 }

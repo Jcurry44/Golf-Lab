@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20071014",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.15,
-    "avg_sg_total": -0.54,
-    "first_round": "2006-06-30",
+    "rounds": 103,
+    "avg_to_par": -0.1,
+    "avg_sg_total": -0.81,
+    "first_round": "2005-01-20",
     "last_round": "2007-10-12",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,21 +314,21 @@
     "rows": [
       {
         "course": "Montreux Golf & Country Club",
-        "rounds": 4,
+        "rounds": 8,
         "avg_to_par": -2.25,
-        "avg_sg": 1.07
+        "avg_sg": 1.32
       },
       {
         "course": "Annandale GC",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 2.17
+        "rounds": 6,
+        "avg_to_par": -2.17,
+        "avg_sg": 0.81
       },
       {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.13
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.67
       },
       {
         "course": "Atunyote Golf Club",
@@ -337,16 +337,16 @@
         "avg_sg": 0.11
       },
       {
-        "course": "TPC Boston",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 1.7
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 6,
+        "avg_to_par": -1.17,
+        "avg_sg": 0.4
       },
       {
         "course": "TPC Summerlin",
-        "rounds": 6,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.16
+        "rounds": 10,
+        "avg_to_par": -0.9,
+        "avg_sg": -1.16
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -2.27
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -0.1
+      },
+      {
         "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": 4.5,
-        "avg_sg": -4.34
-      },
-      {
-        "course": "Forest Oaks Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.95
-      },
-      {
-        "course": "Hamilton G&CC",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.04
-      },
-      {
-        "course": "TPC Summerlin",
         "rounds": 6,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.16
+        "avg_to_par": 3.33,
+        "avg_sg": -3.3
       },
       {
-        "course": "Warwick Hills Golf and Country Club",
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.07
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.39
+        "avg_to_par": 2.5,
+        "avg_sg": -1.31
       },
       {
-        "course": "TPC Boston",
+        "course": "TPC River Highlands",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 1.7
+        "avg_to_par": 2.0,
+        "avg_sg": -1.45
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2006,
-        "rounds": 33,
-        "scoring_average": 70.3,
-        "avg_to_par": -0.88,
-        "avg_sg_total": 0.36,
+        "rounds": 45,
+        "scoring_average": 71.38,
+        "avg_to_par": 0.16,
+        "avg_sg_total": -0.51,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-10-15"
+      },
+      {
+        "season": 2005,
+        "rounds": 51,
+        "scoring_average": 70.39,
+        "avg_to_par": -0.78,
+        "avg_sg_total": -0.52,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

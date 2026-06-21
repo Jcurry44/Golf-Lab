@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 544,
-    "avg_to_par": 2.45,
-    "avg_sg_total": -1.46,
+    "rounds": 1277,
+    "avg_to_par": 1.92,
+    "avg_sg_total": -0.9,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -25,8 +25,29 @@
     ],
     "rows": [
       {
+        "player_id": "thomas-pieters",
+        "player_name": "Thomas Pieters",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "kyung-kim",
+        "player_name": "Kyung Kim",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 1.81
+      },
+      {
         "player_id": "scott-hend",
         "player_name": "Scott Hend",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.75
+      },
+      {
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 1.75
@@ -39,74 +60,53 @@
         "avg_sg": 1.7
       },
       {
-        "player_id": "simon-dyson",
-        "player_name": "Simon Dyson",
+        "player_id": "kevin-stadler",
+        "player_name": "Kevin Stadler",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "peter-lonard",
+        "player_name": "Peter Lonard",
         "rounds": 8,
-        "avg_to_par": -0.38,
-        "avg_sg": 0.81
+        "avg_to_par": -0.75,
+        "avg_sg": 2.42
       },
       {
-        "player_id": "kyung-kim",
-        "player_name": "Kyung Kim",
+        "player_id": "matt-gogel",
+        "player_name": "Matt Gogel",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.95
+        "avg_to_par": -0.75,
+        "avg_sg": 2.04
       },
       {
-        "player_id": "anders-hansen",
-        "player_name": "Anders Hansen",
+        "player_id": "dan-forsman",
+        "player_name": "Dan Forsman",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.42
+        "avg_to_par": -0.75,
+        "avg_sg": 2.0
       },
       {
-        "player_id": "toshi-izawa",
-        "player_name": "Toshi Izawa",
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "kenny-perry",
+        "player_name": "Kenny Perry",
         "rounds": 8,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.27
+        "avg_to_par": -0.63,
+        "avg_sg": 1.33
       },
       {
-        "player_id": "marc-warren",
-        "player_name": "Marc Warren",
+        "player_id": "peter-jacobsen",
+        "player_name": "Peter Jacobsen",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.97
-      },
-      {
-        "player_id": "katsumasa-miyamoto",
-        "player_name": "Katsumasa Miyamoto",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.56
-      },
-      {
-        "player_id": "jay-haas",
-        "player_name": "Jay Haas",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.11
-      },
-      {
-        "player_id": "brendan-jones",
-        "player_name": "Brendan Jones",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.3
-      },
-      {
-        "player_id": "richard-finch",
-        "player_name": "Richard Finch",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.3
-      },
-      {
-        "player_id": "richard-green",
-        "player_name": "Richard Green",
-        "rounds": 8,
-        "avg_to_par": 0.38,
-        "avg_sg": -0.01
+        "avg_to_par": -0.5,
+        "avg_sg": 1.75
       }
     ]
   },

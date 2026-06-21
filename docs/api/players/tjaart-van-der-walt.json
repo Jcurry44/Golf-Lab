@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150621",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.7,
-    "avg_sg_total": -0.75,
-    "first_round": "2006-06-08",
+    "rounds": 113,
+    "avg_to_par": 0.15,
+    "avg_sg_total": -0.42,
+    "first_round": "2005-03-31",
     "last_round": "2015-06-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,39 +314,39 @@
     "rows": [
       {
         "course": "TPC Summerlin",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.04
+        "rounds": 8,
+        "avg_to_par": -2.88,
+        "avg_sg": 0.81
       },
       {
         "course": "Warwick Hills Golf and Country Club",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.39
+        "rounds": 6,
+        "avg_to_par": -1.67,
+        "avg_sg": 0.14
       },
       {
-        "course": "Montreux Golf & Country Club",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.2
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 1.7
+      },
+      {
+        "course": "En-Joie Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.43
+        "avg_to_par": -1.25,
+        "avg_sg": -1.7
       },
       {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.6
-      },
-      {
-        "course": "Atunyote Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.65
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.56
+        "course": null,
+        "rounds": 5,
+        "avg_to_par": -1.2,
+        "avg_sg": 0.15
       }
     ]
   },
@@ -358,6 +358,18 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -6.21
+      },
+      {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.34
+      },
       {
         "course": "Chambers Bay GC",
         "rounds": 2,
@@ -371,28 +383,16 @@
         "avg_sg": -3.75
       },
       {
-        "course": "Annandale GC",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -2.83
-      },
-      {
         "course": "Hamilton G&CC",
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -2.12
       },
       {
-        "course": "Westchester Country Club - West Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.92
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
+        "course": "TPC Louisiana",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -2.56
+        "avg_sg": -1.32
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2006,
-        "rounds": 38,
-        "scoring_average": 71.55,
-        "avg_to_par": 0.47,
-        "avg_sg_total": -0.69,
+        "rounds": 57,
+        "scoring_average": 71.4,
+        "avg_to_par": 0.16,
+        "avg_sg_total": -0.33,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-10-15"
+      },
+      {
+        "season": 2005,
+        "rounds": 54,
+        "scoring_average": 71.35,
+        "avg_to_par": -0.04,
+        "avg_sg_total": -0.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

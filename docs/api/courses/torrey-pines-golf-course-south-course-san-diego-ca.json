@@ -10,10 +10,10 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 869,
-    "avg_to_par": 1.99,
-    "avg_sg_total": -1.72,
-    "difficulty_bucket": "tough"
+    "rounds": 4822,
+    "avg_to_par": 0.72,
+    "avg_sg_total": -0.52,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,32 +25,11 @@
     ],
     "rows": [
       {
-        "player_id": "jake-knapp",
-        "player_name": "Jake Knapp",
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
         "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 2.79
-      },
-      {
-        "player_id": "joel-dahmen",
-        "player_name": "Joel Dahmen",
-        "rounds": 4,
-        "avg_to_par": -3.5,
+        "avg_to_par": -3.25,
         "avg_sg": 2.54
-      },
-      {
-        "player_id": "justin-rose",
-        "player_name": "Justin Rose",
-        "rounds": 2,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.18
-      },
-      {
-        "player_id": "adam-schenk",
-        "player_name": "Adam Schenk",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.04
       },
       {
         "player_id": "haotong-li",
@@ -60,53 +39,74 @@
         "avg_sg": 2.04
       },
       {
-        "player_id": "s-amus-power",
-        "player_name": "Séamus Power",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.04
-      },
-      {
-        "player_id": "david-lipsky",
-        "player_name": "David Lipsky",
+        "player_id": "andrew-buckle",
+        "player_name": "Andrew Buckle",
         "rounds": 4,
         "avg_to_par": -2.75,
-        "avg_sg": 1.79
+        "avg_sg": 2.58
       },
       {
-        "player_id": "rasmus-h-jgaard",
-        "player_name": "Rasmus Højgaard",
-        "rounds": 2,
+        "player_id": "nicolai-h-jgaard",
+        "player_name": "Nicolai Højgaard",
+        "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.14
+      },
+      {
+        "player_id": "marc-leishman",
+        "player_name": "Marc Leishman",
+        "rounds": 12,
+        "avg_to_par": -2.58,
+        "avg_sg": 2.43
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 12,
         "avg_to_par": -2.5,
-        "avg_sg": 1.68
+        "avg_sg": 2.72
       },
       {
-        "player_id": "chad-ramey",
-        "player_name": "Chad Ramey",
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 2.22
+      },
+      {
+        "player_id": "keith-mitchell",
+        "player_name": "Keith Mitchell",
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
         "rounds": 4,
-        "avg_to_par": -2.5,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 4,
+        "avg_to_par": -2.25,
         "avg_sg": 1.54
       },
       {
-        "player_id": "kris-ventura",
-        "player_name": "Kris Ventura",
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
         "rounds": 4,
-        "avg_to_par": -2.5,
+        "avg_to_par": -2.25,
         "avg_sg": 1.54
       },
       {
-        "player_id": "daniel-brown",
-        "player_name": "Daniel Brown",
+        "player_id": "tommy-fleetwood",
+        "player_name": "Tommy Fleetwood",
         "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": 1.04
-      },
-      {
-        "player_id": "isaiah-salinda",
-        "player_name": "Isaiah Salinda",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.04
+        "avg_sg": 2.08
       }
     ]
   },

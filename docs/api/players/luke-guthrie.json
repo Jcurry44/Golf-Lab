@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260322",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.38,
-    "avg_sg_total": -0.51,
-    "first_round": "2016-05-19",
+    "rounds": 240,
+    "avg_to_par": -0.18,
+    "avg_sg_total": -0.09,
+    "first_round": "2013-08-30",
     "last_round": "2026-03-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": 1.35
       },
       {
-        "course": "TPC Southwind",
+        "course": "PGA West Palmer Course",
+        "rounds": 7,
+        "avg_to_par": -2.71,
+        "avg_sg": 0.16
+      },
+      {
+        "course": "The Country Club of Jackson",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 2.09
+        "avg_to_par": -2.25,
+        "avg_sg": 0.76
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.21
+        "course": "TPC Deere Run",
+        "rounds": 10,
+        "avg_to_par": -2.2,
+        "avg_sg": 0.88
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "Muirfield Village Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.48
+        "avg_to_par": -2.0,
+        "avg_sg": 1.93
       },
       {
-        "course": "TPC Four Seasons Resort",
+        "course": "Grand Reserve Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.62
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.14
+        "avg_to_par": -1.75,
+        "avg_sg": 1.5
       }
     ]
   },
@@ -359,10 +359,16 @@
     ],
     "rows": [
       {
-        "course": "Pebble Beach Golf Links",
+        "course": "Pinehurst Resort - Course No. 2",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -2.37
+        "avg_to_par": 3.5,
+        "avg_sg": -0.44
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 10,
+        "avg_to_par": 2.6,
+        "avg_sg": -1.08
       },
       {
         "course": "Dye's Valley Course",
@@ -383,16 +389,10 @@
         "avg_sg": -2.63
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.84
-      },
-      {
-        "course": "Congressional Country Club - Blue Course",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.07
+        "course": "TPC River Highlands",
+        "rounds": 6,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.65
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2016,
-        "rounds": 24,
-        "scoring_average": 69.79,
-        "avg_to_par": -0.63,
-        "avg_sg_total": 0.07,
+        "rounds": 55,
+        "scoring_average": 70.78,
+        "avg_to_par": -0.44,
+        "avg_sg_total": -0.18,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-08-21"
+      },
+      {
+        "season": 2015,
+        "rounds": 82,
+        "scoring_average": 70.91,
+        "avg_to_par": -0.15,
+        "avg_sg_total": -0.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-23"
+      },
+      {
+        "season": 2014,
+        "rounds": 85,
+        "scoring_average": 70.52,
+        "avg_to_par": -0.45,
+        "avg_sg_total": 0.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-23"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -2.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-31"
       }
     ]
   },
@@ -527,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 9
   }
 }

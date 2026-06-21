@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 348,
-    "avg_to_par": 1.38,
-    "avg_sg_total": -1.57,
-    "difficulty_bucket": "tough"
+    "rounds": 2107,
+    "avg_to_par": 0.39,
+    "avg_sg_total": -0.62,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,34 @@
     ],
     "rows": [
       {
+        "player_id": "alex-aragon",
+        "player_name": "Alex Aragon",
+        "rounds": 2,
+        "avg_to_par": -35.0,
+        "avg_sg": -1.22
+      },
+      {
+        "player_id": "tripp-isenhour",
+        "player_name": "Tripp Isenhour",
+        "rounds": 3,
+        "avg_to_par": -23.33,
+        "avg_sg": -0.52
+      },
+      {
+        "player_id": "scott-harrington",
+        "player_name": "Scott Harrington",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.12
+      },
+      {
+        "player_id": "julian-suri",
+        "player_name": "Julian Suri",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.9
+      },
+      {
         "player_id": "paul-dunne",
         "player_name": "Paul Dunne",
         "rounds": 4,
@@ -32,81 +60,53 @@
         "avg_sg": 1.9
       },
       {
-        "player_id": "chad-campbell",
-        "player_name": "Chad Campbell",
+        "player_id": "nicholas-lindheim",
+        "player_name": "Nicholas Lindheim",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "talor-gooch",
+        "player_name": "Talor Gooch",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "jerry-smith",
+        "player_name": "Jerry Smith",
         "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": 2.37
+        "avg_sg": 2.78
       },
       {
-        "player_id": "victor-dubuisson",
-        "player_name": "Victor Dubuisson",
+        "player_id": "bernhard-langer",
+        "player_name": "Bernhard Langer",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "bronson-burgoon",
+        "player_name": "Bronson Burgoon",
         "rounds": 4,
         "avg_to_par": -2.25,
-        "avg_sg": 1.29
+        "avg_sg": 2.12
       },
       {
-        "player_id": "boo-weekley",
-        "player_name": "Boo Weekley",
+        "player_id": "cameron-tringale",
+        "player_name": "Cameron Tringale",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.62
-      },
-      {
-        "player_id": "seung-su-han",
-        "player_name": "Seung-su Han",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.4
-      },
-      {
-        "player_id": "jamie-donaldson",
-        "player_name": "Jamie Donaldson",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.44
-      },
-      {
-        "player_id": "andy-zhang",
-        "player_name": "Andy Zhang",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.37
-      },
-      {
-        "player_id": "john-cook",
-        "player_name": "John Cook",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.33
-      },
-      {
-        "player_id": "kelvin-day",
-        "player_name": "Kelvin Day",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.53
-      },
-      {
-        "player_id": "blake-adams",
-        "player_name": "Blake Adams",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "jarrod-lyle",
-        "player_name": "Jarrod Lyle",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "jim-renner",
-        "player_name": "Jim Renner",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.06
+        "avg_to_par": -2.25,
+        "avg_sg": 2.12
       }
     ]
   },

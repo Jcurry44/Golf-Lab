@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251123",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.13,
-    "avg_sg_total": -0.89,
-    "first_round": "2025-04-17",
+    "rounds": 74,
+    "avg_to_par": 0.03,
+    "avg_sg_total": -0.82,
+    "first_round": "2017-06-15",
     "last_round": "2025-11-21",
     "sg_t2g": -1.196,
     "sg_ott": -0.463,
@@ -319,6 +319,12 @@
         "avg_sg": 0.82
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.15
+      },
+      {
         "course": "Sea Island Golf Club (Seaside Course)",
         "rounds": 2,
         "avg_to_par": -2.5,
@@ -331,22 +337,16 @@
         "avg_sg": 0.5
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.48
+      },
+      {
         "course": "TPC Twin Cities",
         "rounds": 2,
         "avg_to_par": -1.0,
         "avg_sg": -0.99
-      },
-      {
-        "course": "Detroit Golf Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -1.57
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 1.15
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -3.6
+      },
       {
         "course": "Hurstbourne Country Club",
         "rounds": 2,
@@ -371,28 +377,22 @@
         "avg_sg": null
       },
       {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.63
+      },
+      {
+        "course": "PGA National Resort (The Champion Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -3.45
+      },
+      {
         "course": "TPC Craig Ranch",
         "rounds": 2,
         "avg_to_par": 1.5,
         "avg_sg": -3.21
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.94
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.86
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.09
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 67.63,
-        "avg_to_par": -0.13,
+        "rounds": 67,
+        "scoring_average": 68.91,
+        "avg_to_par": -0.22,
         "avg_sg_total": -1.214,
         "sg_t2g": -1.196,
         "sg_ott": -0.463,
@@ -431,6 +431,57 @@
         "gir": 0.6419,
         "scrambling": 0.6086,
         "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 2,
+        "scoring_average": 78.0,
+        "avg_to_par": 7.0,
+        "avg_sg_total": -3.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-07-19"
+      },
+      {
+        "season": 2023,
+        "rounds": 3,
+        "scoring_average": 70.33,
+        "avg_to_par": 0.33,
+        "avg_sg_total": 0.4,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-16"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": 0.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-06-16"
       }
     ]
   },
@@ -442,6 +493,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 4
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.45,
-    "avg_sg_total": -1.01,
-    "first_round": "2023-12-15",
+    "rounds": 53,
+    "avg_to_par": 0.34,
+    "avg_sg_total": -1.0,
+    "first_round": "2022-02-10",
     "last_round": "2026-05-31",
     "sg_t2g": -0.721,
     "sg_ott": -0.698,
@@ -313,10 +313,10 @@
     ],
     "rows": [
       {
-        "course": "TPC Craig Ranch",
+        "course": "El Cardonal at Diamante",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.05
+        "avg_to_par": -4.0,
+        "avg_sg": 0.81
       },
       {
         "course": "Pete Dye Stadium Course",
@@ -331,22 +331,22 @@
         "avg_sg": 0.76
       },
       {
+        "course": "TPC Craig Ranch",
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": -1.3
+      },
+      {
         "course": "Colonial Country Club",
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": 0.25
       },
       {
-        "course": "TPC San Antonio - The Oaks Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -1.21
-      },
-      {
-        "course": "Grand Reserve Golf Club",
+        "course": "Vidanta Vallarta",
         "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.24
+        "avg_to_par": 0.0,
+        "avg_sg": -0.42
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -4.09
       },
       {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.43
+      },
+      {
         "course": "PGA National - Champion Course",
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -2.26
       },
       {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.25
+      },
+      {
         "course": "Torrey Pines Golf Course - South Course",
         "rounds": 2,
         "avg_to_par": 1.5,
         "avg_sg": -2.6
-      },
-      {
-        "course": "Dye's Valley Course",
-        "rounds": 7,
-        "avg_to_par": 1.43,
-        "avg_sg": -0.28
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.41
       }
     ]
   },
@@ -433,55 +433,55 @@
         "last_round": "2026-05-31"
       },
       {
-        "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -1.074,
-        "sg_t2g": -0.721,
-        "sg_ott": -0.698,
-        "sg_app": -0.083,
-        "sg_arg": 0.06,
-        "sg_putt": -0.353,
-        "driving_distance": 298.1,
-        "accuracy": 0.4934,
-        "gir": 0.601,
-        "scrambling": 0.6034,
-        "last_round": null
-      },
-      {
         "season": 2024,
         "rounds": 4,
         "scoring_average": 71.5,
         "avg_to_par": 1.5,
-        "avg_sg_total": -1.074,
-        "sg_t2g": -0.721,
-        "sg_ott": -0.698,
-        "sg_app": -0.083,
-        "sg_arg": 0.06,
-        "sg_putt": -0.353,
-        "driving_distance": 298.1,
-        "accuracy": 0.4934,
-        "gir": 0.601,
-        "scrambling": 0.6034,
+        "avg_sg_total": 0.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
         "last_round": "2024-12-15"
       },
       {
         "season": 2023,
-        "rounds": 3,
-        "scoring_average": 71.33,
-        "avg_to_par": 1.33,
-        "avg_sg_total": -1.074,
-        "sg_t2g": -0.721,
-        "sg_ott": -0.698,
-        "sg_app": -0.083,
-        "sg_arg": 0.06,
-        "sg_putt": -0.353,
-        "driving_distance": 298.1,
-        "accuracy": 0.4934,
-        "gir": 0.601,
-        "scrambling": 0.6034,
+        "rounds": 10,
+        "scoring_average": 70.3,
+        "avg_to_par": -0.7,
+        "avg_sg_total": -0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 6,
+        "scoring_average": 72.5,
+        "avg_to_par": 1.83,
+        "avg_sg_total": -1.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-10"
       }
     ]
   },

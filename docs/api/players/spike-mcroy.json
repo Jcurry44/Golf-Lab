@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20191103",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.75,
-    "avg_sg_total": -1.96,
-    "first_round": "2007-10-26",
+    "rounds": 114,
+    "avg_to_par": 0.75,
+    "avg_sg_total": -1.22,
+    "first_round": "2003-01-09",
     "last_round": "2019-11-01",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Annandale GC",
-        "rounds": 6,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.97
+        "course": "En-Joie Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.45
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -1.34
+      },
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": -0.22
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.18
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.18
       },
       {
         "course": "Montreux Golf & Country Club",
-        "rounds": 10,
-        "avg_to_par": 1.1,
-        "avg_sg": -0.81
-      },
-      {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.95
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.17
-      },
-      {
-        "course": "TPC Sugarloaf",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.47
-      },
-      {
-        "course": null,
-        "rounds": 9,
-        "avg_to_par": 2.22,
-        "avg_sg": -2.66
+        "rounds": 20,
+        "avg_to_par": -0.4,
+        "avg_sg": 0.17
       }
     ]
   },
@@ -359,16 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.67
+      },
+      {
         "course": "Port Royal Golf Course",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -4.23
       },
       {
-        "course": "TPC Southwind",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.74
+        "avg_to_par": 3.0,
+        "avg_sg": -0.63
       },
       {
         "course": "Grand Reserve Golf Club",
@@ -377,22 +383,16 @@
         "avg_sg": -1.95
       },
       {
-        "course": null,
-        "rounds": 9,
-        "avg_to_par": 2.22,
-        "avg_sg": -2.66
-      },
-      {
         "course": "TPC Sugarloaf",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.47
+        "rounds": 6,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.56
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.17
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 6,
+        "avg_to_par": 2.17,
+        "avg_sg": -2.39
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2007,
-        "rounds": 7,
-        "scoring_average": 74.43,
-        "avg_to_par": 2.29,
-        "avg_sg_total": -3.46,
+        "rounds": 22,
+        "scoring_average": 72.59,
+        "avg_to_par": 0.91,
+        "avg_sg_total": -2.13,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 20,
+        "scoring_average": 71.95,
+        "avg_to_par": 0.55,
+        "avg_sg_total": -0.76,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-29"
+      },
+      {
+        "season": 2005,
+        "rounds": 33,
+        "scoring_average": 71.39,
+        "avg_to_par": 0.18,
+        "avg_sg_total": -0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-08-28"
+      },
+      {
+        "season": 2003,
+        "rounds": 6,
+        "scoring_average": 71.67,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -1.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-04"
       }
     ]
   },
@@ -544,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 10
   }
 }

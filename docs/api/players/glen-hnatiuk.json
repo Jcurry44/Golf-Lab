@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20050911",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.5,
-    "avg_sg_total": -0.1,
-    "first_round": "2005-03-13",
+    "rounds": 59,
+    "avg_to_par": 0.42,
+    "avg_sg_total": -0.44,
+    "first_round": "2003-04-03",
     "last_round": "2005-09-09",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": 1.41
       },
       {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.06
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 4,
         "avg_to_par": -2.0,
@@ -331,22 +337,16 @@
         "avg_sg": 0.67
       },
       {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.11
+      },
+      {
         "course": "TPC Louisiana",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 1.54
-      },
-      {
-        "course": "TPC Sugarloaf",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": 0.87
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.64
       }
     ]
   },
@@ -371,6 +371,12 @@
         "avg_sg": -3.12
       },
       {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.32
+      },
+      {
         "course": "Cog Hill Golf & Country Club - Dubsdread Course",
         "rounds": 2,
         "avg_to_par": 3.0,
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -0.76
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.66
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2005,
-        "rounds": 40,
-        "scoring_average": 71.5,
-        "avg_to_par": 0.5,
-        "avg_sg_total": -0.1,
+        "rounds": 55,
+        "scoring_average": 71.53,
+        "avg_to_par": 0.29,
+        "avg_sg_total": -0.32,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-09-09"
+      },
+      {
+        "season": 2003,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": -1.97,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-06"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

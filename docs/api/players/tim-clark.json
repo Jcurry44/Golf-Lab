@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160124",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.13,
-    "avg_sg_total": -0.85,
-    "first_round": "2015-01-12",
+    "rounds": 240,
+    "avg_to_par": -0.21,
+    "avg_sg_total": 0.09,
+    "first_round": "2012-05-12",
     "last_round": "2016-01-23",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Royal Montreal GC (Blue)",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 4.09
+      },
+      {
         "course": "Waialae Country Club",
-        "rounds": 8,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.25
+        "rounds": 12,
+        "avg_to_par": -3.42,
+        "avg_sg": 2.16
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.79
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.55
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -3.0,
+        "avg_sg": -0.0
       },
       {
         "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.31
+        "rounds": 10,
+        "avg_to_par": -2.9,
+        "avg_sg": 1.46
       },
       {
-        "course": "Glen Abbey GC",
+        "course": "Sheshan International GC",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.03
+        "avg_to_par": -2.75,
+        "avg_sg": 3.53
       },
       {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.97
+        "course": "Sedgefield Country Club",
+        "rounds": 16,
+        "avg_to_par": -2.31,
+        "avg_sg": 1.6
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -4.54
       },
       {
+        "course": "The Olympic Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.03
+      },
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.2
+      },
+      {
+        "course": "Merion GC",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.21
+      },
+      {
         "course": "The Country Club of Jackson",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -5.09
       },
       {
-        "course": "Silverado Resort and Spa (North Course)",
+        "course": "Liberty National GC",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.7
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.43
-      },
-      {
-        "course": "Whistling Straits - Straits Course",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.46
-      },
-      {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": 1.33,
-        "avg_sg": -3.67
+        "avg_to_par": 3.5,
+        "avg_sg": -3.78
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2015,
-        "rounds": 21,
-        "scoring_average": 70.67,
-        "avg_to_par": -0.14,
-        "avg_sg_total": -0.51,
+        "rounds": 40,
+        "scoring_average": 70.65,
+        "avg_to_par": -0.7,
+        "avg_sg_total": -0.04,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2015-08-28"
+      },
+      {
+        "season": 2014,
+        "rounds": 74,
+        "scoring_average": 70.68,
+        "avg_to_par": -0.04,
+        "avg_sg_total": 0.01,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-09-07"
+      },
+      {
+        "season": 2013,
+        "rounds": 61,
+        "scoring_average": 70.98,
+        "avg_to_par": 0.1,
+        "avg_sg_total": 0.19,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-31"
+      },
+      {
+        "season": 2012,
+        "rounds": 46,
+        "scoring_average": 70.2,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-10-05"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

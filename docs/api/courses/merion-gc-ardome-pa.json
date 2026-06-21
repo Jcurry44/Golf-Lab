@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 108,
-    "avg_to_par": 6.19,
-    "avg_sg_total": -1.59,
+    "rounds": 188,
+    "avg_to_par": 5.48,
+    "avg_sg_total": -0.9,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "gonzalo-fernandez-casta-o",
+        "player_name": "Gonzalo Fernandez-Castaño",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.71
+      },
+      {
+        "player_id": "nicolas-colsaerts",
+        "player_name": "Nicolas Colsaerts",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.71
+      },
+      {
         "player_id": "mathew-goggin",
         "player_name": "Mathew Goggin",
         "rounds": 4,
@@ -32,11 +46,39 @@
         "avg_sg": 1.71
       },
       {
+        "player_id": "john-parry",
+        "player_name": "John Parry",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.46
+      },
+      {
+        "player_id": "mike-weir",
+        "player_name": "Mike Weir",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.46
+      },
+      {
         "player_id": "morten-rum-madsen",
         "player_name": "Morten Ørum Madsen",
         "rounds": 4,
         "avg_to_par": 3.0,
         "avg_sg": 1.46
+      },
+      {
+        "player_id": "edward-loar",
+        "player_name": "Edward Loar",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 1.21
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": 1.21
       },
       {
         "player_id": "paul-lawrie",
@@ -53,60 +95,18 @@
         "avg_sg": 0.71
       },
       {
-        "player_id": "cliff-kresge",
-        "player_name": "Cliff Kresge",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": 0.21
-      },
-      {
-        "player_id": "casey-wittenberg",
-        "player_name": "Casey Wittenberg",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "chris-doak",
-        "player_name": "Chris Doak",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "hiroyuki-fujita",
-        "player_name": "Hiroyuki Fujita",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "jaco-van-zyl",
-        "player_name": "Jaco Van Zyl",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "steven-fox",
-        "player_name": "Steven Fox",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.29
-      },
-      {
-        "player_id": "kevin-phelan",
-        "player_name": "Kevin Phelan",
+        "player_id": "steven-alker",
+        "player_name": "Steven Alker",
         "rounds": 4,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.54
+        "avg_to_par": 3.75,
+        "avg_sg": 0.71
       },
       {
-        "player_id": "matt-weibring",
-        "player_name": "Matt Weibring",
+        "player_id": "matt-bettencourt",
+        "player_name": "Matt Bettencourt",
         "rounds": 4,
-        "avg_to_par": 5.0,
-        "avg_sg": -0.54
+        "avg_to_par": 4.0,
+        "avg_sg": 0.46
       }
     ]
   },

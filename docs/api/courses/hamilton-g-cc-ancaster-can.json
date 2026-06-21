@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 139,
-    "avg_to_par": 1.0,
-    "avg_sg_total": -1.04,
-    "difficulty_bucket": "tough"
+    "rounds": 374,
+    "avg_to_par": 0.05,
+    "avg_sg_total": -0.66,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,69 @@
     ],
     "rows": [
       {
+        "player_id": "ron-whittaker",
+        "player_name": "Ron Whittaker",
+        "rounds": 2,
+        "avg_to_par": -33.0,
+        "avg_sg": -4.03
+      },
+      {
+        "player_id": "todd-fischer",
+        "player_name": "Todd Fischer",
+        "rounds": 2,
+        "avg_to_par": -32.5,
+        "avg_sg": -5.03
+      },
+      {
+        "player_id": "jay-delsing",
+        "player_name": "Jay Delsing",
+        "rounds": 2,
+        "avg_to_par": -29.5,
+        "avg_sg": -11.03
+      },
+      {
+        "player_id": "gary-christian",
+        "player_name": "Gary Christian",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "nathan-green",
+        "player_name": "Nathan Green",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "troy-matteson",
+        "player_name": "Troy Matteson",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "arron-oberholser",
+        "player_name": "Arron Oberholser",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.21
+      },
+      {
+        "player_id": "paul-azinger",
+        "player_name": "Paul Azinger",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.21
+      },
+      {
         "player_id": "gavin-coles",
         "player_name": "Gavin Coles",
         "rounds": 4,
@@ -32,81 +95,18 @@
         "avg_sg": 1.51
       },
       {
-        "player_id": "scott-dunlap",
-        "player_name": "Scott Dunlap",
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.01
+        "avg_to_par": -2.0,
+        "avg_sg": 1.51
       },
       {
-        "player_id": "patrick-sheehan",
-        "player_name": "Patrick Sheehan",
+        "player_id": "will-claxton",
+        "player_name": "Will Claxton",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.76
-      },
-      {
-        "player_id": "tom-pernice-jr",
-        "player_name": "Tom Pernice Jr.",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.76
-      },
-      {
-        "player_id": "garth-mulroy",
-        "player_name": "Garth Mulroy",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.51
-      },
-      {
-        "player_id": "matt-hansen",
-        "player_name": "Matt Hansen",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.22
-      },
-      {
-        "player_id": "cory-renfrew",
-        "player_name": "Cory Renfrew",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.25
-      },
-      {
-        "player_id": "david-markle",
-        "player_name": "David Markle",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.25
-      },
-      {
-        "player_id": "mathew-goggin",
-        "player_name": "Mathew Goggin",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.25
-      },
-      {
-        "player_id": "roland-thatcher",
-        "player_name": "Roland Thatcher",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.25
-      },
-      {
-        "player_id": "bill-glasson",
-        "player_name": "Bill Glasson",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.04
-      },
-      {
-        "player_id": "albin-choi",
-        "player_name": "Albin Choi",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.74
+        "avg_to_par": -2.0,
+        "avg_sg": 1.51
       }
     ]
   },

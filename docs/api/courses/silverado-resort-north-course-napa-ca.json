@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 573,
-    "avg_to_par": 0.43,
-    "avg_sg_total": -1.12,
+    "rounds": 2419,
+    "avg_to_par": -0.54,
+    "avg_sg_total": -0.26,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,34 @@
     ],
     "rows": [
       {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 4.05
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.8
+      },
+      {
+        "player_id": "cam-davis",
+        "player_name": "Cam Davis",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.31
+      },
+      {
+        "player_id": "emiliano-grillo",
+        "player_name": "Emiliano Grillo",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.3
+      },
+      {
         "player_id": "jackson-koivun",
         "player_name": "Jackson Koivun",
         "rounds": 4,
@@ -32,81 +60,53 @@
         "avg_sg": 3.3
       },
       {
-        "player_id": "matthias-schwab",
-        "player_name": "Matthias Schwab",
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.94
+      },
+      {
+        "player_id": "marc-leishman",
+        "player_name": "Marc Leishman",
+        "rounds": 8,
+        "avg_to_par": -3.63,
+        "avg_sg": 2.66
+      },
+      {
+        "player_id": "charl-schwartzel",
+        "player_name": "Charl Schwartzel",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.64
+      },
+      {
+        "player_id": "mackenzie-hughes",
+        "player_name": "Mackenzie Hughes",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 2.65
+      },
+      {
+        "player_id": "branden-grace",
+        "player_name": "Branden Grace",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "s-h-kim",
+        "player_name": "S.H. Kim",
+        "rounds": 6,
+        "avg_to_par": -3.17,
+        "avg_sg": 2.27
+      },
+      {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
         "rounds": 4,
         "avg_to_par": -3.0,
-        "avg_sg": 2.06
-      },
-      {
-        "player_id": "greyson-sigg",
-        "player_name": "Greyson Sigg",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.55
-      },
-      {
-        "player_id": "jonathan-byrd",
-        "player_name": "Jonathan Byrd",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.55
-      },
-      {
-        "player_id": "brandon-wu",
-        "player_name": "Brandon Wu",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "kevin-tway",
-        "player_name": "Kevin Tway",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "wesley-bryan",
-        "player_name": "Wesley Bryan",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "wilson-furr",
-        "player_name": "Wilson Furr",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.5
-      },
-      {
-        "player_id": "jim-furyk",
-        "player_name": "Jim Furyk",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.39
-      },
-      {
-        "player_id": "joseph-bramlett",
-        "player_name": "Joseph Bramlett",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "justin-hastings",
-        "player_name": "Justin Hastings",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "kevin-chappell",
-        "player_name": "Kevin Chappell",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.25
+        "avg_sg": 2.3
       }
     ]
   },

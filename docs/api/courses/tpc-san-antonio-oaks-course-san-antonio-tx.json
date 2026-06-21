@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 776,
-    "avg_to_par": 2.0,
-    "avg_sg_total": -1.3,
+    "rounds": 3551,
+    "avg_to_par": 1.1,
+    "avg_sg_total": -0.41,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -25,6 +25,27 @@
     ],
     "rows": [
       {
+        "player_id": "akshay-bhatia",
+        "player_name": "Akshay Bhatia",
+        "rounds": 6,
+        "avg_to_par": -3.33,
+        "avg_sg": 3.4
+      },
+      {
+        "player_id": "denny-mccarthy",
+        "player_name": "Denny McCarthy",
+        "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.38
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.04
+      },
+      {
         "player_id": "matt-jones",
         "player_name": "Matt Jones",
         "rounds": 4,
@@ -32,18 +53,53 @@
         "avg_sg": 2.44
       },
       {
-        "player_id": "charles-howell-iii",
-        "player_name": "Charles Howell III",
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
         "rounds": 4,
         "avg_to_par": -2.5,
-        "avg_sg": 2.19
+        "avg_sg": 2.79
       },
       {
         "player_id": "anirban-lahiri",
         "player_name": "Anirban Lahiri",
+        "rounds": 8,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.17
+      },
+      {
+        "player_id": "cameron-tringale",
+        "player_name": "Cameron Tringale",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.16
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.16
+      },
+      {
+        "player_id": "mito-pereira",
+        "player_name": "Mito Pereira",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 1.69
+      },
+      {
+        "player_id": "scott-stallings",
+        "player_name": "Scott Stallings",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.69
+      },
+      {
+        "player_id": "fabi-n-g-mez",
+        "player_name": "Fabián Gómez",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.13
       },
       {
         "player_id": "jos-de-jes-s-rodr-guez",
@@ -51,62 +107,6 @@
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 1.13
-      },
-      {
-        "player_id": "henrik-stenson",
-        "player_name": "Henrik Stenson",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.44
-      },
-      {
-        "player_id": "peter-kuest",
-        "player_name": "Peter Kuest",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.79
-      },
-      {
-        "player_id": "jared-wolfe",
-        "player_name": "Jared Wolfe",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.19
-      },
-      {
-        "player_id": "richard-bland",
-        "player_name": "Richard Bland",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.19
-      },
-      {
-        "player_id": "zack-fischer",
-        "player_name": "Zack Fischer",
-        "rounds": 6,
-        "avg_to_par": -1.33,
-        "avg_sg": 1.05
-      },
-      {
-        "player_id": "gonzalo-fernandez-casta-o",
-        "player_name": "Gonzalo Fernandez-Castaño",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 2.33
-      },
-      {
-        "player_id": "retief-goosen",
-        "player_name": "Retief Goosen",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.41
-      },
-      {
-        "player_id": "roberto-d-az",
-        "player_name": "Roberto Díaz",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.01
       }
     ]
   },

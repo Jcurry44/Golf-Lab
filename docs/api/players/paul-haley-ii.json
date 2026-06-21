@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240526",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.35,
-    "avg_sg_total": -1.59,
-    "first_round": "2023-07-01",
+    "rounds": 156,
+    "avg_to_par": 0.55,
+    "avg_sg_total": -1.13,
+    "first_round": "2011-11-30",
     "last_round": "2024-05-24",
     "sg_t2g": -0.805,
     "sg_ott": -0.352,
@@ -319,16 +319,16 @@
         "avg_sg": -0.69
       },
       {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 6,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.47
+      },
+      {
         "course": "TPC Twin Cities",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 0.64
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.23
       },
       {
         "course": "Port Royal Golf Course",
@@ -337,16 +337,16 @@
         "avg_sg": -0.84
       },
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.09
+        "course": "Grand Reserve Golf Club",
+        "rounds": 10,
+        "avg_to_par": -1.4,
+        "avg_sg": -0.04
       },
       {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.05
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -1.67
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Colonial Country Club",
+        "course": "The Los Angeles Country Club (North Course)",
         "rounds": 2,
-        "avg_to_par": 7.0,
-        "avg_sg": -6.21
+        "avg_to_par": 4.5,
+        "avg_sg": -2.7
       },
       {
-        "course": "TPC Summerlin",
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.63
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.84
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 2,
         "avg_to_par": 3.0,
-        "avg_sg": -4.2
+        "avg_sg": -4.53
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "TPC Louisiana",
         "rounds": 2,
         "avg_to_par": 3.0,
-        "avg_sg": -3.69
+        "avg_sg": -3.89
       },
       {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -4.86
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": null
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.4
+        "course": "TPC Four Seasons Resort",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.26
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2023,
-        "rounds": 32,
-        "scoring_average": 66.94,
-        "avg_to_par": 0.19,
+        "rounds": 98,
+        "scoring_average": 69.79,
+        "avg_to_par": 0.02,
         "avg_sg_total": -1.044,
         "sg_t2g": -0.805,
         "sg_ott": -0.352,
@@ -448,6 +448,57 @@
         "gir": 0.6479,
         "scrambling": 0.5763,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2013,
+        "rounds": 42,
+        "scoring_average": 72.88,
+        "avg_to_par": 1.74,
+        "avg_sg_total": -2.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-18"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -2.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-05-18"
+      },
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 71.33,
+        "avg_to_par": -0.67,
+        "avg_sg_total": 0.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
       }
     ]
   },
@@ -459,6 +510,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 5
   }
 }

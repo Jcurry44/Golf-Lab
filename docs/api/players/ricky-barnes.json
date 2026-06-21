@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250420",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.15,
-    "avg_sg_total": -0.91,
-    "first_round": "2023-02-09",
+    "rounds": 240,
+    "avg_to_par": -0.32,
+    "avg_sg_total": -0.5,
+    "first_round": "2017-06-22",
     "last_round": "2025-04-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
+        "course": "RTJ Trail (Grand National)",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 0.84
+        "avg_to_par": -3.5,
+        "avg_sg": 1.64
       },
       {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "course": "Glen Abbey GC",
         "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.09
+      },
+      {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.25
+      },
+      {
+        "course": "Keene Trace Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.32
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
         "avg_to_par": -2.0,
-        "avg_sg": 0.81
+        "avg_sg": 0.09
       },
       {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.7
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 6,
-        "avg_to_par": -1.33,
-        "avg_sg": 0.15
-      },
-      {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.05
+        "course": "Pete Dye Stadium Course",
+        "rounds": 7,
+        "avg_to_par": -1.86,
+        "avg_sg": -0.22
       }
     ]
   },
@@ -359,39 +359,39 @@
     ],
     "rows": [
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "TPC Summerlin",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": -5.19
+        "avg_sg": -3.77
       },
       {
-        "course": "TPC Deere Run",
+        "course": "St. George's G&CC",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -5.24
+        "avg_to_par": 3.0,
+        "avg_sg": -1.43
       },
       {
         "course": "Vidanta Vallarta",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -3.52
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
+        "rounds": 4,
         "avg_to_par": 2.5,
-        "avg_sg": -2.24
+        "avg_sg": -2.97
       },
       {
-        "course": "TPC Craig Ranch",
+        "course": "Trinity Forest Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.13
+      },
+      {
+        "course": "Congaree Golf Club",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -3.5
+        "avg_sg": -0.56
       },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
+        "rounds": 8,
+        "avg_to_par": 1.63,
         "avg_sg": null
       }
     ]
@@ -451,10 +451,10 @@
       },
       {
         "season": 2023,
-        "rounds": 34,
-        "scoring_average": 67.21,
-        "avg_to_par": -0.09,
-        "avg_sg_total": -0.86,
+        "rounds": 36,
+        "scoring_average": 67.33,
+        "avg_to_par": -0.17,
+        "avg_sg_total": -0.88,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,108 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-11-19"
+      },
+      {
+        "season": 2022,
+        "rounds": 31,
+        "scoring_average": 62.94,
+        "avg_to_par": 0.9,
+        "avg_sg_total": -1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-05"
+      },
+      {
+        "season": 2021,
+        "rounds": 28,
+        "scoring_average": 66.21,
+        "avg_to_par": -0.29,
+        "avg_sg_total": -0.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-06"
+      },
+      {
+        "season": 2020,
+        "rounds": 32,
+        "scoring_average": 70.91,
+        "avg_to_par": -0.69,
+        "avg_sg_total": -0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-07-24"
+      },
+      {
+        "season": 2019,
+        "rounds": 25,
+        "scoring_average": 71.84,
+        "avg_to_par": 0.28,
+        "avg_sg_total": -1.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-21"
+      },
+      {
+        "season": 2018,
+        "rounds": 56,
+        "scoring_average": 70.79,
+        "avg_to_par": -0.48,
+        "avg_sg_total": -0.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-19"
+      },
+      {
+        "season": 2017,
+        "rounds": 26,
+        "scoring_average": 68.88,
+        "avg_to_par": -1.73,
+        "avg_sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-20"
       }
     ]
   },
@@ -476,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 9
   }
 }

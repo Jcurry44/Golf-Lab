@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 811,
-    "avg_to_par": 0.79,
-    "avg_sg_total": -0.88,
+    "rounds": 3489,
+    "avg_to_par": 0.52,
+    "avg_sg_total": -0.34,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,53 +25,25 @@
     ],
     "rows": [
       {
-        "player_id": "eric-cole",
-        "player_name": "Eric Cole",
+        "player_id": "scott-verplank",
+        "player_name": "Scott Verplank",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 3.0
+        "avg_to_par": -4.0,
+        "avg_sg": 2.52
       },
       {
-        "player_id": "russell-henley",
-        "player_name": "Russell Henley",
+        "player_id": "bryson-dechambeau",
+        "player_name": "Bryson DeChambeau",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 3.0
+        "avg_to_par": -3.5,
+        "avg_sg": 2.94
       },
       {
-        "player_id": "alex-smalley",
-        "player_name": "Alex Smalley",
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.75
-      },
-      {
-        "player_id": "ben-griffin",
-        "player_name": "Ben Griffin",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.75
-      },
-      {
-        "player_id": "mac-meissner",
-        "player_name": "Mac Meissner",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.75
-      },
-      {
-        "player_id": "gary-woodland",
-        "player_name": "Gary Woodland",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 2.5
-      },
-      {
-        "player_id": "j-j-spaun",
-        "player_name": "J.J. Spaun",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 2.5
+        "avg_to_par": -3.25,
+        "avg_sg": 2.69
       },
       {
         "player_id": "michael-brennan",
@@ -81,11 +53,11 @@
         "avg_sg": 2.5
       },
       {
-        "player_id": "nico-echavarria",
-        "player_name": "Nico Echavarria",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 2.5
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 1.21
       },
       {
         "player_id": "fulton-allem",
@@ -95,18 +67,46 @@
         "avg_sg": -2.97
       },
       {
-        "player_id": "mackenzie-hughes",
-        "player_name": "Mackenzie Hughes",
+        "player_id": "ted-purdy",
+        "player_name": "Ted Purdy",
         "rounds": 4,
         "avg_to_par": -2.25,
-        "avg_sg": 2.25
+        "avg_sg": 1.39
       },
       {
-        "player_id": "ryan-gerard",
-        "player_name": "Ryan Gerard",
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": 2.71
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 10,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.29
+      },
+      {
+        "player_id": "jordan-smith",
+        "player_name": "Jordan Smith",
         "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 2.25
+        "avg_to_par": -2.0,
+        "avg_sg": 2.0
+      },
+      {
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.0
+      },
+      {
+        "player_id": "bud-cauley",
+        "player_name": "Bud Cauley",
+        "rounds": 8,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.88
       }
     ]
   },

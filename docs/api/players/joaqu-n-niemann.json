@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 0.9,
-    "avg_sg_total": 0.85,
-    "first_round": "2023-05-18",
+    "rounds": 240,
+    "avg_to_par": -0.92,
+    "avg_sg_total": 0.97,
+    "first_round": "2020-08-01",
     "last_round": "2026-06-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Valhalla Golf Club",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.03
+        "avg_to_par": -6.25,
+        "avg_sg": 2.57
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Waialae Country Club",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 2.46
+        "avg_to_par": -5.0,
+        "avg_sg": 2.75
       },
       {
-        "course": "Aronimink Golf Club",
+        "course": "Detroit Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 1.62
+        "avg_to_par": -4.5,
+        "avg_sg": 2.89
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 8,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.75
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.28
       },
       {
-        "course": "The Los Angeles Country Club (North Course)",
+        "course": "Sherwood Country Club",
         "rounds": 4,
-        "avg_to_par": 0.75,
+        "avg_to_par": -3.75,
         "avg_sg": 1.01
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.22
+        "course": "The Summit Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": -0.07
       }
     ]
   },
@@ -383,16 +383,16 @@
         "avg_sg": 0.1
       },
       {
-        "course": "Shinnecock Hills Golf Club",
+        "course": "Winged Foot Golf Club - West Course",
         "rounds": 4,
-        "avg_to_par": 1.67,
-        "avg_sg": 1.38
+        "avg_to_par": 2.5,
+        "avg_sg": 1.59
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.22
+        "course": "The Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 0.35
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2023,
-        "rounds": 8,
-        "scoring_average": 72.25,
-        "avg_to_par": 2.0,
-        "avg_sg_total": 0.28,
+        "rounds": 12,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.17,
+        "avg_sg_total": 0.69,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-07-21"
+      },
+      {
+        "season": 2022,
+        "rounds": 80,
+        "scoring_average": 69.5,
+        "avg_to_par": -1.48,
+        "avg_sg_total": 1.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-28"
+      },
+      {
+        "season": 2021,
+        "rounds": 98,
+        "scoring_average": 69.79,
+        "avg_to_par": -1.3,
+        "avg_sg_total": 1.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-09-05"
+      },
+      {
+        "season": 2020,
+        "rounds": 18,
+        "scoring_average": 69.72,
+        "avg_to_par": -0.39,
+        "avg_sg_total": 0.13,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-09-07"
       }
     ]
   },
@@ -494,10 +545,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.85 strokes gained. Win probability sits at 75.8%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.97 strokes gained. Win probability sits at 75.8%.",
     "risk_flags": "",
-    "avg_sg_total": 0.85,
-    "avg_to_par": 0.9
+    "avg_sg_total": 0.97,
+    "avg_to_par": -0.92
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +557,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

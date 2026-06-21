@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20121203",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -2.2,
-    "avg_sg_total": -0.18,
-    "first_round": "2008-07-12",
+    "rounds": 149,
+    "avg_to_par": -0.66,
+    "avg_sg_total": -0.5,
+    "first_round": "2006-01-12",
     "last_round": "2012-12-03",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,22 @@
     ],
     "rows": [
       {
-        "course": null,
-        "rounds": 14,
-        "avg_to_par": -5.64,
-        "avg_sg": 0.31
+        "course": "Hamilton G&CC",
+        "rounds": 2,
+        "avg_to_par": -33.0,
+        "avg_sg": -4.03
       },
       {
-        "course": "Annandale GC",
+        "course": "TPC Summerlin",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.57
+        "avg_to_par": -4.25,
+        "avg_sg": 2.04
+      },
+      {
+        "course": null,
+        "rounds": 28,
+        "avg_to_par": -2.36,
+        "avg_sg": -0.84
       },
       {
         "course": "Jack Nicklaus (Tournament)",
@@ -331,22 +337,16 @@
         "avg_sg": 0.4
       },
       {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.24
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.2
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.58
+        "course": "Annandale GC",
+        "rounds": 8,
+        "avg_to_par": -0.88,
+        "avg_sg": 0.06
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Montreux Golf & Country Club",
+        "course": "Westchester Country Club - West Course",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -2.24
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.68
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -2.98
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 6,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.49
+      },
+      {
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.69
+        "avg_to_par": 1.5,
+        "avg_sg": -0.08
       },
       {
         "course": "Atunyote Golf Club",
-        "rounds": 3,
-        "avg_to_par": 1.67,
-        "avg_sg": -0.67
-      },
-      {
-        "course": "Grayhawk Golf Club - Raptor Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.14
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.58
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.34
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.24
+        "rounds": 5,
+        "avg_to_par": 1.4,
+        "avg_sg": -1.06
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2008,
-        "rounds": 22,
-        "scoring_average": 67.82,
-        "avg_to_par": -3.32,
-        "avg_sg_total": -0.6,
+        "rounds": 51,
+        "scoring_average": 70.33,
+        "avg_to_par": -0.78,
+        "avg_sg_total": -0.84,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-11-07"
+      },
+      {
+        "season": 2006,
+        "rounds": 80,
+        "scoring_average": 70.7,
+        "avg_to_par": -0.54,
+        "avg_sg_total": -0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-22"
       }
     ]
   },
@@ -493,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 5
   }
 }

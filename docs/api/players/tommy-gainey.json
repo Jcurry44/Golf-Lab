@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251123",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.03,
-    "avg_sg_total": -0.83,
-    "first_round": "2023-11-09",
+    "rounds": 240,
+    "avg_to_par": 0.1,
+    "avg_sg_total": -0.92,
+    "first_round": "2014-04-19",
     "last_round": "2025-11-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 8,
-        "avg_to_par": -1.88,
-        "avg_sg": -0.29
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 8,
-        "avg_to_par": -0.88,
-        "avg_sg": -1.03
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.84
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 6,
-        "avg_to_par": -0.17,
-        "avg_sg": -0.69
-      },
-      {
-        "course": "Dye's Valley Course",
+        "course": "TPC Craig Ranch",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.64
+        "avg_to_par": -3.25,
+        "avg_sg": 0.91
       },
       {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.93
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.5
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 8,
+        "avg_to_par": -2.88,
+        "avg_sg": 1.39
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.86
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 10,
+        "avg_to_par": -1.1,
+        "avg_sg": -1.14
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 14,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.51
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "course": "Oakdale Golf & Country Club",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": null
+        "avg_sg": -4.31
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "GC of Houston",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.09
+        "avg_to_par": 4.5,
+        "avg_sg": -4.1
       },
       {
-        "course": "Hurstbourne Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -0.69
-      },
-      {
-        "course": "Keene Trace Golf Club (Champion Trace)",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -4.4
+        "avg_to_par": 4.0,
+        "avg_sg": -3.13
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.93
+        "avg_to_par": 3.0,
+        "avg_sg": -3.79
       },
       {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.64
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.43
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 9,
+        "avg_to_par": 2.67,
+        "avg_sg": -3.48
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2023,
-        "rounds": 6,
-        "scoring_average": 68.83,
-        "avg_to_par": -1.83,
-        "avg_sg_total": -0.55,
+        "rounds": 40,
+        "scoring_average": 67.9,
+        "avg_to_par": 0.1,
+        "avg_sg_total": -1.48,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,159 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-11-19"
+      },
+      {
+        "season": 2022,
+        "rounds": 35,
+        "scoring_average": 67.17,
+        "avg_to_par": 0.06,
+        "avg_sg_total": -0.8,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-05"
+      },
+      {
+        "season": 2021,
+        "rounds": 8,
+        "scoring_average": 72.63,
+        "avg_to_par": 0.88,
+        "avg_sg_total": -1.63,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-07-16"
+      },
+      {
+        "season": 2020,
+        "rounds": 14,
+        "scoring_average": 71.79,
+        "avg_to_par": 0.36,
+        "avg_sg_total": -1.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-07-26"
+      },
+      {
+        "season": 2019,
+        "rounds": 10,
+        "scoring_average": 71.5,
+        "avg_to_par": -0.3,
+        "avg_sg_total": -0.81,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-21"
+      },
+      {
+        "season": 2018,
+        "rounds": 18,
+        "scoring_average": 71.11,
+        "avg_to_par": 0.22,
+        "avg_sg_total": -1.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-17"
+      },
+      {
+        "season": 2017,
+        "rounds": 18,
+        "scoring_average": 71.22,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -1.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-18"
+      },
+      {
+        "season": 2016,
+        "rounds": 9,
+        "scoring_average": 72.11,
+        "avg_to_par": 0.44,
+        "avg_sg_total": -1.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-04-14"
+      },
+      {
+        "season": 2015,
+        "rounds": 24,
+        "scoring_average": 70.71,
+        "avg_to_par": -0.29,
+        "avg_sg_total": -0.43,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-03"
+      },
+      {
+        "season": 2014,
+        "rounds": 30,
+        "scoring_average": 70.3,
+        "avg_to_par": -0.3,
+        "avg_sg_total": 0.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-17"
       }
     ]
   },
@@ -476,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 12
   }
 }

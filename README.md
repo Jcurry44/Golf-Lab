@@ -32,13 +32,16 @@ http://127.0.0.1:8787/
 To build from the local public PGA warehouse created during research:
 
 ```powershell
-python golf_lab_import.py --from-warehouse "..\Golf Stats Tracker\data\golf-lab\pga-public-history-2002-2026" --rounds-per-player 40
+python golf_lab_import.py --from-warehouse "..\Golf Stats Tracker\data\golf-lab\pga-public-history-2002-2026" --rounds-per-player 240
 python pga_tour_stats_backfill.py --years 2023-2026
 python app.py --port 8787
 ```
 
 By default the warehouse import loads the full available player universe. Use
 `--event-field-only` only for a tiny development build.
+The default scorecard window keeps the latest 240 imported rounds per player so
+player cards can separate a true multi-season profile from short-form recent
+form.
 
 `pga_tour_stats_backfill.py` enriches recent seasons from public PGA TOUR stat
 tables: SG Total, tee-to-green, off-the-tee, approach, around-the-green,

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20100725",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.55,
-    "avg_sg_total": -1.31,
-    "first_round": "2007-06-21",
+    "rounds": 73,
+    "avg_to_par": 1.11,
+    "avg_sg_total": -1.4,
+    "first_round": "2005-09-08",
     "last_round": "2010-07-23",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,16 +319,16 @@
         "avg_sg": -0.56
       },
       {
-        "course": null,
-        "rounds": 8,
-        "avg_to_par": -1.13,
-        "avg_sg": -0.58
-      },
-      {
         "course": "La Cantera Golf Club - Resort Course",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 0.34
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.14
       },
       {
         "course": "Atunyote Golf Club",
@@ -337,16 +337,16 @@
         "avg_sg": -1.21
       },
       {
+        "course": null,
+        "rounds": 15,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.09
+      },
+      {
         "course": "Tesoro Club",
         "rounds": 2,
         "avg_to_par": 0.0,
         "avg_sg": -1.02
-      },
-      {
-        "course": "Warwick Hills Golf and Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.82
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -5.42
       },
       {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.74
+      },
+      {
         "course": "St. George's G&CC",
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -3.74
       },
       {
-        "course": "Glen Abbey GC",
+        "course": "Hamilton G&CC",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.17
+        "avg_to_par": 3.5,
+        "avg_sg": -3.12
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -2.19
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.36
       },
       {
-        "course": "Grayhawk Golf Club - Raptor Course",
+        "course": "Waialae Country Club",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.21
-      },
-      {
-        "course": "Angus Glen Golf Club - North Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.08
+        "avg_to_par": 2.5,
+        "avg_sg": -2.18
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2007,
-        "rounds": 30,
-        "scoring_average": 71.97,
-        "avg_to_par": 0.67,
-        "avg_sg_total": -1.33,
+        "rounds": 59,
+        "scoring_average": 72.41,
+        "avg_to_par": 1.14,
+        "avg_sg_total": -1.42,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-11-02"
+      },
+      {
+        "season": 2006,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -3.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-08"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": 0.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-09-09"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 237,
-    "avg_to_par": -0.22,
-    "avg_sg_total": -1.44,
-    "difficulty_bucket": "balanced"
+    "rounds": 945,
+    "avg_to_par": -1.0,
+    "avg_sg_total": -0.54,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,46 @@
     ],
     "rows": [
       {
-        "player_id": "danny-ellis",
-        "player_name": "Danny Ellis",
-        "rounds": 2,
+        "player_id": "robert-damron",
+        "player_name": "Robert Damron",
+        "rounds": 5,
+        "avg_to_par": -14.0,
+        "avg_sg": -1.94
+      },
+      {
+        "player_id": "roland-thatcher",
+        "player_name": "Roland Thatcher",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.82
+      },
+      {
+        "player_id": "skip-kendall",
+        "player_name": "Skip Kendall",
+        "rounds": 4,
         "avg_to_par": -4.0,
-        "avg_sg": 1.84
+        "avg_sg": 2.22
+      },
+      {
+        "player_id": "dudley-hart",
+        "player_name": "Dudley Hart",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "michael-letzig",
+        "player_name": "Michael Letzig",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.32
+      },
+      {
+        "player_id": "brett-rumford",
+        "player_name": "Brett Rumford",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.09
       },
       {
         "player_id": "brian-vranesh",
@@ -39,74 +74,39 @@
         "avg_sg": 2.07
       },
       {
+        "player_id": "david-mckenzie",
+        "player_name": "David McKenzie",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.72
+      },
+      {
+        "player_id": "jay-delsing",
+        "player_name": "Jay Delsing",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.72
+      },
+      {
+        "player_id": "charles-warren",
+        "player_name": "Charles Warren",
+        "rounds": 8,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "bob-tway",
+        "player_name": "Bob Tway",
+        "rounds": 12,
+        "avg_to_par": -3.08,
+        "avg_sg": 1.69
+      },
+      {
         "player_id": "chris-anderson",
         "player_name": "Chris Anderson",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.41
-      },
-      {
-        "player_id": "glen-hnatiuk",
-        "player_name": "Glen Hnatiuk",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.41
-      },
-      {
-        "player_id": "leif-olson",
-        "player_name": "Leif Olson",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.82
-      },
-      {
-        "player_id": "jeff-hart",
-        "player_name": "Jeff Hart",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.66
-      },
-      {
-        "player_id": "jeff-sluman",
-        "player_name": "Jeff Sluman",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.01
-      },
-      {
-        "player_id": "colby-beckstrom",
-        "player_name": "Colby Beckstrom",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.41
-      },
-      {
-        "player_id": "mario-tiziani",
-        "player_name": "Mario Tiziani",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.41
-      },
-      {
-        "player_id": "tripp-isenhour",
-        "player_name": "Tripp Isenhour",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.73
-      },
-      {
-        "player_id": "scott-sterling",
-        "player_name": "Scott Sterling",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.11
-      },
-      {
-        "player_id": "sean-murphy",
-        "player_name": "Sean Murphy",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.01
       }
     ]
   },

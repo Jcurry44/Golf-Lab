@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20150720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.32,
-    "avg_sg_total": -1.81,
-    "first_round": "2005-03-17",
+    "rounds": 48,
+    "avg_to_par": 1.46,
+    "avg_sg_total": -1.76,
+    "first_round": "2003-08-21",
     "last_round": "2015-07-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": -2.04
       },
       {
+        "course": "Country Club at Mirasol",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.63
+      },
+      {
         "course": "Old Course at St Andrews",
         "rounds": 6,
         "avg_to_par": 0.5,
@@ -341,12 +347,6 @@
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -4.71
-      },
-      {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 5,
-        "avg_to_par": 3.2,
-        "avg_sg": -0.48
       }
     ]
   },
@@ -536,10 +536,10 @@
       },
       {
         "season": 2005,
-        "rounds": 11,
-        "scoring_average": 65.36,
-        "avg_to_par": -6.27,
-        "avg_sg_total": 1.22,
+        "rounds": 15,
+        "scoring_average": 67.27,
+        "avg_to_par": -4.47,
+        "avg_sg_total": 0.69,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -550,6 +550,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-07-17"
+      },
+      {
+        "season": 2003,
+        "rounds": 4,
+        "scoring_average": 73.75,
+        "avg_to_par": 3.75,
+        "avg_sg_total": -2.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-08-24"
       }
     ]
   },
@@ -561,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 8
+    "seasonProfiles": 9
   }
 }

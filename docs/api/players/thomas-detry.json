@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260517",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.88,
-    "avg_sg_total": -0.48,
-    "first_round": "2025-05-10",
+    "rounds": 240,
+    "avg_to_par": -0.72,
+    "avg_sg_total": 0.32,
+    "first_round": "2022-10-28",
     "last_round": "2026-05-15",
     "sg_t2g": -0.073,
     "sg_ott": 0.169,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Toronto at Osprey Valley - North Course",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.5
+        "avg_to_par": -6.0,
+        "avg_sg": 1.74
       },
       {
-        "course": "TPC Southwind",
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 8,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.86
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.13
+        "avg_to_par": -3.75,
+        "avg_sg": 1.75
       },
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "El Cardonal at Diamante",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.33
+        "avg_to_par": -3.75,
+        "avg_sg": 0.56
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.56
-      },
-      {
-        "course": "The Philadelphia Cricket Club (Wissahickon Course)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.89
-      },
-      {
-        "course": "The Renaissance Club",
+        "course": "Valhalla Golf Club",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.66
+        "avg_to_par": -3.75,
+        "avg_sg": 3.03
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 7,
+        "avg_to_par": -3.71,
+        "avg_sg": 0.48
       }
     ]
   },
@@ -359,10 +359,28 @@
     ],
     "rows": [
       {
+        "course": "PGA National Resort and Spa - Champion Course",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -6.05
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.37
+      },
+      {
         "course": "Caves Valley Golf Club",
         "rounds": 4,
         "avg_to_par": 4.25,
         "avg_sg": -3.82
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.08
       },
       {
         "course": "Aronimink Golf Club",
@@ -375,24 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": -0.41
-      },
-      {
-        "course": "Oakmont Country Club",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 1.82
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -0.38
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -2.01
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 38,
-        "scoring_average": 71.16,
-        "avg_to_par": 0.79,
+        "rounds": 82,
+        "scoring_average": 70.56,
+        "avg_to_par": -0.34,
         "avg_sg_total": 0.052,
         "sg_t2g": -0.073,
         "sg_ott": 0.169,
@@ -451,9 +451,9 @@
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 70,
+        "scoring_average": 69.99,
+        "avg_to_par": -0.96,
         "avg_sg_total": 0.231,
         "sg_t2g": -0.301,
         "sg_ott": 0.12,
@@ -464,13 +464,13 @@
         "accuracy": 0.5898,
         "gir": 0.6335,
         "scrambling": 0.6041,
-        "last_round": null
+        "last_round": "2024-08-25"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 86,
+        "scoring_average": 70.09,
+        "avg_to_par": -0.98,
         "avg_sg_total": 0.328,
         "sg_t2g": 0.069,
         "sg_ott": 0.029,
@@ -481,7 +481,7 @@
         "accuracy": 0.5781,
         "gir": 0.6521,
         "scrambling": 0.6274,
-        "last_round": null
+        "last_round": "2023-11-19"
       }
     ]
   },

@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 5,
-    "avg_to_par": 0.2,
-    "avg_sg_total": -1.19,
+    "rounds": 138,
+    "avg_to_par": 0.35,
+    "avg_sg_total": -0.73,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -32,11 +32,81 @@
         "avg_sg": 1.05
       },
       {
-        "player_id": "tim-clark",
-        "player_name": "Tim Clark",
+        "player_id": "bill-lunde",
+        "player_name": "Bill Lunde",
+        "rounds": 3,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.71
+      },
+      {
+        "player_id": "robert-karlsson",
+        "player_name": "Robert Karlsson",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": 0.05
+      },
+      {
+        "player_id": "sangmoon-bae",
+        "player_name": "Sangmoon Bae",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.6
+      },
+      {
+        "player_id": "jason-bohn",
+        "player_name": "Jason Bohn",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.35
+      },
+      {
+        "player_id": "harrison-frazar",
+        "player_name": "Harrison Frazar",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "kris-blanks",
+        "player_name": "Kris Blanks",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "ryuji-imada",
+        "player_name": "Ryuji Imada",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.29
+      },
+      {
+        "player_id": "bryce-molder",
+        "player_name": "Bryce Molder",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 2.1
+      },
+      {
+        "player_id": "steven-bowditch",
+        "player_name": "Steven Bowditch",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.85
+      },
+      {
+        "player_id": "michael-bradley",
+        "player_name": "Michael Bradley",
         "rounds": 2,
-        "avg_to_par": 5.5,
-        "avg_sg": -4.54
+        "avg_to_par": -1.5,
+        "avg_sg": -0.52
+      },
+      {
+        "player_id": "joe-ogilvie",
+        "player_name": "Joe Ogilvie",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -0.95
       }
     ]
   },

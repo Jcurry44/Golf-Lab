@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220626",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.02,
-    "avg_sg_total": -0.77,
-    "first_round": "2021-10-10",
+    "rounds": 202,
+    "avg_to_par": -0.38,
+    "avg_sg_total": 0.01,
+    "first_round": "2019-01-31",
     "last_round": "2022-06-26",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Summerlin",
+        "rounds": 8,
+        "avg_to_par": -4.38,
+        "avg_sg": 2.26
+      },
+      {
         "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
         "avg_to_par": -4.0,
         "avg_sg": 2.05
       },
       {
-        "course": "TPC River Highlands",
+        "course": "The Country Club of Jackson",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.85
+        "avg_to_par": -4.0,
+        "avg_sg": 1.71
       },
       {
-        "course": "Memorial Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.85
+        "course": "TPC Twin Cities",
+        "rounds": 12,
+        "avg_to_par": -3.33,
+        "avg_sg": 2.07
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.21
+        "course": "Detroit Golf Club",
+        "rounds": 10,
+        "avg_to_par": -2.7,
+        "avg_sg": 0.9
       },
       {
-        "course": "TPC Potomac at Avenel Farm",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.51
-      },
-      {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": 0.33,
-        "avg_sg": -2.14
+        "course": "Sedgefield Country Club",
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.93
       }
     ]
   },
@@ -359,22 +359,16 @@
     ],
     "rows": [
       {
-        "course": "PGA National Resort (The Champion)",
-        "rounds": 2,
-        "avg_to_par": 8.5,
-        "avg_sg": -7.08
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 2,
-        "avg_to_par": 7.5,
-        "avg_sg": -5.28
-      },
-      {
         "course": "Southern Hills Country Club",
         "rounds": 2,
         "avg_to_par": 6.5,
         "avg_sg": -3.78
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 6,
+        "avg_to_par": 4.83,
+        "avg_sg": -3.75
       },
       {
         "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
@@ -383,16 +377,22 @@
         "avg_sg": -3.32
       },
       {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.46
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 6,
+        "avg_to_par": 4.33,
+        "avg_sg": -2.65
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.04
+        "course": "Nine Bridges",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -3.91
+      },
+      {
+        "course": "Shadow Creek Golf Course",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -3.42
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2022,
-        "rounds": 40,
-        "scoring_average": 72.1,
-        "avg_to_par": 1.02,
-        "avg_sg_total": -0.77,
+        "rounds": 47,
+        "scoring_average": 71.32,
+        "avg_to_par": 0.17,
+        "avg_sg_total": -0.27,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-06-26"
+      },
+      {
+        "season": 2021,
+        "rounds": 52,
+        "scoring_average": 71.52,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-20"
+      },
+      {
+        "season": 2020,
+        "rounds": 74,
+        "scoring_average": 70.42,
+        "avg_to_par": -0.69,
+        "avg_sg_total": 0.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-30"
+      },
+      {
+        "season": 2019,
+        "rounds": 29,
+        "scoring_average": 68.97,
+        "avg_to_par": -1.72,
+        "avg_sg_total": 0.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-11"
       }
     ]
   },
@@ -442,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 4
   }
 }

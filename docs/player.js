@@ -122,6 +122,51 @@ function latestProfile(detail) {
   };
 }
 
+function richProfile(detail, maxSeasons = 4) {
+  const player = detail.player || {};
+  const rows = (detail.seasons?.rows || [])
+    .filter((row) =>
+      row.avg_sg_total !== null ||
+      row.driving_distance !== null ||
+      row.gir !== null ||
+      row.accuracy !== null ||
+      row.scrambling !== null
+    )
+    .sort((a, b) => Number(b.season || 0) - Number(a.season || 0))
+    .slice(0, maxSeasons);
+  if (!rows.length) return { ...latestProfile(detail), richSeasonCount: 0, seasonLabel: "Latest available profile" };
+
+  const profile = { ...player, richSeasonCount: rows.length };
+  const numericFields = [
+    "avg_sg_total",
+    "sg_t2g",
+    "sg_ott",
+    "sg_app",
+    "sg_arg",
+    "sg_putt",
+    "driving_distance",
+    "accuracy",
+    "gir",
+    "scrambling",
+    "scoring_average",
+    "avg_to_par",
+  ];
+  for (const field of numericFields) {
+    const values = rows.map((row) => Number(row[field])).filter(Number.isFinite);
+    profile[field] = values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
+  }
+  const seasons = rows.map((row) => Number(row.season)).filter(Number.isFinite);
+  const minSeason = Math.min(...seasons);
+  const maxSeason = Math.max(...seasons);
+  profile.season = maxSeason;
+  profile.seasonLabel = minSeason === maxSeason
+    ? `${maxSeason} rich profile`
+    : `${minSeason}-${maxSeason} rich profile`;
+  profile.profileSeasons = rows.map((row) => row.season).join(", ");
+  profile.rounds = firstNumber(player.rounds, rows[0]?.rounds);
+  return profile;
+}
+
 function profileForCard(row) {
   const recent = filterRows
     .filter((item) => item.player_id === row.player_id)
@@ -175,16 +220,19 @@ function renderHero(detail, row, profile) {
   const model = detail.model || row || {};
   const rank = firstNumber(model.rank, row?.rank);
   const probability = firstNumber(model.probability, row?.probability);
-  const season = profile.season ? `${profile.season} profile` : "career profile";
+  const season = profile.seasonLabel || (profile.season ? `${profile.season} profile` : "career profile");
   $("#pcEyebrow").textContent = `${eventName()} | ${season}`;
   $("#pcName").textContent = player.player_name || row?.player_name || "Player";
   $("#pcHeroLabel").textContent = rank ? "Model rank" : "Profile SG";
   $("#pcHeroValue").textContent = rank ? `#${fmt(rank)}` : signed(profile.avg_sg_total);
-  $("#pcHeroSub").textContent = probability ? `${pct(probability * 100, 1)} win probability` : `${fmt(profile.rounds)} tracked rounds`;
+  $("#pcHeroSub").textContent = probability
+    ? `${pct(probability * 100, 1)} win probability | ${fmt(detail.player?.rounds)} imported scorecards`
+    : `${fmt(detail.player?.rounds)} imported scorecards`;
   $("#pcChips").innerHTML = [
     player.country || row?.country || "PGA",
     model.confidence || row?.confidence || "coverage watch",
-    profile.rounds ? `${fmt(profile.rounds)} tracked rounds` : "scorecard sample pending",
+    profile.richSeasonCount ? `${fmt(profile.richSeasonCount)} rich stat seasons` : "rich stats pending",
+    detail.player?.rounds ? `${fmt(detail.player.rounds)} imported scorecards` : "scorecard sample pending",
     profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd driving` : "distance coverage watch",
     profile.gir ? `${pctDecimal(profile.gir)} GIR` : "GIR coverage watch",
   ].filter(Boolean).map((chip) => `<span class="pc-chip">${escapeHtml(chip)}</span>`).join("");
@@ -246,7 +294,7 @@ function renderProjection(detail, row) {
 }
 
 function renderScorecard(profile) {
-  $("#scorecardBadge").textContent = profile.season ? `${profile.season} season` : "Latest profile";
+  $("#scorecardBadge").textContent = profile.seasonLabel || (profile.season ? `${profile.season} season` : "Latest profile");
   $("#scorecardGrid").innerHTML = [
     statTile("SG Total", profile.avg_sg_total, signed, "sg", "overall performance"),
     statTile("Tee to Green", profile.sg_t2g, signed, "sg", "ball-striking base"),
@@ -259,7 +307,7 @@ function renderScorecard(profile) {
     statTile("GIR", profile.gir, pctDecimal, "percent", "greens in regulation"),
     statTile("Scramble", profile.scrambling, pctDecimal, "percent", "miss recovery"),
     statTile("Scoring", profile.scoring_average, (v) => Number.isFinite(Number(v)) ? fmt(v, 2) : "--", "score", "raw average"),
-    statTile("Rounds", profile.rounds, (v) => fmt(v), "sg", "sample size"),
+    statTile("Scorecards", profile.rounds, (v) => fmt(v), "sg", "imported round sample"),
   ].join("");
 }
 
@@ -332,8 +380,12 @@ function renderRounds(detail) {
 function renderReceipts(detail) {
   const coverage = detail.coverage || {};
   const latest = summary?.latestFetch || {};
+  const richSeasons = (detail.seasons?.rows || []).filter((row) =>
+    row.avg_sg_total !== null || row.driving_distance !== null || row.gir !== null
+  );
   const coverageRows = [
     ["Round scorecards", coverage.hasRoundScorecards, `${fmt(detail.player?.rounds)} tracked rounds`],
+    ["Rich season profile", richSeasons.length >= 3, `${fmt(richSeasons.length)} public stat seasons loaded`],
     ["Strokes gained", coverage.hasStrokesGained, "model baseline"],
     ["Driving distance", coverage.hasDrivingDistance, "public PGA stat lane"],
     ["Fairway accuracy", coverage.hasAccuracy, "public PGA stat lane"],
@@ -361,7 +413,7 @@ function renderReceipts(detail) {
 
 function renderPlayer(detail) {
   const row = playerRow(detail.player.player_id);
-  const profile = latestProfile(detail);
+  const profile = richProfile(detail);
   $("#emptyState").hidden = true;
   $("#playerCard").hidden = false;
   renderHero(detail, row, profile);

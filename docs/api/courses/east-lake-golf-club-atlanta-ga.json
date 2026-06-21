@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 7,
-    "avg_to_par": -0.86,
-    "avg_sg_total": -0.84,
-    "difficulty_bucket": "balanced"
+    "rounds": 554,
+    "avg_to_par": -1.41,
+    "avg_sg_total": -0.07,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -25,18 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "rory-mcilroy",
-        "player_name": "Rory McIlroy",
+        "player_id": "sahith-theegala",
+        "player_name": "Sahith Theegala",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.68
+        "avg_to_par": -5.25,
+        "avg_sg": 2.87
       },
       {
-        "player_id": "jon-rahm",
-        "player_name": "Jon Rahm",
-        "rounds": 3,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.04
+        "player_id": "adam-scott",
+        "player_name": "Adam Scott",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.62
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 8,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.94
+      },
+      {
+        "player_id": "viktor-hovland",
+        "player_name": "Viktor Hovland",
+        "rounds": 12,
+        "avg_to_par": -3.58,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.32
+      },
+      {
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 1.09
+      },
+      {
+        "player_id": "collin-morikawa",
+        "player_name": "Collin Morikawa",
+        "rounds": 12,
+        "avg_to_par": -3.33,
+        "avg_sg": 1.4
+      },
+      {
+        "player_id": "taylor-pendrith",
+        "player_name": "Taylor Pendrith",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.87
+      },
+      {
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
+        "rounds": 12,
+        "avg_to_par": -3.17,
+        "avg_sg": 1.23
+      },
+      {
+        "player_id": "wyndham-clark",
+        "player_name": "Wyndham Clark",
+        "rounds": 8,
+        "avg_to_par": -3.13,
+        "avg_sg": 1.31
+      },
+      {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.91
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 0.82
       }
     ]
   },

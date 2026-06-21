@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20140615",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.3,
-    "avg_sg_total": -0.3,
-    "first_round": "2007-08-04",
+    "rounds": 98,
+    "avg_to_par": 2.0,
+    "avg_sg_total": -0.13,
+    "first_round": "2002-08-22",
     "last_round": "2014-06-13",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,22 +313,28 @@
     ],
     "rows": [
       {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "course": "Mount Juliet Golf Course",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.93
+        "avg_to_par": -3.75,
+        "avg_sg": 1.6
       },
       {
         "course": "Trump National Doral",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.22
+        "rounds": 8,
+        "avg_to_par": -1.0,
+        "avg_sg": 1.02
       },
       {
-        "course": "Firestone CC (South)",
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
         "rounds": 6,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.85
+        "avg_to_par": 0.17,
+        "avg_sg": 0.77
       },
       {
         "course": "Harbour Town Golf Links",
@@ -337,16 +343,10 @@
         "avg_sg": -0.29
       },
       {
-        "course": "Augusta National Golf Club",
+        "course": "Capital City Club - Crabapple Course",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.27
-      },
-      {
-        "course": "Southern Hills Country Club",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.71
+        "avg_to_par": 1.0,
+        "avg_sg": 1.42
       }
     ]
   },
@@ -363,6 +363,12 @@
         "rounds": 2,
         "avg_to_par": 11.0,
         "avg_sg": -6.73
+      },
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -1.48
       },
       {
         "course": "Royal Birkdale Golf Club",
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": 4.75,
         "avg_sg": -0.74
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.27
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2007,
-        "rounds": 6,
-        "scoring_average": 71.17,
-        "avg_to_par": 1.17,
-        "avg_sg_total": 1.63,
+        "rounds": 30,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.07,
+        "avg_sg_total": 0.56,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-08-12"
+      },
+      {
+        "season": 2006,
+        "rounds": 6,
+        "scoring_average": 74.33,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -0.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-18"
+      },
+      {
+        "season": 2005,
+        "rounds": 10,
+        "scoring_average": 71.6,
+        "avg_to_par": 1.6,
+        "avg_sg_total": -0.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-09"
+      },
+      {
+        "season": 2003,
+        "rounds": 10,
+        "scoring_average": 72.4,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -0.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 8,
+        "scoring_average": 70.38,
+        "avg_to_par": -0.63,
+        "avg_sg_total": 0.19,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -493,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 8
   }
 }

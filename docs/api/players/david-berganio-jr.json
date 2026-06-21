@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20200816",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.0,
-    "avg_sg_total": -1.04,
-    "first_round": "2009-02-01",
+    "rounds": 76,
+    "avg_to_par": 0.45,
+    "avg_sg_total": -0.8,
+    "first_round": "2002-05-23",
     "last_round": "2020-08-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,18 @@
     ],
     "rows": [
       {
+        "course": null,
+        "rounds": 11,
+        "avg_to_par": -3.91,
+        "avg_sg": 1.45
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 6,
+        "avg_to_par": -1.17,
+        "avg_sg": -0.91
+      },
+      {
         "course": "Trinity Forest Golf Club",
         "rounds": 2,
         "avg_to_par": -1.0,
@@ -335,18 +347,6 @@
         "rounds": 2,
         "avg_to_par": -0.5,
         "avg_sg": -0.43
-      },
-      {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.62
-      },
-      {
-        "course": "GC of Houston",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.18
       }
     ]
   },
@@ -359,6 +359,12 @@
     ],
     "rows": [
       {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -1.98
+      },
+      {
         "course": "Sedgefield Country Club",
         "rounds": 2,
         "avg_to_par": 5.0,
@@ -366,9 +372,9 @@
       },
       {
         "course": "The Riviera Country Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.67
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -2.57
       },
       {
         "course": "Brown Deer Park Golf Course",
@@ -377,22 +383,16 @@
         "avg_sg": -2.25
       },
       {
+        "course": "Quail Hollow Club",
+        "rounds": 5,
+        "avg_to_par": 2.2,
+        "avg_sg": -1.31
+      },
+      {
         "course": "Torrey Pines Golf Course - South Course",
         "rounds": 3,
         "avg_to_par": 2.0,
         "avg_sg": -0.46
-      },
-      {
-        "course": "TPC Louisiana",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.53
-      },
-      {
-        "course": "GC of Houston",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.18
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2009,
-        "rounds": 33,
-        "scoring_average": 71.82,
-        "avg_to_par": 0.82,
-        "avg_sg_total": -0.7,
+        "rounds": 43,
+        "scoring_average": 71.14,
+        "avg_to_par": 0.07,
+        "avg_sg_total": -0.36,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2009-07-17"
+      },
+      {
+        "season": 2008,
+        "rounds": 8,
+        "scoring_average": 69.5,
+        "avg_to_par": -2.25,
+        "avg_sg_total": 0.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 8,
+        "scoring_average": 74.63,
+        "avg_to_par": 3.13,
+        "avg_sg_total": -2.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-05-06"
+      },
+      {
+        "season": 2006,
+        "rounds": 6,
+        "scoring_average": 73.17,
+        "avg_to_par": 1.83,
+        "avg_sg_total": -1.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-06-16"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": -0.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-02-25"
+      },
+      {
+        "season": 2002,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-24"
       }
     ]
   },
@@ -476,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 8
   }
 }

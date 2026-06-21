@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160502",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.4,
-    "avg_sg_total": -2.0,
-    "first_round": "2013-07-04",
+    "rounds": 240,
+    "avg_to_par": 0.36,
+    "avg_sg_total": -0.54,
+    "first_round": "2010-10-16",
     "last_round": "2016-04-29",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,39 +314,39 @@
     "rows": [
       {
         "course": "PGA West Palmer Course",
-        "rounds": 3,
-        "avg_to_par": -1.33,
-        "avg_sg": -1.43
+        "rounds": 7,
+        "avg_to_par": -2.43,
+        "avg_sg": 0.04
       },
       {
         "course": "Annandale GC",
+        "rounds": 8,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.23
+      },
+      {
+        "course": "Montreux Golf & Country Club",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.8
+        "avg_to_par": -1.75,
+        "avg_sg": 1.42
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "TPC River Highlands",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.85
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 8,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.36
+      },
+      {
+        "course": "Aronimink Golf Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.16
-      },
-      {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.19
-      },
-      {
-        "course": "The Old White TPC",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.13
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 5,
-        "avg_to_par": 0.8,
-        "avg_sg": -1.06
+        "avg_to_par": -1.25,
+        "avg_sg": 1.86
       }
     ]
   },
@@ -359,10 +359,16 @@
     ],
     "rows": [
       {
-        "course": "Harbour Town Golf Links",
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
         "rounds": 2,
-        "avg_to_par": 7.5,
-        "avg_sg": -5.82
+        "avg_to_par": 6.5,
+        "avg_sg": -4.99
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 3,
+        "avg_to_par": 5.67,
+        "avg_sg": -3.76
       },
       {
         "course": "Royal Montreal GC (Blue)",
@@ -371,28 +377,22 @@
         "avg_sg": -4.62
       },
       {
-        "course": "TPC Deere Run",
+        "course": "Hamilton G&CC",
         "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -5.73
+        "avg_to_par": 3.0,
+        "avg_sg": -3.25
       },
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
+        "course": "TPC Southwind",
         "rounds": 6,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.68
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
         "avg_to_par": 2.5,
-        "avg_sg": -2.62
-      },
-      {
-        "course": "TPC Louisiana",
-        "rounds": 6,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.55
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.99
+        "avg_sg": -0.89
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2013,
-        "rounds": 14,
-        "scoring_average": 71.29,
-        "avg_to_par": 0.29,
-        "avg_sg_total": -1.05,
+        "rounds": 29,
+        "scoring_average": 71.55,
+        "avg_to_par": 0.38,
+        "avg_sg_total": -0.75,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2013-08-18"
+      },
+      {
+        "season": 2012,
+        "rounds": 81,
+        "scoring_average": 71.51,
+        "avg_to_par": 0.44,
+        "avg_sg_total": -0.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-11-11"
+      },
+      {
+        "season": 2011,
+        "rounds": 94,
+        "scoring_average": 70.89,
+        "avg_to_par": -0.14,
+        "avg_sg_total": 0.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-23"
+      },
+      {
+        "season": 2010,
+        "rounds": 10,
+        "scoring_average": 71.4,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-14"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

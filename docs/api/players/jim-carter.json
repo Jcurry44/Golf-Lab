@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.57,
-    "avg_sg_total": -1.64,
-    "first_round": "2005-09-10",
+    "rounds": 93,
+    "avg_to_par": 1.14,
+    "avg_sg_total": -1.11,
+    "first_round": "2003-04-03",
     "last_round": "2013-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,34 +319,34 @@
         "avg_sg": -0.91
       },
       {
-        "course": "Annandale GC",
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
         "rounds": 6,
-        "avg_to_par": 0.17,
-        "avg_sg": -1.72
+        "avg_to_par": -1.5,
+        "avg_sg": -0.16
       },
       {
-        "course": "Montreux Golf & Country Club",
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.01
+      },
+      {
+        "course": "TPC Boston",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.68
+        "avg_to_par": -1.25,
+        "avg_sg": 1.34
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.95
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.22
       },
       {
-        "course": null,
-        "rounds": 3,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.87
-      },
-      {
-        "course": "Waialae Country Club",
-        "rounds": 6,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.15
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.07
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Shaughnessy Golf and Country Club",
+        "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
-        "avg_to_par": 7.5,
-        "avg_sg": -5.19
+        "avg_to_par": 5.5,
+        "avg_sg": -4.32
       },
       {
         "course": "TPC Southwind",
+        "rounds": 6,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.42
+      },
+      {
+        "course": "Shaughnessy Golf and Country Club",
         "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -2.4
+        "avg_to_par": 4.5,
+        "avg_sg": -2.02
+      },
+      {
+        "course": "Westchester Country Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.26
       },
       {
         "course": "TPC Louisiana",
-        "rounds": 2,
+        "rounds": 4,
         "avg_to_par": 3.0,
-        "avg_sg": -2.59
+        "avg_sg": -2.46
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.17
-      },
-      {
-        "course": "Omni Tucson National Golf Resort - Catalina Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -3.2
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.7
+        "course": "Country Club at Mirasol",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.63
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2005,
-        "rounds": 9,
-        "scoring_average": 73.0,
-        "avg_to_par": 2.0,
-        "avg_sg_total": -2.48,
+        "rounds": 58,
+        "scoring_average": 72.31,
+        "avg_to_par": 1.12,
+        "avg_sg_total": -1.12,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-11-04"
+      },
+      {
+        "season": 2003,
+        "rounds": 4,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 1.28,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-06"
       }
     ]
   },
@@ -527,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 7
   }
 }

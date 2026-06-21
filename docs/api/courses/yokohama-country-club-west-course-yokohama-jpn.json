@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 67,
-    "avg_to_par": -0.09,
-    "avg_sg_total": -0.9,
+    "rounds": 312,
+    "avg_to_par": -0.96,
+    "avg_sg_total": -0.0,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,34 @@
     ],
     "rows": [
       {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 3.79
+      },
+      {
+        "player_id": "max-greyserman",
+        "player_name": "Max Greyserman",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.54
+      },
+      {
+        "player_id": "michael-thorbjornsen",
+        "player_name": "Michael Thorbjornsen",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.04
+      },
+      {
+        "player_id": "alex-smalley",
+        "player_name": "Alex Smalley",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.54
+      },
+      {
         "player_id": "byeong-hun-an",
         "player_name": "Byeong Hun An",
         "rounds": 4,
@@ -32,81 +60,53 @@
         "avg_sg": 2.54
       },
       {
-        "player_id": "kazuki-higa",
-        "player_name": "Kazuki Higa",
+        "player_id": "garrick-higgo",
+        "player_name": "Garrick Higgo",
         "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.29
+        "avg_to_par": -3.5,
+        "avg_sg": 2.54
       },
       {
-        "player_id": "ren-yonezawa",
-        "player_name": "Ren Yonezawa",
+        "player_id": "rico-hoey",
+        "player_name": "Rico Hoey",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.04
+        "avg_to_par": -3.5,
+        "avg_sg": 2.54
       },
       {
-        "player_id": "camilo-villegas",
-        "player_name": "Camilo Villegas",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.04
+        "player_id": "takumi-kanaya",
+        "player_name": "Takumi Kanaya",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.54
       },
       {
-        "player_id": "kota-kaneko",
-        "player_name": "Kota Kaneko",
+        "player_id": "nico-echavarria",
+        "player_name": "Nico Echavarria",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.54
+        "avg_to_par": -3.25,
+        "avg_sg": 2.29
       },
       {
-        "player_id": "keita-nakajima",
-        "player_name": "Keita Nakajima",
+        "player_id": "christiaan-bezuidenhout",
+        "player_name": "Christiaan Bezuidenhout",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.04
+        "avg_to_par": -2.75,
+        "avg_sg": 1.79
       },
       {
-        "player_id": "isaiah-salinda",
-        "player_name": "Isaiah Salinda",
+        "player_id": "keith-mitchell",
+        "player_name": "Keith Mitchell",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.21
+        "avg_to_par": -2.75,
+        "avg_sg": 1.79
       },
       {
-        "player_id": "mikumu-horikawa",
-        "player_name": "Mikumu Horikawa",
+        "player_id": "matt-wallace",
+        "player_name": "Matt Wallace",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.71
-      },
-      {
-        "player_id": "kaito-onishi",
-        "player_name": "Kaito Onishi",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.96
-      },
-      {
-        "player_id": "taiga-semikawa",
-        "player_name": "Taiga Semikawa",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.46
-      },
-      {
-        "player_id": "takanori-konishi",
-        "player_name": "Takanori Konishi",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.71
-      },
-      {
-        "player_id": "tatsunori-shogenji",
-        "player_name": "Tatsunori Shogenji",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.96
+        "avg_to_par": -2.75,
+        "avg_sg": 1.79
       }
     ]
   },

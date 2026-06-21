@@ -10,10 +10,10 @@
     "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 28,
-    "avg_to_par": 1.57,
-    "avg_sg_total": -1.67,
-    "difficulty_bucket": "tough"
+    "rounds": 71,
+    "avg_to_par": 0.62,
+    "avg_sg_total": -0.69,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,20 @@
     ],
     "rows": [
       {
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.4
+      },
+      {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.65
+      },
+      {
         "player_id": "ross-fisher",
         "player_name": "Ross Fisher",
         "rounds": 4,
@@ -32,8 +46,57 @@
         "avg_sg": 1.15
       },
       {
+        "player_id": "louis-oosthuizen",
+        "player_name": "Louis Oosthuizen",
+        "rounds": 3,
+        "avg_to_par": -0.33,
+        "avg_sg": 0.75
+      },
+      {
+        "player_id": "charl-schwartzel",
+        "player_name": "Charl Schwartzel",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.1
+      },
+      {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.1
+      },
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.1
+      },
+      {
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.35
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.35
+      },
+      {
         "player_id": "ryuko-tokimatsu",
         "player_name": "Ryuko Tokimatsu",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.35
+      },
+      {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
         "rounds": 4,
         "avg_to_par": 0.25,
         "avg_sg": -0.35
@@ -44,34 +107,6 @@
         "rounds": 4,
         "avg_to_par": 0.25,
         "avg_sg": -0.35
-      },
-      {
-        "player_id": "brandon-stone",
-        "player_name": "Brandon Stone",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.85
-      },
-      {
-        "player_id": "paul-dunne",
-        "player_name": "Paul Dunne",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.1
-      },
-      {
-        "player_id": "kodai-ichihara",
-        "player_name": "Kodai Ichihara",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": -3.35
-      },
-      {
-        "player_id": "jaco-ahlers",
-        "player_name": "Jaco Ahlers",
-        "rounds": 4,
-        "avg_to_par": 5.75,
-        "avg_sg": -5.85
       }
     ]
   },

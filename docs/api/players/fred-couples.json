@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260412",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.23,
-    "avg_sg_total": -1.42,
-    "first_round": "2015-02-19",
+    "rounds": 240,
+    "avg_to_par": -0.01,
+    "avg_sg_total": 0.18,
+    "first_round": "2006-10-13",
     "last_round": "2026-04-10",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,28 +313,40 @@
     ],
     "rows": [
       {
+        "course": null,
+        "rounds": 15,
+        "avg_to_par": -6.33,
+        "avg_sg": -0.35
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 5,
+        "avg_to_par": -3.6,
+        "avg_sg": 0.71
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.13
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.85
+      },
+      {
         "course": "Silverado Resort and Spa (North Course)",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 0.61
       },
       {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.57
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 6,
-        "avg_to_par": 1.83,
-        "avg_sg": -1.16
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 28,
-        "avg_to_par": 2.89,
-        "avg_sg": -1.75
+        "course": "GC of Houston",
+        "rounds": 20,
+        "avg_to_par": -1.15,
+        "avg_sg": 1.15
       }
     ]
   },
@@ -347,28 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 28,
-        "avg_to_par": 2.89,
-        "avg_sg": -1.75
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 6,
-        "avg_to_par": 1.83,
-        "avg_sg": -1.16
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.57
-      },
-      {
-        "course": "Silverado Resort and Spa (North Course)",
+        "course": "TPC Boston",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.61
+        "avg_to_par": 4.5,
+        "avg_sg": -6.3
+      },
+      {
+        "course": "Oakland Hills Country Club - South Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 6,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.67
+      },
+      {
+        "course": "Ridgewood CC",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.89
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.02
+      },
+      {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.24
       }
     ]
   },

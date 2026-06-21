@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20200202",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.95,
-    "avg_sg_total": -1.24,
-    "first_round": "2018-02-01",
+    "rounds": 240,
+    "avg_to_par": -0.18,
+    "avg_sg_total": -0.17,
+    "first_round": "2014-05-15",
     "last_round": "2020-01-31",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "PGA West Palmer Course",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.48
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.99
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 10,
+        "avg_to_par": -1.8,
+        "avg_sg": 1.37
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": -0.16
       },
       {
-        "course": "Hamilton Golf & Country Club",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": -0.12
+        "course": "Pete Dye Stadium Course",
+        "rounds": 10,
+        "avg_to_par": -1.7,
+        "avg_sg": -0.18
       },
       {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.82
-      },
-      {
-        "course": "TPC Scottsdale (Stadium Course)",
+        "course": "Silverado Resort and Spa (North Course)",
         "rounds": 8,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.11
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.01
-      },
-      {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.64
+        "avg_to_par": -1.5,
+        "avg_sg": 0.85
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
+        "course": "The Riviera Country Club",
         "rounds": 2,
         "avg_to_par": 6.5,
-        "avg_sg": -4.93
+        "avg_sg": -4.68
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 6,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.46
+      },
+      {
+        "course": "Plainfield CC",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.54
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.3
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.2
+      },
+      {
+        "course": "The Country Club of Jackson",
         "rounds": 2,
         "avg_to_par": 2.5,
-        "avg_sg": -3.07
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.55
-      },
-      {
-        "course": "Waialae Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.55
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.63
-      },
-      {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 3,
-        "avg_to_par": 1.33,
-        "avg_sg": -1.72
+        "avg_sg": -2.99
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2018,
-        "rounds": 11,
-        "scoring_average": 73.0,
-        "avg_to_par": 1.82,
-        "avg_sg_total": -1.92,
+        "rounds": 26,
+        "scoring_average": 72.35,
+        "avg_to_par": 1.08,
+        "avg_sg_total": -1.75,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2018-04-13"
+      },
+      {
+        "season": 2017,
+        "rounds": 11,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.36,
+        "avg_sg_total": -1.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-01-21"
+      },
+      {
+        "season": 2016,
+        "rounds": 86,
+        "scoring_average": 70.85,
+        "avg_to_par": -0.29,
+        "avg_sg_total": 0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-09-03"
+      },
+      {
+        "season": 2015,
+        "rounds": 86,
+        "scoring_average": 70.17,
+        "avg_to_par": -0.85,
+        "avg_sg_total": 0.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-09-07"
+      },
+      {
+        "season": 2014,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -1.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-05-16"
       }
     ]
   },
@@ -476,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 7
   }
 }

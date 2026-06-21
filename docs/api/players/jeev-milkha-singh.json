@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160619",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.25,
-    "avg_sg_total": -0.26,
-    "first_round": "2010-08-05",
+    "rounds": 178,
+    "avg_to_par": 0.75,
+    "avg_sg_total": -0.09,
+    "first_round": "2006-06-15",
     "last_round": "2016-06-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,15 +313,33 @@
     ],
     "rows": [
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.43
-      },
-      {
         "course": "The Mines Resort & GC",
         "rounds": 4,
         "avg_to_par": -3.25,
+        "avg_sg": 1.28
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 8,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.39
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.13
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.74
+      },
+      {
+        "course": "Atunyote Golf Club",
+        "rounds": 6,
+        "avg_to_par": -2.33,
         "avg_sg": 1.28
       },
       {
@@ -329,24 +347,6 @@
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 1.22
-      },
-      {
-        "course": "Sheshan International GC",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.9
-      },
-      {
-        "course": "CordeValle GC",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.28
-      },
-      {
-        "course": "Atunyote Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.57
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -3.58
       },
       {
-        "course": "Firestone CC (South)",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -2.05
-      },
-      {
-        "course": "Royal Lytham St. Anne",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.44
-      },
-      {
-        "course": "TPC Summerlin",
+        "course": "Bethpage State Park - Black Course",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.95
+        "avg_to_par": 5.5,
+        "avg_sg": -2.58
       },
       {
-        "course": "Annandale GC",
+        "course": "Winged Foot Golf Club - West Course",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.25
+        "avg_to_par": 5.5,
+        "avg_sg": -0.88
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.46
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.91
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2010,
-        "rounds": 20,
-        "scoring_average": 69.8,
-        "avg_to_par": -1.1,
-        "avg_sg_total": 0.28,
+        "rounds": 56,
+        "scoring_average": 70.34,
+        "avg_to_par": -0.48,
+        "avg_sg_total": 0.19,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2010-10-22"
+      },
+      {
+        "season": 2009,
+        "rounds": 48,
+        "scoring_average": 71.23,
+        "avg_to_par": 0.06,
+        "avg_sg_total": 0.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-10-18"
+      },
+      {
+        "season": 2008,
+        "rounds": 16,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.0,
+        "avg_sg_total": 1.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-08-10"
+      },
+      {
+        "season": 2007,
+        "rounds": 32,
+        "scoring_average": 74.09,
+        "avg_to_par": 3.09,
+        "avg_sg_total": -0.93,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 6,
+        "scoring_average": 75.0,
+        "avg_to_par": 4.33,
+        "avg_sg_total": -1.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-25"
       }
     ]
   },
@@ -493,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 8
   }
 }

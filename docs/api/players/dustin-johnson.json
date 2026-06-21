@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 1.46,
-    "avg_sg_total": 0.13,
-    "first_round": "2023-06-15",
+    "rounds": 240,
+    "avg_to_par": -0.75,
+    "avg_sg_total": 0.96,
+    "first_round": "2019-05-16",
     "last_round": "2026-06-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "TPC Boston",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.58
+        "avg_to_par": -7.5,
+        "avg_sg": 5.88
       },
       {
-        "course": "Valhalla Golf Club",
+        "course": "Caves Valley Golf Club",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.78
+        "avg_to_par": -5.0,
+        "avg_sg": 2.2
       },
       {
-        "course": "The Los Angeles Country Club (North Course)",
+        "course": "The Summit Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 2.51
+        "avg_to_par": -3.5,
+        "avg_sg": -0.07
       },
       {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.87
+        "course": "Plantation Course at Kapalua",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 1.15
       },
       {
-        "course": "Shinnecock Hills Golf Club",
+        "course": "Old Course at St Andrews",
         "rounds": 4,
-        "avg_to_par": 1.33,
-        "avg_sg": 1.72
+        "avg_to_par": -3.25,
+        "avg_sg": 2.61
       },
       {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.1
+        "course": "TPC River Highlands",
+        "rounds": 8,
+        "avg_to_par": -3.13,
+        "avg_sg": 2.29
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.47
+      },
       {
         "course": "Royal Liverpool Golf Club",
         "rounds": 2,
@@ -383,16 +389,10 @@
         "avg_sg": -1.42
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 8,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.88
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.1
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.28
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2023,
-        "rounds": 6,
-        "scoring_average": 72.0,
-        "avg_to_par": 1.67,
-        "avg_sg_total": 0.29,
+        "rounds": 14,
+        "scoring_average": 72.64,
+        "avg_to_par": 1.93,
+        "avg_sg_total": -0.1,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-07-21"
+      },
+      {
+        "season": 2022,
+        "rounds": 38,
+        "scoring_average": 70.26,
+        "avg_to_par": -1.21,
+        "avg_sg_total": 0.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 72,
+        "scoring_average": 69.6,
+        "avg_to_par": -1.46,
+        "avg_sg_total": 1.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-09-05"
+      },
+      {
+        "season": 2020,
+        "rounds": 49,
+        "scoring_average": 68.94,
+        "avg_to_par": -1.88,
+        "avg_sg_total": 1.52,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-09-07"
+      },
+      {
+        "season": 2019,
+        "rounds": 33,
+        "scoring_average": 70.39,
+        "avg_to_par": -0.33,
+        "avg_sg_total": 0.4,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-25"
       }
     ]
   },
@@ -494,10 +562,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model keeps him in the live contender tier. Recent scorecards are positive at +0.13 strokes gained. Win probability sits at 81.1%.",
+    "plain_english": "Model keeps him in the live contender tier. Recent scorecards are positive at +0.96 strokes gained. Win probability sits at 81.1%.",
     "risk_flags": "",
-    "avg_sg_total": 0.13,
-    "avg_to_par": 1.46
+    "avg_sg_total": 0.96,
+    "avg_to_par": -0.75
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +574,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 8
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.25,
-    "avg_sg_total": -0.18,
-    "first_round": "2026-01-31",
+    "rounds": 58,
+    "avg_to_par": -0.62,
+    "avg_sg_total": 0.48,
+    "first_round": "2025-03-06",
     "last_round": "2026-06-14",
     "sg_t2g": 0.037,
     "sg_ott": 0.406,
@@ -319,6 +319,12 @@
         "avg_sg": 1.3
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.75
+      },
+      {
         "course": "TPC Toronto at Osprey Valley - North Course",
         "rounds": 4,
         "avg_to_par": -1.75,
@@ -331,22 +337,16 @@
         "avg_sg": 0.42
       },
       {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.29
+      },
+      {
         "course": "PGA National - Champion Course",
         "rounds": 4,
         "avg_to_par": -1.0,
         "avg_sg": 0.26
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.27
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.25
       }
     ]
   },
@@ -371,16 +371,16 @@
         "avg_sg": -0.63
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 2,
+        "course": "Oakmont Country Club",
+        "rounds": 4,
         "avg_to_par": 1.5,
-        "avg_sg": -2.32
+        "avg_sg": 2.33
       },
       {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.9
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.59
       },
       {
         "course": "Dunes Golf and Beach Club",
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.6,
-        "avg_to_par": -0.25,
+        "rounds": 42,
+        "scoring_average": 70.48,
+        "avg_to_par": -0.43,
         "avg_sg_total": 0.211,
         "sg_t2g": 0.037,
         "sg_ott": 0.406,
@@ -434,54 +434,20 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.211,
-        "sg_t2g": 0.037,
-        "sg_ott": 0.406,
-        "sg_app": -0.039,
-        "sg_arg": -0.33,
-        "sg_putt": 0.175,
-        "driving_distance": 306.3,
-        "accuracy": 0.6014,
-        "gir": 0.6534,
-        "scrambling": 0.5534,
-        "last_round": null
-      },
-      {
-        "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.211,
-        "sg_t2g": 0.037,
-        "sg_ott": 0.406,
-        "sg_app": -0.039,
-        "sg_arg": -0.33,
-        "sg_putt": 0.175,
-        "driving_distance": 306.3,
-        "accuracy": 0.6014,
-        "gir": 0.6534,
-        "scrambling": 0.5534,
-        "last_round": null
-      },
-      {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.211,
-        "sg_t2g": 0.037,
-        "sg_ott": 0.406,
-        "sg_app": -0.039,
-        "sg_arg": -0.33,
-        "sg_putt": 0.175,
-        "driving_distance": 306.3,
-        "accuracy": 0.6014,
-        "gir": 0.6534,
-        "scrambling": 0.5534,
-        "last_round": null
+        "rounds": 16,
+        "scoring_average": 69.75,
+        "avg_to_par": -1.13,
+        "avg_sg_total": 1.84,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-11"
       }
     ]
   },
@@ -493,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 2
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 14,
-    "avg_to_par": 1.71,
-    "avg_sg_total": -2.63,
-    "difficulty_bucket": "tough"
+    "rounds": 168,
+    "avg_to_par": -0.62,
+    "avg_sg_total": -0.21,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,39 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "sung-joon-park",
-        "player_name": "Sung Joon Park",
+        "player_id": "carl-pettersson",
+        "player_name": "Carl Pettersson",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.04
+        "avg_to_par": -3.0,
+        "avg_sg": 2.29
       },
       {
-        "player_id": "gunn-yang",
-        "player_name": "Gunn Yang",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.69
-      },
-      {
-        "player_id": "nicholas-thompson",
-        "player_name": "Nicholas Thompson",
+        "player_id": "jason-bohn",
+        "player_name": "Jason Bohn",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.71
+        "avg_to_par": -3.0,
+        "avg_sg": 2.29
       },
       {
-        "player_id": "stephen-gallacher",
-        "player_name": "Stephen Gallacher",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.19
+        "player_id": "ryo-ishikawa",
+        "player_name": "Ryo Ishikawa",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.04
       },
       {
-        "player_id": "andrew-svoboda",
-        "player_name": "Andrew Svoboda",
-        "rounds": 2,
-        "avg_to_par": 6.0,
-        "avg_sg": -7.19
+        "player_id": "steve-wheatcroft",
+        "player_name": "Steve Wheatcroft",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.79
+      },
+      {
+        "player_id": "brian-davis",
+        "player_name": "Brian Davis",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "greg-owen",
+        "player_name": "Greg Owen",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.29
+      },
+      {
+        "player_id": "andres-romero",
+        "player_name": "Andres Romero",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "john-peterson",
+        "player_name": "John Peterson",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "will-wilcox",
+        "player_name": "Will Wilcox",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.04
+      },
+      {
+        "player_id": "george-mcneill",
+        "player_name": "George McNeill",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.79
+      },
+      {
+        "player_id": "ken-duke",
+        "player_name": "Ken Duke",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.79
       }
     ]
   },

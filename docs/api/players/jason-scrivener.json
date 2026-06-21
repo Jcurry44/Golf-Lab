@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.08,
-    "avg_sg_total": 0.09,
-    "first_round": "2020-07-16",
+    "rounds": 46,
+    "avg_to_par": 2.22,
+    "avg_sg_total": -0.03,
+    "first_round": "2018-06-14",
     "last_round": "2025-07-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -365,6 +365,12 @@
         "avg_sg": null
       },
       {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.54
+      },
+      {
         "course": "Muirfield Village Golf Club",
         "rounds": 2,
         "avg_to_par": 4.0,
@@ -383,16 +389,10 @@
         "avg_sg": -1.29
       },
       {
-        "course": "Royal St. George's GC",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.33
-      },
-      {
-        "course": "Ocean Course at Kiawah Island",
+        "course": "Sheshan Golf Club",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.76
+        "avg_to_par": 2.5,
+        "avg_sg": -1.24
       }
     ]
   },
@@ -516,6 +516,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2020-07-17"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -1.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-10-27"
+      },
+      {
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": 0.54,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-06-15"
       }
     ]
   },
@@ -527,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 8
   }
 }

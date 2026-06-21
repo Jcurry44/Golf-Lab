@@ -10,10 +10,10 @@
     "source_provider": "Verified public course repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 205,
-    "avg_to_par": 1.52,
-    "avg_sg_total": -0.84,
-    "difficulty_bucket": "tough"
+    "rounds": 452,
+    "avg_to_par": 0.51,
+    "avg_sg_total": -0.0,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,76 @@
     ],
     "rows": [
       {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 4.33
+      },
+      {
+        "player_id": "harris-english",
+        "player_name": "Harris English",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.33
+      },
+      {
+        "player_id": "chris-gotterup",
+        "player_name": "Chris Gotterup",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.08
+      },
+      {
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.83
+      },
+      {
+        "player_id": "matt-fitzpatrick",
+        "player_name": "Matt Fitzpatrick",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.83
+      },
+      {
+        "player_id": "wyndham-clark",
+        "player_name": "Wyndham Clark",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.83
+      },
+      {
+        "player_id": "robert-macintyre",
+        "player_name": "Robert MacIntyre",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.58
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.58
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.58
+      },
+      {
+        "player_id": "brian-harman",
+        "player_name": "Brian Harman",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.33
+      },
+      {
         "player_id": "bryson-dechambeau",
         "player_name": "Bryson DeChambeau",
         "rounds": 4,
@@ -32,81 +102,11 @@
         "avg_sg": 2.33
       },
       {
-        "player_id": "tyrrell-hatton",
-        "player_name": "Tyrrell Hatton",
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.83
-      },
-      {
-        "player_id": "dustin-johnson",
-        "player_name": "Dustin Johnson",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.58
-      },
-      {
-        "player_id": "oliver-lindell",
-        "player_name": "Oliver Lindell",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.33
-      },
-      {
-        "player_id": "jon-rahm",
-        "player_name": "Jon Rahm",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.83
-      },
-      {
-        "player_id": "lee-westwood",
-        "player_name": "Lee Westwood",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.83
-      },
-      {
-        "player_id": "sergio-garc-a",
-        "player_name": "Sergio García",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.83
-      },
-      {
-        "player_id": "jason-kokrak",
-        "player_name": "Jason Kokrak",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.58
-      },
-      {
-        "player_id": "nathan-kimsey",
-        "player_name": "Nathan Kimsey",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.58
-      },
-      {
-        "player_id": "henrik-stenson",
-        "player_name": "Henrik Stenson",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.33
-      },
-      {
-        "player_id": "matthew-jordan",
-        "player_name": "Matthew Jordan",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.33
-      },
-      {
-        "player_id": "thomas-detry",
-        "player_name": "Thomas Detry",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.33
+        "avg_to_par": -2.25,
+        "avg_sg": 2.33
       }
     ]
   },

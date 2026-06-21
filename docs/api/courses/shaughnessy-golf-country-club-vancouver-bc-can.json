@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 158,
-    "avg_to_par": 4.69,
-    "avg_sg_total": -1.68,
+    "rounds": 419,
+    "avg_to_par": 3.32,
+    "avg_sg_total": -0.77,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,55 @@
     ],
     "rows": [
       {
+        "player_id": "kris-blanks",
+        "player_name": "Kris Blanks",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 3.52
+      },
+      {
+        "player_id": "joey-sindelar",
+        "player_name": "Joey Sindelar",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 2.98
+      },
+      {
+        "player_id": "woody-austin",
+        "player_name": "Woody Austin",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.77
+      },
+      {
+        "player_id": "john-daly",
+        "player_name": "John Daly",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 2.52
+      },
+      {
+        "player_id": "bob-heintz",
+        "player_name": "Bob Heintz",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.23
+      },
+      {
+        "player_id": "lee-janzen",
+        "player_name": "Lee Janzen",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.02
+      },
+      {
+        "player_id": "scott-mccarron",
+        "player_name": "Scott McCarron",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.02
+      },
+      {
         "player_id": "michael-harris",
         "player_name": "Michael Harris",
         "rounds": 4,
@@ -32,81 +81,32 @@
         "avg_sg": 1.73
       },
       {
-        "player_id": "franklin-langham",
-        "player_name": "Franklin Langham",
+        "player_id": "peter-tomasulo",
+        "player_name": "Peter Tomasulo",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.48
+      },
+      {
+        "player_id": "scott-dunlap",
+        "player_name": "Scott Dunlap",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.48
+      },
+      {
+        "player_id": "matt-mcquillan",
+        "player_name": "Matt McQuillan",
         "rounds": 4,
         "avg_to_par": 1.25,
-        "avg_sg": 1.23
+        "avg_sg": 1.27
       },
       {
-        "player_id": "jeff-hart",
-        "player_name": "Jeff Hart",
+        "player_id": "paul-stankowski",
+        "player_name": "Paul Stankowski",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.98
-      },
-      {
-        "player_id": "james-mclean",
-        "player_name": "James McLean",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.73
-      },
-      {
-        "player_id": "mario-tiziani",
-        "player_name": "Mario Tiziani",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.73
-      },
-      {
-        "player_id": "aron-price",
-        "player_name": "Aron Price",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.52
-      },
-      {
-        "player_id": "peter-lonard",
-        "player_name": "Peter Lonard",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.52
-      },
-      {
-        "player_id": "craig-stadler",
-        "player_name": "Craig Stadler",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.48
-      },
-      {
-        "player_id": "rob-rashell",
-        "player_name": "Rob Rashell",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.16
-      },
-      {
-        "player_id": "ted-tryba",
-        "player_name": "Ted Tryba",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.16
-      },
-      {
-        "player_id": "nate-smith",
-        "player_name": "Nate Smith",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.07
-      },
-      {
-        "player_id": "brett-quigley",
-        "player_name": "Brett Quigley",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.02
+        "avg_to_par": 1.25,
+        "avg_sg": 1.27
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.56,
-    "avg_sg_total": 0.62,
-    "first_round": "2026-03-01",
+    "rounds": 63,
+    "avg_to_par": -0.32,
+    "avg_sg_total": 0.37,
+    "first_round": "2018-06-14",
     "last_round": "2026-06-20",
     "sg_t2g": 0.5,
     "sg_ott": 0.51,
@@ -331,22 +331,22 @@
         "avg_sg": 2.61
       },
       {
+        "course": "PGA National - Champion Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.26
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.04
+      },
+      {
         "course": "Trump National Doral - Blue Monster Course",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 0.85
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.5
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.87
       }
     ]
   },
@@ -358,6 +358,18 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -3.96
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -8.09
+      },
       {
         "course": "Shinnecock Hills Golf Club",
         "rounds": 3,
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 1.0,
         "avg_sg": -0.27
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.05
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.87
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 68.88,
-        "avg_to_par": -0.56,
+        "rounds": 53,
+        "scoring_average": 69.34,
+        "avg_to_par": -0.52,
         "avg_sg_total": 0.374,
         "sg_t2g": 0.5,
         "sg_ott": 0.51,
@@ -434,54 +434,37 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.374,
-        "sg_t2g": 0.5,
-        "sg_ott": 0.51,
-        "sg_app": 0.01,
-        "sg_arg": -0.019,
-        "sg_putt": -0.126,
-        "driving_distance": 313.0,
-        "accuracy": 0.5776,
-        "gir": 0.6667,
-        "scrambling": 0.5667,
-        "last_round": null
+        "rounds": 8,
+        "scoring_average": 69.13,
+        "avg_to_par": -1.38,
+        "avg_sg_total": 1.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-20"
       },
       {
-        "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.374,
-        "sg_t2g": 0.5,
-        "sg_ott": 0.51,
-        "sg_app": 0.01,
-        "sg_arg": -0.019,
-        "sg_putt": -0.126,
-        "driving_distance": 313.0,
-        "accuracy": 0.5776,
-        "gir": 0.6667,
-        "scrambling": 0.5667,
-        "last_round": null
-      },
-      {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.374,
-        "sg_t2g": 0.5,
-        "sg_ott": 0.51,
-        "sg_app": 0.01,
-        "sg_arg": -0.019,
-        "sg_putt": -0.126,
-        "driving_distance": 313.0,
-        "accuracy": 0.5776,
-        "gir": 0.6667,
-        "scrambling": 0.5667,
-        "last_round": null
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 79.0,
+        "avg_to_par": 9.0,
+        "avg_sg_total": -3.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-06-15"
       }
     ]
   },
@@ -494,10 +477,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.62 strokes gained. Win probability sits at 67.0%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.37 strokes gained. Win probability sits at 67.0%.",
     "risk_flags": "",
-    "avg_sg_total": 0.62,
-    "avg_to_par": -0.56
+    "avg_sg_total": 0.37,
+    "avg_to_par": -0.32
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +489,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 3
   }
 }

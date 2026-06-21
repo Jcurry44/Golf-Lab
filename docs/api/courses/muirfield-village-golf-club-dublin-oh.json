@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 614,
-    "avg_to_par": 1.62,
-    "avg_sg_total": -0.97,
+    "rounds": 2988,
+    "avg_to_par": 1.22,
+    "avg_sg_total": -0.47,
     "difficulty_bucket": "tough"
   },
   "fits": {
@@ -25,44 +25,58 @@
     ],
     "rows": [
       {
-        "player_id": "j-t-poston",
-        "player_name": "J.T. Poston",
+        "player_id": "joost-luiten",
+        "player_name": "Joost Luiten",
+        "rounds": 5,
+        "avg_to_par": -13.8,
+        "avg_sg": -0.69
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.81
+      },
+      {
+        "player_id": "jon-curran",
+        "player_name": "Jon Curran",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.79
+      },
+      {
+        "player_id": "chase-seiffert",
+        "player_name": "Chase Seiffert",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.13
+      },
+      {
+        "player_id": "david-peoples",
+        "player_name": "David Peoples",
         "rounds": 4,
         "avg_to_par": -3.0,
-        "avg_sg": 3.61
+        "avg_sg": 2.68
       },
       {
-        "player_id": "ryan-gerard",
-        "player_name": "Ryan Gerard",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 3.61
-      },
-      {
-        "player_id": "wyndham-clark",
-        "player_name": "Wyndham Clark",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 3.36
-      },
-      {
-        "player_id": "sam-burns",
-        "player_name": "Sam Burns",
-        "rounds": 4,
+        "player_id": "george-mcneill",
+        "player_name": "George McNeill",
+        "rounds": 6,
         "avg_to_par": -2.5,
-        "avg_sg": 3.11
+        "avg_sg": 2.03
       },
       {
-        "player_id": "tommy-fleetwood",
-        "player_name": "Tommy Fleetwood",
+        "player_id": "andy-sullivan",
+        "player_name": "Andy Sullivan",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 3.11
+        "avg_to_par": -2.25,
+        "avg_sg": 2.16
       },
       {
-        "player_id": "mito-pereira",
-        "player_name": "Mito Pereira",
-        "rounds": 2,
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 11,
         "avg_to_par": -2.0,
         "avg_sg": 3.24
       },
@@ -81,32 +95,18 @@
         "avg_sg": 2.61
       },
       {
-        "player_id": "jerry-kelly",
-        "player_name": "Jerry Kelly",
+        "player_id": "luke-guthrie",
+        "player_name": "Luke Guthrie",
         "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": 1.63
+        "avg_sg": 1.93
       },
       {
-        "player_id": "julian-suri",
-        "player_name": "Julian Suri",
-        "rounds": 4,
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 8,
         "avg_to_par": -2.0,
-        "avg_sg": 1.37
-      },
-      {
-        "player_id": "eric-cole",
-        "player_name": "Eric Cole",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 2.36
-      },
-      {
-        "player_id": "brett-wetterich",
-        "player_name": "Brett Wetterich",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.8
+        "avg_sg": 1.71
       }
     ]
   },

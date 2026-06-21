@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.57,
-    "avg_sg_total": -0.89,
-    "first_round": "2005-09-23",
+    "rounds": 70,
+    "avg_to_par": 0.14,
+    "avg_sg_total": -0.49,
+    "first_round": "2002-05-23",
     "last_round": "2013-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "En-Joie Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.8
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.68
+      },
+      {
         "course": "Glen Abbey GC",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 0.44
       },
       {
+        "course": "TPC Boston",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.34
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.44
+      },
+      {
         "course": "Warwick Hills Golf and Country Club",
         "rounds": 2,
         "avg_to_par": -0.5,
         "avg_sg": -0.89
-      },
-      {
-        "course": "Annandale GC",
-        "rounds": 5,
-        "avg_to_par": -0.4,
-        "avg_sg": -0.85
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.26
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 7,
-        "avg_to_par": 0.29,
-        "avg_sg": -0.42
-      },
-      {
-        "course": "Tesoro Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.52
       }
     ]
   },
@@ -359,22 +359,28 @@
     ],
     "rows": [
       {
-        "course": "TPC Deere Run",
-        "rounds": 4,
+        "course": "TPC Louisiana",
+        "rounds": 2,
         "avg_to_par": 4.0,
-        "avg_sg": -4.51
+        "avg_sg": -3.32
       },
       {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.26
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.84
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 6,
+        "avg_to_par": 3.17,
+        "avg_sg": -3.76
       },
       {
         "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 0.76
+        "rounds": 6,
+        "avg_to_par": 1.33,
+        "avg_sg": 0.52
       },
       {
         "course": "Grand Reserve Golf Club",
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -1.52
-      },
-      {
-        "course": "La Cantera Golf Club - Resort Course",
-        "rounds": 7,
-        "avg_to_par": 0.29,
-        "avg_sg": -0.42
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2005,
-        "rounds": 2,
-        "scoring_average": 72.0,
-        "avg_to_par": 1.0,
-        "avg_sg_total": -1.5,
+        "rounds": 27,
+        "scoring_average": 70.93,
+        "avg_to_par": -0.26,
+        "avg_sg_total": -0.21,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-11-03"
+      },
+      {
+        "season": 2003,
+        "rounds": 1,
+        "scoring_average": 80.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -6.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-03"
+      },
+      {
+        "season": 2002,
+        "rounds": 4,
+        "scoring_average": 69.0,
+        "avg_to_par": -3.0,
+        "avg_sg_total": 2.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-26"
       }
     ]
   },
@@ -544,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 9
   }
 }

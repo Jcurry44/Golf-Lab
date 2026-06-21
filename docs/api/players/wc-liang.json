@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20191103",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.5,
-    "avg_sg_total": -1.25,
-    "first_round": "2013-11-02",
+    "rounds": 54,
+    "avg_to_par": 1.28,
+    "avg_sg_total": -1.08,
+    "first_round": "2011-01-13",
     "last_round": "2019-11-03",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,15 +314,15 @@
     "rows": [
       {
         "course": "Waialae Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.44
+        "rounds": 10,
+        "avg_to_par": -0.2,
+        "avg_sg": -0.45
       },
       {
         "course": "Sheshan International GC",
-        "rounds": 18,
-        "avg_to_par": 0.11,
-        "avg_sg": -0.42
+        "rounds": 24,
+        "avg_to_par": 0.04,
+        "avg_sg": -0.39
       },
       {
         "course": "Sheshan Golf Club",
@@ -365,6 +365,12 @@
         "avg_sg": -4.28
       },
       {
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.05
+      },
+      {
         "course": "Pinehurst Resort - Course No. 2",
         "rounds": 2,
         "avg_to_par": 4.0,
@@ -387,12 +393,6 @@
         "rounds": 8,
         "avg_to_par": 2.25,
         "avg_sg": -1.91
-      },
-      {
-        "course": "Sheshan International GC",
-        "rounds": 18,
-        "avg_to_par": 0.11,
-        "avg_sg": -0.42
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2014,
-        "rounds": 4,
-        "scoring_average": 71.5,
-        "avg_to_par": 0.5,
-        "avg_sg_total": 0.01,
+        "rounds": 6,
+        "scoring_average": 70.83,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.78,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2014-06-13"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 71.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-01-13"
+      },
+      {
+        "season": 2011,
+        "rounds": 10,
+        "scoring_average": 71.9,
+        "avg_to_par": 1.1,
+        "avg_sg_total": -0.98,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
       }
     ]
   },
@@ -544,6 +578,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 9
   }
 }

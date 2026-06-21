@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20111205",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.25,
-    "avg_sg_total": -0.77,
-    "first_round": "2007-07-12",
+    "rounds": 73,
+    "avg_to_par": 0.67,
+    "avg_sg_total": -0.94,
+    "first_round": "2005-07-14",
     "last_round": "2011-12-05",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
+        "course": "En-Joie Golf Club",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.8
+      },
+      {
         "course": "Atunyote Golf Club",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": 0.68
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.08
       },
       {
         "course": "Forest Oaks Country Club",
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": 0.28
-      },
-      {
-        "course": "Brown Deer Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.17
-      },
-      {
-        "course": "TPC Summerlin",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.83
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.24
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.99
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.46
+      },
+      {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.32
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.42
+      },
+      {
         "course": "Montreux Golf & Country Club",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -3.08
-      },
-      {
-        "course": "Grayhawk Golf Club - Raptor Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.71
-      },
-      {
-        "course": null,
-        "rounds": 8,
-        "avg_to_par": 1.38,
-        "avg_sg": -1.79
-      },
-      {
-        "course": "Tesoro Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.52
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.95
-      },
-      {
-        "course": "Angus Glen Golf Club - North Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.58
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2007,
-        "rounds": 34,
-        "scoring_average": 71.38,
-        "avg_to_par": 0.06,
-        "avg_sg_total": -0.68,
+        "rounds": 63,
+        "scoring_average": 72.27,
+        "avg_to_par": 0.95,
+        "avg_sg_total": -1.08,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-11-02"
+      },
+      {
+        "season": 2005,
+        "rounds": 4,
+        "scoring_average": 67.25,
+        "avg_to_par": -4.75,
+        "avg_sg_total": 1.8,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-17"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

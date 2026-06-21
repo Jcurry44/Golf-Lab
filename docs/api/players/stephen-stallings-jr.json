@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250727",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.05,
-    "avg_sg_total": -0.96,
-    "first_round": "2021-02-25",
+    "rounds": 44,
+    "avg_to_par": -0.2,
+    "avg_sg_total": -0.85,
+    "first_round": "2019-07-18",
     "last_round": "2025-07-25",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": 1.38
       },
       {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.25
+      },
+      {
         "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 12,
         "avg_to_par": -1.0,
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": 0.5,
         "avg_sg": -1.75
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -1.62
       }
     ]
   },
@@ -499,6 +499,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-07-23"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 69.25,
+        "avg_to_par": -2.75,
+        "avg_sg_total": 0.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-21"
       }
     ]
   },
@@ -510,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 6
   }
 }

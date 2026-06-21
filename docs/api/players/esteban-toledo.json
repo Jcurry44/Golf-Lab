@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230115",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.1,
-    "avg_sg_total": 0.0,
-    "first_round": "2007-11-28",
+    "rounds": 75,
+    "avg_to_par": -0.33,
+    "avg_sg_total": 0.08,
+    "first_round": "2003-04-03",
     "last_round": "2013-11-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,28 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Sugarloaf",
+        "course": "TPC Deere Run",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.66
+        "avg_to_par": -2.75,
+        "avg_sg": 1.85
       },
       {
-        "course": null,
-        "rounds": 12,
-        "avg_to_par": -0.67,
-        "avg_sg": 0.09
+        "course": "Atunyote Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.97
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.6
+      },
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 1.47
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.01
       },
       {
         "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 18,
-        "avg_to_par": 0.11,
-        "avg_sg": 0.11
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 6,
-        "avg_to_par": 0.83,
-        "avg_sg": -0.93
+        "rounds": 22,
+        "avg_to_par": 0.05,
+        "avg_sg": 0.2
       }
     ]
   },
@@ -347,28 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.77
+      },
+      {
         "course": "Grand Reserve Golf Club",
         "rounds": 6,
         "avg_to_par": 0.83,
         "avg_sg": -0.93
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 18,
-        "avg_to_par": 0.11,
-        "avg_sg": 0.11
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.67
       },
       {
         "course": null,
-        "rounds": 12,
-        "avg_to_par": -0.67,
-        "avg_sg": 0.09
+        "rounds": 21,
+        "avg_to_par": 0.24,
+        "avg_sg": -0.43
       },
       {
-        "course": "TPC Sugarloaf",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.66
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 22,
+        "avg_to_par": 0.05,
+        "avg_sg": 0.2
+      },
+      {
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.01
       }
     ]
   },
@@ -495,10 +519,10 @@
       },
       {
         "season": 2007,
-        "rounds": 6,
-        "scoring_average": 70.5,
-        "avg_to_par": -1.5,
-        "avg_sg_total": 0.41,
+        "rounds": 13,
+        "scoring_average": 70.92,
+        "avg_to_par": -0.46,
+        "avg_sg_total": 0.33,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -509,6 +533,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-12-03"
+      },
+      {
+        "season": 2006,
+        "rounds": 7,
+        "scoring_average": 71.57,
+        "avg_to_par": -0.43,
+        "avg_sg_total": -0.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-07-23"
+      },
+      {
+        "season": 2005,
+        "rounds": 17,
+        "scoring_average": 70.76,
+        "avg_to_par": -0.76,
+        "avg_sg_total": -0.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-15"
+      },
+      {
+        "season": 2003,
+        "rounds": 4,
+        "scoring_average": 70.0,
+        "avg_to_par": -2.0,
+        "avg_sg_total": 2.28,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-06"
       }
     ]
   },
@@ -520,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 10
   }
 }

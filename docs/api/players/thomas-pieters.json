@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.15,
-    "avg_sg_total": -0.31,
-    "first_round": "2021-08-05",
+    "rounds": 164,
+    "avg_to_par": 0.52,
+    "avg_sg_total": 0.32,
+    "first_round": "2015-11-05",
     "last_round": "2023-07-23",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Old Course at St Andrews",
+        "course": "Trinity Forest Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.31
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.81
+      },
+      {
+        "course": "Bellerive CC",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.45
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.06
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": 0.16
+      },
+      {
+        "course": "Firestone CC (South)",
         "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": 1.36
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.29
-      },
-      {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 0.8
-      },
-      {
-        "course": "The Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 1.35
-      },
-      {
-        "course": "Oak Hill Country Club - East Course",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.94
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
+        "avg_sg": 2.5
       }
     ]
   },
@@ -359,16 +359,28 @@
     ],
     "rows": [
       {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -4.83
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -3.83
+      },
+      {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 4,
         "avg_to_par": 5.0,
         "avg_sg": null
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 6,
-        "avg_to_par": 3.83,
-        "avg_sg": -2.42
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.37
       },
       {
         "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 3.0,
         "avg_sg": -0.67
-      },
-      {
-        "course": "Royal Liverpool Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.07
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.2
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2021,
-        "rounds": 4,
-        "scoring_average": 5.0,
-        "avg_to_par": 5.0,
-        "avg_sg_total": null,
+        "rounds": 20,
+        "scoring_average": 58.4,
+        "avg_to_par": 1.2,
+        "avg_sg_total": 0.72,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-08-08"
+      },
+      {
+        "season": 2019,
+        "rounds": 22,
+        "scoring_average": 70.95,
+        "avg_to_par": -0.23,
+        "avg_sg_total": 0.51,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-21"
+      },
+      {
+        "season": 2018,
+        "rounds": 38,
+        "scoring_average": 71.39,
+        "avg_to_par": 0.13,
+        "avg_sg_total": 0.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-12"
+      },
+      {
+        "season": 2017,
+        "rounds": 32,
+        "scoring_average": 70.63,
+        "avg_to_par": -0.44,
+        "avg_sg_total": 1.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-11"
+      },
+      {
+        "season": 2016,
+        "rounds": 16,
+        "scoring_average": 71.81,
+        "avg_to_par": 0.56,
+        "avg_sg_total": -0.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-31"
       }
     ]
   },
@@ -476,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 7
   }
 }

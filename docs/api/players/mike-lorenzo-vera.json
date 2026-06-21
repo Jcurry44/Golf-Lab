@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240721",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.63,
-    "avg_sg_total": -0.71,
-    "first_round": "2017-07-22",
+    "rounds": 42,
+    "avg_to_par": 1.67,
+    "avg_sg_total": -0.64,
+    "first_round": "2017-07-20",
     "last_round": "2024-07-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -337,16 +337,16 @@
         "avg_sg": -0.3
       },
       {
-        "course": "Royal Birkdale Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.92
-      },
-      {
         "course": "Bethpage State Park BK Course",
         "rounds": 4,
         "avg_to_par": 0.75,
         "avg_sg": 1.88
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.22
       }
     ]
   },
@@ -519,10 +519,10 @@
       },
       {
         "season": 2017,
-        "rounds": 2,
-        "scoring_average": 70.5,
-        "avg_to_par": 0.5,
-        "avg_sg_total": -0.92,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.22,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,

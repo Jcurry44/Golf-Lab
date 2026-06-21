@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 0.0,
-    "avg_sg_total": -0.17,
-    "first_round": "2026-03-12",
+    "rounds": 80,
+    "avg_to_par": -0.42,
+    "avg_sg_total": 0.11,
+    "first_round": "2024-09-12",
     "last_round": "2026-06-21",
     "sg_t2g": 0.557,
     "sg_ott": 0.613,
@@ -319,34 +319,34 @@
         "avg_sg": 2.3
       },
       {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.91
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.18
+      },
+      {
         "course": "Memorial Park Golf Course",
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 3.01
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Silverado Resort (North Course)",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.67
+        "avg_to_par": -2.25,
+        "avg_sg": 1.5
       },
       {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.25
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.5
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -1.21
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.83
       }
     ]
   },
@@ -371,6 +371,18 @@
         "avg_sg": -3.75
       },
       {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -0.93
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.91
+      },
+      {
         "course": "Shinnecock Hills Golf Club",
         "rounds": 4,
         "avg_to_par": 2.33,
@@ -381,18 +393,6 @@
         "rounds": 4,
         "avg_to_par": 2.25,
         "avg_sg": -0.88
-      },
-      {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.24
-      },
-      {
-        "course": "TPC San Antonio - The Oaks Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.45
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.67,
-        "avg_to_par": 0.0,
+        "rounds": 58,
+        "scoring_average": 70.37,
+        "avg_to_par": -0.47,
         "avg_sg_total": 0.027,
         "sg_t2g": 0.557,
         "sg_ott": 0.613,
@@ -434,54 +434,37 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.027,
-        "sg_t2g": 0.557,
-        "sg_ott": 0.613,
-        "sg_app": 0.339,
-        "sg_arg": -0.395,
-        "sg_putt": -0.53,
-        "driving_distance": 318.3,
-        "accuracy": 0.58,
-        "gir": 0.7109,
-        "scrambling": 0.5658,
-        "last_round": null
+        "rounds": 14,
+        "scoring_average": 70.86,
+        "avg_to_par": 0.29,
+        "avg_sg_total": -0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-11-23"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.027,
-        "sg_t2g": 0.557,
-        "sg_ott": 0.613,
-        "sg_app": 0.339,
-        "sg_arg": -0.395,
-        "sg_putt": -0.53,
-        "driving_distance": 318.3,
-        "accuracy": 0.58,
-        "gir": 0.7109,
-        "scrambling": 0.5658,
-        "last_round": null
-      },
-      {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.027,
-        "sg_t2g": 0.557,
-        "sg_ott": 0.613,
-        "sg_app": 0.339,
-        "sg_arg": -0.395,
-        "sg_putt": -0.53,
-        "driving_distance": 318.3,
-        "accuracy": 0.58,
-        "gir": 0.7109,
-        "scrambling": 0.5658,
-        "last_round": null
+        "rounds": 8,
+        "scoring_average": 69.75,
+        "avg_to_par": -1.25,
+        "avg_sg_total": 1.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
       }
     ]
   },
@@ -494,10 +477,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.17 strokes gained. Win probability sits at 67.7%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.11 strokes gained. Win probability sits at 67.7%.",
     "risk_flags": "",
-    "avg_sg_total": -0.17,
-    "avg_to_par": 0.0
+    "avg_sg_total": 0.11,
+    "avg_to_par": -0.42
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +489,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 3
   }
 }

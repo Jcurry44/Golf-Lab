@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20130505",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.47,
-    "avg_sg_total": -1.12,
-    "first_round": "2011-06-24",
+    "rounds": 85,
+    "avg_to_par": 0.38,
+    "avg_sg_total": -0.68,
+    "first_round": "2010-12-01",
     "last_round": "2013-05-05",
     "sg_t2g": null,
     "sg_ott": null,
@@ -325,10 +325,10 @@
         "avg_sg": -0.56
       },
       {
-        "course": "TPC River Highlands",
-        "rounds": 3,
-        "avg_to_par": -1.33,
-        "avg_sg": -0.27
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.84
       },
       {
         "course": "TPC Deere Run",
@@ -337,16 +337,16 @@
         "avg_sg": -0.4
       },
       {
-        "course": "TPC Summerlin",
+        "course": "Waialae Country Club",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -1.36
+        "avg_to_par": -1.0,
+        "avg_sg": 0.42
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "TPC River Highlands",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.36
+        "avg_to_par": -0.75,
+        "avg_sg": -0.7
       }
     ]
   },
@@ -358,6 +358,24 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.41
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.79
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.06
+      },
       {
         "course": "Montreux Golf & Country Club",
         "rounds": 2,
@@ -371,28 +389,10 @@
         "avg_sg": -1.45
       },
       {
-        "course": "Shaughnessy Golf and Country Club",
+        "course": "TPC Southwind",
         "rounds": 2,
         "avg_to_par": 2.5,
-        "avg_sg": 0.07
-      },
-      {
-        "course": null,
-        "rounds": 5,
-        "avg_to_par": 1.6,
-        "avg_sg": -2.38
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.49
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.62
+        "avg_sg": -1.14
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2011,
-        "rounds": 30,
-        "scoring_average": 71.3,
-        "avg_to_par": 0.37,
-        "avg_sg_total": -1.09,
+        "rounds": 69,
+        "scoring_average": 71.65,
+        "avg_to_par": 0.52,
+        "avg_sg_total": -0.82,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2011-12-02"
+      },
+      {
+        "season": 2010,
+        "rounds": 6,
+        "scoring_average": 69.5,
+        "avg_to_par": -2.0,
+        "avg_sg_total": 1.81,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-12-06"
       }
     ]
   },
@@ -476,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 4
   }
 }

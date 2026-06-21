@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 104,
-    "avg_to_par": -1.4,
-    "avg_sg_total": -0.93,
+    "rounds": 148,
+    "avg_to_par": -1.53,
+    "avg_sg_total": -0.88,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -53,8 +53,22 @@
         "avg_sg": 0.65
       },
       {
+        "player_id": "charlie-wi",
+        "player_name": "Charlie Wi",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 0.02
+      },
+      {
         "player_id": "masanori-kobayashi",
         "player_name": "Masanori Kobayashi",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": -0.23
+      },
+      {
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": -0.23
@@ -67,6 +81,20 @@
         "avg_sg": -0.31
       },
       {
+        "player_id": "trevor-immelman",
+        "player_name": "Trevor Immelman",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": -0.48
+      },
+      {
+        "player_id": "marcus-fraser",
+        "player_name": "Marcus Fraser",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": -0.44
+      },
+      {
         "player_id": "andrew-dodt",
         "player_name": "Andrew Dodt",
         "rounds": 4,
@@ -74,39 +102,11 @@
         "avg_sg": -0.39
       },
       {
-        "player_id": "danny-chia",
-        "player_name": "Danny Chia",
-        "rounds": 8,
-        "avg_to_par": -1.88,
-        "avg_sg": -0.48
-      },
-      {
-        "player_id": "chinnarat-phadungsil",
-        "player_name": "Chinnarat Phadungsil",
+        "player_id": "bob-estes",
+        "player_name": "Bob Estes",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.22
-      },
-      {
-        "player_id": "pariya-junhasavasdikul",
-        "player_name": "Pariya Junhasavasdikul",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.64
-      },
-      {
-        "player_id": "prom-meesawat",
-        "player_name": "Prom Meesawat",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.98
-      },
-      {
-        "player_id": "siddikur-rahman",
-        "player_name": "Siddikur Rahman",
-        "rounds": 12,
-        "avg_to_par": -1.42,
-        "avg_sg": -0.95
+        "avg_to_par": -2.0,
+        "avg_sg": -0.73
       }
     ]
   },

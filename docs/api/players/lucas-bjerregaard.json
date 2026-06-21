@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.88,
-    "avg_sg_total": -1.26,
-    "first_round": "2019-07-26",
+    "rounds": 85,
+    "avg_to_par": 1.19,
+    "avg_sg_total": -0.84,
+    "first_round": "2011-07-14",
     "last_round": "2022-07-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -325,6 +325,18 @@
         "avg_sg": -0.75
       },
       {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.0
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.02
+      },
+      {
         "course": "Sedgefield Country Club",
         "rounds": 2,
         "avg_to_par": -1.0,
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": 0.62
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.79
-      },
-      {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.41
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.87
+      },
+      {
         "course": "Muirfield Village Golf Club",
         "rounds": 2,
         "avg_to_par": 5.0,
         "avg_sg": -4.81
       },
       {
+        "course": "Chambers Bay GC",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.92
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.02
+      },
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.74
+      },
+      {
         "course": "Congaree Golf Club",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": -2.56
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": null
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.7
-      },
-      {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.95
-      },
-      {
-        "course": "PGA National Resort (The Champion)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.06
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2019,
-        "rounds": 5,
-        "scoring_average": 70.6,
-        "avg_to_par": 0.6,
-        "avg_sg_total": -1.6,
+        "rounds": 42,
+        "scoring_average": 71.95,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.65,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-08-02"
+      },
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -1.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-06-19"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": 0.84,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-15"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -1.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-07-15"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

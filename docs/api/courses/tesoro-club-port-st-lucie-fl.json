@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 68,
-    "avg_to_par": 0.38,
-    "avg_sg_total": -1.27,
+    "rounds": 182,
+    "avg_to_par": -0.2,
+    "avg_sg_total": -0.65,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,11 +25,53 @@
     ],
     "rows": [
       {
+        "player_id": "shigeki-maruyama",
+        "player_name": "Shigeki Maruyama",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.76
+      },
+      {
+        "player_id": "michael-sim",
+        "player_name": "Michael Sim",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.26
+      },
+      {
+        "player_id": "robert-gamez",
+        "player_name": "Robert Gamez",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.26
+      },
+      {
         "player_id": "daisuke-maruyama",
         "player_name": "Daisuke Maruyama",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 1.76
+      },
+      {
+        "player_id": "tommy-armour-iii",
+        "player_name": "Tommy Armour III",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.76
+      },
+      {
+        "player_id": "cliff-kresge",
+        "player_name": "Cliff Kresge",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "mark-brooks",
+        "player_name": "Mark Brooks",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.01
       },
       {
         "player_id": "paul-gow",
@@ -46,67 +88,25 @@
         "avg_sg": 1.01
       },
       {
-        "player_id": "michael-boyd",
-        "player_name": "Michael Boyd",
+        "player_id": "andrew-buckle",
+        "player_name": "Andrew Buckle",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "john-huston",
+        "player_name": "John Huston",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.76
+      },
+      {
+        "player_id": "craig-bowden",
+        "player_name": "Craig Bowden",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 0.51
-      },
-      {
-        "player_id": "brent-geiberger",
-        "player_name": "Brent Geiberger",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.52
-      },
-      {
-        "player_id": "bubba-dickerson",
-        "player_name": "Bubba Dickerson",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.52
-      },
-      {
-        "player_id": "tripp-isenhour",
-        "player_name": "Tripp Isenhour",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.52
-      },
-      {
-        "player_id": "craig-lile",
-        "player_name": "Craig Lile",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.49
-      },
-      {
-        "player_id": "jim-gallagher-jr",
-        "player_name": "Jim Gallagher Jr.",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.49
-      },
-      {
-        "player_id": "jaco-van-zyl",
-        "player_name": "Jaco Van Zyl",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.02
-      },
-      {
-        "player_id": "jeff-brehaut",
-        "player_name": "Jeff Brehaut",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.02
-      },
-      {
-        "player_id": "jim-rutledge",
-        "player_name": "Jim Rutledge",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.02
       }
     ]
   },

@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 748,
-    "avg_to_par": -0.46,
-    "avg_sg_total": -0.92,
+    "rounds": 1838,
+    "avg_to_par": -0.88,
+    "avg_sg_total": -0.39,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -27,9 +27,23 @@
       {
         "player_id": "matt-gogel",
         "player_name": "Matt Gogel",
-        "rounds": 2,
-        "avg_to_par": -34.0,
-        "avg_sg": -2.97
+        "rounds": 4,
+        "avg_to_par": -16.75,
+        "avg_sg": -2.36
+      },
+      {
+        "player_id": "jos-coceres",
+        "player_name": "José Coceres",
+        "rounds": 6,
+        "avg_to_par": -13.0,
+        "avg_sg": -0.3
+      },
+      {
+        "player_id": "jim-renner",
+        "player_name": "Jim Renner",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.77
       },
       {
         "player_id": "loren-roberts",
@@ -39,32 +53,18 @@
         "avg_sg": 2.62
       },
       {
+        "player_id": "nicholas-thompson",
+        "player_name": "Nicholas Thompson",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.7
+      },
+      {
         "player_id": "jj-killeen",
         "player_name": "JJ Killeen",
         "rounds": 4,
         "avg_to_par": -4.25,
         "avg_sg": 2.47
-      },
-      {
-        "player_id": "billy-andrade",
-        "player_name": "Billy Andrade",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 2.45
-      },
-      {
-        "player_id": "michael-connell",
-        "player_name": "Michael Connell",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 2.02
-      },
-      {
-        "player_id": "d-j-brigman",
-        "player_name": "D.J. Brigman",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.77
       },
       {
         "player_id": "hunter-hamrick",
@@ -81,6 +81,20 @@
         "avg_sg": 1.62
       },
       {
+        "player_id": "bio-kim",
+        "player_name": "Bio Kim",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "billy-mayfair",
+        "player_name": "Billy Mayfair",
+        "rounds": 8,
+        "avg_to_par": -3.63,
+        "avg_sg": 1.61
+      },
+      {
         "player_id": "brad-elder",
         "player_name": "Brad Elder",
         "rounds": 4,
@@ -88,25 +102,11 @@
         "avg_sg": 2.07
       },
       {
-        "player_id": "chris-couch",
-        "player_name": "Chris Couch",
-        "rounds": 4,
+        "player_id": "will-claxton",
+        "player_name": "Will Claxton",
+        "rounds": 8,
         "avg_to_par": -3.5,
-        "avg_sg": 1.72
-      },
-      {
-        "player_id": "peter-lonard",
-        "player_name": "Peter Lonard",
-        "rounds": 10,
-        "avg_to_par": -3.3,
-        "avg_sg": 1.38
-      },
-      {
-        "player_id": "tom-scherrer",
-        "player_name": "Tom Scherrer",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.82
+        "avg_sg": 1.71
       }
     ]
   },

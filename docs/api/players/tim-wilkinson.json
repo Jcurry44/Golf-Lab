@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.25,
-    "avg_sg_total": -0.63,
-    "first_round": "2021-01-30",
+    "rounds": 240,
+    "avg_to_par": -0.38,
+    "avg_sg_total": -0.03,
+    "first_round": "2015-11-07",
     "last_round": "2024-12-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,16 +313,22 @@
     ],
     "rows": [
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 14,
+        "avg_to_par": -2.64,
+        "avg_sg": 0.94
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 16,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.36
+      },
+      {
         "course": "TPC Craig Ranch",
         "rounds": 2,
         "avg_to_par": -2.5,
         "avg_sg": 0.06
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.31
       },
       {
         "course": "Black Desert Resort",
@@ -331,22 +337,16 @@
         "avg_sg": 0.14
       },
       {
-        "course": "Pebble Beach Golf Links",
+        "course": "TPC Twin Cities",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 1.08
+        "avg_to_par": -1.75,
+        "avg_sg": 0.3
       },
       {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": null
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.89
+        "course": "Waialae Country Club",
+        "rounds": 14,
+        "avg_to_par": -1.71,
+        "avg_sg": 0.6
       }
     ]
   },
@@ -359,16 +359,28 @@
     ],
     "rows": [
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "PGA National Resort (The Champion)",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.76
+        "avg_to_par": 5.0,
+        "avg_sg": -2.94
       },
       {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
+        "course": "Oakmont CC",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.67
+      },
+      {
+        "course": "Shinnecock Hills GC",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.39
+      },
+      {
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 4,
         "avg_to_par": 3.0,
-        "avg_sg": -3.79
+        "avg_sg": -1.63
       },
       {
         "course": "El Cardonal at Diamante",
@@ -377,22 +389,10 @@
         "avg_sg": -3.48
       },
       {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
+        "course": "Eagle Point Golf Club",
+        "rounds": 2,
         "avg_to_par": 2.5,
-        "avg_sg": -0.86
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -4.0
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.25
+        "avg_sg": -1.41
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2021,
-        "rounds": 22,
-        "scoring_average": 71.27,
-        "avg_to_par": -0.45,
-        "avg_sg_total": 0.34,
+        "rounds": 38,
+        "scoring_average": 71.08,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.1,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-05-14"
+      },
+      {
+        "season": 2020,
+        "rounds": 46,
+        "scoring_average": 70.09,
+        "avg_to_par": -1.07,
+        "avg_sg_total": 0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-14"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": -3.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-10-28"
+      },
+      {
+        "season": 2018,
+        "rounds": 10,
+        "scoring_average": 71.9,
+        "avg_to_par": 1.1,
+        "avg_sg_total": -0.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-20"
+      },
+      {
+        "season": 2017,
+        "rounds": 58,
+        "scoring_average": 70.57,
+        "avg_to_par": -0.41,
+        "avg_sg_total": 0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-20"
+      },
+      {
+        "season": 2016,
+        "rounds": 66,
+        "scoring_average": 70.44,
+        "avg_to_par": -0.58,
+        "avg_sg_total": 0.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-21"
       }
     ]
   },
@@ -459,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 7
   }
 }

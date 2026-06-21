@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 126,
-    "avg_to_par": 3.88,
-    "avg_sg_total": -0.96,
+    "rounds": 219,
+    "avg_to_par": 3.6,
+    "avg_sg_total": -0.64,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -24,6 +24,20 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "darren-clarke",
+        "player_name": "Darren Clarke",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 4.58
+      },
+      {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 3.58
+      },
       {
         "player_id": "anthony-kim",
         "player_name": "Anthony Kim",
@@ -46,6 +60,13 @@
         "avg_sg": 2.83
       },
       {
+        "player_id": "george-coetzee",
+        "player_name": "George Coetzee",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 2.33
+      },
+      {
         "player_id": "richard-green",
         "player_name": "Richard Green",
         "rounds": 4,
@@ -60,53 +81,32 @@
         "avg_sg": 1.83
       },
       {
+        "player_id": "tom-lehman",
+        "player_name": "Tom Lehman",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "tom-watson",
+        "player_name": "Tom Watson",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.83
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.58
+      },
+      {
         "player_id": "alejandro-ca-izares",
         "player_name": "Alejandro Cañizares",
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": 0.5
-      },
-      {
-        "player_id": "bryden-macpherson",
-        "player_name": "Bryden MacPherson",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "graeme-storm",
-        "player_name": "Graeme Storm",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "rick-kulacz",
-        "player_name": "Rick Kulacz",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "gary-boyd",
-        "player_name": "Gary Boyd",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.83
-      },
-      {
-        "player_id": "robert-rock",
-        "player_name": "Robert Rock",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.83
-      },
-      {
-        "player_id": "simon-khan",
-        "player_name": "Simon Khan",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.83
       }
     ]
   },

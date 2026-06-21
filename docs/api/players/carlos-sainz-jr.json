@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250330",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.38,
-    "avg_sg_total": -1.88,
-    "first_round": "2014-11-13",
+    "rounds": 46,
+    "avg_to_par": 1.13,
+    "avg_sg_total": -1.63,
+    "first_round": "2014-10-23",
     "last_round": "2025-03-28",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "The Country Club of Jackson",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.96
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": -1.5,
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": 0.02
-      },
-      {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.35
       }
     ]
   },
@@ -371,6 +371,12 @@
         "avg_sg": -6.09
       },
       {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.7
+      },
+      {
         "course": "TPC Four Seasons Resort",
         "rounds": 2,
         "avg_to_par": 3.0,
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -1.18
-      },
-      {
-        "course": "Waialae Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.08
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2015,
-        "rounds": 36,
-        "scoring_average": 72.19,
-        "avg_to_par": 1.08,
-        "avg_sg_total": -1.67,
+        "rounds": 42,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.86,
+        "avg_sg_total": -1.42,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,

@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 723,
-    "avg_to_par": 0.55,
-    "avg_sg_total": -1.25,
+    "rounds": 1920,
+    "avg_to_par": -0.53,
+    "avg_sg_total": -0.21,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -24,6 +24,13 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "billy-horschel",
+        "player_name": "Billy Horschel",
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 4.22
+      },
       {
         "player_id": "parker-coody",
         "player_name": "Parker Coody",
@@ -46,67 +53,60 @@
         "avg_sg": 2.22
       },
       {
-        "player_id": "bryson-nimmer",
-        "player_name": "Bryson Nimmer",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.06
+        "player_id": "matt-wallace",
+        "player_name": "Matt Wallace",
+        "rounds": 8,
+        "avg_to_par": -3.63,
+        "avg_sg": 2.95
       },
       {
-        "player_id": "brady-schnell",
-        "player_name": "Brady Schnell",
+        "player_id": "rasmus-h-jgaard",
+        "player_name": "Rasmus Højgaard",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.93
+        "avg_to_par": -3.5,
+        "avg_sg": 2.56
       },
       {
-        "player_id": "paul-dunne",
-        "player_name": "Paul Dunne",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.93
+        "player_id": "chan-kim",
+        "player_name": "Chan Kim",
+        "rounds": 8,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.48
       },
       {
-        "player_id": "jorge-campillo",
-        "player_name": "Jorge Campillo",
+        "player_id": "taylor-pendrith",
+        "player_name": "Taylor Pendrith",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.47
+        "avg_to_par": -3.5,
+        "avg_sg": 1.97
       },
       {
-        "player_id": "charley-hoffman",
-        "player_name": "Charley Hoffman",
+        "player_id": "trace-crowe",
+        "player_name": "Trace Crowe",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 2.24
+        "avg_to_par": -3.5,
+        "avg_sg": 1.97
       },
       {
-        "player_id": "alex-fitzpatrick",
-        "player_name": "Alex Fitzpatrick",
+        "player_id": "alejandro-tosti",
+        "player_name": "Alejandro Tosti",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.22
+        "avg_to_par": -3.25,
+        "avg_sg": 2.74
       },
       {
-        "player_id": "matt-nesmith",
-        "player_name": "Matt NeSmith",
+        "player_id": "jeremy-paul",
+        "player_name": "Jeremy Paul",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.99
+        "avg_to_par": -3.25,
+        "avg_sg": 2.74
       },
       {
-        "player_id": "rick-lamb",
-        "player_name": "Rick Lamb",
+        "player_id": "keith-mitchell",
+        "player_name": "Keith Mitchell",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.56
-      },
-      {
-        "player_id": "chase-seiffert",
-        "player_name": "Chase Seiffert",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.31
+        "avg_to_par": -3.25,
+        "avg_sg": 2.74
       }
     ]
   },

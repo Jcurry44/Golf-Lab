@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -2.36,
-    "avg_sg_total": 2.21,
-    "first_round": "2026-02-19",
+    "rounds": 240,
+    "avg_to_par": -3.06,
+    "avg_sg_total": 2.53,
+    "first_round": "2023-06-25",
     "last_round": "2026-06-21",
     "sg_t2g": 1.696,
     "sg_ott": 0.657,
@@ -314,39 +314,39 @@
     "rows": [
       {
         "course": "TPC Craig Ranch",
+        "rounds": 8,
+        "avg_to_par": -7.0,
+        "avg_sg": 4.79
+      },
+      {
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
         "avg_to_par": -6.25,
-        "avg_sg": 3.8
+        "avg_sg": 1.61
       },
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -4.5,
-        "avg_sg": 3.04
+        "course": "Pete Dye Stadium Course",
+        "rounds": 8,
+        "avg_to_par": -6.0,
+        "avg_sg": 2.76
       },
       {
-        "course": "Trump National Doral - Blue Monster Course",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.1
+        "course": "Albany GC",
+        "rounds": 12,
+        "avg_to_par": -5.42,
+        "avg_sg": 3.02
       },
       {
-        "course": "Augusta National Golf Club",
+        "course": "Silverado Resort (North Course)",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 3.3
+        "avg_to_par": -4.75,
+        "avg_sg": 4.05
       },
       {
-        "course": "The Riviera Country Club",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.4
-      },
-      {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.66
+        "course": "Pebble Beach Golf Links",
+        "rounds": 11,
+        "avg_to_par": -4.36,
+        "avg_sg": 2.2
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.78
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 2.83
+      },
+      {
+        "course": "Castle Pines Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.87
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.43
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 2.85
+      },
+      {
         "course": "Shinnecock Hills Golf Club",
         "rounds": 4,
         "avg_to_par": -0.33,
         "avg_sg": 3.38
-      },
-      {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.22
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.87
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.61
-      },
-      {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.66
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.4
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 68.97,
-        "avg_to_par": -2.36,
+        "rounds": 52,
+        "scoring_average": 68.39,
+        "avg_to_par": -3.02,
         "avg_sg_total": 2.162,
         "sg_t2g": 1.696,
         "sg_ott": 0.657,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 84,
+        "scoring_average": 67.94,
+        "avg_to_par": -3.06,
         "avg_sg_total": 2.743,
         "sg_t2g": 2.361,
         "sg_ott": 0.748,
@@ -447,13 +447,13 @@
         "accuracy": 0.6304,
         "gir": 0.7139,
         "scrambling": 0.6869,
-        "last_round": null
+        "last_round": "2025-12-07"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 79,
+        "scoring_average": 67.9,
+        "avg_to_par": -3.34,
         "avg_sg_total": 2.496,
         "sg_t2g": 2.401,
         "sg_ott": 0.816,
@@ -464,13 +464,13 @@
         "accuracy": 0.669,
         "gir": 0.7316,
         "scrambling": 0.6618,
-        "last_round": null
+        "last_round": "2024-12-08"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 25,
+        "scoring_average": 68.2,
+        "avg_to_par": -2.28,
         "avg_sg_total": 2.314,
         "sg_t2g": 2.615,
         "sg_ott": 1.021,
@@ -481,7 +481,7 @@
         "accuracy": 0.6209,
         "gir": 0.7443,
         "scrambling": 0.6494,
-        "last_round": null
+        "last_round": "2023-12-03"
       }
     ]
   },
@@ -494,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model sees him as a top-tier win profile. Recent scorecards show a strong +2.21 strokes-gained baseline. Win probability sits at 85.9%.",
+    "plain_english": "Model sees him as a top-tier win profile. Recent scorecards show a strong +2.53 strokes-gained baseline. Win probability sits at 85.9%.",
     "risk_flags": "",
-    "avg_sg_total": 2.21,
-    "avg_to_par": -2.36
+    "avg_sg_total": 2.53,
+    "avg_to_par": -3.06
   },
   "coverage": {
     "hasRoundScorecards": true,

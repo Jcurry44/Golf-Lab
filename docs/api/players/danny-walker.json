@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.15,
-    "avg_sg_total": -0.56,
-    "first_round": "2026-01-29",
+    "rounds": 122,
+    "avg_to_par": -0.45,
+    "avg_sg_total": -0.3,
+    "first_round": "2020-10-29",
     "last_round": "2026-06-12",
     "sg_t2g": -0.265,
     "sg_ott": -0.434,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "The Country Club of Jackson",
         "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.79
+        "avg_to_par": -4.75,
+        "avg_sg": 2.75
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Vidanta Vallarta",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.42
+        "avg_to_par": -3.25,
+        "avg_sg": 1.77
       },
       {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 1.3
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.26
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.4
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": -3.0,
+        "avg_sg": -0.04
       },
       {
         "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.95
+        "rounds": 6,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.37
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": -1.01
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 8,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.59
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": null
+      },
+      {
         "course": "TPC Scottsdale (Stadium Course)",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": -4.41
       },
       {
-        "course": "TPC Toronto at Osprey Valley - North Course",
+        "course": "Silverado Resort (North Course)",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.22
+        "avg_to_par": 3.0,
+        "avg_sg": -3.09
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "course": "Port Royal Golf Course",
         "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -0.84
+        "avg_to_par": 2.5,
+        "avg_sg": -2.15
       },
       {
-        "course": "TPC San Antonio - The Oaks Course",
+        "course": "Yokohama Country Club (West Course)",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.46
+        "avg_to_par": 2.0,
+        "avg_sg": -2.96
       },
       {
-        "course": "Memorial Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.99
-      },
-      {
-        "course": "Colonial Country Club",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.86
+        "avg_to_par": 2.0,
+        "avg_sg": -0.69
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 71.05,
-        "avg_to_par": -0.15,
+        "rounds": 45,
+        "scoring_average": 70.96,
+        "avg_to_par": -0.24,
         "avg_sg_total": -0.731,
         "sg_t2g": -0.265,
         "sg_ott": -0.434,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 71,
+        "scoring_average": 68.65,
+        "avg_to_par": -0.59,
         "avg_sg_total": 0.04,
         "sg_t2g": -0.195,
         "sg_ott": -0.043,
@@ -447,41 +447,41 @@
         "accuracy": 0.5594,
         "gir": 0.6498,
         "scrambling": 0.5655,
-        "last_round": null
-      },
-      {
-        "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.731,
-        "sg_t2g": -0.265,
-        "sg_ott": -0.434,
-        "sg_app": -0.057,
-        "sg_arg": 0.225,
-        "sg_putt": -0.466,
-        "driving_distance": 305.4,
-        "accuracy": 0.4839,
-        "gir": 0.6173,
-        "scrambling": 0.571,
-        "last_round": null
+        "last_round": "2025-11-21"
       },
       {
         "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.731,
-        "sg_t2g": -0.265,
-        "sg_ott": -0.434,
-        "sg_app": -0.057,
-        "sg_arg": 0.225,
-        "sg_putt": -0.466,
-        "driving_distance": 305.4,
-        "accuracy": 0.4839,
-        "gir": 0.6173,
-        "scrambling": 0.571,
-        "last_round": null
+        "rounds": 4,
+        "scoring_average": 68.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 2.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -1.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-10-30"
       }
     ]
   },

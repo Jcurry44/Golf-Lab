@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 92,
-    "avg_to_par": 1.91,
-    "avg_sg_total": -1.64,
-    "difficulty_bucket": "tough"
+    "rounds": 195,
+    "avg_to_par": 0.96,
+    "avg_sg_total": -0.81,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,34 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "tiger-woods",
+        "player_name": "Tiger Woods",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 3.45
+      },
+      {
+        "player_id": "dudley-hart",
+        "player_name": "Dudley Hart",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.62
+      },
+      {
+        "player_id": "anthony-kim",
+        "player_name": "Anthony Kim",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.37
+      },
+      {
+        "player_id": "thomas-pieters",
+        "player_name": "Thomas Pieters",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.45
+      },
       {
         "player_id": "brandon-stone",
         "player_name": "Brandon Stone",
@@ -39,6 +67,27 @@
         "avg_sg": 1.7
       },
       {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.2
+      },
+      {
+        "player_id": "tommy-armour-iii",
+        "player_name": "Tommy Armour III",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.62
+      },
+      {
+        "player_id": "dean-wilson",
+        "player_name": "Dean Wilson",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.37
+      },
+      {
         "player_id": "ben-kern",
         "player_name": "Ben Kern",
         "rounds": 4,
@@ -46,67 +95,18 @@
         "avg_sg": 0.7
       },
       {
-        "player_id": "seung-su-han",
-        "player_name": "Seung-su Han",
+        "player_id": "charl-schwartzel",
+        "player_name": "Charl Schwartzel",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.45
+        "avg_to_par": -0.75,
+        "avg_sg": 0.7
       },
       {
-        "player_id": "eddie-pepperell",
-        "player_name": "Eddie Pepperell",
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.05
-      },
-      {
-        "player_id": "adrian-otaegui",
-        "player_name": "Adrian Otaegui",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.3
-      },
-      {
-        "player_id": "mike-lorenzo-vera",
-        "player_name": "Mike Lorenzo-Vera",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.3
-      },
-      {
-        "player_id": "ross-fisher",
-        "player_name": "Ross Fisher",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.3
-      },
-      {
-        "player_id": "yuta-ikeda",
-        "player_name": "Yuta Ikeda",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.3
-      },
-      {
-        "player_id": "shaun-micheel",
-        "player_name": "Shaun Micheel",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.51
-      },
-      {
-        "player_id": "alexander-levy",
-        "player_name": "Alexander Levy",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.01
-      },
-      {
-        "player_id": "john-daly",
-        "player_name": "John Daly",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.01
+        "avg_to_par": -0.75,
+        "avg_sg": 0.7
       }
     ]
   },

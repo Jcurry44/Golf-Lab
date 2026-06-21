@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 157,
-    "avg_to_par": -0.89,
-    "avg_sg_total": -1.17,
-    "difficulty_bucket": "balanced"
+    "rounds": 288,
+    "avg_to_par": -1.52,
+    "avg_sg_total": -0.56,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,20 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "tom-lovelady",
+        "player_name": "Tom Lovelady",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.32
+      },
+      {
+        "player_id": "hunter-mahan",
+        "player_name": "Hunter Mahan",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.57
+      },
       {
         "player_id": "steve-wheatcroft",
         "player_name": "Steve Wheatcroft",
@@ -39,11 +53,46 @@
         "avg_sg": 2.07
       },
       {
+        "player_id": "william-mcgirt",
+        "player_name": "William McGirt",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.07
+      },
+      {
         "player_id": "conrad-shindler",
         "player_name": "Conrad Shindler",
         "rounds": 4,
         "avg_to_par": -4.0,
         "avg_sg": 1.82
+      },
+      {
+        "player_id": "david-lingmerth",
+        "player_name": "David Lingmerth",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "fabi-n-g-mez",
+        "player_name": "Fabián Gómez",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "j-j-henry",
+        "player_name": "J.J. Henry",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.82
+      },
+      {
+        "player_id": "andres-romero",
+        "player_name": "Andres Romero",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.57
       },
       {
         "player_id": "heath-slocum",
@@ -58,55 +107,6 @@
         "rounds": 4,
         "avg_to_par": -3.75,
         "avg_sg": 1.57
-      },
-      {
-        "player_id": "john-oda",
-        "player_name": "John Oda",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.07
-      },
-      {
-        "player_id": "charlie-wi",
-        "player_name": "Charlie Wi",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.57
-      },
-      {
-        "player_id": "kyle-thompson",
-        "player_name": "Kyle Thompson",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.57
-      },
-      {
-        "player_id": "matt-atkins",
-        "player_name": "Matt Atkins",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.57
-      },
-      {
-        "player_id": "chris-wilson",
-        "player_name": "Chris Wilson",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.32
-      },
-      {
-        "player_id": "daniel-summerhays",
-        "player_name": "Daniel Summerhays",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.07
-      },
-      {
-        "player_id": "jonathan-randolph",
-        "player_name": "Jonathan Randolph",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.07
       }
     ]
   },

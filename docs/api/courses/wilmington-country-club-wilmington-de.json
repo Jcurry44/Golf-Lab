@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 24,
-    "avg_to_par": -0.08,
-    "avg_sg_total": -0.67,
-    "difficulty_bucket": "balanced"
+    "rounds": 74,
+    "avg_to_par": -1.04,
+    "avg_sg_total": 0.29,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -24,6 +24,76 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "scott-stallings",
+        "player_name": "Scott Stallings",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "k-h-lee",
+        "player_name": "K.H. Lee",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.75
+      },
+      {
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.5
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.5
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.5
+      },
+      {
+        "player_id": "trey-mullinax",
+        "player_name": "Trey Mullinax",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "lucas-herbert",
+        "player_name": "Lucas Herbert",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.0
+      },
+      {
+        "player_id": "will-zalatoris",
+        "player_name": "Will Zalatoris",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.62
+      },
+      {
+        "player_id": "tyrrell-hatton",
+        "player_name": "Tyrrell Hatton",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.5
+      },
       {
         "player_id": "marc-leishman",
         "player_name": "Marc Leishman",
@@ -37,34 +107,6 @@
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": -0.0
-      },
-      {
-        "player_id": "sebasti-n-mu-oz",
-        "player_name": "Sebastián Muñoz",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.25
-      },
-      {
-        "player_id": "harold-varner-iii",
-        "player_name": "Harold Varner III",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.75
-      },
-      {
-        "player_id": "mito-pereira",
-        "player_name": "Mito Pereira",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.25
-      },
-      {
-        "player_id": "cameron-tringale",
-        "player_name": "Cameron Tringale",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": -2.0
       }
     ]
   },

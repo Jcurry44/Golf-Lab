@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110130",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.02,
-    "avg_sg_total": -2.27,
-    "first_round": "2009-02-13",
+    "rounds": 55,
+    "avg_to_par": 1.27,
+    "avg_sg_total": -1.84,
+    "first_round": "2008-12-03",
     "last_round": "2011-01-28",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,9 @@
     "rows": [
       {
         "course": null,
-        "rounds": 6,
-        "avg_to_par": -1.33,
-        "avg_sg": 0.66
+        "rounds": 17,
+        "avg_to_par": -2.18,
+        "avg_sg": 0.43
       },
       {
         "course": "TPC Louisiana",
@@ -366,9 +366,15 @@
       },
       {
         "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 5.5,
+        "avg_sg": -4.91
+      },
+      {
+        "course": "Waialae Country Club",
         "rounds": 2,
-        "avg_to_par": 7.0,
-        "avg_sg": -7.1
+        "avg_to_par": 5.0,
+        "avg_sg": -4.28
       },
       {
         "course": "Atunyote Golf Club",
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 3.5,
         "avg_sg": -2.7
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.33
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2009,
-        "rounds": 38,
-        "scoring_average": 72.89,
-        "avg_to_par": 1.76,
-        "avg_sg_total": -2.01,
+        "rounds": 47,
+        "scoring_average": 72.85,
+        "avg_to_par": 1.64,
+        "avg_sg_total": -2.09,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2009-11-15"
+      },
+      {
+        "season": 2008,
+        "rounds": 6,
+        "scoring_average": 68.5,
+        "avg_to_par": -3.5,
+        "avg_sg_total": 1.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

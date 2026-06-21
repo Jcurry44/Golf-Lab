@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 1.44,
-    "avg_sg_total": -0.09,
-    "first_round": "2021-02-27",
+    "rounds": 48,
+    "avg_to_par": 1.64,
+    "avg_sg_total": -0.37,
+    "first_round": "2010-07-15",
     "last_round": "2026-06-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -331,10 +331,10 @@
         "avg_sg": -0.13
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Royal Birkdale Golf Club",
         "rounds": 4,
         "avg_to_par": 0.5,
-        "avg_sg": -1.14
+        "avg_sg": 0.78
       },
       {
         "course": "Royal Troon Golf Club - Old Course",
@@ -377,10 +377,10 @@
         "avg_sg": 0.07
       },
       {
-        "course": "The Concession Golf Club",
-        "rounds": 2,
+        "course": "Old Course at St Andrews",
+        "rounds": 6,
         "avg_to_par": 3.0,
-        "avg_sg": -3.2
+        "avg_sg": -2.95
       },
       {
         "course": "Royal Portrush Golf Club - Dunluce Links",
@@ -389,10 +389,10 @@
         "avg_sg": -1.78
       },
       {
-        "course": "Shinnecock Hills Golf Club",
+        "course": "The Concession Golf Club",
         "rounds": 4,
-        "avg_to_par": 1.67,
-        "avg_sg": 1.38
+        "avg_to_par": 2.25,
+        "avg_sg": -2.63
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2021,
-        "rounds": 2,
-        "scoring_average": 75.0,
-        "avg_to_par": 3.0,
-        "avg_sg_total": -3.2,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": -2.63,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-02-28"
+      },
+      {
+        "season": 2017,
+        "rounds": 4,
+        "scoring_average": 70.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": 0.78,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-23"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 80.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -6.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-16"
       }
     ]
   },
@@ -528,10 +562,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.09 strokes gained. Win probability sits at 75.3%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -0.37 strokes gained. Win probability sits at 75.3%.",
     "risk_flags": "",
-    "avg_sg_total": -0.09,
-    "avg_to_par": 1.44
+    "avg_sg_total": -0.37,
+    "avg_to_par": 1.64
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -540,6 +574,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 8
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20120226",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.25,
-    "avg_sg_total": -0.23,
-    "first_round": "2006-04-15",
+    "rounds": 124,
+    "avg_to_par": 0.52,
+    "avg_sg_total": 0.1,
+    "first_round": "2002-08-22",
     "last_round": "2012-02-23",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Mount Juliet Golf Course",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.35
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": -0.59
+      },
+      {
         "course": null,
+        "rounds": 6,
+        "avg_to_par": -2.33,
+        "avg_sg": -0.25
+      },
+      {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
         "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.15
+        "avg_to_par": -1.5,
+        "avg_sg": -0.2
       },
       {
-        "course": "El Camaleón Golf Course at Mayakoba",
-        "rounds": 5,
-        "avg_to_par": -0.4,
-        "avg_sg": 1.26
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": -0.66
       },
       {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": -0.84
-      },
-      {
-        "course": "Harbour Town Golf Links",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.94
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 2.01
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.78
+        "course": "TPC Four Seasons Resort",
+        "rounds": 6,
+        "avg_to_par": -0.67,
+        "avg_sg": 0.83
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -3.98
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Augusta National Golf Club",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -2.58
+        "avg_to_par": 5.0,
+        "avg_sg": -2.5
       },
       {
-        "course": "TPC Four Seasons Resort",
+        "course": "Country Club at Mirasol",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -2.25
+        "avg_to_par": 4.0,
+        "avg_sg": -2.39
+      },
+      {
+        "course": "Capital City Club - Crabapple Course",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.08
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.02
       },
       {
         "course": "PGA National Resort (The Champion)",
         "rounds": 4,
         "avg_to_par": 2.25,
         "avg_sg": 0.04
-      },
-      {
-        "course": "Medinah Country Club - No. 3 Course",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.36
-      },
-      {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.89
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2006,
-        "rounds": 31,
-        "scoring_average": 72.35,
-        "avg_to_par": 1.39,
-        "avg_sg_total": -0.51,
+        "rounds": 43,
+        "scoring_average": 72.4,
+        "avg_to_par": 1.19,
+        "avg_sg_total": -0.46,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2006-10-27"
+      },
+      {
+        "season": 2005,
+        "rounds": 48,
+        "scoring_average": 71.29,
+        "avg_to_par": 0.21,
+        "avg_sg_total": 0.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-30"
+      },
+      {
+        "season": 2003,
+        "rounds": 12,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-10-05"
+      },
+      {
+        "season": 2002,
+        "rounds": 12,
+        "scoring_average": 69.83,
+        "avg_to_par": -0.83,
+        "avg_sg_total": 0.45,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-11-03"
       }
     ]
   },
@@ -493,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 7
   }
 }

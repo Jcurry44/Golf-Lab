@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20231218",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.2,
-    "avg_sg_total": -0.9,
-    "first_round": "2023-05-11",
+    "rounds": 93,
+    "avg_to_par": -0.16,
+    "avg_sg_total": -0.5,
+    "first_round": "2022-09-15",
     "last_round": "2023-12-17",
     "sg_t2g": -0.157,
     "sg_ott": 0.111,
@@ -319,16 +319,22 @@
         "avg_sg": 0.91
       },
       {
-        "course": "Port Royal Golf Course",
+        "course": "Grand Reserve Golf Club",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.23
+        "avg_to_par": -2.75,
+        "avg_sg": 1.89
       },
       {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.7
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.17
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.66
       },
       {
         "course": "Detroit Golf Club",
@@ -341,12 +347,6 @@
         "rounds": 2,
         "avg_to_par": -1.0,
         "avg_sg": -1.55
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.31
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -3.4
       },
       {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.03
+      },
+      {
         "course": "TPC Twin Cities",
         "rounds": 4,
         "avg_to_par": 1.75,
         "avg_sg": -3.11
       },
       {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.47
+      },
+      {
         "course": "Dye's Valley Course",
         "rounds": 4,
         "avg_to_par": 1.0,
         "avg_sg": -0.13
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.59
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.24
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2023,
-        "rounds": 40,
-        "scoring_average": 64.25,
-        "avg_to_par": 0.2,
+        "rounds": 93,
+        "scoring_average": 68.02,
+        "avg_to_par": -0.16,
         "avg_sg_total": -0.679,
         "sg_t2g": -0.157,
         "sg_ott": 0.111,

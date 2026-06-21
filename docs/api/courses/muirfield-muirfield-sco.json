@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 121,
-    "avg_to_par": 4.64,
-    "avg_sg_total": -1.03,
+    "rounds": 220,
+    "avg_to_par": 4.03,
+    "avg_sg_total": -0.5,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,11 +25,46 @@
     ],
     "rows": [
       {
+        "player_id": "justin-leonard",
+        "player_name": "Justin Leonard",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 2.02
+      },
+      {
+        "player_id": "miguel-angel-jim-nez",
+        "player_name": "Miguel Angel Jiménez",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 2.02
+      },
+      {
         "player_id": "eduardo-de-la-riva",
         "player_name": "Eduardo De La Riva",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.77
+      },
+      {
+        "player_id": "darren-clarke",
+        "player_name": "Darren Clarke",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "richard-sterne",
+        "player_name": "Richard Sterne",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.52
+      },
+      {
+        "player_id": "stephen-gallacher",
+        "player_name": "Stephen Gallacher",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 1.52
       },
       {
         "player_id": "paul-lawrie",
@@ -46,11 +81,18 @@
         "avg_sg": 1.27
       },
       {
-        "player_id": "richie-ramsay",
-        "player_name": "Richie Ramsay",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.55
+        "player_id": "fred-couples",
+        "player_name": "Fred Couples",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.02
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.02
       },
       {
         "player_id": "oliver-fisher",
@@ -60,53 +102,11 @@
         "avg_sg": 1.02
       },
       {
-        "player_id": "mark-brown",
-        "player_name": "Mark Brown",
+        "player_id": "thongchai-jaidee",
+        "player_name": "Thongchai Jaidee",
         "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.77
-      },
-      {
-        "player_id": "shingo-katayama",
-        "player_name": "Shingo Katayama",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.77
-      },
-      {
-        "player_id": "mark-o-meara",
-        "player_name": "Mark O'Meara",
-        "rounds": 4,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.27
-      },
-      {
-        "player_id": "tom-lehman",
-        "player_name": "Tom Lehman",
-        "rounds": 4,
-        "avg_to_par": 3.0,
-        "avg_sg": 0.27
-      },
-      {
-        "player_id": "gregory-bourdy",
-        "player_name": "Gregory Bourdy",
-        "rounds": 4,
-        "avg_to_par": 3.25,
-        "avg_sg": 0.02
-      },
-      {
-        "player_id": "gareth-wright",
-        "player_name": "Gareth Wright",
-        "rounds": 4,
-        "avg_to_par": 3.5,
-        "avg_sg": -0.23
-      },
-      {
-        "player_id": "jimmy-mullen",
-        "player_name": "Jimmy Mullen",
-        "rounds": 4,
-        "avg_to_par": 3.75,
-        "avg_sg": -0.48
+        "avg_to_par": 2.25,
+        "avg_sg": 1.02
       }
     ]
   },

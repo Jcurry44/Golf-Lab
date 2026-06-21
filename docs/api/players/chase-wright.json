@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20190804",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.57,
-    "avg_sg_total": -0.17,
-    "first_round": "2019-02-09",
+    "rounds": 73,
+    "avg_to_par": -0.79,
+    "avg_sg_total": -0.15,
+    "first_round": "2012-10-18",
     "last_round": "2019-08-02",
     "sg_t2g": null,
     "sg_ott": null,
@@ -325,28 +325,28 @@
         "avg_sg": 1.5
       },
       {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.86
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -2.33,
+        "avg_sg": -0.28
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 0.34
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.78
-      },
-      {
-        "course": "Trinity Forest Golf Club",
-        "rounds": 3,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.44
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.73
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 8,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.8
       }
     ]
   },
@@ -359,10 +359,22 @@
     ],
     "rows": [
       {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 3.67,
+        "avg_sg": -3.7
+      },
+      {
         "course": "Hamilton Golf & Country Club",
         "rounds": 2,
         "avg_to_par": 3.0,
         "avg_sg": -3.52
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.29
       },
       {
         "course": "TPC River Highlands",
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -0.47
-      },
-      {
-        "course": "PGA National Resort (The Champion)",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.45
-      },
-      {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.58
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2019,
-        "rounds": 40,
-        "scoring_average": 70.47,
-        "avg_to_par": -0.57,
-        "avg_sg_total": -0.17,
+        "rounds": 69,
+        "scoring_average": 70.3,
+        "avg_to_par": -0.83,
+        "avg_sg_total": -0.13,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-08-02"
+      },
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 69.75,
+        "avg_to_par": -0.25,
+        "avg_sg_total": -0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-10-21"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "Verified public WGC gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 24,
-    "avg_to_par": -0.79,
-    "avg_sg_total": -1.36,
-    "difficulty_bucket": "balanced"
+    "rounds": 79,
+    "avg_to_par": -1.33,
+    "avg_sg_total": -0.83,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -25,8 +25,29 @@
     ],
     "rows": [
       {
+        "player_id": "michael-campbell",
+        "player_name": "Michael Campbell",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.85
+      },
+      {
+        "player_id": "niclas-fasth",
+        "player_name": "Niclas Fasth",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.6
+      },
+      {
         "player_id": "gary-evans",
         "player_name": "Gary Evans",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.35
+      },
+      {
+        "player_id": "nick-price",
+        "player_name": "Nick Price",
         "rounds": 4,
         "avg_to_par": -3.5,
         "avg_sg": 1.35
@@ -39,6 +60,27 @@
         "avg_sg": 0.6
       },
       {
+        "player_id": "thomas-bj-rn",
+        "player_name": "Thomas Bjørn",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.35
+      },
+      {
+        "player_id": "colin-montgomerie",
+        "player_name": "Colin Montgomerie",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.1
+      },
+      {
+        "player_id": "paul-azinger",
+        "player_name": "Paul Azinger",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.31
+      },
+      {
         "player_id": "eduardo-romero",
         "player_name": "Eduardo Romero",
         "rounds": 4,
@@ -46,25 +88,25 @@
         "avg_sg": -0.4
       },
       {
-        "player_id": "peter-o-malley",
-        "player_name": "Peter O'Malley",
+        "player_id": "jos-coceres",
+        "player_name": "José Coceres",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -2.4
+        "avg_to_par": -1.75,
+        "avg_sg": -0.4
       },
       {
-        "player_id": "scott-laycock",
-        "player_name": "Scott Laycock",
+        "player_id": "soren-hansen",
+        "player_name": "Soren Hansen",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -2.65
+        "avg_to_par": -1.5,
+        "avg_sg": -0.65
       },
       {
-        "player_id": "kenichi-kuboya",
-        "player_name": "Kenichi Kuboya",
+        "player_id": "craig-parry",
+        "player_name": "Craig Parry",
         "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -4.65
+        "avg_to_par": -0.75,
+        "avg_sg": -1.4
       }
     ]
   },

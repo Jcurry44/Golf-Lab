@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -0.26,
-    "avg_sg_total": 0.04,
-    "first_round": "2026-03-19",
+    "rounds": 240,
+    "avg_to_par": -0.96,
+    "avg_sg_total": 0.25,
+    "first_round": "2024-02-22",
     "last_round": "2026-06-21",
     "sg_t2g": 0.555,
     "sg_ott": 0.401,
@@ -313,10 +313,28 @@
     ],
     "rows": [
       {
-        "course": "TPC Craig Ranch",
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.01
+      },
+      {
+        "course": "El Cardonal at Diamante",
         "rounds": 4,
         "avg_to_par": -3.75,
-        "avg_sg": 1.3
+        "avg_sg": 0.57
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 8,
+        "avg_to_par": -3.38,
+        "avg_sg": 0.73
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.27
       },
       {
         "course": "TPC San Antonio - The Oaks Course",
@@ -325,28 +343,10 @@
         "avg_sg": 2.29
       },
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.71
-      },
-      {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.38
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.12
+        "course": "TPC Craig Ranch",
+        "rounds": 10,
+        "avg_to_par": -3.2,
+        "avg_sg": 0.82
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.75
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 5.75,
+        "avg_sg": null
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.1
+      },
+      {
         "course": "Muirfield Village Golf Club",
         "rounds": 4,
         "avg_to_par": 4.0,
         "avg_sg": -3.39
       },
       {
-        "course": "Shinnecock Hills Golf Club",
+        "course": "TPC Twin Cities",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": 2.05
+        "avg_to_par": 2.5,
+        "avg_sg": -3.64
       },
       {
-        "course": "Trump National Doral - Blue Monster Course",
+        "course": "The Renaissance Club",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.65
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.5
-      },
-      {
-        "course": "Aronimink Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.12
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.38
+        "avg_to_par": 2.5,
+        "avg_sg": -3.14
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 70.77,
-        "avg_to_par": -0.26,
+        "rounds": 70,
+        "scoring_average": 70.13,
+        "avg_to_par": -1.14,
         "avg_sg_total": 0.421,
         "sg_t2g": 0.555,
         "sg_ott": 0.401,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 96,
+        "scoring_average": 67.42,
+        "avg_to_par": -0.71,
         "avg_sg_total": 0.23,
         "sg_t2g": 0.435,
         "sg_ott": 0.143,
@@ -447,13 +447,13 @@
         "accuracy": 0.6205,
         "gir": 0.6944,
         "scrambling": 0.6047,
-        "last_round": null
+        "last_round": "2025-11-21"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 74,
+        "scoring_average": 69.89,
+        "avg_to_par": -1.11,
         "avg_sg_total": 0.271,
         "sg_t2g": 0.206,
         "sg_ott": 0.041,
@@ -464,24 +464,7 @@
         "accuracy": 0.6343,
         "gir": 0.7044,
         "scrambling": 0.5861,
-        "last_round": null
-      },
-      {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": 0.421,
-        "sg_t2g": 0.555,
-        "sg_ott": 0.401,
-        "sg_app": 0.234,
-        "sg_arg": -0.081,
-        "sg_putt": -0.133,
-        "driving_distance": 304.4,
-        "accuracy": 0.6217,
-        "gir": 0.6987,
-        "scrambling": 0.5754,
-        "last_round": null
+        "last_round": "2024-11-24"
       }
     ]
   },
@@ -494,10 +477,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.04 strokes gained. Win probability sits at 78.5%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.25 strokes gained. Win probability sits at 78.5%.",
     "risk_flags": "",
-    "avg_sg_total": 0.04,
-    "avg_to_par": -0.26
+    "avg_sg_total": 0.25,
+    "avg_to_par": -0.96
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -506,6 +489,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 3
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.35,
-    "avg_sg_total": -0.66,
-    "first_round": "2023-12-17",
+    "rounds": 57,
+    "avg_to_par": -0.74,
+    "avg_sg_total": -0.21,
+    "first_round": "2018-07-19",
     "last_round": "2026-06-12",
     "sg_t2g": -0.811,
     "sg_ott": -0.173,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
+        "course": "Keene Trace Golf Club",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.32
+      },
+      {
         "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.75
+      },
+      {
+        "course": "Port Royal Golf Course",
         "rounds": 4,
         "avg_to_par": -2.25,
-        "avg_sg": 1.1
+        "avg_sg": 0.77
       },
       {
         "course": "Pete Dye Stadium Course",
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": -1.2
-      },
-      {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.36
       }
     ]
   },
@@ -371,6 +371,18 @@
         "avg_sg": -2.77
       },
       {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.13
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.03
+      },
+      {
         "course": "PGA National - Champion Course",
         "rounds": 2,
         "avg_to_par": 1.0,
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -1.09
-      },
-      {
-        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.3
-      },
-      {
-        "course": "TPC San Antonio - The Oaks Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.45
       }
     ]
   },
@@ -433,55 +433,38 @@
         "last_round": "2026-06-12"
       },
       {
-        "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.907,
-        "sg_t2g": -0.811,
-        "sg_ott": -0.173,
-        "sg_app": -0.526,
-        "sg_arg": -0.112,
-        "sg_putt": -0.096,
-        "driving_distance": 304.5,
-        "accuracy": 0.5778,
-        "gir": 0.6738,
-        "scrambling": 0.5983,
-        "last_round": null
-      },
-      {
-        "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.907,
-        "sg_t2g": -0.811,
-        "sg_ott": -0.173,
-        "sg_app": -0.526,
-        "sg_arg": -0.112,
-        "sg_putt": -0.096,
-        "driving_distance": 304.5,
-        "accuracy": 0.5778,
-        "gir": 0.6738,
-        "scrambling": 0.5983,
-        "last_round": null
-      },
-      {
         "season": 2023,
-        "rounds": 1,
-        "scoring_average": 74.0,
-        "avg_to_par": 4.0,
-        "avg_sg_total": -0.907,
-        "sg_t2g": -0.811,
-        "sg_ott": -0.173,
-        "sg_app": -0.526,
-        "sg_arg": -0.112,
-        "sg_putt": -0.096,
-        "driving_distance": 304.5,
-        "accuracy": 0.5778,
-        "gir": 0.6738,
-        "scrambling": 0.5983,
+        "rounds": 14,
+        "scoring_average": 70.29,
+        "avg_to_par": -0.71,
+        "avg_sg_total": 0.43,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2018,
+        "rounds": 4,
+        "scoring_average": 68.5,
+        "avg_to_par": -3.5,
+        "avg_sg_total": 1.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-22"
       }
     ]
   },
@@ -493,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 3
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 72,
-    "avg_to_par": 1.53,
-    "avg_sg_total": -1.33,
-    "difficulty_bucket": "tough"
+    "rounds": 216,
+    "avg_to_par": 0.4,
+    "avg_sg_total": -0.32,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,74 @@
     ],
     "rows": [
       {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 4.09
+      },
+      {
+        "player_id": "justin-hicks",
+        "player_name": "Justin Hicks",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 3.09
+      },
+      {
+        "player_id": "gonzalo-fernandez-casta-o",
+        "player_name": "Gonzalo Fernandez-Castaño",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.59
+      },
+      {
+        "player_id": "michael-putnam",
+        "player_name": "Michael Putnam",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.59
+      },
+      {
+        "player_id": "dicky-pride",
+        "player_name": "Dicky Pride",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "brad-fritsch",
+        "player_name": "Brad Fritsch",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.09
+      },
+      {
+        "player_id": "ben-curtis",
+        "player_name": "Ben Curtis",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.84
+      },
+      {
         "player_id": "joe-durant",
         "player_name": "Joe Durant",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 1.84
+      },
+      {
+        "player_id": "troy-matteson",
+        "player_name": "Troy Matteson",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.84
+      },
+      {
+        "player_id": "andres-romero",
+        "player_name": "Andres Romero",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.59
       },
       {
         "player_id": "matt-bettencourt",
@@ -39,74 +102,11 @@
         "avg_sg": 1.59
       },
       {
-        "player_id": "woody-austin",
-        "player_name": "Woody Austin",
+        "player_id": "robert-allenby",
+        "player_name": "Robert Allenby",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.09
-      },
-      {
-        "player_id": "edward-loar",
-        "player_name": "Edward Loar",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "nathan-green",
-        "player_name": "Nathan Green",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.34
-      },
-      {
-        "player_id": "alex-aragon",
-        "player_name": "Alex Aragon",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.12
-      },
-      {
-        "player_id": "bronson-la-cassie",
-        "player_name": "Bronson La'Cassie",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.12
-      },
-      {
-        "player_id": "mark-calcavecchia",
-        "player_name": "Mark Calcavecchia",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.12
-      },
-      {
-        "player_id": "timothy-madigan",
-        "player_name": "Timothy Madigan",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.12
-      },
-      {
-        "player_id": "doug-labelle-ii",
-        "player_name": "Doug LaBelle II",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.62
-      },
-      {
-        "player_id": "eugene-wong",
-        "player_name": "Eugene Wong",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.62
-      },
-      {
-        "player_id": "jeff-maggert",
-        "player_name": "Jeff Maggert",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.62
+        "avg_to_par": -1.75,
+        "avg_sg": 1.59
       }
     ]
   },

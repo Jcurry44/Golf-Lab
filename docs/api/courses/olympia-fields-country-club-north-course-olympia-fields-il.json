@@ -1,0 +1,147 @@
+{
+  "course": {
+    "course_id": "olympia-fields-country-club-north-course-olympia-fields-il",
+    "course_name": "Olympia Fields Country Club (North Course)",
+    "location": "Olympia Fields, IL, USA",
+    "country": "",
+    "par": null,
+    "yards": null,
+    "architect": "",
+    "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
+    "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
+    "source_updated_at": "2026-06-21T02:13:48.689Z",
+    "rounds": 228,
+    "avg_to_par": 0.49,
+    "avg_sg_total": -0.14,
+    "difficulty_bucket": "balanced"
+  },
+  "fits": {
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "viktor-hovland",
+        "player_name": "Viktor Hovland",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 3.61
+      },
+      {
+        "player_id": "matt-fitzpatrick",
+        "player_name": "Matt Fitzpatrick",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.11
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 3.11
+      },
+      {
+        "player_id": "rory-mcilroy",
+        "player_name": "Rory McIlroy",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.36
+      },
+      {
+        "player_id": "max-homa",
+        "player_name": "Max Homa",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.11
+      },
+      {
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.61
+      },
+      {
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.61
+      },
+      {
+        "player_id": "denny-mccarthy",
+        "player_name": "Denny McCarthy",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.25
+      },
+      {
+        "player_id": "corey-conners",
+        "player_name": "Corey Conners",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.11
+      },
+      {
+        "player_id": "tom-kim",
+        "player_name": "Tom Kim",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.11
+      },
+      {
+        "player_id": "patrick-cantlay",
+        "player_name": "Patrick Cantlay",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.86
+      },
+      {
+        "player_id": "wyndham-clark",
+        "player_name": "Wyndham Clark",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.86
+      }
+    ]
+  },
+  "setups": {
+    "columns": [
+      "event_name",
+      "season",
+      "par",
+      "yards",
+      "difficulty_score",
+      "difficulty_bucket",
+      "rough",
+      "green_speed"
+    ],
+    "rows": [
+      {
+        "event_name": "BMW Championship",
+        "season": 2023,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      },
+      {
+        "event_name": "BMW Championship",
+        "season": 2020,
+        "par": null,
+        "yards": null,
+        "difficulty_score": null,
+        "difficulty_bucket": "",
+        "rough": "",
+        "green_speed": ""
+      }
+    ]
+  }
+}

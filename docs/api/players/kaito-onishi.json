@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": 0.64,
-    "avg_sg_total": -1.6,
-    "first_round": "2025-05-08",
+    "rounds": 85,
+    "avg_to_par": 0.45,
+    "avg_sg_total": -1.32,
+    "first_round": "2022-10-13",
     "last_round": "2026-06-20",
     "sg_t2g": -1.229,
     "sg_ott": -0.723,
@@ -313,6 +313,18 @@
     ],
     "rows": [
       {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.74
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.29
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 4,
         "avg_to_par": -1.75,
@@ -335,18 +347,6 @@
         "rounds": 2,
         "avg_to_par": -1.0,
         "avg_sg": -1.83
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -2.04
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.94
       }
     ]
   },
@@ -377,6 +377,12 @@
         "avg_sg": -3.69
       },
       {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 12,
+        "avg_to_par": 2.67,
+        "avg_sg": -3.24
+      },
+      {
         "course": "TPC Toronto at Osprey Valley - North Course",
         "rounds": 2,
         "avg_to_par": 2.0,
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": 1.75,
         "avg_sg": -1.35
-      },
-      {
-        "course": "Hurstbourne Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.29
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 37,
-        "scoring_average": 67.78,
-        "avg_to_par": 0.49,
+        "rounds": 62,
+        "scoring_average": 68.92,
+        "avg_to_par": -0.02,
         "avg_sg_total": -1.153,
         "sg_t2g": -1.229,
         "sg_ott": -0.723,
@@ -448,6 +448,40 @@
         "gir": 0.6315,
         "scrambling": 0.6156,
         "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -5.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-10-27"
+      },
+      {
+        "season": 2023,
+        "rounds": 16,
+        "scoring_average": 71.38,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.66,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-10-22"
       }
     ]
   },
@@ -460,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -1.60 strokes gained. Win probability sits at 58.4%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards trail the field at -1.32 strokes gained. Win probability sits at 58.4%.",
     "risk_flags": "",
-    "avg_sg_total": -1.6,
-    "avg_to_par": 0.64
+    "avg_sg_total": -1.32,
+    "avg_to_par": 0.45
   },
   "coverage": {
     "hasRoundScorecards": true,
@@ -472,6 +506,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

@@ -10,9 +10,9 @@
     "source_provider": "Verified public multi-course repair + Owned derived scoring + Golf Lab derived scoring model",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 74,
-    "avg_to_par": -0.16,
-    "avg_sg_total": -0.7,
+    "rounds": 186,
+    "avg_to_par": -0.46,
+    "avg_sg_total": -0.41,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,55 @@
     ],
     "rows": [
       {
+        "player_id": "charlie-wi",
+        "player_name": "Charlie Wi",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 2.15
+      },
+      {
+        "player_id": "joey-snyder-iii",
+        "player_name": "Joey Snyder III",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "mark-anderson",
+        "player_name": "Mark Anderson",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "tim-herron",
+        "player_name": "Tim Herron",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.9
+      },
+      {
+        "player_id": "cameron-beckman",
+        "player_name": "Cameron Beckman",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.65
+      },
+      {
+        "player_id": "daniel-chopra",
+        "player_name": "Daniel Chopra",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.4
+      },
+      {
         "player_id": "scott-dunlap",
         "player_name": "Scott Dunlap",
         "rounds": 4,
@@ -32,18 +81,11 @@
         "avg_sg": 1.4
       },
       {
-        "player_id": "derek-lamely",
-        "player_name": "Derek Lamely",
-        "rounds": 2,
+        "player_id": "robert-karlsson",
+        "player_name": "Robert Karlsson",
+        "rounds": 4,
         "avg_to_par": -2.0,
-        "avg_sg": 1.2
-      },
-      {
-        "player_id": "nick-o-hern",
-        "player_name": "Nick O'Hern",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.2
+        "avg_sg": 1.15
       },
       {
         "player_id": "roland-thatcher",
@@ -53,60 +95,18 @@
         "avg_sg": 1.15
       },
       {
-        "player_id": "gavin-coles",
-        "player_name": "Gavin Coles",
+        "player_id": "ryuji-imada",
+        "player_name": "Ryuji Imada",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.15
+      },
+      {
+        "player_id": "derek-lamely",
+        "player_name": "Derek Lamely",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": 0.9
-      },
-      {
-        "player_id": "garrett-willis",
-        "player_name": "Garrett Willis",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.65
-      },
-      {
-        "player_id": "tom-pernice-jr",
-        "player_name": "Tom Pernice Jr.",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.15
-      },
-      {
-        "player_id": "nathan-green",
-        "player_name": "Nathan Green",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.35
-      },
-      {
-        "player_id": "carl-paulson",
-        "player_name": "Carl Paulson",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.6
-      },
-      {
-        "player_id": "alexandre-rocha",
-        "player_name": "Alexandre Rocha",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.85
-      },
-      {
-        "player_id": "jj-killeen",
-        "player_name": "JJ Killeen",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.85
-      },
-      {
-        "player_id": "marco-dawson",
-        "player_name": "Marco Dawson",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.85
       }
     ]
   },

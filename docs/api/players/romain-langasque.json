@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.57,
-    "avg_sg_total": 0.22,
-    "first_round": "2016-04-09",
+    "rounds": 46,
+    "avg_to_par": 0.52,
+    "avg_sg_total": 0.23,
+    "first_round": "2015-07-16",
     "last_round": "2025-07-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": 1.2
       },
       {
+        "course": "St. Andrews GC (Old Course)",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.06
+      },
+      {
         "course": "Sheshan Golf Club",
         "rounds": 4,
         "avg_to_par": 0.0,
@@ -341,12 +347,6 @@
         "rounds": 4,
         "avg_to_par": 1.25,
         "avg_sg": -0.08
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": 0.01
       }
     ]
   },
@@ -365,16 +365,16 @@
         "avg_sg": -2.83
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -1.29
-      },
-      {
         "course": "Winged Foot Golf Club - West Course",
         "rounds": 4,
         "avg_to_par": 3.25,
         "avg_sg": 0.84
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.12
       },
       {
         "course": "The Los Angeles Country Club (North Course)",
@@ -519,10 +519,10 @@
       },
       {
         "season": 2016,
-        "rounds": 2,
-        "scoring_average": 75.5,
-        "avg_to_par": 3.5,
-        "avg_sg_total": -1.29,
+        "rounds": 4,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.12,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -533,6 +533,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-04-10"
+      },
+      {
+        "season": 2015,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-19"
       }
     ]
   },
@@ -544,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 7
+    "seasonProfiles": 8
   }
 }

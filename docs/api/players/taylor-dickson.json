@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.7,
-    "avg_sg_total": -1.83,
-    "first_round": "2025-05-10",
+    "rounds": 81,
+    "avg_to_par": 0.38,
+    "avg_sg_total": -1.36,
+    "first_round": "2023-12-14",
     "last_round": "2025-12-14",
     "sg_t2g": -1.001,
     "sg_ott": -0.296,
@@ -319,10 +319,22 @@
         "avg_sg": 0.32
       },
       {
+        "course": "TPC Craig Ranch",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.28
+      },
+      {
         "course": "Sea Island Golf Club (Seaside Course)",
         "rounds": 2,
         "avg_to_par": -2.0,
         "avg_sg": -1.04
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.44
       },
       {
         "course": "TPC Deere Run",
@@ -335,18 +347,6 @@
         "rounds": 2,
         "avg_to_par": -1.5,
         "avg_sg": -0.19
-      },
-      {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.2
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.75
       }
     ]
   },
@@ -377,22 +377,22 @@
         "avg_sg": -3.79
       },
       {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.63
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.02
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -5.14
-      },
-      {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.43
-      },
-      {
-        "course": "Black Desert Resort",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.1
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 68.1,
-        "avg_to_par": 0.7,
+        "rounds": 73,
+        "scoring_average": 69.45,
+        "avg_to_par": 0.36,
         "avg_sg_total": -1.388,
         "sg_t2g": -1.001,
         "sg_ott": -0.296,
@@ -431,6 +431,40 @@
         "gir": 0.636,
         "scrambling": 0.59,
         "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -1.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-05-12"
+      },
+      {
+        "season": 2023,
+        "rounds": 4,
+        "scoring_average": 70.75,
+        "avg_to_par": 0.75,
+        "avg_sg_total": 0.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
       }
     ]
   },
@@ -442,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 3
   }
 }

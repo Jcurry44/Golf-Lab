@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230723",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.15,
-    "avg_sg_total": -0.7,
-    "first_round": "2011-07-30",
+    "rounds": 101,
+    "avg_to_par": 0.65,
+    "avg_sg_total": -0.41,
+    "first_round": "2010-12-01",
     "last_round": "2023-07-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "Annandale GC",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.52
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.98
+      },
+      {
         "course": "TPC Summerlin",
         "rounds": 2,
         "avg_to_par": -1.5,
         "avg_sg": -0.61
       },
       {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.34
+      },
+      {
+        "course": null,
+        "rounds": 24,
+        "avg_to_par": -1.08,
+        "avg_sg": 0.51
+      },
+      {
         "course": "Congaree Golf Club",
         "rounds": 4,
         "avg_to_par": -0.75,
         "avg_sg": 0.22
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.2
-      },
-      {
-        "course": null,
-        "rounds": 10,
-        "avg_to_par": -0.6,
-        "avg_sg": 0.21
-      },
-      {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.8
-      },
-      {
-        "course": "The Renaissance Club",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.14
       }
     ]
   },
@@ -359,10 +359,28 @@
     ],
     "rows": [
       {
-        "course": "The Old White TPC",
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -6.05
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": -4.84
+        "avg_sg": -1.41
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.64
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.06
       },
       {
         "course": "Southern Hills Country Club",
@@ -375,24 +393,6 @@
         "rounds": 4,
         "avg_to_par": 3.75,
         "avg_sg": 0.71
-      },
-      {
-        "course": "CordeValle GC",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.21
-      },
-      {
-        "course": "Montreux Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -2.68
-      },
-      {
-        "course": "Royal Liverpool Golf Club",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.65
       }
     ]
   },
@@ -485,10 +485,10 @@
       },
       {
         "season": 2011,
-        "rounds": 22,
-        "scoring_average": 71.73,
-        "avg_to_par": 0.45,
-        "avg_sg_total": -0.9,
+        "rounds": 77,
+        "scoring_average": 71.74,
+        "avg_to_par": 0.55,
+        "avg_sg_total": -0.57,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -499,6 +499,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2011-12-05"
+      },
+      {
+        "season": 2010,
+        "rounds": 6,
+        "scoring_average": 69.5,
+        "avg_to_par": -2.0,
+        "avg_sg_total": 1.81,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-12-06"
       }
     ]
   },
@@ -510,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 6
   }
 }

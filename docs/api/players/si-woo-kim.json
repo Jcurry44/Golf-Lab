@@ -10,10 +10,10 @@
     "source_provider": "ESPN public scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260621",
     "source_updated_at": "2026-06-21T02:13:39.586Z",
-    "rounds": 40,
-    "avg_to_par": -1.44,
-    "avg_sg_total": 1.18,
-    "first_round": "2026-03-08",
+    "rounds": 240,
+    "avg_to_par": -1.4,
+    "avg_sg_total": 0.88,
+    "first_round": "2024-02-11",
     "last_round": "2026-06-20",
     "sg_t2g": 1.501,
     "sg_ott": 0.522,
@@ -314,39 +314,39 @@
     "rows": [
       {
         "course": "TPC Craig Ranch",
-        "rounds": 4,
-        "avg_to_par": -6.75,
-        "avg_sg": 4.3
+        "rounds": 12,
+        "avg_to_par": -4.92,
+        "avg_sg": 2.56
       },
       {
-        "course": "Harbour Town Golf Links",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 2.54
-      },
-      {
-        "course": "TPC San Antonio - The Oaks Course",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.79
-      },
-      {
-        "course": "Trump National Doral - Blue Monster Course",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.6
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 5,
+        "avg_to_par": -4.2,
         "avg_sg": 1.86
       },
       {
-        "course": "Aronimink Golf Club",
+        "course": "Pete Dye Stadium Course",
+        "rounds": 8,
+        "avg_to_par": -4.13,
+        "avg_sg": 1.48
+      },
+      {
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.12
+        "avg_to_par": -4.0,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.09
+      },
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.89
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -0.24
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Oakmont Country Club",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.63
+        "avg_to_par": 3.0,
+        "avg_sg": 0.82
       },
       {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.45
+        "course": "Valhalla Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.34
       },
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "course": "Royal Troon Golf Club - Old Course",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.16
+        "avg_to_par": 2.0,
+        "avg_sg": 0.6
       },
       {
-        "course": "Aronimink Golf Club",
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 1.12
+        "avg_to_par": 1.75,
+        "avg_sg": 1.03
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 1.86
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.28
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2026,
-        "rounds": 40,
-        "scoring_average": 68.2,
-        "avg_to_par": -1.44,
+        "rounds": 67,
+        "scoring_average": 68.28,
+        "avg_to_par": -2.08,
         "avg_sg_total": 1.403,
         "sg_t2g": 1.501,
         "sg_ott": 0.522,
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 99,
+        "scoring_average": 69.72,
+        "avg_to_par": -1.35,
         "avg_sg_total": 0.751,
         "sg_t2g": 1.118,
         "sg_ott": 0.343,
@@ -447,13 +447,13 @@
         "accuracy": 0.6679,
         "gir": 0.6667,
         "scrambling": 0.6212,
-        "last_round": null
+        "last_round": "2025-11-23"
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
+        "rounds": 74,
+        "scoring_average": 70.03,
+        "avg_to_par": -0.85,
         "avg_sg_total": 0.761,
         "sg_t2g": 0.98,
         "sg_ott": 0.28,
@@ -464,7 +464,7 @@
         "accuracy": 0.6716,
         "gir": 0.654,
         "scrambling": 0.6369,
-        "last_round": null
+        "last_round": "2024-11-21"
       },
       {
         "season": 2023,
@@ -494,10 +494,10 @@
     "edge_probability": null,
     "projected_to_par": null,
     "confidence": "high",
-    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards show a strong +1.18 strokes-gained baseline. Win probability sits at 73.9%.",
+    "plain_english": "Model needs a cleaner path than the market leaders. Recent scorecards are positive at +0.88 strokes gained. Win probability sits at 73.9%.",
     "risk_flags": "",
-    "avg_sg_total": 1.18,
-    "avg_to_par": -1.44
+    "avg_sg_total": 0.88,
+    "avg_to_par": -1.4
   },
   "coverage": {
     "hasRoundScorecards": true,

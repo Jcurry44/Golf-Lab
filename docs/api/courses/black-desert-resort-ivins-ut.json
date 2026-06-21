@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 302,
-    "avg_to_par": -0.53,
-    "avg_sg_total": -0.87,
-    "difficulty_bucket": "balanced"
+    "rounds": 787,
+    "avg_to_par": -1.57,
+    "avg_sg_total": 0.0,
+    "difficulty_bucket": "gettable"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,48 @@
     ],
     "rows": [
       {
+        "player_id": "michael-brennan",
+        "player_name": "Michael Brennan",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 4.04
+      },
+      {
+        "player_id": "matt-mccarty",
+        "player_name": "Matt McCarty",
+        "rounds": 8,
+        "avg_to_par": -4.88,
+        "avg_sg": 3.16
+      },
+      {
+        "player_id": "lucas-glover",
+        "player_name": "Lucas Glover",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.78
+      },
+      {
+        "player_id": "matti-schmid",
+        "player_name": "Matti Schmid",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.53
+      },
+      {
+        "player_id": "stephan-jaeger",
+        "player_name": "Stephan Jaeger",
+        "rounds": 8,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.54
+      },
+      {
+        "player_id": "harris-english",
+        "player_name": "Harris English",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.28
+      },
+      {
         "player_id": "ben-silverman",
         "player_name": "Ben Silverman",
         "rounds": 4,
@@ -32,81 +74,39 @@
         "avg_sg": 2.54
       },
       {
-        "player_id": "kris-ventura",
-        "player_name": "Kris Ventura",
-        "rounds": 3,
-        "avg_to_par": -4.0,
-        "avg_sg": 2.3
-      },
-      {
-        "player_id": "carl-yuan",
-        "player_name": "Carl Yuan",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.78
-      },
-      {
-        "player_id": "tom-whitney",
-        "player_name": "Tom Whitney",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 1.78
-      },
-      {
-        "player_id": "wesley-bryan",
-        "player_name": "Wesley Bryan",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.53
-      },
-      {
-        "player_id": "greyson-sigg",
-        "player_name": "Greyson Sigg",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.79
-      },
-      {
-        "player_id": "ben-kohles",
-        "player_name": "Ben Kohles",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.54
-      },
-      {
-        "player_id": "braden-thornberry",
-        "player_name": "Braden Thornberry",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.54
-      },
-      {
-        "player_id": "doc-redman",
-        "player_name": "Doc Redman",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.54
-      },
-      {
-        "player_id": "hayden-springer",
-        "player_name": "Hayden Springer",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.54
-      },
-      {
-        "player_id": "kevin-tway",
-        "player_name": "Kevin Tway",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.03
-      },
-      {
         "player_id": "david-ford",
         "player_name": "David Ford",
-        "rounds": 2,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.69
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.54
+      },
+      {
+        "player_id": "thorbj-rn-olesen",
+        "player_name": "Thorbjørn Olesen",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.54
+      },
+      {
+        "player_id": "rico-hoey",
+        "player_name": "Rico Hoey",
+        "rounds": 8,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.29
+      },
+      {
+        "player_id": "brandt-snedeker",
+        "player_name": "Brandt Snedeker",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.29
+      },
+      {
+        "player_id": "max-homa",
+        "player_name": "Max Homa",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.29
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220710",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.1,
-    "avg_sg_total": -0.2,
-    "first_round": "2018-05-24",
+    "rounds": 73,
+    "avg_to_par": -0.59,
+    "avg_sg_total": -0.42,
+    "first_round": "2013-04-04",
     "last_round": "2022-07-10",
     "sg_t2g": null,
     "sg_ott": null,
@@ -331,22 +331,22 @@
         "avg_sg": -0.05
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.19
+      },
+      {
         "course": "TPC Deere Run",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 0.19
       },
       {
-        "course": "Colonial Country Club",
+        "course": "Waialae Country Club",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.88
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.6
+        "avg_to_par": -1.75,
+        "avg_sg": 0.5
       }
     ]
   },
@@ -359,10 +359,28 @@
     ],
     "rows": [
       {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -1.91
+      },
+      {
         "course": "The Old White TPC",
         "rounds": 4,
         "avg_to_par": 2.5,
         "avg_sg": -3.54
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 2.33,
+        "avg_sg": -2.72
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.72
       },
       {
         "course": "TPC Southwind",
@@ -375,24 +393,6 @@
         "rounds": 2,
         "avg_to_par": 0.5,
         "avg_sg": -1.86
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 6,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.03
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.6
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.88
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2018,
-        "rounds": 26,
-        "scoring_average": 69.77,
-        "avg_to_par": -0.85,
-        "avg_sg_total": -0.19,
+        "rounds": 54,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.52,
+        "avg_sg_total": -0.37,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2018-08-19"
+      },
+      {
+        "season": 2016,
+        "rounds": 3,
+        "scoring_average": 69.67,
+        "avg_to_par": -0.33,
+        "avg_sg_total": -0.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-05-21"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -3.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-04-05"
       }
     ]
   },
@@ -476,6 +510,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 5
   }
 }

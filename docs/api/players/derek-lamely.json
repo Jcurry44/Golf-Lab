@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20240310",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.55,
-    "avg_sg_total": -1.44,
-    "first_round": "2012-11-10",
+    "rounds": 240,
+    "avg_to_par": 0.7,
+    "avg_sg_total": -1.06,
+    "first_round": "2010-01-29",
     "last_round": "2024-03-08",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": null,
+        "rounds": 16,
+        "avg_to_par": -2.13,
+        "avg_sg": 0.55
+      },
+      {
         "course": "Jack Nicklaus (Tournament)",
         "rounds": 6,
         "avg_to_par": -2.0,
@@ -320,33 +326,27 @@
       },
       {
         "course": "Walt Disney World Resort - Magnolia Course",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.2
-      },
-      {
-        "course": "Vidanta Vallarta",
         "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.59
+        "avg_to_par": -1.75,
+        "avg_sg": 0.9
       },
       {
-        "course": "Keene Trace Golf Club (Champion Trace)",
+        "course": "Annandale GC",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": -0.67
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.78
+        "avg_to_par": -1.0,
+        "avg_sg": 2.03
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.24
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 10,
-        "avg_to_par": 0.1,
-        "avg_sg": -0.87
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.01
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.43
+      },
+      {
         "course": "TPC Craig Ranch",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -7.0
       },
       {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -5.84
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.39
       },
       {
-        "course": "Oakdale Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -3.31
+        "course": "TPC Louisiana",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": -5.04
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "TPC Southwind",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -1.65
+        "avg_to_par": 4.5,
+        "avg_sg": -2.99
       },
       {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -1.45
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.19
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 8,
+        "avg_to_par": 4.38,
+        "avg_sg": -2.58
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2012,
-        "rounds": 8,
-        "scoring_average": 70.0,
-        "avg_to_par": -2.0,
-        "avg_sg_total": 0.72,
+        "rounds": 70,
+        "scoring_average": 71.57,
+        "avg_to_par": 0.49,
+        "avg_sg_total": -0.78,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2012-12-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 65,
+        "scoring_average": 72.14,
+        "avg_to_par": 0.88,
+        "avg_sg_total": -1.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-23"
+      },
+      {
+        "season": 2010,
+        "rounds": 73,
+        "scoring_average": 71.62,
+        "avg_to_par": 0.55,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-14"
       }
     ]
   },
@@ -527,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 8
   }
 }

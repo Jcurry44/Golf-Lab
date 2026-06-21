@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241006",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.07,
-    "avg_sg_total": -0.36,
-    "first_round": "2024-03-08",
+    "rounds": 66,
+    "avg_to_par": -0.55,
+    "avg_sg_total": -0.25,
+    "first_round": "2023-02-23",
     "last_round": "2024-09-13",
     "sg_t2g": -0.066,
     "sg_ott": -0.148,
@@ -319,34 +319,34 @@
         "avg_sg": 2.47
       },
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -3.67,
+        "avg_sg": 0.03
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.15
+      },
+      {
         "course": "Dunes Golf and Beach Club",
         "rounds": 4,
         "avg_to_par": -2.0,
         "avg_sg": 0.75
       },
       {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.5
-      },
-      {
         "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -1.3
+        "rounds": 6,
+        "avg_to_par": -2.0,
+        "avg_sg": -0.33
       },
       {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -2.9
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.28
+        "course": "PGA National Resort and Spa - Champion Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.41
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.28
+      },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
@@ -387,12 +393,6 @@
         "rounds": 4,
         "avg_to_par": 1.0,
         "avg_sg": -0.62
-      },
-      {
-        "course": "Hamilton Golf & Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.2
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2024,
-        "rounds": 40,
-        "scoring_average": 67.53,
-        "avg_to_par": -0.07,
+        "rounds": 60,
+        "scoring_average": 68.2,
+        "avg_to_par": -0.6,
         "avg_sg_total": -0.289,
         "sg_t2g": -0.066,
         "sg_ott": -0.148,
@@ -431,6 +431,23 @@
         "gir": 0.6606,
         "scrambling": 0.619,
         "last_round": "2024-09-13"
+      },
+      {
+        "season": 2023,
+        "rounds": 6,
+        "scoring_average": 70.67,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-05-14"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.47,
-    "avg_sg_total": -1.32,
-    "first_round": "2025-06-05",
+    "rounds": 85,
+    "avg_to_par": 0.25,
+    "avg_sg_total": -0.85,
+    "first_round": "2024-12-12",
     "last_round": "2025-12-14",
     "sg_t2g": -1.0,
     "sg_ott": -0.09,
@@ -319,34 +319,34 @@
         "avg_sg": 1.07
       },
       {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.66
+      },
+      {
         "course": "Detroit Golf Club",
         "rounds": 2,
         "avg_to_par": -2.0,
         "avg_sg": -0.64
       },
       {
-        "course": "Dye's Valley Course",
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.25
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
         "rounds": 4,
         "avg_to_par": -1.75,
-        "avg_sg": 1.82
+        "avg_sg": 1.24
       },
       {
         "course": "The Country Club of Jackson",
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": -0.25
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": -2.04
-      },
-      {
-        "course": "Hurstbourne Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.56
       }
     ]
   },
@@ -383,16 +383,16 @@
         "avg_sg": -4.11
       },
       {
-        "course": "Black Desert Resort",
+        "course": "Memorial Park Golf Course",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -3.1
+        "avg_to_par": 3.0,
+        "avg_sg": -3.85
       },
       {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "course": "TPC San Antonio (Oaks Course)",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": null
+        "avg_to_par": 3.0,
+        "avg_sg": -3.38
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 67.92,
-        "avg_to_par": 0.47,
+        "rounds": 81,
+        "scoring_average": 69.69,
+        "avg_to_par": 0.31,
         "avg_sg_total": -1.246,
         "sg_t2g": -1.0,
         "sg_ott": -0.09,
@@ -431,6 +431,23 @@
         "gir": 0.6341,
         "scrambling": 0.5526,
         "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 69.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 2.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

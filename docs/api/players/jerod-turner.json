@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20110821",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.93,
-    "avg_sg_total": -2.17,
-    "first_round": "2010-03-14",
+    "rounds": 70,
+    "avg_to_par": 1.24,
+    "avg_sg_total": -1.74,
+    "first_round": "2008-12-03",
     "last_round": "2011-08-19",
     "sg_t2g": null,
     "sg_ott": null,
@@ -331,22 +331,22 @@
         "avg_sg": -0.48
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.87
+      },
+      {
+        "course": null,
+        "rounds": 14,
+        "avg_to_par": -0.29,
+        "avg_sg": -1.51
+      },
+      {
         "course": "TPC Louisiana",
         "rounds": 2,
         "avg_to_par": 0.0,
         "avg_sg": 0.15
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.92
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 3,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.15
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2010,
-        "rounds": 30,
-        "scoring_average": 72.67,
-        "avg_to_par": 1.87,
-        "avg_sg_total": -2.18,
+        "rounds": 54,
+        "scoring_average": 72.13,
+        "avg_to_par": 1.17,
+        "avg_sg_total": -1.62,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2010-08-19"
+      },
+      {
+        "season": 2008,
+        "rounds": 6,
+        "scoring_average": 72.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -2.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 36,
-    "avg_to_par": -1.42,
-    "avg_sg_total": -1.32,
+    "rounds": 128,
+    "avg_to_par": -2.07,
+    "avg_sg_total": -0.67,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,6 +25,55 @@
     ],
     "rows": [
       {
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.01
+      },
+      {
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.26
+      },
+      {
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 1.01
+      },
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.51
+      },
+      {
         "player_id": "shaun-norris",
         "player_name": "Shaun Norris",
         "rounds": 4,
@@ -32,60 +81,32 @@
         "avg_sg": 0.51
       },
       {
-        "player_id": "brad-kennedy",
-        "player_name": "Brad Kennedy",
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
         "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.01
+        "avg_to_par": -3.0,
+        "avg_sg": 0.26
       },
       {
-        "player_id": "gunn-charoenkul",
-        "player_name": "Gunn Charoenkul",
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.74
+        "avg_to_par": -3.0,
+        "avg_sg": 0.26
       },
       {
-        "player_id": "jazz-janewattananond",
-        "player_name": "Jazz Janewattananond",
+        "player_id": "paul-casey",
+        "player_name": "Paul Casey",
         "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -1.24
+        "avg_to_par": -3.0,
+        "avg_sg": 0.26
       },
       {
-        "player_id": "ryo-ishikawa",
-        "player_name": "Ryo Ishikawa",
+        "player_id": "satoshi-kodaira",
+        "player_name": "Satoshi Kodaira",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -1.49
-      },
-      {
-        "player_id": "mikumu-horikawa",
-        "player_name": "Mikumu Horikawa",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -1.74
-      },
-      {
-        "player_id": "shugo-imahira",
-        "player_name": "Shugo Imahira",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -1.74
-      },
-      {
-        "player_id": "tiger-woods",
-        "player_name": "Tiger Woods",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -2.49
-      },
-      {
-        "player_id": "naoki-sekito",
-        "player_name": "Naoki Sekito",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -2.99
+        "avg_to_par": -3.0,
+        "avg_sg": 0.26
       }
     ]
   },

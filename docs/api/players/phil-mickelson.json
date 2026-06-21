@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.35,
-    "avg_sg_total": -0.74,
-    "first_round": "2022-01-26",
+    "rounds": 240,
+    "avg_to_par": 0.4,
+    "avg_sg_total": -0.38,
+    "first_round": "2018-09-20",
     "last_round": "2025-07-20",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "course": "Plantation Course at Kapalua",
         "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": -0.17
+        "avg_to_par": -3.5,
+        "avg_sg": -1.28
       },
       {
-        "course": "Augusta National Golf Club",
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 0.02
+      },
+      {
+        "course": "Silverado Resort and Spa (North Course)",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.36
+      },
+      {
+        "course": "Nine Bridges",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.59
+      },
+      {
+        "course": "Silverado Resort (North Course)",
         "rounds": 10,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.86
+        "avg_to_par": -1.7,
+        "avg_sg": 0.42
       },
       {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.3
-      },
-      {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.61
-      },
-      {
-        "course": "Valhalla Golf Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -1.84
-      },
-      {
-        "course": "Oak Hill Country Club - East Course",
-        "rounds": 4,
-        "avg_to_par": 2.5,
-        "avg_sg": -0.06
+        "course": "Pete Dye Stadium Course",
+        "rounds": 12,
+        "avg_to_par": -1.58,
+        "avg_sg": -0.47
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -4.42
       },
       {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -2.59
+      },
+      {
+        "course": "Royal St. George's GC",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -5.33
+      },
+      {
         "course": "The Country Club",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -3.12
       },
       {
-        "course": "Quail Hollow Club",
+        "course": "Memorial Park Golf Course",
         "rounds": 2,
         "avg_to_par": 4.5,
-        "avg_sg": -2.91
+        "avg_sg": -2.69
       },
       {
         "course": "Royal Liverpool Golf Club",
         "rounds": 2,
         "avg_to_par": 4.5,
         "avg_sg": -2.15
-      },
-      {
-        "course": "Oakmont Country Club",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": 0.71
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": -0.15
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2022,
-        "rounds": 6,
-        "scoring_average": 74.5,
-        "avg_to_par": 3.17,
-        "avg_sg_total": -2.67,
+        "rounds": 17,
+        "scoring_average": 72.29,
+        "avg_to_par": 0.29,
+        "avg_sg_total": -1.81,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2022-07-15"
+      },
+      {
+        "season": 2021,
+        "rounds": 74,
+        "scoring_average": 71.93,
+        "avg_to_par": 0.64,
+        "avg_sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-29"
+      },
+      {
+        "season": 2020,
+        "rounds": 51,
+        "scoring_average": 70.57,
+        "avg_to_par": -0.71,
+        "avg_sg_total": 0.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-21"
+      },
+      {
+        "season": 2019,
+        "rounds": 60,
+        "scoring_average": 71.13,
+        "avg_to_par": -0.12,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-18"
+      },
+      {
+        "season": 2018,
+        "rounds": 4,
+        "scoring_average": 73.25,
+        "avg_to_par": 3.25,
+        "avg_sg_total": -3.63,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-09-23"
       }
     ]
   },
@@ -493,6 +561,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 8
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20231218",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.78,
-    "avg_sg_total": -1.19,
-    "first_round": "2023-04-28",
+    "rounds": 99,
+    "avg_to_par": 0.37,
+    "avg_sg_total": -0.87,
+    "first_round": "2021-09-16",
     "last_round": "2023-12-17",
     "sg_t2g": -0.857,
     "sg_ott": -0.137,
@@ -313,16 +313,16 @@
     ],
     "rows": [
       {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.2
+        "course": "Pete Dye Stadium Course",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.81
       },
       {
         "course": "Vidanta Vallarta",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.48
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.16
       },
       {
         "course": "TPC Deere Run",
@@ -332,21 +332,21 @@
       },
       {
         "course": "TPC Summerlin",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.44
+        "rounds": 8,
+        "avg_to_par": -0.88,
+        "avg_sg": -1.22
       },
       {
         "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.84
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": -0.93
       },
       {
-        "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.93
+        "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": -0.63,
+        "avg_sg": -0.18
       }
     ]
   },
@@ -365,10 +365,16 @@
         "avg_sg": null
       },
       {
-        "course": "Silverado Resort (North Course)",
+        "course": "Memorial Park Golf Course",
         "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": -5.19
+        "avg_to_par": 3.5,
+        "avg_sg": -3.17
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 6,
+        "avg_to_par": 2.67,
+        "avg_sg": -3.27
       },
       {
         "course": "Oakdale Golf & Country Club",
@@ -377,22 +383,16 @@
         "avg_sg": -2.31
       },
       {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.93
+      },
+      {
         "course": "ACCORDIA GOLF Narashino Country Club",
         "rounds": 4,
         "avg_to_par": 2.0,
         "avg_sg": -1.49
-      },
-      {
-        "course": "Keene Trace Golf Club (Champion Trace)",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.55
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.5
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2023,
-        "rounds": 40,
-        "scoring_average": 64.67,
-        "avg_to_par": 0.78,
+        "rounds": 91,
+        "scoring_average": 68.38,
+        "avg_to_par": 0.3,
         "avg_sg_total": -1.042,
         "sg_t2g": -0.857,
         "sg_ott": -0.137,
@@ -431,6 +431,23 @@
         "gir": 0.6412,
         "scrambling": 0.5765,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 8,
+        "scoring_average": 72.75,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -1.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-10"
       }
     ]
   },
@@ -442,6 +459,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 2
   }
 }

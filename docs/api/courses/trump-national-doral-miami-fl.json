@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 293,
-    "avg_to_par": 1.1,
-    "avg_sg_total": -1.19,
-    "difficulty_bucket": "tough"
+    "rounds": 796,
+    "avg_to_par": 0.7,
+    "avg_sg_total": -0.75,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -32,18 +32,18 @@
         "avg_sg": 2.28
       },
       {
+        "player_id": "alistair-presnell",
+        "player_name": "Alistair Presnell",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.74
+      },
+      {
         "player_id": "prayad-marksaeng",
         "player_name": "Prayad Marksaeng",
         "rounds": 4,
         "avg_to_par": -2.5,
         "avg_sg": 1.41
-      },
-      {
-        "player_id": "anders-hansen",
-        "player_name": "Anders Hansen",
-        "rounds": 8,
-        "avg_to_par": -2.25,
-        "avg_sg": 1.56
       },
       {
         "player_id": "gr-gory-havret",
@@ -53,18 +53,25 @@
         "avg_sg": 1.28
       },
       {
-        "player_id": "soren-hansen",
-        "player_name": "Soren Hansen",
-        "rounds": 8,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.07
+        "player_id": "anders-hansen",
+        "player_name": "Anders Hansen",
+        "rounds": 16,
+        "avg_to_par": -1.81,
+        "avg_sg": 1.03
       },
       {
         "player_id": "toru-taniguchi",
         "player_name": "Toru Taniguchi",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.45
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.78
+      },
+      {
+        "player_id": "jeev-milkha-singh",
+        "player_name": "Jeev Milkha Singh",
+        "rounds": 12,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.15
       },
       {
         "player_id": "robert-rock",
@@ -74,11 +81,25 @@
         "avg_sg": 0.64
       },
       {
-        "player_id": "richard-green",
-        "player_name": "Richard Green",
-        "rounds": 2,
+        "player_id": "mark-calcavecchia",
+        "player_name": "Mark Calcavecchia",
+        "rounds": 4,
         "avg_to_par": -1.5,
-        "avg_sg": -0.05
+        "avg_sg": 0.53
+      },
+      {
+        "player_id": "nicolas-colsaerts",
+        "player_name": "Nicolas Colsaerts",
+        "rounds": 8,
+        "avg_to_par": -1.38,
+        "avg_sg": 0.62
+      },
+      {
+        "player_id": "smylie-kaufman",
+        "player_name": "Smylie Kaufman",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.11
       },
       {
         "player_id": "scott-jamieson",
@@ -86,27 +107,6 @@
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 0.6
-      },
-      {
-        "player_id": "paul-lawrie",
-        "player_name": "Paul Lawrie",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.98
-      },
-      {
-        "player_id": "juvic-pagunsan",
-        "player_name": "Juvic Pagunsan",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.14
-      },
-      {
-        "player_id": "brendan-jones",
-        "player_name": "Brendan Jones",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.03
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public stats",
     "source_url": "https://www.pgatour.com/stats/detail/130",
     "source_updated_at": "2026-06-19T18:35:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.38,
-    "avg_sg_total": -0.65,
-    "first_round": "2025-11-14",
+    "rounds": 125,
+    "avg_to_par": -1.17,
+    "avg_sg_total": 0.19,
+    "first_round": "2024-06-13",
     "last_round": "2026-06-14",
     "sg_t2g": -0.48,
     "sg_ott": -0.51,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Deere Run",
+        "rounds": 6,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.47
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 0.32
+      },
+      {
         "course": "TPC Craig Ranch",
         "rounds": 4,
         "avg_to_par": -3.5,
         "avg_sg": 1.05
       },
       {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 0.78
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 6,
+        "avg_to_par": -3.17,
+        "avg_sg": 1.62
+      },
+      {
         "course": "Grand Reserve Golf Club",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.85
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -1.04
-      },
-      {
-        "course": "Dunes Golf and Beach Club",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.33
-      },
-      {
-        "course": "TPC Toronto at Osprey Valley - North Course",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.0
-      },
-      {
-        "course": "Colonial Country Club",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.0
       }
     ]
   },
@@ -365,16 +365,22 @@
         "avg_sg": -4.77
       },
       {
+        "course": "Pinehurst Resort & Country Club (Course No. 2)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.78
+      },
+      {
         "course": "Memorial Park Golf Course",
         "rounds": 4,
         "avg_to_par": 1.75,
         "avg_sg": -2.49
       },
       {
-        "course": "Torrey Pines Golf Course - South Course",
+        "course": "Port Royal Golf Course",
         "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.1
+        "avg_to_par": 1.5,
+        "avg_sg": -1.6
       },
       {
         "course": "TPC San Antonio - The Oaks Course",
@@ -383,16 +389,10 @@
         "avg_sg": -1.71
       },
       {
-        "course": "Waialae Country Club",
-        "rounds": 2,
+        "course": "The Renaissance Club",
+        "rounds": 4,
         "avg_to_par": 0.5,
-        "avg_sg": -1.09
-      },
-      {
-        "course": "PGA National - Champion Course",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.26
+        "avg_sg": -0.41
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 3,
-        "scoring_average": 69.0,
-        "avg_to_par": -2.0,
+        "rounds": 58,
+        "scoring_average": 69.95,
+        "avg_to_par": -1.09,
         "avg_sg_total": 0.052,
         "sg_t2g": 0.321,
         "sg_ott": 0.313,
@@ -451,37 +451,20 @@
       },
       {
         "season": 2024,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.924,
-        "sg_t2g": -0.48,
-        "sg_ott": -0.51,
-        "sg_app": 0.349,
-        "sg_arg": -0.319,
-        "sg_putt": -0.444,
-        "driving_distance": 301.1,
-        "accuracy": 0.5723,
-        "gir": 0.6832,
-        "scrambling": 0.5972,
-        "last_round": null
-      },
-      {
-        "season": 2023,
-        "rounds": 0,
-        "scoring_average": null,
-        "avg_to_par": null,
-        "avg_sg_total": -0.924,
-        "sg_t2g": -0.48,
-        "sg_ott": -0.51,
-        "sg_app": 0.349,
-        "sg_arg": -0.319,
-        "sg_putt": -0.444,
-        "driving_distance": 301.1,
-        "accuracy": 0.5723,
-        "gir": 0.6832,
-        "scrambling": 0.5972,
-        "last_round": null
+        "rounds": 30,
+        "scoring_average": 68.6,
+        "avg_to_par": -2.47,
+        "avg_sg_total": 1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-11-24"
       }
     ]
   },
@@ -493,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 4
+    "seasonProfiles": 3
   }
 }

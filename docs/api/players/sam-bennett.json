@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20241215",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.07,
-    "avg_sg_total": -0.1,
-    "first_round": "2023-06-08",
+    "rounds": 56,
+    "avg_to_par": 0.82,
+    "avg_sg_total": -0.39,
+    "first_round": "2021-04-01",
     "last_round": "2024-12-13",
     "sg_t2g": null,
     "sg_ott": null,
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -6.18
+      },
+      {
         "course": "Pinehurst Resort & Country Club (Course No. 2)",
         "rounds": 4,
         "avg_to_par": 4.25,
         "avg_sg": -1.47
       },
       {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.72
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.46
+      },
+      {
+        "course": "The Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.1
+      },
+      {
         "course": "Dye's Valley Course",
         "rounds": 6,
         "avg_to_par": 2.33,
         "avg_sg": -0.72
-      },
-      {
-        "course": "The Los Angeles Country Club (North Course)",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 0.51
-      },
-      {
-        "course": "TPC Twin Cities",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.17
-      },
-      {
-        "course": "Memorial Park Golf Course",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.74
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": -1.0,
-        "avg_sg": null
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2023,
-        "rounds": 30,
-        "scoring_average": 65.23,
-        "avg_to_par": -0.9,
-        "avg_sg_total": 0.31,
+        "rounds": 38,
+        "scoring_average": 66.92,
+        "avg_to_par": -0.45,
+        "avg_sg_total": 0.25,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 6,
+        "scoring_average": 74.83,
+        "avg_to_par": 4.17,
+        "avg_sg_total": -2.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-19"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -2.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-04-02"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

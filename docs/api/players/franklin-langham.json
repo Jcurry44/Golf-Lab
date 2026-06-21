@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080518",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.88,
-    "avg_sg_total": -0.42,
-    "first_round": "2005-07-31",
+    "rounds": 103,
+    "avg_to_par": -0.28,
+    "avg_sg_total": -0.41,
+    "first_round": "2002-05-23",
     "last_round": "2008-05-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -314,9 +314,9 @@
     "rows": [
       {
         "course": "TPC Sugarloaf",
-        "rounds": 9,
-        "avg_to_par": -9.0,
-        "avg_sg": 0.88
+        "rounds": 14,
+        "avg_to_par": -5.86,
+        "avg_sg": 0.9
       },
       {
         "course": "Annandale GC",
@@ -325,28 +325,28 @@
         "avg_sg": 0.87
       },
       {
+        "course": "Warwick Hills Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.16
+      },
+      {
         "course": "TPC Summerlin",
         "rounds": 2,
         "avg_to_par": -2.5,
         "avg_sg": -0.41
       },
       {
-        "course": "TPC Boston",
+        "course": "Doral Golf Resort & Spa - Blue Monster Course",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.84
+        "avg_to_par": -2.25,
+        "avg_sg": 0.86
       },
       {
-        "course": null,
-        "rounds": 7,
-        "avg_to_par": 0.43,
-        "avg_sg": -2.16
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.57
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.06
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -3.3
+      },
+      {
         "course": "Mystic Rock",
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -5.07
       },
       {
-        "course": "Forest Oaks Country Club",
+        "course": "TPC Southwind",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -2.75
+        "avg_to_par": 5.0,
+        "avg_sg": -3.46
       },
       {
-        "course": "Shaughnessy Golf and Country Club",
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.82
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.13
+      },
+      {
+        "course": "Harbour Town Golf Links",
         "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 1.23
-      },
-      {
-        "course": "TPC River Highlands",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.57
-      },
-      {
-        "course": null,
-        "rounds": 7,
-        "avg_to_par": 0.43,
-        "avg_sg": -2.16
-      },
-      {
-        "course": "TPC Boston",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.84
+        "avg_to_par": 3.75,
+        "avg_sg": -1.51
       }
     ]
   },
@@ -468,10 +468,10 @@
       },
       {
         "season": 2005,
-        "rounds": 26,
-        "scoring_average": 71.23,
-        "avg_to_par": 0.04,
-        "avg_sg_total": -0.47,
+        "rounds": 85,
+        "scoring_average": 71.74,
+        "avg_to_par": 0.48,
+        "avg_sg_total": -0.4,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -482,6 +482,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-11-06"
+      },
+      {
+        "season": 2003,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-04"
+      },
+      {
+        "season": 2002,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-24"
       }
     ]
   },
@@ -493,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 4
+    "seasonProfiles": 6
   }
 }

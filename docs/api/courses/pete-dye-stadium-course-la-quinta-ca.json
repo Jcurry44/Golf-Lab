@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 567,
-    "avg_to_par": -1.37,
-    "avg_sg_total": -1.28,
+    "rounds": 3395,
+    "avg_to_par": -2.19,
+    "avg_sg_total": -0.3,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,18 +25,53 @@
     ],
     "rows": [
       {
-        "player_id": "hudson-swafford",
-        "player_name": "Hudson Swafford",
+        "player_id": "xander-schauffele",
+        "player_name": "Xander Schauffele",
         "rounds": 4,
-        "avg_to_par": -5.75,
-        "avg_sg": 4.13
+        "avg_to_par": -6.75,
+        "avg_sg": 3.34
       },
       {
-        "player_id": "danny-lee",
-        "player_name": "Danny Lee",
+        "player_id": "justin-thomas",
+        "player_name": "Justin Thomas",
+        "rounds": 8,
+        "avg_to_par": -6.25,
+        "avg_sg": 3.44
+      },
+      {
+        "player_id": "scottie-scheffler",
+        "player_name": "Scottie Scheffler",
+        "rounds": 8,
+        "avg_to_par": -6.0,
+        "avg_sg": 2.76
+      },
+      {
+        "player_id": "byeong-hun-an",
+        "player_name": "Byeong Hun An",
+        "rounds": 2,
+        "avg_to_par": -6.0,
+        "avg_sg": 2.61
+      },
+      {
+        "player_id": "alexander-bj-rk",
+        "player_name": "Alexander Björk",
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "jason-day",
+        "player_name": "Jason Day",
+        "rounds": 12,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.35
+      },
+      {
+        "player_id": "austin-smotherman",
+        "player_name": "Austin Smotherman",
         "rounds": 4,
         "avg_to_par": -5.25,
-        "avg_sg": 2.31
+        "avg_sg": 2.18
       },
       {
         "player_id": "haotong-li",
@@ -46,67 +81,32 @@
         "avg_sg": 2.18
       },
       {
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.18
+      },
+      {
+        "player_id": "sahith-theegala",
+        "player_name": "Sahith Theegala",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.18
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 8,
+        "avg_to_par": -5.13,
+        "avg_sg": 2.85
+      },
+      {
         "player_id": "david-ford",
         "player_name": "David Ford",
         "rounds": 4,
         "avg_to_par": -5.0,
         "avg_sg": 1.93
-      },
-      {
-        "player_id": "blades-brown",
-        "player_name": "Blades Brown",
-        "rounds": 4,
-        "avg_to_par": -4.75,
-        "avg_sg": 1.68
-      },
-      {
-        "player_id": "karl-vilips",
-        "player_name": "Karl Vilips",
-        "rounds": 4,
-        "avg_to_par": -4.75,
-        "avg_sg": 1.68
-      },
-      {
-        "player_id": "s-h-kim",
-        "player_name": "S.H. Kim",
-        "rounds": 4,
-        "avg_to_par": -4.75,
-        "avg_sg": 1.68
-      },
-      {
-        "player_id": "will-zalatoris",
-        "player_name": "Will Zalatoris",
-        "rounds": 4,
-        "avg_to_par": -4.75,
-        "avg_sg": 1.68
-      },
-      {
-        "player_id": "brendan-steele",
-        "player_name": "Brendan Steele",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 1.31
-      },
-      {
-        "player_id": "sam-ryder",
-        "player_name": "Sam Ryder",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 1.18
-      },
-      {
-        "player_id": "steve-marino",
-        "player_name": "Steve Marino",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 1.51
-      },
-      {
-        "player_id": "joel-dahmen",
-        "player_name": "Joel Dahmen",
-        "rounds": 4,
-        "avg_to_par": -4.0,
-        "avg_sg": 0.93
       }
     ]
   },

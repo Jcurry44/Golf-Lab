@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 611,
-    "avg_to_par": 1.1,
-    "avg_sg_total": -1.31,
-    "difficulty_bucket": "tough"
+    "rounds": 1030,
+    "avg_to_par": 0.51,
+    "avg_sg_total": -0.76,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,18 @@
     ],
     "rows": [
       {
-        "player_id": "pablo-larraz-bal",
-        "player_name": "Pablo Larrazábal",
-        "rounds": 2,
-        "avg_to_par": -3.5,
-        "avg_sg": 4.11
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.29
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 3.53
       },
       {
         "player_id": "simon-dyson",
@@ -46,11 +53,18 @@
         "avg_sg": 0.83
       },
       {
-        "player_id": "thongchai-jaidee",
-        "player_name": "Thongchai Jaidee",
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 16,
+        "avg_to_par": -1.94,
+        "avg_sg": 1.7
+      },
+      {
+        "player_id": "jamie-donaldson",
+        "player_name": "Jamie Donaldson",
         "rounds": 8,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.27
+        "avg_to_par": -1.88,
+        "avg_sg": 1.71
       },
       {
         "player_id": "fredrik-andersson-hed",
@@ -67,11 +81,18 @@
         "avg_sg": 1.99
       },
       {
-        "player_id": "peter-hanson",
-        "player_name": "Peter Hanson",
+        "player_id": "nicolas-colsaerts",
+        "player_name": "Nicolas Colsaerts",
         "rounds": 4,
         "avg_to_par": -1.75,
-        "avg_sg": 0.64
+        "avg_sg": 1.15
+      },
+      {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 12,
+        "avg_to_par": -1.67,
+        "avg_sg": 1.28
       },
       {
         "player_id": "rikard-karlberg",
@@ -81,32 +102,11 @@
         "avg_sg": 1.46
       },
       {
-        "player_id": "anders-hansen",
-        "player_name": "Anders Hansen",
-        "rounds": 4,
+        "player_id": "peter-hanson",
+        "player_name": "Peter Hanson",
+        "rounds": 12,
         "avg_to_par": -1.5,
-        "avg_sg": 0.9
-      },
-      {
-        "player_id": "jbe-kruger",
-        "player_name": "Jbe Kruger",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.9
-      },
-      {
-        "player_id": "jeev-milkha-singh",
-        "player_name": "Jeev Milkha Singh",
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.9
-      },
-      {
-        "player_id": "kyung-tae-kim",
-        "player_name": "Kyung-tae Kim",
-        "rounds": 6,
-        "avg_to_par": -1.33,
-        "avg_sg": 0.77
+        "avg_sg": 1.01
       }
     ]
   },

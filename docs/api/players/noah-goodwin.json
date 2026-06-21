@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20260524",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.13,
-    "avg_sg_total": 0.26,
-    "first_round": "2025-07-12",
+    "rounds": 95,
+    "avg_to_par": -0.58,
+    "avg_sg_total": -0.08,
+    "first_round": "2018-05-17",
     "last_round": "2026-05-22",
     "sg_t2g": -0.184,
     "sg_ott": 0.003,
@@ -319,6 +319,12 @@
         "avg_sg": 2.25
       },
       {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.5
+      },
+      {
         "course": "The Country Club of Jackson",
         "rounds": 4,
         "avg_to_par": -3.0,
@@ -337,16 +343,10 @@
         "avg_sg": 1.55
       },
       {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -1.04
-      },
-      {
-        "course": "TPC Craig Ranch",
-        "rounds": 2,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.45
+        "course": "Grand Reserve Golf Club",
+        "rounds": 10,
+        "avg_to_par": -2.1,
+        "avg_sg": 0.67
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -4.46
+      },
+      {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": null
       },
       {
-        "course": "Dunes Golf and Beach Club",
+        "course": "Trinity Forest Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.62
+      },
+      {
+        "course": "TPC Deere Run",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -2.26
+        "avg_sg": -3.44
       },
       {
-        "course": "Hurstbourne Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.6
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.41
       },
       {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.74
-      },
-      {
-        "course": "Silverado Resort (North Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.09
-      },
-      {
-        "course": "Black Desert Resort",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.1
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.73
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2025,
-        "rounds": 34,
-        "scoring_average": 65.44,
-        "avg_to_par": -1.38,
+        "rounds": 77,
+        "scoring_average": 68.35,
+        "avg_to_par": -0.92,
         "avg_sg_total": -0.102,
         "sg_t2g": -0.184,
         "sg_ott": 0.003,
@@ -448,6 +448,40 @@
         "gir": 0.68,
         "scrambling": 0.6064,
         "last_round": "2025-12-14"
+      },
+      {
+        "season": 2023,
+        "rounds": 8,
+        "scoring_average": 69.63,
+        "avg_to_par": -1.38,
+        "avg_sg_total": 1.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
+      },
+      {
+        "season": 2018,
+        "rounds": 4,
+        "scoring_average": 76.75,
+        "avg_to_par": 6.25,
+        "avg_sg_total": -4.54,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-06-15"
       }
     ]
   },
@@ -459,6 +493,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 4
   }
 }

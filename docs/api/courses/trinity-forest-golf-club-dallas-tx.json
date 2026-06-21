@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 169,
-    "avg_to_par": 0.02,
-    "avg_sg_total": -1.33,
+    "rounds": 448,
+    "avg_to_par": -0.84,
+    "avg_sg_total": -0.55,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,6 +25,48 @@
     ],
     "rows": [
       {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.56
+      },
+      {
+        "player_id": "matt-every",
+        "player_name": "Matt Every",
+        "rounds": 6,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.34
+      },
+      {
+        "player_id": "justin-harding",
+        "player_name": "Justin Harding",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.31
+      },
+      {
+        "player_id": "pat-perez",
+        "player_name": "Pat Perez",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "peter-uihlein",
+        "player_name": "Peter Uihlein",
+        "rounds": 8,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.88
+      },
+      {
+        "player_id": "vaughn-taylor",
+        "player_name": "Vaughn Taylor",
+        "rounds": 4,
+        "avg_to_par": -3.5,
+        "avg_sg": 1.81
+      },
+      {
         "player_id": "ethan-tracy",
         "player_name": "Ethan Tracy",
         "rounds": 4,
@@ -32,81 +74,39 @@
         "avg_sg": 1.69
       },
       {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "jonas-blixt",
+        "player_name": "Jonas Blixt",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 1.56
+      },
+      {
+        "player_id": "nicholas-lindheim",
+        "player_name": "Nicholas Lindheim",
+        "rounds": 8,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.38
+      },
+      {
+        "player_id": "padraig-harrington",
+        "player_name": "Padraig Harrington",
+        "rounds": 6,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.34
+      },
+      {
         "player_id": "brady-schnell",
         "player_name": "Brady Schnell",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.31
-      },
-      {
-        "player_id": "joey-garber",
-        "player_name": "Joey Garber",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.06
-      },
-      {
-        "player_id": "morgan-hoffmann",
-        "player_name": "Morgan Hoffmann",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.06
-      },
-      {
-        "player_id": "martin-flores",
-        "player_name": "Martin Flores",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.94
-      },
-      {
-        "player_id": "curtis-luck",
-        "player_name": "Curtis Luck",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.56
-      },
-      {
-        "player_id": "eric-axley",
-        "player_name": "Eric Axley",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.44
-      },
-      {
-        "player_id": "brandon-harkins",
-        "player_name": "Brandon Harkins",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "steve-wheatcroft",
-        "player_name": "Steve Wheatcroft",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.19
-      },
-      {
-        "player_id": "daniel-chopra",
-        "player_name": "Daniel Chopra",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -1.24
-      },
-      {
-        "player_id": "t-j-vogel",
-        "player_name": "T.J. Vogel",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -0.31
-      },
-      {
-        "player_id": "chad-campbell",
-        "player_name": "Chad Campbell",
-        "rounds": 3,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.44
       }
     ]
   },

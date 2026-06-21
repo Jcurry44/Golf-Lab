@@ -10,9 +10,9 @@
     "source_provider": "Verified public major repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 100,
-    "avg_to_par": 4.44,
-    "avg_sg_total": -1.56,
+    "rounds": 309,
+    "avg_to_par": 2.85,
+    "avg_sg_total": -0.83,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -25,6 +25,34 @@
     ],
     "rows": [
       {
+        "player_id": "bob-estes",
+        "player_name": "Bob Estes",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "tim-clark",
+        "player_name": "Tim Clark",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "tom-gillis",
+        "player_name": "Tom Gillis",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.57
+      },
+      {
+        "player_id": "ross-fisher",
+        "player_name": "Ross Fisher",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 3.18
+      },
+      {
         "player_id": "soren-hansen",
         "player_name": "Soren Hansen",
         "rounds": 4,
@@ -32,81 +60,53 @@
         "avg_sg": 2.93
       },
       {
-        "player_id": "azuma-yano",
-        "player_name": "Azuma Yano",
+        "player_id": "derek-fathauer",
+        "player_name": "Derek Fathauer",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.43
+        "avg_to_par": 0.0,
+        "avg_sg": 0.72
       },
       {
-        "player_id": "johan-edfors",
-        "player_name": "Johan Edfors",
+        "player_id": "jerry-kelly",
+        "player_name": "Jerry Kelly",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 1.43
+        "avg_to_par": 0.0,
+        "avg_sg": 0.72
       },
       {
-        "player_id": "drew-weaver",
-        "player_name": "Drew Weaver",
+        "player_id": "john-senden",
+        "player_name": "John Senden",
         "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": 0.68
+        "avg_to_par": 0.0,
+        "avg_sg": 0.72
       },
       {
-        "player_id": "simon-khan",
-        "player_name": "Simon Khan",
-        "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": 0.42
-      },
-      {
-        "player_id": "thomas-levet",
-        "player_name": "Thomas Levet",
+        "player_id": "blayne-barber",
+        "player_name": "Blayne Barber",
         "rounds": 4,
-        "avg_to_par": 2.75,
-        "avg_sg": 0.18
+        "avg_to_par": 0.25,
+        "avg_sg": 0.47
       },
       {
-        "player_id": "andrew-parr",
-        "player_name": "Andrew Parr",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
+        "player_id": "tyrone-van-aswegen",
+        "player_name": "Tyrone Van Aswegen",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.47
       },
       {
-        "player_id": "angelo-que",
-        "player_name": "Angelo Que",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
+        "player_id": "billy-mayfair",
+        "player_name": "Billy Mayfair",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.32
       },
       {
-        "player_id": "courtland-lowe",
-        "player_name": "Courtland Lowe",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "james-kamte",
-        "player_name": "James Kamte",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "nathan-tyler",
-        "player_name": "Nathan Tyler",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
-      },
-      {
-        "player_id": "raphael-jacquelin",
-        "player_name": "Raphael Jacquelin",
-        "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -0.08
+        "player_id": "gary-christian",
+        "player_name": "Gary Christian",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.32
       }
     ]
   },

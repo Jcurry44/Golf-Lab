@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 16,
-    "avg_to_par": 1.69,
-    "avg_sg_total": -2.36,
-    "difficulty_bucket": "tough"
+    "rounds": 103,
+    "avg_to_par": -0.35,
+    "avg_sg_total": -0.34,
+    "difficulty_bucket": "balanced"
   },
   "fits": {
     "columns": [
@@ -25,32 +25,88 @@
     ],
     "rows": [
       {
-        "player_id": "hanbyeol-kim",
-        "player_name": "Hanbyeol Kim",
+        "player_id": "jason-kokrak",
+        "player_name": "Jason Kokrak",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.42
+        "avg_to_par": -5.0,
+        "avg_sg": 4.33
       },
       {
-        "player_id": "jaekyeong-lee",
-        "player_name": "Jaekyeong Lee",
+        "player_id": "talor-gooch",
+        "player_name": "Talor Gooch",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.17
+        "avg_to_par": -4.0,
+        "avg_sg": 3.33
       },
       {
-        "player_id": "jeong-woo-ham",
-        "player_name": "Jeong-Woo Ham",
+        "player_id": "joaqu-n-niemann",
+        "player_name": "Joaquín Niemann",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.67
+        "avg_to_par": -3.25,
+        "avg_sg": 2.58
       },
       {
-        "player_id": "taehee-lee",
-        "player_name": "Taehee Lee",
+        "player_id": "bubba-watson",
+        "player_name": "Bubba Watson",
         "rounds": 4,
-        "avg_to_par": 4.5,
-        "avg_sg": -5.17
+        "avg_to_par": -3.0,
+        "avg_sg": 2.33
+      },
+      {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 2.08
+      },
+      {
+        "player_id": "cameron-smith",
+        "player_name": "Cameron Smith",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 1.58
+      },
+      {
+        "player_id": "ian-poulter",
+        "player_name": "Ian Poulter",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.33
+      },
+      {
+        "player_id": "danny-lee",
+        "player_name": "Danny Lee",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.83
+      },
+      {
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.58
+      },
+      {
+        "player_id": "brooks-koepka",
+        "player_name": "Brooks Koepka",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.58
+      },
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.17
       }
     ]
   },

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160619",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.1,
-    "avg_sg_total": -0.3,
-    "first_round": "2013-08-11",
+    "rounds": 230,
+    "avg_to_par": 0.31,
+    "avg_sg_total": 0.42,
+    "first_round": "2005-06-16",
     "last_round": "2016-06-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -320,33 +320,33 @@
       },
       {
         "course": "TPC Louisiana",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.27
+        "rounds": 10,
+        "avg_to_par": -1.8,
+        "avg_sg": 1.13
       },
       {
         "course": "Sheshan International GC",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.64
+        "rounds": 12,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.01
       },
       {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": 0.95
+        "course": "Trump National Doral",
+        "rounds": 24,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.19
       },
       {
-        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "course": "Ocean Course at Kiawah Island",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.7
+        "avg_to_par": -0.75,
+        "avg_sg": 2.69
       },
       {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.47
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.37
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "Augusta National Golf Club",
+        "course": "The Olympic Club",
         "rounds": 2,
-        "avg_to_par": 7.5,
-        "avg_sg": -5.22
+        "avg_to_par": 6.5,
+        "avg_sg": -2.03
       },
       {
-        "course": "The Old White TPC",
+        "course": "Harbour Town Golf Links",
+        "rounds": 3,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.73
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
         "rounds": 2,
-        "avg_to_par": 3.0,
-        "avg_sg": -2.57
+        "avg_to_par": 4.5,
+        "avg_sg": -0.3
       },
       {
-        "course": "PGA National Resort (The Champion)",
+        "course": "Merion GC",
         "rounds": 2,
-        "avg_to_par": 2.5,
-        "avg_sg": -2.27
+        "avg_to_par": 4.5,
+        "avg_sg": 0.21
       },
       {
-        "course": "Sedgefield Country Club",
+        "course": "Royal Birkdale Golf Club",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.79
+        "avg_to_par": 4.5,
+        "avg_sg": 0.39
       },
       {
-        "course": "Congressional Country Club - Blue Course",
+        "course": "Oakmont Country Club",
         "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": 0.15
-      },
-      {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.38
+        "avg_to_par": 4.25,
+        "avg_sg": 1.16
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2013,
-        "rounds": 3,
-        "scoring_average": 69.67,
-        "avg_to_par": -0.33,
-        "avg_sg_total": 0.69,
+        "rounds": 43,
+        "scoring_average": 71.3,
+        "avg_to_par": 0.47,
+        "avg_sg_total": 0.47,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,125 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2013-08-16"
+      },
+      {
+        "season": 2012,
+        "rounds": 36,
+        "scoring_average": 71.0,
+        "avg_to_par": -0.33,
+        "avg_sg_total": 0.98,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-12"
+      },
+      {
+        "season": 2011,
+        "rounds": 38,
+        "scoring_average": 71.61,
+        "avg_to_par": 0.39,
+        "avg_sg_total": 0.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
+      },
+      {
+        "season": 2010,
+        "rounds": 28,
+        "scoring_average": 71.29,
+        "avg_to_par": -0.29,
+        "avg_sg_total": 1.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 14,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.64,
+        "avg_sg_total": 1.01,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-08-14"
+      },
+      {
+        "season": 2008,
+        "rounds": 12,
+        "scoring_average": 73.67,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -0.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-08-10"
+      },
+      {
+        "season": 2007,
+        "rounds": 12,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.17,
+        "avg_sg_total": 0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-12"
+      },
+      {
+        "season": 2005,
+        "rounds": 10,
+        "scoring_average": 72.3,
+        "avg_to_par": 1.5,
+        "avg_sg_total": 0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-08-14"
       }
     ]
   },
@@ -476,6 +595,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 10
   }
 }

@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 1099,
-    "avg_to_par": 0.29,
-    "avg_sg_total": -1.25,
+    "rounds": 4274,
+    "avg_to_par": -0.7,
+    "avg_sg_total": -0.29,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,18 +25,60 @@
     ],
     "rows": [
       {
-        "player_id": "kirk-triplett",
-        "player_name": "Kirk Triplett",
-        "rounds": 2,
-        "avg_to_par": -5.0,
-        "avg_sg": 2.18
+        "player_id": "jeff-quinney",
+        "player_name": "Jeff Quinney",
+        "rounds": 13,
+        "avg_to_par": -7.46,
+        "avg_sg": 0.83
       },
       {
-        "player_id": "john-huh",
-        "player_name": "John Huh",
+        "player_id": "russell-henley",
+        "player_name": "Russell Henley",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 3.89
+      },
+      {
+        "player_id": "michael-sim",
+        "player_name": "Michael Sim",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.43
+      },
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 8,
+        "avg_to_par": -4.38,
+        "avg_sg": 3.0
+      },
+      {
+        "player_id": "cameron-young",
+        "player_name": "Cameron Young",
+        "rounds": 8,
+        "avg_to_par": -4.0,
+        "avg_sg": 3.14
+      },
+      {
+        "player_id": "patrick-reed",
+        "player_name": "Patrick Reed",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.66
+      },
+      {
+        "player_id": "j-j-spaun",
+        "player_name": "J.J. Spaun",
         "rounds": 4,
         "avg_to_par": -3.75,
-        "avg_sg": 2.85
+        "avg_sg": 2.73
+      },
+      {
+        "player_id": "kevin-na",
+        "player_name": "Kevin Na",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 2.56
       },
       {
         "player_id": "jackson-koivun",
@@ -46,67 +88,25 @@
         "avg_sg": 2.8
       },
       {
-        "player_id": "brett-stegmaier",
-        "player_name": "Brett Stegmaier",
+        "player_id": "billy-horschel",
+        "player_name": "Billy Horschel",
+        "rounds": 8,
+        "avg_to_par": -3.5,
+        "avg_sg": 2.68
+      },
+      {
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
         "rounds": 4,
         "avg_to_par": -3.5,
-        "avg_sg": 1.9
+        "avg_sg": 2.35
       },
       {
-        "player_id": "john-oda",
-        "player_name": "John Oda",
+        "player_id": "michael-allen",
+        "player_name": "Michael Allen",
         "rounds": 4,
         "avg_to_par": -3.5,
-        "avg_sg": 1.9
-      },
-      {
-        "player_id": "roberto-d-az",
-        "player_name": "Roberto Díaz",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.65
-      },
-      {
-        "player_id": "jeev-milkha-singh",
-        "player_name": "Jeev Milkha Singh",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.43
-      },
-      {
-        "player_id": "kyung-kim",
-        "player_name": "Kyung Kim",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.21
-      },
-      {
-        "player_id": "tyler-mccumber",
-        "player_name": "Tyler McCumber",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 1.81
-      },
-      {
-        "player_id": "billy-hurley-iii",
-        "player_name": "Billy Hurley III",
-        "rounds": 2,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "anirban-lahiri",
-        "player_name": "Anirban Lahiri",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.85
-      },
-      {
-        "player_id": "roger-sloan",
-        "player_name": "Roger Sloan",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.73
+        "avg_sg": 2.35
       }
     ]
   },

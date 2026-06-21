@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 106,
-    "avg_to_par": -1.41,
-    "avg_sg_total": -1.19,
+    "rounds": 251,
+    "avg_to_par": -2.28,
+    "avg_sg_total": -0.41,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,11 +25,53 @@
     ],
     "rows": [
       {
+        "player_id": "brendan-jones",
+        "player_name": "Brendan Jones",
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 2.8
+      },
+      {
+        "player_id": "jay-delsing",
+        "player_name": "Jay Delsing",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "joey-sindelar",
+        "player_name": "Joey Sindelar",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.05
+      },
+      {
+        "player_id": "matt-hendrix",
+        "player_name": "Matt Hendrix",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.8
+      },
+      {
         "player_id": "mike-springer",
         "player_name": "Mike Springer",
         "rounds": 4,
         "avg_to_par": -4.75,
         "avg_sg": 1.8
+      },
+      {
+        "player_id": "neal-lancaster",
+        "player_name": "Neal Lancaster",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 1.8
+      },
+      {
+        "player_id": "brenden-pappas",
+        "player_name": "Brenden Pappas",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.55
       },
       {
         "player_id": "david-edwards",
@@ -39,6 +81,20 @@
         "avg_sg": 1.55
       },
       {
+        "player_id": "doug-barron",
+        "player_name": "Doug Barron",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 1.55
+      },
+      {
+        "player_id": "dan-forsman",
+        "player_name": "Dan Forsman",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.3
+      },
+      {
         "player_id": "mario-tiziani",
         "player_name": "Mario Tiziani",
         "rounds": 4,
@@ -46,67 +102,11 @@
         "avg_sg": 1.3
       },
       {
-        "player_id": "bradley-hughes",
-        "player_name": "Bradley Hughes",
+        "player_id": "paul-gow",
+        "player_name": "Paul Gow",
         "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "carl-paulson",
-        "player_name": "Carl Paulson",
-        "rounds": 4,
-        "avg_to_par": -3.75,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "gavin-flint",
-        "player_name": "Gavin Flint",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 0.3
-      },
-      {
-        "player_id": "brad-fabel",
-        "player_name": "Brad Fabel",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.05
-      },
-      {
-        "player_id": "wayne-levi",
-        "player_name": "Wayne Levi",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.05
-      },
-      {
-        "player_id": "p-h-horgan-iii",
-        "player_name": "P.H. Horgan III",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": -0.2
-      },
-      {
-        "player_id": "mike-heinen",
-        "player_name": "Mike Heinen",
-        "rounds": 3,
-        "avg_to_par": -2.33,
-        "avg_sg": -0.98
-      },
-      {
-        "player_id": "mike-hulbert",
-        "player_name": "Mike Hulbert",
-        "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": -0.95
-      },
-      {
-        "player_id": "trevor-dodds",
-        "player_name": "Trevor Dodds",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -1.2
+        "avg_to_par": -4.25,
+        "avg_sg": 1.3
       }
     ]
   },

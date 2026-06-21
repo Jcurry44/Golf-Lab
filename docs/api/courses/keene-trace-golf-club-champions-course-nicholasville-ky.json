@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 169,
-    "avg_to_par": -1.46,
-    "avg_sg_total": -0.89,
+    "rounds": 294,
+    "avg_to_par": -1.99,
+    "avg_sg_total": -0.41,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -24,6 +24,34 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "matt-jones",
+        "player_name": "Matt Jones",
+        "rounds": 4,
+        "avg_to_par": -5.5,
+        "avg_sg": 3.0
+      },
+      {
+        "player_id": "d-j-trahan",
+        "player_name": "D.J. Trahan",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.75
+      },
+      {
+        "player_id": "josh-teater",
+        "player_name": "Josh Teater",
+        "rounds": 4,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.75
+      },
+      {
+        "player_id": "dominic-bozzelli",
+        "player_name": "Dominic Bozzelli",
+        "rounds": 4,
+        "avg_to_par": -5.0,
+        "avg_sg": 2.5
+      },
       {
         "player_id": "jos-de-jes-s-rodr-guez",
         "player_name": "José de Jesús Rodríguez",
@@ -39,6 +67,27 @@
         "avg_sg": 2.0
       },
       {
+        "player_id": "ryan-blaum",
+        "player_name": "Ryan Blaum",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.0
+      },
+      {
+        "player_id": "anders-albertson",
+        "player_name": "Anders Albertson",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 1.75
+      },
+      {
+        "player_id": "roberto-castro",
+        "player_name": "Roberto Castro",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 1.5
+      },
+      {
         "player_id": "billy-hurley-iii",
         "player_name": "Billy Hurley III",
         "rounds": 4,
@@ -46,67 +95,18 @@
         "avg_sg": 1.25
       },
       {
-        "player_id": "alex-prugh",
-        "player_name": "Alex Prugh",
+        "player_id": "ted-potter-jr",
+        "player_name": "Ted Potter Jr.",
         "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.0
+        "avg_to_par": -3.75,
+        "avg_sg": 1.25
       },
       {
-        "player_id": "chase-wright",
-        "player_name": "Chase Wright",
+        "player_id": "zack-sucher",
+        "player_name": "Zack Sucher",
         "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "david-toms",
-        "player_name": "David Toms",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "scott-langley",
-        "player_name": "Scott Langley",
-        "rounds": 4,
-        "avg_to_par": -3.5,
-        "avg_sg": 1.0
-      },
-      {
-        "player_id": "tom-lovelady",
-        "player_name": "Tom Lovelady",
-        "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 0.75
-      },
-      {
-        "player_id": "chris-couch",
-        "player_name": "Chris Couch",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "john-chin",
-        "player_name": "John Chin",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "tyrone-van-aswegen",
-        "player_name": "Tyrone Van Aswegen",
-        "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 0.5
-      },
-      {
-        "player_id": "case-cochran",
-        "player_name": "Case Cochran",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 0.25
+        "avg_to_par": -3.75,
+        "avg_sg": 1.25
       }
     ]
   },

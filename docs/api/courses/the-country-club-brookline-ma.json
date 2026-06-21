@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 126,
-    "avg_to_par": 3.89,
-    "avg_sg_total": -1.43,
+    "rounds": 252,
+    "avg_to_par": 3.29,
+    "avg_sg_total": -0.81,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -24,6 +24,20 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "will-zalatoris",
+        "player_name": "Will Zalatoris",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 3.85
+      },
+      {
+        "player_id": "jon-rahm",
+        "player_name": "Jon Rahm",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 2.35
+      },
       {
         "player_id": "cameron-tringale",
         "player_name": "Cameron Tringale",
@@ -46,6 +60,34 @@
         "avg_sg": 2.1
       },
       {
+        "player_id": "sebasti-n-mu-oz",
+        "player_name": "Sebastián Muñoz",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 2.1
+      },
+      {
+        "player_id": "min-woo-lee",
+        "player_name": "Min Woo Lee",
+        "rounds": 3,
+        "avg_to_par": 0.67,
+        "avg_sg": 1.87
+      },
+      {
+        "player_id": "dustin-johnson",
+        "player_name": "Dustin Johnson",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 1.6
+      },
+      {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 1.35
+      },
+      {
         "player_id": "thomas-pieters",
         "player_name": "Thomas Pieters",
         "rounds": 4,
@@ -53,60 +95,18 @@
         "avg_sg": 1.35
       },
       {
-        "player_id": "todd-sinnott",
-        "player_name": "Todd Sinnott",
+        "player_id": "callum-tarren",
+        "player_name": "Callum Tarren",
         "rounds": 4,
         "avg_to_par": 1.5,
         "avg_sg": 1.1
       },
       {
-        "player_id": "richard-bland",
-        "player_name": "Richard Bland",
+        "player_id": "mj-daffue",
+        "player_name": "MJ Daffue",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "travis-vick",
-        "player_name": "Travis Vick",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.6
-      },
-      {
-        "player_id": "james-piot",
-        "player_name": "James Piot",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "jason-kokrak",
-        "player_name": "Jason Kokrak",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "jim-furyk",
-        "player_name": "Jim Furyk",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "kalle-samooja",
-        "player_name": "Kalle Samooja",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.38
-      },
-      {
-        "player_id": "mito-pereira",
-        "player_name": "Mito Pereira",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": 0.38
+        "avg_to_par": 1.5,
+        "avg_sg": 1.1
       }
     ]
   },

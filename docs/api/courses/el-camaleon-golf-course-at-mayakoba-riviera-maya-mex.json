@@ -10,9 +10,9 @@
     "source_provider": "Golf Lab stable-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 693,
-    "avg_to_par": 0.84,
-    "avg_sg_total": -1.33,
+    "rounds": 3091,
+    "avg_to_par": -0.1,
+    "avg_sg_total": -0.46,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,11 +25,53 @@
     ],
     "rows": [
       {
+        "player_id": "troy-merritt",
+        "player_name": "Troy Merritt",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "will-gordon",
+        "player_name": "Will Gordon",
+        "rounds": 4,
+        "avg_to_par": -4.5,
+        "avg_sg": 2.5
+      },
+      {
+        "player_id": "carlos-ortiz",
+        "player_name": "Carlos Ortiz",
+        "rounds": 12,
+        "avg_to_par": -4.42,
+        "avg_sg": 3.03
+      },
+      {
+        "player_id": "david-lingmerth",
+        "player_name": "David Lingmerth",
+        "rounds": 4,
+        "avg_to_par": -4.25,
+        "avg_sg": 2.25
+      },
+      {
         "player_id": "matthew-wolff",
         "player_name": "Matthew Wolff",
         "rounds": 4,
         "avg_to_par": -4.0,
         "avg_sg": 2.05
+      },
+      {
+        "player_id": "taylor-montgomery",
+        "player_name": "Taylor Montgomery",
+        "rounds": 4,
+        "avg_to_par": -4.0,
+        "avg_sg": 2.0
+      },
+      {
+        "player_id": "aaron-wise",
+        "player_name": "Aaron Wise",
+        "rounds": 12,
+        "avg_to_par": -3.92,
+        "avg_sg": 2.19
       },
       {
         "player_id": "robert-karlsson",
@@ -39,74 +81,32 @@
         "avg_sg": 2.68
       },
       {
-        "player_id": "steve-stricker",
-        "player_name": "Steve Stricker",
+        "player_id": "sergio-garc-a",
+        "player_name": "Sergio García",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 2.02
+        "avg_to_par": -3.75,
+        "avg_sg": 1.8
       },
       {
-        "player_id": "john-huh",
-        "player_name": "John Huh",
+        "player_id": "martin-laird",
+        "player_name": "Martin Laird",
         "rounds": 4,
-        "avg_to_par": -3.25,
-        "avg_sg": 1.25
+        "avg_to_par": -3.75,
+        "avg_sg": 1.75
       },
       {
-        "player_id": "john-oda",
-        "player_name": "John Oda",
+        "player_id": "thomas-detry",
+        "player_name": "Thomas Detry",
         "rounds": 4,
-        "avg_to_par": -3.0,
-        "avg_sg": 2.29
+        "avg_to_par": -3.75,
+        "avg_sg": 1.75
       },
       {
-        "player_id": "hunter-stewart",
-        "player_name": "Hunter Stewart",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.79
-      },
-      {
-        "player_id": "steve-marino",
-        "player_name": "Steve Marino",
-        "rounds": 4,
-        "avg_to_par": -2.75,
-        "avg_sg": 1.06
-      },
-      {
-        "player_id": "jay-mcluen",
-        "player_name": "Jay McLuen",
-        "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 1.43
-      },
-      {
-        "player_id": "oscar-fraustro",
-        "player_name": "Oscar Fraustro",
-        "rounds": 14,
-        "avg_to_par": -2.07,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "steve-lowery",
-        "player_name": "Steve Lowery",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 1.26
-      },
-      {
-        "player_id": "tim-clark",
-        "player_name": "Tim Clark",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.79
-      },
-      {
-        "player_id": "sebasti-n-mu-oz",
-        "player_name": "Sebastián Muñoz",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": -0.25
+        "player_id": "abraham-ancer",
+        "player_name": "Abraham Ancer",
+        "rounds": 12,
+        "avg_to_par": -3.58,
+        "avg_sg": 2.2
       }
     ]
   },

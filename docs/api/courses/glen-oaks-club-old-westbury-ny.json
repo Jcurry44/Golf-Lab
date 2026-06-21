@@ -10,14 +10,105 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 1,
-    "avg_to_par": 4.0,
-    "avg_sg_total": -3.17,
-    "difficulty_bucket": "brutal"
+    "rounds": 55,
+    "avg_to_par": 1.78,
+    "avg_sg_total": -0.79,
+    "difficulty_bucket": "tough"
   },
   "fits": {
-    "columns": [],
-    "rows": []
+    "columns": [
+      "player_id",
+      "player_name",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.74
+      },
+      {
+        "player_id": "martin-flores",
+        "player_name": "Martin Flores",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.49
+      },
+      {
+        "player_id": "whee-kim",
+        "player_name": "Whee Kim",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.49
+      },
+      {
+        "player_id": "geoff-ogilvy",
+        "player_name": "Geoff Ogilvy",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.24
+      },
+      {
+        "player_id": "s-y-noh",
+        "player_name": "S.Y. Noh",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.5
+      },
+      {
+        "player_id": "tyrone-van-aswegen",
+        "player_name": "Tyrone Van Aswegen",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.5
+      },
+      {
+        "player_id": "d-a-points",
+        "player_name": "D.A. Points",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.51
+      },
+      {
+        "player_id": "rod-pampling",
+        "player_name": "Rod Pampling",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.51
+      },
+      {
+        "player_id": "ryan-blaum",
+        "player_name": "Ryan Blaum",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.76
+      },
+      {
+        "player_id": "j-j-henry",
+        "player_name": "J.J. Henry",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
+      },
+      {
+        "player_id": "robert-garrigus",
+        "player_name": "Robert Garrigus",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
+      }
+    ]
   },
   "setups": {
     "columns": [

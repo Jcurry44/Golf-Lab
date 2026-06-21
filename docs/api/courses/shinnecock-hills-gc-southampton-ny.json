@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 100,
-    "avg_to_par": 6.73,
-    "avg_sg_total": -1.93,
+    "rounds": 178,
+    "avg_to_par": 5.93,
+    "avg_sg_total": -1.17,
     "difficulty_bucket": "brutal"
   },
   "fits": {
@@ -24,6 +24,55 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "player_id": "henrik-stenson",
+        "player_name": "Henrik Stenson",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 2.89
+      },
+      {
+        "player_id": "kiradech-aphibarnrat",
+        "player_name": "Kiradech Aphibarnrat",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 2.14
+      },
+      {
+        "player_id": "haotong-li",
+        "player_name": "Haotong Li",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 1.89
+      },
+      {
+        "player_id": "dylan-meyer",
+        "player_name": "Dylan Meyer",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 1.64
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": 1.64
+      },
+      {
+        "player_id": "matthieu-pavon",
+        "player_name": "Matthieu Pavon",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "jim-furyk",
+        "player_name": "Jim Furyk",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.39
+      },
       {
         "player_id": "luis-gagne",
         "player_name": "Luis Gagne",
@@ -39,6 +88,13 @@
         "avg_sg": 0.39
       },
       {
+        "player_id": "peter-uihlein",
+        "player_name": "Peter Uihlein",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.39
+      },
+      {
         "player_id": "ross-fisher",
         "player_name": "Ross Fisher",
         "rounds": 4,
@@ -46,67 +102,11 @@
         "avg_sg": 0.39
       },
       {
-        "player_id": "chris-naegel",
-        "player_name": "Chris Naegel",
+        "player_id": "tim-wilkinson",
+        "player_name": "Tim Wilkinson",
         "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": 0.14
-      },
-      {
-        "player_id": "mickey-demorat",
-        "player_name": "Mickey DeMorat",
-        "rounds": 4,
-        "avg_to_par": 4.25,
-        "avg_sg": 0.14
-      },
-      {
-        "player_id": "eric-axley",
-        "player_name": "Eric Axley",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": 0.54
-      },
-      {
-        "player_id": "matthew-southgate",
-        "player_name": "Matthew Southgate",
-        "rounds": 2,
-        "avg_to_par": 4.5,
-        "avg_sg": 0.54
-      },
-      {
-        "player_id": "calum-hill",
-        "player_name": "Calum Hill",
-        "rounds": 4,
-        "avg_to_par": 4.5,
-        "avg_sg": -0.11
-      },
-      {
-        "player_id": "andrew-johnston",
-        "player_name": "Andrew Johnston",
-        "rounds": 4,
-        "avg_to_par": 4.75,
-        "avg_sg": -0.36
-      },
-      {
-        "player_id": "tyler-strafaci",
-        "player_name": "Tyler Strafaci",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": 0.04
-      },
-      {
-        "player_id": "sebasti-n-v-zquez",
-        "player_name": "Sebastián Vázquez",
-        "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": 0.03
-      },
-      {
-        "player_id": "cameron-wilson",
-        "player_name": "Cameron Wilson",
-        "rounds": 4,
-        "avg_to_par": 5.25,
-        "avg_sg": -0.86
+        "avg_to_par": 4.0,
+        "avg_sg": 0.39
       }
     ]
   },

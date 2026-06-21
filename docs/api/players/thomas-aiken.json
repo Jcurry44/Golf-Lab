@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.23,
-    "avg_sg_total": -0.26,
-    "first_round": "2016-06-02",
+    "rounds": 156,
+    "avg_to_par": 0.42,
+    "avg_sg_total": -0.08,
+    "first_round": "2006-07-20",
     "last_round": "2025-07-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -331,22 +331,22 @@
         "avg_sg": 1.27
       },
       {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.7
+        "course": "Hamilton G&CC",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 1.26
       },
       {
-        "course": "Glen Abbey GC",
+        "course": "Waialae Country Club",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.42
+        "avg_to_par": -1.75,
+        "avg_sg": 0.18
       },
       {
-        "course": "Puntacana Resort & Club (Corales Golf Course)",
-        "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.51
+        "course": "TPC Louisiana",
+        "rounds": 5,
+        "avg_to_par": -1.4,
+        "avg_sg": 0.47
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -2.75
       },
       {
-        "course": "Erin Hills",
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.55
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -0.51
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
         "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.86
+        "avg_to_par": 4.0,
+        "avg_sg": 0.89
       },
       {
-        "course": "TPC Southwind",
+        "course": "Ocean Course at Kiawah Island",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.4
-      },
-      {
-        "course": "Hurstbourne Country Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.29
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": null
+        "avg_to_par": 3.5,
+        "avg_sg": 0.18
       }
     ]
   },
@@ -502,10 +502,10 @@
       },
       {
         "season": 2016,
-        "rounds": 22,
-        "scoring_average": 70.64,
-        "avg_to_par": -0.18,
-        "avg_sg_total": -0.03,
+        "rounds": 66,
+        "scoring_average": 70.94,
+        "avg_to_par": -0.26,
+        "avg_sg_total": -0.12,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -516,6 +516,108 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-08-21"
+      },
+      {
+        "season": 2015,
+        "rounds": 16,
+        "scoring_average": 71.69,
+        "avg_to_par": 0.19,
+        "avg_sg_total": 0.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-19"
+      },
+      {
+        "season": 2014,
+        "rounds": 8,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-07-27"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -0.51,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-19"
+      },
+      {
+        "season": 2012,
+        "rounds": 12,
+        "scoring_average": 71.0,
+        "avg_to_par": 0.5,
+        "avg_sg_total": 0.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-10"
+      },
+      {
+        "season": 2011,
+        "rounds": 14,
+        "scoring_average": 73.07,
+        "avg_to_par": 1.64,
+        "avg_sg_total": -1.13,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
+      },
+      {
+        "season": 2010,
+        "rounds": 4,
+        "scoring_average": 73.75,
+        "avg_to_par": 1.75,
+        "avg_sg_total": -0.87,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-18"
       }
     ]
   },
@@ -527,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 6
+    "seasonProfiles": 12
   }
 }

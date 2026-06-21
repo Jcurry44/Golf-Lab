@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251123",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.0,
-    "avg_sg_total": -1.04,
-    "first_round": "2025-05-08",
+    "rounds": 78,
+    "avg_to_par": 0.21,
+    "avg_sg_total": -1.17,
+    "first_round": "2023-04-27",
     "last_round": "2025-11-21",
     "sg_t2g": -1.339,
     "sg_ott": -0.66,
@@ -319,10 +319,22 @@
         "avg_sg": -0.04
       },
       {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 0.15
+      },
+      {
         "course": "TPC Toronto at Osprey Valley - North Course",
         "rounds": 4,
         "avg_to_par": -2.25,
         "avg_sg": 0.75
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.29
       },
       {
         "course": "TPC Twin Cities",
@@ -335,18 +347,6 @@
         "rounds": 4,
         "avg_to_par": -1.75,
         "avg_sg": 1.0
-      },
-      {
-        "course": "TPC Deere Run",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.09
-      },
-      {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": -0.19
       }
     ]
   },
@@ -371,6 +371,18 @@
         "avg_sg": null
       },
       {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.19
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": 4.33,
+        "avg_sg": -6.81
+      },
+      {
         "course": "Black Desert Resort",
         "rounds": 2,
         "avg_to_par": 4.0,
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.5,
         "avg_sg": -3.56
-      },
-      {
-        "course": "Port Royal Golf Course",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.6
-      },
-      {
-        "course": "Hurstbourne Country Club",
-        "rounds": 4,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.44
       }
     ]
   },
@@ -417,9 +417,9 @@
     "rows": [
       {
         "season": 2025,
-        "rounds": 40,
-        "scoring_average": 67.45,
-        "avg_to_par": 0.0,
+        "rounds": 69,
+        "scoring_average": 69.28,
+        "avg_to_par": 0.2,
         "avg_sg_total": -1.232,
         "sg_t2g": -1.339,
         "sg_ott": -0.66,
@@ -431,6 +431,40 @@
         "gir": 0.6385,
         "scrambling": 0.5321,
         "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 69.75,
+        "avg_to_par": -1.25,
+        "avg_sg_total": 0.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-02-25"
+      },
+      {
+        "season": 2023,
+        "rounds": 5,
+        "scoring_average": 71.8,
+        "avg_to_par": 1.4,
+        "avg_sg_total": -1.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-16"
       }
     ]
   },
@@ -442,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 1
+    "seasonProfiles": 3
   }
 }

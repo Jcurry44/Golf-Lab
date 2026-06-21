@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250518",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 2.02,
-    "avg_sg_total": -1.75,
-    "first_round": "2008-07-24",
+    "rounds": 97,
+    "avg_to_par": 1.32,
+    "avg_sg_total": -1.37,
+    "first_round": "2005-02-24",
     "last_round": "2025-05-16",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,10 +319,16 @@
         "avg_sg": 1.35
       },
       {
-        "course": null,
+        "course": "TPC Deere Run",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 0.08
+        "avg_to_par": -1.75,
+        "avg_sg": 0.84
+      },
+      {
+        "course": null,
+        "rounds": 17,
+        "avg_to_par": -1.59,
+        "avg_sg": 0.25
       },
       {
         "course": "Annandale GC",
@@ -337,16 +343,10 @@
         "avg_sg": -0.3
       },
       {
-        "course": "Atunyote Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.25
-      },
-      {
-        "course": "TPC Summerlin",
+        "course": "Brown Deer Park Golf Course",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -4.71
+        "avg_to_par": 0.0,
+        "avg_sg": -1.12
       }
     ]
   },
@@ -358,6 +358,12 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -5.29
+      },
       {
         "course": "Bellerive CC",
         "rounds": 2,
@@ -377,22 +383,16 @@
         "avg_sg": -3.41
       },
       {
-        "course": "Valhalla GC",
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -2.72
+        "avg_to_par": 4.5,
+        "avg_sg": -2.52
       },
       {
-        "course": "Ocean Course at Kiawah Island",
-        "rounds": 2,
-        "avg_to_par": 4.0,
-        "avg_sg": -0.32
-      },
-      {
-        "course": "Grayhawk Golf Club - Raptor Course",
-        "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -4.14
+        "course": "Muirfield Village Golf Club",
+        "rounds": 6,
+        "avg_to_par": 4.17,
+        "avg_sg": -3.28
       }
     ]
   },
@@ -570,10 +570,10 @@
       },
       {
         "season": 2008,
-        "rounds": 22,
-        "scoring_average": 71.73,
-        "avg_to_par": 0.36,
-        "avg_sg_total": -1.16,
+        "rounds": 55,
+        "scoring_average": 72.07,
+        "avg_to_par": 0.91,
+        "avg_sg_total": -1.05,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -584,6 +584,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2008-11-09"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 69.67,
+        "avg_to_par": -2.33,
+        "avg_sg_total": 1.24,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2005,
+        "rounds": 18,
+        "scoring_average": 72.72,
+        "avg_to_par": 1.06,
+        "avg_sg_total": -2.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-23"
       }
     ]
   },
@@ -595,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 10
+    "seasonProfiles": 12
   }
 }

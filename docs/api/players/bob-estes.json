@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20180708",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.38,
-    "avg_sg_total": -1.12,
-    "first_round": "2017-02-16",
+    "rounds": 240,
+    "avg_to_par": -0.09,
+    "avg_sg_total": 0.15,
+    "first_round": "2011-07-14",
     "last_round": "2018-07-06",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "Glen Abbey GC",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -1.0
+        "course": "PGA West Palmer Course",
+        "rounds": 8,
+        "avg_to_par": -4.38,
+        "avg_sg": 1.67
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 8,
+        "avg_to_par": -2.5,
+        "avg_sg": 1.2
+      },
+      {
+        "course": null,
+        "rounds": 10,
+        "avg_to_par": -2.1,
+        "avg_sg": 1.71
+      },
+      {
+        "course": "The Mines Resort & GC",
         "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 1.33
+        "avg_to_par": -2.0,
+        "avg_sg": -0.73
       },
       {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": -1.24
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": 0.04
       },
       {
-        "course": "Innisbrook Resort (Copperhead Course)",
+        "course": "Crooked Stick GC",
         "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.21
-      },
-      {
-        "course": "The Old White TPC",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -1.51
-      },
-      {
-        "course": "Eagle Point Golf Club",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.09
+        "avg_to_par": -1.25,
+        "avg_sg": -0.21
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "The Riviera Country Club",
+        "course": "Royal St George's Golf Club",
         "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -4.7
+        "avg_to_par": 6.0,
+        "avg_sg": -3.5
       },
       {
-        "course": "PGA National Resort (The Champion)",
+        "course": "Shaughnessy Golf and Country Club",
         "rounds": 2,
         "avg_to_par": 3.5,
-        "avg_sg": -0.6
+        "avg_sg": -0.93
       },
       {
-        "course": "TPC Deere Run",
+        "course": "CordeValle GC",
         "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.76
+        "avg_to_par": 3.0,
+        "avg_sg": -2.71
       },
       {
-        "course": "GC of Houston",
+        "course": "The Olympic Club",
         "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -2.54
+        "avg_to_par": 3.0,
+        "avg_sg": 0.46
       },
       {
-        "course": "TPC Four Seasons Resort",
-        "rounds": 4,
-        "avg_to_par": 1.75,
-        "avg_sg": -1.12
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.09
       },
       {
-        "course": "TPC River Highlands",
-        "rounds": 3,
-        "avg_to_par": 1.33,
-        "avg_sg": -1.4
+        "course": "The Riviera Country Club",
+        "rounds": 8,
+        "avg_to_par": 2.13,
+        "avg_sg": -1.18
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2017,
-        "rounds": 23,
-        "scoring_average": 72.39,
-        "avg_to_par": 1.35,
-        "avg_sg_total": -1.18,
+        "rounds": 37,
+        "scoring_average": 71.78,
+        "avg_to_par": 0.68,
+        "avg_sg_total": -0.98,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,91 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2017-08-18"
+      },
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -4.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-11-06"
+      },
+      {
+        "season": 2014,
+        "rounds": 6,
+        "scoring_average": 70.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.18,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-11-17"
+      },
+      {
+        "season": 2013,
+        "rounds": 66,
+        "scoring_average": 70.42,
+        "avg_to_par": -0.67,
+        "avg_sg_total": 0.73,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-09-02"
+      },
+      {
+        "season": 2012,
+        "rounds": 82,
+        "scoring_average": 70.83,
+        "avg_to_par": -0.07,
+        "avg_sg_total": 0.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-10-28"
+      },
+      {
+        "season": 2011,
+        "rounds": 30,
+        "scoring_average": 70.47,
+        "avg_to_par": -0.67,
+        "avg_sg_total": 0.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
       }
     ]
   },
@@ -459,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 7
   }
 }

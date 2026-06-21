@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160619",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.85,
-    "avg_sg_total": -0.45,
-    "first_round": "2009-03-12",
+    "rounds": 84,
+    "avg_to_par": 1.99,
+    "avg_sg_total": -0.6,
+    "first_round": "2002-08-22",
     "last_round": "2016-06-17",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,10 +313,22 @@
     ],
     "rows": [
       {
+        "course": "Mount Juliet Golf Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.65
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.5
+      },
+      {
         "course": "Trump National Doral",
-        "rounds": 8,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.07
+        "rounds": 12,
+        "avg_to_par": -0.83,
+        "avg_sg": -0.11
       },
       {
         "course": "Bethpage State Park - Black Course",
@@ -331,22 +343,10 @@
         "avg_sg": 2.34
       },
       {
-        "course": "Hazeltine National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 1.01
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -0.86
-      },
-      {
-        "course": "Firestone CC (South)",
-        "rounds": 8,
-        "avg_to_par": 2.88,
-        "avg_sg": -2.17
+        "course": "Old Course at St Andrews",
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.14
       }
     ]
   },
@@ -371,28 +371,28 @@
         "avg_sg": -4.0
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Southern Hills Country Club",
         "rounds": 2,
-        "avg_to_par": 3.5,
-        "avg_sg": -2.06
+        "avg_to_par": 6.5,
+        "avg_sg": -2.96
       },
       {
-        "course": "Whistling Straits - Straits Course",
+        "course": "Oakland Hills Country Club - South Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -1.65
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": 0.14
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
         "rounds": 2,
         "avg_to_par": 3.0,
-        "avg_sg": -1.81
-      },
-      {
-        "course": "Firestone CC (South)",
-        "rounds": 8,
-        "avg_to_par": 2.88,
-        "avg_sg": -2.17
-      },
-      {
-        "course": "Augusta National Golf Club",
-        "rounds": 4,
-        "avg_to_par": 2.25,
-        "avg_sg": -0.86
+        "avg_sg": -2.04
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2009,
-        "rounds": 22,
-        "scoring_average": 71.27,
-        "avg_to_par": 0.36,
-        "avg_sg_total": 1.1,
+        "rounds": 26,
+        "scoring_average": 71.08,
+        "avg_to_par": 0.15,
+        "avg_sg_total": 1.01,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2009-08-16"
+      },
+      {
+        "season": 2008,
+        "rounds": 26,
+        "scoring_average": 74.12,
+        "avg_to_par": 3.19,
+        "avg_sg_total": -1.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-08-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -2.96,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-10"
+      },
+      {
+        "season": 2005,
+        "rounds": 4,
+        "scoring_average": 71.75,
+        "avg_to_par": -0.25,
+        "avg_sg_total": 0.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-17"
+      },
+      {
+        "season": 2002,
+        "rounds": 8,
+        "scoring_average": 71.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-09-22"
       }
     ]
   },
@@ -476,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 7
   }
 }

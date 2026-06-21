@@ -10,9 +10,9 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 417,
-    "avg_to_par": -1.78,
-    "avg_sg_total": -0.8,
+    "rounds": 1152,
+    "avg_to_par": -2.62,
+    "avg_sg_total": -0.01,
     "difficulty_bucket": "gettable"
   },
   "fits": {
@@ -25,18 +25,11 @@
     ],
     "rows": [
       {
-        "player_id": "trevor-cone",
-        "player_name": "Trevor Cone",
+        "player_id": "sami-v-lim-ki",
+        "player_name": "Sami Välimäki",
         "rounds": 4,
-        "avg_to_par": -6.5,
-        "avg_sg": 3.32
-      },
-      {
-        "player_id": "carson-young",
-        "player_name": "Carson Young",
-        "rounds": 4,
-        "avg_to_par": -6.25,
-        "avg_sg": 3.07
+        "avg_to_par": -6.75,
+        "avg_sg": 3.57
       },
       {
         "player_id": "nick-dunlap",
@@ -46,11 +39,39 @@
         "avg_sg": 2.82
       },
       {
-        "player_id": "matt-kuchar",
-        "player_name": "Matt Kuchar",
-        "rounds": 2,
+        "player_id": "eric-cole",
+        "player_name": "Eric Cole",
+        "rounds": 4,
+        "avg_to_par": -5.75,
+        "avg_sg": 2.57
+      },
+      {
+        "player_id": "carson-young",
+        "player_name": "Carson Young",
+        "rounds": 12,
+        "avg_to_par": -5.67,
+        "avg_sg": 2.86
+      },
+      {
+        "player_id": "jackson-suber",
+        "player_name": "Jackson Suber",
+        "rounds": 4,
         "avg_to_par": -5.5,
-        "avg_sg": 1.96
+        "avg_sg": 2.32
+      },
+      {
+        "player_id": "garrick-higgo",
+        "player_name": "Garrick Higgo",
+        "rounds": 8,
+        "avg_to_par": -5.38,
+        "avg_sg": 2.76
+      },
+      {
+        "player_id": "ben-griffin",
+        "player_name": "Ben Griffin",
+        "rounds": 8,
+        "avg_to_par": -5.25,
+        "avg_sg": 2.64
       },
       {
         "player_id": "thorbj-rn-olesen",
@@ -67,46 +88,25 @@
         "avg_sg": 1.82
       },
       {
-        "player_id": "john-pak",
-        "player_name": "John Pak",
-        "rounds": 4,
+        "player_id": "matt-kuchar",
+        "player_name": "Matt Kuchar",
+        "rounds": 12,
+        "avg_to_par": -4.92,
+        "avg_sg": 2.11
+      },
+      {
+        "player_id": "nico-echavarria",
+        "player_name": "Nico Echavarria",
+        "rounds": 8,
         "avg_to_par": -4.75,
-        "avg_sg": 1.57
+        "avg_sg": 2.14
       },
       {
-        "player_id": "thomas-rosenmueller",
-        "player_name": "Thomas Rosenmueller",
-        "rounds": 4,
+        "player_id": "patrick-rodgers",
+        "player_name": "Patrick Rodgers",
+        "rounds": 8,
         "avg_to_par": -4.75,
-        "avg_sg": 1.57
-      },
-      {
-        "player_id": "ben-silverman",
-        "player_name": "Ben Silverman",
-        "rounds": 4,
-        "avg_to_par": -4.5,
-        "avg_sg": 1.32
-      },
-      {
-        "player_id": "victor-perez",
-        "player_name": "Victor Perez",
-        "rounds": 4,
-        "avg_to_par": -4.5,
-        "avg_sg": 1.32
-      },
-      {
-        "player_id": "kramer-hickok",
-        "player_name": "Kramer Hickok",
-        "rounds": 4,
-        "avg_to_par": -4.5,
-        "avg_sg": 1.31
-      },
-      {
-        "player_id": "wesley-bryan",
-        "player_name": "Wesley Bryan",
-        "rounds": 4,
-        "avg_to_par": -4.25,
-        "avg_sg": 2.21
+        "avg_sg": 2.14
       }
     ]
   },

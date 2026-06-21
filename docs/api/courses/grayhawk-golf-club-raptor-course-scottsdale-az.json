@@ -10,9 +10,9 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 130,
-    "avg_to_par": 0.22,
-    "avg_sg_total": -0.89,
+    "rounds": 457,
+    "avg_to_par": -0.18,
+    "avg_sg_total": -0.53,
     "difficulty_bucket": "balanced"
   },
   "fits": {
@@ -25,18 +25,39 @@
     ],
     "rows": [
       {
-        "player_id": "bob-tway",
-        "player_name": "Bob Tway",
+        "player_id": "steve-allan",
+        "player_name": "Steve Allan",
+        "rounds": 4,
+        "avg_to_par": -3.25,
+        "avg_sg": 2.06
+      },
+      {
+        "player_id": "brenden-pappas",
+        "player_name": "Brenden Pappas",
         "rounds": 4,
         "avg_to_par": -3.0,
         "avg_sg": 1.81
       },
       {
-        "player_id": "arron-oberholser",
-        "player_name": "Arron Oberholser",
-        "rounds": 8,
-        "avg_to_par": -2.88,
-        "avg_sg": 1.64
+        "player_id": "rocco-mediate",
+        "player_name": "Rocco Mediate",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.72
+      },
+      {
+        "player_id": "tom-pernice-jr",
+        "player_name": "Tom Pernice Jr.",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 1.72
+      },
+      {
+        "player_id": "chris-riley",
+        "player_name": "Chris Riley",
+        "rounds": 4,
+        "avg_to_par": -2.75,
+        "avg_sg": 1.47
       },
       {
         "player_id": "brad-elder",
@@ -46,11 +67,18 @@
         "avg_sg": 1.31
       },
       {
-        "player_id": "bob-heintz",
-        "player_name": "Bob Heintz",
-        "rounds": 4,
+        "player_id": "steve-elkington",
+        "player_name": "Steve Elkington",
+        "rounds": 8,
+        "avg_to_par": -2.38,
+        "avg_sg": 1.14
+      },
+      {
+        "player_id": "arron-oberholser",
+        "player_name": "Arron Oberholser",
+        "rounds": 12,
         "avg_to_par": -2.25,
-        "avg_sg": 0.97
+        "avg_sg": 1.59
       },
       {
         "player_id": "daisuke-maruyama",
@@ -60,53 +88,25 @@
         "avg_sg": 2.49
       },
       {
-        "player_id": "john-riegger",
-        "player_name": "John Riegger",
-        "rounds": 4,
-        "avg_to_par": -1.75,
-        "avg_sg": 0.56
+        "player_id": "mark-hensby",
+        "player_name": "Mark Hensby",
+        "rounds": 8,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.65
       },
       {
-        "player_id": "jim-mcgovern",
-        "player_name": "Jim McGovern",
+        "player_id": "omar-uresti",
+        "player_name": "Omar Uresti",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.06
+        "avg_to_par": -2.0,
+        "avg_sg": 0.81
       },
       {
-        "player_id": "richard-johnson",
-        "player_name": "Richard Johnson",
+        "player_id": "patrick-sheehan",
+        "player_name": "Patrick Sheehan",
         "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": 0.06
-      },
-      {
-        "player_id": "brian-vranesh",
-        "player_name": "Brian Vranesh",
-        "rounds": 4,
-        "avg_to_par": -1.25,
-        "avg_sg": -0.03
-      },
-      {
-        "player_id": "john-douma",
-        "player_name": "John Douma",
-        "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": -0.19
-      },
-      {
-        "player_id": "todd-demsey",
-        "player_name": "Todd Demsey",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": -0.44
-      },
-      {
-        "player_id": "nick-flanagan",
-        "player_name": "Nick Flanagan",
-        "rounds": 4,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.69
+        "avg_to_par": -2.0,
+        "avg_sg": 0.81
       }
     ]
   },

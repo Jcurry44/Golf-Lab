@@ -10,10 +10,10 @@
     "source_provider": "Golf Lab recurring-course inference + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 358,
-    "avg_to_par": 3.04,
-    "avg_sg_total": -1.71,
-    "difficulty_bucket": "brutal"
+    "rounds": 2665,
+    "avg_to_par": 1.84,
+    "avg_sg_total": -0.49,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,6 +25,62 @@
     ],
     "rows": [
       {
+        "player_id": "tommy-armour-iii",
+        "player_name": "Tommy Armour III",
+        "rounds": 3,
+        "avg_to_par": -21.67,
+        "avg_sg": -0.81
+      },
+      {
+        "player_id": "tyler-duncan",
+        "player_name": "Tyler Duncan",
+        "rounds": 4,
+        "avg_to_par": -3.0,
+        "avg_sg": 3.21
+      },
+      {
+        "player_id": "ryan-gerard",
+        "player_name": "Ryan Gerard",
+        "rounds": 4,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.71
+      },
+      {
+        "player_id": "shane-lowry",
+        "player_name": "Shane Lowry",
+        "rounds": 2,
+        "avg_to_par": -2.5,
+        "avg_sg": 2.2
+      },
+      {
+        "player_id": "ben-martin",
+        "player_name": "Ben Martin",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.46
+      },
+      {
+        "player_id": "ben-taylor",
+        "player_name": "Ben Taylor",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.46
+      },
+      {
+        "player_id": "justin-suh",
+        "player_name": "Justin Suh",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.46
+      },
+      {
+        "player_id": "david-lingmerth",
+        "player_name": "David Lingmerth",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 2.21
+      },
+      {
         "player_id": "adrian-meronk",
         "player_name": "Adrian Meronk",
         "rounds": 4,
@@ -32,81 +88,25 @@
         "avg_sg": 1.71
       },
       {
-        "player_id": "steve-stricker",
-        "player_name": "Steve Stricker",
+        "player_id": "brandon-wu",
+        "player_name": "Brandon Wu",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 2.11
+        "avg_to_par": -1.5,
+        "avg_sg": 1.71
       },
       {
-        "player_id": "brett-drewitt",
-        "player_name": "Brett Drewitt",
+        "player_id": "ryan-brehm",
+        "player_name": "Ryan Brehm",
         "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.96
+        "avg_to_par": -1.5,
+        "avg_sg": 1.71
       },
       {
-        "player_id": "s-ren-kjeldsen",
-        "player_name": "Søren Kjeldsen",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": 1.23
-      },
-      {
-        "player_id": "martin-contini",
-        "player_name": "Martin Contini",
+        "player_id": "byeong-hun-an",
+        "player_name": "Byeong Hun An",
         "rounds": 4,
-        "avg_to_par": 0.0,
-        "avg_sg": 1.3
-      },
-      {
-        "player_id": "ernie-els",
-        "player_name": "Ernie Els",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": 0.71
-      },
-      {
-        "player_id": "chase-koepka",
-        "player_name": "Chase Koepka",
-        "rounds": 6,
-        "avg_to_par": 0.33,
-        "avg_sg": 0.88
-      },
-      {
-        "player_id": "ian-poulter",
-        "player_name": "Ian Poulter",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "louis-oosthuizen",
-        "player_name": "Louis Oosthuizen",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "rick-lamb",
-        "player_name": "Rick Lamb",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.8
-      },
-      {
-        "player_id": "chase-wright",
-        "player_name": "Chase Wright",
-        "rounds": 4,
-        "avg_to_par": 0.5,
-        "avg_sg": 0.45
-      },
-      {
-        "player_id": "steven-alker",
-        "player_name": "Steven Alker",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.03
+        "avg_to_par": -1.25,
+        "avg_sg": 1.46
       }
     ]
   },

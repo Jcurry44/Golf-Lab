@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250406",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.17,
-    "avg_sg_total": -0.72,
-    "first_round": "2024-06-29",
+    "rounds": 67,
+    "avg_to_par": 0.1,
+    "avg_sg_total": -0.98,
+    "first_round": "2023-12-14",
     "last_round": "2025-04-04",
     "sg_t2g": -1.201,
     "sg_ott": -0.384,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": -3.67,
+        "avg_sg": 0.03
+      },
+      {
         "course": "Keene Trace Golf Club (Champion Trace)",
         "rounds": 2,
         "avg_to_par": -3.5,
@@ -332,21 +338,15 @@
       },
       {
         "course": "Detroit Golf Club",
-        "rounds": 2,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.23
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.59
       },
       {
         "course": "Silverado Resort (North Course)",
         "rounds": 4,
         "avg_to_par": -1.5,
         "avg_sg": 0.75
-      },
-      {
-        "course": "Sedgefield Country Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.59
       }
     ]
   },
@@ -358,6 +358,18 @@
       "avg_sg"
     ],
     "rows": [
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -7.03
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.6
+      },
       {
         "course": "Tahoe Mountain Club (Old Greenwood)",
         "rounds": 2,
@@ -371,28 +383,16 @@
         "avg_sg": -2.75
       },
       {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -3.07
-      },
-      {
         "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.68
+      },
+      {
+        "course": "Grand Reserve Golf Club",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -2.38
-      },
-      {
-        "course": "Dye's Valley Course",
-        "rounds": 4,
-        "avg_to_par": 1.25,
-        "avg_sg": 0.39
-      },
-      {
-        "course": "Black Desert Resort",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.86
+        "avg_sg": -3.83
       }
     ]
   },
@@ -434,9 +434,9 @@
       },
       {
         "season": 2024,
-        "rounds": 38,
-        "scoring_average": 67.18,
-        "avg_to_par": -0.29,
+        "rounds": 61,
+        "scoring_average": 69.18,
+        "avg_to_par": 0.2,
         "avg_sg_total": -1.388,
         "sg_t2g": -1.201,
         "sg_ott": -0.384,
@@ -448,6 +448,23 @@
         "gir": 0.6528,
         "scrambling": 0.4985,
         "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 4,
+        "scoring_average": 67.75,
+        "avg_to_par": -2.25,
+        "avg_sg_total": 3.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": true,
     "hasGir": true,
     "hasScrambling": true,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

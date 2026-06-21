@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20080406",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.3,
-    "avg_sg_total": -0.34,
-    "first_round": "2007-06-29",
+    "rounds": 109,
+    "avg_to_par": -0.72,
+    "avg_sg_total": -0.67,
+    "first_round": "2005-02-24",
     "last_round": "2008-04-04",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,6 +313,12 @@
     ],
     "rows": [
       {
+        "course": "GC of Houston",
+        "rounds": 3,
+        "avg_to_par": -23.33,
+        "avg_sg": -0.52
+      },
+      {
         "course": "Forest Oaks Country Club",
         "rounds": 4,
         "avg_to_par": -3.5,
@@ -326,15 +332,9 @@
       },
       {
         "course": "Warwick Hills Golf and Country Club",
-        "rounds": 3,
-        "avg_to_par": -1.67,
-        "avg_sg": 0.73
-      },
-      {
-        "course": null,
-        "rounds": 4,
-        "avg_to_par": -1.5,
-        "avg_sg": 0.53
+        "rounds": 6,
+        "avg_to_par": -1.83,
+        "avg_sg": 0.68
       },
       {
         "course": "Atunyote Golf Club",
@@ -343,10 +343,10 @@
         "avg_sg": -0.71
       },
       {
-        "course": "Tesoro Club",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.52
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 2.75
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Summerlin",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -3.56
+        "course": "TPC Southwind",
+        "rounds": 3,
+        "avg_to_par": 7.0,
+        "avg_sg": -4.58
       },
       {
-        "course": "Grayhawk Golf Club - Raptor Course",
+        "course": "Oakmont Country Club",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -3.13
+        "avg_to_par": 5.5,
+        "avg_sg": 0.61
       },
       {
-        "course": "TPC Deere Run",
+        "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.95
+        "avg_to_par": 5.0,
+        "avg_sg": -3.62
       },
       {
-        "course": "GC of Houston",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.52
-      },
-      {
-        "course": "Montreux Golf & Country Club",
+        "course": "TPC River Highlands",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.4
+        "avg_to_par": 2.5,
+        "avg_sg": -1.75
       },
       {
-        "course": "La Cantera Golf Club - Resort Course",
+        "course": "Quail Hollow Club",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -1.41
+        "avg_to_par": 2.25,
+        "avg_sg": -1.18
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.0
       }
     ]
   },
@@ -434,10 +434,10 @@
       },
       {
         "season": 2007,
-        "rounds": 38,
-        "scoring_average": 69.21,
-        "avg_to_par": -0.37,
-        "avg_sg_total": -0.33,
+        "rounds": 89,
+        "scoring_average": 69.25,
+        "avg_to_par": -1.09,
+        "avg_sg_total": -0.49,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -448,6 +448,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2007-11-04"
+      },
+      {
+        "season": 2005,
+        "rounds": 18,
+        "scoring_average": 71.78,
+        "avg_to_par": 0.89,
+        "avg_sg_total": -1.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-04"
       }
     ]
   },
@@ -459,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 2
+    "seasonProfiles": 3
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "Verified public gap repair + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 2,
-    "avg_to_par": 0.5,
-    "avg_sg_total": 0.36,
-    "difficulty_bucket": "balanced"
+    "rounds": 88,
+    "avg_to_par": 1.8,
+    "avg_sg_total": -1.03,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,11 +25,88 @@
     ],
     "rows": [
       {
+        "player_id": "michael-letzig",
+        "player_name": "Michael Letzig",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 3.65
+      },
+      {
+        "player_id": "scott-verplank",
+        "player_name": "Scott Verplank",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.29
+      },
+      {
         "player_id": "david-lynn",
         "player_name": "David Lynn",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 1.54
+      },
+      {
+        "player_id": "kevin-stadler",
+        "player_name": "Kevin Stadler",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.29
+      },
+      {
+        "player_id": "nicholas-thompson",
+        "player_name": "Nicholas Thompson",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.04
+      },
+      {
+        "player_id": "fred-couples",
+        "player_name": "Fred Couples",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.54
+      },
+      {
+        "player_id": "charlie-beljan",
+        "player_name": "Charlie Beljan",
         "rounds": 2,
         "avg_to_par": 0.5,
-        "avg_sg": 0.36
+        "avg_sg": -0.78
+      },
+      {
+        "player_id": "chris-riley",
+        "player_name": "Chris Riley",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.29
+      },
+      {
+        "player_id": "bob-estes",
+        "player_name": "Bob Estes",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.46
+      },
+      {
+        "player_id": "anthony-kim",
+        "player_name": "Anthony Kim",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.04
+      },
+      {
+        "player_id": "kenny-perry",
+        "player_name": "Kenny Perry",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.04
+      },
+      {
+        "player_id": "kevin-sutherland",
+        "player_name": "Kevin Sutherland",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": 0.04
       }
     ]
   },

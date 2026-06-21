@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20251214",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.57,
-    "avg_sg_total": -0.65,
-    "first_round": "2021-02-25",
+    "rounds": 46,
+    "avg_to_par": 0.54,
+    "avg_sg_total": -0.67,
+    "first_round": "2019-02-21",
     "last_round": "2025-12-14",
     "sg_t2g": null,
     "sg_ott": null,
@@ -326,9 +326,9 @@
       },
       {
         "course": "Grand Reserve Golf Club",
-        "rounds": 8,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.34
+        "rounds": 14,
+        "avg_to_par": -0.14,
+        "avg_sg": -0.54
       },
       {
         "course": "Vidanta Vallarta",
@@ -390,9 +390,9 @@
       },
       {
         "course": "Grand Reserve Golf Club",
-        "rounds": 8,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.34
+        "rounds": 14,
+        "avg_to_par": -0.14,
+        "avg_sg": -0.54
       }
     ]
   },
@@ -499,6 +499,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2021-06-13"
+      },
+      {
+        "season": 2020,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -3.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-02-21"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 71.25,
+        "avg_to_par": -0.75,
+        "avg_sg_total": 0.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-02-24"
       }
     ]
   },
@@ -510,6 +544,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 7
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20220717",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 3.83,
-    "avg_sg_total": -3.63,
-    "first_round": "2015-03-07",
+    "rounds": 240,
+    "avg_to_par": 1.68,
+    "avg_sg_total": -1.59,
+    "first_round": "2010-06-03",
     "last_round": "2022-07-15",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "St. Andrews GC (Old Course)",
+        "course": "Atunyote Golf Club",
         "rounds": 4,
-        "avg_to_par": -1.0,
-        "avg_sg": 0.44
+        "avg_to_par": -2.75,
+        "avg_sg": 1.09
       },
       {
-        "course": "The Country Club of Jackson",
-        "rounds": 2,
-        "avg_to_par": -0.5,
-        "avg_sg": -0.54
+        "course": "TPC Summerlin",
+        "rounds": 10,
+        "avg_to_par": -2.6,
+        "avg_sg": 0.64
       },
       {
-        "course": "Grand Reserve Golf Club",
+        "course": "St. George's G&CC",
         "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -1.05
+        "avg_to_par": -2.0,
+        "avg_sg": 1.59
       },
       {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 15,
-        "avg_to_par": 3.47,
-        "avg_sg": -3.47
-      },
-      {
-        "course": "TPC Southwind",
+        "course": "The Riviera Country Club",
         "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -3.12
+        "avg_to_par": -1.5,
+        "avg_sg": 2.1
       },
       {
-        "course": "Royal Birkdale Golf Club",
-        "rounds": 2,
-        "avg_to_par": 5.5,
-        "avg_sg": -2.53
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.84
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 6,
+        "avg_to_par": -1.33,
+        "avg_sg": 1.45
       }
     ]
   },
@@ -365,10 +365,22 @@
         "avg_sg": -12.31
       },
       {
-        "course": "Old Course at St Andrews",
+        "course": "Royal St George's Golf Club",
         "rounds": 2,
-        "avg_to_par": 6.0,
-        "avg_sg": -5.79
+        "avg_to_par": 7.5,
+        "avg_sg": -5.0
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -2.51
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
+        "avg_to_par": 5.75,
+        "avg_sg": -4.92
       },
       {
         "course": "Trinity Forest Golf Club",
@@ -381,18 +393,6 @@
         "rounds": 2,
         "avg_to_par": 5.5,
         "avg_sg": -2.53
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 4.0,
-        "avg_sg": -3.12
-      },
-      {
-        "course": "Pebble Beach Golf Links",
-        "rounds": 15,
-        "avg_to_par": 3.47,
-        "avg_sg": -3.47
       }
     ]
   },
@@ -536,10 +536,10 @@
       },
       {
         "season": 2015,
-        "rounds": 8,
-        "scoring_average": 71.63,
-        "avg_to_par": 0.13,
-        "avg_sg_total": -0.28,
+        "rounds": 15,
+        "scoring_average": 72.07,
+        "avg_to_par": 0.4,
+        "avg_sg_total": -0.69,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -550,6 +550,74 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2015-07-19"
+      },
+      {
+        "season": 2014,
+        "rounds": 32,
+        "scoring_average": 72.66,
+        "avg_to_par": 1.59,
+        "avg_sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-15"
+      },
+      {
+        "season": 2013,
+        "rounds": 15,
+        "scoring_average": 74.73,
+        "avg_to_par": 3.67,
+        "avg_sg_total": -3.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-19"
+      },
+      {
+        "season": 2012,
+        "rounds": 37,
+        "scoring_average": 73.41,
+        "avg_to_par": 2.22,
+        "avg_sg_total": -1.91,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-17"
+      },
+      {
+        "season": 2011,
+        "rounds": 73,
+        "scoring_average": 71.84,
+        "avg_to_par": 0.6,
+        "avg_sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
       }
     ]
   },
@@ -561,6 +629,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 8
+    "seasonProfiles": 12
   }
 }

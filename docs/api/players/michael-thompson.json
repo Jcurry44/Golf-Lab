@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20230507",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -0.53,
-    "avg_sg_total": 0.08,
-    "first_round": "2022-09-30",
+    "rounds": 240,
+    "avg_to_par": -0.32,
+    "avg_sg_total": -0.01,
+    "first_round": "2020-06-19",
     "last_round": "2023-05-05",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Summerlin",
+        "course": "TPC Craig Ranch",
         "rounds": 4,
-        "avg_to_par": -2.5,
-        "avg_sg": 0.25
+        "avg_to_par": -4.25,
+        "avg_sg": 1.28
+      },
+      {
+        "course": "Plantation Course at Kapalua",
+        "rounds": 4,
+        "avg_to_par": -3.75,
+        "avg_sg": 0.07
       },
       {
         "course": "Waialae Country Club",
-        "rounds": 4,
-        "avg_to_par": -2.25,
-        "avg_sg": 0.91
+        "rounds": 12,
+        "avg_to_par": -3.42,
+        "avg_sg": 1.53
       },
       {
-        "course": "Harbour Town Golf Links",
+        "course": "El Camaleón Golf Course at Mayakoba",
         "rounds": 4,
-        "avg_to_par": -2.0,
-        "avg_sg": 1.17
+        "avg_to_par": -3.25,
+        "avg_sg": 1.3
       },
       {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 4,
-        "avg_to_par": -0.75,
-        "avg_sg": 0.76
+        "course": "TPC Twin Cities",
+        "rounds": 12,
+        "avg_to_par": -2.42,
+        "avg_sg": 1.78
       },
       {
-        "course": "Pete Dye Stadium Course",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": -2.38
-      },
-      {
-        "course": "Innisbrook Resort (Copperhead Course)",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 1.17
+        "course": "TPC Summerlin",
+        "rounds": 8,
+        "avg_to_par": -2.13,
+        "avg_sg": -0.0
       }
     ]
   },
@@ -359,40 +359,40 @@
     ],
     "rows": [
       {
-        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 8,
+        "avg_to_par": 7.63,
+        "avg_sg": null
+      },
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.09
+      },
+      {
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -1.99
+      },
+      {
+        "course": "Olympia Fields Country Club (North Course)",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -1.43
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
         "rounds": 2,
         "avg_to_par": 2.5,
-        "avg_sg": -1.22
+        "avg_sg": -1.18
       },
       {
-        "course": "TPC Scottsdale (Stadium Course)",
+        "course": "TPC Boston",
         "rounds": 2,
         "avg_to_par": 2.0,
-        "avg_sg": -1.53
-      },
-      {
-        "course": "Quail Hollow Club",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -1.1
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": -2.35
-      },
-      {
-        "course": "Torrey Pines Golf Course - South Course",
-        "rounds": 4,
-        "avg_to_par": 0.25,
-        "avg_sg": 0.71
-      },
-      {
-        "course": "The Riviera Country Club",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": 0.16
+        "avg_sg": -3.57
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2023,
-        "rounds": 40,
-        "scoring_average": 70.72,
-        "avg_to_par": -0.53,
-        "avg_sg_total": 0.08,
+        "rounds": 45,
+        "scoring_average": 70.98,
+        "avg_to_par": -0.36,
+        "avg_sg_total": -0.09,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,57 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2023-05-05"
+      },
+      {
+        "season": 2022,
+        "rounds": 88,
+        "scoring_average": 67.41,
+        "avg_to_par": -0.49,
+        "avg_sg_total": 0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-08-14"
+      },
+      {
+        "season": 2021,
+        "rounds": 78,
+        "scoring_average": 67.59,
+        "avg_to_par": 0.03,
+        "avg_sg_total": 0.02,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-13"
+      },
+      {
+        "season": 2020,
+        "rounds": 29,
+        "scoring_average": 70.03,
+        "avg_to_par": -0.69,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-30"
       }
     ]
   },
@@ -442,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 4
   }
 }

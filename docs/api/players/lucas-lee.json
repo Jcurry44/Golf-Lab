@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20160821",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 0.45,
-    "avg_sg_total": -0.96,
-    "first_round": "2015-11-06",
+    "rounds": 45,
+    "avg_to_par": 0.47,
+    "avg_sg_total": -1.03,
+    "first_round": "2009-07-23",
     "last_round": "2016-08-21",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": 1.0
       },
       {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.32
+      },
+      {
         "course": "Sea Island Golf Club (Seaside Course)",
         "rounds": 4,
         "avg_to_par": -1.25,
@@ -341,12 +347,6 @@
         "rounds": 2,
         "avg_to_par": -0.5,
         "avg_sg": -0.34
-      },
-      {
-        "course": "RTJ Trail (Grand National)",
-        "rounds": 3,
-        "avg_to_par": -0.33,
-        "avg_sg": -0.9
       }
     ]
   },
@@ -365,6 +365,12 @@
         "avg_sg": -4.05
       },
       {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.74
+      },
+      {
         "course": "Innisbrook Resort (Copperhead Course)",
         "rounds": 2,
         "avg_to_par": 3.5,
@@ -377,22 +383,16 @@
         "avg_sg": -2.78
       },
       {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.59
+      },
+      {
         "course": "TPC Four Seasons Resort",
         "rounds": 2,
         "avg_to_par": 1.0,
         "avg_sg": -1.92
-      },
-      {
-        "course": "TPC Southwind",
-        "rounds": 4,
-        "avg_to_par": 1.0,
-        "avg_sg": -0.16
-      },
-      {
-        "course": "TPC San Antonio (Oaks Course)",
-        "rounds": 2,
-        "avg_to_par": 0.5,
-        "avg_sg": -0.05
       }
     ]
   },
@@ -417,10 +417,10 @@
     "rows": [
       {
         "season": 2016,
-        "rounds": 40,
-        "scoring_average": 71.4,
-        "avg_to_par": 0.45,
-        "avg_sg_total": -0.96,
+        "rounds": 41,
+        "scoring_average": 71.39,
+        "avg_to_par": 0.41,
+        "avg_sg_total": -0.97,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -431,6 +431,40 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2016-08-21"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -3.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-23"
+      },
+      {
+        "season": 2009,
+        "rounds": 2,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 0.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-07-24"
       }
     ]
   },
@@ -442,6 +476,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 1
+    "seasonProfiles": 3
   }
 }

@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20121111",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": -1.15,
-    "avg_sg_total": -1.29,
-    "first_round": "2005-07-14",
+    "rounds": 72,
+    "avg_to_par": -0.19,
+    "avg_sg_total": -1.0,
+    "first_round": "2002-05-23",
     "last_round": "2012-11-11",
     "sg_t2g": null,
     "sg_ott": null,
@@ -319,6 +319,12 @@
         "avg_sg": 0.8
       },
       {
+        "course": "Omni Tucson National Golf Resort - Catalina Course",
+        "rounds": 4,
+        "avg_to_par": -2.0,
+        "avg_sg": 0.35
+      },
+      {
         "course": "TPC River Highlands",
         "rounds": 4,
         "avg_to_par": -1.25,
@@ -331,22 +337,16 @@
         "avg_sg": -0.36
       },
       {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.28
+      },
+      {
         "course": "Montreux Golf & Country Club",
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": -0.08
-      },
-      {
-        "course": "Walt Disney World Resort - Magnolia Course",
-        "rounds": 4,
-        "avg_to_par": -0.25,
-        "avg_sg": -0.6
-      },
-      {
-        "course": "Sea Island Golf Club (Seaside Course)",
-        "rounds": 3,
-        "avg_to_par": 0.0,
-        "avg_sg": -0.8
       }
     ]
   },
@@ -359,22 +359,28 @@
     ],
     "rows": [
       {
-        "course": "TPC Louisiana",
+        "course": "Quail Hollow Club",
         "rounds": 2,
-        "avg_to_par": 6.0,
-        "avg_sg": -5.59
+        "avg_to_par": 8.0,
+        "avg_sg": -5.63
       },
       {
-        "course": "TPC Southwind",
+        "course": "Westchester Country Club - West Course",
         "rounds": 2,
-        "avg_to_par": 5.0,
-        "avg_sg": -3.64
+        "avg_to_par": 4.5,
+        "avg_sg": -2.26
       },
       {
         "course": "The Old White TPC",
         "rounds": 2,
         "avg_to_par": 4.0,
         "avg_sg": -2.95
+      },
+      {
+        "course": "TPC Louisiana",
+        "rounds": 6,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.17
       },
       {
         "course": "TPC San Antonio (Oaks Course)",
@@ -387,12 +393,6 @@
         "rounds": 2,
         "avg_to_par": 2.0,
         "avg_sg": -2.99
-      },
-      {
-        "course": "Grand Reserve Golf Club",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.33
       }
     ]
   },
@@ -451,10 +451,10 @@
       },
       {
         "season": 2005,
-        "rounds": 5,
-        "scoring_average": 54.6,
-        "avg_to_par": -17.0,
-        "avg_sg_total": 0.8,
+        "rounds": 33,
+        "scoring_average": 69.76,
+        "avg_to_par": -1.64,
+        "avg_sg_total": -0.48,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -465,6 +465,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2005-07-21"
+      },
+      {
+        "season": 2002,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-26"
       }
     ]
   },
@@ -476,6 +493,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 3
+    "seasonProfiles": 4
   }
 }

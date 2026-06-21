@@ -10,10 +10,10 @@
     "source_provider": "PGA TOUR public schedule + Golf Lab derived scoring model + Owned derived scoring",
     "source_url": "data\\golf-lab\\pga-public-history-2002-2026",
     "source_updated_at": "2026-06-21T02:13:48.689Z",
-    "rounds": 88,
-    "avg_to_par": 2.8,
-    "avg_sg_total": -1.54,
-    "difficulty_bucket": "brutal"
+    "rounds": 168,
+    "avg_to_par": 2.08,
+    "avg_sg_total": -0.86,
+    "difficulty_bucket": "tough"
   },
   "fits": {
     "columns": [
@@ -25,8 +25,57 @@
     ],
     "rows": [
       {
+        "player_id": "bernd-wiesberger",
+        "player_name": "Bernd Wiesberger",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.39
+      },
+      {
+        "player_id": "eddie-pepperell",
+        "player_name": "Eddie Pepperell",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.39
+      },
+      {
+        "player_id": "steve-stricker",
+        "player_name": "Steve Stricker",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.39
+      },
+      {
+        "player_id": "jim-furyk",
+        "player_name": "Jim Furyk",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.89
+      },
+      {
+        "player_id": "jamie-lovemark",
+        "player_name": "Jamie Lovemark",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 1.39
+      },
+      {
+        "player_id": "brandon-stone",
+        "player_name": "Brandon Stone",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.89
+      },
+      {
         "player_id": "jordan-niebrugge",
         "player_name": "Jordan Niebrugge",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.89
+      },
+      {
+        "player_id": "martin-kaymer",
+        "player_name": "Martin Kaymer",
         "rounds": 4,
         "avg_to_par": 0.25,
         "avg_sg": 0.89
@@ -53,60 +102,11 @@
         "avg_sg": 0.64
       },
       {
-        "player_id": "dru-love",
-        "player_name": "Dru Love",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "richie-ramsay",
-        "player_name": "Richie Ramsay",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "yuta-ikeda",
-        "player_name": "Yuta Ikeda",
-        "rounds": 2,
-        "avg_to_par": 1.0,
-        "avg_sg": 0.31
-      },
-      {
-        "player_id": "bradley-dredge",
-        "player_name": "Bradley Dredge",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.19
-      },
-      {
-        "player_id": "chris-wood",
-        "player_name": "Chris Wood",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.19
-      },
-      {
-        "player_id": "daniel-miernicki",
-        "player_name": "Daniel Miernicki",
-        "rounds": 2,
-        "avg_to_par": 1.5,
-        "avg_sg": -0.19
-      },
-      {
-        "player_id": "hideto-tanihara",
-        "player_name": "Hideto Tanihara",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.69
-      },
-      {
-        "player_id": "paul-dunne",
-        "player_name": "Paul Dunne",
-        "rounds": 2,
-        "avg_to_par": 2.0,
-        "avg_sg": -0.69
+        "player_id": "jonathan-randolph",
+        "player_name": "Jonathan Randolph",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": 0.64
       }
     ]
   },

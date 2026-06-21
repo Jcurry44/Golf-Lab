@@ -10,10 +10,10 @@
     "source_provider": "ESPN public season scoreboard",
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
-    "rounds": 40,
-    "avg_to_par": 1.0,
-    "avg_sg_total": -0.48,
-    "first_round": "2018-10-17",
+    "rounds": 72,
+    "avg_to_par": 0.69,
+    "avg_sg_total": -0.35,
+    "first_round": "2018-03-01",
     "last_round": "2025-07-18",
     "sg_t2g": null,
     "sg_ott": null,
@@ -313,40 +313,40 @@
     ],
     "rows": [
       {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": -4.75,
+        "avg_sg": 2.15
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.13
+      },
+      {
         "course": "Royal Liverpool Golf Club",
         "rounds": 4,
         "avg_to_par": -1.25,
         "avg_sg": 2.68
       },
       {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.09
+      },
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 8,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.15
+      },
+      {
         "course": "Nine Bridges",
         "rounds": 4,
         "avg_to_par": -0.25,
         "avg_sg": -0.8
-      },
-      {
-        "course": "The Renaissance Club",
-        "rounds": 8,
-        "avg_to_par": -0.13,
-        "avg_sg": -0.09
-      },
-      {
-        "course": "Tahoe Mountain Club (Old Greenwood)",
-        "rounds": 2,
-        "avg_to_par": 0.0,
-        "avg_sg": null
-      },
-      {
-        "course": "Muirfield Village Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.69
-      },
-      {
-        "course": "Royal Portrush Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.42
       }
     ]
   },
@@ -365,34 +365,34 @@
         "avg_sg": -5.79
       },
       {
+        "course": "Shinnecock Hills GC",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": 0.04
+      },
+      {
         "course": "Sheshan Golf Club",
         "rounds": 4,
         "avg_to_par": 4.0,
         "avg_sg": -2.74
       },
       {
-        "course": "Club de Golf Chapultepec",
-        "rounds": 4,
-        "avg_to_par": 2.0,
-        "avg_sg": -2.14
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.32
       },
       {
-        "course": "Muirfield Village Golf Club",
+        "course": "Firestone Country Club - South Course",
         "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": -0.69
+        "avg_to_par": 3.25,
+        "avg_sg": -3.35
       },
       {
-        "course": "Royal Portrush Golf Club",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 0.42
-      },
-      {
-        "course": "Royal Troon Golf Club - Old Course",
-        "rounds": 4,
-        "avg_to_par": 0.75,
-        "avg_sg": 1.85
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.71
       }
     ]
   },
@@ -485,10 +485,10 @@
       },
       {
         "season": 2019,
-        "rounds": 20,
-        "scoring_average": 73.05,
-        "avg_to_par": 1.45,
-        "avg_sg_total": -1.19,
+        "rounds": 24,
+        "scoring_average": 72.08,
+        "avg_to_par": 0.42,
+        "avg_sg_total": -0.64,
         "sg_t2g": null,
         "sg_ott": null,
         "sg_app": null,
@@ -499,6 +499,23 @@
         "gir": null,
         "scrambling": null,
         "last_round": "2019-07-21"
+      },
+      {
+        "season": 2018,
+        "rounds": 28,
+        "scoring_average": 71.89,
+        "avg_to_par": 1.04,
+        "avg_sg_total": -0.54,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-10"
       }
     ]
   },
@@ -510,6 +527,6 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
-    "seasonProfiles": 5
+    "seasonProfiles": 6
   }
 }
