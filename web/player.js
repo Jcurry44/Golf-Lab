@@ -10,7 +10,7 @@ let activeDetail = null;
 let activeProfile = null;
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-ranking-expand";
+const BUILD_VERSION = "20260621-ranking-pills";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;

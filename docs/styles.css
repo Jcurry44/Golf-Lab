@@ -666,6 +666,51 @@ h3 {
   font-weight: 800;
 }
 
+.ranking-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.ranking-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+
+.ranking-pill-group.compact {
+  flex: 0 0 auto;
+  justify-content: flex-end;
+}
+
+.ranking-pill-group button {
+  min-height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 11px;
+  background: rgba(255, 255, 255, 0.025);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.ranking-pill-group button:hover {
+  border-color: var(--line-strong);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.ranking-pill-group button.is-active {
+  color: #06100c;
+  border-color: rgba(110, 232, 188, 0.86);
+  background: linear-gradient(180deg, #6ee8bc, var(--green));
+  box-shadow: 0 8px 20px rgba(81, 214, 166, 0.14);
+}
+
 .ranking-table {
   display: grid;
   gap: 0;
@@ -2380,6 +2425,26 @@ h3 {
   .board-metric {
     min-width: 0;
     text-align: left;
+  }
+
+  .ranking-controls {
+    display: grid;
+    padding: 10px;
+  }
+
+  .ranking-pill-group {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .ranking-pill-group::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ranking-pill-group.compact {
+    justify-content: flex-start;
   }
 
   .ranking-row {

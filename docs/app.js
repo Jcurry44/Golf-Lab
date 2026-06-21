@@ -11,14 +11,15 @@ let healthPayload = null;
 let filterPayload = null;
 let playerSearch = "";
 let playerVisibleLimit = 48;
-let rankingVisibleLimit = 50;
+let rankingVisibleLimit = 10;
+let rankingCategory = "index";
 let seasonProfiles = new Map();
 let careerProfiles = new Map();
 let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-ranking-expand";
+const BUILD_VERSION = "20260621-ranking-pills";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -556,6 +557,139 @@ function metricRows(rows, key, direction = "desc", options = {}) {
     .slice(0, options.limit || 5);
 }
 
+function rankingCategoryConfig(key) {
+  const configs = {
+    index: {
+      label: "Rankings",
+      eyebrow: "Golf Lab Index",
+      title: "World-ranking style PGA board",
+      description: "Career scorecards, rich PGA Tour stat profiles, major form, and course-difficulty splits.",
+      qualify: ({ profile }) => (numeric(profile.rounds) || 0) >= 20,
+      compare: compareLabRank,
+      columns: ["SG", "Score", "Drive", "GIR", "Majors"],
+      cells: [
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => profile.scoring_average ? fmt(profile.scoring_average, 2) : "--",
+        (row, profile) => profile.driving_distance ? fmt(profile.driving_distance, 1) : "--",
+        (row, profile) => pctDecimal(profile.gir),
+        (row, profile) => fmt(profile.major_rounds || 0),
+      ],
+    },
+    sg: {
+      label: "Strokes gained",
+      eyebrow: "Performance",
+      title: "Strokes gained leaders",
+      description: "Total SG, tee-to-green strength, and scoring output for qualified players.",
+      qualify: ({ profile }) => (numeric(profile.rounds) || 0) >= 20 && statValue(profile, "avg_sg_total") !== null,
+      compare: (a, b) => compareDesc(a, b, "avg_sg_total") || compareDesc(a, b, "sg_t2g") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["SG", "T2G", "Score", "Rounds", "Majors"],
+      cells: [
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => signed(profile.sg_t2g),
+        (row, profile) => profile.scoring_average ? fmt(profile.scoring_average, 2) : "--",
+        (row, profile) => fmt(profile.rounds),
+        (row, profile) => fmt(profile.major_rounds || 0),
+      ],
+    },
+    distance: {
+      label: "Distance",
+      eyebrow: "Power",
+      title: "Driving distance leaders",
+      description: "Power rankings with fairway control and scoring context attached.",
+      qualify: ({ profile }) => statValue(profile, "driving_distance") !== null,
+      compare: (a, b) => compareDesc(a, b, "driving_distance") || compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["Distance", "Fairways", "SG", "GIR", "Rounds"],
+      cells: [
+        (row, profile) => `${fmt(profile.driving_distance, 1)} yd`,
+        (row, profile) => pctDecimal(profile.accuracy),
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => pctDecimal(profile.gir),
+        (row, profile) => fmt(profile.rounds),
+      ],
+    },
+    gir: {
+      label: "GIR",
+      eyebrow: "Iron control",
+      title: "Greens in regulation leaders",
+      description: "GIR rankings with approach, scoring, and distance context.",
+      qualify: ({ profile }) => statValue(profile, "gir") !== null,
+      compare: (a, b) => compareDesc(a, b, "gir") || compareDesc(a, b, "sg_app") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["GIR", "Approach", "Score", "Drive", "Rounds"],
+      cells: [
+        (row, profile) => pctDecimal(profile.gir),
+        (row, profile) => signed(profile.sg_app),
+        (row, profile) => profile.scoring_average ? fmt(profile.scoring_average, 2) : "--",
+        (row, profile) => profile.driving_distance ? fmt(profile.driving_distance, 1) : "--",
+        (row, profile) => fmt(profile.rounds),
+      ],
+    },
+    scoring: {
+      label: "Scoring",
+      eyebrow: "Scoring",
+      title: "Scoring average leaders",
+      description: "Raw scoring average with SG and to-par context for qualified samples.",
+      qualify: ({ profile }) => (numeric(profile.rounds) || 0) >= 20 && statValue(profile, "scoring_average") !== null,
+      compare: (a, b) => compareAsc(a, b, "scoring_average") || compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["Score", "To par", "SG", "GIR", "Rounds"],
+      cells: [
+        (row, profile) => fmt(profile.scoring_average, 2),
+        (row, profile) => signed(profile.avg_to_par),
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => pctDecimal(profile.gir),
+        (row, profile) => fmt(profile.rounds),
+      ],
+    },
+    tough: {
+      label: "Tough courses",
+      eyebrow: "Course DNA",
+      title: "Tough-course performers",
+      description: "Players who travel best to brutal and tough course setups.",
+      qualify: ({ profile }) => (numeric(profile.tough_rounds) || 0) >= 8 && statValue(profile, "tough_avg_to_par") !== null,
+      compare: (a, b) => compareAsc(a, b, "tough_avg_to_par") || compareDesc(a, b, "tough_rounds") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["Tough", "Tough SG", "Rounds", "Overall SG", "Majors"],
+      cells: [
+        (row, profile) => signed(profile.tough_avg_to_par),
+        (row, profile) => signed(profile.tough_avg_sg),
+        (row, profile) => fmt(profile.tough_rounds || 0),
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => fmt(profile.major_rounds || 0),
+      ],
+    },
+    majors: {
+      label: "Majors",
+      eyebrow: "Championship profile",
+      title: "Major championship performers",
+      description: "Major scoring and SG profile across loaded championship rounds.",
+      qualify: ({ profile }) => (numeric(profile.major_rounds) || 0) >= 8 && statValue(profile, "major_avg_to_par") !== null,
+      compare: (a, b) => compareAsc(a, b, "major_avg_to_par") || compareDesc(a, b, "major_rounds") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["Major avg", "Major SG", "Rounds", "Overall SG", "Score"],
+      cells: [
+        (row, profile) => signed(profile.major_avg_to_par),
+        (row, profile) => signed(profile.major_avg_sg),
+        (row, profile) => fmt(profile.major_rounds || 0),
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => profile.scoring_average ? fmt(profile.scoring_average, 2) : "--",
+      ],
+    },
+  };
+  return configs[key] || configs.index;
+}
+
+function rankingCategoryButtons(activeKey) {
+  return ["index", "sg", "distance", "gir", "scoring", "tough", "majors"].map((key) => {
+    const config = rankingCategoryConfig(key);
+    const active = key === activeKey;
+    return `<button type="button" class="${active ? "is-active" : ""}" data-ranking-category="${escapeHtml(key)}" aria-pressed="${active ? "true" : "false"}">${escapeHtml(config.label)}</button>`;
+  }).join("");
+}
+
+function rankingLimitButtons(activeLimit) {
+  return [10, 50, 100].map((limit) => {
+    const active = limit === activeLimit;
+    return `<button type="button" class="${active ? "is-active" : ""}" data-ranking-limit="${limit}" aria-pressed="${active ? "true" : "false"}">Top ${limit}</button>`;
+  }).join("");
+}
+
 function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
   return `
     <article class="leaderboard-card">
@@ -579,31 +713,34 @@ function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
   `;
 }
 
-function rankingBoard(rows, totalRows) {
-  const hiddenRows = Math.max(0, totalRows - rows.length);
+function rankingBoard(rows, totalRows, config) {
   return `
     <article class="tour-ranking-board">
       <div class="tour-board-head">
         <div>
-          <p class="eyebrow">Golf Lab Index</p>
-          <h3>World-ranking style PGA board</h3>
-          <p>Career scorecards, rich PGA Tour stat profiles, major form, and course-difficulty splits in one sortable board.</p>
+          <p class="eyebrow">${escapeHtml(config.eyebrow)}</p>
+          <h3>${escapeHtml(config.title)}</h3>
+          <p>${escapeHtml(config.description)}</p>
         </div>
         <div class="board-metric">
           <span>Qualified board</span>
           <strong>${fmt(totalRows)}</strong>
-          <small>Showing ${fmt(rows.length)}</small>
+          <small>Showing top ${fmt(rows.length)}</small>
+        </div>
+      </div>
+      <div class="ranking-controls">
+        <div class="ranking-pill-group" aria-label="Ranking category">
+          ${rankingCategoryButtons(rankingCategory)}
+        </div>
+        <div class="ranking-pill-group compact" aria-label="Ranking size">
+          ${rankingLimitButtons(rankingVisibleLimit)}
         </div>
       </div>
       <div class="ranking-table" role="table" aria-label="Golf Lab player rankings">
         <div class="ranking-row ranking-head" role="row">
           <span>Rank</span>
           <span>Player</span>
-          <span>SG</span>
-          <span>Score</span>
-          <span>Drive</span>
-          <span>GIR</span>
-          <span>Majors</span>
+          ${config.columns.map((column) => `<span>${escapeHtml(column)}</span>`).join("")}
         </div>
         ${rows.map(({ row, profile }, index) => `
           <a class="ranking-row" href="./player.html?id=${encodeURIComponent(row.player_id)}" role="row">
@@ -612,21 +749,10 @@ function rankingBoard(rows, totalRows) {
               <strong>${escapeHtml(row.player_name)}</strong>
               <small>${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} rounds | Tough ${fmt(profile.tough_rounds || 0)}</small>
             </span>
-            <span>${signed(profile.avg_sg_total)}</span>
-            <span>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</span>
-            <span>${profile.driving_distance ? `${fmt(profile.driving_distance, 1)}` : "--"}</span>
-            <span>${pctDecimal(profile.gir)}</span>
-            <span>${fmt(profile.major_rounds || 0)}</span>
+            ${config.cells.map((formatter) => `<span>${escapeHtml(formatter(row, profile))}</span>`).join("")}
           </a>
         `).join("") || empty("No qualified players loaded. Refresh the data warehouse.")}
       </div>
-      ${hiddenRows ? `
-        <div class="ranking-actions">
-          <button type="button" class="ghost-button" data-show-more-rankings>
-            Show ${fmt(Math.min(50, hiddenRows))} more rankings
-          </button>
-        </div>
-      ` : ""}
     </article>
   `;
 }
@@ -635,9 +761,8 @@ function renderLeaderboards() {
   const target = $("#leaderboardGrid");
   if (!target) return;
   const rows = decoratedLibraryRows();
-  const rankingRows = [...rows]
-    .filter(({ profile }) => (numeric(profile.rounds) || 0) >= 20)
-    .sort(compareLabRank);
+  const activeConfig = rankingCategoryConfig(rankingCategory);
+  const rankingRows = [...rows].filter(activeConfig.qualify).sort(activeConfig.compare);
   const visibleRankingRows = rankingRows.slice(0, rankingVisibleLimit);
   const compactBoards = [
     leaderboardList(
@@ -676,7 +801,7 @@ function renderLeaderboards() {
       (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
     ),
   ].join("");
-  target.innerHTML = `${rankingBoard(visibleRankingRows, rankingRows.length)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
+  target.innerHTML = `${rankingBoard(visibleRankingRows, rankingRows.length, activeConfig)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
 }
 
 function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
@@ -933,9 +1058,16 @@ function bindEvents() {
       renderPlayers();
       return;
     }
-    const showMoreRankings = event.target.closest("[data-show-more-rankings]");
-    if (showMoreRankings) {
-      rankingVisibleLimit += 50;
+    const rankingCategoryButton = event.target.closest("[data-ranking-category]");
+    if (rankingCategoryButton) {
+      rankingCategory = rankingCategoryButton.dataset.rankingCategory || "index";
+      rankingVisibleLimit = 10;
+      renderPlayers();
+      return;
+    }
+    const rankingLimitButton = event.target.closest("[data-ranking-limit]");
+    if (rankingLimitButton) {
+      rankingVisibleLimit = Number(rankingLimitButton.dataset.rankingLimit) || 10;
       renderPlayers();
       return;
     }
@@ -965,7 +1097,7 @@ function bindEvents() {
     search.addEventListener("input", () => {
       playerSearch = search.value.trim().toLowerCase();
       playerVisibleLimit = 48;
-      rankingVisibleLimit = 50;
+      rankingVisibleLimit = 10;
       renderPlayers();
     });
   }
@@ -973,13 +1105,13 @@ function bindEvents() {
     control.addEventListener("input", () => {
       playerFilters[control.dataset.playerFilter] = control.value;
       playerVisibleLimit = 48;
-      rankingVisibleLimit = 50;
+      rankingVisibleLimit = 10;
       renderPlayers();
     });
     control.addEventListener("change", () => {
       playerFilters[control.dataset.playerFilter] = control.value;
       playerVisibleLimit = 48;
-      rankingVisibleLimit = 50;
+      rankingVisibleLimit = 10;
       renderPlayers();
     });
   });
@@ -991,7 +1123,8 @@ function bindEvents() {
         control.value = playerFilters[control.dataset.playerFilter] ?? "";
       });
       playerVisibleLimit = 48;
-      rankingVisibleLimit = 50;
+      rankingVisibleLimit = 10;
+      rankingCategory = "index";
       renderPlayers();
     });
   }
