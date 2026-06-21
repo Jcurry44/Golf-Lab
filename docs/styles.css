@@ -202,6 +202,11 @@ h3 {
 .topbar > *,
 .featured-inner > * { min-width: 0; }
 
+.topbar h1 {
+  max-width: 820px;
+  font-size: 38px;
+}
+
 #heroSubtitle {
   max-width: 760px;
   margin-bottom: 0;
@@ -249,6 +254,10 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1.18fr) minmax(320px, 0.82fr);
   gap: 14px;
+  margin-bottom: 14px;
+}
+
+.leaderboard-stage {
   margin-bottom: 14px;
 }
 
@@ -541,6 +550,112 @@ h3 {
 .filter-reset {
   min-height: 38px;
   align-self: end;
+}
+
+.leaderboard-panel {
+  border-color: var(--line-strong);
+}
+
+.leaderboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.leaderboard-card {
+  min-height: 286px;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-deep);
+}
+
+.leaderboard-title {
+  display: grid;
+  gap: 3px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.leaderboard-title span {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.leaderboard-title strong {
+  color: var(--ink-strong);
+  font-size: 17px;
+}
+
+.leaderboard-list {
+  display: grid;
+  gap: 7px;
+}
+
+.leaderboard-list a {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.leaderboard-list a:hover {
+  border-color: var(--line-strong);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.leaderboard-list b {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  background: rgba(81, 214, 166, 0.12);
+  color: var(--green);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.leaderboard-list span {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.leaderboard-list strong {
+  color: var(--ink-strong);
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leaderboard-list small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 750;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.leaderboard-list em {
+  color: var(--green);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 950;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .player-actions {
@@ -1913,6 +2028,7 @@ h3 {
   .player-grid,
   .course-grid,
   .browse-grid,
+  .leaderboard-grid,
   .compare-grid,
   .tier-grid,
   .score-grid,
@@ -1963,6 +2079,10 @@ h3 {
 
   h1 {
     font-size: 34px;
+  }
+
+  .topbar h1 {
+    font-size: 31px;
   }
 
   .pc-hero h2 {
@@ -2041,6 +2161,7 @@ h3 {
   .player-grid,
   .course-grid,
   .browse-grid,
+  .leaderboard-grid,
   .compare-grid,
   .tier-grid,
   .pc-grid {
@@ -2128,9 +2249,14 @@ h3 {
     font-size: 30px;
   }
 
+  .topbar h1 {
+    font-size: 28px;
+  }
+
   .scorecard-footer,
   .filter-console,
   .metric-grid,
+  .leaderboard-grid,
   .insight-grid,
   .score-grid,
   .compare-grid,

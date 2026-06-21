@@ -21,7 +21,7 @@
           </div>
         </div>
         <nav class="nav" aria-label="Golf Lab views">
-          <button class="active" type="button" data-view="players">Players</button>
+          <button class="active" type="button" data-view="players" aria-pressed="true">Players</button>
           <button type="button" data-view="model">Model</button>
           <button type="button" data-view="courses">Courses</button>
           <button type="button" data-view="overview">Event</button>
@@ -40,8 +40,20 @@
           <div class="status-pill" id="statusPill">Loading</div>
         </section>
 
-        <section class="scorecard-stage" data-panel="players overview">
-          <article class="featured-player" id="featuredPlayer"></article>
+        <section class="leaderboard-stage" data-panel="players">
+          <article class="panel wide leaderboard-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Rankings</p>
+                <h2>Leaderboards</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="model">Tournament model</button>
+            </div>
+            <div id="leaderboardGrid" class="leaderboard-grid"></div>
+          </article>
+        </section>
+
+        <section class="scorecard-stage" data-panel="overview">
           <article class="event-card" id="eventCard"></article>
         </section>
 

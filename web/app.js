@@ -109,15 +109,62 @@ function setStatus(text, tone = "neutral") {
   pill.dataset.tone = tone;
 }
 
-function setView(view) {
+function viewMeta(view) {
+  const event = summary?.selectedEvent || {};
+  const readiness = summary?.readiness || "ready";
+  const eventName = event.event_name || "Modeled event";
+  const meta = {
+    players: {
+      eyebrow: `${eventName} | ${readiness}`,
+      title: "Golf Lab leaderboards.",
+      subtitle: "Rank the player database by model board, strokes gained, distance, GIR, tough-course form, and major profile.",
+    },
+    model: {
+      eyebrow: `${eventName} | projected standings`,
+      title: "Tournament prediction center.",
+      subtitle: "Model tiers, projected leaders, fair prices, market edges, and plain-English reasoning.",
+    },
+    courses: {
+      eyebrow: "Course difficulty",
+      title: "Course Lab.",
+      subtitle: "Find the hardest setups, gettable tracks, and players whose profiles fit each course.",
+    },
+    overview: {
+      eyebrow: `${eventName} | event context`,
+      title: "Event command center.",
+      subtitle: "Field size, course setup, weather windows, model readiness, and warehouse coverage in one scan.",
+    },
+    data: {
+      eyebrow: "Trust layer",
+      title: "Data coverage audit.",
+      subtitle: "Scorecards, rich public stat seasons, tough-course DNA, major profiles, source proof, and refresh status.",
+    },
+  };
+  return meta[view] || meta.players;
+}
+
+function renderViewHeader() {
+  const meta = viewMeta(currentView);
+  $("#topEyebrow").textContent = meta.eyebrow;
+  $("#heroTitle").textContent = meta.title;
+  $("#heroSubtitle").textContent = meta.subtitle;
+}
+
+function setView(view, options = {}) {
   currentView = view;
   $$(".nav button").forEach((button) => {
     button.classList.toggle("active", button.dataset.view === view);
+    button.setAttribute("aria-pressed", button.dataset.view === view ? "true" : "false");
   });
   $$("[data-panel]").forEach((panel) => {
     const views = panel.dataset.panel.split(/\s+/);
     panel.hidden = !views.includes(view);
   });
+  renderViewHeader();
+  if (options.push) history.pushState({ view }, "", `#${view}`);
+  if (options.scroll) {
+    document.querySelector(".main")?.scrollIntoView({ block: "start" });
+  }
 }
 
 function renderSummary() {
@@ -126,9 +173,7 @@ function renderSummary() {
   setStatus(summary.readiness || "ready", summary.readiness === "model-ready" ? "good" : "watch");
 
   const event = summary.selectedEvent || {};
-  $("#topEyebrow").textContent = `${event.event_name || "Modeled event"} | ${summary.readiness || "loading"}`;
-  $("#heroTitle").textContent = "Tour intelligence. Player scorecards first.";
-  $("#heroSubtitle").textContent = `${fmt(counts.players)} player profiles | ${fmt(counts.fields)} current-event entries | ${fmt(counts.rounds)} scorecards | ${fmt(counts.strokes_gained)} SG rows.`;
+  renderViewHeader();
   $("#eventCard").innerHTML = `
     <p class="eyebrow">Event context</p>
     <h2>${escapeHtml(event.event_name || "No event loaded")}</h2>
@@ -440,30 +485,6 @@ function toggleCompare(playerId) {
   renderPlayers();
 }
 
-function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row ? profileForRow(row) : null) {
-  if (!row) {
-    $("#featuredPlayer").innerHTML = empty("No player scorecard loaded yet.");
-    return;
-  }
-  const seasonLabel = playerFilters.season === "all" ? "Career profile" : `${playerFilters.season} profile`;
-  $("#featuredPlayer").innerHTML = `
-    <div class="featured-inner">
-      <div>
-        <span class="featured-rank">${escapeHtml(row.rank ? `Model rank #${row.rank}` : seasonLabel)}</span>
-        <h2>${escapeHtml(row.player_name)}</h2>
-        <p class="featured-copy">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
-        <a class="featured-link" href="./player.html?id=${encodeURIComponent(row.player_id)}">Open full scorecard</a>
-      </div>
-      <div class="featured-metrics">
-        ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
-        ${metric("Profile SG", signed(profile?.avg_sg_total))}
-        ${metric("Tough courses", signed(profile?.tough_avg_to_par))}
-        ${metric("Major rounds", profile?.major_rounds)}
-      </div>
-    </div>
-  `;
-}
-
 function playerMatchesSearch(row) {
   if (!playerSearch) return true;
   const haystack = [
@@ -475,18 +496,112 @@ function playerMatchesSearch(row) {
   return haystack.includes(playerSearch);
 }
 
-function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
-  const allRows = playerPayload.rows || [];
-  const decoratedRows = sortDecoratedPlayers(allRows
+function decoratedLibraryRows() {
+  return (playerPayload.rows || [])
     .filter(playerMatchesSearch)
     .map((row) => ({ row, profile: profileForRow(row) }))
-    .filter(({ row, profile }) => playerPassesFilters(row, profile)));
+    .filter(({ row, profile }) => playerPassesFilters(row, profile));
+}
+
+function metricRows(rows, key, direction = "desc", options = {}) {
+  const minRounds = options.minRounds || 0;
+  const minSampleKey = options.minSampleKey;
+  const minSample = options.minSample || 0;
+  return [...rows]
+    .filter(({ profile }) => {
+      if (statValue(profile, key) === null) return false;
+      if ((numeric(profile.rounds) || 0) < minRounds) return false;
+      if (minSampleKey && (numeric(profile[minSampleKey]) || 0) < minSample) return false;
+      return true;
+    })
+    .sort((a, b) => direction === "asc"
+      ? compareAsc(a, b, key) || a.row.player_name.localeCompare(b.row.player_name)
+      : compareDesc(a, b, key) || a.row.player_name.localeCompare(b.row.player_name))
+    .slice(0, options.limit || 5);
+}
+
+function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
+  return `
+    <article class="leaderboard-card">
+      <div class="leaderboard-title">
+        <span>${escapeHtml(subtitle)}</span>
+        <strong>${escapeHtml(title)}</strong>
+      </div>
+      <div class="leaderboard-list">
+        ${rows.map(({ row, profile }, index) => `
+          <a href="./player.html?id=${encodeURIComponent(row.player_id)}">
+            <b>${index + 1}</b>
+            <span>
+              <strong>${escapeHtml(row.player_name)}</strong>
+              <small>${escapeHtml(noteFormatter(row, profile))}</small>
+            </span>
+            <em>${escapeHtml(valueFormatter(row, profile))}</em>
+          </a>
+        `).join("") || empty("No qualified players.")}
+      </div>
+    </article>
+  `;
+}
+
+function renderLeaderboards() {
+  const target = $("#leaderboardGrid");
+  if (!target) return;
+  const rows = decoratedLibraryRows();
+  const modelRows = [...rows]
+    .filter(({ row }) => numeric(row.rank) !== null)
+    .sort((a, b) => numeric(a.row.rank) - numeric(b.row.rank))
+    .slice(0, 5);
+  target.innerHTML = [
+    leaderboardList(
+      "Model board",
+      "Projected ranking",
+      modelRows,
+      (row) => `#${fmt(row.rank)}`,
+      (row) => `${pct(Number(row.probability || 0) * 100)} win | ${row.confidence || "model"}`
+    ),
+    leaderboardList(
+      "Strokes gained",
+      "Performance",
+      metricRows(rows, "avg_sg_total", "desc", { minRounds: 20 }),
+      (row, profile) => signed(profile.avg_sg_total),
+      (row, profile) => `${fmt(profile.rounds)} rounds | T2G ${signed(profile.sg_t2g)}`
+    ),
+    leaderboardList(
+      "Driving distance",
+      "Power",
+      metricRows(rows, "driving_distance", "desc"),
+      (row, profile) => `${fmt(profile.driving_distance, 1)} yd`,
+      (row, profile) => `Fairways ${pctDecimal(profile.accuracy)}`
+    ),
+    leaderboardList(
+      "GIR",
+      "Iron control",
+      metricRows(rows, "gir", "desc"),
+      (row, profile) => pctDecimal(profile.gir),
+      (row, profile) => `Approach ${signed(profile.sg_app)} | ${fmt(profile.rounds)} rounds`
+    ),
+    leaderboardList(
+      "Tough courses",
+      "Course DNA",
+      metricRows(rows, "tough_avg_to_par", "asc", { minSampleKey: "tough_rounds", minSample: 8 }),
+      (row, profile) => signed(profile.tough_avg_to_par),
+      (row, profile) => `${fmt(profile.tough_rounds)} tough rounds | SG ${signed(profile.tough_avg_sg)}`
+    ),
+    leaderboardList(
+      "Majors",
+      "Championship profile",
+      metricRows(rows, "major_avg_to_par", "asc", { minSampleKey: "major_rounds", minSample: 8 }),
+      (row, profile) => signed(profile.major_avg_to_par),
+      (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
+    ),
+  ].join("");
+}
+
+function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
+  const allRows = playerPayload.rows || [];
+  const decoratedRows = sortDecoratedPlayers(decoratedLibraryRows());
   const rows = decoratedRows.slice(0, limit);
-  if (rows[0]) {
-    renderFeaturedPlayer(rows[0].row, rows[0].profile);
-  } else {
-    renderFeaturedPlayer(null, null);
-  }
+  renderLeaderboards();
   const count = $("#playerCount");
   if (count) {
     const label = playerFilters.season === "all" ? "all seasons" : `${playerFilters.season} season`;
@@ -717,13 +832,13 @@ async function openCourse(courseId) {
 
 function bindEvents() {
   $$(".nav button").forEach((button) => button.addEventListener("click", () => {
-    setView(button.dataset.view);
+    setView(button.dataset.view, { push: true, scroll: true });
     renderPlayers();
     renderCourses();
     renderModel();
   }));
   $$("[data-view-jump]").forEach((button) => button.addEventListener("click", () => {
-    setView(button.dataset.viewJump);
+    setView(button.dataset.viewJump, { push: true, scroll: true });
     renderPlayers();
     renderCourses();
     renderModel();
@@ -787,6 +902,12 @@ function bindEvents() {
       renderPlayers();
     });
   }
+  window.addEventListener("popstate", () => {
+    setView(viewFromHash());
+    renderPlayers();
+    renderCourses();
+    renderModel();
+  });
 }
 
 function viewFromHash() {
