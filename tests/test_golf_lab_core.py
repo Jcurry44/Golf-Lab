@@ -53,6 +53,8 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertIn("recentVsBaseline", payload)
         self.assertIn("gradeExplanations", payload)
         self.assertTrue(payload["coverage"]["hasRoundScorecards"])
+        self.assertIn("scoring_rounds", payload["player"])
+        self.assertIn("hasTrustedScoring", payload["coverage"])
         self.assertGreater(len(payload["difficultySplits"]["rows"]), 0)
         self.assertEqual(payload["majorProfile"]["summary"]["rounds"], 4)
         self.assertIn("sg_total", payload["gradeExplanations"])
@@ -70,6 +72,8 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertGreater(len(courses["rows"]), 0)
         self.assertEqual(health["grade"], "premium-ready")
         self.assertGreater(len(health["coverage"]), 0)
+        self.assertGreater(len(health["statQuality"]), 0)
+        self.assertIn("contract", health["statQuality"][0])
         self.assertGreater(len(health["automation"]), 0)
 
     def test_player_filter_profiles_include_seasons_and_scoring(self) -> None:

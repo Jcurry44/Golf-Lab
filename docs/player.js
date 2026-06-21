@@ -10,7 +10,7 @@ let activeDetail = null;
 let activeProfile = null;
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-majors-view";
+const BUILD_VERSION = "20260621-player-trust";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -69,6 +69,12 @@ function pctDecimal(value) {
   return pct(numeric * 100, 1);
 }
 
+function roundScoreLabel(row) {
+  const score = Number(row?.score);
+  if (!Number.isFinite(score)) return "--";
+  return score >= 55 && score <= 95 ? fmt(score) : `${fmt(score)} pts`;
+}
+
 function moneyOdds(value) {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "--";
@@ -85,6 +91,24 @@ function firstNumber(...values) {
     if (Number.isFinite(numeric)) return numeric;
   }
   return null;
+}
+
+function weightedAverage(rows, field, weightField = "rounds") {
+  let numerator = 0;
+  let denominator = 0;
+  const fallbackValues = [];
+  for (const row of rows) {
+    const value = Number(row[field]);
+    if (!Number.isFinite(value)) continue;
+    fallbackValues.push(value);
+    const weight = Number(row[weightField]);
+    if (Number.isFinite(weight) && weight > 0) {
+      numerator += value * weight;
+      denominator += weight;
+    }
+  }
+  if (denominator) return numerator / denominator;
+  return fallbackValues.length ? fallbackValues.reduce((sum, value) => sum + value, 0) / fallbackValues.length : null;
 }
 
 function hideStatus() {
@@ -127,6 +151,7 @@ function latestProfile(detail) {
     accuracy: firstNumber(season.accuracy, player.accuracy),
     gir: firstNumber(season.gir, player.gir),
     scrambling: firstNumber(season.scrambling, player.scrambling),
+    scoring_rounds: firstNumber(season.scoring_rounds, player.scoring_rounds),
   };
 }
 
@@ -146,22 +171,21 @@ function richProfile(detail, maxSeasons = 4) {
 
   const profile = { ...player, richSeasonCount: rows.length };
   const numericFields = [
-    "avg_sg_total",
-    "sg_t2g",
-    "sg_ott",
-    "sg_app",
-    "sg_arg",
-    "sg_putt",
-    "driving_distance",
-    "accuracy",
-    "gir",
-    "scrambling",
-    "scoring_average",
-    "avg_to_par",
+    ["avg_sg_total", "rounds"],
+    ["sg_t2g", "rounds"],
+    ["sg_ott", "rounds"],
+    ["sg_app", "rounds"],
+    ["sg_arg", "rounds"],
+    ["sg_putt", "rounds"],
+    ["driving_distance", "rounds"],
+    ["accuracy", "rounds"],
+    ["gir", "rounds"],
+    ["scrambling", "rounds"],
+    ["scoring_average", "scoring_rounds"],
+    ["avg_to_par", "rounds"],
   ];
-  for (const field of numericFields) {
-    const values = rows.map((row) => Number(row[field])).filter(Number.isFinite);
-    profile[field] = values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
+  for (const [field, weightField] of numericFields) {
+    profile[field] = weightedAverage(rows, field, weightField);
   }
   const seasons = rows.map((row) => Number(row.season)).filter(Number.isFinite);
   const minSeason = Math.min(...seasons);
@@ -172,6 +196,7 @@ function richProfile(detail, maxSeasons = 4) {
     : `${minSeason}-${maxSeason} rich profile`;
   profile.profileSeasons = rows.map((row) => row.season).join(", ");
   profile.rounds = firstNumber(player.rounds, rows[0]?.rounds);
+  profile.scoring_rounds = rows.reduce((sum, row) => sum + (Number(row.scoring_rounds) || 0), 0);
   return profile;
 }
 
@@ -214,7 +239,7 @@ function scorecardStats(profile) {
     { key: "accuracy", label: "Fairways", value: profile.accuracy, formatter: pctDecimal, kind: "percent", note: "accuracy" },
     { key: "gir", label: "GIR", value: profile.gir, formatter: pctDecimal, kind: "percent", note: "greens in regulation" },
     { key: "scrambling", label: "Scramble", value: profile.scrambling, formatter: pctDecimal, kind: "percent", note: "miss recovery" },
-    { key: "scoring_average", label: "Scoring", value: profile.scoring_average, formatter: (v) => Number.isFinite(Number(v)) ? fmt(v, 2) : "--", kind: "score", note: "raw average" },
+    { key: "scoring_average", label: "Scoring", value: profile.scoring_average, formatter: (v) => Number.isFinite(Number(v)) ? fmt(v, 2) : "--", kind: "score", note: `${fmt(profile.scoring_rounds)} trusted scoring rounds` },
     { key: "scorecards", label: "Scorecards", value: profile.rounds, formatter: (v) => fmt(v), kind: "volume", note: "imported round sample" },
   ];
 }
@@ -241,6 +266,94 @@ function insight(label, value, note = "", tone = "") {
       <small>${escapeHtml(note)}</small>
     </article>
   `;
+}
+
+function trustProfile(detail, profile) {
+  const coverage = detail.coverage || {};
+  const richSeasons = (detail.seasons?.rows || []).filter((row) =>
+    row.avg_sg_total !== null || row.driving_distance !== null || row.gir !== null
+  ).length;
+  const trustedScoring = Boolean(coverage.hasTrustedScoring)
+    || ((Number(profile.scoring_rounds) || 0) >= 20 && Number(profile.scoring_average) >= 60 && Number(profile.scoring_average) <= 80);
+  const checks = [
+    Boolean(coverage.hasRoundScorecards),
+    richSeasons >= 3,
+    Boolean(coverage.hasDrivingDistance),
+    Boolean(coverage.hasGir),
+    trustedScoring,
+    (detail.majorProfile?.summary?.rounds || 0) >= 8,
+    (detail.courseDna?.toughRounds || 0) >= 8,
+  ];
+  const loaded = checks.filter(Boolean).length;
+  return {
+    loaded,
+    total: checks.length,
+    label: loaded >= 6 ? "Premium trust" : loaded >= 4 ? "Strong profile" : loaded >= 2 ? "Usable profile" : "Coverage watch",
+    note: `${loaded}/${checks.length} core lanes loaded`,
+  };
+}
+
+function profileEdge(profile) {
+  const candidates = [
+    ["Approach", profile.sg_app, signed(profile.sg_app)],
+    ["Tee to green", profile.sg_t2g, signed(profile.sg_t2g)],
+    ["Off tee", profile.sg_ott, signed(profile.sg_ott)],
+    ["Putting", profile.sg_putt, signed(profile.sg_putt)],
+    ["Distance", profile.driving_distance, profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--"],
+    ["GIR", profile.gir, pctDecimal(profile.gir)],
+  ].filter(([, value]) => Number.isFinite(Number(value)));
+  if (!candidates.length) return { label: "Skill edge", value: "--", note: "rich stat lane pending" };
+  const ranked = candidates.sort((a, b) => {
+    const av = a[0] === "Distance" ? (Number(a[1]) - 290) / 20 : a[0] === "GIR" ? (Number(a[1]) - 0.62) * 10 : Number(a[1]);
+    const bv = b[0] === "Distance" ? (Number(b[1]) - 290) / 20 : b[0] === "GIR" ? (Number(b[1]) - 0.62) * 10 : Number(b[1]);
+    return bv - av;
+  })[0];
+  return { label: ranked[0], value: ranked[2], note: "best loaded skill lane" };
+}
+
+function snapshotCard(label, value, note, tone = "") {
+  return `
+    <article class="snapshot-card ${tone}">
+      <span>${escapeHtml(label)}</span>
+      <strong>${escapeHtml(value)}</strong>
+      <small>${escapeHtml(note)}</small>
+    </article>
+  `;
+}
+
+function renderSnapshot(detail, profile) {
+  const trend = detail.recentVsBaseline || {};
+  const major = detail.majorProfile?.summary || {};
+  const bestCourse = detail.bestCourses?.rows?.[0];
+  const trust = trustProfile(detail, profile);
+  const edge = profileEdge(profile);
+  $("#pcSnapshot").innerHTML = [
+    snapshotCard(
+      "Recent form",
+      trend.trend_label || "Trend pending",
+      `${signed(trend.recent_sg)} recent SG vs ${signed(trend.baseline_sg)} baseline`,
+      Number(trend.sg_delta) >= 0.25 ? "is-good" : Number(trend.sg_delta) <= -0.25 ? "is-watch" : ""
+    ),
+    snapshotCard(edge.label, edge.value, edge.note, "is-good"),
+    snapshotCard(
+      "Major profile",
+      major.rounds ? signed(major.avg_to_par) : "--",
+      major.rounds ? `${fmt(major.rounds)} major rounds | ${signed(major.avg_sg)} SG` : "major sample pending",
+      major.rounds >= 8 ? "is-good" : "is-watch"
+    ),
+    snapshotCard(
+      "Tough courses",
+      detail.courseDna?.toughRounds ? signed(detail.courseDna.toughAvgToPar) : "--",
+      detail.courseDna?.toughRounds ? `${fmt(detail.courseDna.toughRounds)} tough rounds` : "difficulty sample pending",
+      detail.courseDna?.toughRounds >= 8 ? "is-good" : "is-watch"
+    ),
+    snapshotCard(
+      "Best course",
+      bestCourse?.course || "--",
+      bestCourse ? `${signed(bestCourse.avg_to_par)} avg | ${fmt(bestCourse.rounds)} rounds` : "repeat-course history pending"
+    ),
+    snapshotCard("Data trust", trust.label, trust.note, trust.loaded >= 6 ? "is-good" : trust.loaded >= 4 ? "" : "is-watch"),
+  ].join("");
 }
 
 function renderHero(detail, row, profile) {
@@ -477,7 +590,7 @@ function renderRounds(detail) {
             <td>${escapeHtml(row.event_name || "")}</td>
             <td>${escapeHtml(row.course || "")}</td>
             <td>${escapeHtml(row.round_number || "")}</td>
-            <td>${escapeHtml(row.score || "--")}</td>
+            <td>${escapeHtml(roundScoreLabel(row))}</td>
             <td>${signed(row.to_par, 0)}</td>
             <td>${signed(row.sg_total)}</td>
           </tr>
@@ -495,6 +608,7 @@ function renderReceipts(detail) {
   );
   const coverageRows = [
     ["Round scorecards", coverage.hasRoundScorecards, `${fmt(detail.player?.rounds)} tracked rounds`],
+    ["Trusted scoring avg", coverage.hasTrustedScoring, `${fmt(detail.player?.scoring_rounds)} stroke-play scoring rounds`],
     ["Rich season profile", richSeasons.length >= 3, `${fmt(richSeasons.length)} public stat seasons loaded`],
     ["Strokes gained", coverage.hasStrokesGained, "model baseline"],
     ["Driving distance", coverage.hasDrivingDistance, "public PGA stat lane"],
@@ -533,6 +647,7 @@ function renderPlayer(detail) {
   $("#playerCard").hidden = false;
   renderHero(detail, row, profile);
   $("#pcVerdict").textContent = verdictText(detail, row, profile);
+  renderSnapshot(detail, profile);
   renderExplain(detail, row, profile);
   renderProjection(detail, row);
   renderScorecard(profile, detail);

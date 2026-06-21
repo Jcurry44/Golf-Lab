@@ -19,7 +19,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-majors-view";
+const BUILD_VERSION = "20260621-player-trust";
 const RECENT_PROFILE_CUTOFF = "2023-01-01";
 
 function versionedPath(path) {
@@ -64,6 +64,12 @@ function pct(value) {
 function pctDecimal(value) {
   if (value === null || value === undefined || value === "") return "--";
   return pct(Number(value) * 100);
+}
+
+function roundScoreLabel(row) {
+  const score = Number(row?.score);
+  if (!Number.isFinite(score)) return "--";
+  return score >= 55 && score <= 95 ? fmt(score) : `${fmt(score)} pts`;
 }
 
 function signed(value, digits = 1) {
@@ -1018,6 +1024,24 @@ function renderPredictionCenter() {
         ${metric("Positive edges", positiveEdges)}
       </div>
     </section>
+    <section class="projection-board">
+      <div class="projection-board-head">
+        <p class="eyebrow">Projected standings</p>
+        <h3>Model board with plain-English reasons</h3>
+      </div>
+      <div class="projection-list">
+        ${rows.slice(0, 12).map((row) => `
+          <a href="./player.html?id=${encodeURIComponent(row.player_id)}">
+            <b>#${escapeHtml(row.rank || "--")}</b>
+            <span>
+              <strong>${escapeHtml(row.player_name)}</strong>
+              <small>${pct(row.probability_pct)} win | ${signed(row.projected_to_par)} projected to par | ${escapeHtml(row.confidence || "Watch")}</small>
+            </span>
+            <em>${escapeHtml(row.tier_reason || row.plain_english || "Reasoning pending.")}</em>
+          </a>
+        `).join("") || empty("No projected standings loaded yet.")}
+      </div>
+    </section>
     <div class="tier-grid">
       ${modelTierRows().map((group) => `
         <article class="tier-card">
@@ -1058,6 +1082,7 @@ function renderHealth() {
   const blockers = healthPayload.blockers || [];
   const sources = healthPayload.sources || [];
   const coverage = healthPayload.coverage || [];
+  const statQuality = healthPayload.statQuality || [];
   const automation = healthPayload.automation || [];
   $("#warehouseHealth").innerHTML = `
     <div class="health-band ${blockers.length ? "watch" : "good"}">
@@ -1073,6 +1098,24 @@ function renderHealth() {
         </article>
       `).join("")}
     </div>
+    <section class="stat-quality-panel">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">Leaderboard contracts</p>
+          <h3>Stat Quality Gates</h3>
+        </div>
+      </div>
+      <div class="stat-quality-grid">
+        ${statQuality.map((row) => `
+          <article class="${escapeHtml(row.status || "watch")}">
+            <span>${escapeHtml(row.label)}</span>
+            <strong>${fmt(row.value)}</strong>
+            <small>${escapeHtml(row.note || "")}</small>
+            <em>${escapeHtml(row.contract || "")}</em>
+          </article>
+        `).join("") || empty("Stat quality checks will appear after the warehouse refresh.")}
+      </div>
+    </section>
     <div class="automation-strip">
       ${automation.map((row) => `
         <article>
@@ -1124,7 +1167,7 @@ async function openPlayer(playerId) {
     </section>
     <section>
       <h3>Recent Scorecards</h3>
-      ${detail.rounds.rows.map((row) => `<div class="mini-row"><strong>${escapeHtml(row.event_name || row.course)}</strong><span>R${escapeHtml(row.round_number)} ${escapeHtml(row.score)} (${signed(row.to_par, 0)})</span></div>`).join("")}
+      ${detail.rounds.rows.map((row) => `<div class="mini-row"><strong>${escapeHtml(row.event_name || row.course)}</strong><span>R${escapeHtml(row.round_number)} ${escapeHtml(roundScoreLabel(row))} (${signed(row.to_par, 0)})</span></div>`).join("")}
     </section>
   `;
   $("#detailDrawer").hidden = false;

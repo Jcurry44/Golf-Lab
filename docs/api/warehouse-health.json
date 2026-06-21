@@ -221,6 +221,50 @@
       "note": "5,616 saved predictions"
     }
   ],
+  "statQuality": [
+    {
+      "label": "Scoring average",
+      "status": "good",
+      "value": 1145,
+      "note": "1,145 qualified profiles; 2,080 non-stroke-play rows quarantined",
+      "contract": "Requires 20 scores from 55-95 before appearing on scoring boards."
+    },
+    {
+      "label": "Strokes gained",
+      "status": "good",
+      "value": 392797,
+      "note": "392,797 rows; 2 outside -20 to +20",
+      "contract": "SG rows are checked for impossible outliers before they power model boards."
+    },
+    {
+      "label": "Driving distance",
+      "status": "good",
+      "value": 720,
+      "note": "720 rows; 0 outside 240-380 yards",
+      "contract": "Distance leaderboards require a plausible PGA driving range."
+    },
+    {
+      "label": "Fairways / GIR / scrambling",
+      "status": "good",
+      "value": 2160,
+      "note": "0 percentage rows outside 0-100%",
+      "contract": "Public percentage stats are stored as decimals from 0 to 1."
+    },
+    {
+      "label": "Major boards",
+      "status": "good",
+      "value": 552,
+      "note": "552 players with 8+ major rounds",
+      "contract": "Major rankings require current/recent profiles and 8+ major rounds."
+    },
+    {
+      "label": "Tough-course boards",
+      "status": "good",
+      "value": 1074,
+      "note": "1,074 players with 8+ brutal/tough rounds",
+      "contract": "Tough-course rankings require a real difficulty-bucket sample."
+    }
+  ],
   "automation": [
     {
       "label": "Static Pages export",

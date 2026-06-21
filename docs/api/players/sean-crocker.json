@@ -11,6 +11,8 @@
     "source_url": "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=20250720",
     "source_updated_at": "2026-06-19T16:45:00-04:00",
     "rounds": 32,
+    "scoring_rounds": 22,
+    "scoring_average": 72.36,
     "avg_to_par": 3.44,
     "avg_sg_total": -0.96,
     "first_round": "2018-07-19",
@@ -680,6 +682,7 @@
     "hasAccuracy": false,
     "hasGir": false,
     "hasScrambling": false,
+    "hasTrustedScoring": true,
     "seasonProfiles": 5
   }
 }

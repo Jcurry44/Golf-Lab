@@ -437,6 +437,122 @@ def _enrich_reasoning(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return rows
 
 
+def _stat_quality_checks(conn: sqlite3.Connection) -> list[dict[str, Any]]:
+    def count(sql: str) -> int:
+        return int(conn.execute(sql).fetchone()[0] or 0)
+
+    scoring_total = count("select count(*) from rounds where score is not null")
+    scoring_valid = count("select count(*) from rounds where score between 55 and 95")
+    scoring_quarantined = scoring_total - scoring_valid
+    scoring_profiles = count(
+        """
+        select count(*) from (
+          select player_id
+          from rounds
+          group by player_id
+          having sum(case when score between 55 and 95 then 1 else 0 end) >= 20
+        )
+        """
+    )
+
+    sg_total = count("select count(*) from strokes_gained where sg_total is not null")
+    sg_invalid = count("select count(*) from strokes_gained where sg_total is not null and (sg_total < -20 or sg_total > 20)")
+
+    distance_total = count("select count(*) from strokes_gained where driving_distance is not null")
+    distance_invalid = count(
+        "select count(*) from strokes_gained where driving_distance is not null and (driving_distance < 240 or driving_distance > 380)"
+    )
+
+    accuracy_total = count("select count(*) from strokes_gained where accuracy is not null")
+    accuracy_invalid = count("select count(*) from strokes_gained where accuracy is not null and (accuracy < 0 or accuracy > 1)")
+    gir_total = count("select count(*) from strokes_gained where gir is not null")
+    gir_invalid = count("select count(*) from strokes_gained where gir is not null and (gir < 0 or gir > 1)")
+    scrambling_total = count("select count(*) from strokes_gained where scrambling is not null")
+    scrambling_invalid = count("select count(*) from strokes_gained where scrambling is not null and (scrambling < 0 or scrambling > 1)")
+
+    major_profiles = count(
+        """
+        select count(*) from (
+          select r.player_id
+          from rounds r
+          join events e on e.event_id = r.event_id
+          where r.to_par is not null
+            and (
+              lower(e.event_name) like '%u.s. open%'
+              or lower(e.event_name) like '%us open%'
+              or lower(e.event_name) like '%masters%'
+              or lower(e.event_name) like '%pga championship%'
+              or lower(e.event_name) like '%open championship%'
+              or lower(e.event_name) = 'the open'
+              or lower(e.event_name) like '%the open%'
+            )
+          group by r.player_id
+          having count(*) >= 8
+        )
+        """
+    )
+    tough_profiles = count(
+        """
+        select count(*) from (
+          select r.player_id
+          from rounds r
+          join course_difficulty cd on cd.course_id = r.course_id
+          where r.to_par is not null
+            and cd.difficulty_bucket in ('brutal', 'tough')
+          group by r.player_id
+          having count(*) >= 8
+        )
+        """
+    )
+
+    skill_invalid = accuracy_invalid + gir_invalid + scrambling_invalid
+    checks = [
+        {
+            "label": "Scoring average",
+            "status": "good" if scoring_profiles >= 100 or (scoring_profiles and scoring_quarantined >= 0) else "watch",
+            "value": scoring_profiles,
+            "note": f"{scoring_profiles:,} qualified profiles; {scoring_quarantined:,} non-stroke-play rows quarantined",
+            "contract": "Requires 20 scores from 55-95 before appearing on scoring boards.",
+        },
+        {
+            "label": "Strokes gained",
+            "status": "good" if sg_total and sg_invalid <= 5 else "bad" if sg_invalid else "watch",
+            "value": sg_total,
+            "note": f"{sg_total:,} rows; {sg_invalid:,} outside -20 to +20",
+            "contract": "SG rows are checked for impossible outliers before they power model boards.",
+        },
+        {
+            "label": "Driving distance",
+            "status": "good" if distance_total and distance_invalid == 0 else "bad" if distance_invalid else "watch",
+            "value": distance_total,
+            "note": f"{distance_total:,} rows; {distance_invalid:,} outside 240-380 yards",
+            "contract": "Distance leaderboards require a plausible PGA driving range.",
+        },
+        {
+            "label": "Fairways / GIR / scrambling",
+            "status": "good" if (accuracy_total or gir_total or scrambling_total) and skill_invalid == 0 else "bad" if skill_invalid else "watch",
+            "value": accuracy_total + gir_total + scrambling_total,
+            "note": f"{skill_invalid:,} percentage rows outside 0-100%",
+            "contract": "Public percentage stats are stored as decimals from 0 to 1.",
+        },
+        {
+            "label": "Major boards",
+            "status": "good" if major_profiles >= 25 else "watch",
+            "value": major_profiles,
+            "note": f"{major_profiles:,} players with 8+ major rounds",
+            "contract": "Major rankings require current/recent profiles and 8+ major rounds.",
+        },
+        {
+            "label": "Tough-course boards",
+            "status": "good" if tough_profiles >= 25 else "watch",
+            "value": tough_profiles,
+            "note": f"{tough_profiles:,} players with 8+ brutal/tough rounds",
+            "contract": "Tough-course rankings require a real difficulty-bucket sample.",
+        },
+    ]
+    return checks
+
+
 def database_summary(conn: sqlite3.Connection) -> dict[str, Any]:
     counts = {
         table: conn.execute(f"select count(*) from {table}").fetchone()[0]
@@ -888,6 +1004,8 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         with recent as (
           select r.player_id,
                  count(r.round_id) as rounds,
+                 sum(case when r.score between 55 and 95 then 1 else 0 end) as scoring_rounds,
+                 round(avg(case when r.score between 55 and 95 then r.score end), 2) as scoring_average,
                  round(avg(r.to_par), 2) as avg_to_par,
                  round(avg(sg.sg_total), 2) as avg_sg_total,
                  min(r.round_date) as first_round,
@@ -897,7 +1015,8 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
           where r.player_id = ?
           group by r.player_id
         )
-        select p.*, rf.rounds, rf.avg_to_par, rf.avg_sg_total, rf.first_round, rf.last_round,
+        select p.*, rf.rounds, rf.scoring_rounds, rf.scoring_average,
+               rf.avg_to_par, rf.avg_sg_total, rf.first_round, rf.last_round,
                ps.sg_t2g, ps.sg_ott, ps.sg_app, ps.sg_arg, ps.sg_putt,
                ps.driving_distance, ps.accuracy, ps.gir, ps.scrambling
         from players p
@@ -1142,6 +1261,7 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         "hasAccuracy": player.get("accuracy") is not None,
         "hasGir": player.get("gir") is not None,
         "hasScrambling": player.get("scrambling") is not None,
+        "hasTrustedScoring": (player.get("scoring_rounds") or 0) >= 20 and player.get("scoring_average") is not None,
         "seasonProfiles": len(seasons["rows"]),
     }
     return {
@@ -1390,6 +1510,7 @@ def warehouse_health(conn: sqlite3.Connection) -> dict[str, Any]:
         "blockers": blockers,
         "quality": quality,
         "coverage": coverage,
+        "statQuality": _stat_quality_checks(conn),
         "automation": automation,
         "grade": "premium-ready" if not blockers else ("analysis-ready" if counts["rounds"] else "setup"),
     }
