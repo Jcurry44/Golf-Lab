@@ -90,7 +90,7 @@ function defaultPlayerFilters() {
     maxToughToPar: "",
     minMajorRounds: "",
     strength: "any",
-    sort: "model",
+    sort: "ranking",
   };
 }
 
@@ -111,28 +111,22 @@ function setStatus(text, tone = "neutral") {
 
 function viewMeta(view) {
   const event = summary?.selectedEvent || {};
-  const readiness = summary?.readiness || "ready";
   const eventName = event.event_name || "Modeled event";
   const meta = {
     players: {
-      eyebrow: `${eventName} | ${readiness}`,
-      title: "Golf Lab leaderboards.",
-      subtitle: "Rank the player database by model board, strokes gained, distance, GIR, tough-course form, and major profile.",
+      eyebrow: "PGA TOUR | PLAYER DATABASE",
+      title: "PGA Tour rankings.",
+      subtitle: "A world-ranking style player database built from scoring, strokes gained, distance, GIR, tough-course form, and major profile.",
     },
-    model: {
-      eyebrow: `${eventName} | projected standings`,
+    tournament: {
+      eyebrow: `${eventName} | weekly tournament`,
       title: "Tournament prediction center.",
-      subtitle: "Model tiers, projected leaders, fair prices, market edges, and plain-English reasoning.",
+      subtitle: "This week's event board: projected standings, model tiers, fair prices, market edges, and plain-English reasoning.",
     },
     courses: {
-      eyebrow: "Course difficulty",
+      eyebrow: "PGA TOUR | COURSE DATABASE",
       title: "Course Lab.",
       subtitle: "Find the hardest setups, gettable tracks, and players whose profiles fit each course.",
-    },
-    overview: {
-      eyebrow: `${eventName} | event context`,
-      title: "Event command center.",
-      subtitle: "Field size, course setup, weather windows, model readiness, and warehouse coverage in one scan.",
     },
     data: {
       eyebrow: "Trust layer",
@@ -170,12 +164,12 @@ function setView(view, options = {}) {
 function renderSummary() {
   const counts = summary.counts || {};
   $("#railProof").textContent = `${fmt(counts.players)} players | ${fmt(counts.rounds)} rounds`;
-  setStatus(summary.readiness || "ready", summary.readiness === "model-ready" ? "good" : "watch");
+  setStatus("PGA Tour DB", counts.players ? "good" : "watch");
 
   const event = summary.selectedEvent || {};
   renderViewHeader();
   $("#eventCard").innerHTML = `
-    <p class="eyebrow">Event context</p>
+    <p class="eyebrow">Weekly tournament</p>
     <h2>${escapeHtml(event.event_name || "No event loaded")}</h2>
     <div class="event-meta">
       <span>${escapeHtml(event.course_name || "Course pending")}</span>
@@ -309,6 +303,31 @@ function statValue(profile, key) {
   return value === null ? null : value;
 }
 
+function labRankScore(row, profile) {
+  const sg = statValue(profile, "avg_sg_total") ?? -4;
+  const t2g = statValue(profile, "sg_t2g") ?? 0;
+  const scoring = statValue(profile, "scoring_average");
+  const qualifiedRounds = (numeric(profile?.rounds) || 0) >= 20;
+  const scoringBonus = qualifiedRounds && scoring !== null && scoring >= 60
+    ? Math.max(0, 72.5 - scoring) * 4
+    : 0;
+  const rounds = Math.min(numeric(profile?.rounds) || 0, 240);
+  const majorRounds = Math.min(numeric(profile?.major_rounds) || 0, 60);
+  const toughRounds = Math.min(numeric(profile?.tough_rounds) || 0, 80);
+  const samplePenalty = qualifiedRounds ? 0 : 260;
+  return (sg * 100) + (t2g * 24) + scoringBonus + (rounds / 12) + (majorRounds / 6) + (toughRounds / 10) - samplePenalty;
+}
+
+function compareLabRank(a, b) {
+  const aq = (numeric(a.profile?.rounds) || 0) >= 20;
+  const bq = (numeric(b.profile?.rounds) || 0) >= 20;
+  if (aq !== bq) return aq ? -1 : 1;
+  const av = labRankScore(a.row, a.profile);
+  const bv = labRankScore(b.row, b.profile);
+  if (av !== bv) return bv - av;
+  return compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name);
+}
+
 function compareDesc(a, b, key) {
   const av = statValue(a.profile, key);
   const bv = statValue(b.profile, key);
@@ -329,6 +348,7 @@ function compareAsc(a, b, key) {
 
 function sortDecoratedPlayers(rows) {
   return rows.sort((a, b) => {
+    if (playerFilters.sort === "ranking") return compareLabRank(a, b);
     if (playerFilters.sort === "distance") return compareDesc(a, b, "driving_distance") || a.row.player_name.localeCompare(b.row.player_name);
     if (playerFilters.sort === "gir") return compareDesc(a, b, "gir") || a.row.player_name.localeCompare(b.row.player_name);
     if (playerFilters.sort === "tough") return compareAsc(a, b, "tough_avg_to_par") || compareDesc(a, b, "tough_rounds");
@@ -547,17 +567,17 @@ function renderLeaderboards() {
   const target = $("#leaderboardGrid");
   if (!target) return;
   const rows = decoratedLibraryRows();
-  const modelRows = [...rows]
-    .filter(({ row }) => numeric(row.rank) !== null)
-    .sort((a, b) => numeric(a.row.rank) - numeric(b.row.rank))
+  const rankingRows = [...rows]
+    .filter(({ profile }) => (numeric(profile.rounds) || 0) >= 20)
+    .sort(compareLabRank)
     .slice(0, 5);
   target.innerHTML = [
     leaderboardList(
-      "Model board",
-      "Projected ranking",
-      modelRows,
-      (row) => `#${fmt(row.rank)}`,
-      (row) => `${pct(Number(row.probability || 0) * 100)} win | ${row.confidence || "model"}`
+      "Golf Lab Index",
+      "Tour ranking",
+      rankingRows,
+      (row, profile) => signed(profile.avg_sg_total),
+      (row, profile) => `${fmt(profile.rounds)} rounds | Score ${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}`
     ),
     leaderboardList(
       "Strokes gained",
@@ -600,7 +620,7 @@ function renderLeaderboards() {
 function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
   const allRows = playerPayload.rows || [];
   const decoratedRows = sortDecoratedPlayers(decoratedLibraryRows());
-  const rows = decoratedRows.slice(0, limit);
+  const rows = decoratedRows.slice(0, limit).map((item, index) => ({ ...item, displayRank: index + 1 }));
   renderLeaderboards();
   const count = $("#playerCount");
   if (count) {
@@ -608,22 +628,23 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
     count.textContent = `${fmt(decoratedRows.length)} of ${fmt(allRows.length)} player cards | ${label}`;
   }
   renderCompareTray();
-  $("#playerCards").innerHTML = rows.map(({ row, profile }) => {
+  $("#playerCards").innerHTML = rows.map(({ row, profile, displayRank }) => {
     const selected = comparePlayerIds.includes(row.player_id);
+    const rankLabel = playerFilters.sort === "model" && row.rank ? `#${escapeHtml(row.rank)}` : `#${fmt(displayRank)}`;
     return `
     <article class="player-card ${selected ? "is-selected" : ""}">
       <div class="player-card-head">
-        <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
+        <div class="rank">${rankLabel}</div>
         <div>
           <h3>${escapeHtml(row.player_name)}</h3>
           <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} imported scorecards${playerFilters.season === "all" ? "" : ` | ${escapeHtml(playerFilters.season)}`}</p>
         </div>
-        <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.modeled ? "Model" : (row.confidence || "watch"))}</div>
+        <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.modeled ? "Tournament field" : (row.confidence || "watch"))}</div>
       </div>
       <div class="card-stats">
-        ${metric("Win", pct(Number(row.probability || 0) * 100))}
+        ${metric("Lab rank", `#${fmt(displayRank)}`)}
         ${metric("SG", signed(profile.avg_sg_total))}
-        ${metric("Tough", signed(profile.tough_avg_to_par))}
+        ${metric("Scoring", profile.scoring_average ? fmt(profile.scoring_average, 2) : "--")}
       </div>
       <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
       <div class="scorecard-footer">
@@ -712,7 +733,7 @@ function renderPredictionCenter() {
   `;
 }
 
-function renderModel(limit = currentView === "model" ? 40 : 10) {
+function renderModel(limit = currentView === "tournament" ? 40 : 10) {
   const rows = (modelPayload.rows || []).slice(0, limit);
   renderPredictionCenter();
   $("#modelBoard").innerHTML = `
@@ -912,7 +933,8 @@ function bindEvents() {
 
 function viewFromHash() {
   const hash = location.hash.replace("#", "");
-  if (["players", "model", "courses", "overview", "data"].includes(hash)) return hash;
+  if (hash === "model" || hash === "event" || hash === "overview") return "tournament";
+  if (["players", "tournament", "courses", "data"].includes(hash)) return hash;
   return "players";
 }
 

@@ -22,9 +22,8 @@
         </div>
         <nav class="nav" aria-label="Golf Lab views">
           <button class="active" type="button" data-view="players" aria-pressed="true">Players</button>
-          <button type="button" data-view="model">Model</button>
+          <button type="button" data-view="tournament">Tournament</button>
           <button type="button" data-view="courses">Courses</button>
-          <button type="button" data-view="overview">Event</button>
           <button type="button" data-view="data">Data</button>
         </nav>
         <div class="rail-proof" id="railProof">Connecting to warehouse...</div>
@@ -45,22 +44,22 @@
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Rankings</p>
-                <h2>Leaderboards</h2>
+                <h2>PGA Tour Rankings</h2>
               </div>
-              <button type="button" class="ghost-button" data-view-jump="model">Tournament model</button>
+              <button type="button" class="ghost-button" data-view-jump="tournament">This week's tournament</button>
             </div>
             <div id="leaderboardGrid" class="leaderboard-grid"></div>
           </article>
         </section>
 
-        <section class="scorecard-stage" data-panel="overview">
+        <section class="scorecard-stage" data-panel="tournament">
           <article class="event-card" id="eventCard"></article>
         </section>
 
-        <section class="metric-grid" id="metricGrid" data-panel="overview"></section>
+        <section class="metric-grid" id="metricGrid" data-panel="tournament"></section>
 
         <section class="workspace">
-          <article class="panel wide player-panel" data-panel="players overview">
+          <article class="panel wide player-panel" data-panel="players">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Player scorecards</p>
@@ -71,7 +70,7 @@
                   <span>Search</span>
                   <input id="playerSearch" type="search" autocomplete="off" placeholder="Player, country, profile note">
                 </label>
-                <button type="button" class="ghost-button" data-view-jump="model">Model board</button>
+                <button type="button" class="ghost-button" data-view-jump="tournament">Tournament board</button>
               </div>
             </div>
             <div class="filter-console" id="playerFilterConsole">
@@ -85,8 +84,8 @@
                 <span>Scope</span>
                 <select data-player-filter="scope">
                   <option value="all">All players</option>
-                  <option value="modeled">Modeled field</option>
-                  <option value="database">Database only</option>
+                  <option value="modeled">Tournament field</option>
+                  <option value="database">Full database only</option>
                 </select>
               </label>
               <label>
@@ -147,7 +146,8 @@
               <label>
                 <span>Sort</span>
                 <select data-player-filter="sort">
-                  <option value="model">Model rank</option>
+                  <option value="ranking">Golf Lab rank</option>
+                  <option value="model">Tournament model</option>
                   <option value="sg">Strokes gained</option>
                   <option value="distance">Driving distance</option>
                   <option value="gir">GIR</option>
@@ -165,11 +165,11 @@
             <div id="playerActions" class="player-actions"></div>
           </article>
 
-          <article class="panel wide" data-panel="model players">
+          <article class="panel wide" data-panel="tournament">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Projected standings</p>
-                <h2>Model Board</h2>
+                <h2>Tournament Board</h2>
               </div>
               <button type="button" class="ghost-button" data-view-jump="players">Player cards</button>
             </div>
@@ -177,7 +177,7 @@
             <div id="modelBoard" class="model-board"></div>
           </article>
 
-          <article class="panel wide" data-panel="courses overview">
+          <article class="panel wide" data-panel="courses">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Course difficulty</p>
