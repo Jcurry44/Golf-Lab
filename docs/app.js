@@ -1,7 +1,7 @@
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => Array.from(document.querySelectorAll(selector));
 
-let currentView = "overview";
+let currentView = "players";
 let summary = null;
 let eventBoard = null;
 let playerPayload = null;
@@ -46,6 +46,11 @@ function pct(value) {
   return `${fmt(numeric, 1)}%`;
 }
 
+function pctDecimal(value) {
+  if (value === null || value === undefined || value === "") return "--";
+  return pct(Number(value) * 100);
+}
+
 function signed(value, digits = 1) {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "--";
@@ -84,8 +89,11 @@ function renderSummary() {
   setStatus(summary.readiness || "ready", summary.readiness === "model-ready" ? "good" : "watch");
 
   const event = summary.selectedEvent || {};
+  $("#topEyebrow").textContent = `${event.event_name || "Modeled event"} | ${summary.readiness || "loading"}`;
+  $("#heroTitle").textContent = "Player scorecards. Fast decisions.";
+  $("#heroSubtitle").textContent = `${fmt(counts.players)} players | ${fmt(counts.rounds)} scorecards | model and market reads.`;
   $("#eventCard").innerHTML = `
-    <p class="eyebrow">Current modeled event</p>
+    <p class="eyebrow">Event context</p>
     <h2>${escapeHtml(event.event_name || "No event loaded")}</h2>
     <div class="event-meta">
       <span>${escapeHtml(event.course_name || "Course pending")}</span>
@@ -116,7 +124,8 @@ function renderSummary() {
 }
 
 function metric(label, value, note = "") {
-  return `<div><span>${escapeHtml(label)}</span><strong>${fmt(value)}</strong>${note ? `<small>${escapeHtml(note)}</small>` : ""}</div>`;
+  const rendered = typeof value === "number" ? fmt(value) : (value ?? "--");
+  return `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(rendered)}</strong>${note ? `<small>${escapeHtml(note)}</small>` : ""}</div>`;
 }
 
 function renderEvent() {
@@ -125,29 +134,64 @@ function renderEvent() {
   const avgWind = weather.length
     ? weather.reduce((sum, row) => sum + (Number(row.wind_mph) || 0), 0) / weather.length
     : null;
-  $("#setupSignal").textContent = event.course_name
-    ? `${event.course_name} ${avgWind ? `| ${fmt(avgWind)} mph wind` : ""}`
-    : "Waiting for event data";
-  $("#setupCopy").textContent = event.location
-    ? `${event.location}. Course, field, weather, odds, and model context come from the SQLite warehouse.`
-    : "Import the PGA warehouse to populate the live event desk.";
+  if (avgWind) {
+    $("#eventCard").insertAdjacentHTML("beforeend", `<p class="event-note">Weather signal: ${fmt(avgWind)} mph average wind in loaded forecast windows.</p>`);
+  }
+}
+
+function confidenceTone(value) {
+  const text = String(value || "").toLowerCase();
+  if (text.includes("thin") || text.includes("watch")) return "watch";
+  if (text.includes("high")) return "good";
+  return "neutral";
+}
+
+function renderFeaturedPlayer() {
+  const row = (playerPayload.rows || [])[0];
+  if (!row) {
+    $("#featuredPlayer").innerHTML = empty("No player scorecard loaded yet.");
+    return;
+  }
+  $("#featuredPlayer").innerHTML = `
+    <div class="featured-inner">
+      <div>
+        <span class="featured-rank">Model rank #${escapeHtml(row.rank || "--")}</span>
+        <h2>${escapeHtml(row.player_name)}</h2>
+        <p class="featured-copy">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
+      </div>
+      <div class="featured-metrics">
+        ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
+        ${metric("Recent SG", signed(row.avg_sg_total))}
+        ${metric("Tracked rounds", row.rounds)}
+      </div>
+    </div>
+  `;
 }
 
 function renderPlayers(limit = currentView === "players" ? 48 : 8) {
   const rows = (playerPayload.rows || []).slice(0, limit);
+  renderFeaturedPlayer();
   $("#playerCards").innerHTML = rows.map((row) => `
     <button type="button" class="player-card" data-player-id="${escapeHtml(row.player_id)}">
-      <div class="rank">#${escapeHtml(row.rank || "--")}</div>
-      <div>
-        <h3>${escapeHtml(row.player_name)}</h3>
-        <p>${escapeHtml(row.country || "PGA")} | ${fmt(row.rounds)} tracked rounds</p>
+      <div class="player-card-head">
+        <div class="rank">#${escapeHtml(row.rank || "--")}</div>
+        <div>
+          <h3>${escapeHtml(row.player_name)}</h3>
+          <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(row.rounds)} tracked rounds</p>
+        </div>
+        <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.confidence || "watch")}</div>
       </div>
       <div class="card-stats">
         ${metric("Win", pct(Number(row.probability || 0) * 100))}
-        ${metric("Proj", signed(row.projected_to_par))}
         ${metric("SG", signed(row.avg_sg_total))}
+        ${metric("Avg", signed(row.avg_to_par))}
       </div>
       <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
+      <div class="scorecard-footer">
+        <span>Market Edge <strong>${signed(row.edge_probability, 2)}</strong></span>
+        <span>Accuracy <strong>${pctDecimal(row.accuracy)}</strong></span>
+        <span>GIR <strong>${pctDecimal(row.gir)}</strong></span>
+      </div>
     </button>
   `).join("") || empty("No player cards yet.");
 }
@@ -311,7 +355,7 @@ async function boot() {
     renderCourses();
     renderModel();
     renderHealth();
-    setView("overview");
+    setView("players");
   } catch (error) {
     showError(error);
     $("#eventCard").innerHTML = empty("Database not ready. Run python golf_lab_import.py --seed-starter or import the PGA warehouse.");

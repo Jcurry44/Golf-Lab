@@ -14,68 +14,57 @@
           <div class="brand-mark">GL</div>
           <div>
             <p>Golf Lab</p>
-            <strong>Pro Intelligence</strong>
+            <strong>Player Lab</strong>
           </div>
         </div>
         <nav class="nav" aria-label="Golf Lab views">
-          <button class="active" type="button" data-view="overview">Overview</button>
-          <button type="button" data-view="players">Player Cards</button>
-          <button type="button" data-view="courses">Course Lab</button>
-          <button type="button" data-view="model">Model Board</button>
-          <button type="button" data-view="data">Data Room</button>
+          <button class="active" type="button" data-view="players">Players</button>
+          <button type="button" data-view="model">Model</button>
+          <button type="button" data-view="courses">Courses</button>
+          <button type="button" data-view="overview">Event</button>
+          <button type="button" data-view="data">Data</button>
         </nav>
         <div class="rail-proof" id="railProof">Connecting to warehouse...</div>
       </aside>
 
-      <main>
+      <main class="main">
         <section class="topbar">
           <div>
-            <p class="eyebrow">Blue Line architecture</p>
-            <h1>Professional golf intelligence, database-first.</h1>
+            <p class="eyebrow" id="topEyebrow">Player scorecards</p>
+            <h1 id="heroTitle">Professional golf player cards.</h1>
+            <p id="heroSubtitle">Model context, course fit, scorecard history, and plain-English reasoning in one scan.</p>
           </div>
           <div class="status-pill" id="statusPill">Loading</div>
         </section>
 
-        <section class="hero-grid" data-panel="overview">
+        <section class="scorecard-stage" data-panel="players overview">
+          <article class="featured-player" id="featuredPlayer"></article>
           <article class="event-card" id="eventCard"></article>
-          <article class="course-visual" aria-label="Course pressure visual">
-            <div class="hole-map">
-              <span class="tee"></span>
-              <span class="fairway"></span>
-              <span class="green"></span>
-              <span class="pin"></span>
-            </div>
-            <div>
-              <p class="eyebrow">Setup Signal</p>
-              <h2 id="setupSignal">Waiting for event data</h2>
-              <p id="setupCopy">The app now reads the pro warehouse through API endpoints instead of a browser import.</p>
-            </div>
-          </article>
         </section>
 
         <section class="metric-grid" id="metricGrid" data-panel="overview"></section>
 
         <section class="workspace">
-          <article class="panel wide" data-panel="overview model">
-            <div class="panel-heading">
-              <div>
-                <p class="eyebrow">Projected standings</p>
-                <h2>Model Board</h2>
-              </div>
-              <button type="button" class="ghost-button" data-view-jump="model">Open board</button>
-            </div>
-            <div id="modelBoard" class="model-board"></div>
-          </article>
-
-          <article class="panel wide" data-panel="players overview">
+          <article class="panel wide player-panel" data-panel="players overview">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Player scorecards</p>
                 <h2>Field Intelligence</h2>
               </div>
-              <button type="button" class="ghost-button" data-view-jump="players">All players</button>
+              <button type="button" class="ghost-button" data-view-jump="model">Model board</button>
             </div>
             <div id="playerCards" class="player-grid"></div>
+          </article>
+
+          <article class="panel wide" data-panel="model players">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Projected standings</p>
+                <h2>Model Board</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="players">Player cards</button>
+            </div>
+            <div id="modelBoard" class="model-board"></div>
           </article>
 
           <article class="panel wide" data-panel="courses overview">
@@ -111,4 +100,3 @@
     </div>
   </body>
 </html>
-
