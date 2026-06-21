@@ -61,6 +61,33 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertIn("course_dna", payload["gradeExplanations"])
         self.assertIsNotNone(payload["model"])
 
+    def test_player_detail_headline_model_uses_winner_market(self) -> None:
+        with connect(self.db) as conn:
+            conn.execute(
+                """
+                insert into model_predictions (
+                  prediction_id, model_run_id, event_id, player_id, player_name,
+                  market, rank, probability, fair_odds_american, edge_probability,
+                  projected_to_par, confidence, plain_english, created_at,
+                  source_provider, source_url, source_updated_at
+                )
+                values (
+                  'starter-model-scottie-scheffler-cut', 'starter-model-run',
+                  'starter-us-open-2026', 'scottie-scheffler', 'Scottie Scheffler',
+                  'make cut', 1, 0.915, -1076, 0.01, null, 'High',
+                  'Model sees him as a top-tier win profile. Win probability sits at 91.5%.',
+                  '2026-06-22T00:00:00Z', 'test', 'test', '2026-06-22T00:00:00Z'
+                )
+                """
+            )
+            conn.commit()
+
+        with connect(self.db, readonly=True) as conn:
+            payload = player_card(conn, "scottie-scheffler", "starter-us-open-2026")
+
+        self.assertEqual(payload["model"]["market"], "winner")
+        self.assertLess(payload["model"]["probability"], 0.5)
+
     def test_model_and_course_boards(self) -> None:
         with connect(self.db, readonly=True) as conn:
             model = model_board(conn, limit=10)

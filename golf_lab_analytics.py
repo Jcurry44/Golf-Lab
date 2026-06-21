@@ -40,9 +40,41 @@ def _num(value: Any) -> float | None:
         return None
 
 
+def _market_text(market: Any) -> str:
+    return (str(market or "winner").strip().lower() or "winner")
+
+
+def _market_probability_label(market: Any) -> str:
+    labels = {
+        "winner": "Win probability",
+        "top 10": "Top-10 probability",
+        "top 20": "Top-20 probability",
+        "make cut": "Make-cut probability",
+    }
+    text = _market_text(market)
+    return labels.get(text, f"{text.title()} probability")
+
+
+def _market_profile_label(market: Any) -> str:
+    labels = {
+        "winner": "win",
+        "top 10": "top-10",
+        "top 20": "top-20",
+        "make cut": "make-cut",
+    }
+    text = _market_text(market)
+    return labels.get(text, text.replace(" ", "-"))
+
+
 def _generated_reason(row: dict[str, Any]) -> str:
+    market = _market_text(row.get("market"))
+    probability_label = _market_probability_label(market)
+    profile_label = _market_profile_label(market)
     saved = (row.get("plain_english") or "").strip()
     if saved:
+        if market != "winner":
+            saved = saved.replace("Win probability sits", f"{probability_label} sits")
+            saved = saved.replace("top-tier win profile", f"top-tier {profile_label} profile")
         return saved
     pieces: list[str] = []
     rank = _num(row.get("rank"))
@@ -55,11 +87,17 @@ def _generated_reason(row: dict[str, Any]) -> str:
     edge = _num(row.get("edge_probability"))
 
     if rank is not None and rank <= 5:
-        pieces.append("Model sees him as a top-tier win profile")
+        pieces.append(f"Model sees him as a top-tier {profile_label} profile")
     elif rank is not None and rank <= 20:
-        pieces.append("Model keeps him in the live contender tier")
+        if market == "winner":
+            pieces.append("Model keeps him in the live contender tier")
+        else:
+            pieces.append(f"Model keeps him in the strong {profile_label} tier")
     elif rank is not None:
-        pieces.append("Model needs a cleaner path than the market leaders")
+        if market == "winner":
+            pieces.append("Model needs a cleaner path than the market leaders")
+        else:
+            pieces.append(f"Model needs more separation from the {profile_label} leaders")
 
     if avg_sg is not None:
         if avg_sg >= 1.0:
@@ -72,7 +110,7 @@ def _generated_reason(row: dict[str, Any]) -> str:
         pieces.append(f"Recent rounds average {avg_to_par:+.2f} to par")
 
     if probability is not None:
-        pieces.append(f"Win probability sits at {probability * 100:.1f}%")
+        pieces.append(f"{probability_label} sits at {probability * 100:.1f}%")
     if edge is not None:
         if edge > 0.02:
             pieces.append("Price is better than the model number")
@@ -1244,8 +1282,9 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
                edge_probability, projected_to_par, confidence, plain_english, risk_flags
         from latest_model
         where player_id = ?
+          and market = 'winner'
           and (? = '' or event_id = ?)
-        order by created_at desc, rank
+        order by created_at desc, coalesce(rank, 9999)
         limit 1
         """,
         (player_id, event_id or "", event_id or ""),

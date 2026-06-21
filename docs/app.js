@@ -19,7 +19,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-player-trust";
+const BUILD_VERSION = "20260621-winner-market";
 const RECENT_PROFILE_CUTOFF = "2023-01-01";
 
 function versionedPath(path) {
