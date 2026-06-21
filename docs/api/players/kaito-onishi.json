@@ -350,6 +350,107 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.09
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.74
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.69
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.86
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -1.35
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.29
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 3,
+        "scoring_average": 49.0,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -0.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-20"
+      },
+      {
+        "season": 2025,
+        "rounds": 37,
+        "scoring_average": 67.78,
+        "avg_to_par": 0.49,
+        "avg_sg_total": -1.153,
+        "sg_t2g": -1.229,
+        "sg_ott": -0.723,
+        "sg_app": -0.378,
+        "sg_arg": -0.128,
+        "sg_putt": 0.077,
+        "driving_distance": 298.2,
+        "accuracy": 0.5993,
+        "gir": 0.6315,
+        "scrambling": 0.6156,
+        "last_round": "2025-11-21"
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +464,14 @@
     "risk_flags": "",
     "avg_sg_total": -1.6,
     "avg_to_par": 0.64
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
   }
 }

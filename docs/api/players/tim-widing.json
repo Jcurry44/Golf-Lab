@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.09
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.79
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.69
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.44
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.35
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.71
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 67.2,
+        "avg_to_par": -0.45,
+        "avg_sg_total": -1.005,
+        "sg_t2g": -0.753,
+        "sg_ott": -0.009,
+        "sg_app": -0.384,
+        "sg_arg": -0.36,
+        "sg_putt": -0.251,
+        "driving_distance": 312.9,
+        "accuracy": 0.558,
+        "gir": 0.6606,
+        "scrambling": 0.5374,
+        "last_round": "2025-11-21"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

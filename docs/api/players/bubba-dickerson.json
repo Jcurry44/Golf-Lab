@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.9
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -1.9
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.66
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -3.06
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.5
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.34
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2014,
+        "rounds": 6,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.83,
+        "avg_sg_total": -1.43,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-04-06"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -1.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-06-17"
+      },
+      {
+        "season": 2009,
+        "rounds": 4,
+        "scoring_average": 73.25,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -1.13,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-05"
+      },
+      {
+        "season": 2008,
+        "rounds": 10,
+        "scoring_average": 70.7,
+        "avg_to_par": -1.3,
+        "avg_sg_total": 0.26,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 18,
+        "scoring_average": 71.83,
+        "avg_to_par": 0.22,
+        "avg_sg_total": -1.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

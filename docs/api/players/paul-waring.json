@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.88
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.02
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.94
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.43
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.24
+      },
+      {
+        "course": "Innisbrook Resort and Golf Club - Copperhead Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.77
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 14,
+        "scoring_average": 70.79,
+        "avg_to_par": -0.36,
+        "avg_sg_total": -0.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-04-05"
+      },
+      {
+        "season": 2025,
+        "rounds": 26,
+        "scoring_average": 71.31,
+        "avg_to_par": 0.38,
+        "avg_sg_total": -1.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-11"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 2
+  }
 }

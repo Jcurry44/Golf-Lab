@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": 0.21
+      },
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.28
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.91
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.06
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.2
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": -0.49
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 69.5,
+        "avg_to_par": -1.35,
+        "avg_sg_total": -0.152,
+        "sg_t2g": 0.252,
+        "sg_ott": 0.389,
+        "sg_app": -0.318,
+        "sg_arg": 0.181,
+        "sg_putt": -0.404,
+        "driving_distance": 306.6,
+        "accuracy": 0.5435,
+        "gir": 0.6576,
+        "scrambling": 0.5961,
+        "last_round": "2025-11-23"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.499,
+        "sg_t2g": 0.579,
+        "sg_ott": 0.404,
+        "sg_app": 0.181,
+        "sg_arg": -0.006,
+        "sg_putt": -0.079,
+        "driving_distance": 317.1,
+        "accuracy": 0.5333,
+        "gir": 0.6763,
+        "scrambling": 0.5835,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.698,
+        "sg_t2g": 0.892,
+        "sg_ott": 0.447,
+        "sg_app": 0.048,
+        "sg_arg": 0.396,
+        "sg_putt": -0.194,
+        "driving_distance": 315.6,
+        "accuracy": 0.5217,
+        "gir": 0.6413,
+        "scrambling": 0.649,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

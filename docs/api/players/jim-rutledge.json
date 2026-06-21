@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -5.42
+      },
+      {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.74
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.17
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -2.19
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.21
+      },
+      {
+        "course": "Angus Glen Golf Club - North Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.08
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -3.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-23"
+      },
+      {
+        "season": 2008,
+        "rounds": 8,
+        "scoring_average": 71.13,
+        "avg_to_par": -0.63,
+        "avg_sg_total": -0.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-12-08"
+      },
+      {
+        "season": 2007,
+        "rounds": 30,
+        "scoring_average": 71.97,
+        "avg_to_par": 0.67,
+        "avg_sg_total": -1.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-11-02"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

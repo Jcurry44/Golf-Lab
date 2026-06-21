@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Bethpage State Park - Black Course",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -1.32
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.71
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.11
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -1.58
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.16
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.35
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2019,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-10-05"
+      },
+      {
+        "season": 2009,
+        "rounds": 10,
+        "scoring_average": 72.2,
+        "avg_to_par": 1.0,
+        "avg_sg_total": 0.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2007,
+        "rounds": 28,
+        "scoring_average": 71.43,
+        "avg_to_par": -0.18,
+        "avg_sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-11-04"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

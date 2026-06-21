@@ -206,5 +206,120 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.75
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.56
+      },
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.06
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.27
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 69.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 0.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-12"
+      },
+      {
+        "season": 2009,
+        "rounds": 6,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-12-07"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 73.25,
+        "avg_to_par": 2.75,
+        "avg_sg_total": -3.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-07-28"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

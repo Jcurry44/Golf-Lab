@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 10.0,
+        "avg_sg": -6.94
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -0.17
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.89
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": 0.0
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -3.34
+      },
+      {
+        "course": "Bethpage State Park - Black Course",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 1.43
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2014,
+        "rounds": 2,
+        "scoring_average": 80.0,
+        "avg_to_par": 10.0,
+        "avg_sg_total": -6.94,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-13"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": 0.0,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-06-18"
+      },
+      {
+        "season": 2009,
+        "rounds": 14,
+        "scoring_average": 72.07,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.63,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-07-17"
+      },
+      {
+        "season": 2008,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -0.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-07-18"
+      },
+      {
+        "season": 2007,
+        "rounds": 4,
+        "scoring_average": 71.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-01-14"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 69.25,
+        "avg_to_par": -2.75,
+        "avg_sg_total": 0.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-22"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

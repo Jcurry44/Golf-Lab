@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.68
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.45
+      },
+      {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.07
+      },
+      {
+        "course": null,
+        "rounds": 5,
+        "avg_to_par": 1.6,
+        "avg_sg": -2.38
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.49
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.62
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 72.75,
+        "avg_to_par": 0.75,
+        "avg_sg_total": 0.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-05-05"
+      },
+      {
+        "season": 2012,
+        "rounds": 6,
+        "scoring_average": 72.83,
+        "avg_to_par": 0.83,
+        "avg_sg_total": -2.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-12-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 30,
+        "scoring_average": 71.3,
+        "avg_to_par": 0.37,
+        "avg_sg_total": -1.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-02"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

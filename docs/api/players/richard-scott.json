@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -2.34
+      },
+      {
+        "course": "Angus Glen Golf Club - North Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.58
+      },
+      {
+        "course": "Hamilton G&CC",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.53
+      },
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": 0.67,
+        "avg_sg": -0.58
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.55
+      },
+      {
+        "course": "Jack Nicklaus (Tournament)",
+        "rounds": 6,
+        "avg_to_par": -0.83,
+        "avg_sg": -0.6
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2012,
+        "rounds": 6,
+        "scoring_average": 71.17,
+        "avg_to_par": -0.83,
+        "avg_sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-12-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 10,
+        "scoring_average": 71.6,
+        "avg_to_par": 0.4,
+        "avg_sg_total": -0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      },
+      {
+        "season": 2007,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.58,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-07-27"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 70.75,
+        "avg_to_par": 0.75,
+        "avg_sg_total": -0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-10"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -2.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-09-09"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

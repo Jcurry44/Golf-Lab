@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -4.05
+      },
+      {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -5.17
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -3.98
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.01
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": 1.88,
+        "avg_sg": -2.3
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.08
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 79.0,
+        "avg_to_par": 7.0,
+        "avg_sg_total": -7.3,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-02-26"
+      },
+      {
+        "season": 2020,
+        "rounds": 8,
+        "scoring_average": 73.25,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -2.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-02-21"
+      },
+      {
+        "season": 2019,
+        "rounds": 10,
+        "scoring_average": 73.2,
+        "avg_to_par": 1.4,
+        "avg_sg_total": -2.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-19"
+      },
+      {
+        "season": 2018,
+        "rounds": 14,
+        "scoring_average": 71.93,
+        "avg_to_par": 0.93,
+        "avg_sg_total": -1.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-20"
+      },
+      {
+        "season": 2017,
+        "rounds": 6,
+        "scoring_average": 70.83,
+        "avg_to_par": -0.5,
+        "avg_sg_total": -0.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-23"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

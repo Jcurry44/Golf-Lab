@@ -240,5 +240,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.15
+      },
+      {
+        "course": "TPC Harding Park",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.79
+      },
+      {
+        "course": "TPC Sugarloaf",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.46
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.31
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.49
+      },
+      {
+        "course": "Country Club at Mirasol",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.03
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2020,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -2.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-07"
+      },
+      {
+        "season": 2019,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -2.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-05-17"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.49,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-06-25"
+      },
+      {
+        "season": 2009,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -0.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-03-06"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": 1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-03-12"
+      },
+      {
+        "season": 2003,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -2.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2003-04-04"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

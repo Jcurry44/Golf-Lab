@@ -350,5 +350,234 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.96
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.28
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.82
+      },
+      {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.93
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 3,
+        "avg_to_par": 1.67,
+        "avg_sg": -2.49
+      },
+      {
+        "course": "RTJ Trail (Grand National)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.8
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 12,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -0.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-01"
+      },
+      {
+        "season": 2021,
+        "rounds": 3,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.33,
+        "avg_sg_total": -4.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-06-10"
+      },
+      {
+        "season": 2018,
+        "rounds": 1,
+        "scoring_average": 78.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -6.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-10-26"
+      },
+      {
+        "season": 2017,
+        "rounds": 4,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -1.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-21"
+      },
+      {
+        "season": 2016,
+        "rounds": 10,
+        "scoring_average": 71.7,
+        "avg_to_par": 0.9,
+        "avg_sg_total": -1.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-12"
+      },
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -4.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-07-24"
+      },
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-19"
+      },
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 77.0,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -3.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-04-20"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.99,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-08-07"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 9
+  }
 }

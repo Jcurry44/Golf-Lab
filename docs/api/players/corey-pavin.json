@@ -350,5 +350,200 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -6.3
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.32
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 18,
+        "avg_to_par": 0.72,
+        "avg_sg": -0.76
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.43
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.81
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 6,
+        "avg_to_par": -2.0,
+        "avg_sg": 1.11
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 2,
+        "scoring_average": 75.5,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -5.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-05-23"
+      },
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -3.71,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-05-22"
+      },
+      {
+        "season": 2014,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-05-23"
+      },
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 71.5,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-05-24"
+      },
+      {
+        "season": 2012,
+        "rounds": 8,
+        "scoring_average": 69.63,
+        "avg_to_par": -0.38,
+        "avg_sg_total": 0.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-05-27"
+      },
+      {
+        "season": 2011,
+        "rounds": 12,
+        "scoring_average": 71.67,
+        "avg_to_par": 0.67,
+        "avg_sg_total": -0.77,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-06-24"
+      },
+      {
+        "season": 2010,
+        "rounds": 10,
+        "scoring_average": 69.0,
+        "avg_to_par": -1.4,
+        "avg_sg_total": 0.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-08-13"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 7
+  }
 }

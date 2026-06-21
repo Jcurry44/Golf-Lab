@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.69
+      },
+      {
+        "course": "TPC Kuala Lumpur",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.04
+      },
+      {
+        "course": "Torrey Pines (South)",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": 0.77
+      },
+      {
+        "course": "The Concession Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.38
+      },
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.15
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -1.2
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2021,
+        "rounds": 12,
+        "scoring_average": 71.92,
+        "avg_to_par": 0.92,
+        "avg_sg_total": -0.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-08-08"
+      },
+      {
+        "season": 2018,
+        "rounds": 8,
+        "scoring_average": 70.88,
+        "avg_to_par": 0.38,
+        "avg_sg_total": -0.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-05"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-06-16"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 74.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -2.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-10-27"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -1.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

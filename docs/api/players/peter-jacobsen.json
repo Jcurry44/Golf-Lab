@@ -350,5 +350,200 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Winged Foot Golf Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -0.48
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 6,
+        "avg_to_par": 5.67,
+        "avg_sg": -6.25
+      },
+      {
+        "course": "Westchester Country Club - West Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.26
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.02
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": 1.9
+      },
+      {
+        "course": null,
+        "rounds": 12,
+        "avg_to_par": 1.67,
+        "avg_sg": -1.48
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 3,
+        "scoring_average": 77.67,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -6.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-02-05"
+      },
+      {
+        "season": 2018,
+        "rounds": 3,
+        "scoring_average": 77.0,
+        "avg_to_par": 5.33,
+        "avg_sg_total": -5.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-02-10"
+      },
+      {
+        "season": 2014,
+        "rounds": 3,
+        "scoring_average": 72.67,
+        "avg_to_par": 0.67,
+        "avg_sg_total": -3.43,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-01-18"
+      },
+      {
+        "season": 2008,
+        "rounds": 3,
+        "scoring_average": 75.33,
+        "avg_to_par": 3.33,
+        "avg_sg_total": -2.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-02-09"
+      },
+      {
+        "season": 2007,
+        "rounds": 3,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -2.91,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-02-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 12,
+        "scoring_average": 72.25,
+        "avg_to_par": 1.25,
+        "avg_sg_total": 0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-06-16"
+      },
+      {
+        "season": 2005,
+        "rounds": 13,
+        "scoring_average": 72.54,
+        "avg_to_par": 1.46,
+        "avg_sg_total": -0.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-10-21"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 7
+  }
 }

@@ -322,5 +322,143 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakdale Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.31
+      },
+      {
+        "course": "St. George's G&CC",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.43
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 12,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.14
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.03
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 6,
+        "scoring_average": 70.83,
+        "avg_to_par": 0.83,
+        "avg_sg_total": -1.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 8,
+        "scoring_average": 70.88,
+        "avg_to_par": 0.88,
+        "avg_sg_total": -0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 6,
+        "scoring_average": 72.17,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.85,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.43,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-06-10"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

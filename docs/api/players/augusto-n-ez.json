@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 5.25,
+        "avg_sg": null
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.4
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -3.11
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.13
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.59
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.24
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2023,
+        "rounds": 40,
+        "scoring_average": 64.25,
+        "avg_to_par": 0.2,
+        "avg_sg_total": -0.679,
+        "sg_t2g": -0.157,
+        "sg_ott": 0.111,
+        "sg_app": -0.196,
+        "sg_arg": -0.073,
+        "sg_putt": -0.522,
+        "driving_distance": 310.0,
+        "accuracy": 0.5638,
+        "gir": 0.685,
+        "scrambling": 0.61,
+        "last_round": "2023-12-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

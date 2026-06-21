@@ -339,5 +339,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.47
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.02
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.44
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.1
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.12
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 6,
+        "avg_to_par": 0.67,
+        "avg_sg": -0.22
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-02-06"
+      },
+      {
+        "season": 2014,
+        "rounds": 11,
+        "scoring_average": 72.64,
+        "avg_to_par": 1.27,
+        "avg_sg_total": -0.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-05-23"
+      },
+      {
+        "season": 2013,
+        "rounds": 8,
+        "scoring_average": 70.88,
+        "avg_to_par": 0.63,
+        "avg_sg_total": -0.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-16"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -0.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-06-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

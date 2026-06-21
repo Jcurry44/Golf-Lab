@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -6.59
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -5.92
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.79
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -5.14
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.43
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.1
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 68.1,
+        "avg_to_par": 0.7,
+        "avg_sg_total": -1.388,
+        "sg_t2g": -1.001,
+        "sg_ott": -0.296,
+        "sg_app": -0.62,
+        "sg_arg": -0.085,
+        "sg_putt": -0.387,
+        "driving_distance": 300.4,
+        "accuracy": 0.6151,
+        "gir": 0.636,
+        "scrambling": 0.59,
+        "last_round": "2025-12-14"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

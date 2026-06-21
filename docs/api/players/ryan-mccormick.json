@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -8.09
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.33
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": null
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -4.5
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.29
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 8,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.15
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 8,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 32,
+        "scoring_average": 67.0,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.786,
+        "sg_t2g": -0.955,
+        "sg_ott": -0.52,
+        "sg_app": -0.151,
+        "sg_arg": -0.284,
+        "sg_putt": 0.17,
+        "driving_distance": 306.2,
+        "accuracy": 0.5508,
+        "gir": 0.6849,
+        "scrambling": 0.5636,
+        "last_round": "2024-12-15"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
+  }
 }

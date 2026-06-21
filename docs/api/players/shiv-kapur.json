@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Chambers Bay GC",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.42
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -0.48
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -2.08
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.52
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.03
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.21
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -0.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-21"
+      },
+      {
+        "season": 2015,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -1.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-06-19"
+      },
+      {
+        "season": 2014,
+        "rounds": 8,
+        "scoring_average": 71.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": 1.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-15"
+      },
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 74.75,
+        "avg_to_par": 3.75,
+        "avg_sg_total": -0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-21"
+      },
+      {
+        "season": 2010,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -1.21,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-16"
+      },
+      {
+        "season": 2006,
+        "rounds": 8,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -1.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-27"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

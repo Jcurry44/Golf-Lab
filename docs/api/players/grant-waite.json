@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.79
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.67
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.79
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 8,
+        "avg_to_par": 1.13,
+        "avg_sg": -0.83
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.32
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.04
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-07-20"
+      },
+      {
+        "season": 2011,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -1.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-07-15"
+      },
+      {
+        "season": 2010,
+        "rounds": 8,
+        "scoring_average": 73.88,
+        "avg_to_par": 2.13,
+        "avg_sg_total": -1.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-16"
+      },
+      {
+        "season": 2009,
+        "rounds": 6,
+        "scoring_average": 71.67,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-08-09"
+      },
+      {
+        "season": 2008,
+        "rounds": 15,
+        "scoring_average": 72.93,
+        "avg_to_par": 1.2,
+        "avg_sg_total": -1.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-10-17"
+      },
+      {
+        "season": 2007,
+        "rounds": 7,
+        "scoring_average": 71.29,
+        "avg_to_par": -0.86,
+        "avg_sg_total": -0.01,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

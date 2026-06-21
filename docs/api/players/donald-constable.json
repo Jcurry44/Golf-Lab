@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 7.5,
+        "avg_sg": -4.44
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.26
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.41
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.75
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.36
+      },
+      {
+        "course": "Glen Abbey GC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.19
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2014,
+        "rounds": 2,
+        "scoring_average": 77.5,
+        "avg_to_par": 7.5,
+        "avg_sg_total": -4.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-13"
+      },
+      {
+        "season": 2013,
+        "rounds": 31,
+        "scoring_average": 72.45,
+        "avg_to_par": 1.35,
+        "avg_sg_total": -1.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-16"
+      },
+      {
+        "season": 2012,
+        "rounds": 6,
+        "scoring_average": 69.17,
+        "avg_to_par": -2.83,
+        "avg_sg_total": 1.4,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-12-03"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.93
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.07
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.55
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -1.55
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.63
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 3,
+        "avg_to_par": 1.33,
+        "avg_sg": -1.72
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2020,
+        "rounds": 6,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -1.97,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-01-31"
+      },
+      {
+        "season": 2019,
+        "rounds": 23,
+        "scoring_average": 71.13,
+        "avg_to_par": 0.26,
+        "avg_sg_total": -0.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-05"
+      },
+      {
+        "season": 2018,
+        "rounds": 11,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.82,
+        "avg_sg_total": -1.92,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-04-13"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

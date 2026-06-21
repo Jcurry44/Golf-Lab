@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 10,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.83
+      },
+      {
+        "course": "Eagle Point Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.91
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 3,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.19
+      },
+      {
+        "course": "TPC Four Seasons Resort",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.32
+      },
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.19
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.03
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 2,
+        "scoring_average": 80.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -6.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-04-10"
+      },
+      {
+        "season": 2025,
+        "rounds": 2,
+        "scoring_average": 77.5,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -4.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-04-11"
+      },
+      {
+        "season": 2019,
+        "rounds": 4,
+        "scoring_average": 77.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -4.51,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-04-12"
+      },
+      {
+        "season": 2018,
+        "rounds": 9,
+        "scoring_average": 73.89,
+        "avg_to_par": 2.11,
+        "avg_sg_total": -2.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-05-18"
+      },
+      {
+        "season": 2017,
+        "rounds": 23,
+        "scoring_average": 72.96,
+        "avg_to_par": 1.74,
+        "avg_sg_total": -1.1,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-20"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

@@ -245,5 +245,143 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -5.2
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -3.05
+      },
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.68
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.31
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.6
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2014,
+        "rounds": 1,
+        "scoring_average": 75.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-07-17"
+      },
+      {
+        "season": 2012,
+        "rounds": 8,
+        "scoring_average": 74.63,
+        "avg_to_par": 4.13,
+        "avg_sg_total": -2.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-10"
+      },
+      {
+        "season": 2011,
+        "rounds": 4,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.6,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
+      },
+      {
+        "season": 2002,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.31,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-05-24"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

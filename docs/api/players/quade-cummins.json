@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 7.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.1
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.06
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.79
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -1.21
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.45
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 64.1,
+        "avg_to_par": 0.15,
+        "avg_sg_total": -0.265,
+        "sg_t2g": -0.498,
+        "sg_ott": 0.055,
+        "sg_app": -0.345,
+        "sg_arg": -0.208,
+        "sg_putt": 0.234,
+        "driving_distance": 305.7,
+        "accuracy": 0.5782,
+        "gir": 0.6618,
+        "scrambling": 0.6099,
+        "last_round": "2025-12-14"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.59
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.33
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Medinah Country Club - No. 3 Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -1.36
+      },
+      {
+        "course": "Old Course at St Andrews",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.33
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 74.33,
+        "avg_to_par": 2.67,
+        "avg_sg_total": -1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-07-20"
+      },
+      {
+        "season": 2006,
+        "rounds": 14,
+        "scoring_average": 72.57,
+        "avg_to_par": 1.43,
+        "avg_sg_total": -1.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
+      },
+      {
+        "season": 2005,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 0.25,
+        "avg_sg_total": 0.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

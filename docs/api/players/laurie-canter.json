@@ -350,6 +350,175 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.87
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.41
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": 0.07
+      },
+      {
+        "course": "The Concession Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.2
+      },
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.78
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.67,
+        "avg_sg": 1.38
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 4,
+        "scoring_average": 71.67,
+        "avg_to_par": 1.67,
+        "avg_sg_total": 1.38,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-21"
+      },
+      {
+        "season": 2025,
+        "rounds": 16,
+        "scoring_average": 72.94,
+        "avg_to_par": 2.19,
+        "avg_sg_total": -0.73,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-18"
+      },
+      {
+        "season": 2024,
+        "rounds": 6,
+        "scoring_average": 71.33,
+        "avg_to_par": 0.67,
+        "avg_sg_total": 0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-07-21"
+      },
+      {
+        "season": 2023,
+        "rounds": 4,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 1.93,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-07-23"
+      },
+      {
+        "season": 2022,
+        "rounds": 8,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -0.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-17"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -3.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-02-28"
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +532,14 @@
     "risk_flags": "",
     "avg_sg_total": -0.09,
     "avg_to_par": 1.44
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
   }
 }

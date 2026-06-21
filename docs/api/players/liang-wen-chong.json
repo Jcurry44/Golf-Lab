@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.16
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.75,
+        "avg_sg": 0.14
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.89
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.21
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": 0.04
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.01
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2010,
+        "rounds": 10,
+        "scoring_average": 72.9,
+        "avg_to_par": 0.9,
+        "avg_sg_total": -1.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2009,
+        "rounds": 2,
+        "scoring_average": 74.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -1.89,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-07-17"
+      },
+      {
+        "season": 2008,
+        "rounds": 20,
+        "scoring_average": 72.65,
+        "avg_to_par": 1.55,
+        "avg_sg_total": -0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-07-25"
+      },
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 73.83,
+        "avg_to_par": 3.83,
+        "avg_sg_total": -0.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-10"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

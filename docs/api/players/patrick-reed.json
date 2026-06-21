@@ -350,6 +350,141 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.28
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.26
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.41
+      },
+      {
+        "course": "The Los Angeles Country Club (North Course)",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.24
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.82
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 1.18
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 11,
+        "scoring_average": 64.09,
+        "avg_to_par": -0.3,
+        "avg_sg_total": 1.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-20"
+      },
+      {
+        "season": 2025,
+        "rounds": 12,
+        "scoring_average": 71.67,
+        "avg_to_par": 0.67,
+        "avg_sg_total": 1.3,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-18"
+      },
+      {
+        "season": 2024,
+        "rounds": 8,
+        "scoring_average": 71.0,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 1.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-05-19"
+      },
+      {
+        "season": 2023,
+        "rounds": 9,
+        "scoring_average": 71.44,
+        "avg_to_par": 1.0,
+        "avg_sg_total": 0.49,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-07-23"
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +498,14 @@
     "risk_flags": "",
     "avg_sg_total": 1.15,
     "avg_to_par": 0.26
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
   }
 }

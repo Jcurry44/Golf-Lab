@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.7
+      },
+      {
+        "course": "Royal Birkdale Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.53
+      },
+      {
+        "course": "Medinah Country Club - No. 3 Course",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.36
+      },
+      {
+        "course": "Turnberry Resort - Ailsa Course",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.09
+      },
+      {
+        "course": "Bellerive CC",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.51
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.5
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -1.51,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-10"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-21"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -4.7,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-07-20"
+      },
+      {
+        "season": 2009,
+        "rounds": 4,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": 0.09,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-07-19"
+      },
+      {
+        "season": 2007,
+        "rounds": 8,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.5,
+        "avg_sg_total": 1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-07-22"
+      },
+      {
+        "season": 2006,
+        "rounds": 10,
+        "scoring_average": 72.3,
+        "avg_to_par": 0.7,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

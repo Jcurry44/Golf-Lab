@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 3,
+        "avg_to_par": 5.33,
+        "avg_sg": -5.95
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.95
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.49
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 3,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.0
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 6,
+        "avg_to_par": 1.0,
+        "avg_sg": -3.4
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.66
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -2.95,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-22"
+      },
+      {
+        "season": 2019,
+        "rounds": 10,
+        "scoring_average": 70.1,
+        "avg_to_par": -1.2,
+        "avg_sg_total": -0.26,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-02-09"
+      },
+      {
+        "season": 2018,
+        "rounds": 11,
+        "scoring_average": 73.64,
+        "avg_to_par": 2.64,
+        "avg_sg_total": -3.73,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-12"
+      },
+      {
+        "season": 2017,
+        "rounds": 12,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -0.54,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-02"
+      },
+      {
+        "season": 2016,
+        "rounds": 5,
+        "scoring_average": 71.8,
+        "avg_to_par": 1.4,
+        "avg_sg_total": -1.95,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-19"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

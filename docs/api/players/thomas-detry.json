@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Caves Valley Golf Club",
+        "rounds": 4,
+        "avg_to_par": 4.25,
+        "avg_sg": -3.82
+      },
+      {
+        "course": "Aronimink Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.06
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.41
+      },
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 1.82
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.38
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -2.01
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-05-15"
+      },
+      {
+        "season": 2025,
+        "rounds": 38,
+        "scoring_average": 71.16,
+        "avg_to_par": 0.79,
+        "avg_sg_total": 0.052,
+        "sg_t2g": -0.073,
+        "sg_ott": 0.169,
+        "sg_app": -0.164,
+        "sg_arg": -0.079,
+        "sg_putt": 0.126,
+        "driving_distance": 306.5,
+        "accuracy": 0.5675,
+        "gir": 0.6518,
+        "scrambling": 0.5914,
+        "last_round": "2025-08-17"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.231,
+        "sg_t2g": -0.301,
+        "sg_ott": 0.12,
+        "sg_app": -0.196,
+        "sg_arg": -0.226,
+        "sg_putt": 0.532,
+        "driving_distance": 303.3,
+        "accuracy": 0.5898,
+        "gir": 0.6335,
+        "scrambling": 0.6041,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.328,
+        "sg_t2g": 0.069,
+        "sg_ott": 0.029,
+        "sg_app": -0.056,
+        "sg_arg": 0.095,
+        "sg_putt": 0.259,
+        "driving_distance": 307.7,
+        "accuracy": 0.5781,
+        "gir": 0.6521,
+        "scrambling": 0.6274,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

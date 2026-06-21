@@ -256,5 +256,177 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -7.15
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -6.2
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": 2.75,
+        "avg_sg": -3.28
+      },
+      {
+        "course": "Bellerive CC",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.01
+      },
+      {
+        "course": null,
+        "rounds": 6,
+        "avg_to_par": 0.33,
+        "avg_sg": -0.25
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2023,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -6.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-10-13"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -3.58,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-02-11"
+      },
+      {
+        "season": 2019,
+        "rounds": 2,
+        "scoring_average": 79.5,
+        "avg_to_par": 9.5,
+        "avg_sg_total": -7.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-05-17"
+      },
+      {
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 72.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -2.01,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-10"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 73.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -2.97,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-02-03"
+      },
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 72.33,
+        "avg_to_par": 0.33,
+        "avg_sg_total": -0.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

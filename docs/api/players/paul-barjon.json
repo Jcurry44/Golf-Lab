@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -4.7
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.75
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.07
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.79
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.29
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -3.05
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2024,
+        "rounds": 40,
+        "scoring_average": 67.97,
+        "avg_to_par": 0.38,
+        "avg_sg_total": -1.804,
+        "sg_t2g": -1.745,
+        "sg_ott": 0.085,
+        "sg_app": -0.898,
+        "sg_arg": -0.932,
+        "sg_putt": -0.059,
+        "driving_distance": 313.0,
+        "accuracy": 0.5747,
+        "gir": 0.63,
+        "scrambling": 0.5042,
+        "last_round": "2024-12-15"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

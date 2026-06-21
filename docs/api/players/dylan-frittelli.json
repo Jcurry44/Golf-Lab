@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 6,
+        "avg_to_par": 5.17,
+        "avg_sg": null
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.9
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.53
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.69
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.7
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.89
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 12,
+        "scoring_average": 49.67,
+        "avg_to_par": 2.33,
+        "avg_sg_total": -1.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 12,
+        "scoring_average": 58.67,
+        "avg_to_par": -0.33,
+        "avg_sg_total": -0.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-11-22"
+      },
+      {
+        "season": 2023,
+        "rounds": 16,
+        "scoring_average": 71.63,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -1.258,
+        "sg_t2g": -1.299,
+        "sg_ott": -0.695,
+        "sg_app": -0.62,
+        "sg_arg": 0.016,
+        "sg_putt": 0.041,
+        "driving_distance": 303.2,
+        "accuracy": 0.4699,
+        "gir": 0.5962,
+        "scrambling": 0.5714,
+        "last_round": "2023-11-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

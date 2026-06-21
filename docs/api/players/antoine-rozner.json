@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.56
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -3.33
+      },
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.42
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.69
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.1
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 69.9,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.11,
+        "sg_t2g": 0.207,
+        "sg_ott": 0.065,
+        "sg_app": 0.462,
+        "sg_arg": -0.32,
+        "sg_putt": -0.318,
+        "driving_distance": 308.1,
+        "accuracy": 0.5851,
+        "gir": 0.6985,
+        "scrambling": 0.5307,
+        "last_round": "2025-11-23"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

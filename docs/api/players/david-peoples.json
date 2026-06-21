@@ -350,5 +350,200 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.51
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.26
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.76
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 3,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.51
+      },
+      {
+        "course": "Tesoro Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.52
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 7,
+        "avg_to_par": 0.29,
+        "avg_sg": -0.42
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 71.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-07-19"
+      },
+      {
+        "season": 2010,
+        "rounds": 1,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-03-11"
+      },
+      {
+        "season": 2009,
+        "rounds": 18,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.61,
+        "avg_sg_total": -0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-08-07"
+      },
+      {
+        "season": 2008,
+        "rounds": 4,
+        "scoring_average": 73.25,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -1.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-09-19"
+      },
+      {
+        "season": 2007,
+        "rounds": 4,
+        "scoring_average": 74.25,
+        "avg_to_par": 2.25,
+        "avg_sg_total": -2.99,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-10-26"
+      },
+      {
+        "season": 2006,
+        "rounds": 9,
+        "scoring_average": 72.44,
+        "avg_to_par": 2.11,
+        "avg_sg_total": -1.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-22"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-03"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 7
+  }
 }

@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.43
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 6,
+        "avg_to_par": 1.17,
+        "avg_sg": -2.02
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.79
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.29
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.5
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": -1.4
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 10,
+        "scoring_average": 70.9,
+        "avg_to_par": -0.3,
+        "avg_sg_total": -0.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 24,
+        "scoring_average": 70.75,
+        "avg_to_par": -0.58,
+        "avg_sg_total": -0.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-11-24"
+      },
+      {
+        "season": 2023,
+        "rounds": 6,
+        "scoring_average": 68.83,
+        "avg_to_par": -1.17,
+        "avg_sg_total": -0.293,
+        "sg_t2g": -0.016,
+        "sg_ott": -0.511,
+        "sg_app": 0.54,
+        "sg_arg": -0.046,
+        "sg_putt": -0.277,
+        "driving_distance": 285.3,
+        "accuracy": 0.627,
+        "gir": 0.7169,
+        "scrambling": 0.58,
+        "last_round": "2023-12-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 7.0,
+        "avg_sg": null
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.39
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.29
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.48
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.79
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": 0.25
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2024,
+        "rounds": 40,
+        "scoring_average": 63.6,
+        "avg_to_par": -0.35,
+        "avg_sg_total": -1.067,
+        "sg_t2g": -1.18,
+        "sg_ott": -0.675,
+        "sg_app": -0.644,
+        "sg_arg": 0.139,
+        "sg_putt": 0.113,
+        "driving_distance": 299.4,
+        "accuracy": 0.5452,
+        "gir": 0.6371,
+        "scrambling": 0.5407,
+        "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.122,
+        "sg_t2g": -0.503,
+        "sg_ott": -0.452,
+        "sg_app": -0.085,
+        "sg_arg": 0.033,
+        "sg_putt": 0.381,
+        "driving_distance": 304.1,
+        "accuracy": 0.5044,
+        "gir": 0.6478,
+        "scrambling": 0.5625,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
+  }
 }

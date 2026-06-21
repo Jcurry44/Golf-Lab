@@ -212,5 +212,143 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Torrey Pines (South)",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.75
+      },
+      {
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -2.08
+      },
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.69
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -0.61
+      },
+      {
+        "course": "PGA National Resort and Spa - Champion Course",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.55
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2024,
+        "rounds": 6,
+        "scoring_average": 71.83,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 77.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -3.75,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-06-18"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -1.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-06-16"
+      },
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -2.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-06-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

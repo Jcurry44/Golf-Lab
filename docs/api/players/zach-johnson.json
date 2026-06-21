@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal Portrush Golf Club - Dunluce Links",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -0.28
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.21
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 6,
+        "avg_to_par": 0.17,
+        "avg_sg": 0.87
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.56
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.28
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 1.48
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 10,
+        "scoring_average": 70.6,
+        "avg_to_par": -0.6,
+        "avg_sg_total": -0.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-04-10"
+      },
+      {
+        "season": 2025,
+        "rounds": 30,
+        "scoring_average": 70.23,
+        "avg_to_par": -1.23,
+        "avg_sg_total": 0.04,
+        "sg_t2g": -0.406,
+        "sg_ott": -0.369,
+        "sg_app": 0.009,
+        "sg_arg": -0.046,
+        "sg_putt": 0.446,
+        "driving_distance": 285.6,
+        "accuracy": 0.6921,
+        "gir": 0.6927,
+        "scrambling": 0.5904,
+        "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.318,
+        "sg_t2g": -0.103,
+        "sg_ott": -0.099,
+        "sg_app": -0.121,
+        "sg_arg": 0.117,
+        "sg_putt": 0.42,
+        "driving_distance": 284.1,
+        "accuracy": 0.6627,
+        "gir": 0.662,
+        "scrambling": 0.6164,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.429,
+        "sg_t2g": -0.537,
+        "sg_ott": -0.199,
+        "sg_app": -0.31,
+        "sg_arg": -0.029,
+        "sg_putt": 0.109,
+        "driving_distance": 290.1,
+        "accuracy": 0.6586,
+        "gir": 0.6577,
+        "scrambling": 0.5967,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

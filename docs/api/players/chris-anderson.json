@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Mystic Rock",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.57
+      },
+      {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.52
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.62
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.12
+      },
+      {
+        "course": "En-Joie Golf Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -4.24
+      },
+      {
+        "course": "Brown Deer Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.07
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2007,
+        "rounds": 6,
+        "scoring_average": 70.5,
+        "avg_to_par": -1.5,
+        "avg_sg_total": 0.41,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-12-03"
+      },
+      {
+        "season": 2005,
+        "rounds": 34,
+        "scoring_average": 71.5,
+        "avg_to_par": 0.18,
+        "avg_sg_total": -1.04,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-11-06"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 2
+  }
 }

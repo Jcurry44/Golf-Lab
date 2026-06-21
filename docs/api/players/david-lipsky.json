@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Aronimink Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -0.56
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.36
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.27
+      },
+      {
+        "course": "Trump National Doral - Blue Monster Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.15
+      },
+      {
+        "course": "PGA National - Champion Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.46
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 38,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.71,
+        "avg_sg_total": -0.311,
+        "sg_t2g": -0.285,
+        "sg_ott": -0.501,
+        "sg_app": 0.01,
+        "sg_arg": 0.205,
+        "sg_putt": -0.026,
+        "driving_distance": 293.7,
+        "accuracy": 0.616,
+        "gir": 0.6287,
+        "scrambling": 0.622,
+        "last_round": "2026-06-12"
+      },
+      {
+        "season": 2025,
+        "rounds": 2,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": -0.224,
+        "sg_t2g": 0.099,
+        "sg_ott": -0.258,
+        "sg_app": 0.266,
+        "sg_arg": 0.091,
+        "sg_putt": -0.323,
+        "driving_distance": 293.6,
+        "accuracy": 0.6532,
+        "gir": 0.6748,
+        "scrambling": 0.6208,
+        "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.397,
+        "sg_t2g": -0.013,
+        "sg_ott": -0.415,
+        "sg_app": 0.263,
+        "sg_arg": 0.139,
+        "sg_putt": -0.385,
+        "driving_distance": 289.6,
+        "accuracy": 0.6292,
+        "gir": 0.6828,
+        "scrambling": 0.5761,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.21,
+        "sg_t2g": 0.257,
+        "sg_ott": -0.133,
+        "sg_app": 0.33,
+        "sg_arg": 0.059,
+        "sg_putt": -0.466,
+        "driving_distance": 292.7,
+        "accuracy": 0.6325,
+        "gir": 0.6748,
+        "scrambling": 0.5622,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

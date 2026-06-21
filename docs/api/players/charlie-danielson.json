@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -5.58
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.28
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.75
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.03
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.54
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.78
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2019,
+        "rounds": 10,
+        "scoring_average": 69.7,
+        "avg_to_par": -1.1,
+        "avg_sg_total": 0.53,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-02"
+      },
+      {
+        "season": 2017,
+        "rounds": 6,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.67,
+        "avg_sg_total": -0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-03-12"
+      },
+      {
+        "season": 2016,
+        "rounds": 10,
+        "scoring_average": 72.1,
+        "avg_to_par": 1.3,
+        "avg_sg_total": -1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-14"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

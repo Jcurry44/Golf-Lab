@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -6.63
+      },
+      {
+        "course": "Trinity Forest Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.14
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.85
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -4.56
+      },
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.12
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 3,
+        "avg_to_par": 1.67,
+        "avg_sg": -0.83
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2019,
+        "rounds": 14,
+        "scoring_average": 72.5,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -2.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-08-02"
+      },
+      {
+        "season": 2018,
+        "rounds": 9,
+        "scoring_average": 72.33,
+        "avg_to_par": 1.78,
+        "avg_sg_total": -2.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-27"
+      },
+      {
+        "season": 2014,
+        "rounds": 17,
+        "scoring_average": 71.59,
+        "avg_to_par": 0.35,
+        "avg_sg_total": -0.78,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-02-08"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

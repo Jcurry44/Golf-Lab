@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oak Hill Country Club - East Course",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -3.25
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.15
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.03
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.9
+      },
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.99
+      },
+      {
+        "course": "Royal Liverpool Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -0.82
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2024,
+        "rounds": 5,
+        "scoring_average": 70.4,
+        "avg_to_par": -0.8,
+        "avg_sg_total": -1.72,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-01-20"
+      },
+      {
+        "season": 2023,
+        "rounds": 35,
+        "scoring_average": 71.77,
+        "avg_to_par": 1.03,
+        "avg_sg_total": -0.57,
+        "sg_t2g": -0.631,
+        "sg_ott": -0.498,
+        "sg_app": -0.061,
+        "sg_arg": -0.072,
+        "sg_putt": 0.06,
+        "driving_distance": 278.5,
+        "accuracy": 0.67,
+        "gir": 0.6105,
+        "scrambling": 0.5916,
+        "last_round": "2023-11-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
+  }
 }

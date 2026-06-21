@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": null
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.44
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -3.06
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.94
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -4.33
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.86
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 67.5,
+        "avg_to_par": -0.03,
+        "avg_sg_total": -1.033,
+        "sg_t2g": -1.413,
+        "sg_ott": -0.595,
+        "sg_app": -0.879,
+        "sg_arg": 0.061,
+        "sg_putt": 0.38,
+        "driving_distance": 302.2,
+        "accuracy": 0.5366,
+        "gir": 0.6384,
+        "scrambling": 0.5693,
+        "last_round": "2025-12-11"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

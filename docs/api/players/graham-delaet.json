@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.96
+      },
+      {
+        "course": "Nine Bridges",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -2.85
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -4.45
+      },
+      {
+        "course": "Waialae Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.87
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -2.0
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.88
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2021,
+        "rounds": 5,
+        "scoring_average": 75.2,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -3.88,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-11-05"
+      },
+      {
+        "season": 2020,
+        "rounds": 14,
+        "scoring_average": 72.07,
+        "avg_to_par": 0.93,
+        "avg_sg_total": -1.46,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-01-10"
+      },
+      {
+        "season": 2018,
+        "rounds": 10,
+        "scoring_average": 71.3,
+        "avg_to_par": -0.7,
+        "avg_sg_total": 0.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-10-20"
+      },
+      {
+        "season": 2017,
+        "rounds": 11,
+        "scoring_average": 71.73,
+        "avg_to_par": 0.64,
+        "avg_sg_total": -0.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-09-04"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

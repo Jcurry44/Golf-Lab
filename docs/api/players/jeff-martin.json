@@ -134,5 +134,114 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -6.33
+      },
+      {
+        "course": "Oakland Hills Country Club - South Course",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -3.65
+      },
+      {
+        "course": "Oak Hill CC",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -5.79
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2013,
+        "rounds": 2,
+        "scoring_average": 78.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -5.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-09"
+      },
+      {
+        "season": 2008,
+        "rounds": 2,
+        "scoring_average": 78.5,
+        "avg_to_par": 8.5,
+        "avg_sg_total": -3.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-08-08"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 79.0,
+        "avg_to_par": 9.0,
+        "avg_sg_total": -6.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-08-12"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

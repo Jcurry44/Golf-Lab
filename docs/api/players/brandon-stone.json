@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -5.33
+      },
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -3.65
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.71
+      },
+      {
+        "course": "Royal Portrush Golf Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.31
+      },
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -2.9
+      },
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.74
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 2,
+        "scoring_average": 70.5,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -0.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-11"
+      },
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": 0.28,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-08"
+      },
+      {
+        "season": 2021,
+        "rounds": 8,
+        "scoring_average": 74.13,
+        "avg_to_par": 2.38,
+        "avg_sg_total": -1.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-07-23"
+      },
+      {
+        "season": 2019,
+        "rounds": 8,
+        "scoring_average": 74.38,
+        "avg_to_par": 3.13,
+        "avg_sg_total": -1.61,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-19"
+      },
+      {
+        "season": 2018,
+        "rounds": 20,
+        "scoring_average": 72.3,
+        "avg_to_par": 1.5,
+        "avg_sg_total": -1.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-12"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

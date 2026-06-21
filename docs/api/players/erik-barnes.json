@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 2,
+        "avg_to_par": 9.5,
+        "avg_sg": -6.41
+      },
+      {
+        "course": "El Cardonal at Diamante",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -9.48
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -6.05
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -3.71
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -4.43
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -5.4
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 4,
+        "scoring_average": 69.75,
+        "avg_to_par": -2.25,
+        "avg_sg_total": 1.1,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-03-08"
+      },
+      {
+        "season": 2025,
+        "rounds": 3,
+        "scoring_average": 19.33,
+        "avg_to_par": -4.0,
+        "avg_sg_total": -2.85,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-18"
+      },
+      {
+        "season": 2024,
+        "rounds": 33,
+        "scoring_average": 69.3,
+        "avg_to_par": 2.58,
+        "avg_sg_total": -1.868,
+        "sg_t2g": -1.84,
+        "sg_ott": -1.143,
+        "sg_app": -0.662,
+        "sg_arg": -0.035,
+        "sg_putt": -0.028,
+        "driving_distance": 302.3,
+        "accuracy": 0.5368,
+        "gir": 0.6163,
+        "scrambling": 0.5657,
+        "last_round": "2024-12-13"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

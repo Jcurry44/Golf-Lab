@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 2,
+        "avg_to_par": 11.0,
+        "avg_sg": -6.29
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -6.06
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -6.49
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.11
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.1
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": null
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 67.92,
+        "avg_to_par": 0.47,
+        "avg_sg_total": -1.246,
+        "sg_t2g": -1.0,
+        "sg_ott": -0.09,
+        "sg_app": -0.916,
+        "sg_arg": 0.006,
+        "sg_putt": -0.245,
+        "driving_distance": 300.3,
+        "accuracy": 0.6104,
+        "gir": 0.6341,
+        "scrambling": 0.5526,
+        "last_round": "2025-12-14"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

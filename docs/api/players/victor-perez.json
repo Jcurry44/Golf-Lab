@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 2.07
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.59
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.6
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 0.84
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 0.55
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 4,
+        "avg_to_par": -1.75,
+        "avg_sg": 0.29
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 40,
+        "scoring_average": 69.28,
+        "avg_to_par": -1.73,
+        "avg_sg_total": 0.568,
+        "sg_t2g": 0.354,
+        "sg_ott": 0.09,
+        "sg_app": 0.479,
+        "sg_arg": -0.215,
+        "sg_putt": 0.215,
+        "driving_distance": 304.4,
+        "accuracy": 0.6466,
+        "gir": 0.7161,
+        "scrambling": 0.6014,
+        "last_round": "2025-11-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.482,
+        "sg_t2g": 0.356,
+        "sg_ott": 0.084,
+        "sg_app": 0.305,
+        "sg_arg": -0.033,
+        "sg_putt": 0.126,
+        "driving_distance": 301.1,
+        "accuracy": 0.601,
+        "gir": 0.6852,
+        "scrambling": 0.5956,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
+  }
 }

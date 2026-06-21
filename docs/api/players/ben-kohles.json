@@ -350,6 +350,124 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.67,
+        "avg_sg": 1.38
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.1
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -2.44
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.86
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 0.35
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.57
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 20,
+        "scoring_average": 69.89,
+        "avg_to_par": -0.84,
+        "avg_sg_total": 0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-21"
+      },
+      {
+        "season": 2025,
+        "rounds": 20,
+        "scoring_average": 69.15,
+        "avg_to_par": -1.75,
+        "avg_sg_total": 0.272,
+        "sg_t2g": 0.801,
+        "sg_ott": 0.161,
+        "sg_app": 0.656,
+        "sg_arg": -0.016,
+        "sg_putt": -0.529,
+        "driving_distance": 295.2,
+        "accuracy": 0.7312,
+        "gir": 0.7288,
+        "scrambling": 0.6073,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.348,
+        "sg_t2g": -0.148,
+        "sg_ott": 0.015,
+        "sg_app": 0.169,
+        "sg_arg": -0.332,
+        "sg_putt": -0.201,
+        "driving_distance": 290.9,
+        "accuracy": 0.7057,
+        "gir": 0.7,
+        "scrambling": 0.5359,
+        "last_round": null
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +481,14 @@
     "risk_flags": "",
     "avg_sg_total": 0.37,
     "avg_to_par": -1.31
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
   }
 }

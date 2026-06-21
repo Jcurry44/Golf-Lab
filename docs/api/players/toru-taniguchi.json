@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -4.08
+      },
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 4,
+        "avg_to_par": 7.25,
+        "avg_sg": -4.16
+      },
+      {
+        "course": "Oakland Hills Country Club - South Course",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -2.15
+      },
+      {
+        "course": "Muirfield",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.52
+      },
+      {
+        "course": "The Olympic Club",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -1.03
+      },
+      {
+        "course": "Firestone CC (South)",
+        "rounds": 6,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.06
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 78.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -4.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-06-17"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 77.25,
+        "avg_to_par": 7.25,
+        "avg_sg_total": -4.16,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-15"
+      },
+      {
+        "season": 2013,
+        "rounds": 6,
+        "scoring_average": 75.5,
+        "avg_to_par": 5.17,
+        "avg_sg_total": -3.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-04"
+      },
+      {
+        "season": 2012,
+        "rounds": 10,
+        "scoring_average": 74.7,
+        "avg_to_par": 3.9,
+        "avg_sg_total": -1.73,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-12"
+      },
+      {
+        "season": 2010,
+        "rounds": 8,
+        "scoring_average": 73.88,
+        "avg_to_par": 2.38,
+        "avg_sg_total": 0.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-07-18"
+      },
+      {
+        "season": 2008,
+        "rounds": 10,
+        "scoring_average": 73.7,
+        "avg_to_par": 2.3,
+        "avg_sg_total": -0.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-08-08"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

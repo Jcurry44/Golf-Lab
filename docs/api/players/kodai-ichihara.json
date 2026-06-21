@@ -284,5 +284,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -4.37
+      },
+      {
+        "course": "Royal Lytham St. Anne",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -3.2
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.35
+      },
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.03
+      },
+      {
+        "course": "Firestone Country Club - South Course",
+        "rounds": 4,
+        "avg_to_par": 3.25,
+        "avg_sg": -3.35
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.0
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2019,
+        "rounds": 6,
+        "scoring_average": 73.33,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -2.79,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-28"
+      },
+      {
+        "season": 2018,
+        "rounds": 6,
+        "scoring_average": 73.83,
+        "avg_to_par": 3.5,
+        "avg_sg_total": -2.91,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-08-05"
+      },
+      {
+        "season": 2016,
+        "rounds": 4,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -2.35,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-17"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 75.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -3.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-07-20"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

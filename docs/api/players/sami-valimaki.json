@@ -33,5 +33,56 @@
     "columns": [],
     "rows": []
   },
-  "model": null
+  "worstCourses": {
+    "columns": [],
+    "rows": []
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.32,
+        "sg_t2g": -0.494,
+        "sg_ott": -0.34,
+        "sg_app": 0.048,
+        "sg_arg": -0.203,
+        "sg_putt": 0.174,
+        "driving_distance": 296.8,
+        "accuracy": 0.6139,
+        "gir": 0.6532,
+        "scrambling": 0.619,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": false,
+    "hasStrokesGained": false,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.85
+      },
+      {
+        "course": "TPC Potomac at Avenel Farm",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.42
+      },
+      {
+        "course": "Harbour Town Golf Links",
+        "rounds": 4,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.05
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 12,
+        "avg_to_par": 1.08,
+        "avg_sg": -0.22
+      },
+      {
+        "course": "Vidanta Vallarta",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -1.06
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 8,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.34
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 4,
+        "scoring_average": 69.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.57,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 4,
+        "scoring_average": 71.75,
+        "avg_to_par": 1.75,
+        "avg_sg_total": -0.11,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 6,
+        "scoring_average": 73.17,
+        "avg_to_par": 2.83,
+        "avg_sg_total": -2.7,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2023-12-17"
+      },
+      {
+        "season": 2022,
+        "rounds": 16,
+        "scoring_average": 71.63,
+        "avg_to_par": 0.25,
+        "avg_sg_total": -0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-05-06"
+      },
+      {
+        "season": 2021,
+        "rounds": 10,
+        "scoring_average": 71.1,
+        "avg_to_par": -0.3,
+        "avg_sg_total": -0.05,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-06-13"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

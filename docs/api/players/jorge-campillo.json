@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Colonial Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.7
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.97
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.6
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.5
+      },
+      {
+        "course": "Hamilton Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.53
+      },
+      {
+        "course": "Detroit Golf Club",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.05
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 4,
+        "scoring_average": 68.75,
+        "avg_to_par": -1.25,
+        "avg_sg_total": 1.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-07-13"
+      },
+      {
+        "season": 2024,
+        "rounds": 36,
+        "scoring_average": 69.81,
+        "avg_to_par": -1.03,
+        "avg_sg_total": 0.241,
+        "sg_t2g": 0.352,
+        "sg_ott": -0.096,
+        "sg_app": 0.157,
+        "sg_arg": 0.29,
+        "sg_putt": -0.11,
+        "driving_distance": 296.7,
+        "accuracy": 0.6176,
+        "gir": 0.6635,
+        "scrambling": 0.6127,
+        "last_round": "2024-08-11"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 2
+  }
 }

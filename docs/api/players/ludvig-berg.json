@@ -350,6 +350,141 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.33,
+        "avg_sg": 0.72
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -0.64
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.3
+      },
+      {
+        "course": "Aronimink Golf Club",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": 2.62
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.5,
+        "avg_sg": 1.5
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": -2.25,
+        "avg_sg": 2.66
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 40,
+        "scoring_average": 69.67,
+        "avg_to_par": -1.56,
+        "avg_sg_total": 1.486,
+        "sg_t2g": 1.225,
+        "sg_ott": 0.513,
+        "sg_app": 0.577,
+        "sg_arg": 0.134,
+        "sg_putt": 0.261,
+        "driving_distance": 316.4,
+        "accuracy": 0.6116,
+        "gir": 0.6863,
+        "scrambling": 0.5941,
+        "last_round": "2026-06-21"
+      },
+      {
+        "season": 2025,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.506,
+        "sg_t2g": 0.454,
+        "sg_ott": 0.524,
+        "sg_app": 0.037,
+        "sg_arg": -0.107,
+        "sg_putt": 0.051,
+        "driving_distance": 313.9,
+        "accuracy": 0.5952,
+        "gir": 0.6618,
+        "scrambling": 0.6,
+        "last_round": null
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 1.064,
+        "sg_t2g": 0.929,
+        "sg_ott": 0.502,
+        "sg_app": 0.434,
+        "sg_arg": -0.008,
+        "sg_putt": 0.135,
+        "driving_distance": 310.1,
+        "accuracy": 0.6238,
+        "gir": 0.6815,
+        "scrambling": 0.6395,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 1.507,
+        "sg_t2g": 1.185,
+        "sg_ott": 0.982,
+        "sg_app": -0.006,
+        "sg_arg": 0.209,
+        "sg_putt": 0.322,
+        "driving_distance": 317.1,
+        "accuracy": 0.6547,
+        "gir": 0.7333,
+        "scrambling": 0.6083,
+        "last_round": null
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +498,14 @@
     "risk_flags": "",
     "avg_sg_total": 1.76,
     "avg_to_par": -1.56
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
   }
 }

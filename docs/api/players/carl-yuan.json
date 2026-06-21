@@ -350,6 +350,141 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -7.07
+      },
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.74
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.63
+      },
+      {
+        "course": "Hurstbourne Country Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": -0.69
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -4.0
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.25
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 3,
+        "scoring_average": 49.67,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -1.74,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-20"
+      },
+      {
+        "season": 2025,
+        "rounds": 16,
+        "scoring_average": 71.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -0.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 21,
+        "scoring_average": 71.19,
+        "avg_to_par": 0.14,
+        "avg_sg_total": -0.807,
+        "sg_t2g": -0.177,
+        "sg_ott": 0.23,
+        "sg_app": -0.359,
+        "sg_arg": -0.048,
+        "sg_putt": -0.63,
+        "driving_distance": 309.8,
+        "accuracy": 0.5926,
+        "gir": 0.6311,
+        "scrambling": 0.5859,
+        "last_round": "2024-12-15"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.351,
+        "sg_t2g": -0.204,
+        "sg_ott": 0.171,
+        "sg_app": -0.164,
+        "sg_arg": -0.212,
+        "sg_putt": -0.148,
+        "driving_distance": 306.8,
+        "accuracy": 0.5433,
+        "gir": 0.6726,
+        "scrambling": 0.5556,
+        "last_round": null
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +498,14 @@
     "risk_flags": "",
     "avg_sg_total": -0.68,
     "avg_to_par": 0.31
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
   }
 }

@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": null
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.25
+      },
+      {
+        "course": "Pete Dye Stadium Course",
+        "rounds": 3,
+        "avg_to_par": 0.33,
+        "avg_sg": -2.81
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": 1.34
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.52
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -1.47
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 9,
+        "scoring_average": 71.89,
+        "avg_to_par": -0.11,
+        "avg_sg_total": -0.67,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-03-07"
+      },
+      {
+        "season": 2024,
+        "rounds": 31,
+        "scoring_average": 64.68,
+        "avg_to_par": -2.1,
+        "avg_sg_total": -0.118,
+        "sg_t2g": 0.04,
+        "sg_ott": 0.047,
+        "sg_app": -0.142,
+        "sg_arg": 0.135,
+        "sg_putt": -0.158,
+        "driving_distance": 302.6,
+        "accuracy": 0.6057,
+        "gir": 0.6978,
+        "scrambling": 0.5882,
+        "last_round": "2024-11-22"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -1.074,
+        "sg_t2g": -0.59,
+        "sg_ott": -0.446,
+        "sg_app": -0.423,
+        "sg_arg": 0.278,
+        "sg_putt": -0.483,
+        "driving_distance": 299.6,
+        "accuracy": 0.5396,
+        "gir": 0.6493,
+        "scrambling": 0.6205,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

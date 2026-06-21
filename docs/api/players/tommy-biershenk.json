@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC River Highlands",
+        "rounds": 2,
+        "avg_to_par": 8.5,
+        "avg_sg": -8.28
+      },
+      {
+        "course": "The Olympic Club",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -2.03
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.9
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.49
+      },
+      {
+        "course": "TPC San Antonio (Oaks Course)",
+        "rounds": 3,
+        "avg_to_par": 2.67,
+        "avg_sg": -0.77
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.62
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2012,
+        "rounds": 40,
+        "scoring_average": 72.13,
+        "avg_to_par": 1.18,
+        "avg_sg_total": -1.3,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-11-09"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 1
+  }
 }

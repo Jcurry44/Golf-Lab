@@ -350,5 +350,217 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Baltusrol Golf Club - Lower Course",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -6.33
+      },
+      {
+        "course": "Congaree Golf Club",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.56
+      },
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -2.82
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": 5.25,
+        "avg_sg": -5.54
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 12,
+        "avg_to_par": 4.58,
+        "avg_sg": -3.2
+      },
+      {
+        "course": "Southern Hills Country Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -0.96
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 79.0,
+        "avg_to_par": 8.0,
+        "avg_sg_total": -6.56,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-06-11"
+      },
+      {
+        "season": 2016,
+        "rounds": 4,
+        "scoring_average": 75.25,
+        "avg_to_par": 3.75,
+        "avg_sg_total": -2.85,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-05-06"
+      },
+      {
+        "season": 2014,
+        "rounds": 4,
+        "scoring_average": 76.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -4.89,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-15"
+      },
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 74.75,
+        "avg_to_par": 3.75,
+        "avg_sg_total": -3.26,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-08-16"
+      },
+      {
+        "season": 2012,
+        "rounds": 2,
+        "scoring_average": 78.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -2.82,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-08-10"
+      },
+      {
+        "season": 2007,
+        "rounds": 10,
+        "scoring_average": 74.3,
+        "avg_to_par": 3.1,
+        "avg_sg_total": -2.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-08-17"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 75.25,
+        "avg_to_par": 3.25,
+        "avg_sg_total": -2.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-08-18"
+      },
+      {
+        "season": 2005,
+        "rounds": 10,
+        "scoring_average": 76.4,
+        "avg_to_par": 5.4,
+        "avg_sg_total": -3.93,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-09-30"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 8
+  }
 }

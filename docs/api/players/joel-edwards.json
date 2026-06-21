@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tesoro Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.52
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.69
+      },
+      {
+        "course": "El Camaleón Golf Course at Mayakoba",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -3.92
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.95
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -1.84
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 6,
+        "avg_to_par": 2.33,
+        "avg_sg": -3.15
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2008,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -4.69,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-03-21"
+      },
+      {
+        "season": 2007,
+        "rounds": 8,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -4.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-10-26"
+      },
+      {
+        "season": 2006,
+        "rounds": 10,
+        "scoring_average": 72.4,
+        "avg_to_par": 0.8,
+        "avg_sg_total": -1.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-22"
+      },
+      {
+        "season": 2005,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 0.0,
+        "avg_sg_total": -2.17,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-07-15"
+      },
+      {
+        "season": 2002,
+        "rounds": 12,
+        "scoring_average": 71.42,
+        "avg_to_par": -0.25,
+        "avg_sg_total": 0.07,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2002-08-25"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

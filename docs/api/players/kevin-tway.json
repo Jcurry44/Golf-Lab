@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -4.69
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -1.69
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": 0.09
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.11
+      },
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.03
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.02
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2025,
+        "rounds": 16,
+        "scoring_average": 72.13,
+        "avg_to_par": 0.5,
+        "avg_sg_total": -1.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2025-05-09"
+      },
+      {
+        "season": 2024,
+        "rounds": 24,
+        "scoring_average": 69.42,
+        "avg_to_par": -1.75,
+        "avg_sg_total": 0.145,
+        "sg_t2g": -0.217,
+        "sg_ott": 0.177,
+        "sg_app": -0.565,
+        "sg_arg": 0.171,
+        "sg_putt": 0.362,
+        "driving_distance": 306.2,
+        "accuracy": 0.6229,
+        "gir": 0.7028,
+        "scrambling": 0.595,
+        "last_round": "2024-11-24"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.231,
+        "sg_t2g": -0.25,
+        "sg_ott": 0.046,
+        "sg_app": -0.15,
+        "sg_arg": -0.134,
+        "sg_putt": 0.019,
+        "driving_distance": 308.1,
+        "accuracy": 0.5259,
+        "gir": 0.6793,
+        "scrambling": 0.5986,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

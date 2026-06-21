@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Louisiana",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.35
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.26
+      },
+      {
+        "course": null,
+        "rounds": 9,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.48
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.7
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": -0.32
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.61
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2011,
+        "rounds": 5,
+        "scoring_average": 72.4,
+        "avg_to_par": 0.4,
+        "avg_sg_total": -0.27,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-04"
+      },
+      {
+        "season": 2010,
+        "rounds": 11,
+        "scoring_average": 73.09,
+        "avg_to_par": 1.45,
+        "avg_sg_total": -1.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-12"
+      },
+      {
+        "season": 2009,
+        "rounds": 24,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.42,
+        "avg_sg_total": -0.2,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-11-13"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

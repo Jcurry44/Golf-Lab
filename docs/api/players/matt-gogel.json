@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Puntacana Resort & Club (Corales Golf Course)",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -6.15
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 2,
+        "avg_to_par": 5.5,
+        "avg_sg": -3.07
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -4.47
+      },
+      {
+        "course": "TPC Boston",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -2.55
+      },
+      {
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": 3.63,
+        "avg_sg": -3.73
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.24
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 78.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -6.15,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-03-25"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 4.5,
+        "avg_sg_total": -4.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-02-12"
+      },
+      {
+        "season": 2007,
+        "rounds": 3,
+        "scoring_average": 82.0,
+        "avg_to_par": 10.0,
+        "avg_sg_total": -8.91,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-02-10"
+      },
+      {
+        "season": 2006,
+        "rounds": 33,
+        "scoring_average": 69.33,
+        "avg_to_par": -1.94,
+        "avg_sg_total": -0.64,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-09-29"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

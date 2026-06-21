@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Royal St George's Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.5
+      },
+      {
+        "course": "Whistling Straits - Straits Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.31
+      },
+      {
+        "course": "Trump National Doral",
+        "rounds": 4,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.36
+      },
+      {
+        "course": "Atlanta Athletic Club - Highlands Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": 0.45
+      },
+      {
+        "course": "The Grove Golf Course",
+        "rounds": 4,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.86
+      },
+      {
+        "course": "Sheshan International GC",
+        "rounds": 8,
+        "avg_to_par": 1.25,
+        "avg_sg": -1.43
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 74.5,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -3.36,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-03-11"
+      },
+      {
+        "season": 2011,
+        "rounds": 12,
+        "scoring_average": 72.08,
+        "avg_to_par": 1.08,
+        "avg_sg_total": -1.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-11-06"
+      },
+      {
+        "season": 2010,
+        "rounds": 10,
+        "scoring_average": 72.6,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.62,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2010-11-06"
+      },
+      {
+        "season": 2006,
+        "rounds": 4,
+        "scoring_average": 72.25,
+        "avg_to_par": 1.25,
+        "avg_sg_total": -1.86,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-01"
+      },
+      {
+        "season": 2005,
+        "rounds": 4,
+        "scoring_average": 70.75,
+        "avg_to_par": -0.75,
+        "avg_sg_total": -0.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2005-02-25"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.08
+      },
+      {
+        "course": "Grayhawk Golf Club - Raptor Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.71
+      },
+      {
+        "course": null,
+        "rounds": 8,
+        "avg_to_par": 1.38,
+        "avg_sg": -1.79
+      },
+      {
+        "course": "Tesoro Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.52
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.95
+      },
+      {
+        "course": "Angus Glen Golf Club - North Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.58
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2011,
+        "rounds": 6,
+        "scoring_average": 73.33,
+        "avg_to_par": 1.33,
+        "avg_sg_total": -1.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-12-05"
+      },
+      {
+        "season": 2007,
+        "rounds": 34,
+        "scoring_average": 71.38,
+        "avg_to_par": 0.06,
+        "avg_sg_total": -0.68,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-11-02"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 2
+  }
 }

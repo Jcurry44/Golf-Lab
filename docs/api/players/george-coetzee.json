@@ -350,5 +350,183 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Ocean Course at Kiawah Island",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -1.83
+      },
+      {
+        "course": "Erin Hills",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -2.19
+      },
+      {
+        "course": "Royal Troon Golf Club - Old Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -0.3
+      },
+      {
+        "course": "Sheshan Golf Club",
+        "rounds": 4,
+        "avg_to_par": 2.25,
+        "avg_sg": -0.99
+      },
+      {
+        "course": "Carnoustie Golf Links - Championship Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -0.03
+      },
+      {
+        "course": "Club de Golf Chapultepec",
+        "rounds": 4,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.64
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 33.0,
+        "avg_to_par": -3.0,
+        "avg_sg_total": -2.13,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-14"
+      },
+      {
+        "season": 2021,
+        "rounds": 2,
+        "scoring_average": 77.0,
+        "avg_to_par": 5.0,
+        "avg_sg_total": -1.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-05-21"
+      },
+      {
+        "season": 2019,
+        "rounds": 8,
+        "scoring_average": 73.38,
+        "avg_to_par": 1.88,
+        "avg_sg_total": -1.32,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-02-24"
+      },
+      {
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -0.03,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-20"
+      },
+      {
+        "season": 2017,
+        "rounds": 6,
+        "scoring_average": 73.17,
+        "avg_to_par": 1.17,
+        "avg_sg_total": -0.76,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-06-16"
+      },
+      {
+        "season": 2016,
+        "rounds": 20,
+        "scoring_average": 71.55,
+        "avg_to_par": 0.45,
+        "avg_sg_total": -0.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-31"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 6
+  }
 }

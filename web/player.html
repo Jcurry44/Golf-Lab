@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Player Cards - Golf Lab</title>
+    <meta name="description" content="Golf Lab player intelligence cards with model projection, scorecard history, course fit, skill profile, and source coverage.">
+    <meta property="og:title" content="Player Cards - Golf Lab">
+    <meta property="og:description" content="Premium professional golf scorecards: model projection, course fit, scorecard history, skill profile, and source coverage.">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./player.js" defer></script>
+  </head>
+  <body class="player-page">
+    <main class="player-shell">
+      <header class="product-top">
+        <a class="product-brand" href="./index.html" aria-label="Golf Lab home">
+          <span class="brand-mark">GL</span>
+          <span><small>Golf Lab</small><strong>Player Cards</strong></span>
+        </a>
+        <nav class="product-nav" aria-label="Golf Lab">
+          <a class="is-active" href="./player.html">Players</a>
+          <a href="./index.html#model">Model</a>
+          <a href="./index.html#courses">Courses</a>
+          <a href="./index.html#data">Reliability</a>
+        </nav>
+      </header>
+
+      <section class="player-search">
+        <div>
+          <p class="eyebrow">Player intelligence</p>
+          <h1>Find the whole golfer in one card.</h1>
+        </div>
+        <form id="playerSearchForm" class="player-search-box" autocomplete="off">
+          <input id="playerSearchInput" type="search" placeholder="Scottie Scheffler, Wyndham Clark, Ludvig Aberg" aria-label="Search player">
+          <button type="submit">Search</button>
+          <div id="typeahead" class="typeahead" hidden></div>
+        </form>
+      </section>
+
+      <div id="status" class="pc-loading">Loading Golf Lab...</div>
+
+      <section id="emptyState" class="pc-empty" hidden></section>
+
+      <section id="playerCard" class="pc-card" hidden>
+        <header class="pc-hero">
+          <div class="pc-hero-copy">
+            <p class="eyebrow" id="pcEyebrow">Player card</p>
+            <h2 id="pcName"></h2>
+            <div id="pcChips" class="pc-chips"></div>
+          </div>
+          <div class="pc-hero-number">
+            <span id="pcHeroLabel">Model rank</span>
+            <strong id="pcHeroValue">--</strong>
+            <small id="pcHeroSub">Current event</small>
+          </div>
+        </header>
+
+        <div id="pcVerdict" class="pc-verdict"></div>
+        <div id="pcExplain" class="pc-explain"></div>
+
+        <nav id="pcSectionNav" class="pc-secnav" aria-label="Player card sections">
+          <a href="#projection">Projection</a>
+          <a href="#scorecard">Scorecard</a>
+          <a href="#seasons">Seasons</a>
+          <a href="#courses">Courses</a>
+          <a href="#rounds">Rounds</a>
+          <a href="#receipts">Receipts</a>
+        </nav>
+
+        <div class="pc-grid">
+          <section class="intel-panel pc-full" id="projection">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Tournament projection</p>
+                <h3 id="projectionTitle">Model board</h3>
+              </div>
+              <span class="mini-badge" id="projectionBadge">Live context</span>
+            </div>
+            <div id="projectionGrid" class="insight-grid"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="scorecard">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Player scorecard</p>
+                <h3>Skill profile</h3>
+              </div>
+              <span class="mini-badge" id="scorecardBadge">Latest available season</span>
+            </div>
+            <div id="scorecardGrid" class="score-grid"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="seasons">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Form arc</p>
+                <h3>Season-by-season profile</h3>
+              </div>
+              <span class="mini-badge" id="seasonBadge">Public + scorecard blend</span>
+            </div>
+            <div id="seasonBars" class="season-bars"></div>
+          </section>
+
+          <section class="intel-panel" id="courses">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Course fit</p>
+                <h3>Best courses</h3>
+              </div>
+            </div>
+            <div id="bestCourses" class="course-lens"></div>
+          </section>
+
+          <section class="intel-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Stress points</p>
+                <h3>Worst courses</h3>
+              </div>
+            </div>
+            <div id="worstCourses" class="course-lens"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="rounds">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Scorecards</p>
+                <h3>Recent rounds</h3>
+              </div>
+            </div>
+            <div id="roundTable" class="data-table-wrap"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="receipts">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Receipts</p>
+                <h3>Data coverage and caveats</h3>
+              </div>
+            </div>
+            <div id="receiptGrid" class="receipt-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

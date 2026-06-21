@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": 5.0,
+        "avg_sg": -4.15
+      },
+      {
+        "course": "Augusta National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -1.88
+      },
+      {
+        "course": "Muirfield Village Golf Club",
+        "rounds": 4,
+        "avg_to_par": 1.75,
+        "avg_sg": 0.54
+      },
+      {
+        "course": "Congressional Country Club - Blue Course",
+        "rounds": 3,
+        "avg_to_par": 1.33,
+        "avg_sg": -0.96
+      },
+      {
+        "course": "GC of Houston",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.5
+      },
+      {
+        "course": "TPC Scottsdale (Stadium Course)",
+        "rounds": 4,
+        "avg_to_par": 0.75,
+        "avg_sg": -0.73
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2013,
+        "rounds": 4,
+        "scoring_average": 74.5,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -2.33,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2013-03-29"
+      },
+      {
+        "season": 2012,
+        "rounds": 4,
+        "scoring_average": 70.5,
+        "avg_to_par": -0.5,
+        "avg_sg_total": 0.48,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-02-10"
+      },
+      {
+        "season": 2009,
+        "rounds": 11,
+        "scoring_average": 69.45,
+        "avg_to_par": -0.91,
+        "avg_sg_total": 0.58,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-10-25"
+      },
+      {
+        "season": 2008,
+        "rounds": 21,
+        "scoring_average": 71.1,
+        "avg_to_par": 0.14,
+        "avg_sg_total": -0.12,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2008-10-26"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

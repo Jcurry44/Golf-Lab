@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 5.0,
+        "avg_sg": null
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.19
+      },
+      {
+        "course": "Oakdale Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.31
+      },
+      {
+        "course": "ACCORDIA GOLF Narashino Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.49
+      },
+      {
+        "course": "Keene Trace Golf Club (Champion Trace)",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -2.55
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.5
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2023,
+        "rounds": 40,
+        "scoring_average": 64.67,
+        "avg_to_par": 0.78,
+        "avg_sg_total": -1.042,
+        "sg_t2g": -0.857,
+        "sg_ott": -0.137,
+        "sg_app": -0.757,
+        "sg_arg": 0.036,
+        "sg_putt": -0.185,
+        "driving_distance": 305.7,
+        "accuracy": 0.5144,
+        "gir": 0.6412,
+        "scrambling": 0.5765,
+        "last_round": "2023-12-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

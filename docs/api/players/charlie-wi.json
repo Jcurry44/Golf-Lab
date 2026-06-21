@@ -350,5 +350,166 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.5
+      },
+      {
+        "course": "Grand Reserve Golf Club",
+        "rounds": 6,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.81
+      },
+      {
+        "course": "TPC Southwind",
+        "rounds": 6,
+        "avg_to_par": 1.17,
+        "avg_sg": -0.41
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 6,
+        "avg_to_par": 0.33,
+        "avg_sg": -1.28
+      },
+      {
+        "course": "The Country Club of Jackson",
+        "rounds": 7,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.93
+      },
+      {
+        "course": "Keene Trace Golf Club (Champions Course)",
+        "rounds": 3,
+        "avg_to_par": -1.33,
+        "avg_sg": -1.04
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 73.0,
+        "avg_to_par": 1.0,
+        "avg_sg_total": -1.42,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-03-04"
+      },
+      {
+        "season": 2019,
+        "rounds": 7,
+        "scoring_average": 72.43,
+        "avg_to_par": 0.43,
+        "avg_sg_total": -1.59,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-07-20"
+      },
+      {
+        "season": 2018,
+        "rounds": 10,
+        "scoring_average": 71.0,
+        "avg_to_par": -0.8,
+        "avg_sg_total": -0.5,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-07-22"
+      },
+      {
+        "season": 2017,
+        "rounds": 12,
+        "scoring_average": 70.58,
+        "avg_to_par": -0.58,
+        "avg_sg_total": -0.37,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-07-23"
+      },
+      {
+        "season": 2016,
+        "rounds": 9,
+        "scoring_average": 71.44,
+        "avg_to_par": 0.78,
+        "avg_sg_total": -1.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-08-12"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 5
+  }
 }

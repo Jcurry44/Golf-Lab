@@ -350,5 +350,115 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Forest Oaks Country Club",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -10.14
+      },
+      {
+        "course": "Angus Glen Golf Club - North Course",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -8.08
+      },
+      {
+        "course": "Montreux Golf & Country Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -7.74
+      },
+      {
+        "course": "Annandale GC",
+        "rounds": 3,
+        "avg_to_par": 6.33,
+        "avg_sg": -6.06
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 3,
+        "avg_to_par": 6.33,
+        "avg_sg": -4.97
+      },
+      {
+        "course": "La Cantera Golf Club - Resort Course",
+        "rounds": 4,
+        "avg_to_par": 6.0,
+        "avg_sg": -5.84
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2007,
+        "rounds": 28,
+        "scoring_average": 75.93,
+        "avg_to_par": 4.79,
+        "avg_sg_total": -4.44,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2007-11-02"
+      },
+      {
+        "season": 2006,
+        "rounds": 12,
+        "scoring_average": 77.08,
+        "avg_to_par": 6.08,
+        "avg_sg_total": -6.23,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2006-10-20"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 2
+  }
 }

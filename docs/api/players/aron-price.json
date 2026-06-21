@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Pinehurst Resort - Course No. 2",
+        "rounds": 2,
+        "avg_to_par": 6.0,
+        "avg_sg": -2.94
+      },
+      {
+        "course": "Oakmont CC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -0.08
+      },
+      {
+        "course": "Shaughnessy Golf and Country Club",
+        "rounds": 4,
+        "avg_to_par": 2.0,
+        "avg_sg": 0.52
+      },
+      {
+        "course": "CordeValle GC",
+        "rounds": 3,
+        "avg_to_par": 0.67,
+        "avg_sg": -1.17
+      },
+      {
+        "course": "The Old White TPC",
+        "rounds": 4,
+        "avg_to_par": -0.75,
+        "avg_sg": 1.1
+      },
+      {
+        "course": null,
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": -0.44
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2016,
+        "rounds": 2,
+        "scoring_average": 74.0,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -0.08,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-06-17"
+      },
+      {
+        "season": 2014,
+        "rounds": 2,
+        "scoring_average": 76.0,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -2.94,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-06-13"
+      },
+      {
+        "season": 2011,
+        "rounds": 36,
+        "scoring_average": 69.61,
+        "avg_to_par": -1.14,
+        "avg_sg_total": 0.52,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2011-10-21"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 3
+  }
 }

@@ -350,6 +350,141 @@
       }
     ]
   },
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Shinnecock Hills Golf Club",
+        "rounds": 3,
+        "avg_to_par": 5.5,
+        "avg_sg": -2.74
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": null
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.6
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.26
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.65
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -2.54
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 9,
+        "scoring_average": 64.33,
+        "avg_to_par": 1.38,
+        "avg_sg_total": -1.55,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-06-20"
+      },
+      {
+        "season": 2025,
+        "rounds": 31,
+        "scoring_average": 65.19,
+        "avg_to_par": -1.42,
+        "avg_sg_total": 0.364,
+        "sg_t2g": -0.552,
+        "sg_ott": -0.637,
+        "sg_app": -0.236,
+        "sg_arg": 0.321,
+        "sg_putt": 0.917,
+        "driving_distance": 302.0,
+        "accuracy": 0.5142,
+        "gir": 0.6355,
+        "scrambling": 0.6305,
+        "last_round": "2025-11-21"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.704,
+        "sg_t2g": -1.57,
+        "sg_ott": -1.352,
+        "sg_app": -0.442,
+        "sg_arg": 0.224,
+        "sg_putt": 0.866,
+        "driving_distance": 289.7,
+        "accuracy": 0.4906,
+        "gir": 0.6049,
+        "scrambling": 0.6172,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.477,
+        "sg_t2g": -0.442,
+        "sg_ott": -0.206,
+        "sg_app": -0.515,
+        "sg_arg": 0.278,
+        "sg_putt": 0.919,
+        "driving_distance": 303.8,
+        "accuracy": 0.5445,
+        "gir": 0.6296,
+        "scrambling": 0.6074,
+        "last_round": null
+      }
+    ]
+  },
   "model": {
     "event_id": "2026-u-s-open-401811952",
     "market": "make cut",
@@ -363,5 +498,14 @@
     "risk_flags": "",
     "avg_sg_total": 0.2,
     "avg_to_par": -0.85
+  },
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
   }
 }

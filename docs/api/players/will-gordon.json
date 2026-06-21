@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 4,
+        "avg_to_par": 7.25,
+        "avg_sg": null
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.59
+      },
+      {
+        "course": "Black Desert Resort",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.6
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -2.06
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.99
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": 0.65
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 2,
+        "scoring_average": 69.0,
+        "avg_to_par": -2.0,
+        "avg_sg_total": -0.45,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-05-22"
+      },
+      {
+        "season": 2025,
+        "rounds": 38,
+        "scoring_average": 63.82,
+        "avg_to_par": 0.24,
+        "avg_sg_total": -0.596,
+        "sg_t2g": -0.216,
+        "sg_ott": 0.078,
+        "sg_app": -0.069,
+        "sg_arg": -0.224,
+        "sg_putt": -0.38,
+        "driving_distance": 312.6,
+        "accuracy": 0.5812,
+        "gir": 0.6944,
+        "scrambling": 0.566,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.073,
+        "sg_t2g": 0.096,
+        "sg_ott": 0.358,
+        "sg_app": 0.154,
+        "sg_arg": -0.416,
+        "sg_putt": -0.169,
+        "driving_distance": 311.4,
+        "accuracy": 0.6157,
+        "gir": 0.7082,
+        "scrambling": 0.5214,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }

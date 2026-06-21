@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -5.94
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": 3.75,
+        "avg_sg": -4.14
+      },
+      {
+        "course": "TPC Craig Ranch",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -5.45
+      },
+      {
+        "course": "Dunes Golf and Beach Club",
+        "rounds": 2,
+        "avg_to_par": 3.0,
+        "avg_sg": -3.69
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": null
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.36
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 8,
+        "scoring_average": 74.25,
+        "avg_to_par": 3.0,
+        "avg_sg_total": -4.25,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-05-29"
+      },
+      {
+        "season": 2025,
+        "rounds": 32,
+        "scoring_average": 67.41,
+        "avg_to_par": 0.84,
+        "avg_sg_total": -2.425,
+        "sg_t2g": -1.554,
+        "sg_ott": -0.027,
+        "sg_app": -1.417,
+        "sg_arg": -0.111,
+        "sg_putt": -0.871,
+        "driving_distance": 296.0,
+        "accuracy": 0.5987,
+        "gir": 0.62,
+        "scrambling": 0.5379,
+        "last_round": "2025-11-23"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.875,
+        "sg_t2g": -0.461,
+        "sg_ott": 0.125,
+        "sg_app": -0.475,
+        "sg_arg": -0.111,
+        "sg_putt": -0.414,
+        "driving_distance": 298.8,
+        "accuracy": 0.651,
+        "gir": 0.6323,
+        "scrambling": 0.5863,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.068,
+        "sg_t2g": 0.274,
+        "sg_ott": 0.21,
+        "sg_app": 0.223,
+        "sg_arg": -0.158,
+        "sg_putt": -0.343,
+        "driving_distance": 301.2,
+        "accuracy": 0.6192,
+        "gir": 0.6793,
+        "scrambling": 0.5724,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

@@ -119,8 +119,8 @@ function renderSummary() {
 
   const event = summary.selectedEvent || {};
   $("#topEyebrow").textContent = `${event.event_name || "Modeled event"} | ${summary.readiness || "loading"}`;
-  $("#heroTitle").textContent = "Player scorecards. Fast decisions.";
-  $("#heroSubtitle").textContent = `${fmt(counts.players)} player profiles | ${fmt(counts.fields)} current-event entries | ${fmt(counts.rounds)} scorecards.`;
+  $("#heroTitle").textContent = "Tour intelligence. Player scorecards first.";
+  $("#heroSubtitle").textContent = `${fmt(counts.players)} player profiles | ${fmt(counts.fields)} current-event entries | ${fmt(counts.rounds)} scorecards | ${fmt(counts.strokes_gained)} SG rows.`;
   $("#eventCard").innerHTML = `
     <p class="eyebrow">Event context</p>
     <h2>${escapeHtml(event.event_name || "No event loaded")}</h2>
@@ -339,6 +339,7 @@ function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row
         <span class="featured-rank">${escapeHtml(row.rank ? `Model rank #${row.rank}` : seasonLabel)}</span>
         <h2>${escapeHtml(row.player_name)}</h2>
         <p class="featured-copy">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
+        <a class="featured-link" href="./player.html?id=${encodeURIComponent(row.player_id)}">Open full scorecard</a>
       </div>
       <div class="featured-metrics">
         ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
@@ -378,7 +379,7 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
     count.textContent = `${fmt(decoratedRows.length)} of ${fmt(allRows.length)} player cards | ${label}`;
   }
   $("#playerCards").innerHTML = rows.map(({ row, profile }) => `
-    <button type="button" class="player-card" data-player-id="${escapeHtml(row.player_id)}">
+    <a class="player-card" href="./player.html?id=${encodeURIComponent(row.player_id)}">
       <div class="player-card-head">
         <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
         <div>
@@ -399,7 +400,7 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
         <span>Score <strong>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</strong></span>
         <span>Scramble <strong>${pctDecimal(profile.scrambling)}</strong></span>
       </div>
-    </button>
+    </a>
   `).join("") || empty("No player cards match those filters.");
   const actions = $("#playerActions");
   if (actions) {
@@ -430,14 +431,14 @@ function renderModel(limit = currentView === "model" ? 40 : 10) {
   $("#modelBoard").innerHTML = `
     <div class="model-table">
       ${rows.map((row) => `
-        <button type="button" class="model-row" data-player-id="${escapeHtml(row.player_id)}">
+        <a class="model-row" href="./player.html?id=${encodeURIComponent(row.player_id)}">
           <span class="model-rank">${escapeHtml(row.rank || "--")}</span>
           <strong>${escapeHtml(row.player_name)}</strong>
           <span>${pct(row.probability_pct)}</span>
           <span>${signed(row.projected_to_par)}</span>
           <em>${escapeHtml(row.confidence || "Watch")}</em>
           <p>${escapeHtml(row.plain_english || "Reasoning pending.")}</p>
-        </button>
+        </a>
       `).join("")}
     </div>
   ` || empty("No model rows yet.");
@@ -542,8 +543,6 @@ function bindEvents() {
       renderPlayers();
       return;
     }
-    const player = event.target.closest("[data-player-id]");
-    if (player) openPlayer(player.dataset.playerId).catch(showError);
     const course = event.target.closest("[data-course-id]");
     if (course) openCourse(course.dataset.courseId).catch(showError);
   });
@@ -595,6 +594,12 @@ function bindEvents() {
   }
 }
 
+function viewFromHash() {
+  const hash = location.hash.replace("#", "");
+  if (["players", "model", "courses", "overview", "data"].includes(hash)) return hash;
+  return "players";
+}
+
 function closeDrawer() {
   $("#detailDrawer").hidden = true;
 }
@@ -624,7 +629,7 @@ async function boot() {
     renderCourses();
     renderModel();
     renderHealth();
-    setView("players");
+    setView(viewFromHash());
   } catch (error) {
     showError(error);
     $("#eventCard").innerHTML = empty("Database not ready. Run python golf_lab_import.py --seed-starter or import the PGA warehouse.");

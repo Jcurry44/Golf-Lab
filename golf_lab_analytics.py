@@ -447,6 +447,89 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         """,
         (player_id,),
     )
+    worst_courses = table_payload(
+        conn,
+        """
+        select coalesce(c.course_name, r.course_id) as course, count(*) as rounds,
+               round(avg(r.to_par), 2) as avg_to_par, round(avg(sg.sg_total), 2) as avg_sg
+        from rounds r
+        left join courses c on c.course_id = r.course_id
+        left join strokes_gained sg on sg.round_id = r.round_id
+        where r.player_id = ?
+        group by coalesce(c.course_name, r.course_id)
+        having count(*) >= 2
+        order by avg_to_par desc, avg_sg asc
+        limit 6
+        """,
+        (player_id,),
+    )
+    seasons = table_payload(
+        conn,
+        """
+        with round_profile as (
+          select e.season,
+                 count(r.round_id) as rounds,
+                 round(avg(r.score), 2) as scoring_average,
+                 round(avg(r.to_par), 2) as avg_to_par,
+                 round(avg(sg.sg_total), 2) as avg_sg_total,
+                 round(avg(sg.sg_t2g), 2) as sg_t2g,
+                 round(avg(sg.sg_ott), 2) as sg_ott,
+                 round(avg(sg.sg_app), 2) as sg_app,
+                 round(avg(sg.sg_arg), 2) as sg_arg,
+                 round(avg(sg.sg_putt), 2) as sg_putt,
+                 max(r.round_date) as last_round
+          from rounds r
+          join events e on e.event_id = r.event_id
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.player_id = ?
+            and e.season is not null
+          group by e.season
+        ),
+        season_skill as (
+          select cast(substr(period, 8) as integer) as season,
+                 sg_total as season_sg_total,
+                 sg_t2g as season_sg_t2g,
+                 sg_ott as season_sg_ott,
+                 sg_app as season_sg_app,
+                 sg_arg as season_sg_arg,
+                 sg_putt as season_sg_putt,
+                 driving_distance,
+                 accuracy,
+                 gir,
+                 scrambling
+          from strokes_gained
+          where player_id = ?
+            and round_id is null
+            and period like 'season-%'
+        ),
+        player_seasons as (
+          select season from round_profile
+          union
+          select season from season_skill
+        )
+        select ps.season,
+               coalesce(rp.rounds, 0) as rounds,
+               rp.scoring_average,
+               rp.avg_to_par,
+               coalesce(ss.season_sg_total, rp.avg_sg_total) as avg_sg_total,
+               coalesce(ss.season_sg_t2g, rp.sg_t2g) as sg_t2g,
+               coalesce(ss.season_sg_ott, rp.sg_ott) as sg_ott,
+               coalesce(ss.season_sg_app, rp.sg_app) as sg_app,
+               coalesce(ss.season_sg_arg, rp.sg_arg) as sg_arg,
+               coalesce(ss.season_sg_putt, rp.sg_putt) as sg_putt,
+               ss.driving_distance,
+               ss.accuracy,
+               ss.gir,
+               ss.scrambling,
+               rp.last_round
+        from player_seasons ps
+        left join round_profile rp on rp.season = ps.season
+        left join season_skill ss on ss.season = ps.season
+        order by ps.season desc
+        limit 12
+        """,
+        (player_id, player_id),
+    )
     model = one(
         conn,
         f"""
@@ -465,7 +548,24 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         model["avg_sg_total"] = player.get("avg_sg_total")
         model["avg_to_par"] = player.get("avg_to_par")
         model["plain_english"] = _generated_reason(model)
-    return {"player": player, "rounds": rounds, "bestCourses": best_courses, "model": model}
+    coverage = {
+        "hasRoundScorecards": bool(player.get("rounds")),
+        "hasStrokesGained": player.get("avg_sg_total") is not None,
+        "hasDrivingDistance": player.get("driving_distance") is not None,
+        "hasAccuracy": player.get("accuracy") is not None,
+        "hasGir": player.get("gir") is not None,
+        "hasScrambling": player.get("scrambling") is not None,
+        "seasonProfiles": len(seasons["rows"]),
+    }
+    return {
+        "player": player,
+        "rounds": rounds,
+        "bestCourses": best_courses,
+        "worstCourses": worst_courses,
+        "seasons": seasons,
+        "model": model,
+        "coverage": coverage,
+    }
 
 
 def course_cards(conn: sqlite3.Connection, limit: int = 18) -> dict[str, Any]:

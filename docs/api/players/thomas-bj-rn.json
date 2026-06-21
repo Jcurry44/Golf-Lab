@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -3.83
+      },
+      {
+        "course": "The Renaissance Club",
+        "rounds": 2,
+        "avg_to_par": 6.5,
+        "avg_sg": -4.22
+      },
+      {
+        "course": "Valhalla GC",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -2.72
+      },
+      {
+        "course": "PGA National Resort (The Champion)",
+        "rounds": 2,
+        "avg_to_par": 4.0,
+        "avg_sg": -1.65
+      },
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.37
+      },
+      {
+        "course": "St. Andrews GC (Old Course)",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -2.2
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2022,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 6.5,
+        "avg_sg_total": -4.22,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2022-07-08"
+      },
+      {
+        "season": 2017,
+        "rounds": 2,
+        "scoring_average": 78.0,
+        "avg_to_par": 7.0,
+        "avg_sg_total": -3.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-11"
+      },
+      {
+        "season": 2015,
+        "rounds": 18,
+        "scoring_average": 73.28,
+        "avg_to_par": 1.94,
+        "avg_sg_total": -1.06,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-08-16"
+      },
+      {
+        "season": 2014,
+        "rounds": 18,
+        "scoring_average": 71.78,
+        "avg_to_par": 0.33,
+        "avg_sg_total": 0.47,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-08"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 4
+  }
 }

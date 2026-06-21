@@ -39,6 +39,10 @@ class GolfLabCoreTests(unittest.TestCase):
             payload = player_card(conn, "scottie-scheffler", "starter-us-open-2026")
         self.assertEqual(payload["player"]["player_name"], "Scottie Scheffler")
         self.assertGreater(len(payload["rounds"]["rows"]), 0)
+        self.assertIn("worstCourses", payload)
+        self.assertIn("seasons", payload)
+        self.assertIn("coverage", payload)
+        self.assertTrue(payload["coverage"]["hasRoundScorecards"])
         self.assertIsNotNone(payload["model"])
 
     def test_model_and_course_boards(self) -> None:

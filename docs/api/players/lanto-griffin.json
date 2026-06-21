@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 2,
+        "avg_to_par": 1.5,
+        "avg_sg": -1.6
+      },
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 4,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.93
+      },
+      {
+        "course": "TPC San Antonio - The Oaks Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.45
+      },
+      {
+        "course": "PGA National - Champion Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "Torrey Pines Golf Course - South Course",
+        "rounds": 2,
+        "avg_to_par": 0.0,
+        "avg_sg": -1.1
+      },
+      {
+        "course": "TPC Toronto at Osprey Valley - North Course",
+        "rounds": 4,
+        "avg_to_par": -0.25,
+        "avg_sg": -0.5
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 27,
+        "scoring_average": 70.04,
+        "avg_to_par": -1.0,
+        "avg_sg_total": -0.074,
+        "sg_t2g": -0.151,
+        "sg_ott": -0.093,
+        "sg_app": -0.231,
+        "sg_arg": 0.172,
+        "sg_putt": 0.077,
+        "driving_distance": 298.5,
+        "accuracy": 0.5847,
+        "gir": 0.6708,
+        "scrambling": 0.5688,
+        "last_round": "2026-06-14"
+      },
+      {
+        "season": 2025,
+        "rounds": 13,
+        "scoring_average": 70.38,
+        "avg_to_par": -0.69,
+        "avg_sg_total": 0.037,
+        "sg_t2g": -0.058,
+        "sg_ott": -0.075,
+        "sg_app": 0.153,
+        "sg_arg": -0.137,
+        "sg_putt": 0.095,
+        "driving_distance": 300.1,
+        "accuracy": 0.6146,
+        "gir": 0.669,
+        "scrambling": 0.5863,
+        "last_round": "2025-12-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.133,
+        "sg_t2g": -0.004,
+        "sg_ott": 0.204,
+        "sg_app": 0.168,
+        "sg_arg": -0.377,
+        "sg_putt": -0.129,
+        "driving_distance": 304.8,
+        "accuracy": 0.621,
+        "gir": 0.7253,
+        "scrambling": 0.5393,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.295,
+        "sg_t2g": -0.336,
+        "sg_ott": 0.149,
+        "sg_app": -0.405,
+        "sg_arg": -0.08,
+        "sg_putt": 0.041,
+        "driving_distance": 302.3,
+        "accuracy": 0.6365,
+        "gir": 0.6852,
+        "scrambling": 0.6037,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

@@ -350,5 +350,149 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Sawgrass (THE PLAYERS Stadium Course)",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -6.24
+      },
+      {
+        "course": "The Riviera Country Club",
+        "rounds": 2,
+        "avg_to_par": 1.0,
+        "avg_sg": -1.84
+      },
+      {
+        "course": "PGA National - Champion Course",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.26
+      },
+      {
+        "course": "Pebble Beach Golf Links",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -1.99
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": -0.5,
+        "avg_sg": -0.27
+      },
+      {
+        "course": "Colonial Country Club",
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.5
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 39,
+        "scoring_average": 70.38,
+        "avg_to_par": -0.74,
+        "avg_sg_total": -0.24,
+        "sg_t2g": 0.246,
+        "sg_ott": 0.241,
+        "sg_app": -0.005,
+        "sg_arg": 0.01,
+        "sg_putt": -0.486,
+        "driving_distance": 308.3,
+        "accuracy": 0.5704,
+        "gir": 0.6809,
+        "scrambling": 0.5491,
+        "last_round": "2026-06-14"
+      },
+      {
+        "season": 2025,
+        "rounds": 1,
+        "scoring_average": 70.0,
+        "avg_to_par": -1.0,
+        "avg_sg_total": 0.794,
+        "sg_t2g": 0.78,
+        "sg_ott": 0.615,
+        "sg_app": 0.31,
+        "sg_arg": -0.145,
+        "sg_putt": 0.013,
+        "driving_distance": 309.4,
+        "accuracy": 0.6329,
+        "gir": 0.7067,
+        "scrambling": 0.556,
+        "last_round": "2025-11-14"
+      },
+      {
+        "season": 2024,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.336,
+        "sg_t2g": 0.624,
+        "sg_ott": 0.539,
+        "sg_app": 0.319,
+        "sg_arg": -0.233,
+        "sg_putt": -0.288,
+        "driving_distance": 308.0,
+        "accuracy": 0.5966,
+        "gir": 0.7154,
+        "scrambling": 0.5989,
+        "last_round": null
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": 0.236,
+        "sg_t2g": 1.04,
+        "sg_ott": 0.803,
+        "sg_app": 0.204,
+        "sg_arg": 0.033,
+        "sg_putt": -0.804,
+        "driving_distance": 311.3,
+        "accuracy": 0.615,
+        "gir": 0.7261,
+        "scrambling": 0.54,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 4
+  }
 }

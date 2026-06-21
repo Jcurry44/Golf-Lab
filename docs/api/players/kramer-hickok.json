@@ -350,5 +350,98 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "TPC Deere Run",
+        "rounds": 4,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.21
+      },
+      {
+        "course": "TPC Summerlin",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -1.7
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -0.9
+      },
+      {
+        "course": "Tahoe Mountain Club (Old Greenwood)",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": null
+      },
+      {
+        "course": "Silverado Resort (North Course)",
+        "rounds": 2,
+        "avg_to_par": -1.0,
+        "avg_sg": 0.31
+      },
+      {
+        "course": "Sea Island Golf Club (Seaside Course)",
+        "rounds": 4,
+        "avg_to_par": -1.25,
+        "avg_sg": -1.16
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2023,
+        "rounds": 40,
+        "scoring_average": 65.7,
+        "avg_to_par": -1.9,
+        "avg_sg_total": -0.359,
+        "sg_t2g": -0.168,
+        "sg_ott": 0.024,
+        "sg_app": -0.132,
+        "sg_arg": -0.061,
+        "sg_putt": -0.191,
+        "driving_distance": 296.7,
+        "accuracy": 0.6344,
+        "gir": 0.6861,
+        "scrambling": 0.6369,
+        "last_round": "2023-12-17"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 1
+  }
 }

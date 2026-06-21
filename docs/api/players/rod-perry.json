@@ -350,5 +350,217 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "The Old White TPC",
+        "rounds": 2,
+        "avg_to_par": 9.0,
+        "avg_sg": -8.57
+      },
+      {
+        "course": "TPC Harding Park",
+        "rounds": 2,
+        "avg_to_par": 8.0,
+        "avg_sg": -6.79
+      },
+      {
+        "course": "Quail Hollow Club",
+        "rounds": 4,
+        "avg_to_par": 7.0,
+        "avg_sg": -4.98
+      },
+      {
+        "course": "Bethpage State Park BK Course",
+        "rounds": 2,
+        "avg_to_par": 7.0,
+        "avg_sg": -4.65
+      },
+      {
+        "course": "Innisbrook Resort (Copperhead Course)",
+        "rounds": 14,
+        "avg_to_par": 5.07,
+        "avg_sg": -3.94
+      },
+      {
+        "course": "Arnold Palmer's Bay Hill Club & Lodge",
+        "rounds": 12,
+        "avg_to_par": 3.67,
+        "avg_sg": -2.64
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2021,
+        "rounds": 4,
+        "scoring_average": 77.5,
+        "avg_to_par": 6.0,
+        "avg_sg_total": -5.49,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2021-04-30"
+      },
+      {
+        "season": 2020,
+        "rounds": 6,
+        "scoring_average": 76.0,
+        "avg_to_par": 4.67,
+        "avg_sg_total": -2.65,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2020-08-07"
+      },
+      {
+        "season": 2019,
+        "rounds": 6,
+        "scoring_average": 77.17,
+        "avg_to_par": 6.17,
+        "avg_sg_total": -4.83,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2019-05-17"
+      },
+      {
+        "season": 2018,
+        "rounds": 2,
+        "scoring_average": 76.5,
+        "avg_to_par": 5.5,
+        "avg_sg_total": -3.93,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2018-03-09"
+      },
+      {
+        "season": 2017,
+        "rounds": 4,
+        "scoring_average": 79.75,
+        "avg_to_par": 8.75,
+        "avg_sg_total": -6.9,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2017-08-11"
+      },
+      {
+        "season": 2016,
+        "rounds": 4,
+        "scoring_average": 73.0,
+        "avg_to_par": 2.5,
+        "avg_sg_total": -0.94,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2016-07-29"
+      },
+      {
+        "season": 2015,
+        "rounds": 4,
+        "scoring_average": 75.5,
+        "avg_to_par": 4.0,
+        "avg_sg_total": -3.85,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2015-03-20"
+      },
+      {
+        "season": 2014,
+        "rounds": 10,
+        "scoring_average": 75.3,
+        "avg_to_par": 4.1,
+        "avg_sg_total": -3.14,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2014-08-08"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 8
+  }
 }

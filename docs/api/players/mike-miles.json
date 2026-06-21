@@ -195,5 +195,103 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Hazeltine National Golf Club",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.83
+      },
+      {
+        "course": "Bethpage State Park - Black Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -0.58
+      },
+      {
+        "course": "PGA West Palmer Course",
+        "rounds": 3,
+        "avg_to_par": 1.33,
+        "avg_sg": -3.34
+      },
+      {
+        "course": null,
+        "rounds": 4,
+        "avg_to_par": -0.5,
+        "avg_sg": -3.38
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2012,
+        "rounds": 3,
+        "scoring_average": 73.33,
+        "avg_to_par": 1.33,
+        "avg_sg_total": -3.34,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2012-01-21"
+      },
+      {
+        "season": 2009,
+        "rounds": 8,
+        "scoring_average": 73.25,
+        "avg_to_par": 1.75,
+        "avg_sg_total": -2.29,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2009-08-14"
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": false,
+    "hasAccuracy": false,
+    "hasGir": false,
+    "hasScrambling": false,
+    "seasonProfiles": 2
+  }
 }

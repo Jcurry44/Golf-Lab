@@ -350,5 +350,132 @@
       }
     ]
   },
-  "model": null
+  "worstCourses": {
+    "columns": [
+      "course",
+      "rounds",
+      "avg_to_par",
+      "avg_sg"
+    ],
+    "rows": [
+      {
+        "course": "Dye's Valley Course",
+        "rounds": 2,
+        "avg_to_par": 3.5,
+        "avg_sg": -3.14
+      },
+      {
+        "course": "TPC Deere Run",
+        "rounds": 2,
+        "avg_to_par": 2.5,
+        "avg_sg": -3.94
+      },
+      {
+        "course": "Memorial Park Golf Course",
+        "rounds": 2,
+        "avg_to_par": 2.0,
+        "avg_sg": -2.77
+      },
+      {
+        "course": "TPC Twin Cities",
+        "rounds": 2,
+        "avg_to_par": 0.5,
+        "avg_sg": -2.49
+      },
+      {
+        "course": "Port Royal Golf Course",
+        "rounds": 4,
+        "avg_to_par": 0.25,
+        "avg_sg": 0.15
+      },
+      {
+        "course": "Sedgefield Country Club",
+        "rounds": 4,
+        "avg_to_par": 0.0,
+        "avg_sg": -0.7
+      }
+    ]
+  },
+  "seasons": {
+    "columns": [
+      "season",
+      "rounds",
+      "scoring_average",
+      "avg_to_par",
+      "avg_sg_total",
+      "sg_t2g",
+      "sg_ott",
+      "sg_app",
+      "sg_arg",
+      "sg_putt",
+      "driving_distance",
+      "accuracy",
+      "gir",
+      "scrambling",
+      "last_round"
+    ],
+    "rows": [
+      {
+        "season": 2026,
+        "rounds": 2,
+        "scoring_average": 72.0,
+        "avg_to_par": 2.0,
+        "avg_sg_total": -2.77,
+        "sg_t2g": null,
+        "sg_ott": null,
+        "sg_app": null,
+        "sg_arg": null,
+        "sg_putt": null,
+        "driving_distance": null,
+        "accuracy": null,
+        "gir": null,
+        "scrambling": null,
+        "last_round": "2026-03-27"
+      },
+      {
+        "season": 2025,
+        "rounds": 38,
+        "scoring_average": 70.16,
+        "avg_to_par": -0.84,
+        "avg_sg_total": -0.074,
+        "sg_t2g": -0.112,
+        "sg_ott": 0.045,
+        "sg_app": 0.06,
+        "sg_arg": -0.218,
+        "sg_putt": 0.038,
+        "driving_distance": 312.3,
+        "accuracy": 0.5257,
+        "gir": 0.6976,
+        "scrambling": 0.5433,
+        "last_round": "2025-12-12"
+      },
+      {
+        "season": 2023,
+        "rounds": 0,
+        "scoring_average": null,
+        "avg_to_par": null,
+        "avg_sg_total": -0.537,
+        "sg_t2g": -0.209,
+        "sg_ott": -0.111,
+        "sg_app": 0.032,
+        "sg_arg": -0.132,
+        "sg_putt": -0.328,
+        "driving_distance": 311.8,
+        "accuracy": 0.4889,
+        "gir": 0.6354,
+        "scrambling": 0.5687,
+        "last_round": null
+      }
+    ]
+  },
+  "model": null,
+  "coverage": {
+    "hasRoundScorecards": true,
+    "hasStrokesGained": true,
+    "hasDrivingDistance": true,
+    "hasAccuracy": true,
+    "hasGir": true,
+    "hasScrambling": true,
+    "seasonProfiles": 3
+  }
 }
