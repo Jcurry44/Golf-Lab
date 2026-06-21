@@ -17,7 +17,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-premium-data";
+const BUILD_VERSION = "20260621-filter-fix";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -70,6 +70,7 @@ function signed(value, digits = 1) {
 }
 
 function numeric(value) {
+  if (value === null || value === undefined || value === "") return null;
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : null;
 }
