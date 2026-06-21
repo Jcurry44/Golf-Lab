@@ -272,7 +272,14 @@ def import_strokes_gained(conn: sqlite3.Connection, rows: Iterable[dict[str, str
         round_id = first(row, "round_id")
         event_id = first(row, "event_id")
         player_id = first(row, "player_id")
-        if round_id not in round_ids and not (event_id in event_ids and player_id in player_ids):
+        has_player_skill_stat = player_id in player_ids and (
+            first(row, "period").startswith("season-")
+            or first(row, "driving_distance")
+            or first(row, "accuracy")
+            or first(row, "gir")
+            or first(row, "scrambling")
+        )
+        if round_id not in round_ids and not (event_id in event_ids and player_id in player_ids) and not has_player_skill_stat:
             continue
         linked_round_id = round_id if round_id in round_ids else None
         upsert(conn, "strokes_gained", {
@@ -287,6 +294,10 @@ def import_strokes_gained(conn: sqlite3.Connection, rows: Iterable[dict[str, str
             "sg_app": number(first(row, "sg_app")),
             "sg_arg": number(first(row, "sg_arg")),
             "sg_putt": number(first(row, "sg_putt")),
+            "driving_distance": number(first(row, "driving_distance")),
+            "accuracy": number(first(row, "accuracy")),
+            "gir": number(first(row, "gir")),
+            "scrambling": number(first(row, "scrambling")),
             "source_provider": first(row, "source_provider"),
             "source_url": first(row, "source_url"),
             "source_updated_at": first(row, "source_updated_at"),
@@ -408,17 +419,58 @@ def import_sources(conn: sqlite3.Connection, rows: Iterable[dict[str, str]], eve
 def import_player_skill_snapshots(conn: sqlite3.Connection) -> None:
     rows = conn.execute(
         """
+        with latest_stat as (
+          select *
+          from (
+            select sg.*,
+                   row_number() over (
+                     partition by sg.player_id
+                     order by case when sg.period like 'season-%' then 0 else 1 end,
+                              coalesce(sg.source_updated_at, '') desc,
+                              coalesce(sg.period, '') desc
+                   ) as row_number
+            from strokes_gained sg
+            where sg.round_id is null
+              and (sg.driving_distance is not null
+                or sg.accuracy is not null
+                or sg.gir is not null
+                or sg.scrambling is not null)
+          )
+          where row_number = 1
+        ),
+        recent_rounds as (
+          select p.player_id, p.player_name,
+                 count(r.round_id) as rounds,
+                 avg(sg.sg_total) as sg_total,
+                 avg(sg.sg_t2g) as sg_t2g,
+                 avg(sg.sg_ott) as sg_ott,
+                 avg(sg.sg_app) as sg_app,
+                 avg(sg.sg_arg) as sg_arg,
+                 avg(sg.sg_putt) as sg_putt
+          from players p
+          left join rounds r on r.player_id = p.player_id
+          left join strokes_gained sg on sg.round_id = r.round_id
+          group by p.player_id, p.player_name
+        )
         select p.player_id, p.player_name,
-               count(r.round_id) as rounds,
-               avg(sg.sg_total) as sg_total,
-               avg(sg.sg_t2g) as sg_t2g,
-               avg(sg.sg_ott) as sg_ott,
-               avg(sg.sg_app) as sg_app,
-               avg(sg.sg_arg) as sg_arg,
-               avg(sg.sg_putt) as sg_putt
+               rr.rounds,
+               coalesce(rr.sg_total, ls.sg_total) as sg_total,
+               coalesce(rr.sg_t2g, ls.sg_t2g) as sg_t2g,
+               coalesce(rr.sg_ott, ls.sg_ott) as sg_ott,
+               coalesce(rr.sg_app, ls.sg_app) as sg_app,
+               coalesce(rr.sg_arg, ls.sg_arg) as sg_arg,
+               coalesce(rr.sg_putt, ls.sg_putt) as sg_putt,
+               ls.driving_distance,
+               ls.accuracy,
+               ls.gir,
+               ls.scrambling,
+               ls.period,
+               ls.source_provider,
+               ls.source_url,
+               ls.source_updated_at
         from players p
-        left join rounds r on r.player_id = p.player_id
-        left join strokes_gained sg on sg.round_id = r.round_id
+        left join recent_rounds rr on rr.player_id = p.player_id
+        left join latest_stat ls on ls.player_id = p.player_id
         group by p.player_id, p.player_name
         """
     ).fetchall()
@@ -433,13 +485,13 @@ def import_player_skill_snapshots(conn: sqlite3.Connection) -> None:
             "sg_app": row["sg_app"],
             "sg_arg": row["sg_arg"],
             "sg_putt": row["sg_putt"],
-            "driving_distance": None,
-            "accuracy": None,
-            "gir": None,
-            "scrambling": None,
-            "source_provider": "Golf Lab derived scoring model",
-            "source_url": "derived-from-rounds",
-            "source_updated_at": None,
+            "driving_distance": row["driving_distance"],
+            "accuracy": row["accuracy"],
+            "gir": row["gir"],
+            "scrambling": row["scrambling"],
+            "source_provider": row["source_provider"] or "Golf Lab derived scoring model",
+            "source_url": row["source_url"] or "derived-from-rounds",
+            "source_updated_at": row["source_updated_at"],
         })
 
 

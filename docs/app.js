@@ -188,9 +188,10 @@ function renderPlayers(limit = currentView === "players" ? 48 : 8) {
       </div>
       <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
       <div class="scorecard-footer">
-        <span>Market Edge <strong>${signed(row.edge_probability, 2)}</strong></span>
-        <span>Accuracy <strong>${pctDecimal(row.accuracy)}</strong></span>
+        <span>Drive <strong>${row.driving_distance ? `${fmt(row.driving_distance, 1)} yd` : "--"}</strong></span>
+        <span>Fairways <strong>${pctDecimal(row.accuracy)}</strong></span>
         <span>GIR <strong>${pctDecimal(row.gir)}</strong></span>
+        <span>Scramble <strong>${pctDecimal(row.scrambling)}</strong></span>
       </div>
     </button>
   `).join("") || empty("No player cards yet.");
@@ -265,6 +266,9 @@ async function openPlayer(playerId) {
       ${metric("Rounds", player.rounds)}
       ${metric("Avg To Par", signed(player.avg_to_par))}
       ${metric("Avg SG", signed(player.avg_sg_total))}
+      ${metric("Distance", player.driving_distance ? `${fmt(player.driving_distance, 1)} yd` : "--")}
+      ${metric("Fairways", pctDecimal(player.accuracy))}
+      ${metric("GIR", pctDecimal(player.gir))}
     </div>
     <section>
       <h3>Plain-English Model Read</h3>

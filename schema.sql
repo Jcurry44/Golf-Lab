@@ -117,6 +117,10 @@ create table if not exists strokes_gained (
   sg_app real,
   sg_arg real,
   sg_putt real,
+  driving_distance real,
+  accuracy real,
+  gir real,
+  scrambling real,
   source_provider text,
   source_url text,
   source_updated_at text
@@ -242,4 +246,3 @@ from courses c
 left join rounds r on r.course_id = c.course_id
 left join strokes_gained sg on sg.round_id = r.round_id
 group by c.course_id, c.course_name, c.location;
-
