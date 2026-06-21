@@ -573,18 +573,97 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
     modeled_event_id = event["event_id"] if event else ""
     rows = conn.execute(
         f"""
-        {LATEST_MODEL_CTE}
+        {LATEST_MODEL_CTE},
+        career_rounds as (
+          select r.player_id,
+                 count(r.round_id) as rounds,
+                 round(avg(r.score), 2) as scoring_average,
+                 round(avg(r.to_par), 2) as avg_to_par,
+                 round(avg(sg.sg_total), 2) as round_sg_total,
+                 max(r.round_date) as last_round
+          from rounds r
+          left join strokes_gained sg on sg.round_id = r.round_id
+          group by r.player_id
+        ),
+        season_skill as (
+          select player_id,
+                 round(avg(sg_total), 2) as season_sg_total,
+                 round(avg(sg_t2g), 2) as sg_t2g,
+                 round(avg(sg_ott), 2) as sg_ott,
+                 round(avg(sg_app), 2) as sg_app,
+                 round(avg(sg_arg), 2) as sg_arg,
+                 round(avg(sg_putt), 2) as sg_putt,
+                 round(avg(driving_distance), 1) as driving_distance,
+                 round(avg(accuracy), 4) as accuracy,
+                 round(avg(gir), 4) as gir,
+                 round(avg(scrambling), 4) as scrambling
+          from strokes_gained
+          where round_id is null
+            and period like 'season-%'
+          group by player_id
+        ),
+        difficulty_profile as (
+          select r.player_id,
+                 sum(case when cd.difficulty_bucket in ('brutal', 'tough') then 1 else 0 end) as tough_rounds,
+                 round(avg(case when cd.difficulty_bucket in ('brutal', 'tough') then r.to_par end), 2) as tough_avg_to_par,
+                 round(avg(case when cd.difficulty_bucket in ('brutal', 'tough') then sg.sg_total end), 2) as tough_avg_sg,
+                 sum(case when cd.difficulty_bucket = 'gettable' then 1 else 0 end) as gettable_rounds,
+                 round(avg(case when cd.difficulty_bucket = 'gettable' then r.to_par end), 2) as gettable_avg_to_par,
+                 round(avg(case when cd.difficulty_bucket = 'gettable' then sg.sg_total end), 2) as gettable_avg_sg
+          from rounds r
+          left join course_difficulty cd on cd.course_id = r.course_id
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.to_par is not null
+          group by r.player_id
+        ),
+        major_profile as (
+          select r.player_id,
+                 count(r.round_id) as major_rounds,
+                 count(distinct e.event_id) as major_events,
+                 round(avg(r.to_par), 2) as major_avg_to_par,
+                 round(avg(sg.sg_total), 2) as major_avg_sg
+          from rounds r
+          join events e on e.event_id = r.event_id
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.to_par is not null
+            and (
+              lower(e.event_name) like '%u.s. open%'
+              or lower(e.event_name) like '%us open%'
+              or lower(e.event_name) like '%masters%'
+              or lower(e.event_name) like '%pga championship%'
+              or lower(e.event_name) like '%open championship%'
+              or lower(e.event_name) = 'the open'
+              or lower(e.event_name) like '%the open%'
+            )
+          group by r.player_id
+        )
         select
           p.player_id,
           p.player_name,
           p.country,
-          rf.rounds,
-          rf.avg_to_par,
-          rf.avg_sg_total,
-          ps.driving_distance,
-          ps.accuracy,
-          ps.gir,
-          ps.scrambling,
+          coalesce(cr.rounds, rf.rounds, 0) as rounds,
+          cr.scoring_average,
+          coalesce(cr.avg_to_par, rf.avg_to_par) as avg_to_par,
+          coalesce(ss.season_sg_total, cr.round_sg_total, rf.avg_sg_total, ps.sg_total) as avg_sg_total,
+          coalesce(ss.sg_t2g, ps.sg_t2g) as sg_t2g,
+          coalesce(ss.sg_ott, ps.sg_ott) as sg_ott,
+          coalesce(ss.sg_app, ps.sg_app) as sg_app,
+          coalesce(ss.sg_arg, ps.sg_arg) as sg_arg,
+          coalesce(ss.sg_putt, ps.sg_putt) as sg_putt,
+          coalesce(ss.driving_distance, ps.driving_distance) as driving_distance,
+          coalesce(ss.accuracy, ps.accuracy) as accuracy,
+          coalesce(ss.gir, ps.gir) as gir,
+          coalesce(ss.scrambling, ps.scrambling) as scrambling,
+          coalesce(dp.tough_rounds, 0) as tough_rounds,
+          dp.tough_avg_to_par,
+          dp.tough_avg_sg,
+          coalesce(dp.gettable_rounds, 0) as gettable_rounds,
+          dp.gettable_avg_to_par,
+          dp.gettable_avg_sg,
+          coalesce(mj.major_rounds, 0) as major_rounds,
+          coalesce(mj.major_events, 0) as major_events,
+          mj.major_avg_to_par,
+          mj.major_avg_sg,
           mp.rank,
           mp.probability,
           mp.edge_probability,
@@ -602,19 +681,24 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
           case when mp.player_id is null then 0 else 1 end as modeled
         from players p
         left join player_recent_form rf on rf.player_id = p.player_id
+        left join career_rounds cr on cr.player_id = p.player_id
+        left join season_skill ss on ss.player_id = p.player_id
+        left join difficulty_profile dp on dp.player_id = p.player_id
+        left join major_profile mj on mj.player_id = p.player_id
         left join player_skill_snapshots ps on ps.player_id = p.player_id
         left join latest_model mp
           on mp.player_id = p.player_id
          and mp.market = 'winner'
          and (? = '' or mp.event_id = ?)
-        where coalesce(rf.rounds, 0) > 0
+        where coalesce(cr.rounds, rf.rounds, 0) > 0
            or ps.player_id is not null
+           or ss.player_id is not null
            or mp.player_id is not null
         order by
           case when mp.rank is null then 1 else 0 end,
           coalesce(mp.rank, 9999),
-          coalesce(rf.last_round, '') desc,
-          coalesce(rf.avg_sg_total, -999) desc,
+          coalesce(cr.last_round, rf.last_round, '') desc,
+          coalesce(ss.season_sg_total, cr.round_sg_total, rf.avg_sg_total, -999) desc,
           p.player_name
         limit ?
         """,

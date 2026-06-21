@@ -33,6 +33,10 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertEqual(len(payload["rows"]), 3)
         self.assertIn("plain_english", payload["rows"][0])
         self.assertEqual(payload["rows"][0]["rank"], 1)
+        self.assertIn("sg_t2g", payload["rows"][0])
+        self.assertIn("scoring_average", payload["rows"][0])
+        self.assertIn("tough_rounds", payload["rows"][0])
+        self.assertIn("major_rounds", payload["rows"][0])
 
     def test_player_detail_returns_scorecards_and_course_fit(self) -> None:
         with connect(self.db, readonly=True) as conn:

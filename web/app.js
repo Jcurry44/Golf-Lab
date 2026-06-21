@@ -17,17 +17,22 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
+const BUILD_VERSION = "20260621-premium-data";
+
+function versionedPath(path) {
+  return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
+}
 
 function staticApiPath(path) {
   const url = new URL(path, location.origin);
   const endpoint = url.pathname.replace(/^\/api\/?/, "");
   if (endpoint === "player") {
-    return `api/players/${encodeURIComponent(url.searchParams.get("id") || "")}.json`;
+    return versionedPath(`api/players/${encodeURIComponent(url.searchParams.get("id") || "")}.json`);
   }
   if (endpoint === "course") {
-    return `api/courses/${encodeURIComponent(url.searchParams.get("id") || "")}.json`;
+    return versionedPath(`api/courses/${encodeURIComponent(url.searchParams.get("id") || "")}.json`);
   }
-  return `api/${endpoint}.json`;
+  return versionedPath(`api/${endpoint}.json`);
 }
 
 async function api(path) {
@@ -165,6 +170,15 @@ function renderSummary() {
   const counts = summary.counts || {};
   $("#railProof").textContent = `${fmt(counts.players)} players | ${fmt(counts.rounds)} rounds`;
   setStatus("PGA Tour DB", counts.players ? "good" : "watch");
+  const richProfiles = (filterPayload?.rows || []).filter((row) =>
+    numeric(row.avg_sg_total) !== null || numeric(row.driving_distance) !== null || numeric(row.gir) !== null
+  ).length;
+  $("#heroProof").innerHTML = [
+    ["Players", counts.players],
+    ["Scorecards", counts.rounds],
+    ["Rich profiles", richProfiles],
+    ["Courses", counts.courses],
+  ].map(([label, value]) => `<span><strong>${fmt(value)}</strong>${escapeHtml(label)}</span>`).join("");
 
   const event = summary.selectedEvent || {};
   renderViewHeader();
@@ -563,6 +577,49 @@ function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
   `;
 }
 
+function rankingBoard(rows) {
+  return `
+    <article class="tour-ranking-board">
+      <div class="tour-board-head">
+        <div>
+          <p class="eyebrow">Golf Lab Index</p>
+          <h3>World-ranking style PGA board</h3>
+          <p>Career scorecards, rich PGA Tour stat profiles, major form, and course-difficulty splits in one sortable board.</p>
+        </div>
+        <div class="board-metric">
+          <span>Qualified board</span>
+          <strong>${fmt(rows.length)}</strong>
+        </div>
+      </div>
+      <div class="ranking-table" role="table" aria-label="Golf Lab player rankings">
+        <div class="ranking-row ranking-head" role="row">
+          <span>Rank</span>
+          <span>Player</span>
+          <span>SG</span>
+          <span>Score</span>
+          <span>Drive</span>
+          <span>GIR</span>
+          <span>Majors</span>
+        </div>
+        ${rows.map(({ row, profile }, index) => `
+          <a class="ranking-row" href="./player.html?id=${encodeURIComponent(row.player_id)}" role="row">
+            <b>${index + 1}</b>
+            <span class="ranking-player">
+              <strong>${escapeHtml(row.player_name)}</strong>
+              <small>${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} rounds | Tough ${fmt(profile.tough_rounds || 0)}</small>
+            </span>
+            <span>${signed(profile.avg_sg_total)}</span>
+            <span>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</span>
+            <span>${profile.driving_distance ? `${fmt(profile.driving_distance, 1)}` : "--"}</span>
+            <span>${pctDecimal(profile.gir)}</span>
+            <span>${fmt(profile.major_rounds || 0)}</span>
+          </a>
+        `).join("") || empty("No qualified players loaded. Refresh the data warehouse.")}
+      </div>
+    </article>
+  `;
+}
+
 function renderLeaderboards() {
   const target = $("#leaderboardGrid");
   if (!target) return;
@@ -570,15 +627,8 @@ function renderLeaderboards() {
   const rankingRows = [...rows]
     .filter(({ profile }) => (numeric(profile.rounds) || 0) >= 20)
     .sort(compareLabRank)
-    .slice(0, 5);
-  target.innerHTML = [
-    leaderboardList(
-      "Golf Lab Index",
-      "Tour ranking",
-      rankingRows,
-      (row, profile) => signed(profile.avg_sg_total),
-      (row, profile) => `${fmt(profile.rounds)} rounds | Score ${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}`
-    ),
+    .slice(0, 12);
+  const compactBoards = [
     leaderboardList(
       "Strokes gained",
       "Performance",
@@ -615,6 +665,7 @@ function renderLeaderboards() {
       (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
     ),
   ].join("");
+  target.innerHTML = `${rankingBoard(rankingRows)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
 }
 
 function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {

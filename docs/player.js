@@ -10,14 +10,19 @@ let activeDetail = null;
 let activeProfile = null;
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
+const BUILD_VERSION = "20260621-premium-data";
+
+function versionedPath(path) {
+  return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
+}
 
 function staticApiPath(path) {
   const url = new URL(path, location.origin);
   const endpoint = url.pathname.replace(/^\/api\/?/, "");
   if (endpoint === "player") {
-    return `api/players/${encodeURIComponent(url.searchParams.get("id") || "")}.json`;
+    return versionedPath(`api/players/${encodeURIComponent(url.searchParams.get("id") || "")}.json`);
   }
-  return `api/${endpoint}.json`;
+  return versionedPath(`api/${endpoint}.json`);
 }
 
 async function api(path) {
