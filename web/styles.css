@@ -1178,12 +1178,50 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
+  appearance: none;
+  color: var(--ink);
+  text-align: left;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .score-tile.is-good { border-top: 3px solid var(--green); }
 .score-tile.is-watch { border-top: 3px solid var(--gold); }
 .score-tile.is-bad { border-top: 3px solid var(--red); }
 .score-tile.is-missing { border-top: 3px solid var(--faint); }
+
+.score-tile:hover,
+.score-tile.is-active {
+  border-color: var(--line-strong);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+  transform: translateY(-1px);
+}
+
+.score-tile.is-active {
+  outline: 1px solid rgba(81, 214, 166, 0.46);
+}
+
+.score-tile span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.score-tile strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--ink-strong);
+  font-size: 26px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-tile small {
+  color: var(--faint);
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1.3;
+}
 
 .stat-meter {
   height: 6px;
@@ -1197,6 +1235,203 @@ h3 {
   height: 100%;
   border-radius: inherit;
   background: linear-gradient(90deg, var(--green), var(--blue));
+}
+
+.grade-detail-panel {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.grade-receipt {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.grade-receipt-main,
+.grade-receipt-copy {
+  min-height: 136px;
+  padding: 15px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(20, 33, 28, 0.96), rgba(9, 16, 13, 0.98));
+}
+
+.grade-receipt-main {
+  display: grid;
+  align-content: center;
+  gap: 6px;
+  border-left: 3px solid var(--green);
+}
+
+.grade-receipt-main span,
+.dna-hero span,
+.major-summary > span {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.grade-receipt-main strong {
+  color: var(--ink-strong);
+  font-size: 38px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.grade-receipt-main small,
+.grade-receipt-copy p,
+.dna-hero p,
+.major-summary p {
+  color: var(--muted);
+  font-weight: 750;
+  line-height: 1.5;
+}
+
+.grade-receipt-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.grade-receipt-meta span,
+.dna-kpis span,
+.major-kpis span {
+  min-height: 58px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.grade-receipt-meta b,
+.dna-kpis b,
+.major-kpis b {
+  display: block;
+  color: var(--ink-strong);
+  font-size: 18px;
+  font-variant-numeric: tabular-nums;
+}
+
+.grade-receipt-meta small,
+.dna-kpis small,
+.major-kpis small {
+  display: block;
+  margin-top: 3px;
+  color: var(--faint);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.dna-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 15px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, rgba(20, 33, 28, 0.96), rgba(6, 12, 10, 0.98));
+}
+
+.dna-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.split-grid,
+.major-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.major-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 15px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--bg-deep);
+}
+
+.major-summary p {
+  margin: 5px 0 0;
+}
+
+.major-kpis {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.split-card,
+.major-card {
+  min-height: 142px;
+  display: grid;
+  align-content: space-between;
+  gap: 12px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-deep);
+}
+
+.split-card.brutal { border-top: 3px solid var(--red); }
+.split-card.tough { border-top: 3px solid var(--amber); }
+.split-card.balanced { border-top: 3px solid var(--blue); }
+.split-card.gettable { border-top: 3px solid var(--green); }
+
+.split-card strong,
+.major-card strong {
+  display: block;
+  margin-top: 10px;
+  color: var(--ink-strong);
+  font-size: 32px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.major-card span {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.split-card small,
+.major-card small {
+  color: var(--faint);
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.split-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.split-stats span {
+  min-height: 50px;
+  padding: 7px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.split-stats b {
+  display: block;
+  color: var(--ink);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
 }
 
 .season-bars {
@@ -1425,8 +1660,16 @@ h3 {
   .player-grid,
   .course-grid,
   .browse-grid,
-  .score-grid {
+  .score-grid,
+  .split-grid,
+  .major-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grade-receipt,
+  .dna-hero,
+  .major-summary {
+    grid-template-columns: 1fr;
   }
 
   .receipt-grid {
@@ -1491,6 +1734,8 @@ h3 {
   .filter-console,
   .insight-grid,
   .score-grid,
+  .split-grid,
+  .major-grid,
   .coverage-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1582,6 +1827,15 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .grade-receipt,
+  .grade-receipt-meta,
+  .dna-hero,
+  .dna-kpis,
+  .major-summary,
+  .major-kpis {
+    grid-template-columns: 1fr;
+  }
+
   .drawer-panel {
     padding: 18px;
   }
@@ -1602,6 +1856,8 @@ h3 {
   .metric-grid,
   .insight-grid,
   .score-grid,
+  .split-grid,
+  .major-grid,
   .coverage-list {
     grid-template-columns: 1fr;
   }

@@ -5,6 +5,9 @@ let summary = null;
 let playerCards = [];
 let filterRows = [];
 let activePlayerId = "";
+let activeGradeKey = "sg_total";
+let activeDetail = null;
+let activeProfile = null;
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
 
@@ -177,6 +180,7 @@ function profileForCard(row) {
 function gradeClass(value, kind = "sg") {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "is-missing";
+  if (kind === "volume") return numeric >= 120 ? "is-good" : numeric >= 40 ? "is-watch" : "is-bad";
   if (kind === "score") return numeric <= 70 ? "is-good" : numeric <= 71.5 ? "is-watch" : "is-bad";
   if (kind === "distance") return numeric >= 305 ? "is-good" : numeric >= 292 ? "is-watch" : "is-bad";
   if (kind === "percent") return numeric >= 0.68 ? "is-good" : numeric >= 0.6 ? "is-watch" : "is-bad";
@@ -186,22 +190,41 @@ function gradeClass(value, kind = "sg") {
 function meterWidth(value, kind = "sg") {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return 0;
+  if (kind === "volume") return Math.max(0, Math.min(100, (numeric / 240) * 100));
   if (kind === "distance") return Math.max(0, Math.min(100, ((numeric - 270) / 55) * 100));
   if (kind === "percent") return Math.max(0, Math.min(100, ((numeric - 0.48) / 0.28) * 100));
   if (kind === "score") return Math.max(0, Math.min(100, ((73 - numeric) / 5) * 100));
   return Math.max(0, Math.min(100, ((numeric + 1.6) / 3.8) * 100));
 }
 
-function statTile(label, value, formatter, kind, note) {
+function scorecardStats(profile) {
+  return [
+    { key: "sg_total", label: "SG Total", value: profile.avg_sg_total, formatter: signed, kind: "sg", note: "overall performance" },
+    { key: "sg_t2g", label: "Tee to Green", value: profile.sg_t2g, formatter: signed, kind: "sg", note: "ball-striking base" },
+    { key: "sg_ott", label: "Off Tee", value: profile.sg_ott, formatter: signed, kind: "sg", note: "driver value" },
+    { key: "sg_app", label: "Approach", value: profile.sg_app, formatter: signed, kind: "sg", note: "iron control" },
+    { key: "sg_arg", label: "Around Green", value: profile.sg_arg, formatter: signed, kind: "sg", note: "miss recovery" },
+    { key: "sg_putt", label: "Putting", value: profile.sg_putt, formatter: signed, kind: "sg", note: "green conversion" },
+    { key: "driving_distance", label: "Distance", value: profile.driving_distance, formatter: (v) => Number.isFinite(Number(v)) ? `${fmt(v, 1)} yd` : "--", kind: "distance", note: "measured driving" },
+    { key: "accuracy", label: "Fairways", value: profile.accuracy, formatter: pctDecimal, kind: "percent", note: "accuracy" },
+    { key: "gir", label: "GIR", value: profile.gir, formatter: pctDecimal, kind: "percent", note: "greens in regulation" },
+    { key: "scrambling", label: "Scramble", value: profile.scrambling, formatter: pctDecimal, kind: "percent", note: "miss recovery" },
+    { key: "scoring_average", label: "Scoring", value: profile.scoring_average, formatter: (v) => Number.isFinite(Number(v)) ? fmt(v, 2) : "--", kind: "score", note: "raw average" },
+    { key: "scorecards", label: "Scorecards", value: profile.rounds, formatter: (v) => fmt(v), kind: "volume", note: "imported round sample" },
+  ];
+}
+
+function statTile(stat, explanation, active) {
+  const { key, label, value, formatter, kind, note } = stat;
   const rendered = formatter(value);
   const cls = gradeClass(value, kind);
   const width = meterWidth(value, kind);
   return `
-    <article class="score-tile ${cls}">
+    <button type="button" class="score-tile ${cls} ${active ? "is-active" : ""}" data-grade-key="${escapeHtml(key)}" aria-pressed="${active ? "true" : "false"}">
       <div><span>${escapeHtml(label)}</span><strong>${escapeHtml(rendered)}</strong></div>
       <div class="stat-meter"><i style="width:${width}%"></i></div>
-      <small>${escapeHtml(note)}</small>
-    </article>
+      <small>${escapeHtml(explanation?.headline || note)}</small>
+    </button>
   `;
 }
 
@@ -267,6 +290,13 @@ function renderExplain(detail, row, profile) {
   if (profile.driving_distance !== null && profile.accuracy !== null) {
     bullets.push(["Driving blend", `${fmt(profile.driving_distance, 1)} yards with ${pctDecimal(profile.accuracy)} fairways shows the power/control tradeoff.`]);
   }
+  if (detail.courseDna?.headline) {
+    bullets.push(["Course DNA", detail.courseDna.headline]);
+  }
+  if (detail.recentVsBaseline?.trend_label) {
+    const trend = detail.recentVsBaseline;
+    bullets.push(["Form trend", `${trend.trend_label}: ${signed(trend.recent_sg)} recent SG vs ${signed(trend.baseline_sg)} baseline SG.`]);
+  }
   if (detail.bestCourses?.rows?.[0]) {
     const best = detail.bestCourses.rows[0];
     bullets.push(["Course fit receipt", `${best.course}: ${signed(best.avg_to_par)} average to par across ${fmt(best.rounds)} tracked rounds.`]);
@@ -293,22 +323,97 @@ function renderProjection(detail, row) {
   ].join("");
 }
 
-function renderScorecard(profile) {
+function renderGradeReceipt(detail, profile) {
+  const explanations = detail.gradeExplanations || {};
+  const explanation = explanations[activeGradeKey] || explanations.sg_total || {};
+  const stat = scorecardStats(profile).find((item) => item.key === activeGradeKey) || scorecardStats(profile)[0];
+  const recent = detail.recentVsBaseline || {};
+  const value = stat.formatter(stat.value);
+  $("#gradeReceipt").innerHTML = `
+    <div class="grade-receipt-main">
+      <span>${escapeHtml(explanation.label || stat.label)}</span>
+      <strong>${escapeHtml(value)}</strong>
+      <small>${escapeHtml(explanation.headline || stat.note)}</small>
+    </div>
+    <div class="grade-receipt-copy">
+      <p>${escapeHtml(explanation.body || "This grade is pending more loaded player context.")}</p>
+      <div class="grade-receipt-meta">
+        <span><b>${escapeHtml(signed(recent.recent_sg))}</b><small>last ${fmt(recent.recent_rounds)} rounds SG</small></span>
+        <span><b>${escapeHtml(signed(recent.baseline_sg))}</b><small>full sample SG</small></span>
+        <span><b>${escapeHtml(recent.trend_label || "Trend pending")}</b><small>${escapeHtml(explanation.source || "Golf Lab warehouse")}</small></span>
+      </div>
+    </div>
+  `;
+}
+
+function renderScorecard(profile, detail) {
   $("#scorecardBadge").textContent = profile.seasonLabel || (profile.season ? `${profile.season} season` : "Latest profile");
-  $("#scorecardGrid").innerHTML = [
-    statTile("SG Total", profile.avg_sg_total, signed, "sg", "overall performance"),
-    statTile("Tee to Green", profile.sg_t2g, signed, "sg", "ball-striking base"),
-    statTile("Off Tee", profile.sg_ott, signed, "sg", "driver value"),
-    statTile("Approach", profile.sg_app, signed, "sg", "iron control"),
-    statTile("Around Green", profile.sg_arg, signed, "sg", "miss recovery"),
-    statTile("Putting", profile.sg_putt, signed, "sg", "green conversion"),
-    statTile("Distance", profile.driving_distance, (v) => Number.isFinite(Number(v)) ? `${fmt(v, 1)} yd` : "--", "distance", "measured driving"),
-    statTile("Fairways", profile.accuracy, pctDecimal, "percent", "accuracy"),
-    statTile("GIR", profile.gir, pctDecimal, "percent", "greens in regulation"),
-    statTile("Scramble", profile.scrambling, pctDecimal, "percent", "miss recovery"),
-    statTile("Scoring", profile.scoring_average, (v) => Number.isFinite(Number(v)) ? fmt(v, 2) : "--", "score", "raw average"),
-    statTile("Scorecards", profile.rounds, (v) => fmt(v), "sg", "imported round sample"),
-  ].join("");
+  const explanations = detail.gradeExplanations || {};
+  $("#scorecardGrid").innerHTML = scorecardStats(profile)
+    .map((stat) => statTile(stat, explanations[stat.key], stat.key === activeGradeKey))
+    .join("");
+  renderGradeReceipt(detail, profile);
+}
+
+function renderDifficultySplits(detail) {
+  const rows = detail.difficultySplits?.rows || [];
+  const dna = detail.courseDna || {};
+  $("#courseDnaBadge").textContent = rows.length ? `${rows.length} course lanes` : "Course lanes pending";
+  $("#courseDnaHero").innerHTML = `
+    <div>
+      <span>${escapeHtml(dna.headline || "Course profile pending")}</span>
+      <p>${escapeHtml(dna.body || "Course difficulty splits will populate as rounds are loaded.")}</p>
+    </div>
+    <div class="dna-kpis">
+      <span><b>${fmt(dna.toughRounds)}</b><small>tough rounds</small></span>
+      <span><b>${signed(dna.toughAvgToPar)}</b><small>tough to par</small></span>
+      <span><b>${fmt(dna.gettableRounds)}</b><small>gettable rounds</small></span>
+    </div>
+  `;
+  if (!rows.length) {
+    $("#difficultySplits").innerHTML = `<div class="empty">No course difficulty splits loaded yet.</div>`;
+    return;
+  }
+  $("#difficultySplits").innerHTML = rows.map((row) => `
+    <article class="split-card ${escapeHtml(row.bucket || "balanced")}">
+      <div>
+        <span class="difficulty ${escapeHtml(row.bucket || "balanced")}">${escapeHtml(row.bucket || "balanced")}</span>
+        <strong>${signed(row.avg_to_par)}</strong>
+        <small>average to par</small>
+      </div>
+      <div class="split-stats">
+        <span><b>${fmt(row.rounds)}</b><small>rounds</small></span>
+        <span><b>${signed(row.avg_sg)}</b><small>SG</small></span>
+        <span><b>${pctDecimal(row.par_or_better_rate)}</b><small>par or better</small></span>
+      </div>
+    </article>
+  `).join("");
+}
+
+function renderMajorProfile(detail) {
+  const rows = detail.majorProfile?.rows || [];
+  const summaryRow = detail.majorProfile?.summary || {};
+  $("#majorBadge").textContent = summaryRow.rounds ? `${fmt(summaryRow.rounds)} major rounds` : "Major sample pending";
+  $("#majorSummary").innerHTML = `
+    <span>${escapeHtml(summaryRow.headline || "Major profile pending")}</span>
+    <p>${escapeHtml(summaryRow.body || "No loaded major scorecards are tied to this player yet.")}</p>
+    <div class="major-kpis">
+      <span><b>${signed(summaryRow.avg_to_par)}</b><small>avg to par</small></span>
+      <span><b>${signed(summaryRow.avg_sg)}</b><small>avg SG</small></span>
+      <span><b>${fmt(summaryRow.events)}</b><small>events</small></span>
+    </div>
+  `;
+  if (!rows.length) {
+    $("#majorGrid").innerHTML = `<div class="empty">Major scorecards will appear here when loaded.</div>`;
+    return;
+  }
+  $("#majorGrid").innerHTML = rows.map((row) => `
+    <article class="major-card">
+      <span>${escapeHtml(row.major || "Major")}</span>
+      <strong>${signed(row.avg_to_par)}</strong>
+      <small>${fmt(row.rounds)} rounds | ${fmt(row.events)} events | ${signed(row.avg_sg)} SG</small>
+    </article>
+  `).join("");
 }
 
 function renderSeasons(detail) {
@@ -391,6 +496,8 @@ function renderReceipts(detail) {
     ["Fairway accuracy", coverage.hasAccuracy, "public PGA stat lane"],
     ["GIR", coverage.hasGir, "public PGA stat lane"],
     ["Scrambling", coverage.hasScrambling, "public PGA stat lane"],
+    ["Course DNA", (detail.difficultySplits?.rows || []).length > 0, `${fmt(detail.courseDna?.toughRounds)} tough-course rounds`],
+    ["Major scorecards", (detail.majorProfile?.summary?.rounds || 0) > 0, `${fmt(detail.majorProfile?.summary?.rounds)} loaded major rounds`],
   ];
   $("#receiptGrid").innerHTML = `
     <div class="coverage-list">
@@ -414,16 +521,21 @@ function renderReceipts(detail) {
 function renderPlayer(detail) {
   const row = playerRow(detail.player.player_id);
   const profile = richProfile(detail);
+  activeDetail = detail;
+  activeProfile = profile;
+  if (!detail.gradeExplanations?.[activeGradeKey]) activeGradeKey = "sg_total";
   $("#emptyState").hidden = true;
   $("#playerCard").hidden = false;
   renderHero(detail, row, profile);
   $("#pcVerdict").textContent = verdictText(detail, row, profile);
   renderExplain(detail, row, profile);
   renderProjection(detail, row);
-  renderScorecard(profile);
+  renderScorecard(profile, detail);
+  renderDifficultySplits(detail);
   renderSeasons(detail);
   renderCourseLens("#bestCourses", detail.bestCourses?.rows || [], "Need more repeat-course history.");
   renderCourseLens("#worstCourses", detail.worstCourses?.rows || [], "Need more repeat-course history.");
+  renderMajorProfile(detail);
   renderRounds(detail);
   renderReceipts(detail);
 }
@@ -528,6 +640,12 @@ function bindEvents() {
     if (pick) {
       loadPlayer(pick.dataset.pickPlayer);
       $("#typeahead").hidden = true;
+      return;
+    }
+    const grade = event.target.closest("[data-grade-key]");
+    if (grade && activeDetail && activeProfile) {
+      activeGradeKey = grade.dataset.gradeKey;
+      renderScorecard(activeProfile, activeDetail);
       return;
     }
     if (!event.target.closest(".player-search-box")) $("#typeahead").hidden = true;

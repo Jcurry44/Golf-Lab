@@ -75,6 +75,131 @@
       }
     ]
   },
+  "difficultySplits": {
+    "columns": [
+      "bucket",
+      "rounds",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par",
+      "par_or_better_rounds",
+      "par_or_better_rate"
+    ],
+    "rows": []
+  },
+  "courseDna": {
+    "headline": "Tough-course read needs more starts",
+    "body": "The warehouse has not loaded enough brutal/tough-course scorecards to grade this lane honestly.",
+    "toughRounds": 0,
+    "toughAvgToPar": null,
+    "toughAvgSg": null,
+    "gettableRounds": 0,
+    "gettableAvgToPar": null
+  },
+  "majorProfile": {
+    "columns": [],
+    "rows": [],
+    "summary": {
+      "headline": "Major profile pending",
+      "body": "No loaded major-championship scorecards are tied to this player yet.",
+      "rounds": 0,
+      "events": 0,
+      "avg_to_par": null,
+      "avg_sg": null
+    }
+  },
+  "recentVsBaseline": {
+    "baseline_rounds": 0,
+    "baseline_to_par": null,
+    "baseline_sg": null,
+    "recent_rounds": null,
+    "recent_to_par": null,
+    "recent_sg": null,
+    "sg_delta": null,
+    "to_par_delta": null,
+    "trend_label": "Trend pending more scorecards"
+  },
+  "gradeExplanations": {
+    "sg_total": {
+      "label": "SG Total",
+      "headline": "Pressure point",
+      "body": "Overall grade blends 2026 rich public season with scorecard form. The rich profile sits at -0.3 SG total; recent imported rounds are -- SG vs -- across the full sample.",
+      "source": "1 rich seasons, 0 imported scorecards"
+    },
+    "sg_t2g": {
+      "label": "Tee to Green",
+      "headline": "Pressure point",
+      "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -0.5 SG T2G.",
+      "source": "2026 rich public season"
+    },
+    "sg_ott": {
+      "label": "Off Tee",
+      "headline": "Pressure point",
+      "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -0.3 SG OTT.",
+      "source": "2026 rich public season"
+    },
+    "sg_app": {
+      "label": "Approach",
+      "headline": "Playable",
+      "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: +0.0 SG APP.",
+      "source": "2026 rich public season"
+    },
+    "sg_arg": {
+      "label": "Around Green",
+      "headline": "Pressure point",
+      "body": "Around-the-green grade captures survival when GIR drops. Loaded average: -0.2 SG ARG.",
+      "source": "2026 rich public season"
+    },
+    "sg_putt": {
+      "label": "Putting",
+      "headline": "Playable",
+      "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: +0.2 SG putting.",
+      "source": "2026 rich public season"
+    },
+    "driving_distance": {
+      "label": "Distance",
+      "headline": "Playable",
+      "body": "Distance grades raw scoring ceiling on longer setups. Public profile average: 296.8 yards.",
+      "source": "2026 rich public season"
+    },
+    "accuracy": {
+      "label": "Fairways",
+      "headline": "Playable",
+      "body": "Accuracy shows whether distance comes with enough control. Public profile average: 61.4% fairways hit.",
+      "source": "2026 rich public season"
+    },
+    "gir": {
+      "label": "GIR",
+      "headline": "Playable",
+      "body": "GIR is the plain-English iron-control read. Public profile average: 65.3% greens in regulation.",
+      "source": "2026 rich public season"
+    },
+    "scrambling": {
+      "label": "Scramble",
+      "headline": "Playable",
+      "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: 61.9%.",
+      "source": "2026 rich public season"
+    },
+    "scoring_average": {
+      "label": "Scoring",
+      "headline": "Coverage watch",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: -- to par.",
+      "source": "0 imported scorecards"
+    },
+    "scorecards": {
+      "label": "Scorecards",
+      "headline": "Building sample",
+      "body": "The card is powered by 0 imported scorecards. The last 0 rounds are compared against the full sample so form changes do not get mistaken for career skill.",
+      "source": "Golf Lab warehouse"
+    },
+    "course_dna": {
+      "label": "Course DNA",
+      "headline": "Tough-course read needs more starts",
+      "body": "The warehouse has not loaded enough brutal/tough-course scorecards to grade this lane honestly.",
+      "source": "Course difficulty buckets from loaded rounds"
+    }
+  },
   "model": null,
   "coverage": {
     "hasRoundScorecards": false,

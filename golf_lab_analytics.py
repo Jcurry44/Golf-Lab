@@ -28,6 +28,8 @@ latest_model as (
 )
 """
 
+_COURSE_DIFFICULTY_CACHE: dict[str, dict[str, dict[str, Any]]] = {}
+
 
 def _num(value: Any) -> float | None:
     if value is None or value == "":
@@ -80,6 +82,318 @@ def _generated_reason(row: dict[str, Any]) -> str:
             pieces.append("Price is close to fair value")
 
     return ". ".join(pieces[:4]) + "." if pieces else "Model read is pending more player and market context."
+
+
+def _signed_text(value: Any, digits: int = 1) -> str:
+    numeric = _num(value)
+    if numeric is None:
+        return "--"
+    return f"{numeric:+.{digits}f}"
+
+
+def _pct_text(value: Any) -> str:
+    numeric = _num(value)
+    if numeric is None:
+        return "--"
+    return f"{numeric * 100:.1f}%"
+
+
+def _avg_metric(rows: list[dict[str, Any]], field: str) -> float | None:
+    values = [_num(row.get(field)) for row in rows]
+    numeric = [value for value in values if value is not None]
+    return sum(numeric) / len(numeric) if numeric else None
+
+
+def _weighted_avg_metric(rows: list[dict[str, Any]], field: str, weight_field: str = "rounds") -> float | None:
+    numerator = 0.0
+    denominator = 0.0
+    for row in rows:
+        value = _num(row.get(field))
+        weight = _num(row.get(weight_field)) or 0
+        if value is None or weight <= 0:
+            continue
+        numerator += value * weight
+        denominator += weight
+    return numerator / denominator if denominator else None
+
+
+def _course_difficulty_lookup(conn: sqlite3.Connection) -> dict[str, dict[str, Any]]:
+    db_file = conn.execute("pragma database_list").fetchone()["file"]
+    cache_key = str(db_file or id(conn))
+    if cache_key not in _COURSE_DIFFICULTY_CACHE:
+        _COURSE_DIFFICULTY_CACHE[cache_key] = {
+            row["course_id"]: dict(row)
+            for row in conn.execute(
+                """
+                select course_id, course_name, rounds, avg_to_par, avg_sg_total, difficulty_bucket
+                from course_difficulty
+                """
+            ).fetchall()
+        }
+    return _COURSE_DIFFICULTY_CACHE[cache_key]
+
+
+def _player_difficulty_splits(conn: sqlite3.Connection, player_id: str) -> dict[str, Any]:
+    lookup = _course_difficulty_lookup(conn)
+    rounds = rows_to_dicts(
+        conn.execute(
+            """
+            select r.course_id, r.to_par, sg.sg_total
+            from rounds r
+            left join strokes_gained sg on sg.round_id = r.round_id
+            where r.player_id = ?
+              and r.to_par is not null
+            """,
+            (player_id,),
+        ).fetchall()
+    )
+    bucket_order = {"brutal": 1, "tough": 2, "balanced": 3, "gettable": 4}
+    groups: dict[str, list[dict[str, Any]]] = {}
+    for row in rounds:
+        bucket = (lookup.get(row.get("course_id") or "", {}) or {}).get("difficulty_bucket") or "balanced"
+        groups.setdefault(bucket, []).append(row)
+
+    split_rows: list[dict[str, Any]] = []
+    for bucket, bucket_rows in groups.items():
+        to_par_values = [_num(row.get("to_par")) for row in bucket_rows]
+        sg_values = [_num(row.get("sg_total")) for row in bucket_rows]
+        to_par_numeric = [value for value in to_par_values if value is not None]
+        sg_numeric = [value for value in sg_values if value is not None]
+        par_or_better = sum(1 for value in to_par_numeric if value <= 0)
+        split_rows.append({
+            "bucket": bucket,
+            "rounds": len(bucket_rows),
+            "avg_to_par": round(sum(to_par_numeric) / len(to_par_numeric), 2) if to_par_numeric else None,
+            "avg_sg": round(sum(sg_numeric) / len(sg_numeric), 2) if sg_numeric else None,
+            "best_to_par": round(min(to_par_numeric), 2) if to_par_numeric else None,
+            "worst_to_par": round(max(to_par_numeric), 2) if to_par_numeric else None,
+            "par_or_better_rounds": par_or_better,
+            "par_or_better_rate": round(par_or_better / len(to_par_numeric), 3) if to_par_numeric else None,
+        })
+
+    split_rows.sort(key=lambda row: bucket_order.get(row["bucket"], 5))
+    return {
+        "columns": [
+            "bucket",
+            "rounds",
+            "avg_to_par",
+            "avg_sg",
+            "best_to_par",
+            "worst_to_par",
+            "par_or_better_rounds",
+            "par_or_better_rate",
+        ],
+        "rows": split_rows,
+    }
+
+
+def _rich_profile_rows(seasons: dict[str, Any], limit: int = 4) -> list[dict[str, Any]]:
+    rows = [
+        row for row in seasons.get("rows", [])
+        if any(row.get(field) is not None for field in [
+            "avg_sg_total",
+            "sg_t2g",
+            "driving_distance",
+            "accuracy",
+            "gir",
+            "scrambling",
+            "scoring_average",
+        ])
+    ]
+    return sorted(rows, key=lambda row: int(row.get("season") or 0), reverse=True)[:limit]
+
+
+def _grade_band(value: Any, good: float, watch: float, lower_is_better: bool = False) -> str:
+    numeric = _num(value)
+    if numeric is None:
+        return "Coverage watch"
+    if lower_is_better:
+        if numeric <= good:
+            return "Plus"
+        if numeric <= watch:
+            return "Playable"
+        return "Pressure point"
+    if numeric >= good:
+        return "Plus"
+    if numeric >= watch:
+        return "Playable"
+    return "Pressure point"
+
+
+def _course_dna(difficulty_splits: dict[str, Any], recent_vs_baseline: dict[str, Any] | None) -> dict[str, Any]:
+    rows = difficulty_splits.get("rows", [])
+    tough_rows = [row for row in rows if row.get("bucket") in {"brutal", "tough"}]
+    gettable = next((row for row in rows if row.get("bucket") == "gettable"), None)
+    tough_rounds = sum(int(row.get("rounds") or 0) for row in tough_rows)
+    tough_to_par = _weighted_avg_metric(tough_rows, "avg_to_par")
+    tough_sg = _weighted_avg_metric(tough_rows, "avg_sg")
+    baseline_to_par = _num((recent_vs_baseline or {}).get("baseline_to_par"))
+    gettable_to_par = _num(gettable.get("avg_to_par")) if gettable else None
+
+    if tough_rounds:
+        if tough_to_par is not None and baseline_to_par is not None and tough_to_par <= baseline_to_par:
+            headline = "Tough-course profile travels"
+        elif tough_to_par is not None:
+            headline = "Tough-course sample is the stress test"
+        else:
+            headline = "Tough-course sample loaded"
+        body = (
+            f"On brutal/tough courses, imported scorecards average {_signed_text(tough_to_par)} to par "
+            f"over {tough_rounds:,} rounds with {_signed_text(tough_sg)} SG."
+        )
+    else:
+        headline = "Tough-course read needs more starts"
+        body = "The warehouse has not loaded enough brutal/tough-course scorecards to grade this lane honestly."
+
+    if gettable:
+        body += (
+            f" Gettable-course rounds average {_signed_text(gettable_to_par)} to par "
+            f"across {int(gettable.get('rounds') or 0):,} rounds."
+        )
+
+    return {
+        "headline": headline,
+        "body": body,
+        "toughRounds": tough_rounds,
+        "toughAvgToPar": tough_to_par,
+        "toughAvgSg": tough_sg,
+        "gettableRounds": int(gettable.get("rounds") or 0) if gettable else 0,
+        "gettableAvgToPar": gettable_to_par,
+    }
+
+
+def _major_summary(major_profile: dict[str, Any]) -> dict[str, Any]:
+    rows = major_profile.get("rows", [])
+    rounds = sum(int(row.get("rounds") or 0) for row in rows)
+    events = sum(int(row.get("events") or 0) for row in rows)
+    avg_to_par = _weighted_avg_metric(rows, "avg_to_par")
+    avg_sg = _weighted_avg_metric(rows, "avg_sg")
+    if rounds:
+        headline = "Major sample loaded"
+        body = f"Majors average {_signed_text(avg_to_par)} to par over {rounds:,} rounds across {events:,} event entries."
+    else:
+        headline = "Major profile pending"
+        body = "No loaded major-championship scorecards are tied to this player yet."
+    return {
+        "headline": headline,
+        "body": body,
+        "rounds": rounds,
+        "events": events,
+        "avg_to_par": avg_to_par,
+        "avg_sg": avg_sg,
+    }
+
+
+def _grade_explanations(
+    player: dict[str, Any],
+    seasons: dict[str, Any],
+    recent_vs_baseline: dict[str, Any] | None,
+    difficulty_splits: dict[str, Any],
+) -> dict[str, dict[str, str]]:
+    rich_rows = _rich_profile_rows(seasons)
+    season_label = "latest rich public seasons"
+    if rich_rows:
+        years = [int(row["season"]) for row in rich_rows if row.get("season") is not None]
+        if years:
+            season_label = f"{min(years)}-{max(years)} rich public seasons" if min(years) != max(years) else f"{max(years)} rich public season"
+
+    def metric(field: str, fallback_field: str | None = None) -> float | None:
+        return _avg_metric(rich_rows, field) if rich_rows else _num(player.get(fallback_field or field))
+
+    recent_sg = _num((recent_vs_baseline or {}).get("recent_sg"))
+    baseline_sg = _num((recent_vs_baseline or {}).get("baseline_sg"))
+    recent_rounds = int((recent_vs_baseline or {}).get("recent_rounds") or 0)
+    all_rounds = int((recent_vs_baseline or {}).get("baseline_rounds") or player.get("rounds") or 0)
+    tough = _course_dna(difficulty_splits, recent_vs_baseline)
+
+    explanations = {
+        "sg_total": {
+            "label": "SG Total",
+            "headline": _grade_band(metric("avg_sg_total"), 1.0, 0.0),
+            "body": (
+                f"Overall grade blends {season_label} with scorecard form. The rich profile sits at "
+                f"{_signed_text(metric('avg_sg_total'))} SG total; recent imported rounds are "
+                f"{_signed_text(recent_sg)} SG vs {_signed_text(baseline_sg)} across the full sample."
+            ),
+            "source": f"{len(rich_rows)} rich seasons, {all_rounds:,} imported scorecards",
+        },
+        "sg_t2g": {
+            "label": "Tee to Green",
+            "headline": _grade_band(metric("sg_t2g"), 0.8, 0.0),
+            "body": f"Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages {_signed_text(metric('sg_t2g'))} SG T2G.",
+            "source": season_label,
+        },
+        "sg_ott": {
+            "label": "Off Tee",
+            "headline": _grade_band(metric("sg_ott"), 0.35, 0.0),
+            "body": f"Off-tee value grades driver pressure and positional advantage. Current rich profile average: {_signed_text(metric('sg_ott'))} SG OTT.",
+            "source": season_label,
+        },
+        "sg_app": {
+            "label": "Approach",
+            "headline": _grade_band(metric("sg_app"), 0.45, 0.0),
+            "body": f"Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: {_signed_text(metric('sg_app'))} SG APP.",
+            "source": season_label,
+        },
+        "sg_arg": {
+            "label": "Around Green",
+            "headline": _grade_band(metric("sg_arg"), 0.15, -0.05),
+            "body": f"Around-the-green grade captures survival when GIR drops. Loaded average: {_signed_text(metric('sg_arg'))} SG ARG.",
+            "source": season_label,
+        },
+        "sg_putt": {
+            "label": "Putting",
+            "headline": _grade_band(metric("sg_putt"), 0.25, -0.05),
+            "body": f"Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: {_signed_text(metric('sg_putt'))} SG putting.",
+            "source": season_label,
+        },
+        "driving_distance": {
+            "label": "Distance",
+            "headline": _grade_band(metric("driving_distance"), 305, 292),
+            "body": f"Distance grades raw scoring ceiling on longer setups. Public profile average: {metric('driving_distance'):.1f} yards." if metric("driving_distance") is not None else "Distance is not loaded for this player yet.",
+            "source": season_label,
+        },
+        "accuracy": {
+            "label": "Fairways",
+            "headline": _grade_band(metric("accuracy"), 0.65, 0.58),
+            "body": f"Accuracy shows whether distance comes with enough control. Public profile average: {_pct_text(metric('accuracy'))} fairways hit.",
+            "source": season_label,
+        },
+        "gir": {
+            "label": "GIR",
+            "headline": _grade_band(metric("gir"), 0.68, 0.62),
+            "body": f"GIR is the plain-English iron-control read. Public profile average: {_pct_text(metric('gir'))} greens in regulation.",
+            "source": season_label,
+        },
+        "scrambling": {
+            "label": "Scramble",
+            "headline": _grade_band(metric("scrambling"), 0.62, 0.56),
+            "body": f"Scrambling matters most when the course is firm or the approach profile misses. Public profile average: {_pct_text(metric('scrambling'))}.",
+            "source": season_label,
+        },
+        "scoring_average": {
+            "label": "Scoring",
+            "headline": _grade_band(metric("scoring_average"), 70.0, 71.5, lower_is_better=True),
+            "body": f"Scoring average is raw output, not adjusted for course strength. Loaded profile average: {_signed_text(metric('avg_to_par'))} to par.",
+            "source": f"{all_rounds:,} imported scorecards",
+        },
+        "scorecards": {
+            "label": "Scorecards",
+            "headline": "Sample strength" if all_rounds >= 120 else "Building sample",
+            "body": (
+                f"The card is powered by {all_rounds:,} imported scorecards. The last {recent_rounds:,} rounds are compared "
+                f"against the full sample so form changes do not get mistaken for career skill."
+            ),
+            "source": "Golf Lab warehouse",
+        },
+        "course_dna": {
+            "label": "Course DNA",
+            "headline": tough["headline"],
+            "body": tough["body"],
+            "source": "Course difficulty buckets from loaded rounds",
+        },
+    }
+    return explanations
 
 
 def _enrich_reasoning(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -530,6 +844,98 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         """,
         (player_id, player_id),
     )
+    difficulty_splits = _player_difficulty_splits(conn, player_id)
+    recent_vs_baseline = one(
+        conn,
+        """
+        with player_rounds as (
+          select r.round_id, r.round_date, r.round_number, r.to_par, sg.sg_total,
+                 row_number() over (
+                   order by r.round_date desc, coalesce(r.round_number, 0) desc, r.round_id desc
+                 ) as row_number
+          from rounds r
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.player_id = ?
+            and r.to_par is not null
+        )
+        select count(*) as baseline_rounds,
+               round(avg(to_par), 2) as baseline_to_par,
+               round(avg(sg_total), 2) as baseline_sg,
+               sum(case when row_number <= 20 then 1 else 0 end) as recent_rounds,
+               round(avg(case when row_number <= 20 then to_par end), 2) as recent_to_par,
+               round(avg(case when row_number <= 20 then sg_total end), 2) as recent_sg
+        from player_rounds
+        """,
+        (player_id,),
+    )
+    if recent_vs_baseline:
+        sg_delta = None
+        to_par_delta = None
+        if _num(recent_vs_baseline.get("recent_sg")) is not None and _num(recent_vs_baseline.get("baseline_sg")) is not None:
+            sg_delta = round(_num(recent_vs_baseline["recent_sg"]) - _num(recent_vs_baseline["baseline_sg"]), 2)
+        if _num(recent_vs_baseline.get("recent_to_par")) is not None and _num(recent_vs_baseline.get("baseline_to_par")) is not None:
+            to_par_delta = round(_num(recent_vs_baseline["recent_to_par"]) - _num(recent_vs_baseline["baseline_to_par"]), 2)
+        recent_vs_baseline["sg_delta"] = sg_delta
+        recent_vs_baseline["to_par_delta"] = to_par_delta
+        if sg_delta is not None:
+            if sg_delta >= 0.25:
+                recent_vs_baseline["trend_label"] = "Form is better than baseline"
+            elif sg_delta <= -0.25:
+                recent_vs_baseline["trend_label"] = "Recent form trails baseline"
+            else:
+                recent_vs_baseline["trend_label"] = "Recent form is near baseline"
+        elif to_par_delta is not None:
+            if to_par_delta <= -0.35:
+                recent_vs_baseline["trend_label"] = "Scoring trend is improving"
+            elif to_par_delta >= 0.35:
+                recent_vs_baseline["trend_label"] = "Scoring trend is cooling"
+            else:
+                recent_vs_baseline["trend_label"] = "Scoring trend is stable"
+        else:
+            recent_vs_baseline["trend_label"] = "Trend pending more scorecards"
+    major_profile = table_payload(
+        conn,
+        """
+        with major_rounds as (
+          select case
+                   when lower(e.event_name) like '%u.s. open%' or lower(e.event_name) like '%us open%' then 'U.S. Open'
+                   when lower(e.event_name) like '%masters%' then 'Masters'
+                   when lower(e.event_name) like '%pga championship%' then 'PGA Championship'
+                   when lower(e.event_name) like '%open championship%' or lower(e.event_name) = 'the open' or lower(e.event_name) like '%the open%' then 'The Open'
+                 end as major,
+                 e.event_id,
+                 e.season,
+                 r.to_par,
+                 sg.sg_total
+          from rounds r
+          join events e on e.event_id = r.event_id
+          left join strokes_gained sg on sg.round_id = r.round_id
+          where r.player_id = ?
+            and r.to_par is not null
+        )
+        select major,
+               count(distinct event_id) as events,
+               count(*) as rounds,
+               max(season) as latest_season,
+               round(avg(to_par), 2) as avg_to_par,
+               round(avg(sg_total), 2) as avg_sg,
+               round(min(to_par), 2) as best_to_par,
+               round(max(to_par), 2) as worst_to_par
+        from major_rounds
+        where major is not null
+        group by major
+        order by case major
+          when 'Masters' then 1
+          when 'PGA Championship' then 2
+          when 'U.S. Open' then 3
+          when 'The Open' then 4
+          else 5 end
+        """,
+        (player_id,),
+    )
+    major_profile["summary"] = _major_summary(major_profile)
+    course_dna = _course_dna(difficulty_splits, recent_vs_baseline)
+    grade_explanations = _grade_explanations(player, seasons, recent_vs_baseline, difficulty_splits)
     model = one(
         conn,
         f"""
@@ -563,6 +969,11 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         "bestCourses": best_courses,
         "worstCourses": worst_courses,
         "seasons": seasons,
+        "difficultySplits": difficulty_splits,
+        "courseDna": course_dna,
+        "majorProfile": major_profile,
+        "recentVsBaseline": recent_vs_baseline,
+        "gradeExplanations": grade_explanations,
         "model": model,
         "coverage": coverage,
     }

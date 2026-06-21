@@ -536,6 +536,222 @@
       }
     ]
   },
+  "difficultySplits": {
+    "columns": [
+      "bucket",
+      "rounds",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par",
+      "par_or_better_rounds",
+      "par_or_better_rate"
+    ],
+    "rows": [
+      {
+        "bucket": "brutal",
+        "rounds": 12,
+        "avg_to_par": 3.83,
+        "avg_sg": -1.21,
+        "best_to_par": 1.0,
+        "worst_to_par": 9.0,
+        "par_or_better_rounds": 0,
+        "par_or_better_rate": 0.0
+      },
+      {
+        "bucket": "tough",
+        "rounds": 63,
+        "avg_to_par": 0.9,
+        "avg_sg": -0.21,
+        "best_to_par": -7.0,
+        "worst_to_par": 9.0,
+        "par_or_better_rounds": 26,
+        "par_or_better_rate": 0.413
+      },
+      {
+        "bucket": "balanced",
+        "rounds": 117,
+        "avg_to_par": 0.63,
+        "avg_sg": -1.18,
+        "best_to_par": -6.0,
+        "worst_to_par": 11.0,
+        "par_or_better_rounds": 61,
+        "par_or_better_rate": 0.521
+      },
+      {
+        "bucket": "gettable",
+        "rounds": 48,
+        "avg_to_par": -1.02,
+        "avg_sg": -0.84,
+        "best_to_par": -6.0,
+        "worst_to_par": 4.0,
+        "par_or_better_rounds": 34,
+        "par_or_better_rate": 0.708
+      }
+    ]
+  },
+  "courseDna": {
+    "headline": "Tough-course sample is the stress test",
+    "body": "On brutal/tough courses, imported scorecards average +1.4 to par over 75 rounds with -0.4 SG. Gettable-course rounds average -1.0 to par across 48 rounds.",
+    "toughRounds": 75,
+    "toughAvgToPar": 1.3688,
+    "toughAvgSg": -0.37,
+    "gettableRounds": 48,
+    "gettableAvgToPar": -1.02
+  },
+  "majorProfile": {
+    "columns": [
+      "major",
+      "events",
+      "rounds",
+      "latest_season",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par"
+    ],
+    "rows": [
+      {
+        "major": "Masters",
+        "events": 2,
+        "rounds": 6,
+        "latest_season": 2021,
+        "avg_to_par": 2.0,
+        "avg_sg": -1.66,
+        "best_to_par": -1.0,
+        "worst_to_par": 4.0
+      },
+      {
+        "major": "PGA Championship",
+        "events": 6,
+        "rounds": 14,
+        "latest_season": 2026,
+        "avg_to_par": 2.79,
+        "avg_sg": -0.97,
+        "best_to_par": 1.0,
+        "worst_to_par": 6.0
+      },
+      {
+        "major": "U.S. Open",
+        "events": 2,
+        "rounds": 6,
+        "latest_season": 2021,
+        "avg_to_par": 4.83,
+        "avg_sg": -2.02,
+        "best_to_par": 1.0,
+        "worst_to_par": 9.0
+      },
+      {
+        "major": "The Open",
+        "events": 1,
+        "rounds": 2,
+        "latest_season": 2021,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.33,
+        "best_to_par": 0.0,
+        "worst_to_par": 2.0
+      }
+    ],
+    "summary": {
+      "headline": "Major sample loaded",
+      "body": "Majors average +2.9 to par over 28 rounds across 11 event entries.",
+      "rounds": 28,
+      "events": 11,
+      "avg_to_par": 2.93,
+      "avg_sg": -1.297142857142857
+    }
+  },
+  "recentVsBaseline": {
+    "baseline_rounds": 240,
+    "baseline_to_par": 0.53,
+    "baseline_sg": -0.86,
+    "recent_rounds": 20,
+    "recent_to_par": 1.8,
+    "recent_sg": -2.07,
+    "sg_delta": -1.21,
+    "to_par_delta": 1.27,
+    "trend_label": "Recent form trails baseline"
+  },
+  "gradeExplanations": {
+    "sg_total": {
+      "label": "SG Total",
+      "headline": "Pressure point",
+      "body": "Overall grade blends 2023-2026 rich public seasons with scorecard form. The rich profile sits at -1.4 SG total; recent imported rounds are -2.1 SG vs -0.9 across the full sample.",
+      "source": "4 rich seasons, 240 imported scorecards"
+    },
+    "sg_t2g": {
+      "label": "Tee to Green",
+      "headline": "Pressure point",
+      "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -0.2 SG T2G.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "sg_ott": {
+      "label": "Off Tee",
+      "headline": "Pressure point",
+      "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -0.2 SG OTT.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "sg_app": {
+      "label": "Approach",
+      "headline": "Pressure point",
+      "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: -0.1 SG APP.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "sg_arg": {
+      "label": "Around Green",
+      "headline": "Playable",
+      "body": "Around-the-green grade captures survival when GIR drops. Loaded average: +0.1 SG ARG.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "sg_putt": {
+      "label": "Putting",
+      "headline": "Playable",
+      "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: +0.0 SG putting.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "driving_distance": {
+      "label": "Distance",
+      "headline": "Plus",
+      "body": "Distance grades raw scoring ceiling on longer setups. Public profile average: 307.2 yards.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "accuracy": {
+      "label": "Fairways",
+      "headline": "Pressure point",
+      "body": "Accuracy shows whether distance comes with enough control. Public profile average: 52.3% fairways hit.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "gir": {
+      "label": "GIR",
+      "headline": "Playable",
+      "body": "GIR is the plain-English iron-control read. Public profile average: 64.1% greens in regulation.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "scrambling": {
+      "label": "Scramble",
+      "headline": "Playable",
+      "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: 59.7%.",
+      "source": "2023-2026 rich public seasons"
+    },
+    "scoring_average": {
+      "label": "Scoring",
+      "headline": "Pressure point",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.1 to par.",
+      "source": "240 imported scorecards"
+    },
+    "scorecards": {
+      "label": "Scorecards",
+      "headline": "Sample strength",
+      "body": "The card is powered by 240 imported scorecards. The last 20 rounds are compared against the full sample so form changes do not get mistaken for career skill.",
+      "source": "Golf Lab warehouse"
+    },
+    "course_dna": {
+      "label": "Course DNA",
+      "headline": "Tough-course sample is the stress test",
+      "body": "On brutal/tough courses, imported scorecards average +1.4 to par over 75 rounds with -0.4 SG. Gettable-course rounds average -1.0 to par across 48 rounds.",
+      "source": "Course difficulty buckets from loaded rounds"
+    }
+  },
   "model": null,
   "coverage": {
     "hasRoundScorecards": true,

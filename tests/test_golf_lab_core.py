@@ -42,7 +42,16 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertIn("worstCourses", payload)
         self.assertIn("seasons", payload)
         self.assertIn("coverage", payload)
+        self.assertIn("difficultySplits", payload)
+        self.assertIn("courseDna", payload)
+        self.assertIn("majorProfile", payload)
+        self.assertIn("recentVsBaseline", payload)
+        self.assertIn("gradeExplanations", payload)
         self.assertTrue(payload["coverage"]["hasRoundScorecards"])
+        self.assertGreater(len(payload["difficultySplits"]["rows"]), 0)
+        self.assertEqual(payload["majorProfile"]["summary"]["rounds"], 4)
+        self.assertIn("sg_total", payload["gradeExplanations"])
+        self.assertIn("course_dna", payload["gradeExplanations"])
         self.assertIsNotNone(payload["model"])
 
     def test_model_and_course_boards(self) -> None:

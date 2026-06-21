@@ -451,6 +451,152 @@
       }
     ]
   },
+  "difficultySplits": {
+    "columns": [
+      "bucket",
+      "rounds",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par",
+      "par_or_better_rounds",
+      "par_or_better_rate"
+    ],
+    "rows": [
+      {
+        "bucket": "balanced",
+        "rounds": 30,
+        "avg_to_par": 0.73,
+        "avg_sg": -0.99,
+        "best_to_par": -4.0,
+        "worst_to_par": 12.0,
+        "par_or_better_rounds": 15,
+        "par_or_better_rate": 0.5
+      },
+      {
+        "bucket": "gettable",
+        "rounds": 6,
+        "avg_to_par": -2.83,
+        "avg_sg": -0.03,
+        "best_to_par": -7.0,
+        "worst_to_par": -1.0,
+        "par_or_better_rounds": 6,
+        "par_or_better_rate": 1.0
+      }
+    ]
+  },
+  "courseDna": {
+    "headline": "Tough-course read needs more starts",
+    "body": "The warehouse has not loaded enough brutal/tough-course scorecards to grade this lane honestly. Gettable-course rounds average -2.8 to par across 6 rounds.",
+    "toughRounds": 0,
+    "toughAvgToPar": null,
+    "toughAvgSg": null,
+    "gettableRounds": 6,
+    "gettableAvgToPar": -2.83
+  },
+  "majorProfile": {
+    "columns": [],
+    "rows": [],
+    "summary": {
+      "headline": "Major profile pending",
+      "body": "No loaded major-championship scorecards are tied to this player yet.",
+      "rounds": 0,
+      "events": 0,
+      "avg_to_par": null,
+      "avg_sg": null
+    }
+  },
+  "recentVsBaseline": {
+    "baseline_rounds": 36,
+    "baseline_to_par": 0.14,
+    "baseline_sg": -0.83,
+    "recent_rounds": 20,
+    "recent_to_par": -0.15,
+    "recent_sg": -0.62,
+    "sg_delta": 0.21,
+    "to_par_delta": -0.29,
+    "trend_label": "Recent form is near baseline"
+  },
+  "gradeExplanations": {
+    "sg_total": {
+      "label": "SG Total",
+      "headline": "Pressure point",
+      "body": "Overall grade blends 2024-2026 rich public seasons with scorecard form. The rich profile sits at -1.0 SG total; recent imported rounds are -0.6 SG vs -0.8 across the full sample.",
+      "source": "2 rich seasons, 36 imported scorecards"
+    },
+    "sg_t2g": {
+      "label": "Tee to Green",
+      "headline": "Pressure point",
+      "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -0.8 SG T2G.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "sg_ott": {
+      "label": "Off Tee",
+      "headline": "Pressure point",
+      "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -0.3 SG OTT.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "sg_app": {
+      "label": "Approach",
+      "headline": "Pressure point",
+      "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: -0.5 SG APP.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "sg_arg": {
+      "label": "Around Green",
+      "headline": "Playable",
+      "body": "Around-the-green grade captures survival when GIR drops. Loaded average: +0.0 SG ARG.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "sg_putt": {
+      "label": "Putting",
+      "headline": "Pressure point",
+      "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: -0.3 SG putting.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "driving_distance": {
+      "label": "Distance",
+      "headline": "Pressure point",
+      "body": "Distance grades raw scoring ceiling on longer setups. Public profile average: 285.5 yards.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "accuracy": {
+      "label": "Fairways",
+      "headline": "Playable",
+      "body": "Accuracy shows whether distance comes with enough control. Public profile average: 64.5% fairways hit.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "gir": {
+      "label": "GIR",
+      "headline": "Playable",
+      "body": "GIR is the plain-English iron-control read. Public profile average: 62.3% greens in regulation.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "scrambling": {
+      "label": "Scramble",
+      "headline": "Plus",
+      "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: 63.6%.",
+      "source": "2024-2026 rich public seasons"
+    },
+    "scoring_average": {
+      "label": "Scoring",
+      "headline": "Pressure point",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.2 to par.",
+      "source": "36 imported scorecards"
+    },
+    "scorecards": {
+      "label": "Scorecards",
+      "headline": "Building sample",
+      "body": "The card is powered by 36 imported scorecards. The last 20 rounds are compared against the full sample so form changes do not get mistaken for career skill.",
+      "source": "Golf Lab warehouse"
+    },
+    "course_dna": {
+      "label": "Course DNA",
+      "headline": "Tough-course read needs more starts",
+      "body": "The warehouse has not loaded enough brutal/tough-course scorecards to grade this lane honestly. Gettable-course rounds average -2.8 to par across 6 rounds.",
+      "source": "Course difficulty buckets from loaded rounds"
+    }
+  },
   "model": null,
   "coverage": {
     "hasRoundScorecards": true,

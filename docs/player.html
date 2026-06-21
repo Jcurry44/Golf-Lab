@@ -61,8 +61,10 @@
         <nav id="pcSectionNav" class="pc-secnav" aria-label="Player card sections">
           <a href="#projection">Projection</a>
           <a href="#scorecard">Scorecard</a>
+          <a href="#course-dna">Course DNA</a>
           <a href="#seasons">Seasons</a>
           <a href="#courses">Courses</a>
+          <a href="#majors">Majors</a>
           <a href="#rounds">Rounds</a>
           <a href="#receipts">Receipts</a>
         </nav>
@@ -88,6 +90,22 @@
               <span class="mini-badge" id="scorecardBadge">Latest available season</span>
             </div>
             <div id="scorecardGrid" class="score-grid"></div>
+          </section>
+
+          <section class="intel-panel pc-full grade-detail-panel" id="grade-details">
+            <div id="gradeReceipt" class="grade-receipt"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="course-dna">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Course DNA</p>
+                <h3>Tough vs. gettable profile</h3>
+              </div>
+              <span class="mini-badge" id="courseDnaBadge">Difficulty buckets</span>
+            </div>
+            <div id="courseDnaHero" class="dna-hero"></div>
+            <div id="difficultySplits" class="split-grid"></div>
           </section>
 
           <section class="intel-panel pc-full" id="seasons">
@@ -119,6 +137,18 @@
               </div>
             </div>
             <div id="worstCourses" class="course-lens"></div>
+          </section>
+
+          <section class="intel-panel pc-full" id="majors">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Championship profile</p>
+                <h3>Major starts</h3>
+              </div>
+              <span class="mini-badge" id="majorBadge">Major sample</span>
+            </div>
+            <div id="majorSummary" class="major-summary"></div>
+            <div id="majorGrid" class="major-grid"></div>
           </section>
 
           <section class="intel-panel pc-full" id="rounds">

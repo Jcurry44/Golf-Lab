@@ -485,6 +485,192 @@
       }
     ]
   },
+  "difficultySplits": {
+    "columns": [
+      "bucket",
+      "rounds",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par",
+      "par_or_better_rounds",
+      "par_or_better_rate"
+    ],
+    "rows": [
+      {
+        "bucket": "brutal",
+        "rounds": 2,
+        "avg_to_par": 4.5,
+        "avg_sg": -1.93,
+        "best_to_par": 3.0,
+        "worst_to_par": 6.0,
+        "par_or_better_rounds": 0,
+        "par_or_better_rate": 0.0
+      },
+      {
+        "bucket": "tough",
+        "rounds": 34,
+        "avg_to_par": 1.0,
+        "avg_sg": -0.23,
+        "best_to_par": -5.0,
+        "worst_to_par": 7.0,
+        "par_or_better_rounds": 16,
+        "par_or_better_rate": 0.471
+      },
+      {
+        "bucket": "balanced",
+        "rounds": 183,
+        "avg_to_par": -0.5,
+        "avg_sg": 0.05,
+        "best_to_par": -6.0,
+        "worst_to_par": 8.0,
+        "par_or_better_rounds": 120,
+        "par_or_better_rate": 0.656
+      },
+      {
+        "bucket": "gettable",
+        "rounds": 21,
+        "avg_to_par": -1.52,
+        "avg_sg": -0.16,
+        "best_to_par": -9.0,
+        "worst_to_par": 7.0,
+        "par_or_better_rounds": 16,
+        "par_or_better_rate": 0.762
+      }
+    ]
+  },
+  "courseDna": {
+    "headline": "Tough-course sample is the stress test",
+    "body": "On brutal/tough courses, imported scorecards average +1.2 to par over 36 rounds with -0.3 SG. Gettable-course rounds average -1.5 to par across 21 rounds.",
+    "toughRounds": 36,
+    "toughAvgToPar": 1.1944444444444444,
+    "toughAvgSg": -0.3244444444444444,
+    "gettableRounds": 21,
+    "gettableAvgToPar": -1.52
+  },
+  "majorProfile": {
+    "columns": [
+      "major",
+      "events",
+      "rounds",
+      "latest_season",
+      "avg_to_par",
+      "avg_sg",
+      "best_to_par",
+      "worst_to_par"
+    ],
+    "rows": [
+      {
+        "major": "The Open",
+        "events": 1,
+        "rounds": 4,
+        "latest_season": 2010,
+        "avg_to_par": 0.75,
+        "avg_sg": 0.13,
+        "best_to_par": -1.0,
+        "worst_to_par": 2.0
+      }
+    ],
+    "summary": {
+      "headline": "Major sample loaded",
+      "body": "Majors average +0.8 to par over 4 rounds across 1 event entries.",
+      "rounds": 4,
+      "events": 1,
+      "avg_to_par": 0.75,
+      "avg_sg": 0.13
+    }
+  },
+  "recentVsBaseline": {
+    "baseline_rounds": 240,
+    "baseline_to_par": -0.34,
+    "baseline_sg": -0.02,
+    "recent_rounds": 20,
+    "recent_to_par": -0.05,
+    "recent_sg": -0.98,
+    "sg_delta": -0.96,
+    "to_par_delta": 0.29,
+    "trend_label": "Recent form trails baseline"
+  },
+  "gradeExplanations": {
+    "sg_total": {
+      "label": "SG Total",
+      "headline": "Playable",
+      "body": "Overall grade blends 2009-2012 rich public seasons with scorecard form. The rich profile sits at +0.0 SG total; recent imported rounds are -1.0 SG vs -0.0 across the full sample.",
+      "source": "4 rich seasons, 240 imported scorecards"
+    },
+    "sg_t2g": {
+      "label": "Tee to Green",
+      "headline": "Coverage watch",
+      "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -- SG T2G.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "sg_ott": {
+      "label": "Off Tee",
+      "headline": "Coverage watch",
+      "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -- SG OTT.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "sg_app": {
+      "label": "Approach",
+      "headline": "Coverage watch",
+      "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: -- SG APP.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "sg_arg": {
+      "label": "Around Green",
+      "headline": "Coverage watch",
+      "body": "Around-the-green grade captures survival when GIR drops. Loaded average: -- SG ARG.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "sg_putt": {
+      "label": "Putting",
+      "headline": "Coverage watch",
+      "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: -- SG putting.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "driving_distance": {
+      "label": "Distance",
+      "headline": "Coverage watch",
+      "body": "Distance is not loaded for this player yet.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "accuracy": {
+      "label": "Fairways",
+      "headline": "Coverage watch",
+      "body": "Accuracy shows whether distance comes with enough control. Public profile average: -- fairways hit.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "gir": {
+      "label": "GIR",
+      "headline": "Coverage watch",
+      "body": "GIR is the plain-English iron-control read. Public profile average: -- greens in regulation.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "scrambling": {
+      "label": "Scramble",
+      "headline": "Coverage watch",
+      "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: --.",
+      "source": "2009-2012 rich public seasons"
+    },
+    "scoring_average": {
+      "label": "Scoring",
+      "headline": "Playable",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: -0.4 to par.",
+      "source": "240 imported scorecards"
+    },
+    "scorecards": {
+      "label": "Scorecards",
+      "headline": "Sample strength",
+      "body": "The card is powered by 240 imported scorecards. The last 20 rounds are compared against the full sample so form changes do not get mistaken for career skill.",
+      "source": "Golf Lab warehouse"
+    },
+    "course_dna": {
+      "label": "Course DNA",
+      "headline": "Tough-course sample is the stress test",
+      "body": "On brutal/tough courses, imported scorecards average +1.2 to par over 36 rounds with -0.3 SG. Gettable-course rounds average -1.5 to par across 21 rounds.",
+      "source": "Course difficulty buckets from loaded rounds"
+    }
+  },
   "model": null,
   "coverage": {
     "hasRoundScorecards": true,
