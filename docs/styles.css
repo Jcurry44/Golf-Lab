@@ -296,6 +296,10 @@ h3 {
   margin-bottom: 14px;
 }
 
+.major-stage {
+  margin-bottom: 14px;
+}
+
 .featured-player,
 .event-card,
 .panel,
@@ -790,6 +794,87 @@ h3 {
   justify-content: center;
   padding: 12px;
   border-top: 1px solid var(--line);
+}
+
+.major-lab {
+  display: grid;
+  gap: 12px;
+}
+
+.major-command {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(12, 23, 19, 0.98), rgba(5, 10, 8, 0.98)),
+    radial-gradient(circle at 88% 12%, rgba(214, 169, 70, 0.13), transparent 34%);
+}
+
+.major-command h3 {
+  max-width: 720px;
+  margin-bottom: 8px;
+  color: var(--ink-strong);
+  font-size: 30px;
+}
+
+.major-command p:not(.eyebrow) {
+  max-width: 740px;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.major-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.major-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.major-proof-grid div {
+  min-height: 78px;
+  padding: 11px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.major-proof-grid span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.major-proof-grid strong {
+  display: block;
+  color: var(--ink-strong);
+  font-size: 19px;
+  line-height: 1.15;
+}
+
+.major-proof-grid small {
+  display: block;
+  margin-top: 5px;
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.major-leaderboards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .leaderboard-card {
@@ -2289,7 +2374,8 @@ h3 {
 
   .grade-receipt,
   .dna-hero,
-  .major-summary {
+  .major-summary,
+  .major-command {
     grid-template-columns: 1fr;
   }
 
@@ -2360,6 +2446,7 @@ h3 {
   }
 
   .metric-grid,
+  .major-proof-grid,
   .filter-console,
   .prediction-kpis,
   .insight-grid,
@@ -2526,6 +2613,7 @@ h3 {
   .dna-hero,
   .dna-kpis,
   .major-summary,
+  .major-command,
   .major-kpis {
     grid-template-columns: 1fr;
   }
@@ -2550,8 +2638,9 @@ h3 {
   }
 
   .scorecard-footer,
-  .filter-console,
-  .metric-grid,
+    .filter-console,
+    .major-proof-grid,
+    .metric-grid,
   .leaderboard-grid,
   .leaderboard-grid.compact,
   .insight-grid,

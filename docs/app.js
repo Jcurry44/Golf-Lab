@@ -19,7 +19,8 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-scoring-guard";
+const BUILD_VERSION = "20260621-majors-view";
+const RECENT_PROFILE_CUTOFF = "2023-01-01";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -126,6 +127,11 @@ function viewMeta(view) {
       title: "PGA Tour rankings.",
       subtitle: "A world-ranking style player database built from scoring, strokes gained, distance, GIR, tough-course form, and major profile.",
     },
+    majors: {
+      eyebrow: "PGA TOUR | MAJOR CHAMPIONSHIPS",
+      title: "Major Championship Lab.",
+      subtitle: "Rank major specialists by championship scoring, strokes gained, experience, and course-proof profile.",
+    },
     tournament: {
       eyebrow: `${eventName} | weekly tournament`,
       title: "Tournament prediction center.",
@@ -223,12 +229,19 @@ function metric(label, value, note = "") {
 function weightedMerge(target, row, fields) {
   const rounds = numeric(row.rounds) || 0;
   const scoringRounds = numeric(row.scoring_rounds) || 0;
-  if (!rounds && !scoringRounds) return;
+  const toughRounds = numeric(row.tough_rounds) || 0;
+  const gettableRounds = numeric(row.gettable_rounds) || 0;
+  const majorRounds = numeric(row.major_rounds) || 0;
+  if (!rounds && !scoringRounds && !toughRounds && !gettableRounds && !majorRounds) return;
   target.rounds = (target.rounds || 0) + rounds;
   for (const field of fields) {
     const value = numeric(row[field]);
     if (value === null) continue;
-    const weight = field === "scoring_average" ? scoringRounds : rounds;
+    let weight = rounds;
+    if (field === "scoring_average") weight = scoringRounds;
+    if (field.startsWith("tough_")) weight = toughRounds;
+    if (field.startsWith("gettable_")) weight = gettableRounds;
+    if (field.startsWith("major_")) weight = majorRounds;
     if (!weight) continue;
     target[`${field}_weighted`] = (target[`${field}_weighted`] || 0) + value * weight;
     target[`${field}_rounds`] = (target[`${field}_rounds`] || 0) + weight;
@@ -329,6 +342,13 @@ function plausibleScoringAverage(profile) {
   return value !== null && value >= 60 && value <= 80;
 }
 
+function isCurrentProfile(profile) {
+  const lastRound = String(profile?.last_round || "");
+  return lastRound >= RECENT_PROFILE_CUTOFF
+    || statValue(profile, "driving_distance") !== null
+    || statValue(profile, "gir") !== null;
+}
+
 function labRankScore(row, profile) {
   const sg = statValue(profile, "avg_sg_total") ?? -4;
   const t2g = statValue(profile, "sg_t2g") ?? 0;
@@ -411,6 +431,26 @@ function renderFilterConsole() {
   seasonSelect.value = current;
 }
 
+function syncPlayerFilterControls() {
+  $$("[data-player-filter]").forEach((control) => {
+    control.value = playerFilters[control.dataset.playerFilter] ?? "";
+  });
+}
+
+function applyMajorPlayerPreset() {
+  playerFilters = {
+    ...defaultPlayerFilters(),
+    minMajorRounds: "8",
+    sort: "majors",
+  };
+  rankingCategory = "majors";
+  rankingVisibleLimit = 50;
+  playerVisibleLimit = 48;
+  syncPlayerFilterControls();
+  setView("players", { push: true, scroll: true });
+  renderPlayers();
+}
+
 function passesNumericFloor(profile, key, filterKey, multiplier = 1) {
   const threshold = filterNumber(filterKey);
   if (threshold === null) return true;
@@ -437,6 +477,7 @@ function playerPassesFilters(row, profile) {
   if (!passesNumericFloor(profile, "avg_sg_total", "minSg")) return false;
   if (!passesNumericFloor(profile, "tough_rounds", "minToughRounds")) return false;
   if (!passesNumericFloor(profile, "major_rounds", "minMajorRounds")) return false;
+  if (playerFilters.sort === "majors" && !isCurrentProfile(profile)) return false;
   if (!passesNumericCeiling(profile, "avg_to_par", "maxToPar")) return false;
   if (!passesNumericCeiling(profile, "tough_avg_to_par", "maxToughToPar")) return false;
   if (!passesNumericCeiling(profile, "scoring_average", "maxScore")) return false;
@@ -547,6 +588,12 @@ function decoratedLibraryRows() {
     .filter(playerMatchesSearch)
     .map((row) => ({ row, profile: profileForRow(row) }))
     .filter(({ row, profile }) => playerPassesFilters(row, profile));
+}
+
+function decoratedCareerRows() {
+  return (playerPayload?.rows || [])
+    .map((row) => ({ row, profile: careerProfiles.get(row.player_id) || row }))
+    .filter(({ profile }) => profile);
 }
 
 function metricRows(rows, key, direction = "desc", options = {}) {
@@ -668,8 +715,8 @@ function rankingCategoryConfig(key) {
       label: "Majors",
       eyebrow: "Championship profile",
       title: "Major championship performers",
-      description: "Major scoring and SG profile across loaded championship rounds.",
-      qualify: ({ profile }) => (numeric(profile.major_rounds) || 0) >= 8 && statValue(profile, "major_avg_to_par") !== null,
+      description: "Current/recent profiles ranked by major scoring and SG across loaded championship rounds.",
+      qualify: ({ profile }) => isCurrentProfile(profile) && (numeric(profile.major_rounds) || 0) >= 8 && statValue(profile, "major_avg_to_par") !== null,
       compare: (a, b) => compareAsc(a, b, "major_avg_to_par") || compareDesc(a, b, "major_rounds") || a.row.player_name.localeCompare(b.row.player_name),
       columns: ["Major avg", "Major SG", "Rounds", "Overall SG", "Score"],
       cells: [
@@ -763,6 +810,65 @@ function rankingBoard(rows, totalRows, config) {
         `).join("") || empty("No qualified players loaded. Refresh the data warehouse.")}
       </div>
     </article>
+  `;
+}
+
+function renderMajorLab() {
+  const target = $("#majorLab");
+  if (!target) return;
+  const rows = decoratedCareerRows().filter(({ profile }) =>
+    isCurrentProfile(profile) && (numeric(profile.major_rounds) || 0) >= 8 && statValue(profile, "major_avg_to_par") !== null
+  );
+  const majorRounds = rows.reduce((sum, { profile }) => sum + (numeric(profile.major_rounds) || 0), 0);
+  const bestScoring = bestBy(rows, "major_avg_to_par", "asc");
+  const bestSg = bestBy(rows, "major_avg_sg", "desc");
+  const mostTested = [...rows].sort((a, b) =>
+    (numeric(b.profile.major_rounds) || 0) - (numeric(a.profile.major_rounds) || 0)
+    || a.row.player_name.localeCompare(b.row.player_name)
+  )[0];
+  const majorBoards = [
+    leaderboardList(
+      "Major scoring",
+      "Championship scoring",
+      metricRows(rows, "major_avg_to_par", "asc", { minSampleKey: "major_rounds", minSample: 8, limit: 10 }),
+      (row, profile) => signed(profile.major_avg_to_par),
+      (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
+    ),
+    leaderboardList(
+      "Major SG",
+      "Model signal",
+      metricRows(rows, "major_avg_sg", "desc", { minSampleKey: "major_rounds", minSample: 8, limit: 10 }),
+      (row, profile) => signed(profile.major_avg_sg),
+      (row, profile) => `${signed(profile.major_avg_to_par)} to par | ${fmt(profile.major_rounds)} rounds`
+    ),
+    leaderboardList(
+      "Major experience",
+      "Loaded sample",
+      metricRows(rows, "major_rounds", "desc", { minSampleKey: "major_rounds", minSample: 8, limit: 10 }),
+      (row, profile) => fmt(profile.major_rounds),
+      (row, profile) => `${fmt(profile.major_events || 0)} major events | ${signed(profile.major_avg_to_par)} to par`
+    ),
+  ].join("");
+  target.innerHTML = `
+    <section class="major-command">
+      <div>
+        <p class="eyebrow">Championship database</p>
+        <h3>Find who actually travels to major setups now.</h3>
+        <p>Use major scoring, major SG, recency, and sample size together so the board favors current players who have performed across loaded championship rounds, not one noisy week.</p>
+        <div class="major-actions">
+          <button type="button" class="ghost-button" data-major-action="board">Open Top 50 major board</button>
+          <button type="button" class="ghost-button" data-major-action="filter">Filter player cards</button>
+        </div>
+      </div>
+      <div class="major-proof-grid">
+        ${metric("Profiles", rows.length)}
+        ${metric("Major rounds", majorRounds)}
+        ${metric("Best scorer", bestScoring ? bestScoring.row.player_name : "--", bestScoring ? signed(bestScoring.profile.major_avg_to_par) : "")}
+        ${metric("Best SG", bestSg ? bestSg.row.player_name : "--", bestSg ? signed(bestSg.profile.major_avg_sg) : "")}
+        ${metric("Most tested", mostTested ? mostTested.row.player_name : "--", mostTested ? `${fmt(mostTested.profile.major_rounds)} rounds` : "")}
+      </div>
+    </section>
+    <section class="leaderboard-grid compact major-leaderboards">${majorBoards}</section>
   `;
 }
 
@@ -1050,17 +1156,31 @@ async function openCourse(courseId) {
 function bindEvents() {
   $$(".nav button").forEach((button) => button.addEventListener("click", () => {
     setView(button.dataset.view, { push: true, scroll: true });
+    renderMajorLab();
     renderPlayers();
     renderCourses();
     renderModel();
   }));
   $$("[data-view-jump]").forEach((button) => button.addEventListener("click", () => {
     setView(button.dataset.viewJump, { push: true, scroll: true });
+    renderMajorLab();
     renderPlayers();
     renderCourses();
     renderModel();
   }));
   document.addEventListener("click", (event) => {
+    const majorAction = event.target.closest("[data-major-action]");
+    if (majorAction) {
+      rankingCategory = "majors";
+      rankingVisibleLimit = 50;
+      if (majorAction.dataset.majorAction === "filter") {
+        applyMajorPlayerPreset();
+      } else {
+        setView("players", { push: true, scroll: true });
+        renderPlayers();
+      }
+      return;
+    }
     const showMore = event.target.closest("[data-show-more-players]");
     if (showMore) {
       playerVisibleLimit += 48;
@@ -1128,9 +1248,7 @@ function bindEvents() {
   if (reset) {
     reset.addEventListener("click", () => {
       playerFilters = defaultPlayerFilters();
-      $$("[data-player-filter]").forEach((control) => {
-        control.value = playerFilters[control.dataset.playerFilter] ?? "";
-      });
+      syncPlayerFilterControls();
       playerVisibleLimit = 48;
       rankingVisibleLimit = 10;
       rankingCategory = "index";
@@ -1139,6 +1257,7 @@ function bindEvents() {
   }
   window.addEventListener("popstate", () => {
     setView(viewFromHash());
+    renderMajorLab();
     renderPlayers();
     renderCourses();
     renderModel();
@@ -1148,7 +1267,7 @@ function bindEvents() {
 function viewFromHash() {
   const hash = location.hash.replace("#", "");
   if (hash === "model" || hash === "event" || hash === "overview") return "tournament";
-  if (["players", "tournament", "courses", "data"].includes(hash)) return hash;
+  if (["players", "majors", "tournament", "courses", "data"].includes(hash)) return hash;
   return "players";
 }
 
@@ -1177,6 +1296,7 @@ async function boot() {
     renderSummary();
     renderEvent();
     renderFilterConsole();
+    renderMajorLab();
     renderPlayers();
     renderCourses();
     renderModel();

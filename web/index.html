@@ -7,8 +7,8 @@
     <meta name="description" content="Golf Lab is a professional golf intelligence product with player scorecards, course fit, model projections, and source coverage.">
     <meta property="og:title" content="Golf Lab - Pro Intelligence">
     <meta property="og:description" content="Premium professional golf player cards, model projections, course fit, and source coverage.">
-    <link rel="stylesheet" href="./styles.css?v=20260621-scoring-guard">
-    <script src="./app.js?v=20260621-scoring-guard" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=20260621-majors-view">
+    <script src="./app.js?v=20260621-majors-view" defer></script>
   </head>
   <body>
     <div class="app-shell">
@@ -22,6 +22,7 @@
         </div>
         <nav class="nav" aria-label="Golf Lab views">
           <button class="active" type="button" data-view="players" aria-pressed="true">Players</button>
+          <button type="button" data-view="majors">Majors</button>
           <button type="button" data-view="tournament">Tournament</button>
           <button type="button" data-view="courses">Courses</button>
           <button type="button" data-view="data">Data</button>
@@ -58,6 +59,19 @@
         </section>
 
         <section class="metric-grid" id="metricGrid" data-panel="tournament"></section>
+
+        <section class="major-stage" data-panel="majors">
+          <article class="panel wide major-lab-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Major championships</p>
+                <h2>Major Championship Lab</h2>
+              </div>
+              <button type="button" class="ghost-button" data-view-jump="players">Player cards</button>
+            </div>
+            <div id="majorLab" class="major-lab"></div>
+          </article>
+        </section>
 
         <section class="workspace">
           <article class="panel wide player-panel" data-panel="players">
