@@ -658,6 +658,14 @@ h3 {
   line-height: 1;
 }
 
+.board-metric small {
+  display: block;
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .ranking-table {
   display: grid;
   gap: 0;
@@ -730,6 +738,13 @@ h3 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.ranking-actions {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border-top: 1px solid var(--line);
 }
 
 .leaderboard-card {

@@ -11,13 +11,14 @@ let healthPayload = null;
 let filterPayload = null;
 let playerSearch = "";
 let playerVisibleLimit = 48;
+let rankingVisibleLimit = 50;
 let seasonProfiles = new Map();
 let careerProfiles = new Map();
 let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-filter-fix";
+const BUILD_VERSION = "20260621-ranking-expand";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -578,7 +579,8 @@ function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
   `;
 }
 
-function rankingBoard(rows) {
+function rankingBoard(rows, totalRows) {
+  const hiddenRows = Math.max(0, totalRows - rows.length);
   return `
     <article class="tour-ranking-board">
       <div class="tour-board-head">
@@ -589,7 +591,8 @@ function rankingBoard(rows) {
         </div>
         <div class="board-metric">
           <span>Qualified board</span>
-          <strong>${fmt(rows.length)}</strong>
+          <strong>${fmt(totalRows)}</strong>
+          <small>Showing ${fmt(rows.length)}</small>
         </div>
       </div>
       <div class="ranking-table" role="table" aria-label="Golf Lab player rankings">
@@ -617,6 +620,13 @@ function rankingBoard(rows) {
           </a>
         `).join("") || empty("No qualified players loaded. Refresh the data warehouse.")}
       </div>
+      ${hiddenRows ? `
+        <div class="ranking-actions">
+          <button type="button" class="ghost-button" data-show-more-rankings>
+            Show ${fmt(Math.min(50, hiddenRows))} more rankings
+          </button>
+        </div>
+      ` : ""}
     </article>
   `;
 }
@@ -627,8 +637,8 @@ function renderLeaderboards() {
   const rows = decoratedLibraryRows();
   const rankingRows = [...rows]
     .filter(({ profile }) => (numeric(profile.rounds) || 0) >= 20)
-    .sort(compareLabRank)
-    .slice(0, 12);
+    .sort(compareLabRank);
+  const visibleRankingRows = rankingRows.slice(0, rankingVisibleLimit);
   const compactBoards = [
     leaderboardList(
       "Strokes gained",
@@ -666,7 +676,7 @@ function renderLeaderboards() {
       (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
     ),
   ].join("");
-  target.innerHTML = `${rankingBoard(rankingRows)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
+  target.innerHTML = `${rankingBoard(visibleRankingRows, rankingRows.length)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
 }
 
 function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
@@ -923,6 +933,12 @@ function bindEvents() {
       renderPlayers();
       return;
     }
+    const showMoreRankings = event.target.closest("[data-show-more-rankings]");
+    if (showMoreRankings) {
+      rankingVisibleLimit += 50;
+      renderPlayers();
+      return;
+    }
     const compare = event.target.closest("[data-compare-player]");
     if (compare) {
       toggleCompare(compare.dataset.comparePlayer);
@@ -949,6 +965,7 @@ function bindEvents() {
     search.addEventListener("input", () => {
       playerSearch = search.value.trim().toLowerCase();
       playerVisibleLimit = 48;
+      rankingVisibleLimit = 50;
       renderPlayers();
     });
   }
@@ -956,11 +973,13 @@ function bindEvents() {
     control.addEventListener("input", () => {
       playerFilters[control.dataset.playerFilter] = control.value;
       playerVisibleLimit = 48;
+      rankingVisibleLimit = 50;
       renderPlayers();
     });
     control.addEventListener("change", () => {
       playerFilters[control.dataset.playerFilter] = control.value;
       playerVisibleLimit = 48;
+      rankingVisibleLimit = 50;
       renderPlayers();
     });
   });
@@ -972,6 +991,7 @@ function bindEvents() {
         control.value = playerFilters[control.dataset.playerFilter] ?? "";
       });
       playerVisibleLimit = 48;
+      rankingVisibleLimit = 50;
       renderPlayers();
     });
   }
