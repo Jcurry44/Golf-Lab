@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,7 +419,8 @@
       {
         "season": 2025,
         "rounds": 30,
-        "scoring_average": 66.47,
+        "scoring_rounds": 28,
+        "scoring_average": 70.89,
         "avg_to_par": 0.0,
         "avg_sg_total": -1.05,
         "sg_t2g": null,
@@ -435,7 +437,8 @@
       {
         "season": 2024,
         "rounds": 80,
-        "scoring_average": 67.28,
+        "scoring_rounds": 76,
+        "scoring_average": 70.42,
         "avg_to_par": -0.35,
         "avg_sg_total": -0.198,
         "sg_t2g": 0.094,
@@ -452,7 +455,8 @@
       {
         "season": 2023,
         "rounds": 100,
-        "scoring_average": 68.19,
+        "scoring_rounds": 96,
+        "scoring_average": 70.82,
         "avg_to_par": -0.18,
         "avg_sg_total": -0.199,
         "sg_t2g": -0.075,
@@ -469,7 +473,8 @@
       {
         "season": 2022,
         "rounds": 30,
-        "scoring_average": 61.8,
+        "scoring_rounds": 26,
+        "scoring_average": 69.65,
         "avg_to_par": 0.8,
         "avg_sg_total": 0.35,
         "sg_t2g": null,
@@ -654,7 +659,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Playable",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +0.1 to par.",
       "source": "240 imported scorecards"
     },

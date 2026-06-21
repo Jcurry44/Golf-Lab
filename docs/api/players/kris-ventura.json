@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2026,
         "rounds": 25,
+        "scoring_rounds": 25,
         "scoring_average": 70.6,
         "avg_to_par": -0.6,
         "avg_sg_total": -0.4,
@@ -435,7 +437,8 @@
       {
         "season": 2025,
         "rounds": 88,
-        "scoring_average": 66.91,
+        "scoring_rounds": 84,
+        "scoring_average": 69.8,
         "avg_to_par": -1.0,
         "avg_sg_total": 0.226,
         "sg_t2g": -0.06,
@@ -452,6 +455,7 @@
       {
         "season": 2024,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 73.5,
         "avg_to_par": 3.5,
         "avg_sg_total": -2.6,
@@ -469,6 +473,7 @@
       {
         "season": 2023,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 69.25,
         "avg_to_par": -0.75,
         "avg_sg_total": 1.62,
@@ -486,6 +491,7 @@
       {
         "season": 2022,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 71.5,
         "avg_to_par": -0.5,
         "avg_sg_total": -0.27,
@@ -503,7 +509,8 @@
       {
         "season": 2021,
         "rounds": 64,
-        "scoring_average": 68.03,
+        "scoring_rounds": 60,
+        "scoring_average": 72.22,
         "avg_to_par": 1.16,
         "avg_sg_total": -1.09,
         "sg_t2g": null,
@@ -520,6 +527,7 @@
       {
         "season": 2020,
         "rounds": 44,
+        "scoring_rounds": 44,
         "scoring_average": 70.43,
         "avg_to_par": -0.86,
         "avg_sg_total": -0.26,
@@ -537,6 +545,7 @@
       {
         "season": 2019,
         "rounds": 8,
+        "scoring_rounds": 8,
         "scoring_average": 71.25,
         "avg_to_par": -0.5,
         "avg_sg_total": -0.11,
@@ -554,6 +563,7 @@
       {
         "season": 2018,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 71.5,
         "avg_to_par": 1.5,
         "avg_sg_total": -1.55,

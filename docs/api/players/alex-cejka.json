@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2024,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 74.75,
         "avg_to_par": 3.75,
         "avg_sg_total": -1.15,
@@ -435,6 +437,7 @@
       {
         "season": 2022,
         "rounds": 5,
+        "scoring_rounds": 5,
         "scoring_average": 74.2,
         "avg_to_par": 3.2,
         "avg_sg_total": -2.58,
@@ -452,7 +455,8 @@
       {
         "season": 2021,
         "rounds": 10,
-        "scoring_average": 59.2,
+        "scoring_rounds": 8,
+        "scoring_average": 73.0,
         "avg_to_par": 1.8,
         "avg_sg_total": -1.27,
         "sg_t2g": null,
@@ -469,6 +473,7 @@
       {
         "season": 2020,
         "rounds": 27,
+        "scoring_rounds": 27,
         "scoring_average": 70.44,
         "avg_to_par": -0.85,
         "avg_sg_total": -0.17,
@@ -486,6 +491,7 @@
       {
         "season": 2019,
         "rounds": 50,
+        "scoring_rounds": 50,
         "scoring_average": 71.28,
         "avg_to_par": 0.1,
         "avg_sg_total": -0.88,
@@ -503,6 +509,7 @@
       {
         "season": 2018,
         "rounds": 70,
+        "scoring_rounds": 70,
         "scoring_average": 70.36,
         "avg_to_par": -0.7,
         "avg_sg_total": 0.36,
@@ -520,6 +527,7 @@
       {
         "season": 2017,
         "rounds": 74,
+        "scoring_rounds": 74,
         "scoring_average": 71.28,
         "avg_to_par": 0.19,
         "avg_sg_total": -0.43,
@@ -715,7 +723,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Pressure point",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +2.0 to par.",
       "source": "240 imported scorecards"
     },

@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2012,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 74.0,
         "avg_to_par": 3.0,
         "avg_sg_total": -1.46,
@@ -435,6 +437,7 @@
       {
         "season": 2011,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 67.5,
         "avg_to_par": -3.5,
         "avg_sg_total": 3.01,
@@ -452,7 +455,8 @@
       {
         "season": 2007,
         "rounds": 35,
-        "scoring_average": 69.6,
+        "scoring_rounds": 34,
+        "scoring_average": 71.65,
         "avg_to_par": -1.89,
         "avg_sg_total": -0.14,
         "sg_t2g": null,
@@ -469,6 +473,7 @@
       {
         "season": 2006,
         "rounds": 67,
+        "scoring_rounds": 67,
         "scoring_average": 71.04,
         "avg_to_par": -0.16,
         "avg_sg_total": 0.24,
@@ -486,6 +491,7 @@
       {
         "season": 2005,
         "rounds": 70,
+        "scoring_rounds": 70,
         "scoring_average": 71.39,
         "avg_to_par": 0.26,
         "avg_sg_total": -0.2,
@@ -503,6 +509,7 @@
       {
         "season": 2002,
         "rounds": 16,
+        "scoring_rounds": 16,
         "scoring_average": 71.06,
         "avg_to_par": -0.69,
         "avg_sg_total": 0.01,

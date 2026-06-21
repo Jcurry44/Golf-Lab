@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,7 +419,8 @@
       {
         "season": 2024,
         "rounds": 4,
-        "scoring_average": 35.25,
+        "scoring_rounds": 2,
+        "scoring_average": 72.5,
         "avg_to_par": -0.75,
         "avg_sg_total": -3.4,
         "sg_t2g": null,
@@ -435,7 +437,8 @@
       {
         "season": 2023,
         "rounds": 6,
-        "scoring_average": 29.33,
+        "scoring_rounds": 2,
+        "scoring_average": 72.5,
         "avg_to_par": 5.33,
         "avg_sg_total": -1.55,
         "sg_t2g": null,
@@ -452,7 +455,8 @@
       {
         "season": 2022,
         "rounds": 8,
-        "scoring_average": 38.13,
+        "scoring_rounds": 4,
+        "scoring_average": 70.5,
         "avg_to_par": 3.13,
         "avg_sg_total": 0.92,
         "sg_t2g": null,
@@ -469,6 +473,7 @@
       {
         "season": 2018,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 79.0,
         "avg_to_par": 9.0,
         "avg_sg_total": -3.96,
@@ -486,6 +491,7 @@
       {
         "season": 2016,
         "rounds": 8,
+        "scoring_rounds": 8,
         "scoring_average": 73.38,
         "avg_to_par": 2.13,
         "avg_sg_total": -1.99,
@@ -503,6 +509,7 @@
       {
         "season": 2015,
         "rounds": 8,
+        "scoring_rounds": 8,
         "scoring_average": 72.25,
         "avg_to_par": 0.25,
         "avg_sg_total": -0.35,
@@ -520,6 +527,7 @@
       {
         "season": 2012,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 70.5,
         "avg_to_par": 0.5,
         "avg_sg_total": 1.56,
@@ -537,6 +545,7 @@
       {
         "season": 2010,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 77.0,
         "avg_to_par": 6.0,
         "avg_sg_total": -2.0,
@@ -742,7 +751,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Pressure point",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +4.2 to par.",
       "source": "42 imported scorecards"
     },

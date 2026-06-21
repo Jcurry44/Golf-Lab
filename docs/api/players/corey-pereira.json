@@ -188,6 +188,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -206,6 +207,7 @@
       {
         "season": 2025,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 73.0,
         "avg_to_par": 1.0,
         "avg_sg_total": -1.09,
@@ -223,7 +225,8 @@
       {
         "season": 2024,
         "rounds": 2,
-        "scoring_average": 1.0,
+        "scoring_rounds": 0,
+        "scoring_average": null,
         "avg_to_par": 1.0,
         "avg_sg_total": null,
         "sg_t2g": null,
@@ -240,7 +243,8 @@
       {
         "season": 2023,
         "rounds": 4,
-        "scoring_average": 36.75,
+        "scoring_rounds": 2,
+        "scoring_average": 73.5,
         "avg_to_par": 1.75,
         "avg_sg_total": -1.7,
         "sg_t2g": null,
@@ -357,7 +361,7 @@
       "label": "SG Total",
       "headline": "Pressure point",
       "body": "Overall grade blends 2023-2025 rich public seasons with scorecard form. The rich profile sits at -1.4 SG total; recent imported rounds are -1.4 SG vs -1.4 across the full sample.",
-      "source": "3 rich seasons, 8 imported scorecards"
+      "source": "2 rich seasons, 8 imported scorecards"
     },
     "sg_t2g": {
       "label": "Tee to Green",
@@ -415,8 +419,8 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
-      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.2 to par.",
+      "headline": "Pressure point",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.4 to par.",
       "source": "8 imported scorecards"
     },
     "scorecards": {

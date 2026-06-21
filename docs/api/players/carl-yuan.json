@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,7 +419,8 @@
       {
         "season": 2026,
         "rounds": 3,
-        "scoring_average": 49.67,
+        "scoring_rounds": 2,
+        "scoring_average": 74.5,
         "avg_to_par": 4.5,
         "avg_sg_total": -1.74,
         "sg_t2g": null,
@@ -435,6 +437,7 @@
       {
         "season": 2025,
         "rounds": 16,
+        "scoring_rounds": 16,
         "scoring_average": 71.0,
         "avg_to_par": 0.0,
         "avg_sg_total": -0.33,
@@ -452,7 +455,8 @@
       {
         "season": 2024,
         "rounds": 73,
-        "scoring_average": 69.3,
+        "scoring_rounds": 71,
+        "scoring_average": 71.1,
         "avg_to_par": 0.11,
         "avg_sg_total": -0.807,
         "sg_t2g": -0.177,
@@ -469,7 +473,8 @@
       {
         "season": 2023,
         "rounds": 88,
-        "scoring_average": 67.57,
+        "scoring_rounds": 84,
+        "scoring_average": 70.45,
         "avg_to_par": -0.38,
         "avg_sg_total": -0.351,
         "sg_t2g": -0.204,
@@ -486,6 +491,7 @@
       {
         "season": 2022,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 73.0,
         "avg_to_par": 2.0,
         "avg_sg_total": -3.34,
@@ -503,6 +509,7 @@
       {
         "season": 2020,
         "rounds": 6,
+        "scoring_rounds": 6,
         "scoring_average": 70.83,
         "avg_to_par": -1.17,
         "avg_sg_total": 0.48,
@@ -520,6 +527,7 @@
       {
         "season": 2019,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 73.0,
         "avg_to_par": 1.0,
         "avg_sg_total": 0.26,
@@ -705,7 +713,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Pressure point",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.1 to par.",
       "source": "191 imported scorecards"
     },

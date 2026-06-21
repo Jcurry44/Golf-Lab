@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2025,
         "rounds": 28,
+        "scoring_rounds": 28,
         "scoring_average": 70.68,
         "avg_to_par": -0.46,
         "avg_sg_total": -0.94,
@@ -435,6 +437,7 @@
       {
         "season": 2024,
         "rounds": 37,
+        "scoring_rounds": 37,
         "scoring_average": 70.7,
         "avg_to_par": -0.65,
         "avg_sg_total": -0.67,
@@ -452,7 +455,8 @@
       {
         "season": 2023,
         "rounds": 95,
-        "scoring_average": 69.04,
+        "scoring_rounds": 93,
+        "scoring_average": 70.47,
         "avg_to_par": -0.67,
         "avg_sg_total": -0.355,
         "sg_t2g": -0.242,

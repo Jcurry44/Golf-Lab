@@ -34,6 +34,7 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertIn("plain_english", payload["rows"][0])
         self.assertEqual(payload["rows"][0]["rank"], 1)
         self.assertIn("sg_t2g", payload["rows"][0])
+        self.assertIn("scoring_rounds", payload["rows"][0])
         self.assertIn("scoring_average", payload["rows"][0])
         self.assertIn("tough_rounds", payload["rows"][0])
         self.assertIn("major_rounds", payload["rows"][0])
@@ -77,9 +78,58 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertGreater(len(payload["seasons"]), 0)
         self.assertGreater(len(payload["rows"]), 0)
         self.assertIn("scoring_average", payload["rows"][0])
+        self.assertIn("scoring_rounds", payload["rows"][0])
         self.assertIn("avg_sg_total", payload["rows"][0])
         self.assertIn("tough_rounds", payload["rows"][0])
         self.assertIn("major_rounds", payload["rows"][0])
+
+    def test_modified_stableford_scores_do_not_count_as_scoring_average(self) -> None:
+        stableford_scores = [2, 7, 12, 4, 9, 14, 1, 8, 11, 6, 13, 5, 10, 3, 15, 0, 16, 17, 18, 19]
+        with connect(self.db) as conn:
+            conn.execute(
+                """
+                insert into players (player_id, player_name, country, tour)
+                values ('stableford-player', 'Stableford Player', 'USA', 'PGA')
+                """
+            )
+            conn.execute(
+                """
+                insert into courses (course_id, course_name, par)
+                values ('stableford-course', 'Tahoe Mountain Club', 72)
+                """
+            )
+            conn.execute(
+                """
+                insert into events (event_id, event_name, tour, season, course_id, status)
+                values ('stableford-event', 'Barracuda Championship', 'PGA', 2025, 'stableford-course', 'complete')
+                """
+            )
+            conn.executemany(
+                """
+                insert into rounds (
+                  round_id, event_id, player_id, course_id, round_number, round_date,
+                  score, source_provider, source_url, source_updated_at
+                )
+                values (?, 'stableford-event', 'stableford-player', 'stableford-course', ?, ?, ?, 'test', 'test', '2026-06-21T00:00:00Z')
+                """,
+                [
+                    (f"stableford-round-{index}", (index % 4) + 1, f"2025-07-{index:02d}", score)
+                    for index, score in enumerate(stableford_scores, start=1)
+                ],
+            )
+            conn.commit()
+
+        with connect(self.db, readonly=True) as conn:
+            filters = player_filter_profiles(conn)
+            cards = player_cards(conn, limit=5000)
+
+        filter_row = next(row for row in filters["rows"] if row["player_id"] == "stableford-player")
+        card_row = next(row for row in cards["rows"] if row["player_id"] == "stableford-player")
+        self.assertEqual(filter_row["rounds"], 20)
+        self.assertEqual(filter_row["scoring_rounds"], 0)
+        self.assertIsNone(filter_row["scoring_average"])
+        self.assertEqual(card_row["scoring_rounds"], 0)
+        self.assertIsNone(card_row["scoring_average"])
 
     def test_player_filter_profiles_include_stat_only_seasons(self) -> None:
         with connect(self.db) as conn:

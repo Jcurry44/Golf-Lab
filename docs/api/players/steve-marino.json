@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2019,
         "rounds": 12,
+        "scoring_rounds": 12,
         "scoring_average": 69.08,
         "avg_to_par": -2.08,
         "avg_sg_total": 0.36,
@@ -435,6 +437,7 @@
       {
         "season": 2018,
         "rounds": 17,
+        "scoring_rounds": 17,
         "scoring_average": 71.06,
         "avg_to_par": 0.29,
         "avg_sg_total": -0.61,
@@ -452,6 +455,7 @@
       {
         "season": 2017,
         "rounds": 37,
+        "scoring_rounds": 37,
         "scoring_average": 71.27,
         "avg_to_par": -0.08,
         "avg_sg_total": -0.7,
@@ -469,6 +473,7 @@
       {
         "season": 2016,
         "rounds": 68,
+        "scoring_rounds": 68,
         "scoring_average": 71.29,
         "avg_to_par": 0.13,
         "avg_sg_total": -0.32,
@@ -486,6 +491,7 @@
       {
         "season": 2015,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 75.0,
         "avg_to_par": 5.0,
         "avg_sg_total": -1.92,
@@ -503,6 +509,7 @@
       {
         "season": 2014,
         "rounds": 38,
+        "scoring_rounds": 38,
         "scoring_average": 70.42,
         "avg_to_par": 0.0,
         "avg_sg_total": 0.02,
@@ -520,7 +527,8 @@
       {
         "season": 2013,
         "rounds": 34,
-        "scoring_average": 70.12,
+        "scoring_rounds": 33,
+        "scoring_average": 72.24,
         "avg_to_par": -0.91,
         "avg_sg_total": -1.02,
         "sg_t2g": null,
@@ -537,6 +545,7 @@
       {
         "season": 2012,
         "rounds": 16,
+        "scoring_rounds": 16,
         "scoring_average": 72.25,
         "avg_to_par": 1.0,
         "avg_sg_total": -0.89,
@@ -554,6 +563,7 @@
       {
         "season": 2011,
         "rounds": 16,
+        "scoring_rounds": 16,
         "scoring_average": 71.31,
         "avg_to_par": 0.63,
         "avg_sg_total": -0.65,

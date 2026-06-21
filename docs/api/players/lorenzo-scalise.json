@@ -132,6 +132,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -150,7 +151,8 @@
       {
         "season": 2024,
         "rounds": 4,
-        "scoring_average": 37.5,
+        "scoring_rounds": 2,
+        "scoring_average": 70.5,
         "avg_to_par": 1.5,
         "avg_sg_total": -1.4,
         "sg_t2g": null,
@@ -295,7 +297,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Playable",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +1.5 to par.",
       "source": "4 imported scorecards"
     },

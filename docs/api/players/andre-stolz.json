@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2013,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 69.75,
         "avg_to_par": -2.25,
         "avg_sg_total": 0.45,
@@ -435,6 +437,7 @@
       {
         "season": 2011,
         "rounds": 11,
+        "scoring_rounds": 11,
         "scoring_average": 71.91,
         "avg_to_par": 0.64,
         "avg_sg_total": -1.41,
@@ -452,7 +455,8 @@
       {
         "season": 2005,
         "rounds": 29,
-        "scoring_average": 71.21,
+        "scoring_rounds": 28,
+        "scoring_average": 73.75,
         "avg_to_par": -0.14,
         "avg_sg_total": -2.17,
         "sg_t2g": null,
@@ -607,7 +611,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Playable",
+      "headline": "Pressure point",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: -0.6 to par.",
       "source": "44 imported scorecards"
     },

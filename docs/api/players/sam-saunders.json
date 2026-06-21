@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2023,
         "rounds": 3,
+        "scoring_rounds": 3,
         "scoring_average": 72.0,
         "avg_to_par": 2.0,
         "avg_sg_total": -1.27,
@@ -435,6 +437,7 @@
       {
         "season": 2022,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 76.5,
         "avg_to_par": 4.5,
         "avg_sg_total": -6.34,
@@ -452,7 +455,8 @@
       {
         "season": 2021,
         "rounds": 2,
-        "scoring_average": 1.5,
+        "scoring_rounds": 0,
+        "scoring_average": null,
         "avg_to_par": 1.5,
         "avg_sg_total": null,
         "sg_t2g": null,
@@ -469,6 +473,7 @@
       {
         "season": 2020,
         "rounds": 12,
+        "scoring_rounds": 12,
         "scoring_average": 75.33,
         "avg_to_par": 3.42,
         "avg_sg_total": -3.43,
@@ -486,6 +491,7 @@
       {
         "season": 2019,
         "rounds": 74,
+        "scoring_rounds": 74,
         "scoring_average": 70.77,
         "avg_to_par": -0.39,
         "avg_sg_total": -0.32,
@@ -503,6 +509,7 @@
       {
         "season": 2018,
         "rounds": 74,
+        "scoring_rounds": 74,
         "scoring_average": 70.38,
         "avg_to_par": -0.53,
         "avg_sg_total": 0.12,
@@ -520,6 +527,7 @@
       {
         "season": 2017,
         "rounds": 70,
+        "scoring_rounds": 70,
         "scoring_average": 70.59,
         "avg_to_par": -0.54,
         "avg_sg_total": 0.24,
@@ -537,6 +545,7 @@
       {
         "season": 2016,
         "rounds": 3,
+        "scoring_rounds": 3,
         "scoring_average": 70.33,
         "avg_to_par": 0.33,
         "avg_sg_total": -1.88,
@@ -663,67 +672,67 @@
     "sg_total": {
       "label": "SG Total",
       "headline": "Pressure point",
-      "body": "Overall grade blends 2020-2023 rich public seasons with scorecard form. The rich profile sits at -3.7 SG total; recent imported rounds are -3.2 SG vs -0.3 across the full sample.",
+      "body": "Overall grade blends 2019-2023 rich public seasons with scorecard form. The rich profile sits at -2.8 SG total; recent imported rounds are -3.2 SG vs -0.3 across the full sample.",
       "source": "4 rich seasons, 240 imported scorecards"
     },
     "sg_t2g": {
       "label": "Tee to Green",
       "headline": "Coverage watch",
       "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -- SG T2G.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "sg_ott": {
       "label": "Off Tee",
       "headline": "Coverage watch",
       "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -- SG OTT.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "sg_app": {
       "label": "Approach",
       "headline": "Coverage watch",
       "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: -- SG APP.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "sg_arg": {
       "label": "Around Green",
       "headline": "Coverage watch",
       "body": "Around-the-green grade captures survival when GIR drops. Loaded average: -- SG ARG.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "sg_putt": {
       "label": "Putting",
       "headline": "Coverage watch",
       "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: -- SG putting.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "driving_distance": {
       "label": "Distance",
       "headline": "Coverage watch",
       "body": "Distance is not loaded for this player yet.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "accuracy": {
       "label": "Fairways",
       "headline": "Coverage watch",
       "body": "Accuracy shows whether distance comes with enough control. Public profile average: -- fairways hit.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "gir": {
       "label": "GIR",
       "headline": "Coverage watch",
       "body": "GIR is the plain-English iron-control read. Public profile average: -- greens in regulation.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "scrambling": {
       "label": "Scramble",
       "headline": "Coverage watch",
       "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: --.",
-      "source": "2020-2023 rich public seasons"
+      "source": "2019-2023 rich public seasons"
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
-      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +2.9 to par.",
+      "headline": "Pressure point",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +2.4 to par.",
       "source": "240 imported scorecards"
     },
     "scorecards": {

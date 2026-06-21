@@ -98,6 +98,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -116,7 +117,8 @@
       {
         "season": 2008,
         "rounds": 2,
-        "scoring_average": 39.0,
+        "scoring_rounds": 1,
+        "scoring_average": 78.0,
         "avg_to_par": 4.0,
         "avg_sg_total": -4.91,
         "sg_t2g": null,
@@ -251,7 +253,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Pressure point",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +4.0 to par.",
       "source": "2 imported scorecards"
     },

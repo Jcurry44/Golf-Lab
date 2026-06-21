@@ -19,7 +19,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-ranking-pills";
+const BUILD_VERSION = "20260621-scoring-guard";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -222,13 +222,16 @@ function metric(label, value, note = "") {
 
 function weightedMerge(target, row, fields) {
   const rounds = numeric(row.rounds) || 0;
-  if (!rounds) return;
+  const scoringRounds = numeric(row.scoring_rounds) || 0;
+  if (!rounds && !scoringRounds) return;
   target.rounds = (target.rounds || 0) + rounds;
   for (const field of fields) {
     const value = numeric(row[field]);
     if (value === null) continue;
-    target[`${field}_weighted`] = (target[`${field}_weighted`] || 0) + value * rounds;
-    target[`${field}_rounds`] = (target[`${field}_rounds`] || 0) + rounds;
+    const weight = field === "scoring_average" ? scoringRounds : rounds;
+    if (!weight) continue;
+    target[`${field}_weighted`] = (target[`${field}_weighted`] || 0) + value * weight;
+    target[`${field}_rounds`] = (target[`${field}_rounds`] || 0) + weight;
   }
   if (!target.last_round || String(row.last_round || "") > target.last_round) {
     target.last_round = row.last_round;
@@ -263,10 +266,11 @@ function buildProfileMaps() {
     target.gettable_rounds = (target.gettable_rounds || 0) + (numeric(row.gettable_rounds) || 0);
     target.major_rounds = (target.major_rounds || 0) + (numeric(row.major_rounds) || 0);
     target.major_events = (target.major_events || 0) + (numeric(row.major_events) || 0);
+    target.scoring_rounds = (target.scoring_rounds || 0) + (numeric(row.scoring_rounds) || 0);
   }
   careerProfiles = new Map();
   for (const [playerId, row] of career.entries()) {
-    const profile = { player_id: playerId, season: "all", rounds: row.rounds || 0, last_round: row.last_round };
+    const profile = { player_id: playerId, season: "all", rounds: row.rounds || 0, scoring_rounds: row.scoring_rounds || 0, last_round: row.last_round };
     for (const field of weightedFields) {
       const rounds = row[`${field}_rounds`] || 0;
       profile[field] = rounds ? Number((row[`${field}_weighted`] / rounds).toFixed(2)) : null;
@@ -318,6 +322,11 @@ function profileForRow(row) {
 function statValue(profile, key) {
   const value = numeric(profile?.[key]);
   return value === null ? null : value;
+}
+
+function plausibleScoringAverage(profile) {
+  const value = statValue(profile, "scoring_average");
+  return value !== null && value >= 60 && value <= 80;
 }
 
 function labRankScore(row, profile) {
@@ -628,7 +637,7 @@ function rankingCategoryConfig(key) {
       eyebrow: "Scoring",
       title: "Scoring average leaders",
       description: "Raw scoring average with SG and to-par context for qualified samples.",
-      qualify: ({ profile }) => (numeric(profile.rounds) || 0) >= 20 && statValue(profile, "scoring_average") !== null,
+      qualify: ({ profile }) => (numeric(profile.scoring_rounds) || 0) >= 20 && plausibleScoringAverage(profile),
       compare: (a, b) => compareAsc(a, b, "scoring_average") || compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name),
       columns: ["Score", "To par", "SG", "GIR", "Rounds"],
       cells: [
@@ -636,7 +645,7 @@ function rankingCategoryConfig(key) {
         (row, profile) => signed(profile.avg_to_par),
         (row, profile) => signed(profile.avg_sg_total),
         (row, profile) => pctDecimal(profile.gir),
-        (row, profile) => fmt(profile.rounds),
+        (row, profile) => fmt(profile.scoring_rounds || 0),
       ],
     },
     tough: {

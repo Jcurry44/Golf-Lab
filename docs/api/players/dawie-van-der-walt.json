@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2024,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 75.0,
         "avg_to_par": 5.0,
         "avg_sg_total": -4.1,
@@ -435,7 +437,8 @@
       {
         "season": 2022,
         "rounds": 64,
-        "scoring_average": 69.28,
+        "scoring_rounds": 62,
+        "scoring_average": 71.55,
         "avg_to_par": 0.3,
         "avg_sg_total": -1.01,
         "sg_t2g": null,
@@ -452,6 +455,7 @@
       {
         "season": 2021,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 69.0,
         "avg_to_par": -1.0,
         "avg_sg_total": 1.66,
@@ -469,6 +473,7 @@
       {
         "season": 2020,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 73.0,
         "avg_to_par": 1.0,
         "avg_sg_total": -0.6,
@@ -486,6 +491,7 @@
       {
         "season": 2018,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 71.0,
         "avg_to_par": -1.0,
         "avg_sg_total": -0.35,
@@ -503,6 +509,7 @@
       {
         "season": 2016,
         "rounds": 70,
+        "scoring_rounds": 70,
         "scoring_average": 71.01,
         "avg_to_par": -0.17,
         "avg_sg_total": -0.2,
@@ -520,6 +527,7 @@
       {
         "season": 2015,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 72.75,
         "avg_to_par": 0.75,
         "avg_sg_total": 0.03,
@@ -537,6 +545,7 @@
       {
         "season": 2014,
         "rounds": 6,
+        "scoring_rounds": 6,
         "scoring_average": 76.17,
         "avg_to_par": 4.17,
         "avg_sg_total": -2.42,
@@ -554,6 +563,7 @@
       {
         "season": 2012,
         "rounds": 6,
+        "scoring_rounds": 6,
         "scoring_average": 70.33,
         "avg_to_par": -1.67,
         "avg_sg_total": 0.23,
@@ -571,6 +581,7 @@
       {
         "season": 2010,
         "rounds": 6,
+        "scoring_rounds": 6,
         "scoring_average": 71.33,
         "avg_to_par": -0.17,
         "avg_sg_total": -0.02,

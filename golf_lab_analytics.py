@@ -577,7 +577,8 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
         career_rounds as (
           select r.player_id,
                  count(r.round_id) as rounds,
-                 round(avg(r.score), 2) as scoring_average,
+                 sum(case when r.score between 55 and 95 then 1 else 0 end) as scoring_rounds,
+                 round(avg(case when r.score between 55 and 95 then r.score end), 2) as scoring_average,
                  round(avg(r.to_par), 2) as avg_to_par,
                  round(avg(sg.sg_total), 2) as round_sg_total,
                  max(r.round_date) as last_round
@@ -642,6 +643,7 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
           p.player_name,
           p.country,
           coalesce(cr.rounds, rf.rounds, 0) as rounds,
+          coalesce(cr.scoring_rounds, 0) as scoring_rounds,
           cr.scoring_average,
           coalesce(cr.avg_to_par, rf.avg_to_par) as avg_to_par,
           coalesce(ss.season_sg_total, cr.round_sg_total, rf.avg_sg_total, ps.sg_total) as avg_sg_total,
@@ -750,7 +752,8 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
               select r.player_id,
                      e.season,
                      count(r.round_id) as rounds,
-                     round(avg(r.score), 2) as scoring_average,
+                     sum(case when r.score between 55 and 95 then 1 else 0 end) as scoring_rounds,
+                     round(avg(case when r.score between 55 and 95 then r.score end), 2) as scoring_average,
                      round(avg(r.to_par), 2) as avg_to_par,
                      round(avg(sg.sg_total), 2) as avg_sg_total,
                      round(avg(sg.sg_t2g), 2) as sg_t2g,
@@ -831,6 +834,7 @@ def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
                    p.player_name,
                    ps.season,
                    coalesce(rp.rounds, 0) as rounds,
+                   coalesce(rp.scoring_rounds, 0) as scoring_rounds,
                    rp.scoring_average,
                    rp.avg_to_par,
                    coalesce(ss.season_sg_total, rp.avg_sg_total) as avg_sg_total,
@@ -958,7 +962,8 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         with round_profile as (
           select e.season,
                  count(r.round_id) as rounds,
-                 round(avg(r.score), 2) as scoring_average,
+                 sum(case when r.score between 55 and 95 then 1 else 0 end) as scoring_rounds,
+                 round(avg(case when r.score between 55 and 95 then r.score end), 2) as scoring_average,
                  round(avg(r.to_par), 2) as avg_to_par,
                  round(avg(sg.sg_total), 2) as avg_sg_total,
                  round(avg(sg.sg_t2g), 2) as sg_t2g,
@@ -998,6 +1003,7 @@ def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None =
         )
         select ps.season,
                coalesce(rp.rounds, 0) as rounds,
+               coalesce(rp.scoring_rounds, 0) as scoring_rounds,
                rp.scoring_average,
                rp.avg_to_par,
                coalesce(ss.season_sg_total, rp.avg_sg_total) as avg_sg_total,

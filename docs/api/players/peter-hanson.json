@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,7 +419,8 @@
       {
         "season": 2016,
         "rounds": 2,
-        "scoring_average": 0.0,
+        "scoring_rounds": 0,
+        "scoring_average": null,
         "avg_to_par": -70.0,
         "avg_sg_total": null,
         "sg_t2g": null,
@@ -435,6 +437,7 @@
       {
         "season": 2014,
         "rounds": 35,
+        "scoring_rounds": 35,
         "scoring_average": 72.0,
         "avg_to_par": 0.8,
         "avg_sg_total": -0.39,
@@ -452,6 +455,7 @@
       {
         "season": 2013,
         "rounds": 43,
+        "scoring_rounds": 43,
         "scoring_average": 71.3,
         "avg_to_par": 0.47,
         "avg_sg_total": 0.47,
@@ -469,6 +473,7 @@
       {
         "season": 2012,
         "rounds": 36,
+        "scoring_rounds": 36,
         "scoring_average": 71.0,
         "avg_to_par": -0.33,
         "avg_sg_total": 0.98,
@@ -486,6 +491,7 @@
       {
         "season": 2011,
         "rounds": 38,
+        "scoring_rounds": 38,
         "scoring_average": 71.61,
         "avg_to_par": 0.39,
         "avg_sg_total": 0.14,
@@ -503,6 +509,7 @@
       {
         "season": 2010,
         "rounds": 28,
+        "scoring_rounds": 28,
         "scoring_average": 71.29,
         "avg_to_par": -0.29,
         "avg_sg_total": 1.12,
@@ -520,6 +527,7 @@
       {
         "season": 2009,
         "rounds": 14,
+        "scoring_rounds": 14,
         "scoring_average": 71.5,
         "avg_to_par": 0.64,
         "avg_sg_total": 1.01,
@@ -537,6 +545,7 @@
       {
         "season": 2008,
         "rounds": 12,
+        "scoring_rounds": 12,
         "scoring_average": 73.67,
         "avg_to_par": 3.0,
         "avg_sg_total": -0.36,
@@ -554,6 +563,7 @@
       {
         "season": 2007,
         "rounds": 12,
+        "scoring_rounds": 12,
         "scoring_average": 73.5,
         "avg_to_par": 3.17,
         "avg_sg_total": 0.23,
@@ -571,6 +581,7 @@
       {
         "season": 2005,
         "rounds": 10,
+        "scoring_rounds": 10,
         "scoring_average": 72.3,
         "avg_to_par": 1.5,
         "avg_sg_total": 0.53,
@@ -717,67 +728,67 @@
     "sg_total": {
       "label": "SG Total",
       "headline": "Playable",
-      "body": "Overall grade blends 2012-2016 rich public seasons with scorecard form. The rich profile sits at +0.4 SG total; recent imported rounds are -0.8 SG vs +0.4 across the full sample.",
+      "body": "Overall grade blends 2011-2014 rich public seasons with scorecard form. The rich profile sits at +0.3 SG total; recent imported rounds are -0.8 SG vs +0.4 across the full sample.",
       "source": "4 rich seasons, 229 imported scorecards"
     },
     "sg_t2g": {
       "label": "Tee to Green",
       "headline": "Coverage watch",
       "body": "Tee-to-green is the cleanest week-to-week skill base. The loaded rich profile averages -- SG T2G.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "sg_ott": {
       "label": "Off Tee",
       "headline": "Coverage watch",
       "body": "Off-tee value grades driver pressure and positional advantage. Current rich profile average: -- SG OTT.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "sg_app": {
       "label": "Approach",
       "headline": "Coverage watch",
       "body": "Approach is the model's preferred ball-striking signal for difficult courses. Loaded average: -- SG APP.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "sg_arg": {
       "label": "Around Green",
       "headline": "Coverage watch",
       "body": "Around-the-green grade captures survival when GIR drops. Loaded average: -- SG ARG.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "sg_putt": {
       "label": "Putting",
       "headline": "Coverage watch",
       "body": "Putting is treated as volatile, so it explains upside and risk more than baseline talent. Loaded average: -- SG putting.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "driving_distance": {
       "label": "Distance",
       "headline": "Coverage watch",
       "body": "Distance is not loaded for this player yet.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "accuracy": {
       "label": "Fairways",
       "headline": "Coverage watch",
       "body": "Accuracy shows whether distance comes with enough control. Public profile average: -- fairways hit.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "gir": {
       "label": "GIR",
       "headline": "Coverage watch",
       "body": "GIR is the plain-English iron-control read. Public profile average: -- greens in regulation.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "scrambling": {
       "label": "Scramble",
       "headline": "Coverage watch",
       "body": "Scrambling matters most when the course is firm or the approach profile misses. Public profile average: --.",
-      "source": "2012-2016 rich public seasons"
+      "source": "2011-2014 rich public seasons"
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
-      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: -17.3 to par.",
+      "headline": "Playable",
+      "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +0.3 to par.",
       "source": "229 imported scorecards"
     },
     "scorecards": {

@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2026,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 72.5,
         "avg_to_par": 2.5,
         "avg_sg_total": -0.06,
@@ -435,6 +437,7 @@
       {
         "season": 2025,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 68.5,
         "avg_to_par": -1.5,
         "avg_sg_total": 1.59,
@@ -452,7 +455,8 @@
       {
         "season": 2024,
         "rounds": 6,
-        "scoring_average": 46.67,
+        "scoring_rounds": 4,
+        "scoring_average": 67.75,
         "avg_to_par": -1.33,
         "avg_sg_total": 1.78,
         "sg_t2g": null,
@@ -469,7 +473,8 @@
       {
         "season": 2023,
         "rounds": 6,
-        "scoring_average": 27.5,
+        "scoring_rounds": 2,
+        "scoring_average": 71.5,
         "avg_to_par": 3.5,
         "avg_sg_total": -0.55,
         "sg_t2g": null,
@@ -486,6 +491,7 @@
       {
         "season": 2022,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 72.0,
         "avg_to_par": 2.0,
         "avg_sg_total": 0.28,
@@ -503,6 +509,7 @@
       {
         "season": 2021,
         "rounds": 14,
+        "scoring_rounds": 14,
         "scoring_average": 72.79,
         "avg_to_par": 1.79,
         "avg_sg_total": -0.85,
@@ -520,6 +527,7 @@
       {
         "season": 2019,
         "rounds": 6,
+        "scoring_rounds": 6,
         "scoring_average": 75.0,
         "avg_to_par": 3.33,
         "avg_sg_total": -2.1,
@@ -537,6 +545,7 @@
       {
         "season": 2018,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 72.75,
         "avg_to_par": 2.25,
         "avg_sg_total": -1.02,
@@ -554,6 +563,7 @@
       {
         "season": 2017,
         "rounds": 22,
+        "scoring_rounds": 22,
         "scoring_average": 71.95,
         "avg_to_par": 0.95,
         "avg_sg_total": -0.07,
@@ -571,6 +581,7 @@
       {
         "season": 2016,
         "rounds": 36,
+        "scoring_rounds": 36,
         "scoring_average": 71.78,
         "avg_to_par": 0.67,
         "avg_sg_total": 0.14,
@@ -588,6 +599,7 @@
       {
         "season": 2015,
         "rounds": 14,
+        "scoring_rounds": 14,
         "scoring_average": 71.29,
         "avg_to_par": -0.29,
         "avg_sg_total": 0.59,
@@ -803,7 +815,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Playable",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +0.8 to par.",
       "source": "116 imported scorecards"
     },

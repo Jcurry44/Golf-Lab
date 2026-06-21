@@ -400,6 +400,7 @@
     "columns": [
       "season",
       "rounds",
+      "scoring_rounds",
       "scoring_average",
       "avg_to_par",
       "avg_sg_total",
@@ -418,6 +419,7 @@
       {
         "season": 2026,
         "rounds": 46,
+        "scoring_rounds": 46,
         "scoring_average": 69.76,
         "avg_to_par": -1.28,
         "avg_sg_total": 0.16,
@@ -435,6 +437,7 @@
       {
         "season": 2025,
         "rounds": 82,
+        "scoring_rounds": 82,
         "scoring_average": 71.55,
         "avg_to_par": 0.4,
         "avg_sg_total": -0.977,
@@ -452,6 +455,7 @@
       {
         "season": 2024,
         "rounds": 71,
+        "scoring_rounds": 71,
         "scoring_average": 70.62,
         "avg_to_par": -0.56,
         "avg_sg_total": -0.014,
@@ -469,7 +473,8 @@
       {
         "season": 2023,
         "rounds": 6,
-        "scoring_average": 49.67,
+        "scoring_rounds": 4,
+        "scoring_average": 72.5,
         "avg_to_par": 3.0,
         "avg_sg_total": -1.88,
         "sg_t2g": null,
@@ -486,7 +491,8 @@
       {
         "season": 2022,
         "rounds": 8,
-        "scoring_average": 38.0,
+        "scoring_rounds": 4,
+        "scoring_average": 70.5,
         "avg_to_par": 3.0,
         "avg_sg_total": 0.92,
         "sg_t2g": null,
@@ -503,6 +509,7 @@
       {
         "season": 2019,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 73.5,
         "avg_to_par": 2.5,
         "avg_sg_total": -0.87,
@@ -520,6 +527,7 @@
       {
         "season": 2018,
         "rounds": 4,
+        "scoring_rounds": 4,
         "scoring_average": 73.0,
         "avg_to_par": 3.0,
         "avg_sg_total": 1.39,
@@ -537,6 +545,7 @@
       {
         "season": 2017,
         "rounds": 2,
+        "scoring_rounds": 2,
         "scoring_average": 76.0,
         "avg_to_par": 6.0,
         "avg_sg_total": -3.03,
@@ -752,7 +761,7 @@
     },
     "scoring_average": {
       "label": "Scoring",
-      "headline": "Plus",
+      "headline": "Playable",
       "body": "Scoring average is raw output, not adjusted for course strength. Loaded profile average: +0.4 to par.",
       "source": "221 imported scorecards"
     },
