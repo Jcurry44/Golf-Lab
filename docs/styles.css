@@ -453,6 +453,56 @@ h3 {
   margin: -4px 0 12px;
 }
 
+.filter-console {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(108px, 1fr));
+  gap: 10px;
+  align-items: end;
+  margin: -2px 0 14px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7faf9;
+}
+
+.filter-console label {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+}
+
+.filter-console span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.filter-console input,
+.filter-console select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 9px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 800;
+  outline: none;
+}
+
+.filter-console input:focus,
+.filter-console select:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 4px rgba(15, 107, 79, 0.12);
+}
+
+.filter-reset {
+  min-height: 38px;
+  align-self: end;
+}
+
 .player-actions {
   display: flex;
   justify-content: center;
@@ -785,6 +835,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .filter-console {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .metric-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -848,6 +902,12 @@ h3 {
 
   .metric-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .filter-console {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px;
   }
 
   .scorecard-footer {
@@ -945,6 +1005,10 @@ h3 {
 
   .card-stats,
   .scorecard-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-console {
     grid-template-columns: 1fr;
   }
 }

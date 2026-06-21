@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 
 from app_common import connect
-from golf_lab_analytics import course_cards, database_summary, model_board, player_card, player_cards, warehouse_health
+from golf_lab_analytics import course_cards, database_summary, model_board, player_card, player_cards, player_filter_profiles, warehouse_health
 from golf_lab_import import seed_starter
 
 
@@ -48,7 +48,14 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertGreater(len(courses["rows"]), 0)
         self.assertEqual(health["grade"], "premium-ready")
 
+    def test_player_filter_profiles_include_seasons_and_scoring(self) -> None:
+        with connect(self.db, readonly=True) as conn:
+            payload = player_filter_profiles(conn)
+        self.assertGreater(len(payload["seasons"]), 0)
+        self.assertGreater(len(payload["rows"]), 0)
+        self.assertIn("scoring_average", payload["rows"][0])
+        self.assertIn("avg_sg_total", payload["rows"][0])
+
 
 if __name__ == "__main__":
     unittest.main()
-

@@ -8,8 +8,25 @@ let playerPayload = null;
 let coursePayload = null;
 let modelPayload = null;
 let healthPayload = null;
+let filterPayload = null;
 let playerSearch = "";
 let playerVisibleLimit = 48;
+let seasonProfiles = new Map();
+let careerProfiles = new Map();
+let playerFilters = {
+  season: "all",
+  scope: "all",
+  minRounds: "",
+  minDistance: "",
+  minGir: "",
+  minFairways: "",
+  minScramble: "",
+  maxToPar: "",
+  maxScore: "",
+  minSg: "",
+  strength: "any",
+  sort: "model",
+};
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
 
@@ -57,6 +74,16 @@ function signed(value, digits = 1) {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "--";
   return `${numeric > 0 ? "+" : ""}${fmt(numeric, digits)}`;
+}
+
+function numeric(value) {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function filterNumber(key) {
+  const value = numeric(playerFilters[key]);
+  return value === null ? null : value;
 }
 
 function escapeHtml(value) {
@@ -129,6 +156,114 @@ function metric(label, value, note = "") {
   return `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(rendered)}</strong>${note ? `<small>${escapeHtml(note)}</small>` : ""}</div>`;
 }
 
+function weightedMerge(target, row, fields) {
+  const rounds = numeric(row.rounds) || 0;
+  if (!rounds) return;
+  target.rounds = (target.rounds || 0) + rounds;
+  for (const field of fields) {
+    const value = numeric(row[field]);
+    if (value === null) continue;
+    target[`${field}_weighted`] = (target[`${field}_weighted`] || 0) + value * rounds;
+    target[`${field}_rounds`] = (target[`${field}_rounds`] || 0) + rounds;
+  }
+  if (!target.last_round || String(row.last_round || "") > target.last_round) {
+    target.last_round = row.last_round;
+  }
+}
+
+function buildProfileMaps() {
+  seasonProfiles = new Map();
+  const career = new Map();
+  const weightedFields = ["scoring_average", "avg_to_par", "avg_sg_total", "sg_t2g", "sg_ott", "sg_app", "sg_arg", "sg_putt"];
+  for (const row of filterPayload?.rows || []) {
+    seasonProfiles.set(`${row.player_id}|${row.season}`, row);
+    if (!career.has(row.player_id)) career.set(row.player_id, { player_id: row.player_id, season: "all" });
+    weightedMerge(career.get(row.player_id), row, weightedFields);
+  }
+  careerProfiles = new Map();
+  for (const [playerId, row] of career.entries()) {
+    const profile = { player_id: playerId, season: "all", rounds: row.rounds || 0, last_round: row.last_round };
+    for (const field of weightedFields) {
+      const rounds = row[`${field}_rounds`] || 0;
+      profile[field] = rounds ? Number((row[`${field}_weighted`] / rounds).toFixed(2)) : null;
+    }
+    careerProfiles.set(playerId, profile);
+  }
+}
+
+function profileForRow(row) {
+  if (playerFilters.season !== "all") {
+    const profile = seasonProfiles.get(`${row.player_id}|${playerFilters.season}`);
+    if (!profile) return null;
+    return {
+      ...row,
+      ...profile,
+      rank: row.rank,
+      probability: row.probability,
+      edge_probability: row.edge_probability,
+      projected_to_par: row.projected_to_par,
+      confidence: row.confidence,
+      plain_english: row.plain_english,
+      risk_flags: row.risk_flags,
+      modeled: row.modeled,
+    };
+  }
+  const profile = careerProfiles.get(row.player_id) || {};
+  return {
+    ...row,
+    ...profile,
+    driving_distance: row.driving_distance,
+    accuracy: row.accuracy,
+    gir: row.gir,
+    scrambling: row.scrambling,
+    rank: row.rank,
+    probability: row.probability,
+    edge_probability: row.edge_probability,
+    projected_to_par: row.projected_to_par,
+    confidence: row.confidence,
+    plain_english: row.plain_english,
+    risk_flags: row.risk_flags,
+    modeled: row.modeled,
+  };
+}
+
+function statValue(profile, key) {
+  const value = numeric(profile?.[key]);
+  return value === null ? null : value;
+}
+
+function compareDesc(a, b, key) {
+  const av = statValue(a.profile, key);
+  const bv = statValue(b.profile, key);
+  if (av === null && bv === null) return 0;
+  if (av === null) return 1;
+  if (bv === null) return -1;
+  return bv - av;
+}
+
+function compareAsc(a, b, key) {
+  const av = statValue(a.profile, key);
+  const bv = statValue(b.profile, key);
+  if (av === null && bv === null) return 0;
+  if (av === null) return 1;
+  if (bv === null) return -1;
+  return av - bv;
+}
+
+function sortDecoratedPlayers(rows) {
+  return rows.sort((a, b) => {
+    if (playerFilters.sort === "distance") return compareDesc(a, b, "driving_distance") || a.row.player_name.localeCompare(b.row.player_name);
+    if (playerFilters.sort === "gir") return compareDesc(a, b, "gir") || a.row.player_name.localeCompare(b.row.player_name);
+    if (playerFilters.sort === "scoring") return compareAsc(a, b, "scoring_average") || compareAsc(a, b, "avg_to_par");
+    if (playerFilters.sort === "sg") return compareDesc(a, b, "avg_sg_total") || compareDesc(a, b, "sg_t2g");
+    if (playerFilters.sort === "name") return a.row.player_name.localeCompare(b.row.player_name);
+    const ar = numeric(a.row.rank);
+    const br = numeric(b.row.rank);
+    if (ar !== null || br !== null) return (ar ?? 9999) - (br ?? 9999);
+    return compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name);
+  });
+}
+
 function renderEvent() {
   const event = eventBoard.event || {};
   const weather = eventBoard.weather || [];
@@ -140,6 +275,51 @@ function renderEvent() {
   }
 }
 
+function renderFilterConsole() {
+  const seasonSelect = $("#seasonFilter");
+  if (!seasonSelect) return;
+  const current = playerFilters.season;
+  const seasonOptions = (filterPayload?.seasons || []).map((row) => `
+    <option value="${escapeHtml(row.season)}">${escapeHtml(row.season)} (${fmt(row.players)} players)</option>
+  `).join("");
+  seasonSelect.innerHTML = `<option value="all">All seasons</option>${seasonOptions}`;
+  seasonSelect.value = current;
+}
+
+function passesNumericFloor(profile, key, filterKey, multiplier = 1) {
+  const threshold = filterNumber(filterKey);
+  if (threshold === null) return true;
+  const value = statValue(profile, key);
+  return value !== null && value * multiplier >= threshold;
+}
+
+function passesNumericCeiling(profile, key, filterKey) {
+  const threshold = filterNumber(filterKey);
+  if (threshold === null) return true;
+  const value = statValue(profile, key);
+  return value !== null && value <= threshold;
+}
+
+function playerPassesFilters(row, profile) {
+  if (!profile) return false;
+  if (playerFilters.scope === "modeled" && !row.modeled) return false;
+  if (playerFilters.scope === "database" && row.modeled) return false;
+  if (!passesNumericFloor(profile, "rounds", "minRounds")) return false;
+  if (!passesNumericFloor(profile, "driving_distance", "minDistance")) return false;
+  if (!passesNumericFloor(profile, "gir", "minGir", 100)) return false;
+  if (!passesNumericFloor(profile, "accuracy", "minFairways", 100)) return false;
+  if (!passesNumericFloor(profile, "scrambling", "minScramble", 100)) return false;
+  if (!passesNumericFloor(profile, "avg_sg_total", "minSg")) return false;
+  if (!passesNumericCeiling(profile, "avg_to_par", "maxToPar")) return false;
+  if (!passesNumericCeiling(profile, "scoring_average", "maxScore")) return false;
+
+  if (playerFilters.strength !== "any") {
+    const value = statValue(profile, playerFilters.strength);
+    if (value === null || value <= 0) return false;
+  }
+  return true;
+}
+
 function confidenceTone(value) {
   const text = String(value || "").toLowerCase();
   if (text.includes("thin") || text.includes("watch")) return "watch";
@@ -147,23 +327,23 @@ function confidenceTone(value) {
   return "neutral";
 }
 
-function renderFeaturedPlayer() {
-  const row = (playerPayload.rows || [])[0];
+function renderFeaturedPlayer(row = (playerPayload.rows || [])[0], profile = row ? profileForRow(row) : null) {
   if (!row) {
     $("#featuredPlayer").innerHTML = empty("No player scorecard loaded yet.");
     return;
   }
+  const seasonLabel = playerFilters.season === "all" ? "Career profile" : `${playerFilters.season} profile`;
   $("#featuredPlayer").innerHTML = `
     <div class="featured-inner">
       <div>
-        <span class="featured-rank">Model rank #${escapeHtml(row.rank || "--")}</span>
+        <span class="featured-rank">${escapeHtml(row.rank ? `Model rank #${row.rank}` : seasonLabel)}</span>
         <h2>${escapeHtml(row.player_name)}</h2>
         <p class="featured-copy">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
       </div>
       <div class="featured-metrics">
         ${metric("Win probability", pct(Number(row.probability || 0) * 100))}
-        ${metric("Recent SG", signed(row.avg_sg_total))}
-        ${metric("Tracked rounds", row.rounds)}
+        ${metric("Profile SG", signed(profile?.avg_sg_total))}
+        ${metric("Tracked rounds", profile?.rounds)}
       </div>
     </div>
   `;
@@ -182,39 +362,49 @@ function playerMatchesSearch(row) {
 
 function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 8) {
   const allRows = playerPayload.rows || [];
-  const filteredRows = allRows.filter(playerMatchesSearch);
-  const rows = filteredRows.slice(0, limit);
-  renderFeaturedPlayer();
+  const decoratedRows = sortDecoratedPlayers(allRows
+    .filter(playerMatchesSearch)
+    .map((row) => ({ row, profile: profileForRow(row) }))
+    .filter(({ row, profile }) => playerPassesFilters(row, profile)));
+  const rows = decoratedRows.slice(0, limit);
+  if (rows[0]) {
+    renderFeaturedPlayer(rows[0].row, rows[0].profile);
+  } else {
+    renderFeaturedPlayer(null, null);
+  }
   const count = $("#playerCount");
-  if (count) count.textContent = `${fmt(filteredRows.length)} of ${fmt(allRows.length)} player cards`;
-  $("#playerCards").innerHTML = rows.map((row) => `
+  if (count) {
+    const label = playerFilters.season === "all" ? "all seasons" : `${playerFilters.season} season`;
+    count.textContent = `${fmt(decoratedRows.length)} of ${fmt(allRows.length)} player cards | ${label}`;
+  }
+  $("#playerCards").innerHTML = rows.map(({ row, profile }) => `
     <button type="button" class="player-card" data-player-id="${escapeHtml(row.player_id)}">
       <div class="player-card-head">
         <div class="rank">${row.rank ? `#${escapeHtml(row.rank)}` : "DB"}</div>
         <div>
           <h3>${escapeHtml(row.player_name)}</h3>
-          <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(row.rounds)} tracked rounds</p>
+          <p class="player-card-meta">${escapeHtml(row.country || "PGA")} | ${fmt(profile.rounds)} tracked rounds${playerFilters.season === "all" ? "" : ` | ${escapeHtml(playerFilters.season)}`}</p>
         </div>
         <div class="status-pill" data-tone="${confidenceTone(row.confidence)}">${escapeHtml(row.modeled ? "Model" : (row.confidence || "watch"))}</div>
       </div>
       <div class="card-stats">
         ${metric("Win", pct(Number(row.probability || 0) * 100))}
-        ${metric("SG", signed(row.avg_sg_total))}
-        ${metric("Avg", signed(row.avg_to_par))}
+        ${metric("SG", signed(profile.avg_sg_total))}
+        ${metric("Avg", signed(profile.avg_to_par))}
       </div>
       <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
       <div class="scorecard-footer">
-        <span>Drive <strong>${row.driving_distance ? `${fmt(row.driving_distance, 1)} yd` : "--"}</strong></span>
-        <span>Fairways <strong>${pctDecimal(row.accuracy)}</strong></span>
-        <span>GIR <strong>${pctDecimal(row.gir)}</strong></span>
-        <span>Scramble <strong>${pctDecimal(row.scrambling)}</strong></span>
+        <span>Drive <strong>${profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--"}</strong></span>
+        <span>GIR <strong>${pctDecimal(profile.gir)}</strong></span>
+        <span>Score <strong>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</strong></span>
+        <span>Scramble <strong>${pctDecimal(profile.scrambling)}</strong></span>
       </div>
     </button>
-  `).join("") || empty("No player cards yet.");
+  `).join("") || empty("No player cards match those filters.");
   const actions = $("#playerActions");
   if (actions) {
-    actions.innerHTML = filteredRows.length > rows.length
-      ? `<button type="button" class="ghost-button" data-show-more-players>Show ${fmt(Math.min(48, filteredRows.length - rows.length))} more</button>`
+    actions.innerHTML = decoratedRows.length > rows.length
+      ? `<button type="button" class="ghost-button" data-show-more-players>Show ${fmt(Math.min(48, decoratedRows.length - rows.length))} more</button>`
       : "";
   }
 }
@@ -367,6 +557,42 @@ function bindEvents() {
       renderPlayers();
     });
   }
+  $$("[data-player-filter]").forEach((control) => {
+    control.addEventListener("input", () => {
+      playerFilters[control.dataset.playerFilter] = control.value;
+      playerVisibleLimit = 48;
+      renderPlayers();
+    });
+    control.addEventListener("change", () => {
+      playerFilters[control.dataset.playerFilter] = control.value;
+      playerVisibleLimit = 48;
+      renderPlayers();
+    });
+  });
+  const reset = $("#playerFilterReset");
+  if (reset) {
+    reset.addEventListener("click", () => {
+      playerFilters = {
+        season: "all",
+        scope: "all",
+        minRounds: "",
+        minDistance: "",
+        minGir: "",
+        minFairways: "",
+        minScramble: "",
+        maxToPar: "",
+        maxScore: "",
+        minSg: "",
+        strength: "any",
+        sort: "model",
+      };
+      $$("[data-player-filter]").forEach((control) => {
+        control.value = playerFilters[control.dataset.playerFilter] ?? "";
+      });
+      playerVisibleLimit = 48;
+      renderPlayers();
+    });
+  }
 }
 
 function closeDrawer() {
@@ -381,16 +607,19 @@ function showError(error) {
 async function boot() {
   bindEvents();
   try {
-    [summary, eventBoard, playerPayload, coursePayload, modelPayload, healthPayload] = await Promise.all([
+    [summary, eventBoard, playerPayload, filterPayload, coursePayload, modelPayload, healthPayload] = await Promise.all([
       api("/api/summary"),
       api("/api/event"),
       api("/api/player-cards?limit=5000"),
+      api("/api/player-filters"),
       api("/api/course-cards?limit=60"),
       api("/api/model-board?limit=80"),
       api("/api/warehouse-health"),
     ]);
+    buildProfileMaps();
     renderSummary();
     renderEvent();
+    renderFilterConsole();
     renderPlayers();
     renderCourses();
     renderModel();

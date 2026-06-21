@@ -16,6 +16,7 @@ from golf_lab_analytics import (
     model_board,
     player_card,
     player_cards,
+    player_filter_profiles,
     warehouse_health,
 )
 
@@ -70,6 +71,9 @@ class GolfLabHandler(BaseHTTPRequestHandler):
                     return
                 if parsed.path == "/api/player-cards":
                     self.send_json(player_cards(conn, str_param(params, "event_id"), int_param(params, "limit", 250, 1, 5000)))
+                    return
+                if parsed.path == "/api/player-filters":
+                    self.send_json(player_filter_profiles(conn))
                     return
                 if parsed.path == "/api/player":
                     self.send_json(player_card(conn, str_param(params, "id"), str_param(params, "event_id")))

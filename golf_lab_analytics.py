@@ -274,6 +274,91 @@ def player_cards(conn: sqlite3.Connection, event_id: str | None = None, limit: i
     return {"event": event, "rows": _enrich_reasoning(rows_to_dicts(rows))}
 
 
+def player_filter_profiles(conn: sqlite3.Connection) -> dict[str, Any]:
+    seasons = rows_to_dicts(
+        conn.execute(
+            """
+            select e.season,
+                   count(r.round_id) as rounds,
+                   count(distinct r.player_id) as players
+            from rounds r
+            join events e on e.event_id = r.event_id
+            where e.season is not null
+            group by e.season
+            order by e.season desc
+            """
+        ).fetchall()
+    )
+    rows = rows_to_dicts(
+        conn.execute(
+            """
+            with round_profile as (
+              select r.player_id,
+                     e.season,
+                     count(r.round_id) as rounds,
+                     round(avg(r.score), 2) as scoring_average,
+                     round(avg(r.to_par), 2) as avg_to_par,
+                     round(avg(sg.sg_total), 2) as avg_sg_total,
+                     round(avg(sg.sg_t2g), 2) as sg_t2g,
+                     round(avg(sg.sg_ott), 2) as sg_ott,
+                     round(avg(sg.sg_app), 2) as sg_app,
+                     round(avg(sg.sg_arg), 2) as sg_arg,
+                     round(avg(sg.sg_putt), 2) as sg_putt,
+                     max(r.round_date) as last_round
+              from rounds r
+              join events e on e.event_id = r.event_id
+              left join strokes_gained sg on sg.round_id = r.round_id
+              where e.season is not null
+              group by r.player_id, e.season
+            ),
+            season_skill as (
+              select player_id,
+                     cast(substr(period, 8) as integer) as season,
+                     sg_total as season_sg_total,
+                     sg_t2g as season_sg_t2g,
+                     sg_ott as season_sg_ott,
+                     sg_app as season_sg_app,
+                     sg_arg as season_sg_arg,
+                     sg_putt as season_sg_putt,
+                     driving_distance,
+                     accuracy,
+                     gir,
+                     scrambling
+              from strokes_gained
+              where round_id is null
+                and period like 'season-%'
+            )
+            select p.player_id,
+                   p.player_name,
+                   rp.season,
+                   rp.rounds,
+                   rp.scoring_average,
+                   rp.avg_to_par,
+                   coalesce(ss.season_sg_total, rp.avg_sg_total) as avg_sg_total,
+                   coalesce(ss.season_sg_t2g, rp.sg_t2g) as sg_t2g,
+                   coalesce(ss.season_sg_ott, rp.sg_ott) as sg_ott,
+                   coalesce(ss.season_sg_app, rp.sg_app) as sg_app,
+                   coalesce(ss.season_sg_arg, rp.sg_arg) as sg_arg,
+                   coalesce(ss.season_sg_putt, rp.sg_putt) as sg_putt,
+                   ss.driving_distance,
+                   ss.accuracy,
+                   ss.gir,
+                   ss.scrambling,
+                   rp.last_round
+            from round_profile rp
+            join players p on p.player_id = rp.player_id
+            left join season_skill ss
+              on ss.player_id = rp.player_id
+             and ss.season = rp.season
+            order by rp.season desc,
+                     coalesce(ss.season_sg_total, rp.avg_sg_total, -999) desc,
+                     p.player_name
+            """
+        ).fetchall()
+    )
+    return {"seasons": seasons, "rows": rows}
+
+
 def player_card(conn: sqlite3.Connection, player_id: str, event_id: str | None = None) -> dict[str, Any]:
     player = one(
         conn,

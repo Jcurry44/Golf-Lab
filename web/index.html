@@ -59,6 +59,77 @@
                 <button type="button" class="ghost-button" data-view-jump="model">Model board</button>
               </div>
             </div>
+            <div class="filter-console" id="playerFilterConsole">
+              <label>
+                <span>Season</span>
+                <select id="seasonFilter" data-player-filter="season">
+                  <option value="all">All seasons</option>
+                </select>
+              </label>
+              <label>
+                <span>Scope</span>
+                <select data-player-filter="scope">
+                  <option value="all">All players</option>
+                  <option value="modeled">Modeled field</option>
+                  <option value="database">Database only</option>
+                </select>
+              </label>
+              <label>
+                <span>Min rounds</span>
+                <input type="number" inputmode="numeric" min="0" step="1" data-player-filter="minRounds" placeholder="12">
+              </label>
+              <label>
+                <span>Distance</span>
+                <input type="number" inputmode="decimal" min="0" step="0.1" data-player-filter="minDistance" placeholder="305">
+              </label>
+              <label>
+                <span>GIR %</span>
+                <input type="number" inputmode="decimal" min="0" max="100" step="0.1" data-player-filter="minGir" placeholder="68">
+              </label>
+              <label>
+                <span>Fairway %</span>
+                <input type="number" inputmode="decimal" min="0" max="100" step="0.1" data-player-filter="minFairways" placeholder="60">
+              </label>
+              <label>
+                <span>Scramble %</span>
+                <input type="number" inputmode="decimal" min="0" max="100" step="0.1" data-player-filter="minScramble" placeholder="62">
+              </label>
+              <label>
+                <span>Max to par</span>
+                <input type="number" inputmode="decimal" step="0.1" data-player-filter="maxToPar" placeholder="0.5">
+              </label>
+              <label>
+                <span>Max score</span>
+                <input type="number" inputmode="decimal" step="0.1" data-player-filter="maxScore" placeholder="70.5">
+              </label>
+              <label>
+                <span>Min SG</span>
+                <input type="number" inputmode="decimal" step="0.1" data-player-filter="minSg" placeholder="0.5">
+              </label>
+              <label>
+                <span>Strength</span>
+                <select data-player-filter="strength">
+                  <option value="any">Any profile</option>
+                  <option value="sg_ott">Off the tee</option>
+                  <option value="sg_app">Approach</option>
+                  <option value="sg_arg">Around green</option>
+                  <option value="sg_putt">Putting</option>
+                  <option value="sg_t2g">Tee to green</option>
+                </select>
+              </label>
+              <label>
+                <span>Sort</span>
+                <select data-player-filter="sort">
+                  <option value="model">Model rank</option>
+                  <option value="sg">Strokes gained</option>
+                  <option value="distance">Driving distance</option>
+                  <option value="gir">GIR</option>
+                  <option value="scoring">Scoring</option>
+                  <option value="name">Name</option>
+                </select>
+              </label>
+              <button type="button" class="ghost-button filter-reset" id="playerFilterReset">Reset</button>
+            </div>
             <div class="library-count" id="playerCount"></div>
             <div id="playerCards" class="player-grid"></div>
             <div id="playerActions" class="player-actions"></div>

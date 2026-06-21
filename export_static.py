@@ -15,6 +15,7 @@ from golf_lab_analytics import (
     model_board,
     player_card,
     player_cards,
+    player_filter_profiles,
     warehouse_health,
 )
 
@@ -42,6 +43,7 @@ def export_static(db_path: Path = DEFAULT_DB, out_dir: Path = ROOT / "docs") -> 
         write_json(out_dir / "api" / "summary.json", summary)
         write_json(out_dir / "api" / "event.json", event_board(conn, event_id))
         write_json(out_dir / "api" / "player-cards.json", players)
+        write_json(out_dir / "api" / "player-filters.json", player_filter_profiles(conn))
         write_json(out_dir / "api" / "course-cards.json", courses)
         write_json(out_dir / "api" / "model-board.json", model_board(conn, event_id, limit=250))
         write_json(out_dir / "api" / "warehouse-health.json", warehouse_health(conn))
