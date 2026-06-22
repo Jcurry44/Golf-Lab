@@ -1868,6 +1868,7 @@ h3 {
 }
 
 .snapshot-card {
+  width: 100%;
   min-height: 112px;
   display: grid;
   align-content: space-between;
@@ -1879,6 +1880,11 @@ h3 {
   background:
     linear-gradient(180deg, rgba(20, 33, 28, 0.88), rgba(7, 13, 10, 0.95)),
     var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .snapshot-card.is-good { border-top-color: var(--green); }
@@ -1912,13 +1918,19 @@ h3 {
   padding: 12px;
 }
 
-.pc-explain div {
+.pc-explain button {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
   gap: 12px;
   padding: 10px 12px;
+  border: 1px solid transparent;
   border-radius: var(--radius);
   background: var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .pc-explain strong {
@@ -1944,7 +1956,7 @@ h3 {
 
 .pc-secnav::-webkit-scrollbar { display: none; }
 
-.pc-secnav a {
+.pc-secnav button {
   flex: 0 0 auto;
   min-height: 32px;
   display: inline-flex;
@@ -1956,9 +1968,13 @@ h3 {
   color: var(--muted);
   font-size: 12px;
   font-weight: 900;
+  white-space: nowrap;
+  appearance: none;
+  cursor: pointer;
 }
 
-.pc-secnav a:hover {
+.pc-secnav button:hover,
+.pc-secnav button.is-active {
   color: #06100c;
   background: var(--green);
   border-color: var(--green);
@@ -1983,15 +1999,29 @@ h3 {
 }
 
 .insight-card {
+  width: 100%;
   min-height: 104px;
   padding: 13px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
   border-top: 3px solid var(--line-strong);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .insight-card.is-good { border-top-color: var(--green); }
+
+.insight-card:hover,
+.snapshot-card:hover,
+.pc-explain button:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+  transform: translateY(-1px);
+}
 
 .score-grid {
   display: grid;
@@ -2213,6 +2243,11 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .split-card.brutal { border-top: 3px solid var(--red); }
@@ -2278,6 +2313,11 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .season-row strong {
@@ -2323,10 +2363,16 @@ h3 {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+  width: 100%;
   padding: 11px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
 .course-row strong,
@@ -2378,6 +2424,15 @@ h3 {
   text-transform: uppercase;
 }
 
+.data-table tbody tr[data-drill] {
+  cursor: pointer;
+}
+
+.data-table tbody tr[data-drill]:hover td,
+.data-table tbody tr[data-drill]:focus td {
+  background: rgba(81, 214, 166, 0.07);
+}
+
 .receipt-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr 0.8fr;
@@ -2390,8 +2445,9 @@ h3 {
   gap: 8px;
 }
 
-.coverage-list div,
+.coverage-list button,
 .receipt-note {
+  width: 100%;
   min-height: 86px;
   display: grid;
   align-content: start;
@@ -2400,10 +2456,15 @@ h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-deep);
+  color: var(--ink);
+  text-align: left;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
 }
 
-.coverage-list div.is-good { border-left: 3px solid var(--green); }
-.coverage-list div.is-watch { border-left: 3px solid var(--gold); }
+.coverage-list button.is-good { border-left: 3px solid var(--green); }
+.coverage-list button.is-watch { border-left: 3px solid var(--gold); }
 
 .coverage-list strong,
 .receipt-note strong {
@@ -2421,6 +2482,146 @@ h3 {
   color: var(--faint);
   font-size: 12px;
   line-height: 1.35;
+}
+
+.course-row:hover,
+.season-row:hover,
+.split-card:hover,
+.major-card:hover,
+.coverage-list button:hover,
+.receipt-note:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.24);
+  transform: translateY(-1px);
+}
+
+.drill-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(0, 0, 0, 0.52);
+  backdrop-filter: blur(4px);
+}
+
+.drill-drawer {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 90;
+  width: min(430px, calc(100vw - 24px));
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 12px;
+  overflow: hidden;
+  padding: 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(180deg, rgba(17, 28, 24, 0.98), rgba(5, 9, 7, 0.99)),
+    var(--bg-deep);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.52);
+}
+
+.drill-drawer[hidden],
+.drill-overlay[hidden] {
+  display: none;
+}
+
+.drill-drawer header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.drill-drawer h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.drill-drawer header button {
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel-raised);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.drill-lead {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border: 1px solid var(--line-strong);
+  border-left: 3px solid var(--green);
+  border-radius: var(--radius);
+  background: var(--bg-deep);
+}
+
+.drill-lead strong {
+  color: var(--ink-strong);
+  font-size: 32px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.drill-lead span,
+.drill-body p {
+  color: var(--muted);
+  font-weight: 750;
+  line-height: 1.5;
+}
+
+.drill-body {
+  overflow: auto;
+  padding-right: 3px;
+}
+
+.drill-body p {
+  margin: 0 0 10px;
+}
+
+.drill-evidence {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  overflow: auto;
+  max-height: 38vh;
+  padding-top: 2px;
+}
+
+.drill-evidence div {
+  min-height: 76px;
+  display: grid;
+  align-content: start;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.drill-evidence span {
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.drill-evidence strong {
+  color: var(--ink-strong);
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+.drill-evidence small {
+  color: var(--faint);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.25;
 }
 
 @media (max-width: 1120px) {
@@ -2759,7 +2960,7 @@ h3 {
     width: max-content;
   }
 
-  .pc-explain div,
+  .pc-explain button,
   .season-row {
     grid-template-columns: 1fr;
   }
@@ -2776,6 +2977,21 @@ h3 {
 
   .drawer-panel {
     padding: 18px;
+  }
+
+  .drill-drawer {
+    top: auto;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    width: auto;
+    max-height: 82vh;
+    grid-template-rows: auto auto minmax(80px, 1fr) auto;
+  }
+
+  .drill-evidence {
+    grid-template-columns: 1fr;
+    max-height: 30vh;
   }
 }
 

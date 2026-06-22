@@ -8,9 +8,10 @@ let activePlayerId = "";
 let activeGradeKey = "sg_total";
 let activeDetail = null;
 let activeProfile = null;
+let activeView = "overview";
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-winner-market";
+const BUILD_VERSION = "20260621-drilldowns";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -250,7 +251,7 @@ function statTile(stat, explanation, active) {
   const cls = gradeClass(value, kind);
   const width = meterWidth(value, kind);
   return `
-    <button type="button" class="score-tile ${cls} ${active ? "is-active" : ""}" data-grade-key="${escapeHtml(key)}" aria-pressed="${active ? "true" : "false"}">
+    <button type="button" class="score-tile ${cls} ${active ? "is-active" : ""}" data-grade-key="${escapeHtml(key)}" data-drill="stat" data-drill-key="${escapeHtml(key)}" aria-pressed="${active ? "true" : "false"}">
       <div><span>${escapeHtml(label)}</span><strong>${escapeHtml(rendered)}</strong></div>
       <div class="stat-meter"><i style="width:${width}%"></i></div>
       <small>${escapeHtml(explanation?.headline || note)}</small>
@@ -258,13 +259,13 @@ function statTile(stat, explanation, active) {
   `;
 }
 
-function insight(label, value, note = "", tone = "") {
+function insight(label, value, note = "", tone = "", key = "") {
   return `
-    <article class="insight-card ${tone}">
+    <button type="button" class="insight-card ${tone}" data-drill="projection" data-drill-key="${escapeHtml(key || label)}">
       <span>${escapeHtml(label)}</span>
       <strong>${escapeHtml(value)}</strong>
       <small>${escapeHtml(note)}</small>
-    </article>
+    </button>
   `;
 }
 
@@ -311,13 +312,13 @@ function profileEdge(profile) {
   return { label: ranked[0], value: ranked[2], note: "best loaded skill lane" };
 }
 
-function snapshotCard(label, value, note, tone = "") {
+function snapshotCard(label, value, note, tone = "", key = "") {
   return `
-    <article class="snapshot-card ${tone}">
+    <button type="button" class="snapshot-card ${tone}" data-drill="snapshot" data-drill-key="${escapeHtml(key || label)}">
       <span>${escapeHtml(label)}</span>
       <strong>${escapeHtml(value)}</strong>
       <small>${escapeHtml(note)}</small>
-    </article>
+    </button>
   `;
 }
 
@@ -332,27 +333,32 @@ function renderSnapshot(detail, profile) {
       "Recent form",
       trend.trend_label || "Trend pending",
       `${signed(trend.recent_sg)} recent SG vs ${signed(trend.baseline_sg)} baseline`,
-      Number(trend.sg_delta) >= 0.25 ? "is-good" : Number(trend.sg_delta) <= -0.25 ? "is-watch" : ""
+      Number(trend.sg_delta) >= 0.25 ? "is-good" : Number(trend.sg_delta) <= -0.25 ? "is-watch" : "",
+      "recent"
     ),
-    snapshotCard(edge.label, edge.value, edge.note, "is-good"),
+    snapshotCard(edge.label, edge.value, edge.note, "is-good", "edge"),
     snapshotCard(
       "Major profile",
       major.rounds ? signed(major.avg_to_par) : "--",
       major.rounds ? `${fmt(major.rounds)} major rounds | ${signed(major.avg_sg)} SG` : "major sample pending",
-      major.rounds >= 8 ? "is-good" : "is-watch"
+      major.rounds >= 8 ? "is-good" : "is-watch",
+      "major"
     ),
     snapshotCard(
       "Tough courses",
       detail.courseDna?.toughRounds ? signed(detail.courseDna.toughAvgToPar) : "--",
       detail.courseDna?.toughRounds ? `${fmt(detail.courseDna.toughRounds)} tough rounds` : "difficulty sample pending",
-      detail.courseDna?.toughRounds >= 8 ? "is-good" : "is-watch"
+      detail.courseDna?.toughRounds >= 8 ? "is-good" : "is-watch",
+      "tough"
     ),
     snapshotCard(
       "Best course",
       bestCourse?.course || "--",
-      bestCourse ? `${signed(bestCourse.avg_to_par)} avg | ${fmt(bestCourse.rounds)} rounds` : "repeat-course history pending"
+      bestCourse ? `${signed(bestCourse.avg_to_par)} avg | ${fmt(bestCourse.rounds)} rounds` : "repeat-course history pending",
+      "",
+      "best"
     ),
-    snapshotCard("Data trust", trust.label, trust.note, trust.loaded >= 6 ? "is-good" : trust.loaded >= 4 ? "" : "is-watch"),
+    snapshotCard("Data trust", trust.label, trust.note, trust.loaded >= 6 ? "is-good" : trust.loaded >= 4 ? "" : "is-watch", "trust"),
   ].join("");
 }
 
@@ -420,8 +426,10 @@ function renderExplain(detail, row, profile) {
     bullets.push(["Course fit receipt", `${best.course}: ${signed(best.avg_to_par)} average to par across ${fmt(best.rounds)} tracked rounds.`]);
   }
   if (model.risk_flags) bullets.push(["Risk flag", model.risk_flags]);
-  $("#pcExplain").innerHTML = bullets.slice(0, 5).map(([label, text]) => `
-    <div><strong>${escapeHtml(label)}</strong><span>${escapeHtml(text)}</span></div>
+  $("#pcExplain").innerHTML = bullets.slice(0, 5).map(([label, text], index) => `
+    <button type="button" data-drill="explain" data-index="${index}">
+      <strong>${escapeHtml(label)}</strong><span>${escapeHtml(text)}</span>
+    </button>
   `).join("");
 }
 
@@ -432,12 +440,12 @@ function renderProjection(detail, row) {
   $("#projectionTitle").textContent = eventName();
   $("#projectionBadge").textContent = model.confidence || row?.confidence || "Coverage watch";
   $("#projectionGrid").innerHTML = [
-    insight("Model rank", model.rank ? `#${fmt(model.rank)}` : "--", "winner market"),
-    insight("Win probability", probability !== null ? pct(probability * 100, 1) : "--", "model implied"),
-    insight("Projected to par", signed(firstNumber(model.projected_to_par, row?.projected_to_par)), "event finish"),
-    insight("Fair odds", moneyOdds(model.fair_odds_american), "model price"),
-    insight("Market edge", edge !== null ? `${signed(edge * 100, 1)} pts` : "--", "model minus market", edge > 0 ? "is-good" : ""),
-    insight("Confidence", model.confidence || row?.confidence || "Watch", "sample and source quality"),
+    insight("Model rank", model.rank ? `#${fmt(model.rank)}` : "--", "winner market", "", "rank"),
+    insight("Win probability", probability !== null ? pct(probability * 100, 1) : "--", "model implied", "", "probability"),
+    insight("Projected to par", signed(firstNumber(model.projected_to_par, row?.projected_to_par)), "event finish", "", "projected"),
+    insight("Fair odds", moneyOdds(model.fair_odds_american), "model price", "", "odds"),
+    insight("Market edge", edge !== null ? `${signed(edge * 100, 1)} pts` : "--", "model minus market", edge > 0 ? "is-good" : "", "edge"),
+    insight("Confidence", model.confidence || row?.confidence || "Watch", "sample and source quality", "", "confidence"),
   ].join("");
 }
 
@@ -492,8 +500,8 @@ function renderDifficultySplits(detail) {
     $("#difficultySplits").innerHTML = `<div class="empty">No course difficulty splits loaded yet.</div>`;
     return;
   }
-  $("#difficultySplits").innerHTML = rows.map((row) => `
-    <article class="split-card ${escapeHtml(row.bucket || "balanced")}">
+  $("#difficultySplits").innerHTML = rows.map((row, index) => `
+    <button type="button" class="split-card ${escapeHtml(row.bucket || "balanced")}" data-drill="split" data-index="${index}">
       <div>
         <span class="difficulty ${escapeHtml(row.bucket || "balanced")}">${escapeHtml(row.bucket || "balanced")}</span>
         <strong>${signed(row.avg_to_par)}</strong>
@@ -504,7 +512,7 @@ function renderDifficultySplits(detail) {
         <span><b>${signed(row.avg_sg)}</b><small>SG</small></span>
         <span><b>${pctDecimal(row.par_or_better_rate)}</b><small>par or better</small></span>
       </div>
-    </article>
+    </button>
   `).join("");
 }
 
@@ -525,12 +533,12 @@ function renderMajorProfile(detail) {
     $("#majorGrid").innerHTML = `<div class="empty">Major scorecards will appear here when loaded.</div>`;
     return;
   }
-  $("#majorGrid").innerHTML = rows.map((row) => `
-    <article class="major-card">
+  $("#majorGrid").innerHTML = rows.map((row, index) => `
+    <button type="button" class="major-card" data-drill="major" data-index="${index}">
       <span>${escapeHtml(row.major || "Major")}</span>
       <strong>${signed(row.avg_to_par)}</strong>
       <small>${fmt(row.rounds)} rounds | ${fmt(row.events)} events | ${signed(row.avg_sg)} SG</small>
-    </article>
+    </button>
   `).join("");
 }
 
@@ -543,25 +551,25 @@ function renderSeasons(detail) {
   }
   const values = rows.map((row) => firstNumber(row.avg_sg_total, row.avg_to_par ? -row.avg_to_par : null)).filter((value) => value !== null);
   const max = Math.max(1, ...values.map((value) => Math.abs(value)));
-  $("#seasonBars").innerHTML = rows.map((row) => {
+  $("#seasonBars").innerHTML = rows.map((row, index) => {
     const value = firstNumber(row.avg_sg_total, row.avg_to_par ? -row.avg_to_par : null);
     const width = value === null ? 0 : Math.min(100, (Math.abs(value) / max) * 100);
     const label = row.avg_sg_total !== null ? `${signed(row.avg_sg_total)} SG` : `${signed(row.avg_to_par)} to par`;
     const tone = value === null ? "is-missing" : value >= 0 ? "is-good" : "is-bad";
     return `
-      <article class="season-row">
+      <button type="button" class="season-row" data-drill="season" data-index="${index}">
         <strong>${escapeHtml(row.season)}</strong>
         <div class="season-meter ${tone}"><i style="width:${width}%"></i></div>
         <span>${escapeHtml(label)}</span>
         <small>${fmt(row.rounds)} rounds | ${row.driving_distance ? `${fmt(row.driving_distance, 1)} yd` : "distance --"} | GIR ${pctDecimal(row.gir)}</small>
-      </article>
+      </button>
     `;
   }).join("");
 }
 
-function renderCourseLens(target, rows, emptyText) {
-  $(target).innerHTML = (rows || []).map((row) => `
-    <article class="course-row">
+function renderCourseLens(target, rows, emptyText, sourceKey) {
+  $(target).innerHTML = (rows || []).map((row, index) => `
+    <button type="button" class="course-row" data-drill="course" data-source="${escapeHtml(sourceKey)}" data-index="${index}">
       <div>
         <strong>${escapeHtml(row.course || "Course")}</strong>
         <span>${fmt(row.rounds)} rounds</span>
@@ -570,7 +578,7 @@ function renderCourseLens(target, rows, emptyText) {
         <b>${signed(row.avg_to_par)}</b>
         <small>${signed(row.avg_sg)} SG</small>
       </div>
-    </article>
+    </button>
   `).join("") || `<div class="empty">${escapeHtml(emptyText)}</div>`;
 }
 
@@ -584,8 +592,8 @@ function renderRounds(detail) {
     <table class="data-table">
       <thead><tr><th>Date</th><th>Event</th><th>Course</th><th>R</th><th>Score</th><th>To par</th><th>SG</th></tr></thead>
       <tbody>
-        ${rows.map((row) => `
-          <tr>
+        ${rows.map((row, index) => `
+          <tr data-drill="round" data-index="${index}" tabindex="0">
             <td>${escapeHtml(row.round_date || "")}</td>
             <td>${escapeHtml(row.event_name || "")}</td>
             <td>${escapeHtml(row.course || "")}</td>
@@ -621,20 +629,364 @@ function renderReceipts(detail) {
   $("#receiptGrid").innerHTML = `
     <div class="coverage-list">
       ${coverageRows.map(([label, ok, note]) => `
-        <div class="${ok ? "is-good" : "is-watch"}"><strong>${escapeHtml(label)}</strong><span>${ok ? "Loaded" : "Coverage watch"}</span><small>${escapeHtml(note)}</small></div>
+        <button type="button" data-drill="receipt" data-drill-key="${escapeHtml(label)}" class="${ok ? "is-good" : "is-watch"}"><strong>${escapeHtml(label)}</strong><span>${ok ? "Loaded" : "Coverage watch"}</span><small>${escapeHtml(note)}</small></button>
       `).join("")}
     </div>
-    <article class="receipt-note">
+    <button type="button" class="receipt-note" data-drill="receipt" data-drill-key="Latest source touch">
       <strong>Latest source touch</strong>
       <span>${escapeHtml(latest.provider || "source pending")}</span>
       <small>${escapeHtml([latest.endpoint, latest.fetched_at].filter(Boolean).join(" | "))}</small>
-    </article>
-    <article class="receipt-note">
+    </button>
+    <button type="button" class="receipt-note" data-drill="receipt" data-drill-key="Honest limitation">
       <strong>Honest limitation</strong>
       <span>Distance, GIR, fairway, and scrambling coverage is strongest in recent PGA public stat seasons.</span>
       <small>Blank fields are treated as missing data, not zero performance.</small>
-    </article>
+    </button>
   `;
+}
+
+function valueForStatKey(row, stat) {
+  if (!row || !stat) return "--";
+  if (stat.key === "scorecards") return fmt(row.rounds);
+  const value = stat.key === "sg_total" ? firstNumber(row.avg_sg_total, row.sg_total) : firstNumber(row[stat.key]);
+  return stat.formatter(value);
+}
+
+function evidenceHtml(items = []) {
+  const rows = items.filter((item) => item && item.label);
+  if (!rows.length) return "";
+  return rows.map((item) => `
+    <div>
+      <span>${escapeHtml(item.label)}</span>
+      <strong>${escapeHtml(item.value ?? "--")}</strong>
+      <small>${escapeHtml(item.note || "")}</small>
+    </div>
+  `).join("");
+}
+
+function openDrilldown(payload) {
+  if (!payload) return;
+  $("#drillEyebrow").textContent = payload.eyebrow || "Receipt";
+  $("#drillTitle").textContent = payload.title || "Detail";
+  $("#drillLead").innerHTML = `
+    <strong>${escapeHtml(payload.value ?? "--")}</strong>
+    <span>${escapeHtml(payload.note || "")}</span>
+  `;
+  $("#drillBody").innerHTML = (payload.body || [])
+    .filter(Boolean)
+    .map((line) => `<p>${escapeHtml(line)}</p>`)
+    .join("");
+  $("#drillEvidence").innerHTML = evidenceHtml(payload.evidence);
+  $("#drillOverlay").hidden = false;
+  $("#drillDrawer").hidden = false;
+  document.body.classList.add("has-drill-open");
+  $("#drillClose").focus({ preventScroll: true });
+}
+
+function closeDrilldown() {
+  $("#drillOverlay").hidden = true;
+  $("#drillDrawer").hidden = true;
+  document.body.classList.remove("has-drill-open");
+}
+
+function projectionDrill(key) {
+  const model = activeDetail?.model || playerRow(activePlayerId) || {};
+  const probability = firstNumber(model.probability);
+  const edge = firstNumber(model.edge_probability);
+  const projected = firstNumber(model.projected_to_par);
+  const map = {
+    rank: ["Model rank", model.rank ? `#${fmt(model.rank)}` : "--", "Outright winner-market rank for the selected event."],
+    probability: ["Win probability", probability !== null ? pct(probability * 100, 1) : "--", "Outright win chance from the saved winner-market model row."],
+    projected: ["Projected to par", signed(projected), "Projected tournament finish score when available."],
+    odds: ["Fair odds", moneyOdds(model.fair_odds_american), "American odds implied by the model probability."],
+    edge: ["Market edge", edge !== null ? `${signed(edge * 100, 1)} pts` : "--", "Model probability minus the available market price."],
+    confidence: ["Confidence", model.confidence || "Watch", "Sample depth and source coverage label."],
+  };
+  const [title, value, note] = map[key] || map.rank;
+  return {
+    eyebrow: eventName(),
+    title,
+    value,
+    note,
+    body: [
+      model.plain_english,
+      "This player-card headline uses only the winner market. Cut, top-10, and top-20 probabilities stay out of the win slot unless they are explicitly labeled.",
+    ],
+    evidence: [
+      { label: "Market", value: model.market || "winner", note: "selected model row" },
+      { label: "Rank", value: model.rank ? `#${fmt(model.rank)}` : "--", note: "event board" },
+      { label: "Probability", value: probability !== null ? pct(probability * 100, 1) : "--", note: "winner market" },
+      { label: "Fair odds", value: moneyOdds(model.fair_odds_american), note: "model price" },
+      { label: "Edge", value: edge !== null ? `${signed(edge * 100, 1)} pts` : "--", note: "vs market" },
+      { label: "Confidence", value: model.confidence || "Watch", note: "coverage label" },
+    ],
+  };
+}
+
+function statDrill(key) {
+  const stats = scorecardStats(activeProfile || {});
+  const stat = stats.find((item) => item.key === key) || stats[0];
+  const explanation = activeDetail?.gradeExplanations?.[stat.key] || {};
+  const recent = activeDetail?.recentVsBaseline || {};
+  const seasons = (activeDetail?.seasons?.rows || []).slice(0, 5);
+  return {
+    eyebrow: "Player scorecard",
+    title: explanation.label || stat.label,
+    value: stat.formatter(stat.value),
+    note: explanation.headline || stat.note,
+    body: [
+      explanation.body || "This lane is built from the loaded player profile and will sharpen as more source rows are added.",
+      explanation.source ? `Source lane: ${explanation.source}.` : "",
+    ],
+    evidence: [
+      { label: "Profile window", value: activeProfile?.seasonLabel || "Latest profile", note: activeProfile?.profileSeasons || "career blend" },
+      { label: "Round sample", value: fmt(activeProfile?.rounds), note: "imported scorecards" },
+      { label: "Recent SG", value: signed(recent.recent_sg), note: `last ${fmt(recent.recent_rounds)} rounds` },
+      { label: "Baseline SG", value: signed(recent.baseline_sg), note: "full sample" },
+      ...seasons.map((row) => ({
+        label: `${row.season}`,
+        value: valueForStatKey(row, stat),
+        note: `${fmt(row.rounds)} rounds`,
+      })),
+    ],
+  };
+}
+
+function snapshotDrill(key) {
+  const detail = activeDetail || {};
+  const profile = activeProfile || {};
+  const trend = detail.recentVsBaseline || {};
+  const major = detail.majorProfile?.summary || {};
+  const best = detail.bestCourses?.rows?.[0] || {};
+  const trust = trustProfile(detail, profile);
+  const edge = profileEdge(profile);
+  const payloads = {
+    recent: {
+      title: "Recent form",
+      value: trend.trend_label || "Trend pending",
+      note: `${signed(trend.recent_sg)} recent SG vs ${signed(trend.baseline_sg)} baseline`,
+      body: ["Recent form compares the most recent loaded rounds against the player baseline, so it is a form signal rather than a career grade."],
+      evidence: [
+        { label: "Recent rounds", value: fmt(trend.recent_rounds), note: "loaded sample" },
+        { label: "Recent SG", value: signed(trend.recent_sg), note: "latest window" },
+        { label: "Baseline SG", value: signed(trend.baseline_sg), note: "full sample" },
+        { label: "Delta", value: signed(trend.sg_delta), note: "recent minus baseline" },
+      ],
+    },
+    edge: {
+      title: edge.label,
+      value: edge.value,
+      note: edge.note,
+      body: ["The skill edge is the strongest loaded lane after normalizing SG, distance, and GIR into comparable signals."],
+      evidence: scorecardStats(profile).slice(0, 10).map((stat) => ({ label: stat.label, value: stat.formatter(stat.value), note: stat.note })),
+    },
+    major: {
+      title: "Major profile",
+      value: major.rounds ? signed(major.avg_to_par) : "--",
+      note: major.rounds ? `${fmt(major.rounds)} major rounds | ${signed(major.avg_sg)} SG` : "major sample pending",
+      body: [major.body || "Major form uses loaded Masters, PGA Championship, U.S. Open, and Open Championship scorecards."],
+      evidence: (detail.majorProfile?.rows || []).map((row) => ({ label: row.major, value: signed(row.avg_to_par), note: `${fmt(row.rounds)} rounds | ${signed(row.avg_sg)} SG` })),
+    },
+    tough: {
+      title: "Tough-course profile",
+      value: detail.courseDna?.toughRounds ? signed(detail.courseDna.toughAvgToPar) : "--",
+      note: detail.courseDna?.toughRounds ? `${fmt(detail.courseDna.toughRounds)} tough rounds` : "difficulty sample pending",
+      body: [detail.courseDna?.body || "Course DNA separates brutal, tough, balanced, and gettable setups when course difficulty metadata is loaded."],
+      evidence: (detail.difficultySplits?.rows || []).map((row) => ({ label: row.bucket, value: signed(row.avg_to_par), note: `${fmt(row.rounds)} rounds | ${signed(row.avg_sg)} SG` })),
+    },
+    best: {
+      title: "Best loaded course",
+      value: best.course || "--",
+      note: best.course ? `${signed(best.avg_to_par)} average | ${fmt(best.rounds)} rounds` : "repeat-course history pending",
+      body: ["Best and worst courses are repeat-course scorecard receipts. They should be read as loaded-history signals, not permanent course labels."],
+      evidence: (detail.bestCourses?.rows || []).slice(0, 6).map((row) => ({ label: row.course, value: signed(row.avg_to_par), note: `${fmt(row.rounds)} rounds | ${signed(row.avg_sg)} SG` })),
+    },
+    trust: {
+      title: "Data trust",
+      value: trust.label,
+      note: trust.note,
+      body: ["The trust label checks scorecards, rich stat seasons, distance, GIR, scoring, major history, and tough-course sample depth."],
+      evidence: [
+        { label: "Round scorecards", value: detail.coverage?.hasRoundScorecards ? "Loaded" : "Watch", note: `${fmt(detail.player?.rounds)} tracked rounds` },
+        { label: "Rich seasons", value: fmt(profile.richSeasonCount), note: profile.profileSeasons || "recent stat seasons" },
+        { label: "GIR", value: detail.coverage?.hasGir ? "Loaded" : "Watch", note: pctDecimal(profile.gir) },
+        { label: "Distance", value: detail.coverage?.hasDrivingDistance ? "Loaded" : "Watch", note: profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--" },
+        { label: "Major sample", value: fmt(major.rounds), note: "loaded major rounds" },
+      ],
+    },
+  };
+  return { eyebrow: "Snapshot", ...(payloads[key] || payloads.recent) };
+}
+
+function splitDrill(index) {
+  const row = (activeDetail?.difficultySplits?.rows || [])[index] || {};
+  return {
+    eyebrow: "Course DNA",
+    title: `${row.bucket || "Course"} setup`,
+    value: signed(row.avg_to_par),
+    note: `${fmt(row.rounds)} rounds | ${signed(row.avg_sg)} SG`,
+    body: ["This bucket groups loaded rounds by course difficulty so the card can separate tough-course grinders from players who feast on easier setups."],
+    evidence: [
+      { label: "Rounds", value: fmt(row.rounds), note: "bucket sample" },
+      { label: "Average to par", value: signed(row.avg_to_par), note: "scoring result" },
+      { label: "Average SG", value: signed(row.avg_sg), note: "field-adjusted lane" },
+      { label: "Par or better", value: pctDecimal(row.par_or_better_rate), note: "round rate" },
+    ],
+  };
+}
+
+function seasonDrill(index) {
+  const row = (activeDetail?.seasons?.rows || [])[index] || {};
+  return {
+    eyebrow: "Season profile",
+    title: `${row.season || "Season"} form`,
+    value: row.avg_sg_total !== null ? signed(row.avg_sg_total) : signed(row.avg_to_par),
+    note: `${fmt(row.rounds)} rounds | ${fmt(row.scoring_rounds)} trusted scoring rounds`,
+    body: ["Season rows blend loaded scorecards with public PGA stat lanes when available."],
+    evidence: [
+      { label: "Scoring average", value: row.scoring_average ? fmt(row.scoring_average, 2) : "--", note: "stroke-play only" },
+      { label: "SG total", value: signed(row.avg_sg_total), note: "season profile" },
+      { label: "Distance", value: row.driving_distance ? `${fmt(row.driving_distance, 1)} yd` : "--", note: "public stat lane" },
+      { label: "Fairways", value: pctDecimal(row.accuracy), note: "accuracy" },
+      { label: "GIR", value: pctDecimal(row.gir), note: "greens in regulation" },
+      { label: "Scrambling", value: pctDecimal(row.scrambling), note: "miss recovery" },
+    ],
+  };
+}
+
+function courseDrill(source, index) {
+  const rows = activeDetail?.[source]?.rows || [];
+  const row = rows[index] || {};
+  return {
+    eyebrow: source === "worstCourses" ? "Stress point" : "Course fit",
+    title: row.course || "Course",
+    value: signed(row.avg_to_par),
+    note: `${fmt(row.rounds)} rounds | ${signed(row.avg_sg)} SG`,
+    body: ["This is a repeat-course scorecard receipt. It is useful for fit context, but it should be weighted by sample size."],
+    evidence: [
+      { label: "Rounds", value: fmt(row.rounds), note: "loaded at course" },
+      { label: "Average to par", value: signed(row.avg_to_par), note: "course history" },
+      { label: "Average SG", value: signed(row.avg_sg), note: "field-adjusted estimate" },
+    ],
+  };
+}
+
+function majorDrill(index) {
+  const row = (activeDetail?.majorProfile?.rows || [])[index] || {};
+  return {
+    eyebrow: "Major profile",
+    title: row.major || "Major",
+    value: signed(row.avg_to_par),
+    note: `${fmt(row.rounds)} rounds | ${fmt(row.events)} events | ${signed(row.avg_sg)} SG`,
+    body: ["Major buckets isolate championship-course performance so the model read does not overlean on regular PGA setups."],
+    evidence: [
+      { label: "Rounds", value: fmt(row.rounds), note: "loaded major rounds" },
+      { label: "Events", value: fmt(row.events), note: "starts represented" },
+      { label: "Average to par", value: signed(row.avg_to_par), note: "scoring result" },
+      { label: "Average SG", value: signed(row.avg_sg), note: "field-adjusted lane" },
+    ],
+  };
+}
+
+function roundDrill(index) {
+  const row = (activeDetail?.rounds?.rows || [])[index] || {};
+  return {
+    eyebrow: "Round scorecard",
+    title: row.event_name || "Round",
+    value: roundScoreLabel(row),
+    note: `${row.course || "Course"} | Round ${row.round_number || "--"}`,
+    body: ["A single-round receipt is the rawest layer in the card. It feeds scoring average, recent form, course history, and course-difficulty splits."],
+    evidence: [
+      { label: "Date", value: row.round_date || "--", note: "round date" },
+      { label: "Course", value: row.course || "--", note: row.event_name || "" },
+      { label: "Round", value: row.round_number || "--", note: "tournament round" },
+      { label: "Score", value: roundScoreLabel(row), note: "raw card" },
+      { label: "To par", value: signed(row.to_par, 0), note: "round result" },
+      { label: "SG total", value: signed(row.sg_total), note: "loaded estimate" },
+    ],
+  };
+}
+
+function receiptDrill(key) {
+  const coverage = activeDetail?.coverage || {};
+  const latest = summary?.latestFetch || {};
+  return {
+    eyebrow: "Data receipt",
+    title: key || "Coverage",
+    value: key === "Latest source touch" ? (latest.provider || "source pending") : key === "Honest limitation" ? "Caveat" : "Coverage lane",
+    note: key === "Latest source touch" ? [latest.endpoint, latest.fetched_at].filter(Boolean).join(" | ") : "Loaded means usable evidence exists in the local Golf Lab export.",
+    body: [
+      key === "Honest limitation"
+        ? "Distance, GIR, fairway, and scrambling are strongest in recent public PGA stat seasons. Blank fields are missing data, not zero performance."
+        : "Coverage receipts explain whether the visible scorecard number is backed by scorecards, public stat lanes, model rows, or source metadata.",
+    ],
+    evidence: [
+      { label: "Scorecards", value: coverage.hasRoundScorecards ? "Loaded" : "Watch", note: `${fmt(activeDetail?.player?.rounds)} tracked rounds` },
+      { label: "Trusted scoring", value: coverage.hasTrustedScoring ? "Loaded" : "Watch", note: `${fmt(activeDetail?.player?.scoring_rounds)} stroke-play rounds` },
+      { label: "Strokes gained", value: coverage.hasStrokesGained ? "Loaded" : "Watch", note: "model baseline" },
+      { label: "Distance", value: coverage.hasDrivingDistance ? "Loaded" : "Watch", note: "public stat lane" },
+      { label: "GIR", value: coverage.hasGir ? "Loaded" : "Watch", note: "public stat lane" },
+      { label: "Latest touch", value: latest.provider || "--", note: latest.fetched_at || "" },
+    ],
+  };
+}
+
+function explainDrill(element) {
+  const title = element?.querySelector("strong")?.textContent || "Model read";
+  const text = element?.querySelector("span")?.textContent || "";
+  return {
+    eyebrow: "Plain-English reasoning",
+    title,
+    value: "Why it matters",
+    note: "Golf Lab turns the raw model and scorecard layers into a human-readable read.",
+    body: [text],
+    evidence: [
+      { label: "Player", value: activeDetail?.player?.player_name || "--", note: activeProfile?.seasonLabel || "" },
+      { label: "Model market", value: activeDetail?.model?.market || "winner", note: eventName() },
+      { label: "Profile SG", value: signed(activeProfile?.avg_sg_total), note: "rich profile" },
+      { label: "Scorecards", value: fmt(activeDetail?.player?.rounds), note: "loaded rounds" },
+    ],
+  };
+}
+
+function openDrilldownFromElement(element) {
+  const type = element.dataset.drill;
+  const key = element.dataset.drillKey;
+  const index = Number(element.dataset.index);
+  const source = element.dataset.source;
+  const payload = {
+    projection: () => projectionDrill(key),
+    stat: () => statDrill(key),
+    snapshot: () => snapshotDrill(key),
+    split: () => splitDrill(index),
+    season: () => seasonDrill(index),
+    course: () => courseDrill(source, index),
+    major: () => majorDrill(index),
+    round: () => roundDrill(index),
+    receipt: () => receiptDrill(key),
+    explain: () => explainDrill(element),
+  }[type]?.();
+  openDrilldown(payload);
+}
+
+function renderSectionView() {
+  const views = {
+    overview: ["projection", "scorecard", "grade-details"],
+    scorecard: ["scorecard", "grade-details", "seasons"],
+    course: ["course-dna", "courses", "course-stress", "majors"],
+    rounds: ["rounds"],
+    data: ["receipts"],
+    all: ["projection", "scorecard", "grade-details", "course-dna", "seasons", "courses", "course-stress", "majors", "rounds", "receipts"],
+  };
+  const active = new Set(views[activeView] || views.overview);
+  $$("#pcSectionNav [data-player-view]").forEach((button) => {
+    const selected = button.dataset.playerView === activeView;
+    button.classList.toggle("is-active", selected);
+    button.setAttribute("aria-pressed", selected ? "true" : "false");
+  });
+  $$(".pc-grid > section").forEach((section) => {
+    section.hidden = !active.has(section.id);
+  });
 }
 
 function renderPlayer(detail) {
@@ -653,11 +1005,12 @@ function renderPlayer(detail) {
   renderScorecard(profile, detail);
   renderDifficultySplits(detail);
   renderSeasons(detail);
-  renderCourseLens("#bestCourses", detail.bestCourses?.rows || [], "Need more repeat-course history.");
-  renderCourseLens("#worstCourses", detail.worstCourses?.rows || [], "Need more repeat-course history.");
+  renderCourseLens("#bestCourses", detail.bestCourses?.rows || [], "Need more repeat-course history.", "bestCourses");
+  renderCourseLens("#worstCourses", detail.worstCourses?.rows || [], "Need more repeat-course history.", "worstCourses");
   renderMajorProfile(detail);
   renderRounds(detail);
   renderReceipts(detail);
+  renderSectionView();
 }
 
 async function loadPlayer(playerId, push = true) {
@@ -755,7 +1108,15 @@ function bindEvents() {
     else showStatus("No matching player in the current Golf Lab export.");
     $("#typeahead").hidden = true;
   });
+  $("#drillClose").addEventListener("click", closeDrilldown);
+  $("#drillOverlay").addEventListener("click", closeDrilldown);
   document.addEventListener("click", (event) => {
+    const view = event.target.closest("[data-player-view]");
+    if (view) {
+      activeView = view.dataset.playerView || "overview";
+      renderSectionView();
+      return;
+    }
     const pick = event.target.closest("[data-pick-player]");
     if (pick) {
       loadPlayer(pick.dataset.pickPlayer);
@@ -766,9 +1127,23 @@ function bindEvents() {
     if (grade && activeDetail && activeProfile) {
       activeGradeKey = grade.dataset.gradeKey;
       renderScorecard(activeProfile, activeDetail);
+      openDrilldownFromElement(grade);
+      return;
+    }
+    const drill = event.target.closest("[data-drill]");
+    if (drill && activeDetail && activeProfile) {
+      openDrilldownFromElement(drill);
       return;
     }
     if (!event.target.closest(".player-search-box")) $("#typeahead").hidden = true;
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !$("#drillDrawer").hidden) closeDrilldown();
+    const row = event.target.closest?.("[data-drill='round']");
+    if (row && (event.key === "Enter" || event.key === " ")) {
+      event.preventDefault();
+      openDrilldownFromElement(row);
+    }
   });
   window.addEventListener("popstate", () => {
     const requested = findRequestedPlayer();

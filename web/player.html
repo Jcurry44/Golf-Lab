@@ -7,8 +7,8 @@
     <meta name="description" content="Golf Lab player intelligence cards with model projection, scorecard history, course fit, skill profile, and source coverage.">
     <meta property="og:title" content="Player Cards - Golf Lab">
     <meta property="og:description" content="Premium professional golf scorecards: model projection, course fit, scorecard history, skill profile, and source coverage.">
-    <link rel="stylesheet" href="./styles.css?v=20260621-winner-market">
-    <script src="./player.js?v=20260621-winner-market" defer></script>
+    <link rel="stylesheet" href="./styles.css?v=20260621-drilldowns">
+    <script src="./player.js?v=20260621-drilldowns" defer></script>
   </head>
   <body class="player-page">
     <main class="player-shell">
@@ -61,14 +61,12 @@
         <div id="pcExplain" class="pc-explain"></div>
 
         <nav id="pcSectionNav" class="pc-secnav" aria-label="Player card sections">
-          <a href="#projection">Projection</a>
-          <a href="#scorecard">Scorecard</a>
-          <a href="#course-dna">Course DNA</a>
-          <a href="#seasons">Seasons</a>
-          <a href="#courses">Courses</a>
-          <a href="#majors">Majors</a>
-          <a href="#rounds">Rounds</a>
-          <a href="#receipts">Receipts</a>
+          <button type="button" class="is-active" data-player-view="overview" aria-pressed="true">Overview</button>
+          <button type="button" data-player-view="scorecard" aria-pressed="false">Scorecard</button>
+          <button type="button" data-player-view="course" aria-pressed="false">Course Fit</button>
+          <button type="button" data-player-view="rounds" aria-pressed="false">Rounds</button>
+          <button type="button" data-player-view="data" aria-pressed="false">Data</button>
+          <button type="button" data-player-view="all" aria-pressed="false">All</button>
         </nav>
 
         <div class="pc-grid">
@@ -131,7 +129,7 @@
             <div id="bestCourses" class="course-lens"></div>
           </section>
 
-          <section class="intel-panel">
+          <section class="intel-panel" id="course-stress">
             <div class="panel-heading">
               <div>
                 <p class="eyebrow">Stress points</p>
@@ -173,6 +171,20 @@
             <div id="receiptGrid" class="receipt-grid"></div>
           </section>
         </div>
+
+        <div id="drillOverlay" class="drill-overlay" hidden></div>
+        <aside id="drillDrawer" class="drill-drawer" aria-labelledby="drillTitle" aria-modal="true" role="dialog" hidden>
+          <header>
+            <div>
+              <p class="eyebrow" id="drillEyebrow">Receipt</p>
+              <h3 id="drillTitle">Stat detail</h3>
+            </div>
+            <button type="button" id="drillClose" aria-label="Close detail">Close</button>
+          </header>
+          <div id="drillLead" class="drill-lead"></div>
+          <div id="drillBody" class="drill-body"></div>
+          <div id="drillEvidence" class="drill-evidence"></div>
+        </aside>
       </section>
     </main>
   </body>
