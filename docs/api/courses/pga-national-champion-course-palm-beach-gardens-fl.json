@@ -133,5 +133,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 122,
+    "summary": "This course has most rewarded green finders: top-quartile GIR profiles beat the bottom quartile by 1.44 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.26,
+        "bottom_quartile_avg_to_par": 1.18,
+        "edge_to_par": 1.44,
+        "edge_label": "rewards",
+        "top_names": [
+          "Austin Smotherman",
+          "William Mouw",
+          "Keith Mitchell"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.57,
+        "bottom_quartile_avg_to_par": 0.76,
+        "edge_to_par": 1.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Austin Smotherman",
+          "Shane Lowry",
+          "Nicolai Højgaard"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.05,
+        "bottom_quartile_avg_to_par": 0.92,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Taylor Moore",
+          "Max Homa",
+          "A.J. Ewart"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.26,
+        "bottom_quartile_avg_to_par": 1.18,
+        "edge_to_par": 1.44,
+        "edge_label": "rewards",
+        "top_names": [
+          "Austin Smotherman",
+          "William Mouw",
+          "Keith Mitchell"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.57,
+        "bottom_quartile_avg_to_par": 0.76,
+        "edge_to_par": 1.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Austin Smotherman",
+          "Shane Lowry",
+          "Nicolai Højgaard"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.05,
+        "bottom_quartile_avg_to_par": 0.92,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Taylor Moore",
+          "Max Homa",
+          "A.J. Ewart"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.25,
+        "bottom_quartile_avg_to_par": 0.62,
+        "edge_to_par": 0.87,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ricky Castillo",
+          "Max Homa",
+          "A.J. Ewart"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.4,
+        "bottom_quartile_avg_to_par": 0.4,
+        "edge_to_par": 0.8,
+        "edge_label": "rewards",
+        "top_names": [
+          "Taylor Moore",
+          "Ricky Castillo",
+          "William Mouw"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": 0.09,
+        "bottom_quartile_avg_to_par": 0.29,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Shane Lowry",
+          "Austin Smotherman",
+          "Joel Dahmen"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.07,
+        "bottom_quartile_avg_to_par": 0.0,
+        "edge_to_par": 0.07,
+        "edge_label": "neutral",
+        "top_names": [
+          "Taylor Moore",
+          "Ricky Castillo",
+          "Patton Kizzire"
+        ]
+      }
+    ]
   }
 }

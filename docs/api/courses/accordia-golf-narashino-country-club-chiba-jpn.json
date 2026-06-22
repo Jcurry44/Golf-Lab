@@ -173,5 +173,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 178,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.13 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.97,
+        "bottom_quartile_avg_to_par": 0.16,
+        "edge_to_par": 1.13,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Eric Cole",
+          "Si Woo Kim"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.81,
+        "bottom_quartile_avg_to_par": 0.09,
+        "edge_to_par": 0.9,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Max Greyserman",
+          "Jhonattan Vegas"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.66,
+        "bottom_quartile_avg_to_par": 0.18,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Eric Cole",
+          "Si Woo Kim",
+          "Ben Griffin"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.97,
+        "bottom_quartile_avg_to_par": 0.16,
+        "edge_to_par": 1.13,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Eric Cole",
+          "Si Woo Kim"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.81,
+        "bottom_quartile_avg_to_par": 0.09,
+        "edge_to_par": 0.9,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Max Greyserman",
+          "Jhonattan Vegas"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.66,
+        "bottom_quartile_avg_to_par": 0.18,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Eric Cole",
+          "Si Woo Kim",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.57,
+        "bottom_quartile_avg_to_par": 0.01,
+        "edge_to_par": 0.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Si Woo Kim",
+          "Rico Hoey",
+          "Collin Morikawa"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.78,
+        "bottom_quartile_avg_to_par": -0.25,
+        "edge_to_par": 0.53,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Si Woo Kim",
+          "Eric Cole"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.42,
+        "bottom_quartile_avg_to_par": -0.06,
+        "edge_to_par": 0.36,
+        "edge_label": "rewards",
+        "top_names": [
+          "J.J. Spaun",
+          "Rico Hoey",
+          "Collin Morikawa"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 115,
+        "top_quartile_avg_to_par": -0.49,
+        "bottom_quartile_avg_to_par": -0.28,
+        "edge_to_par": 0.22,
+        "edge_label": "rewards",
+        "top_names": [
+          "Max Greyserman",
+          "Eric Cole",
+          "Ben Griffin"
+        ]
+      }
+    ]
   }
 }

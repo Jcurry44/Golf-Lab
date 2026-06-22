@@ -173,5 +173,124 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 400,
+    "summary": "No single stat lane dominates yet. The strongest loaded split is Accuracy at -0.42 strokes per round.",
+    "primary_traits": [],
+    "traits": [
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 4.51,
+        "bottom_quartile_avg_to_par": 4.1,
+        "edge_to_par": -0.42,
+        "edge_label": "resists",
+        "top_names": [
+          "Kramer Hickok",
+          "Brian Stuard",
+          "Adam Svensson"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.0,
+        "bottom_quartile_avg_to_par": 4.52,
+        "edge_to_par": -0.48,
+        "edge_label": "resists",
+        "top_names": [
+          "Kramer Hickok",
+          "Adam Svensson",
+          "Ryan Moore"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.4,
+        "bottom_quartile_avg_to_par": 4.7,
+        "edge_to_par": -0.7,
+        "edge_label": "resists",
+        "top_names": [
+          "Brian Stuard",
+          "Adam Svensson",
+          "Aaron Baddeley"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.49,
+        "bottom_quartile_avg_to_par": 4.61,
+        "edge_to_par": -0.88,
+        "edge_label": "resists",
+        "top_names": [
+          "Brian Stuard",
+          "Raul Pereda",
+          "Aaron Baddeley"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.47,
+        "bottom_quartile_avg_to_par": 4.05,
+        "edge_to_par": -1.42,
+        "edge_label": "resists",
+        "top_names": [
+          "Marco Penge",
+          "Tim Widing",
+          "Keith Mitchell"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.42,
+        "bottom_quartile_avg_to_par": 3.54,
+        "edge_to_par": -1.88,
+        "edge_label": "resists",
+        "top_names": [
+          "Ryan Moore",
+          "Keith Mitchell",
+          "Brice Garnett"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 180,
+        "top_quartile_avg_to_par": 5.82,
+        "bottom_quartile_avg_to_par": 3.65,
+        "edge_to_par": -2.17,
+        "edge_label": "resists",
+        "top_names": [
+          "Adam Svensson",
+          "Ryan Moore",
+          "Keith Mitchell"
+        ]
+      }
+    ]
   }
 }

@@ -163,5 +163,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 349,
+    "summary": "This course has most rewarded green finders: top-quartile GIR profiles beat the bottom quartile by 1.28 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.74,
+        "bottom_quartile_avg_to_par": -1.45,
+        "edge_to_par": 1.28,
+        "edge_label": "rewards",
+        "top_names": [
+          "Pierceson Coody",
+          "Rico Hoey",
+          "Matt NeSmith"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.77,
+        "bottom_quartile_avg_to_par": -1.67,
+        "edge_to_par": 1.1,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Rico Hoey",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.61,
+        "bottom_quartile_avg_to_par": -1.75,
+        "edge_to_par": 0.86,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rico Hoey",
+          "Zac Blair",
+          "Neal Shipley"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.74,
+        "bottom_quartile_avg_to_par": -1.45,
+        "edge_to_par": 1.28,
+        "edge_label": "rewards",
+        "top_names": [
+          "Pierceson Coody",
+          "Rico Hoey",
+          "Matt NeSmith"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.77,
+        "bottom_quartile_avg_to_par": -1.67,
+        "edge_to_par": 1.1,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Rico Hoey",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.61,
+        "bottom_quartile_avg_to_par": -1.75,
+        "edge_to_par": 0.86,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rico Hoey",
+          "Zac Blair",
+          "Neal Shipley"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.75,
+        "bottom_quartile_avg_to_par": -2.33,
+        "edge_to_par": 0.42,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Harry Hall",
+          "Brandon Wu"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.47,
+        "bottom_quartile_avg_to_par": -2.14,
+        "edge_to_par": 0.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Pierceson Coody",
+          "Harry Hall",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.32,
+        "bottom_quartile_avg_to_par": -2.39,
+        "edge_to_par": -0.06,
+        "edge_label": "neutral",
+        "top_names": [
+          "Trey Mullinax",
+          "Rico Hoey",
+          "Vincent Norrman"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 132,
+        "top_quartile_avg_to_par": -2.22,
+        "bottom_quartile_avg_to_par": -2.54,
+        "edge_to_par": -0.32,
+        "edge_label": "resists",
+        "top_names": [
+          "Harry Hall",
+          "Chan Kim",
+          "Mac Meissner"
+        ]
+      }
+    ]
   }
 }

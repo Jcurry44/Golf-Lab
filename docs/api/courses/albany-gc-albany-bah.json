@@ -203,5 +203,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 49,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 2.12 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -3.41,
+        "bottom_quartile_avg_to_par": -1.29,
+        "edge_to_par": 2.12,
+        "edge_label": "rewards",
+        "top_names": [
+          "Hideki Matsuyama",
+          "Scottie Scheffler",
+          "J.J. Spaun"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.73,
+        "bottom_quartile_avg_to_par": -0.9,
+        "edge_to_par": 1.83,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "J.J. Spaun",
+          "Corey Conners"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.99,
+        "bottom_quartile_avg_to_par": -1.3,
+        "edge_to_par": 1.69,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Hideki Matsuyama",
+          "Scottie Scheffler"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -3.41,
+        "bottom_quartile_avg_to_par": -1.29,
+        "edge_to_par": 2.12,
+        "edge_label": "rewards",
+        "top_names": [
+          "Hideki Matsuyama",
+          "Scottie Scheffler",
+          "J.J. Spaun"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.73,
+        "bottom_quartile_avg_to_par": -0.9,
+        "edge_to_par": 1.83,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "J.J. Spaun",
+          "Corey Conners"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.99,
+        "bottom_quartile_avg_to_par": -1.3,
+        "edge_to_par": 1.69,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Hideki Matsuyama",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -3.24,
+        "bottom_quartile_avg_to_par": -1.65,
+        "edge_to_par": 1.6,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Hideki Matsuyama",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.71,
+        "bottom_quartile_avg_to_par": -2.23,
+        "edge_to_par": 0.48,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Tom Kim",
+          "Corey Conners"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.32,
+        "bottom_quartile_avg_to_par": -2.12,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Justin Thomas",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 43,
+        "top_quartile_avg_to_par": -2.51,
+        "bottom_quartile_avg_to_par": -2.46,
+        "edge_to_par": 0.05,
+        "edge_label": "neutral",
+        "top_names": [
+          "Alex Noren",
+          "Matt Fitzpatrick",
+          "Harris English"
+        ]
+      }
+    ]
   }
 }

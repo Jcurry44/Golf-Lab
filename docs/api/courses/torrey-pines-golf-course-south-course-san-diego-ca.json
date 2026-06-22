@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 889,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.15 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": -0.11,
+        "bottom_quartile_avg_to_par": 1.04,
+        "edge_to_par": 1.15,
+        "edge_label": "rewards",
+        "top_names": [
+          "Haotong Li",
+          "Nicolai Højgaard",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": -0.06,
+        "bottom_quartile_avg_to_par": 0.82,
+        "edge_to_par": 0.89,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Scottie Scheffler",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": 0.05,
+        "bottom_quartile_avg_to_par": 0.75,
+        "edge_to_par": 0.7,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Tommy Fleetwood",
+          "Xander Schauffele"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": -0.11,
+        "bottom_quartile_avg_to_par": 1.04,
+        "edge_to_par": 1.15,
+        "edge_label": "rewards",
+        "top_names": [
+          "Haotong Li",
+          "Nicolai Højgaard",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": -0.06,
+        "bottom_quartile_avg_to_par": 0.82,
+        "edge_to_par": 0.89,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Scottie Scheffler",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": 0.05,
+        "bottom_quartile_avg_to_par": 0.75,
+        "edge_to_par": 0.7,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Tommy Fleetwood",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": 0.05,
+        "bottom_quartile_avg_to_par": 0.75,
+        "edge_to_par": 0.69,
+        "edge_label": "rewards",
+        "top_names": [
+          "Haotong Li",
+          "Nicolai Højgaard",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": 0.19,
+        "bottom_quartile_avg_to_par": 0.86,
+        "edge_to_par": 0.67,
+        "edge_label": "rewards",
+        "top_names": [
+          "Haotong Li",
+          "Jon Rahm",
+          "Keith Mitchell"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": -0.02,
+        "bottom_quartile_avg_to_par": 0.57,
+        "edge_to_par": 0.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Tommy Fleetwood",
+          "Andrew Novak"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 285,
+        "top_quartile_avg_to_par": 0.7,
+        "bottom_quartile_avg_to_par": 0.4,
+        "edge_to_par": -0.29,
+        "edge_label": "resists",
+        "top_names": [
+          "Scottie Scheffler",
+          "Tom Whitney",
+          "Tommy Fleetwood"
+        ]
+      }
+    ]
   }
 }

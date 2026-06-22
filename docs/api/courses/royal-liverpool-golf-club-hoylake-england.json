@@ -143,5 +143,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 215,
+    "summary": "This course has most rewarded putters: top-quartile putting profiles beat the bottom quartile by 1.93 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 0.75,
+        "bottom_quartile_avg_to_par": 2.68,
+        "edge_to_par": 1.93,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jason Day",
+          "Jon Rahm",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 0.47,
+        "bottom_quartile_avg_to_par": 2.03,
+        "edge_to_par": 1.57,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Jon Rahm",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 1.15,
+        "bottom_quartile_avg_to_par": 2.67,
+        "edge_to_par": 1.52,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Rory McIlroy",
+          "Byeong Hun An"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 0.75,
+        "bottom_quartile_avg_to_par": 2.68,
+        "edge_to_par": 1.93,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jason Day",
+          "Jon Rahm",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 0.47,
+        "bottom_quartile_avg_to_par": 2.03,
+        "edge_to_par": 1.57,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Jon Rahm",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 1.15,
+        "bottom_quartile_avg_to_par": 2.67,
+        "edge_to_par": 1.52,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Rory McIlroy",
+          "Byeong Hun An"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 1.37,
+        "bottom_quartile_avg_to_par": 2.32,
+        "edge_to_par": 0.95,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Jon Rahm",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 1.05,
+        "bottom_quartile_avg_to_par": 1.73,
+        "edge_to_par": 0.68,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jason Day",
+          "Rory McIlroy",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 2.07,
+        "bottom_quartile_avg_to_par": 1.85,
+        "edge_to_par": -0.22,
+        "edge_label": "resists",
+        "top_names": [
+          "Sepp Straka",
+          "Tommy Fleetwood",
+          "Viktor Hovland"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 61,
+        "top_quartile_avg_to_par": 1.83,
+        "bottom_quartile_avg_to_par": 1.4,
+        "edge_to_par": -0.43,
+        "edge_label": "resists",
+        "top_names": [
+          "Jason Day",
+          "Tommy Fleetwood",
+          "Alex Noren"
+        ]
+      }
+    ]
   }
 }

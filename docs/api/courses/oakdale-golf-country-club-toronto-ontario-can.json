@@ -133,5 +133,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 130,
+    "summary": "This course has most rewarded scramblers: top-quartile scrambling profiles beat the bottom quartile by 1.98 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.74,
+        "bottom_quartile_avg_to_par": 1.24,
+        "edge_to_par": 1.98,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Tyrrell Hatton",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.62,
+        "bottom_quartile_avg_to_par": 1.09,
+        "edge_to_par": 1.71,
+        "edge_label": "rewards",
+        "top_names": [
+          "C.T. Pan",
+          "Nate Lashley",
+          "Will Gordon"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.58,
+        "bottom_quartile_avg_to_par": 0.99,
+        "edge_to_par": 1.57,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Tyrrell Hatton",
+          "Rory McIlroy"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.74,
+        "bottom_quartile_avg_to_par": 1.24,
+        "edge_to_par": 1.98,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Tyrrell Hatton",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.62,
+        "bottom_quartile_avg_to_par": 1.09,
+        "edge_to_par": 1.71,
+        "edge_label": "rewards",
+        "top_names": [
+          "C.T. Pan",
+          "Nate Lashley",
+          "Will Gordon"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.58,
+        "bottom_quartile_avg_to_par": 0.99,
+        "edge_to_par": 1.57,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Tyrrell Hatton",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -1.05,
+        "bottom_quartile_avg_to_par": 0.43,
+        "edge_to_par": 1.49,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "C.T. Pan",
+          "Tyrrell Hatton"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -0.39,
+        "bottom_quartile_avg_to_par": 0.4,
+        "edge_to_par": 0.79,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Tyrrell Hatton",
+          "C.T. Pan"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": 0.48,
+        "bottom_quartile_avg_to_par": 1.05,
+        "edge_to_par": 0.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Matt Kuchar",
+          "Chez Reavie"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": 0.3,
+        "bottom_quartile_avg_to_par": 0.51,
+        "edge_to_par": 0.21,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Rory McIlroy",
+          "Carl Yuan"
+        ]
+      }
+    ]
   }
 }

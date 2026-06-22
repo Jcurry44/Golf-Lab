@@ -153,5 +153,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 212,
+    "summary": "This course has most rewarded short-game players: top-quartile around the green profiles beat the bottom quartile by 1.59 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 0.74,
+        "bottom_quartile_avg_to_par": 2.33,
+        "edge_to_par": 1.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Rory McIlroy",
+          "Matt Fitzpatrick"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.02,
+        "bottom_quartile_avg_to_par": 2.6,
+        "edge_to_par": 1.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Aaron Rai",
+          "Jon Rahm",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.2,
+        "bottom_quartile_avg_to_par": 2.25,
+        "edge_to_par": 1.05,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Xander Schauffele",
+          "Matt Fitzpatrick"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 0.74,
+        "bottom_quartile_avg_to_par": 2.33,
+        "edge_to_par": 1.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Rory McIlroy",
+          "Matt Fitzpatrick"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.02,
+        "bottom_quartile_avg_to_par": 2.6,
+        "edge_to_par": 1.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Aaron Rai",
+          "Jon Rahm",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.2,
+        "bottom_quartile_avg_to_par": 2.25,
+        "edge_to_par": 1.05,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Xander Schauffele",
+          "Matt Fitzpatrick"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.21,
+        "bottom_quartile_avg_to_par": 2.15,
+        "edge_to_par": 0.94,
+        "edge_label": "rewards",
+        "top_names": [
+          "Aaron Rai",
+          "Alex Smalley",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.5,
+        "bottom_quartile_avg_to_par": 2.14,
+        "edge_to_par": 0.64,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Xander Schauffele",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.43,
+        "bottom_quartile_avg_to_par": 1.97,
+        "edge_to_par": 0.55,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Matti Schmid",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 109,
+        "top_quartile_avg_to_par": 1.95,
+        "bottom_quartile_avg_to_par": 1.48,
+        "edge_to_par": -0.47,
+        "edge_label": "resists",
+        "top_names": [
+          "Aaron Rai",
+          "Scottie Scheffler",
+          "Harris English"
+        ]
+      }
+    ]
   }
 }

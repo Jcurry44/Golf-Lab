@@ -143,5 +143,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 157,
+    "summary": "This course has most rewarded short-game players: top-quartile around the green profiles beat the bottom quartile by 0.96 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 2.46,
+        "bottom_quartile_avg_to_par": 3.42,
+        "edge_to_par": 0.96,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Webb Simpson",
+          "Brooks Koepka"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.28,
+        "bottom_quartile_avg_to_par": 3.75,
+        "edge_to_par": 0.47,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Rikuya Hoshino",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.19,
+        "bottom_quartile_avg_to_par": 3.58,
+        "edge_to_par": 0.39,
+        "edge_label": "rewards",
+        "top_names": [
+          "Lucas Herbert",
+          "Tyrrell Hatton",
+          "Jon Rahm"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 2.46,
+        "bottom_quartile_avg_to_par": 3.42,
+        "edge_to_par": 0.96,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Webb Simpson",
+          "Brooks Koepka"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.28,
+        "bottom_quartile_avg_to_par": 3.75,
+        "edge_to_par": 0.47,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Rikuya Hoshino",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.19,
+        "bottom_quartile_avg_to_par": 3.58,
+        "edge_to_par": 0.39,
+        "edge_label": "rewards",
+        "top_names": [
+          "Lucas Herbert",
+          "Tyrrell Hatton",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.25,
+        "bottom_quartile_avg_to_par": 3.08,
+        "edge_to_par": -0.17,
+        "edge_label": "resists",
+        "top_names": [
+          "Tyrrell Hatton",
+          "Jon Rahm",
+          "Brooks Koepka"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 4.25,
+        "bottom_quartile_avg_to_par": 3.75,
+        "edge_to_par": -0.5,
+        "edge_label": "resists",
+        "top_names": [
+          "Jon Rahm",
+          "Brooks Koepka",
+          "Ryan Brehm"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 3.42,
+        "bottom_quartile_avg_to_par": 2.33,
+        "edge_to_par": -1.08,
+        "edge_label": "resists",
+        "top_names": [
+          "Jon Rahm",
+          "Brooks Koepka",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 24,
+        "top_quartile_avg_to_par": 4.46,
+        "bottom_quartile_avg_to_par": 2.92,
+        "edge_to_par": -1.54,
+        "edge_label": "resists",
+        "top_names": [
+          "Chan Kim",
+          "Kramer Hickok",
+          "Russell Knox"
+        ]
+      }
+    ]
   }
 }

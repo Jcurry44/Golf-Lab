@@ -143,5 +143,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 233,
+    "summary": "This course has most rewarded big hitters: top-quartile yards profiles beat the bottom quartile by 1.20 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.3,
+        "bottom_quartile_avg_to_par": 1.5,
+        "edge_to_par": 1.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Ryan Fox",
+          "Sam Burns"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": -0.02,
+        "bottom_quartile_avg_to_par": 1.15,
+        "edge_to_par": 1.17,
+        "edge_label": "rewards",
+        "top_names": [
+          "Robert MacIntyre",
+          "Ben Griffin",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": -0.03,
+        "bottom_quartile_avg_to_par": 1.11,
+        "edge_to_par": 1.14,
+        "edge_label": "rewards",
+        "top_names": [
+          "Robert MacIntyre",
+          "Ben Griffin",
+          "Rory McIlroy"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.3,
+        "bottom_quartile_avg_to_par": 1.5,
+        "edge_to_par": 1.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Ryan Fox",
+          "Sam Burns"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": -0.02,
+        "bottom_quartile_avg_to_par": 1.15,
+        "edge_to_par": 1.17,
+        "edge_label": "rewards",
+        "top_names": [
+          "Robert MacIntyre",
+          "Ben Griffin",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": -0.03,
+        "bottom_quartile_avg_to_par": 1.11,
+        "edge_to_par": 1.14,
+        "edge_label": "rewards",
+        "top_names": [
+          "Robert MacIntyre",
+          "Ben Griffin",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.09,
+        "bottom_quartile_avg_to_par": 1.06,
+        "edge_to_par": 0.98,
+        "edge_label": "rewards",
+        "top_names": [
+          "Victor Perez",
+          "Rory McIlroy",
+          "Tom Kim"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.21,
+        "bottom_quartile_avg_to_par": 1.14,
+        "edge_to_par": 0.92,
+        "edge_label": "rewards",
+        "top_names": [
+          "Victor Perez",
+          "Corey Conners",
+          "Joel Dahmen"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.51,
+        "bottom_quartile_avg_to_par": 1.44,
+        "edge_to_par": 0.92,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ben Griffin",
+          "Rory McIlroy",
+          "Maverick McNealy"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 137,
+        "top_quartile_avg_to_par": 0.55,
+        "bottom_quartile_avg_to_par": 0.75,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tom Kim",
+          "Corey Conners",
+          "Joel Dahmen"
+        ]
+      }
+    ]
   }
 }

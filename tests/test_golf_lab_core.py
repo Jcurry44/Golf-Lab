@@ -6,7 +6,8 @@ import unittest
 from pathlib import Path
 
 from app_common import connect
-from golf_lab_analytics import course_cards, database_summary, model_board, player_card, player_cards, player_filter_profiles, warehouse_health
+from golf_lab_analytics import course_card, course_cards, database_summary, model_board, player_card, player_cards, player_filter_profiles, warehouse_health
+from golf_lab_backtest import historical_prediction_audit, prediction_review
 from golf_lab_import import seed_starter
 from pga_tour_stats_backfill import extract_stat_details, normalize_player_name, numeric_stat_value
 
@@ -98,10 +99,41 @@ class GolfLabCoreTests(unittest.TestCase):
         self.assertIn("tier_reason", model["rows"][0])
         self.assertGreater(len(courses["rows"]), 0)
         self.assertEqual(health["grade"], "premium-ready")
+        with connect(self.db, readonly=True) as conn:
+            course_detail = course_card(conn, courses["rows"][0]["course_id"])
+        self.assertIn("archetype", course_detail)
+        self.assertIn("summary", course_detail["archetype"])
         self.assertGreater(len(health["coverage"]), 0)
         self.assertGreater(len(health["statQuality"]), 0)
         self.assertIn("contract", health["statQuality"][0])
         self.assertGreater(len(health["automation"]), 0)
+
+    def test_prediction_review_reconstructs_pre_event_board(self) -> None:
+        with connect(self.db, readonly=True) as conn:
+            payload = prediction_review(conn, "starter-us-open-2026")
+        self.assertEqual(payload["mode"], "reconstructed_pre_tournament")
+        self.assertFalse(payload["archived_snapshot"])
+        self.assertGreater(payload["summary"]["field_size"], 0)
+        self.assertIn("projected_top10", payload["boards"])
+        self.assertIn("profile_reason", payload["rows"][0])
+        self.assertIn("result_reason", payload["rows"][0])
+
+    def test_historical_audit_compares_model_variants(self) -> None:
+        with connect(self.db, readonly=True) as conn:
+            payload = historical_prediction_audit(
+                conn,
+                since="2026-01-01",
+                until="2026-12-31",
+                limit=3,
+                focus="all",
+                min_result_players=1,
+                min_scoring_rounds=1,
+                min_r4_players=1,
+            )
+        self.assertGreaterEqual(payload["event_count"], 1)
+        self.assertGreater(len(payload["variant_summary"]), 1)
+        self.assertIn("lessons", payload)
+        self.assertIn("best_variant_label", payload["events"][0])
 
     def test_player_filter_profiles_include_seasons_and_scoring(self) -> None:
         with connect(self.db, readonly=True) as conn:

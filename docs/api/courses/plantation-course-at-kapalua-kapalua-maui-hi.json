@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 172,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.06 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.87,
+        "bottom_quartile_avg_to_par": -3.81,
+        "edge_to_par": 1.06,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Collin Morikawa",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.67,
+        "bottom_quartile_avg_to_par": -3.81,
+        "edge_to_par": 0.87,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sungjae Im",
+          "Harris English",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.47,
+        "bottom_quartile_avg_to_par": -3.71,
+        "edge_to_par": 0.76,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Scottie Scheffler",
+          "Jhonattan Vegas"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.87,
+        "bottom_quartile_avg_to_par": -3.81,
+        "edge_to_par": 1.06,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Collin Morikawa",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.67,
+        "bottom_quartile_avg_to_par": -3.81,
+        "edge_to_par": 0.87,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sungjae Im",
+          "Harris English",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.47,
+        "bottom_quartile_avg_to_par": -3.71,
+        "edge_to_par": 0.76,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Scottie Scheffler",
+          "Jhonattan Vegas"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.42,
+        "bottom_quartile_avg_to_par": -3.71,
+        "edge_to_par": 0.71,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Collin Morikawa",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.47,
+        "bottom_quartile_avg_to_par": -3.89,
+        "edge_to_par": 0.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sungjae Im",
+          "Scottie Scheffler",
+          "Maverick McNealy"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.09,
+        "bottom_quartile_avg_to_par": -3.75,
+        "edge_to_par": 0.34,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Sungjae Im",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 95,
+        "top_quartile_avg_to_par": -4.45,
+        "bottom_quartile_avg_to_par": -4.12,
+        "edge_to_par": 0.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Harris English",
+          "Thomas Detry"
+        ]
+      }
+    ]
   }
 }

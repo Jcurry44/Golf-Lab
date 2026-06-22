@@ -133,5 +133,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 72,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.17 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.72,
+        "bottom_quartile_avg_to_par": -0.56,
+        "edge_to_par": 1.17,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Shane Lowry",
+          "Patrick Cantlay"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.57,
+        "bottom_quartile_avg_to_par": -0.53,
+        "edge_to_par": 1.04,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Shane Lowry",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.46,
+        "bottom_quartile_avg_to_par": -0.57,
+        "edge_to_par": 0.89,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Patrick Cantlay",
+          "Keith Mitchell"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.72,
+        "bottom_quartile_avg_to_par": -0.56,
+        "edge_to_par": 1.17,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Shane Lowry",
+          "Patrick Cantlay"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.57,
+        "bottom_quartile_avg_to_par": -0.53,
+        "edge_to_par": 1.04,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Shane Lowry",
+          "Tommy Fleetwood"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.46,
+        "bottom_quartile_avg_to_par": -0.57,
+        "edge_to_par": 0.89,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sepp Straka",
+          "Patrick Cantlay",
+          "Keith Mitchell"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.26,
+        "bottom_quartile_avg_to_par": -0.68,
+        "edge_to_par": 0.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Patrick Cantlay",
+          "Tommy Fleetwood",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.31,
+        "bottom_quartile_avg_to_par": -0.78,
+        "edge_to_par": 0.53,
+        "edge_label": "rewards",
+        "top_names": [
+          "Justin Thomas",
+          "Tommy Fleetwood",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -1.19,
+        "bottom_quartile_avg_to_par": -1.18,
+        "edge_to_par": 0.01,
+        "edge_label": "neutral",
+        "top_names": [
+          "Tommy Fleetwood",
+          "Jacob Bridgeman",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 72,
+        "top_quartile_avg_to_par": -0.93,
+        "bottom_quartile_avg_to_par": -0.96,
+        "edge_to_par": -0.03,
+        "edge_label": "neutral",
+        "top_names": [
+          "Stephan Jaeger",
+          "Cameron Young",
+          "Keith Mitchell"
+        ]
+      }
+    ]
   }
 }

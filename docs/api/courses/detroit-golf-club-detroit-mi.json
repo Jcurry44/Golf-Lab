@@ -193,5 +193,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 418,
+    "summary": "This course has most rewarded green finders: top-quartile GIR profiles beat the bottom quartile by 0.80 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.82,
+        "bottom_quartile_avg_to_par": -1.02,
+        "edge_to_par": 0.8,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Jackson Suber",
+          "Aaron Rai"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.89,
+        "bottom_quartile_avg_to_par": -1.09,
+        "edge_to_par": 0.79,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Jackson Suber",
+          "Andrew Putnam"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -2.16,
+        "bottom_quartile_avg_to_par": -1.61,
+        "edge_to_par": 0.55,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt Fitzpatrick",
+          "Andrew Putnam",
+          "Matt McCarty"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.82,
+        "bottom_quartile_avg_to_par": -1.02,
+        "edge_to_par": 0.8,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Jackson Suber",
+          "Aaron Rai"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.89,
+        "bottom_quartile_avg_to_par": -1.09,
+        "edge_to_par": 0.79,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Jackson Suber",
+          "Andrew Putnam"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -2.16,
+        "bottom_quartile_avg_to_par": -1.61,
+        "edge_to_par": 0.55,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt Fitzpatrick",
+          "Andrew Putnam",
+          "Matt McCarty"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.55,
+        "bottom_quartile_avg_to_par": -1.12,
+        "edge_to_par": 0.44,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Andrew Putnam",
+          "Aaron Rai"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.8,
+        "bottom_quartile_avg_to_par": -1.42,
+        "edge_to_par": 0.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Min Woo Lee",
+          "Max Greyserman",
+          "Jake Knapp"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.71,
+        "bottom_quartile_avg_to_par": -1.37,
+        "edge_to_par": 0.34,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt Fitzpatrick",
+          "Andrew Putnam",
+          "Hideki Matsuyama"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 246,
+        "top_quartile_avg_to_par": -1.83,
+        "bottom_quartile_avg_to_par": -1.54,
+        "edge_to_par": 0.29,
+        "edge_label": "rewards",
+        "top_names": [
+          "Collin Morikawa",
+          "Matt Fitzpatrick",
+          "Andrew Putnam"
+        ]
+      }
+    ]
   }
 }

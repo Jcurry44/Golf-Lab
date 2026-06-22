@@ -153,5 +153,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 381,
+    "summary": "This course has most rewarded scramblers: top-quartile scrambling profiles beat the bottom quartile by 0.97 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": -0.26,
+        "bottom_quartile_avg_to_par": 0.71,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Harrison Endycott",
+          "A.J. Ewart",
+          "Adam Svensson"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.0,
+        "bottom_quartile_avg_to_par": 0.94,
+        "edge_to_par": 0.94,
+        "edge_label": "rewards",
+        "top_names": [
+          "Adam Svensson",
+          "Greyson Sigg",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": -0.07,
+        "bottom_quartile_avg_to_par": 0.86,
+        "edge_to_par": 0.92,
+        "edge_label": "rewards",
+        "top_names": [
+          "Adam Svensson",
+          "Dylan Wu",
+          "Chan Kim"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": -0.26,
+        "bottom_quartile_avg_to_par": 0.71,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Harrison Endycott",
+          "A.J. Ewart",
+          "Adam Svensson"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.0,
+        "bottom_quartile_avg_to_par": 0.94,
+        "edge_to_par": 0.94,
+        "edge_label": "rewards",
+        "top_names": [
+          "Adam Svensson",
+          "Greyson Sigg",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": -0.07,
+        "bottom_quartile_avg_to_par": 0.86,
+        "edge_to_par": 0.92,
+        "edge_label": "rewards",
+        "top_names": [
+          "Adam Svensson",
+          "Dylan Wu",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.11,
+        "bottom_quartile_avg_to_par": 0.88,
+        "edge_to_par": 0.77,
+        "edge_label": "rewards",
+        "top_names": [
+          "Dylan Wu",
+          "Chan Kim",
+          "Greyson Sigg"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.16,
+        "bottom_quartile_avg_to_par": 0.57,
+        "edge_to_par": 0.42,
+        "edge_label": "rewards",
+        "top_names": [
+          "Harrison Endycott",
+          "Adam Svensson",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.22,
+        "bottom_quartile_avg_to_par": 0.38,
+        "edge_to_par": 0.15,
+        "edge_label": "rewards",
+        "top_names": [
+          "A.J. Ewart",
+          "Ben Silverman",
+          "Takumi Kanaya"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 131,
+        "top_quartile_avg_to_par": 0.6,
+        "bottom_quartile_avg_to_par": 0.18,
+        "edge_to_par": -0.42,
+        "edge_label": "resists",
+        "top_names": [
+          "Alejandro Tosti",
+          "Thomas Rosenmueller",
+          "Trevor Cone"
+        ]
+      }
+    ]
   }
 }

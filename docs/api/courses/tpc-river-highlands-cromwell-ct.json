@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 743,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.77 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.9,
+        "bottom_quartile_avg_to_par": -0.13,
+        "edge_to_par": 1.77,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Scottie Scheffler",
+          "Patrick Cantlay"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.31,
+        "bottom_quartile_avg_to_par": 0.14,
+        "edge_to_par": 1.46,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Patrick Cantlay",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.37,
+        "bottom_quartile_avg_to_par": -0.37,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Patrick Cantlay",
+          "Rory McIlroy"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.9,
+        "bottom_quartile_avg_to_par": -0.13,
+        "edge_to_par": 1.77,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Scottie Scheffler",
+          "Patrick Cantlay"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.31,
+        "bottom_quartile_avg_to_par": 0.14,
+        "edge_to_par": 1.46,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Patrick Cantlay",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.37,
+        "bottom_quartile_avg_to_par": -0.37,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Patrick Cantlay",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.0,
+        "bottom_quartile_avg_to_par": -0.06,
+        "edge_to_par": 0.94,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Chez Reavie",
+          "Carson Young"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.24,
+        "bottom_quartile_avg_to_par": -0.38,
+        "edge_to_par": 0.86,
+        "edge_label": "rewards",
+        "top_names": [
+          "Zac Blair",
+          "Scottie Scheffler",
+          "Chez Reavie"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -1.26,
+        "bottom_quartile_avg_to_par": -0.7,
+        "edge_to_par": 0.56,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Chesson Hadley",
+          "S.Y. Noh"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 197,
+        "top_quartile_avg_to_par": -0.78,
+        "bottom_quartile_avg_to_par": -0.81,
+        "edge_to_par": -0.03,
+        "edge_label": "neutral",
+        "top_names": [
+          "Scottie Scheffler",
+          "Justin Thomas",
+          "Rory McIlroy"
+        ]
+      }
+    ]
   }
 }

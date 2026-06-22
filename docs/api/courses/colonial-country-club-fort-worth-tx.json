@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 582,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.20 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.15,
+        "bottom_quartile_avg_to_par": 1.35,
+        "edge_to_par": 1.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Jordan Smith"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.23,
+        "bottom_quartile_avg_to_par": 1.25,
+        "edge_to_par": 1.02,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.1,
+        "bottom_quartile_avg_to_par": 0.96,
+        "edge_to_par": 0.85,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Ben Griffin"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.15,
+        "bottom_quartile_avg_to_par": 1.35,
+        "edge_to_par": 1.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Jordan Smith"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.23,
+        "bottom_quartile_avg_to_par": 1.25,
+        "edge_to_par": 1.02,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.1,
+        "bottom_quartile_avg_to_par": 0.96,
+        "edge_to_par": 0.85,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Bud Cauley",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.28,
+        "bottom_quartile_avg_to_par": 1.11,
+        "edge_to_par": 0.83,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ben Griffin",
+          "Russell Henley",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.42,
+        "bottom_quartile_avg_to_par": 1.05,
+        "edge_to_par": 0.64,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Russell Henley",
+          "Sepp Straka"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.51,
+        "bottom_quartile_avg_to_par": 1.08,
+        "edge_to_par": 0.57,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Jordan Smith",
+          "Michael Thorbjornsen"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 248,
+        "top_quartile_avg_to_par": 0.54,
+        "bottom_quartile_avg_to_par": 0.75,
+        "edge_to_par": 0.21,
+        "edge_label": "rewards",
+        "top_names": [
+          "Michael Brennan",
+          "Scottie Scheffler",
+          "Justin Thomas"
+        ]
+      }
+    ]
   }
 }

@@ -133,5 +133,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 97,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 0.59 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.47,
+        "bottom_quartile_avg_to_par": 3.06,
+        "edge_to_par": 0.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Will Zalatoris",
+          "Jon Rahm",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.72,
+        "bottom_quartile_avg_to_par": 3.25,
+        "edge_to_par": 0.53,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Satoshi Kodaira",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.56,
+        "bottom_quartile_avg_to_par": 3.06,
+        "edge_to_par": 0.5,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Ben Silverman",
+          "Brian Stuard"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.47,
+        "bottom_quartile_avg_to_par": 3.06,
+        "edge_to_par": 0.59,
+        "edge_label": "rewards",
+        "top_names": [
+          "Will Zalatoris",
+          "Jon Rahm",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.72,
+        "bottom_quartile_avg_to_par": 3.25,
+        "edge_to_par": 0.53,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Satoshi Kodaira",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.56,
+        "bottom_quartile_avg_to_par": 3.06,
+        "edge_to_par": 0.5,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Ben Silverman",
+          "Brian Stuard"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.91,
+        "bottom_quartile_avg_to_par": 3.19,
+        "edge_to_par": 0.28,
+        "edge_label": "rewards",
+        "top_names": [
+          "Chan Kim",
+          "Taylor Montgomery",
+          "Ben Silverman"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 3.12,
+        "bottom_quartile_avg_to_par": 3.31,
+        "edge_to_par": 0.19,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Matt McCarty",
+          "Brian Stuard"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.49,
+        "bottom_quartile_avg_to_par": 2.66,
+        "edge_to_par": 0.17,
+        "edge_label": "rewards",
+        "top_names": [
+          "Min Woo Lee",
+          "Webb Simpson",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 33,
+        "top_quartile_avg_to_par": 2.99,
+        "bottom_quartile_avg_to_par": 2.75,
+        "edge_to_par": -0.24,
+        "edge_label": "resists",
+        "top_names": [
+          "Jon Rahm",
+          "Min Woo Lee",
+          "MJ Daffue"
+        ]
+      }
+    ]
   }
 }

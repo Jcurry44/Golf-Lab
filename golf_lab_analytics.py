@@ -1336,6 +1336,120 @@ def course_cards(conn: sqlite3.Connection, limit: int = 18) -> dict[str, Any]:
     )
 
 
+def _avg(values: list[float]) -> float | None:
+    return sum(values) / len(values) if values else None
+
+
+def _course_archetype(conn: sqlite3.Connection, course_id: str) -> dict[str, Any]:
+    rows = rows_to_dicts(
+        conn.execute(
+            """
+            with course_player as (
+              select r.player_id,
+                     count(r.round_id) as rounds,
+                     avg(r.to_par) as avg_to_par
+              from rounds r
+              where r.course_id = ?
+                and r.to_par is not null
+              group by r.player_id
+              having count(r.round_id) >= 2
+            ),
+            skill as (
+              select player_id,
+                     avg(sg_t2g) as sg_t2g,
+                     avg(sg_ott) as sg_ott,
+                     avg(sg_app) as sg_app,
+                     avg(sg_arg) as sg_arg,
+                     avg(sg_putt) as sg_putt,
+                     avg(driving_distance) as driving_distance,
+                     avg(accuracy) as accuracy,
+                     avg(gir) as gir,
+                     avg(scrambling) as scrambling
+              from strokes_gained
+              where round_id is null
+                and period like 'season-%'
+              group by player_id
+            )
+            select cp.player_id,
+                   p.player_name,
+                   cp.rounds,
+                   cp.avg_to_par,
+                   skill.sg_t2g,
+                   skill.sg_ott,
+                   skill.sg_app,
+                   skill.sg_arg,
+                   skill.sg_putt,
+                   skill.driving_distance,
+                   skill.accuracy,
+                   skill.gir,
+                   skill.scrambling
+            from course_player cp
+            join players p on p.player_id = cp.player_id
+            left join skill on skill.player_id = cp.player_id
+            """,
+            (course_id,),
+        ).fetchall()
+    )
+    metric_defs = [
+        ("driving_distance", "Distance", "big hitters", "yards"),
+        ("accuracy", "Accuracy", "accurate drivers", "fairways"),
+        ("gir", "GIR", "green finders", "GIR"),
+        ("sg_app", "Approach", "iron players", "approach"),
+        ("sg_arg", "Around green", "short-game players", "around the green"),
+        ("sg_putt", "Putting", "putters", "putting"),
+        ("scrambling", "Scrambling", "scramblers", "scrambling"),
+    ]
+    traits: list[dict[str, Any]] = []
+    for key, label, player_label, lane in metric_defs:
+        metric_rows = [row for row in rows if _num(row.get(key)) is not None and _num(row.get("avg_to_par")) is not None]
+        if len(metric_rows) < 24:
+            continue
+        metric_rows.sort(key=lambda row: _num(row.get(key)) or 0)
+        size = max(6, len(metric_rows) // 4)
+        bottom = metric_rows[:size]
+        top = metric_rows[-size:]
+        top_avg = _avg([_num(row.get("avg_to_par")) for row in top if _num(row.get("avg_to_par")) is not None])
+        bottom_avg = _avg([_num(row.get("avg_to_par")) for row in bottom if _num(row.get("avg_to_par")) is not None])
+        if top_avg is None or bottom_avg is None:
+            continue
+        edge = bottom_avg - top_avg
+        top_names = sorted(top, key=lambda row: _num(row.get("avg_to_par")) if _num(row.get("avg_to_par")) is not None else 99)[:3]
+        traits.append({
+            "key": key,
+            "label": label,
+            "lane": lane,
+            "player_label": player_label,
+            "sample_players": len(metric_rows),
+            "top_quartile_avg_to_par": round(top_avg, 2),
+            "bottom_quartile_avg_to_par": round(bottom_avg, 2),
+            "edge_to_par": round(edge, 2),
+            "edge_label": "rewards" if edge >= 0.15 else ("resists" if edge <= -0.15 else "neutral"),
+            "top_names": [row["player_name"] for row in top_names],
+        })
+    traits.sort(key=lambda row: (row["edge_to_par"], abs(row["edge_to_par"])), reverse=True)
+    positive = [row for row in traits if row["edge_to_par"] >= 0.15]
+    if positive:
+        primary = positive[0]
+        summary = (
+            f"This course has most rewarded {primary['player_label']}: top-quartile {primary['lane']} profiles "
+            f"beat the bottom quartile by {primary['edge_to_par']:.2f} strokes per round in the loaded sample."
+        )
+    elif traits:
+        primary = traits[0]
+        summary = (
+            f"No single stat lane dominates yet. The strongest loaded split is {primary['label']} at "
+            f"{primary['edge_to_par']:+.2f} strokes per round."
+        )
+    else:
+        summary = "Course archetype needs more repeat-player rounds joined to public skill profiles."
+    return {
+        "sample_players": len(rows),
+        "summary": summary,
+        "primary_traits": positive[:3],
+        "traits": traits,
+    }
+
+
 def course_card(conn: sqlite3.Connection, course_id: str) -> dict[str, Any]:
     course = one(
         conn,
@@ -1379,7 +1493,7 @@ def course_card(conn: sqlite3.Connection, course_id: str) -> dict[str, Any]:
         """,
         (course_id,),
     )
-    return {"course": course, "fits": fits, "setups": setups}
+    return {"course": course, "fits": fits, "setups": setups, "archetype": _course_archetype(conn, course_id)}
 
 
 def model_board(conn: sqlite3.Connection, event_id: str | None = None, limit: int = 30) -> dict[str, Any]:

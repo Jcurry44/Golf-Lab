@@ -153,5 +153,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 247,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.74 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.96,
+        "bottom_quartile_avg_to_par": -1.22,
+        "edge_to_par": 1.74,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sami Välimäki",
+          "Nick Dunlap",
+          "Eric Cole"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.67,
+        "bottom_quartile_avg_to_par": -1.29,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Carson Young",
+          "Matt Kuchar",
+          "John Pak"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.54,
+        "bottom_quartile_avg_to_par": -1.16,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Eric Cole",
+          "Ben Griffin",
+          "Matt Kuchar"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.96,
+        "bottom_quartile_avg_to_par": -1.22,
+        "edge_to_par": 1.74,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sami Välimäki",
+          "Nick Dunlap",
+          "Eric Cole"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.67,
+        "bottom_quartile_avg_to_par": -1.29,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Carson Young",
+          "Matt Kuchar",
+          "John Pak"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.54,
+        "bottom_quartile_avg_to_par": -1.16,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Eric Cole",
+          "Ben Griffin",
+          "Matt Kuchar"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -3.07,
+        "bottom_quartile_avg_to_par": -1.88,
+        "edge_to_par": 1.19,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sami Välimäki",
+          "Eric Cole",
+          "Thorbjørn Olesen"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.61,
+        "bottom_quartile_avg_to_par": -1.61,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Carson Young",
+          "Jackson Suber",
+          "Jeremy Paul"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -2.54,
+        "bottom_quartile_avg_to_par": -2.15,
+        "edge_to_par": 0.39,
+        "edge_label": "rewards",
+        "top_names": [
+          "Eric Cole",
+          "Thorbjørn Olesen",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 210,
+        "top_quartile_avg_to_par": -1.93,
+        "bottom_quartile_avg_to_par": -2.17,
+        "edge_to_par": -0.24,
+        "edge_label": "resists",
+        "top_names": [
+          "Garrick Higgo",
+          "Patrick Rodgers",
+          "Thomas Rosenmueller"
+        ]
+      }
+    ]
   }
 }

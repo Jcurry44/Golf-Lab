@@ -7,8 +7,11 @@ let eventBoard = null;
 let playerPayload = null;
 let coursePayload = null;
 let modelPayload = null;
+let backtestPayload = null;
+let auditPayload = null;
 let healthPayload = null;
 let filterPayload = null;
+let currentCourseDetail = null;
 let playerSearch = "";
 let playerVisibleLimit = 48;
 let rankingVisibleLimit = 10;
@@ -19,7 +22,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-stat-leaderboards";
+const BUILD_VERSION = "20260622-command-center";
 const RECENT_PROFILE_CUTOFF = "2023-01-01";
 
 function versionedPath(path) {
@@ -76,6 +79,36 @@ function signed(value, digits = 1) {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "--";
   return `${numeric > 0 ? "+" : ""}${fmt(numeric, digits)}`;
+}
+
+function cleanModelText(value) {
+  return String(value || "")
+    .replace(/Win probability/g, "Outright win model")
+    .replace(/win probability/g, "outright win model");
+}
+
+function outrightWinLabel(value) {
+  return Number.isFinite(Number(value)) ? pct(value, 1) : "--";
+}
+
+function normalizeLabel(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function currentCourseId() {
+  return eventBoard?.event?.course_id || summary?.selectedEvent?.course_id || "";
+}
+
+function toPar(value) {
+  const numericValue = numeric(value);
+  if (numericValue === null) return "--";
+  return numericValue === 0 ? "E" : signed(numericValue, 0);
 }
 
 function numeric(value) {
@@ -225,11 +258,99 @@ function renderSummary() {
       <small>${escapeHtml(note)}</small>
     </article>
   `).join("");
+  renderCommandCenter();
 }
 
 function metric(label, value, note = "") {
   const rendered = typeof value === "number" ? fmt(value) : (value ?? "--");
   return `<div><span>${escapeHtml(label)}</span><strong>${escapeHtml(rendered)}</strong>${note ? `<small>${escapeHtml(note)}</small>` : ""}</div>`;
+}
+
+function compactCommandMetric(label, value, note = "") {
+  return `
+    <span>
+      <small>${escapeHtml(label)}</small>
+      <b>${escapeHtml(value ?? "--")}</b>
+      ${note ? `<em>${escapeHtml(note)}</em>` : ""}
+    </span>
+  `;
+}
+
+function renderTraitChips(traits = []) {
+  return traits.slice(0, 4).map((trait) => `
+    <span class="trait-chip">
+      ${escapeHtml(trait.label)}
+      <b>${signed(trait.edge_to_par)}</b>
+    </span>
+  `).join("");
+}
+
+function commandLeader(rows, compare) {
+  return [...rows].sort(compare)[0] || null;
+}
+
+function renderCommandCenter() {
+  const target = $("#commandCenter");
+  if (!target || !summary || !playerPayload || !filterPayload) return;
+  const counts = summary.counts || {};
+  const rows = decoratedCareerRows();
+  const qualified = rows.filter(({ profile }) => (numeric(profile.rounds) || 0) >= 20);
+  const indexLeader = commandLeader(qualified, compareLabRank);
+  const sgLeader = commandLeader(qualified.filter(({ profile }) => statValue(profile, "avg_sg_total") !== null), (a, b) => compareDesc(a, b, "avg_sg_total"));
+  const distanceLeader = commandLeader(rows.filter(({ profile }) => statValue(profile, "driving_distance") !== null), (a, b) => compareDesc(a, b, "driving_distance"));
+  const girLeader = commandLeader(rows.filter(({ profile }) => statValue(profile, "gir") !== null), (a, b) => compareDesc(a, b, "gir"));
+  const event = eventBoard?.event || summary.selectedEvent || {};
+  const course = currentCourseDetail?.course || {};
+  const archetype = currentCourseDetail?.archetype || {};
+  const traits = archetype.primary_traits?.length ? archetype.primary_traits : archetype.traits || [];
+  const modelLeader = modelPayload?.rows?.[0];
+  const auditLeader = auditPayload?.variant_summary?.[0];
+  target.innerHTML = `
+    <article class="command-card command-card-primary">
+      <div>
+        <p class="eyebrow">Golf Lab Index</p>
+        <h2>${escapeHtml(indexLeader?.row.player_name || "PGA Tour board")}</h2>
+        <p>${escapeHtml(indexLeader ? `${signed(indexLeader.profile.avg_sg_total)} SG profile with ${fmt(indexLeader.profile.rounds)} tracked rounds.` : "Rankings load from the full player warehouse.")}</p>
+      </div>
+      <div class="command-metrics">
+        ${compactCommandMetric("Qualified", fmt(qualified.length), "top 10/50/100")}
+        ${compactCommandMetric("Profiles", fmt(counts.players), "player cards")}
+        ${compactCommandMetric("Scorecards", fmt(counts.rounds), "round data")}
+      </div>
+      <button type="button" class="ghost-button" data-ranking-shortcut="index">Open rankings</button>
+    </article>
+    <article class="command-card">
+      <div>
+        <p class="eyebrow">Skill leaders</p>
+        <h3>Fast stat boards</h3>
+      </div>
+      <div class="command-leaders">
+        ${compactCommandMetric("SG", sgLeader?.row.player_name || "--", sgLeader ? signed(sgLeader.profile.avg_sg_total) : "")}
+        ${compactCommandMetric("Distance", distanceLeader?.row.player_name || "--", distanceLeader ? `${fmt(distanceLeader.profile.driving_distance, 1)} yd` : "")}
+        ${compactCommandMetric("GIR", girLeader?.row.player_name || "--", girLeader ? pctDecimal(girLeader.profile.gir) : "")}
+      </div>
+    </article>
+    <article class="command-card">
+      <div>
+        <p class="eyebrow">Weekly setup</p>
+        <h3>${escapeHtml(event.event_name || "Tournament board")}</h3>
+        <p>${escapeHtml(course.course_name || event.course_name || "Course profile pending")}</p>
+      </div>
+      <div class="trait-strip">${renderTraitChips(traits) || `<span class="trait-chip">Course DNA <b>pending</b></span>`}</div>
+      <button type="button" class="ghost-button" data-view-jump="tournament">Open tournament</button>
+    </article>
+    <article class="command-card">
+      <div>
+        <p class="eyebrow">Model lab</p>
+        <h3>${escapeHtml(auditLeader?.label || "Backtest blend")}</h3>
+        <p>${escapeHtml(auditLeader ? `${fmt(auditLeader.avg_top20_hits, 2)} average top-20 hits across ${fmt(auditLeader.events)} events.` : "Historical audit pending.")}</p>
+      </div>
+      <div class="command-metrics">
+        ${compactCommandMetric("Projected leader", modelLeader?.player_name || "--", modelLeader ? outrightWinLabel(modelLeader.probability_pct) : "")}
+        ${compactCommandMetric("MC leak", auditLeader ? fmt(auditLeader.missed_cut_top20_per_event, 2) : "--", "per event")}
+      </div>
+    </article>
+  `;
 }
 
 function weightedMerge(target, row, fields) {
@@ -620,6 +741,106 @@ function metricRows(rows, key, direction = "desc", options = {}) {
     .slice(0, options.limit || 10);
 }
 
+function traitProfileValue(profile, key) {
+  const value = statValue(profile, key);
+  if (value === null) return null;
+  if (key === "driving_distance") return (value - 295) / 18;
+  if (["accuracy", "gir", "scrambling"].includes(key)) return (value - 0.62) * 8;
+  return value;
+}
+
+function traitReason(profile, traits) {
+  return traits.slice(0, 3).map((trait) => {
+    const value = statValue(profile, trait.key);
+    if (value === null) return "";
+    const rendered = ["accuracy", "gir", "scrambling"].includes(trait.key)
+      ? pctDecimal(value)
+      : trait.key === "driving_distance"
+        ? `${fmt(value, 1)} yd`
+        : signed(value);
+    return `${trait.label} ${rendered}`;
+  }).filter(Boolean).join(" | ");
+}
+
+function courseFitRows(limit = 8, direction = "best") {
+  const traits = (currentCourseDetail?.archetype?.traits || [])
+    .filter((trait) => Math.abs(Number(trait.edge_to_par) || 0) >= 0.2)
+    .slice(0, 5);
+  if (!traits.length) return [];
+  const fieldRows = modelPayload?.rows?.length ? modelPayload.rows : eventBoard?.field || [];
+  const decorated = fieldRows.map((row) => {
+    const base = playerById(row.player_id) || row;
+    const profile = { ...base, ...(careerProfiles.get(row.player_id) || {}) };
+    let score = 0;
+    let weight = 0;
+    for (const trait of traits) {
+      const normalized = traitProfileValue(profile, trait.key);
+      if (normalized === null) continue;
+      const edge = Number(trait.edge_to_par) || 0;
+      const traitWeight = Math.min(2.25, Math.abs(edge));
+      score += normalized * Math.sign(edge || 1) * traitWeight;
+      weight += traitWeight;
+    }
+    return { row, profile, score: weight ? score / weight : null, reason: traitReason(profile, traits) };
+  }).filter((item) => item.score !== null);
+  decorated.sort((a, b) => direction === "worst" ? a.score - b.score : b.score - a.score);
+  return decorated.slice(0, limit);
+}
+
+function renderCourseFitList(rows, emptyText) {
+  return rows.map((item, index) => `
+    <a class="fit-row" href="./player.html?id=${encodeURIComponent(item.row.player_id)}">
+      <b>${index + 1}</b>
+      <span>
+        <strong>${escapeHtml(item.row.player_name)}</strong>
+        <small>${escapeHtml(item.reason || "profile data pending")}</small>
+      </span>
+      <em>${signed(item.score, 2)}</em>
+    </a>
+  `).join("") || empty(emptyText);
+}
+
+function renderTournamentCourseFit() {
+  const course = currentCourseDetail?.course;
+  const archetype = currentCourseDetail?.archetype || {};
+  const traits = archetype.primary_traits?.length ? archetype.primary_traits : archetype.traits || [];
+  const bestFits = courseFitRows(8, "best");
+  const stressFits = courseFitRows(5, "worst");
+  return `
+    <section class="course-fit-center">
+      <div class="course-fit-head">
+        <div>
+          <p class="eyebrow">Course DNA</p>
+          <h3>${escapeHtml(course?.course_name || eventBoard?.event?.course_name || "Course fit board")}</h3>
+          <p>${escapeHtml(archetype.summary || "Course-fit traits appear when this venue has enough scoring history joined to public skill profiles.")}</p>
+        </div>
+        <div class="course-fit-kpis">
+          ${metric("Difficulty", course?.difficulty_bucket || "setup")}
+          ${metric("Archetype sample", archetype.sample_players || "--", "players")}
+          ${metric("Course rounds", course?.rounds || "--", "loaded")}
+        </div>
+      </div>
+      <div class="trait-strip wide">${renderTraitChips(traits) || `<span class="trait-chip">Traits <b>pending</b></span>`}</div>
+      <div class="fit-board-grid">
+        <article>
+          <div class="review-card-head">
+            <span>Best fits</span>
+            <strong>Field profiles matching the setup</strong>
+          </div>
+          <div class="fit-list">${renderCourseFitList(bestFits, "Need current field and course traits to score fits.")}</div>
+        </article>
+        <article>
+          <div class="review-card-head">
+            <span>Stress watch</span>
+            <strong>Profiles the setup may test</strong>
+          </div>
+          <div class="fit-list">${renderCourseFitList(stressFits, "Need more trait coverage to identify stress fits.")}</div>
+        </article>
+      </div>
+    </section>
+  `;
+}
+
 function rankingCategoryConfig(key) {
   const configs = {
     index: {
@@ -987,7 +1208,7 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
         ${metric("SG", signed(profile.avg_sg_total))}
         ${metric("Scoring", profile.scoring_average ? fmt(profile.scoring_average, 2) : "--")}
       </div>
-      <p class="plain">${escapeHtml(row.plain_english || "Model explanation pending.")}</p>
+      <p class="plain">${escapeHtml(cleanModelText(row.plain_english || "Model explanation pending."))}</p>
       <div class="scorecard-footer">
         <span>Drive <strong>${profile.driving_distance ? `${fmt(profile.driving_distance, 1)} yd` : "--"}</strong></span>
         <span>GIR <strong>${pctDecimal(profile.gir)}</strong></span>
@@ -995,7 +1216,7 @@ function renderPlayers(limit = currentView === "players" ? playerVisibleLimit : 
         <span>Score <strong>${profile.scoring_average ? fmt(profile.scoring_average, 2) : "--"}</strong></span>
       </div>
       <div class="player-card-actions">
-        <a href="./player.html?id=${encodeURIComponent(row.player_id)}">Open card</a>
+        <a class="primary-action" href="./player.html?id=${encodeURIComponent(row.player_id)}">Open full scorecard</a>
         <button type="button" data-compare-player="${escapeHtml(row.player_id)}">${selected ? "Selected" : "Compare"}</button>
       </div>
     </article>
@@ -1037,6 +1258,157 @@ function modelTierRows() {
     .filter((group) => group.rows.length);
 }
 
+function reviewRowList(rows, limit = 6) {
+  return (rows || []).slice(0, limit).map((row) => `
+    <a class="review-row" href="./player.html?id=${encodeURIComponent(row.player_id)}">
+      <b>#${escapeHtml(row.projected_rank || "--")}</b>
+      <span>
+        <strong>${escapeHtml(row.player_name)}</strong>
+        <small>${pctDecimal(row.pre_event_win_probability)} outright model | projected ${toPar(row.projected_to_par)} | finished ${escapeHtml(row.finish_label || "--")} (${toPar(row.actual_to_par)})</small>
+      </span>
+      <em>${escapeHtml(cleanModelText(row.result_reason || row.profile_reason || "Review pending."))}</em>
+    </a>
+  `).join("") || empty("No settled review rows yet.");
+}
+
+function renderPredictionReview() {
+  if (!backtestPayload?.event) return "";
+  const summaryRow = backtestPayload.summary || {};
+  const boards = backtestPayload.boards || {};
+  return `
+    <section class="prediction-review">
+      <div class="review-head">
+        <div>
+          <p class="eyebrow">Prediction review</p>
+          <h3>What the pre-tournament board would have said</h3>
+          <p>${escapeHtml(backtestPayload.caveat || "Reconstructed pre-tournament review using the stored warehouse.")}</p>
+        </div>
+        <div class="review-source">
+          <span>${escapeHtml(backtestPayload.archived_snapshot ? "Archived snapshot" : "Reconstructed")}</span>
+          <strong>${escapeHtml(backtestPayload.source?.provider || "Result source")}</strong>
+        </div>
+      </div>
+      <div class="review-kpis">
+        ${metric("Winner", summaryRow.winner || "--", `Projected #${fmt(summaryRow.winner_projected_rank)} | ${pctDecimal(summaryRow.winner_probability)}`)}
+        ${metric("Top 10 hits", `${fmt(summaryRow.top10_hits || 0)}/10`, `${pct((summaryRow.top10_hit_rate || 0) * 100)} hit rate`)}
+        ${metric("Top 20 hits", `${fmt(summaryRow.top20_hits || 0)}/20`, `${pct((summaryRow.top20_hit_rate || 0) * 100)} hit rate`)}
+        ${metric("Rank error", fmt(summaryRow.avg_projected_top20_rank_error, 1), "Projected top 20")}
+      </div>
+      <div class="review-grid">
+        <article class="review-card wide">
+          <div class="review-card-head">
+            <span>Projected board</span>
+            <strong>Top 10 vs final finish</strong>
+          </div>
+          <div class="review-list">
+            ${reviewRowList(boards.projected_top10, 10)}
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-card-head">
+            <span>Worked</span>
+            <strong>Best calls</strong>
+          </div>
+          <div class="review-list">
+            ${reviewRowList(boards.best_calls, 5)}
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-card-head">
+            <span>Missed</span>
+            <strong>Model misses</strong>
+          </div>
+          <div class="review-list">
+            ${reviewRowList(boards.misses, 5)}
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="review-card-head">
+            <span>Surprised</span>
+            <strong>Underpriced finishes</strong>
+          </div>
+          <div class="review-list">
+            ${reviewRowList(boards.surprises, 5)}
+          </div>
+        </article>
+      </div>
+    </section>
+  `;
+}
+
+function auditVariantCards(rows) {
+  return (rows || []).slice(0, 6).map((row, index) => `
+    <article class="audit-variant ${index === 0 ? "is-leader" : ""}">
+      <span>${index === 0 ? "Recommended" : `Variant ${index + 1}`}</span>
+      <strong>${escapeHtml(row.label)}</strong>
+      <div class="audit-mini-grid">
+        ${metric("Score", fmt(row.model_score, 2))}
+        ${metric("Top 20", fmt(row.avg_top20_hits, 2))}
+        ${metric("Winner T20", pctDecimal(row.winner_top20_rate))}
+        ${metric("MC leak", fmt(row.missed_cut_top20_per_event, 2))}
+      </div>
+      <p>${escapeHtml(row.description || "")}</p>
+    </article>
+  `).join("") || empty("Historical variants are still being computed.");
+}
+
+function renderHistoricalAudit() {
+  if (!auditPayload?.event_count) return "";
+  const variants = auditPayload.variant_summary || [];
+  const leader = variants[0] || {};
+  const balanced = variants.find((row) => row.variant_key === "balanced") || {};
+  return `
+    <section class="historical-audit">
+      <div class="audit-head">
+        <div>
+          <p class="eyebrow">Historical model lab</p>
+          <h3>Walk-forward weighting audit</h3>
+          <p>${escapeHtml(auditPayload.caveat || "Historical audit uses reconstructed pre-event boards.")}</p>
+        </div>
+        <div class="audit-window">
+          <span>${escapeHtml(auditPayload.since || "--")} to ${escapeHtml(auditPayload.until || "--")}</span>
+          <strong>${fmt(auditPayload.event_count)} similar events</strong>
+        </div>
+      </div>
+      <div class="audit-kpis">
+        ${metric("Recommended", leader.label || "--", `${fmt(leader.avg_top20_hits, 2)} avg T20 hits`)}
+        ${metric("Current model", balanced.label || "Balanced Lab", `${fmt(balanced.avg_top20_hits, 2)} avg T20 hits`)}
+        ${metric("Winner captured", pctDecimal(leader.winner_top20_rate), "winner inside projected top 20")}
+        ${metric("Cut-risk leak", fmt(leader.missed_cut_top20_per_event, 2), "projected top 20 MC per event")}
+      </div>
+      <div class="audit-lessons">
+        ${(auditPayload.lessons || []).map((lesson) => `
+          <article>
+            <span>${escapeHtml(lesson.title)}</span>
+            <p>${escapeHtml(lesson.body)}</p>
+          </article>
+        `).join("")}
+      </div>
+      <div class="audit-variant-grid">
+        ${auditVariantCards(variants)}
+      </div>
+      <article class="audit-event-table">
+        <div class="review-card-head">
+          <span>Event evidence</span>
+          <strong>Recent similar tournaments</strong>
+        </div>
+        <div class="audit-events">
+          ${(auditPayload.events || []).slice(0, 10).map((row) => `
+            <div class="audit-event-row">
+              <span>
+                <strong>${escapeHtml(row.event_name)}</strong>
+                <small>${escapeHtml(row.start_date || "")} | ${escapeHtml((row.tags || []).filter((tag) => tag !== "similar").join(", ") || "standard")}</small>
+              </span>
+              <b>${escapeHtml(row.best_variant_label || "--")}</b>
+              <em>Balanced ${fmt(row.balanced_top20_hits)} T20 | Best ${fmt(row.best_top20_hits)} T20 | Winner #${fmt(row.best_winner_projected_rank)}</em>
+            </div>
+          `).join("") || empty("No historical event rows loaded.")}
+        </div>
+      </article>
+    </section>
+  `;
+}
+
 function renderPredictionCenter() {
   const target = $("#predictionCenter");
   if (!target) return;
@@ -1049,14 +1421,15 @@ function renderPredictionCenter() {
       <div>
         <p class="eyebrow">Prediction center</p>
         <h3>${escapeHtml(event.event_name || "Current tournament")}</h3>
-        <p>${escapeHtml(favorite?.tier_reason || "Projected standings will appear when model predictions are loaded.")}</p>
+        <p>${escapeHtml(cleanModelText(favorite?.tier_reason || "Projected standings will appear when model predictions are loaded."))}</p>
       </div>
       <div class="prediction-kpis">
         ${metric("Projected leader", favorite?.player_name || "--")}
-        ${metric("Win prob", favorite ? pct(favorite.probability_pct) : "--")}
+        ${metric("Outright model", favorite ? outrightWinLabel(favorite.probability_pct) : "--")}
         ${metric("Positive edges", positiveEdges)}
       </div>
     </section>
+    ${renderTournamentCourseFit()}
     <section class="projection-board">
       <div class="projection-board-head">
         <p class="eyebrow">Projected standings</p>
@@ -1068,9 +1441,9 @@ function renderPredictionCenter() {
             <b>#${escapeHtml(row.rank || "--")}</b>
             <span>
               <strong>${escapeHtml(row.player_name)}</strong>
-              <small>${pct(row.probability_pct)} win | ${signed(row.projected_to_par)} projected to par | ${escapeHtml(row.confidence || "Watch")}</small>
+              <small>${outrightWinLabel(row.probability_pct)} outright model | ${signed(row.projected_to_par)} projected to par | ${escapeHtml(row.confidence || "Watch")}</small>
             </span>
-            <em>${escapeHtml(row.tier_reason || row.plain_english || "Reasoning pending.")}</em>
+            <em>${escapeHtml(cleanModelText(row.tier_reason || row.plain_english || "Reasoning pending."))}</em>
           </a>
         `).join("") || empty("No projected standings loaded yet.")}
       </div>
@@ -1082,13 +1455,15 @@ function renderPredictionCenter() {
           ${group.rows.map((row) => `
             <a href="./player.html?id=${encodeURIComponent(row.player_id)}">
               <strong>${escapeHtml(row.player_name)}</strong>
-              <small>#${escapeHtml(row.rank || "--")} | ${pct(row.probability_pct)} | ${signed(row.projected_to_par)} to par</small>
-              <em>${escapeHtml(row.tier_reason || row.plain_english || "Reasoning pending.")}</em>
+              <small>#${escapeHtml(row.rank || "--")} | ${outrightWinLabel(row.probability_pct)} outright | ${signed(row.projected_to_par)} to par</small>
+              <em>${escapeHtml(cleanModelText(row.tier_reason || row.plain_english || "Reasoning pending."))}</em>
             </a>
           `).join("")}
         </article>
       `).join("")}
     </div>
+    ${renderPredictionReview()}
+    ${renderHistoricalAudit()}
   `;
 }
 
@@ -1101,10 +1476,10 @@ function renderModel(limit = currentView === "tournament" ? 40 : 10) {
         <a class="model-row" href="./player.html?id=${encodeURIComponent(row.player_id)}">
           <span class="model-rank">${escapeHtml(row.rank || "--")}</span>
           <strong>${escapeHtml(row.player_name)}</strong>
-          <span>${pct(row.probability_pct)}</span>
+          <span>${outrightWinLabel(row.probability_pct)}</span>
           <span>${signed(row.projected_to_par)}</span>
           <em>${escapeHtml(row.confidence || "Watch")}</em>
-          <p>${escapeHtml(row.plain_english || "Reasoning pending.")}</p>
+          <p>${escapeHtml(cleanModelText(row.plain_english || "Reasoning pending."))}</p>
         </a>
       `).join("")}
     </div>
@@ -1178,6 +1553,7 @@ async function openPlayer(playerId) {
   const eventId = summary.selectedEvent && summary.selectedEvent.event_id ? `&event_id=${encodeURIComponent(summary.selectedEvent.event_id)}` : "";
   const detail = await api(`/api/player?id=${encodeURIComponent(playerId)}${eventId}`);
   const player = detail.player;
+  const model = detail.model || {};
   $("#drawerBody").innerHTML = `
     <p class="eyebrow">Player card</p>
     <h2>${escapeHtml(player.player_name)}</h2>
@@ -1189,9 +1565,13 @@ async function openPlayer(playerId) {
       ${metric("Fairways", pctDecimal(player.accuracy))}
       ${metric("GIR", pctDecimal(player.gir))}
     </div>
+    <div class="drawer-action-row">
+      <a class="primary-action" href="./player.html?id=${encodeURIComponent(player.player_id)}">Open full intelligence card</a>
+      ${model.rank ? `<span class="mini-badge">Model rank #${fmt(model.rank)}</span>` : `<span class="mini-badge">Profile card</span>`}
+    </div>
     <section>
       <h3>Plain-English Model Read</h3>
-      <p>${escapeHtml((detail.model && detail.model.plain_english) || "No model read saved yet.")}</p>
+      <p>${escapeHtml(cleanModelText((detail.model && detail.model.plain_english) || "No model read saved yet."))}</p>
       <p class="risk">${escapeHtml((detail.model && detail.model.risk_flags) || "No major risk flags saved.")}</p>
     </section>
     <section>
@@ -1209,6 +1589,7 @@ async function openPlayer(playerId) {
 async function openCourse(courseId) {
   const detail = await api(`/api/course?id=${encodeURIComponent(courseId)}`);
   const course = detail.course;
+  const archetype = detail.archetype || {};
   $("#drawerBody").innerHTML = `
     <p class="eyebrow">Course card</p>
     <h2>${escapeHtml(course.course_name)}</h2>
@@ -1217,6 +1598,16 @@ async function openCourse(courseId) {
       ${metric("Rounds", course.rounds)}
       ${metric("Avg To Par", signed(course.avg_to_par))}
     </div>
+    <section>
+      <h3>Course Archetype</h3>
+      <p>${escapeHtml(archetype.summary || "Course archetype needs more repeat-player rounds joined to public skill profiles.")}</p>
+      ${(archetype.traits || []).slice(0, 5).map((row) => `
+        <div class="mini-row">
+          <strong>${escapeHtml(row.label)}</strong>
+          <span>${escapeHtml(row.edge_label || "neutral")} | ${signed(row.edge_to_par)} strokes/round | ${fmt(row.sample_players)} players</span>
+        </div>
+      `).join("") || empty("Need more course archetype data.")}
+    </section>
     <section>
       <h3>Best Player Fits</h3>
       ${detail.fits.rows.map((row) => `<div class="mini-row"><strong>${escapeHtml(row.player_name)}</strong><span>${signed(row.avg_to_par)} avg | ${signed(row.avg_sg)} SG</span></div>`).join("") || empty("Need more course rounds.")}
@@ -1367,15 +1758,26 @@ function showError(error) {
 async function boot() {
   bindEvents();
   try {
-    [summary, eventBoard, playerPayload, filterPayload, coursePayload, modelPayload, healthPayload] = await Promise.all([
+    [summary, eventBoard, playerPayload, filterPayload, coursePayload, modelPayload, backtestPayload, auditPayload, healthPayload] = await Promise.all([
       api("/api/summary"),
       api("/api/event"),
       api("/api/player-cards?limit=5000"),
       api("/api/player-filters"),
       api("/api/course-cards?limit=60"),
       api("/api/model-board?limit=80"),
+      api("/api/prediction-review"),
+      api("/api/historical-audit"),
       api("/api/warehouse-health"),
     ]);
+    const courseId = currentCourseId();
+    if (courseId) {
+      try {
+        currentCourseDetail = await api(`/api/course?id=${encodeURIComponent(courseId)}`);
+      } catch (error) {
+        currentCourseDetail = null;
+        console.warn("Course detail unavailable", error);
+      }
+    }
     buildProfileMaps();
     renderSummary();
     renderEvent();

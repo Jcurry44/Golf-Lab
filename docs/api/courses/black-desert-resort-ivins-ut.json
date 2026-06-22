@@ -143,5 +143,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 199,
+    "summary": "This course has most rewarded green finders: top-quartile GIR profiles beat the bottom quartile by 1.01 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.54,
+        "bottom_quartile_avg_to_par": -0.53,
+        "edge_to_par": 1.01,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rico Hoey",
+          "Tom Whitney",
+          "Kris Ventura"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.73,
+        "bottom_quartile_avg_to_par": -0.73,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Lucas Glover",
+          "Rico Hoey",
+          "Tom Whitney"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.88,
+        "bottom_quartile_avg_to_par": -1.02,
+        "edge_to_par": 0.86,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Lucas Glover",
+          "Harris English"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.54,
+        "bottom_quartile_avg_to_par": -0.53,
+        "edge_to_par": 1.01,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rico Hoey",
+          "Tom Whitney",
+          "Kris Ventura"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.73,
+        "bottom_quartile_avg_to_par": -0.73,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Lucas Glover",
+          "Rico Hoey",
+          "Tom Whitney"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.88,
+        "bottom_quartile_avg_to_par": -1.02,
+        "edge_to_par": 0.86,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Lucas Glover",
+          "Harris English"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.64,
+        "bottom_quartile_avg_to_par": -1.11,
+        "edge_to_par": 0.53,
+        "edge_label": "rewards",
+        "top_names": [
+          "Michael Brennan",
+          "Matti Schmid",
+          "Stephan Jaeger"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.38,
+        "bottom_quartile_avg_to_par": -0.98,
+        "edge_to_par": 0.4,
+        "edge_label": "rewards",
+        "top_names": [
+          "Stephan Jaeger",
+          "Brandt Snedeker",
+          "Ben Griffin"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.29,
+        "bottom_quartile_avg_to_par": -1.09,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Stephan Jaeger",
+          "Harris English",
+          "Ben Silverman"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 172,
+        "top_quartile_avg_to_par": -1.78,
+        "bottom_quartile_avg_to_par": -1.6,
+        "edge_to_par": 0.18,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Matti Schmid",
+          "Harris English"
+        ]
+      }
+    ]
   }
 }

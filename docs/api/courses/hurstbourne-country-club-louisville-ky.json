@@ -133,5 +133,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 155,
+    "summary": "This course has most rewarded big hitters: top-quartile yards profiles beat the bottom quartile by 1.35 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.1,
+        "bottom_quartile_avg_to_par": 1.45,
+        "edge_to_par": 1.35,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "David Skinns",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.24,
+        "bottom_quartile_avg_to_par": 1.36,
+        "edge_to_par": 1.12,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "David Skinns",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.68,
+        "bottom_quartile_avg_to_par": 1.37,
+        "edge_to_par": 0.68,
+        "edge_label": "rewards",
+        "top_names": [
+          "Paul Peterson",
+          "Vince Whaley",
+          "Patrick Fishburn"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.1,
+        "bottom_quartile_avg_to_par": 1.45,
+        "edge_to_par": 1.35,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "David Skinns",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.24,
+        "bottom_quartile_avg_to_par": 1.36,
+        "edge_to_par": 1.12,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "David Skinns",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.68,
+        "bottom_quartile_avg_to_par": 1.37,
+        "edge_to_par": 0.68,
+        "edge_label": "rewards",
+        "top_names": [
+          "Paul Peterson",
+          "Vince Whaley",
+          "Patrick Fishburn"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.91,
+        "bottom_quartile_avg_to_par": 1.4,
+        "edge_to_par": 0.49,
+        "edge_label": "rewards",
+        "top_names": [
+          "David Skinns",
+          "Nick Hardy",
+          "Ben Kohles"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 1.04,
+        "bottom_quartile_avg_to_par": 0.92,
+        "edge_to_par": -0.12,
+        "edge_label": "neutral",
+        "top_names": [
+          "Paul Peterson",
+          "Taylor Montgomery",
+          "Peter Malnati"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 0.97,
+        "bottom_quartile_avg_to_par": 0.67,
+        "edge_to_par": -0.29,
+        "edge_label": "resists",
+        "top_names": [
+          "Vince Whaley",
+          "Taylor Montgomery",
+          "Chan Kim"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 93,
+        "top_quartile_avg_to_par": 1.41,
+        "bottom_quartile_avg_to_par": 1.02,
+        "edge_to_par": -0.39,
+        "edge_label": "resists",
+        "top_names": [
+          "Paul Peterson",
+          "Ben Kohles",
+          "Zac Blair"
+        ]
+      }
+    ]
   }
 }

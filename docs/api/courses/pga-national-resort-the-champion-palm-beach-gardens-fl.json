@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 512,
+    "summary": "This course has most rewarded big hitters: top-quartile yards profiles beat the bottom quartile by 0.84 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 0.83,
+        "bottom_quartile_avg_to_par": 1.67,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ryan Brehm",
+          "Jhonattan Vegas",
+          "MJ Daffue"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.14,
+        "bottom_quartile_avg_to_par": 1.87,
+        "edge_to_par": 0.73,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ben Taylor",
+          "Justin Suh",
+          "Chesson Hadley"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.16,
+        "bottom_quartile_avg_to_par": 1.76,
+        "edge_to_par": 0.61,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyler Duncan",
+          "Shane Lowry",
+          "David Lingmerth"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 0.83,
+        "bottom_quartile_avg_to_par": 1.67,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ryan Brehm",
+          "Jhonattan Vegas",
+          "MJ Daffue"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.14,
+        "bottom_quartile_avg_to_par": 1.87,
+        "edge_to_par": 0.73,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ben Taylor",
+          "Justin Suh",
+          "Chesson Hadley"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.16,
+        "bottom_quartile_avg_to_par": 1.76,
+        "edge_to_par": 0.61,
+        "edge_label": "rewards",
+        "top_names": [
+          "Tyler Duncan",
+          "Shane Lowry",
+          "David Lingmerth"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.14,
+        "bottom_quartile_avg_to_par": 1.38,
+        "edge_to_par": 0.24,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ryan Gerard",
+          "Shane Lowry",
+          "Ben Martin"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 0.98,
+        "bottom_quartile_avg_to_par": 1.17,
+        "edge_to_par": 0.19,
+        "edge_label": "rewards",
+        "top_names": [
+          "Byeong Hun An",
+          "Robby Shelton",
+          "Min Woo Lee"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 0.98,
+        "bottom_quartile_avg_to_par": 1.07,
+        "edge_to_par": 0.09,
+        "edge_label": "neutral",
+        "top_names": [
+          "Tyler Duncan",
+          "Chesson Hadley",
+          "Daniel Berger"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 102,
+        "top_quartile_avg_to_par": 1.1,
+        "bottom_quartile_avg_to_par": 1.17,
+        "edge_to_par": 0.07,
+        "edge_label": "neutral",
+        "top_names": [
+          "Byeong Hun An",
+          "Harrison Endycott",
+          "Matteo Manassero"
+        ]
+      }
+    ]
   }
 }

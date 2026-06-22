@@ -193,5 +193,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 430,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.18 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.4,
+        "bottom_quartile_avg_to_par": -0.23,
+        "edge_to_par": 1.18,
+        "edge_label": "rewards",
+        "top_names": [
+          "Kurt Kitayama",
+          "Chris Kirk",
+          "Thomas Rosenmueller"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.43,
+        "bottom_quartile_avg_to_par": -0.42,
+        "edge_to_par": 1.01,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Wyndham Clark",
+          "Thorbjørn Olesen"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.2,
+        "bottom_quartile_avg_to_par": -0.23,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Alex Noren",
+          "Taylor Moore"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.4,
+        "bottom_quartile_avg_to_par": -0.23,
+        "edge_to_par": 1.18,
+        "edge_label": "rewards",
+        "top_names": [
+          "Kurt Kitayama",
+          "Chris Kirk",
+          "Thomas Rosenmueller"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.43,
+        "bottom_quartile_avg_to_par": -0.42,
+        "edge_to_par": 1.01,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Wyndham Clark",
+          "Thorbjørn Olesen"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.2,
+        "bottom_quartile_avg_to_par": -0.23,
+        "edge_to_par": 0.97,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Alex Noren",
+          "Taylor Moore"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.09,
+        "bottom_quartile_avg_to_par": -0.35,
+        "edge_to_par": 0.74,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Noah Goodwin",
+          "Tom Kim"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.09,
+        "bottom_quartile_avg_to_par": -0.39,
+        "edge_to_par": 0.7,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "Thomas Rosenmueller",
+          "Victor Perez"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.37,
+        "bottom_quartile_avg_to_par": -0.72,
+        "edge_to_par": 0.65,
+        "edge_label": "rewards",
+        "top_names": [
+          "Takumi Kanaya",
+          "Wyndham Clark",
+          "Chris Kirk"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 245,
+        "top_quartile_avg_to_par": -1.09,
+        "bottom_quartile_avg_to_par": -0.89,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "William Mouw",
+          "Kurt Kitayama",
+          "Wyndham Clark"
+        ]
+      }
+    ]
   }
 }

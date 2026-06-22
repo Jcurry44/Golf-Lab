@@ -143,5 +143,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 220,
+    "summary": "This course has most rewarded green finders: top-quartile GIR profiles beat the bottom quartile by 1.00 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -1.4,
+        "bottom_quartile_avg_to_par": -0.41,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Cameron Champ",
+          "Victor Perez",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -1.12,
+        "bottom_quartile_avg_to_par": -0.25,
+        "edge_to_par": 0.87,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Matt Fitzpatrick",
+          "Sam Burns"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -0.96,
+        "bottom_quartile_avg_to_par": -0.12,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Bud Cauley",
+          "Matteo Manassero",
+          "Victor Perez"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -1.4,
+        "bottom_quartile_avg_to_par": -0.41,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Cameron Champ",
+          "Victor Perez",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -1.12,
+        "bottom_quartile_avg_to_par": -0.25,
+        "edge_to_par": 0.87,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Matt Fitzpatrick",
+          "Sam Burns"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -0.96,
+        "bottom_quartile_avg_to_par": -0.12,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Bud Cauley",
+          "Matteo Manassero",
+          "Victor Perez"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -0.99,
+        "bottom_quartile_avg_to_par": -0.27,
+        "edge_to_par": 0.72,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matt McCarty",
+          "Viktor Hovland",
+          "Noah Goodwin"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -1.15,
+        "bottom_quartile_avg_to_par": -0.56,
+        "edge_to_par": 0.58,
+        "edge_label": "rewards",
+        "top_names": [
+          "Cameron Young",
+          "Ryan Fox",
+          "Byeong Hun An"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -0.78,
+        "bottom_quartile_avg_to_par": -0.57,
+        "edge_to_par": 0.21,
+        "edge_label": "rewards",
+        "top_names": [
+          "Bud Cauley",
+          "Matt Fitzpatrick",
+          "Matteo Manassero"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 179,
+        "top_quartile_avg_to_par": -0.6,
+        "bottom_quartile_avg_to_par": -0.6,
+        "edge_to_par": -0.01,
+        "edge_label": "neutral",
+        "top_names": [
+          "Bud Cauley",
+          "Byeong Hun An",
+          "Matt Fitzpatrick"
+        ]
+      }
+    ]
   }
 }

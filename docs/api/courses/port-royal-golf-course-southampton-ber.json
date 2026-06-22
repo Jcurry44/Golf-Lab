@@ -193,5 +193,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 386,
+    "summary": "This course has most rewarded scramblers: top-quartile scrambling profiles beat the bottom quartile by 0.36 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.14,
+        "bottom_quartile_avg_to_par": -0.78,
+        "edge_to_par": 0.36,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Andrew Novak",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.09,
+        "bottom_quartile_avg_to_par": -0.76,
+        "edge_to_par": 0.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Andrew Novak",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.12,
+        "bottom_quartile_avg_to_par": -0.96,
+        "edge_to_par": 0.15,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Adam Scott",
+          "Andrew Novak"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.14,
+        "bottom_quartile_avg_to_par": -0.78,
+        "edge_to_par": 0.36,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Andrew Novak",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.09,
+        "bottom_quartile_avg_to_par": -0.76,
+        "edge_to_par": 0.33,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Andrew Novak",
+          "Satoshi Kodaira"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.12,
+        "bottom_quartile_avg_to_par": -0.96,
+        "edge_to_par": 0.15,
+        "edge_label": "rewards",
+        "top_names": [
+          "Alex Noren",
+          "Adam Scott",
+          "Andrew Novak"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.02,
+        "bottom_quartile_avg_to_par": -0.94,
+        "edge_to_par": 0.09,
+        "edge_label": "neutral",
+        "top_names": [
+          "Satoshi Kodaira",
+          "Doc Redman",
+          "Ryan Moore"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.23,
+        "bottom_quartile_avg_to_par": -1.21,
+        "edge_to_par": 0.02,
+        "edge_label": "neutral",
+        "top_names": [
+          "Alex Noren",
+          "Adam Scott",
+          "Lucas Herbert"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -0.96,
+        "bottom_quartile_avg_to_par": -1.19,
+        "edge_to_par": -0.24,
+        "edge_label": "resists",
+        "top_names": [
+          "Satoshi Kodaira",
+          "Ryan Moore",
+          "Adam Long"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 204,
+        "top_quartile_avg_to_par": -1.08,
+        "bottom_quartile_avg_to_par": -1.39,
+        "edge_to_par": -0.32,
+        "edge_label": "resists",
+        "top_names": [
+          "Adam Scott",
+          "Taylor Pendrith",
+          "Adrien Dumont de Chassart"
+        ]
+      }
+    ]
   }
 }

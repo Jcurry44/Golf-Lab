@@ -11,7 +11,7 @@ let activeProfile = null;
 let activeView = "overview";
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-stat-leaderboards";
+const BUILD_VERSION = "20260622-command-center";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;
@@ -80,6 +80,12 @@ function moneyOdds(value) {
   const numeric = Number(value);
   if (!Number.isFinite(numeric)) return "--";
   return numeric > 0 ? `+${Math.round(numeric)}` : `${Math.round(numeric)}`;
+}
+
+function cleanModelText(value) {
+  return String(value || "")
+    .replace(/Win probability/g, "Outright win model")
+    .replace(/win probability/g, "outright win model");
 }
 
 function fold(value) {
@@ -373,7 +379,7 @@ function renderHero(detail, row, profile) {
   $("#pcHeroLabel").textContent = rank ? "Model rank" : "Profile SG";
   $("#pcHeroValue").textContent = rank ? `#${fmt(rank)}` : signed(profile.avg_sg_total);
   $("#pcHeroSub").textContent = probability
-    ? `${pct(probability * 100, 1)} win probability | ${fmt(detail.player?.rounds)} imported scorecards`
+    ? `${pct(probability * 100, 1)} outright win model | ${fmt(detail.player?.rounds)} imported scorecards`
     : `${fmt(detail.player?.rounds)} imported scorecards`;
   $("#pcChips").innerHTML = [
     player.country || row?.country || "PGA",
@@ -408,7 +414,7 @@ function verdictText(detail, row, profile) {
 function renderExplain(detail, row, profile) {
   const model = detail.model || row || {};
   const bullets = [];
-  if (model.plain_english) bullets.push(["Model read", model.plain_english]);
+  if (model.plain_english) bullets.push(["Model read", cleanModelText(model.plain_english)]);
   if (profile.sg_t2g !== null) bullets.push(["Tee-to-green", `${signed(profile.sg_t2g)} SG T2G anchors the ball-striking profile.`]);
   if (profile.sg_app !== null) bullets.push(["Approach", `${signed(profile.sg_app)} approach SG is the cleanest proxy for iron control.`]);
   if (profile.driving_distance !== null && profile.accuracy !== null) {
@@ -441,7 +447,7 @@ function renderProjection(detail, row) {
   $("#projectionBadge").textContent = model.confidence || row?.confidence || "Coverage watch";
   $("#projectionGrid").innerHTML = [
     insight("Model rank", model.rank ? `#${fmt(model.rank)}` : "--", "winner market", "", "rank"),
-    insight("Win probability", probability !== null ? pct(probability * 100, 1) : "--", "model implied", "", "probability"),
+    insight("Outright win model", probability !== null ? pct(probability * 100, 1) : "--", "winner market only", "", "probability"),
     insight("Projected to par", signed(firstNumber(model.projected_to_par, row?.projected_to_par)), "event finish", "", "projected"),
     insight("Fair odds", moneyOdds(model.fair_odds_american), "model price", "", "odds"),
     insight("Market edge", edge !== null ? `${signed(edge * 100, 1)} pts` : "--", "model minus market", edge > 0 ? "is-good" : "", "edge"),
@@ -696,7 +702,7 @@ function projectionDrill(key) {
   const projected = firstNumber(model.projected_to_par);
   const map = {
     rank: ["Model rank", model.rank ? `#${fmt(model.rank)}` : "--", "Outright winner-market rank for the selected event."],
-    probability: ["Win probability", probability !== null ? pct(probability * 100, 1) : "--", "Outright win chance from the saved winner-market model row."],
+    probability: ["Outright win model", probability !== null ? pct(probability * 100, 1) : "--", "Outright winner-market estimate from the saved model row."],
     projected: ["Projected to par", signed(projected), "Projected tournament finish score when available."],
     odds: ["Fair odds", moneyOdds(model.fair_odds_american), "American odds implied by the model probability."],
     edge: ["Market edge", edge !== null ? `${signed(edge * 100, 1)} pts` : "--", "Model probability minus the available market price."],
@@ -709,13 +715,13 @@ function projectionDrill(key) {
     value,
     note,
     body: [
-      model.plain_english,
-      "This player-card headline uses only the winner market. Cut, top-10, and top-20 probabilities stay out of the win slot unless they are explicitly labeled.",
+      cleanModelText(model.plain_english),
+      "This player-card headline uses only the outright winner market. Cut, top-10, and top-20 probabilities stay out of this slot unless they are explicitly labeled.",
     ],
     evidence: [
       { label: "Market", value: model.market || "winner", note: "selected model row" },
       { label: "Rank", value: model.rank ? `#${fmt(model.rank)}` : "--", note: "event board" },
-      { label: "Probability", value: probability !== null ? pct(probability * 100, 1) : "--", note: "winner market" },
+      { label: "Outright model", value: probability !== null ? pct(probability * 100, 1) : "--", note: "winner market" },
       { label: "Fair odds", value: moneyOdds(model.fair_odds_american), note: "model price" },
       { label: "Edge", value: edge !== null ? `${signed(edge * 100, 1)} pts` : "--", note: "vs market" },
       { label: "Confidence", value: model.confidence || "Watch", note: "coverage label" },

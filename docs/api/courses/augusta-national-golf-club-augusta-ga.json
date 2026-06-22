@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 388,
+    "summary": "This course has most rewarded scramblers: top-quartile scrambling profiles beat the bottom quartile by 1.80 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 0.65,
+        "bottom_quartile_avg_to_par": 2.46,
+        "edge_to_par": 1.8,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Max Homa",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 0.65,
+        "bottom_quartile_avg_to_par": 2.26,
+        "edge_to_par": 1.61,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Collin Morikawa",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.22,
+        "bottom_quartile_avg_to_par": 2.6,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Rory McIlroy",
+          "Maverick McNealy"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 0.65,
+        "bottom_quartile_avg_to_par": 2.46,
+        "edge_to_par": 1.8,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Max Homa",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 0.65,
+        "bottom_quartile_avg_to_par": 2.26,
+        "edge_to_par": 1.61,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Collin Morikawa",
+          "Xander Schauffele"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.22,
+        "bottom_quartile_avg_to_par": 2.6,
+        "edge_to_par": 1.38,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Rory McIlroy",
+          "Maverick McNealy"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.09,
+        "bottom_quartile_avg_to_par": 2.41,
+        "edge_to_par": 1.32,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Collin Morikawa",
+          "Ludvig Åberg"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.35,
+        "bottom_quartile_avg_to_par": 2.09,
+        "edge_to_par": 0.74,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ludvig Åberg",
+          "Xander Schauffele",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.28,
+        "bottom_quartile_avg_to_par": 1.94,
+        "edge_to_par": 0.66,
+        "edge_label": "rewards",
+        "top_names": [
+          "Max Homa",
+          "Xander Schauffele",
+          "Rory McIlroy"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 126,
+        "top_quartile_avg_to_par": 1.74,
+        "bottom_quartile_avg_to_par": 1.94,
+        "edge_to_par": 0.21,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Collin Morikawa",
+          "Matt McCarty"
+        ]
+      }
+    ]
   }
 }

@@ -7,7 +7,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from app_common import DEFAULT_DB, WEB_ROOT, connect, int_param, json_bytes, str_param
+from app_common import DEFAULT_DB, ROOT, WEB_ROOT, connect, int_param, json_bytes, str_param
 from golf_lab_analytics import (
     course_card,
     course_cards,
@@ -19,6 +19,7 @@ from golf_lab_analytics import (
     player_filter_profiles,
     warehouse_health,
 )
+from golf_lab_backtest import historical_prediction_audit, prediction_review
 
 
 class GolfLabHandler(BaseHTTPRequestHandler):
@@ -86,6 +87,22 @@ class GolfLabHandler(BaseHTTPRequestHandler):
                     return
                 if parsed.path == "/api/model-board":
                     self.send_json(model_board(conn, str_param(params, "event_id"), int_param(params, "limit", 100, 1, 500)))
+                    return
+                if parsed.path == "/api/prediction-review":
+                    self.send_json(prediction_review(conn, str_param(params, "event_id"), str_param(params, "variant", "balanced")))
+                    return
+                if parsed.path == "/api/historical-audit":
+                    cached = ROOT / "docs" / "api" / "historical-audit.json"
+                    if cached.exists() and str_param(params, "refresh") != "1":
+                        self.send_json(json.loads(cached.read_text(encoding="utf-8")))
+                    else:
+                        self.send_json(historical_prediction_audit(
+                            conn,
+                            since=str_param(params, "since") or None,
+                            until=str_param(params, "until") or None,
+                            limit=int_param(params, "limit", 20, 1, 40),
+                            focus=str_param(params, "focus", "similar") or "similar",
+                        ))
                     return
                 if parsed.path == "/api/warehouse-health":
                     self.send_json(warehouse_health(conn))

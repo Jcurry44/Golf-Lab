@@ -163,5 +163,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 322,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 0.81 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.35,
+        "bottom_quartile_avg_to_par": -0.54,
+        "edge_to_par": 0.81,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Joel Dahmen",
+          "Akshay Bhatia"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.34,
+        "bottom_quartile_avg_to_par": -0.58,
+        "edge_to_par": 0.76,
+        "edge_label": "rewards",
+        "top_names": [
+          "Isaiah Salinda",
+          "Jon Rahm",
+          "Joel Dahmen"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.23,
+        "bottom_quartile_avg_to_par": -0.72,
+        "edge_to_par": 0.51,
+        "edge_label": "rewards",
+        "top_names": [
+          "Aldrich Potgieter",
+          "Isaiah Salinda",
+          "Jon Rahm"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.35,
+        "bottom_quartile_avg_to_par": -0.54,
+        "edge_to_par": 0.81,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Joel Dahmen",
+          "Akshay Bhatia"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.34,
+        "bottom_quartile_avg_to_par": -0.58,
+        "edge_to_par": 0.76,
+        "edge_label": "rewards",
+        "top_names": [
+          "Isaiah Salinda",
+          "Jon Rahm",
+          "Joel Dahmen"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.23,
+        "bottom_quartile_avg_to_par": -0.72,
+        "edge_to_par": 0.51,
+        "edge_label": "rewards",
+        "top_names": [
+          "Aldrich Potgieter",
+          "Isaiah Salinda",
+          "Jon Rahm"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.05,
+        "bottom_quartile_avg_to_par": -0.55,
+        "edge_to_par": 0.5,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Ben Griffin",
+          "Stephan Jaeger"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -1.06,
+        "bottom_quartile_avg_to_par": -0.81,
+        "edge_to_par": 0.26,
+        "edge_label": "rewards",
+        "top_names": [
+          "Jon Rahm",
+          "Ben Griffin",
+          "Akshay Bhatia"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -0.69,
+        "bottom_quartile_avg_to_par": -0.61,
+        "edge_to_par": 0.08,
+        "edge_label": "neutral",
+        "top_names": [
+          "Brian Campbell",
+          "Joel Dahmen",
+          "Aaron Rai"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 212,
+        "top_quartile_avg_to_par": -0.74,
+        "bottom_quartile_avg_to_par": -0.77,
+        "edge_to_par": -0.03,
+        "edge_label": "neutral",
+        "top_names": [
+          "Ben Griffin",
+          "Stephan Jaeger",
+          "Doug Ghim"
+        ]
+      }
+    ]
   }
 }

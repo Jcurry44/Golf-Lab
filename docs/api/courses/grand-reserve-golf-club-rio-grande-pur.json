@@ -223,5 +223,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 784,
+    "summary": "This course has most rewarded big hitters: top-quartile yards profiles beat the bottom quartile by 0.50 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -2.05,
+        "bottom_quartile_avg_to_par": -1.55,
+        "edge_to_par": 0.5,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "Steven Fisk",
+          "William Mouw"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.83,
+        "bottom_quartile_avg_to_par": -1.36,
+        "edge_to_par": 0.47,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "William Mouw",
+          "Davis Thompson"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.74,
+        "bottom_quartile_avg_to_par": -1.46,
+        "edge_to_par": 0.28,
+        "edge_label": "rewards",
+        "top_names": [
+          "Steven Fisk",
+          "Adrien Dumont de Chassart",
+          "Ricky Castillo"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -2.05,
+        "bottom_quartile_avg_to_par": -1.55,
+        "edge_to_par": 0.5,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "Steven Fisk",
+          "William Mouw"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.83,
+        "bottom_quartile_avg_to_par": -1.36,
+        "edge_to_par": 0.47,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "William Mouw",
+          "Davis Thompson"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.74,
+        "bottom_quartile_avg_to_par": -1.46,
+        "edge_to_par": 0.28,
+        "edge_label": "rewards",
+        "top_names": [
+          "Steven Fisk",
+          "Adrien Dumont de Chassart",
+          "Ricky Castillo"
+        ]
+      },
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.67,
+        "bottom_quartile_avg_to_par": -1.43,
+        "edge_to_par": 0.24,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "Davis Thompson",
+          "Ryo Hisatsune"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.81,
+        "bottom_quartile_avg_to_par": -1.58,
+        "edge_to_par": 0.23,
+        "edge_label": "rewards",
+        "top_names": [
+          "Joseph Bramlett",
+          "Paul Peterson",
+          "Adrien Dumont de Chassart"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.76,
+        "bottom_quartile_avg_to_par": -1.6,
+        "edge_to_par": 0.16,
+        "edge_label": "rewards",
+        "top_names": [
+          "Matti Schmid",
+          "Quade Cummins",
+          "Nico Echavarria"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 206,
+        "top_quartile_avg_to_par": -1.56,
+        "bottom_quartile_avg_to_par": -1.69,
+        "edge_to_par": -0.13,
+        "edge_label": "neutral",
+        "top_names": [
+          "Chandler Blanchet",
+          "Paul Peterson",
+          "Rico Hoey"
+        ]
+      }
+    ]
   }
 }

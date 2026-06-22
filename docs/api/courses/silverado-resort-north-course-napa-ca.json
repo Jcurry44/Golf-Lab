@@ -213,5 +213,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 436,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.27 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.93,
+        "bottom_quartile_avg_to_par": 0.33,
+        "edge_to_par": 1.27,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Emiliano Grillo",
+          "Will Zalatoris"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -1.24,
+        "bottom_quartile_avg_to_par": -0.13,
+        "edge_to_par": 1.11,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Ben Griffin",
+          "Mackenzie Hughes"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.78,
+        "bottom_quartile_avg_to_par": 0.25,
+        "edge_to_par": 1.03,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Ben Griffin",
+          "Mackenzie Hughes"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.93,
+        "bottom_quartile_avg_to_par": 0.33,
+        "edge_to_par": 1.27,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Emiliano Grillo",
+          "Will Zalatoris"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -1.24,
+        "bottom_quartile_avg_to_par": -0.13,
+        "edge_to_par": 1.11,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Ben Griffin",
+          "Mackenzie Hughes"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.78,
+        "bottom_quartile_avg_to_par": 0.25,
+        "edge_to_par": 1.03,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Ben Griffin",
+          "Mackenzie Hughes"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.71,
+        "bottom_quartile_avg_to_par": 0.13,
+        "edge_to_par": 0.84,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Corey Conners",
+          "J.J. Spaun"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.69,
+        "bottom_quartile_avg_to_par": 0.05,
+        "edge_to_par": 0.74,
+        "edge_label": "rewards",
+        "top_names": [
+          "Scottie Scheffler",
+          "Emiliano Grillo",
+          "Corey Conners"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.6,
+        "bottom_quartile_avg_to_par": -0.39,
+        "edge_to_par": 0.2,
+        "edge_label": "rewards",
+        "top_names": [
+          "Ben Griffin",
+          "Mackenzie Hughes",
+          "S.H. Kim"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 232,
+        "top_quartile_avg_to_par": -0.6,
+        "bottom_quartile_avg_to_par": -0.55,
+        "edge_to_par": 0.05,
+        "edge_label": "neutral",
+        "top_names": [
+          "Scottie Scheffler",
+          "Cameron Young",
+          "Sam Burns"
+        ]
+      }
+    ]
   }
 }

@@ -163,5 +163,173 @@
         "green_speed": ""
       }
     ]
+  },
+  "archetype": {
+    "sample_players": 295,
+    "summary": "This course has most rewarded iron players: top-quartile approach profiles beat the bottom quartile by 1.37 strokes per round in the loaded sample.",
+    "primary_traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.8,
+        "bottom_quartile_avg_to_par": 0.57,
+        "edge_to_par": 1.37,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Scottie Scheffler",
+          "Tom Kim"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.74,
+        "bottom_quartile_avg_to_par": 0.42,
+        "edge_to_par": 1.16,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Ludvig Åberg",
+          "Wyndham Clark"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.83,
+        "bottom_quartile_avg_to_par": 0.23,
+        "edge_to_par": 1.06,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Scottie Scheffler",
+          "Sungjae Im"
+        ]
+      }
+    ],
+    "traits": [
+      {
+        "key": "sg_app",
+        "label": "Approach",
+        "lane": "approach",
+        "player_label": "iron players",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.8,
+        "bottom_quartile_avg_to_par": 0.57,
+        "edge_to_par": 1.37,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Scottie Scheffler",
+          "Tom Kim"
+        ]
+      },
+      {
+        "key": "sg_putt",
+        "label": "Putting",
+        "lane": "putting",
+        "player_label": "putters",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.74,
+        "bottom_quartile_avg_to_par": 0.42,
+        "edge_to_par": 1.16,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Ludvig Åberg",
+          "Wyndham Clark"
+        ]
+      },
+      {
+        "key": "scrambling",
+        "label": "Scrambling",
+        "lane": "scrambling",
+        "player_label": "scramblers",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.83,
+        "bottom_quartile_avg_to_par": 0.23,
+        "edge_to_par": 1.06,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Scottie Scheffler",
+          "Sungjae Im"
+        ]
+      },
+      {
+        "key": "sg_arg",
+        "label": "Around green",
+        "lane": "around the green",
+        "player_label": "short-game players",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.84,
+        "bottom_quartile_avg_to_par": 0.16,
+        "edge_to_par": 1.0,
+        "edge_label": "rewards",
+        "top_names": [
+          "Sahith Theegala",
+          "Rory McIlroy",
+          "Scottie Scheffler"
+        ]
+      },
+      {
+        "key": "driving_distance",
+        "label": "Distance",
+        "lane": "yards",
+        "player_label": "big hitters",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.69,
+        "bottom_quartile_avg_to_par": 0.29,
+        "edge_to_par": 0.98,
+        "edge_label": "rewards",
+        "top_names": [
+          "Rory McIlroy",
+          "Marco Penge",
+          "Adam Scott"
+        ]
+      },
+      {
+        "key": "accuracy",
+        "label": "Accuracy",
+        "lane": "fairways",
+        "player_label": "accurate drivers",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": -0.27,
+        "bottom_quartile_avg_to_par": -0.14,
+        "edge_to_par": 0.12,
+        "edge_label": "neutral",
+        "top_names": [
+          "David Lingmerth",
+          "Scottie Scheffler",
+          "Sungjae Im"
+        ]
+      },
+      {
+        "key": "gir",
+        "label": "GIR",
+        "lane": "GIR",
+        "player_label": "green finders",
+        "sample_players": 153,
+        "top_quartile_avg_to_par": 0.08,
+        "bottom_quartile_avg_to_par": 0.15,
+        "edge_to_par": 0.07,
+        "edge_label": "neutral",
+        "top_names": [
+          "Ludvig Åberg",
+          "Scottie Scheffler",
+          "Xander Schauffele"
+        ]
+      }
+    ]
   }
 }
