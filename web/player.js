@@ -11,7 +11,7 @@ let activeProfile = null;
 let activeView = "overview";
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-drilldowns";
+const BUILD_VERSION = "20260621-stat-leaderboards";
 
 function versionedPath(path) {
   return `${path}${path.includes("?") ? "&" : "?"}v=${BUILD_VERSION}`;

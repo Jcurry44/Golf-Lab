@@ -19,7 +19,7 @@ let comparePlayerIds = [];
 let playerFilters = defaultPlayerFilters();
 
 const staticMode = location.protocol === "file:" || location.hostname.endsWith("github.io");
-const BUILD_VERSION = "20260621-drilldowns";
+const BUILD_VERSION = "20260621-stat-leaderboards";
 const RECENT_PROFILE_CUTOFF = "2023-01-01";
 
 function versionedPath(path) {
@@ -403,6 +403,7 @@ function sortDecoratedPlayers(rows) {
     if (playerFilters.sort === "ranking") return compareLabRank(a, b);
     if (playerFilters.sort === "distance") return compareDesc(a, b, "driving_distance") || a.row.player_name.localeCompare(b.row.player_name);
     if (playerFilters.sort === "gir") return compareDesc(a, b, "gir") || a.row.player_name.localeCompare(b.row.player_name);
+    if (playerFilters.sort === "putting") return compareDesc(a, b, "sg_putt") || a.row.player_name.localeCompare(b.row.player_name);
     if (playerFilters.sort === "tough") return compareAsc(a, b, "tough_avg_to_par") || compareDesc(a, b, "tough_rounds");
     if (playerFilters.sort === "majors") return compareAsc(a, b, "major_avg_to_par") || compareDesc(a, b, "major_rounds");
     if (playerFilters.sort === "scoring") return compareAsc(a, b, "scoring_average") || compareAsc(a, b, "avg_to_par");
@@ -616,7 +617,7 @@ function metricRows(rows, key, direction = "desc", options = {}) {
     .sort((a, b) => direction === "asc"
       ? compareAsc(a, b, key) || a.row.player_name.localeCompare(b.row.player_name)
       : compareDesc(a, b, key) || a.row.player_name.localeCompare(b.row.player_name))
-    .slice(0, options.limit || 5);
+    .slice(0, options.limit || 10);
 }
 
 function rankingCategoryConfig(key) {
@@ -685,6 +686,22 @@ function rankingCategoryConfig(key) {
         (row, profile) => fmt(profile.rounds),
       ],
     },
+    putting: {
+      label: "Putting",
+      eyebrow: "Short game",
+      title: "SG putting leaders",
+      description: "Putting rankings using strokes-gained putting, with total SG and scoring context attached.",
+      qualify: ({ profile }) => statValue(profile, "sg_putt") !== null,
+      compare: (a, b) => compareDesc(a, b, "sg_putt") || compareDesc(a, b, "avg_sg_total") || a.row.player_name.localeCompare(b.row.player_name),
+      columns: ["SG Putt", "SG", "Score", "GIR", "Rounds"],
+      cells: [
+        (row, profile) => signed(profile.sg_putt),
+        (row, profile) => signed(profile.avg_sg_total),
+        (row, profile) => profile.scoring_average ? fmt(profile.scoring_average, 2) : "--",
+        (row, profile) => pctDecimal(profile.gir),
+        (row, profile) => fmt(profile.rounds),
+      ],
+    },
     scoring: {
       label: "Scoring",
       eyebrow: "Scoring",
@@ -738,7 +755,7 @@ function rankingCategoryConfig(key) {
 }
 
 function rankingCategoryButtons(activeKey) {
-  return ["index", "sg", "distance", "gir", "scoring", "tough", "majors"].map((key) => {
+  return ["index", "sg", "distance", "gir", "putting", "scoring", "tough", "majors"].map((key) => {
     const config = rankingCategoryConfig(key);
     const active = key === activeKey;
     return `<button type="button" class="${active ? "is-active" : ""}" data-ranking-category="${escapeHtml(key)}" aria-pressed="${active ? "true" : "false"}">${escapeHtml(config.label)}</button>`;
@@ -752,12 +769,15 @@ function rankingLimitButtons(activeLimit) {
   }).join("");
 }
 
-function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter) {
+function leaderboardList(title, subtitle, rows, valueFormatter, noteFormatter, actionKey = "") {
   return `
     <article class="leaderboard-card">
       <div class="leaderboard-title">
-        <span>${escapeHtml(subtitle)}</span>
-        <strong>${escapeHtml(title)}</strong>
+        <div>
+          <span>${escapeHtml(subtitle)}</span>
+          <strong>${escapeHtml(title)}</strong>
+        </div>
+        ${actionKey ? `<button type="button" data-ranking-shortcut="${escapeHtml(actionKey)}">Full board</button>` : ""}
       </div>
       <div class="leaderboard-list">
         ${rows.map(({ row, profile }, index) => `
@@ -891,35 +911,48 @@ function renderLeaderboards() {
       "Performance",
       metricRows(rows, "avg_sg_total", "desc", { minRounds: 20 }),
       (row, profile) => signed(profile.avg_sg_total),
-      (row, profile) => `${fmt(profile.rounds)} rounds | T2G ${signed(profile.sg_t2g)}`
+      (row, profile) => `${fmt(profile.rounds)} rounds | T2G ${signed(profile.sg_t2g)}`,
+      "sg"
     ),
     leaderboardList(
       "Driving distance",
       "Power",
       metricRows(rows, "driving_distance", "desc"),
       (row, profile) => `${fmt(profile.driving_distance, 1)} yd`,
-      (row, profile) => `Fairways ${pctDecimal(profile.accuracy)}`
+      (row, profile) => `Fairways ${pctDecimal(profile.accuracy)}`,
+      "distance"
     ),
     leaderboardList(
       "GIR",
       "Iron control",
       metricRows(rows, "gir", "desc"),
       (row, profile) => pctDecimal(profile.gir),
-      (row, profile) => `Approach ${signed(profile.sg_app)} | ${fmt(profile.rounds)} rounds`
+      (row, profile) => `Approach ${signed(profile.sg_app)} | ${fmt(profile.rounds)} rounds`,
+      "gir"
+    ),
+    leaderboardList(
+      "SG putting",
+      "Short game",
+      metricRows(rows, "sg_putt", "desc"),
+      (row, profile) => signed(profile.sg_putt),
+      (row, profile) => `${fmt(profile.rounds)} rounds | SG ${signed(profile.avg_sg_total)}`,
+      "putting"
     ),
     leaderboardList(
       "Tough courses",
       "Course DNA",
       metricRows(rows, "tough_avg_to_par", "asc", { minSampleKey: "tough_rounds", minSample: 8 }),
       (row, profile) => signed(profile.tough_avg_to_par),
-      (row, profile) => `${fmt(profile.tough_rounds)} tough rounds | SG ${signed(profile.tough_avg_sg)}`
+      (row, profile) => `${fmt(profile.tough_rounds)} tough rounds | SG ${signed(profile.tough_avg_sg)}`,
+      "tough"
     ),
     leaderboardList(
       "Majors",
       "Championship profile",
       metricRows(rows, "major_avg_to_par", "asc", { minSampleKey: "major_rounds", minSample: 8 }),
       (row, profile) => signed(profile.major_avg_to_par),
-      (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`
+      (row, profile) => `${fmt(profile.major_rounds)} major rounds | SG ${signed(profile.major_avg_sg)}`,
+      "majors"
     ),
   ].join("");
   target.innerHTML = `${rankingBoard(visibleRankingRows, rankingRows.length, activeConfig)}<div class="leaderboard-grid compact">${compactBoards}</div>`;
@@ -1241,6 +1274,14 @@ function bindEvents() {
     if (rankingLimitButton) {
       rankingVisibleLimit = Number(rankingLimitButton.dataset.rankingLimit) || 10;
       renderPlayers();
+      return;
+    }
+    const rankingShortcut = event.target.closest("[data-ranking-shortcut]");
+    if (rankingShortcut) {
+      rankingCategory = rankingShortcut.dataset.rankingShortcut || "index";
+      rankingVisibleLimit = 50;
+      renderPlayers();
+      document.querySelector(".tour-ranking-board")?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     const compare = event.target.closest("[data-compare-player]");

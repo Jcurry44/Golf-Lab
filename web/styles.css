@@ -602,7 +602,7 @@ h3 {
 }
 
 .leaderboard-grid.compact {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 10px;
 }
 
@@ -893,10 +893,18 @@ h3 {
 }
 
 .leaderboard-title {
-  display: grid;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   gap: 3px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--line);
+}
+
+.leaderboard-title > div {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
 }
 
 .leaderboard-title span {
@@ -909,6 +917,23 @@ h3 {
 .leaderboard-title strong {
   color: var(--ink-strong);
   font-size: 17px;
+}
+
+.leaderboard-title button {
+  min-height: 28px;
+  flex: 0 0 auto;
+  padding: 0 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.leaderboard-title button:hover {
+  border-color: rgba(81, 214, 166, 0.52);
+  background: rgba(81, 214, 166, 0.1);
 }
 
 .leaderboard-list {
